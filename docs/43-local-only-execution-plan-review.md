@@ -127,3 +127,11 @@ The local-only execution plan becomes input to the no-egress, timeout, and kill-
 The safety policy still does not grant execution authority.
 
 See `docs/44-no-egress-timeout-kill-switch-policy.md`.
+
+## Relationship to Runtime Enforcement Design
+
+The local-only execution plan is upstream of runtime safety policy and runtime enforcement design.
+
+The enforcement design records future components but still does not permit process launch, network activity, scans, credential injection, or raw artifact capture.
+
+See `docs/45-runtime-enforcement-design-scaffold.md`.

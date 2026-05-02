@@ -11,6 +11,12 @@
 
 ## Phase 1: Technical Prototype
 
+### Runtime Enforcement Design Scaffold
+
+- Added v0.2.6 runtime enforcement design scaffold after the no-egress, timeout, and kill-switch policy scaffold.
+- Recorded future enforcement components and sequence while keeping runtime enforcement unimplemented and execution disabled.
+
+
 ### Runtime Safety Policy Scaffold
 
 - Added v0.2.5 no-egress, timeout, and kill-switch policy scaffold after local-only execution plan review.

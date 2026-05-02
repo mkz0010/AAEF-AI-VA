@@ -138,3 +138,11 @@ Future v0.2.x work should add:
 - raw artifact capture boundary,
 - sanitizer policy binding to runtime output,
 - human approval for execution transition.
+
+## Relationship to Runtime Enforcement Design
+
+The no-egress, timeout, and kill-switch policy scaffold becomes input to the runtime enforcement design scaffold.
+
+The enforcement design still does not implement or authorize runtime execution.
+
+See `docs/45-runtime-enforcement-design-scaffold.md`.

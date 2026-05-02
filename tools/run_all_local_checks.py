@@ -38,6 +38,7 @@ def main() -> int:
     run([sys.executable, "tools/test_bounded_execution_transition_candidate.py"])
     run([sys.executable, "tools/test_local_execution_plan_review.py"])
     run([sys.executable, "tools/test_runtime_safety_policy.py"])
+    run([sys.executable, "tools/test_runtime_enforcement_design.py"])
     print("All local checks passed.")
     return 0
 

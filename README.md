@@ -80,3 +80,11 @@ v0.2.5 introduces a no-egress, timeout, and kill-switch policy scaffold.
 It defines future safety requirements while keeping ZAP process launch, network activity, scans, credential injection, raw artifact capture, customer targets, and external targets disabled.
 
 See `docs/44-no-egress-timeout-kill-switch-policy.md`.
+
+## Runtime Enforcement Design Scaffold
+
+v0.2.6 introduces a runtime enforcement design scaffold.
+
+It records future components such as preflight check, process wrapper, no-egress guard, timeout watcher, kill-switch controller, evidence emitter, and sanitizer boundary while keeping all runtime enforcement unimplemented and execution disabled.
+
+See `docs/45-runtime-enforcement-design-scaffold.md`.
