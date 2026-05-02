@@ -167,3 +167,10 @@
 - Added a public repository launch checkpoint after making the repository public.
 - Recorded public visibility, origin publication, Actions validation, metadata, topics, private vulnerability reporting, and feature settings.
 - Added a local validation test confirming the launch checkpoint preserves runtime-execution and scanning boundaries.
+
+## v0.4.5 - Public release notes and launch announcement package
+
+- Added a public release notes and launch announcement package.
+- Added GitHub Release notes, short description, longer public announcement, LinkedIn-style announcement, and technical article lead drafts.
+- Added commercial inquiry wording and public claim boundaries while preserving runtime-execution and scanning prohibitions.
+- Added a local validation test for launch communication materials.

@@ -412,3 +412,14 @@ Purpose:
 - Confirm public repository metadata and security reporting posture are documented.
 - Keep public launch separate from runtime readiness.
 - Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.
+
+## v0.4.5 Public release notes and launch announcement package
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Prepare public launch communication after the repository launch checkpoint.
+- Provide reusable release notes and announcement drafts.
+- Keep launch messaging aligned with safety, evidence, authorization, human review, and runtime-execution boundaries.
+- Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.

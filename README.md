@@ -286,3 +286,20 @@ Recorded public launch state:
 - Runtime execution: still disabled
 
 See `docs/63-public-repository-launch-checkpoint.md`.
+
+## Public Release Notes and Launch Announcement Package
+
+AAEF-AI-VA includes a public release notes and launch announcement package for post-launch communication.
+
+The package provides:
+
+- GitHub Release notes draft
+- short repository introduction
+- longer public announcement draft
+- LinkedIn-style announcement draft
+- Zenn/Qiita-style technical article lead
+- commercial inquiry wording
+- claim boundaries for public messaging
+- runtime and scanning prohibitions
+
+See `docs/64-public-release-notes-and-launch-announcement-package.md`.
