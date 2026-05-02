@@ -122,3 +122,11 @@ The execution authorization scaffold becomes input to the preflight validation s
 Preflight validation still does not satisfy execution authorization or authorize execution.
 
 See `docs/47-preflight-validation-scaffold.md`.
+
+## Relationship to Runtime Transition Checkpoint
+
+The execution authorization scaffold remains unsatisfied at the runtime transition checkpoint.
+
+The checkpoint confirms that execution authorization is still false.
+
+See `docs/48-runtime-transition-checkpoint.md`.

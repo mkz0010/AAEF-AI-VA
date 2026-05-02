@@ -104,3 +104,11 @@ v0.2.8 introduces a preflight validation scaffold.
 It defines the future execution-before-checklist across runtime readiness, target binding, authorization, approvals, no-egress, timeout, kill-switch, evidence, and sanitizer boundaries while keeping preflight unsatisfied and execution disabled.
 
 See `docs/47-preflight-validation-scaffold.md`.
+
+## Runtime Transition Checkpoint
+
+v0.2.9 introduces a runtime transition checkpoint.
+
+It summarizes v0.2.0 through v0.2.8 and confirms that the project is ready for concrete preflight implementation work, while runtime execution, process launch, network activity, scans, credential injection, raw artifact capture, customer targets, and external targets remain disabled.
+
+See `docs/48-runtime-transition-checkpoint.md`.

@@ -11,6 +11,12 @@
 
 ## Phase 1: Technical Prototype
 
+### Runtime Transition Checkpoint
+
+- Added v0.2.9 runtime transition checkpoint after the preflight validation scaffold.
+- Confirmed that the project is ready for concrete preflight implementation work while runtime execution remains disabled.
+
+
 ### Preflight Validation Scaffold
 
 - Added v0.2.8 preflight validation scaffold after the execution authorization gate scaffold.

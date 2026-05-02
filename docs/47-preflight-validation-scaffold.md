@@ -113,3 +113,11 @@ Future v0.2.x work should add:
 - human/operator/scope-owner approval binding,
 - sanitizer boundary verification,
 - execution authorization test fixtures.
+
+## Relationship to Runtime Transition Checkpoint
+
+The preflight validation scaffold becomes input to the runtime transition checkpoint.
+
+The checkpoint confirms that the project is ready to design concrete preflight checks, not to execute.
+
+See `docs/48-runtime-transition-checkpoint.md`.

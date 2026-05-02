@@ -41,6 +41,7 @@ def main() -> int:
     run([sys.executable, "tools/test_runtime_enforcement_design.py"])
     run([sys.executable, "tools/test_execution_authorization_gate.py"])
     run([sys.executable, "tools/test_preflight_validation.py"])
+    run([sys.executable, "tools/test_runtime_transition_checkpoint.py"])
     print("All local checks passed.")
     return 0
 

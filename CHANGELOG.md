@@ -4,6 +4,8 @@
 
 ### Added
 
+- Added v0.2.9 runtime transition checkpoint summarizing v0.2.0 through v0.2.8 and confirming readiness for preflight implementation while keeping execution disabled.
+
 - Added v0.2.8 preflight validation scaffold for future execution-before-checklist requirements while keeping preflight unsatisfied and execution disabled.
 
 - Added v0.2.7 execution authorization gate scaffold for future approval and verification requirements while keeping execution disabled.
