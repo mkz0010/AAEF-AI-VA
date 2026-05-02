@@ -16,11 +16,11 @@ def run_mock_tool_gateway(
     decision: dict[str, Any],
     vault_metadata: dict[str, Any] | None = None,
 ) -> tuple[dict[str, Any], dict[str, Any]]:
-    \"\"\"Run the MVP Tool Gateway mock flow.
+    """Run the MVP Tool Gateway mock flow.
 
     This function does not execute real tools. It validates request/decision
     binding and emits mock execution/evidence objects.
-    \"\"\"
+    """
     validate_request_decision_binding(request, decision)
 
     status = decision_to_execution_status(decision)

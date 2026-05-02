@@ -4,6 +4,10 @@
 
 ### Added
 
+### Fixed
+
+- Fixed Tool Gateway mock runner syntax error introduced during mock Vault credential_ref validation.
+
 - Added mock Vault metadata validation for credential_ref target, scope, tool, operation, expiry, and revocation constraints.
 - Added credential_ref mock Vault negative tests.
 
