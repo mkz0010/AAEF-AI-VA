@@ -503,3 +503,15 @@ Purpose:
 - Define required validation expectations for `main` and release tags.
 - Define review expectations for high-risk runtime, scanning, credential, customer-target, licensing, and public-claim changes.
 - Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.
+
+## v0.5.6 Release governance and maintainer operations checklist
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Convert the current release workflow into an explicit maintainer operations checklist.
+- Preserve the scoped-branch, local-checks, fast-forward-merge, tag, push, and GitHub Actions verification sequence.
+- Keep private generated artifacts untracked.
+- Define emergency exception and post-release review expectations.
+- Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.

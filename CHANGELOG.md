@@ -218,3 +218,9 @@
 - Added a GitHub repository ruleset and branch protection planning checkpoint.
 - Documented planned protections for `main`, release tags, required checks, high-risk changes, emergency exceptions, and maintainer responsibilities.
 - Added a local validation test confirming repository protection planning preserves runtime-execution and scanning boundaries.
+
+## v0.5.6 - Release governance and maintainer operations checklist
+
+- Added a release governance and maintainer operations checklist.
+- Documented pre-release, merge, tag, push, GitHub Actions, private artifact, emergency exception, and post-release review steps.
+- Added a local validation test confirming release operations wording preserves runtime-execution and scanning boundaries.

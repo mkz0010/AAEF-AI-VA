@@ -269,3 +269,13 @@ The checkpoint records planned repository protections for `main`, release tags, 
 It is planning only and does not configure GitHub branch protection or rulesets by itself.
 
 See `docs/71-github-repository-ruleset-and-branch-protection-planning-checkpoint.md`.
+
+## Release Governance and Maintainer Operations Checklist
+
+AAEF-AI-VA includes a release governance and maintainer operations checklist.
+
+The checklist records the intended operational steps for scoped branches, local validation, fast-forward merge, tag creation, GitHub Actions verification, private artifact checks, emergency exceptions, and post-release review.
+
+It is an operations checklist only and does not configure GitHub settings by itself.
+
+See `docs/72-release-governance-and-maintainer-operations-checklist.md`.
