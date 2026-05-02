@@ -368,3 +368,14 @@ Purpose:
 - Prepare first-publication dry-run and announcement material.
 - Keep public publication preparation separate from runtime readiness.
 - Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.
+
+## v0.4.1 GitHub Actions CI scaffold
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Add a visible CI signal before or alongside first public repository publication.
+- Run the existing local validation suite in GitHub Actions.
+- Keep CI validation separate from runtime readiness.
+- Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.

@@ -142,3 +142,9 @@
 - Consolidated the v0.3.5 through v0.3.9 public-readiness stack into a single publication-preparation checkpoint.
 - Added a first-publication dry-run checklist and announcement draft for manual review.
 - Added a local validation test confirming v0.4.0 does not create a remote, push code, change repository visibility, or weaken runtime execution boundaries.
+
+## v0.4.1 - GitHub Actions CI scaffold
+
+- Added a minimal GitHub Actions workflow for repository validation.
+- The workflow runs `python tools/run_all_local_checks.py` on `push`, `pull_request`, and manual dispatch.
+- Added a local validation test confirming the CI scaffold preserves runtime-execution and publication-safety boundaries.

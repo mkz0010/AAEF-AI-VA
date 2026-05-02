@@ -242,3 +242,16 @@ This means the repository has accumulated local validation checkpoints for:
 v0.4.0 does not create a remote repository, push code, change GitHub visibility, enable runtime execution, or authorize scanning.
 
 See `docs/59-v040-publication-preparation-release.md`.
+
+## GitHub Actions CI Scaffold
+
+AAEF-AI-VA includes a minimal GitHub Actions validation workflow.
+
+The workflow is intentionally narrow:
+
+- check out the repository
+- set up Python
+- run `python tools/run_all_local_checks.py`
+- avoid runtime execution, scan execution, credential injection, external network testing, or customer-target testing
+
+See `.github/workflows/validate.yml` and `docs/60-github-actions-ci-scaffold.md`.
