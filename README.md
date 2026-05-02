@@ -389,3 +389,13 @@ The checkpoint defines the project’s core execution-separation rule: AI may ge
 It is design and planning only. It does not authorize runtime execution, scanning, credential injection, customer-target operation, production deployment, certification, legal approval, or audit opinion.
 
 See `docs/83-v066-ai-request-decision-boundary-and-tool-selection-criteria.md`.
+
+## v0.6.7 Observation Normalization and Diagnostic Fidelity Risk Review
+
+AAEF-AI-VA includes a v0.6.7 observation normalization and diagnostic fidelity risk review.
+
+The review defines how raw responses, sanitized artifacts, normalized observations, extracted diagnostic signals, and AI diagnostic context packages should be separated so safety controls do not erase diagnostically important information without evidence.
+
+It is design and risk review only. It does not authorize runtime execution, scanning, credential injection, customer-target operation, production deployment, certification, legal approval, or audit opinion.
+
+See `docs/84-v067-observation-normalization-and-diagnostic-fidelity-risk-review.md`.

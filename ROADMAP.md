@@ -636,3 +636,14 @@ Purpose:
 - Preserve the rule that AI generates `tool_action_request`, while gates decide execution.
 - Establish tool-selection criteria before demo, observation, dry-run, or lab work expands.
 - Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.
+
+## v0.6.7 Observation normalization and diagnostic fidelity risk review
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Define how AI receives enough diagnostic signal without receiving unsafe raw responses.
+- Record the risk that sanitizer or normalizer behavior can reduce diagnostic accuracy.
+- Establish loss-aware normalization, signal-preserving extraction, sufficiency scoring, and escalation paths.
+- Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.

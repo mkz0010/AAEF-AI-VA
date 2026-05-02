@@ -292,3 +292,9 @@
 - Documented that AI may generate `tool_action_request` and recommend candidate methods, while execution authority remains with gates.
 - Defined current and future tool-selection criteria for ZAP, Nmap, nuclei, browser, testssl.sh/sslyze, nikto, ffuf/feroxbuster, constrained sqlmap, wapiti/arachni, Burp Suite Pro CLI/API, and Nessus Essentials/OpenVAS.
 - Added a local validation test confirming the AI request boundary preserves runtime-execution and scanning boundaries.
+
+## v0.6.7 - Observation normalization and diagnostic fidelity risk review
+
+- Added a v0.6.7 observation normalization and diagnostic fidelity risk review.
+- Documented Diagnostic Fidelity Risk, loss-aware normalization, signal-preserving extraction, diagnostic context packages, sufficiency criteria, normalization loss records, escalation paths, and AI behavior under insufficient information.
+- Added a local validation test confirming observation normalization guidance preserves runtime-execution and scanning boundaries.
