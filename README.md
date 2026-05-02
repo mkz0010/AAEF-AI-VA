@@ -259,3 +259,13 @@ The checkpoint records a lightweight foundation for dependency/license inventory
 It does not enable runtime execution, scanning, credential injection, customer-target operation, production deployment, certification, legal approval, or audit opinion.
 
 See `docs/70-dependency-and-repository-governance-readiness-checkpoint.md`.
+
+## GitHub Repository Ruleset and Branch Protection Planning
+
+AAEF-AI-VA includes a GitHub repository ruleset and branch protection planning checkpoint.
+
+The checkpoint records planned repository protections for `main`, release tags, required validation, high-risk change review, and emergency exception handling.
+
+It is planning only and does not configure GitHub branch protection or rulesets by itself.
+
+See `docs/71-github-repository-ruleset-and-branch-protection-planning-checkpoint.md`.

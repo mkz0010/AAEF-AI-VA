@@ -492,3 +492,14 @@ Purpose:
 - Record branch protection and ruleset planning without requiring immediate GitHub configuration changes.
 - Record release/tag governance expectations.
 - Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.
+
+## v0.5.5 GitHub repository ruleset and branch protection planning checkpoint
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Plan GitHub repository rulesets and branch protection before making administration changes.
+- Define required validation expectations for `main` and release tags.
+- Define review expectations for high-risk runtime, scanning, credential, customer-target, licensing, and public-claim changes.
+- Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.

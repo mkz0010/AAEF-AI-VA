@@ -212,3 +212,9 @@
 - Added a dependency and repository governance readiness checkpoint.
 - Documented lightweight dependency/license inventory expectations, branch protection planning, release/tag governance, and repository administration boundaries.
 - Added a local validation test confirming governance readiness wording preserves runtime-execution and scanning boundaries.
+
+## v0.5.5 - GitHub repository ruleset and branch protection planning checkpoint
+
+- Added a GitHub repository ruleset and branch protection planning checkpoint.
+- Documented planned protections for `main`, release tags, required checks, high-risk changes, emergency exceptions, and maintainer responsibilities.
+- Added a local validation test confirming repository protection planning preserves runtime-execution and scanning boundaries.
