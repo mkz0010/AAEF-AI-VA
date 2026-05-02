@@ -130,3 +130,11 @@ Future v0.3.x work should add:
 - no-egress verification records,
 - timeout and kill-switch verification records,
 - sanitizer boundary verification records.
+
+## Relationship to Preflight Evidence Record Model
+
+The concrete preflight check implementation scaffold becomes input to the preflight evidence record model.
+
+The evidence model defines record shapes for future generated evidence without satisfying checks or authorizing execution.
+
+See `docs/50-preflight-evidence-record-model.md`.

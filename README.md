@@ -120,3 +120,11 @@ v0.3.0 introduces concrete preflight check implementation scaffolding.
 Each required preflight check receives input sources, evidence type, fail-closed behavior, and responsibility while all checks remain unimplemented, preflight remains unsatisfied, and execution remains disabled.
 
 See `docs/49-preflight-check-implementation-scaffold.md`.
+
+## Preflight Evidence Record Model
+
+v0.3.1 introduces the preflight evidence record model.
+
+Each required preflight check receives a non-generated evidence record shape with evidence type, input sources, fail-closed behavior, AI visibility boundary, raw artifact boundary, and sanitized summary requirement while execution remains disabled.
+
+See `docs/50-preflight-evidence-record-model.md`.

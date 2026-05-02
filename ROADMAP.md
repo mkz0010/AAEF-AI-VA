@@ -11,6 +11,12 @@
 
 ## Phase 1: Technical Prototype
 
+### Preflight Evidence Record Model
+
+- Added v0.3.1 preflight evidence record model after the concrete preflight check implementation scaffold.
+- Defined evidence record shape, AI visibility boundary, raw artifact boundary, and sanitized summary requirement for all required preflight checks while keeping execution disabled.
+
+
 ### Concrete Preflight Check Implementation Scaffold
 
 - Added v0.3.0 concrete preflight check implementation scaffold after the runtime transition checkpoint.

@@ -122,3 +122,11 @@ The runtime transition checkpoint becomes input to the concrete preflight check 
 v0.3.0 starts implementation scaffolding for preflight checks while keeping preflight unsatisfied and execution disabled.
 
 See `docs/49-preflight-check-implementation-scaffold.md`.
+
+## Relationship to Preflight Evidence Records
+
+The runtime transition checkpoint remains the upstream no-execution boundary for v0.3.x preflight evidence work.
+
+Preflight evidence records do not authorize execution.
+
+See `docs/50-preflight-evidence-record-model.md`.
