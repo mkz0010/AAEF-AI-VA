@@ -63,6 +63,7 @@ def main() -> int:
     run([sys.executable, "tools/test_readme_public_baseline_commercial_entrypoint_cleanup.py"])
     run([sys.executable, "tools/test_readme_compatibility_phrase_registry.py"])
     run([sys.executable, "tools/test_licensing_trademark_authorship_protection.py"])
+    run([sys.executable, "tools/test_dependency_repository_governance_readiness.py"])
     print("All local checks passed.")
     return 0
 

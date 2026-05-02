@@ -480,3 +480,15 @@ Purpose:
 - Record authorship and attribution expectations.
 - Clarify project-name and mark usage without overclaiming registered trademark status.
 - Keep contribution rules aligned with safety, disclosure, runtime-execution, and commercial-use boundaries.
+
+## v0.5.4 Dependency and repository governance readiness checkpoint
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Strengthen public repository governance before targeted commercial outreach.
+- Record dependency/license inventory expectations without overclaiming full legal review.
+- Record branch protection and ruleset planning without requiring immediate GitHub configuration changes.
+- Record release/tag governance expectations.
+- Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.

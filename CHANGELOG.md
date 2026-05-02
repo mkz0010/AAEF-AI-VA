@@ -206,3 +206,9 @@
 - Added public protection documents for notices, authorship, copyright attribution, commercial-license discussions, trademark-like project-name usage, and contribution boundaries.
 - Added a protection checkpoint documenting commercial-use, naming, attribution, and contribution boundaries.
 - Added a local validation test for licensing/trademark/authorship protection materials.
+
+## v0.5.4 - Dependency and repository governance readiness checkpoint
+
+- Added a dependency and repository governance readiness checkpoint.
+- Documented lightweight dependency/license inventory expectations, branch protection planning, release/tag governance, and repository administration boundaries.
+- Added a local validation test confirming governance readiness wording preserves runtime-execution and scanning boundaries.

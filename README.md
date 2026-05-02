@@ -249,3 +249,13 @@ See:
 - `TRADEMARKS.md`
 - `CONTRIBUTING.md`
 - `docs/69-licensing-trademark-authorship-protection-checkpoint.md`
+
+## Dependency and Repository Governance Readiness
+
+AAEF-AI-VA includes a dependency and repository governance readiness checkpoint.
+
+The checkpoint records a lightweight foundation for dependency/license inventory, branch protection planning, release/tag governance, security policy alignment, and repository administration.
+
+It does not enable runtime execution, scanning, credential injection, customer-target operation, production deployment, certification, legal approval, or audit opinion.
+
+See `docs/70-dependency-and-repository-governance-readiness-checkpoint.md`.
