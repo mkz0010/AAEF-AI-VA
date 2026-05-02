@@ -123,3 +123,9 @@
 - Added a publication hygiene checkpoint before public repository publication.
 - Added `.gitignore` coverage for `private-not-in-git/`, generated outputs, Python caches, local environment files, and editor noise.
 - Added a local validation test to confirm private/generated artifacts are not tracked and publication hygiene does not imply runtime readiness.
+
+## v0.3.8 - Public security policy and vulnerability disclosure checkpoint
+
+- Added `SECURITY.md` for vulnerability disclosure posture, supported-version posture, scope, out-of-scope items, and safe testing expectations.
+- Added a public security policy checkpoint that separates vulnerability reporting from commercial licensing and runtime authorization.
+- Added a local validation test for security policy and vulnerability disclosure boundaries.

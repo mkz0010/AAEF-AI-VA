@@ -197,3 +197,16 @@ The expected publication hygiene posture is:
 - repository publication does not permit external network activity, scan execution, credential injection, or raw artifact capture
 
 See `docs/56-publication-hygiene-and-private-artifact-exclusion-checkpoint.md` for the detailed checkpoint.
+
+## Security Policy
+
+AAEF-AI-VA includes a public security policy and vulnerability disclosure checkpoint.
+
+Before public repository publication, the project distinguishes:
+
+- security vulnerability reports
+- commercial licensing inquiries
+- runtime execution authorization
+- publication hygiene and private artifact exclusion
+
+See `SECURITY.md` and `docs/57-public-security-policy-and-vulnerability-disclosure-checkpoint.md`.

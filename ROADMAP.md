@@ -332,3 +332,15 @@ Purpose:
 - Confirm that generated evidence and local run outputs are excluded by `.gitignore`.
 - Keep publication hygiene separate from runtime readiness.
 - Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.
+
+## v0.3.8 Public security policy and vulnerability disclosure checkpoint
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Add `SECURITY.md` before public repository publication.
+- Define what security reports are in scope and out of scope.
+- Keep vulnerability reporting separate from commercial licensing inquiries.
+- Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.
+- Prepare the repository for a future durable security reporting channel.

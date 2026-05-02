@@ -50,6 +50,7 @@ def main() -> int:
     run([sys.executable, "tools/test_licensing_and_commercial_use_boundary.py"])
     run([sys.executable, "tools/test_public_repository_readiness_checkpoint.py"])
     run([sys.executable, "tools/test_publication_hygiene_private_artifact_exclusion.py"])
+    run([sys.executable, "tools/test_public_security_policy_vulnerability_disclosure.py"])
     print("All local checks passed.")
     return 0
 
