@@ -4,6 +4,8 @@
 
 ### Added
 
+- Added v0.2.8 preflight validation scaffold for future execution-before-checklist requirements while keeping preflight unsatisfied and execution disabled.
+
 - Added v0.2.7 execution authorization gate scaffold for future approval and verification requirements while keeping execution disabled.
 
 - Added v0.2.6 runtime enforcement design scaffold for future preflight, process wrapper, no-egress, timeout, kill-switch, evidence, and sanitizer boundary enforcement while keeping execution disabled.

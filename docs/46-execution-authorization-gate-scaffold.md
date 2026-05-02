@@ -114,3 +114,11 @@ Future v0.2.x work should add:
 - no-egress verification record,
 - timeout and kill-switch verification records,
 - sanitizer boundary verification record.
+
+## Relationship to Preflight Validation
+
+The execution authorization scaffold becomes input to the preflight validation scaffold.
+
+Preflight validation still does not satisfy execution authorization or authorize execution.
+
+See `docs/47-preflight-validation-scaffold.md`.

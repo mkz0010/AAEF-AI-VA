@@ -135,3 +135,11 @@ Runtime enforcement design becomes input to the execution authorization gate sca
 The authorization scaffold still does not authorize execution.
 
 See `docs/46-execution-authorization-gate-scaffold.md`.
+
+## Relationship to Preflight Validation
+
+Runtime enforcement design is one of the required future preflight checks.
+
+The preflight scaffold records the check requirement while keeping runtime enforcement unimplemented and execution disabled.
+
+See `docs/47-preflight-validation-scaffold.md`.

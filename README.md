@@ -96,3 +96,11 @@ v0.2.7 introduces an execution authorization gate scaffold.
 It defines future approval and verification requirements while keeping execution authorization, real execution, process execution, network activity, scans, credential injection, and raw artifact capture disabled.
 
 See `docs/46-execution-authorization-gate-scaffold.md`.
+
+## Preflight Validation Scaffold
+
+v0.2.8 introduces a preflight validation scaffold.
+
+It defines the future execution-before-checklist across runtime readiness, target binding, authorization, approvals, no-egress, timeout, kill-switch, evidence, and sanitizer boundaries while keeping preflight unsatisfied and execution disabled.
+
+See `docs/47-preflight-validation-scaffold.md`.

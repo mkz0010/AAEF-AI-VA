@@ -11,6 +11,12 @@
 
 ## Phase 1: Technical Prototype
 
+### Preflight Validation Scaffold
+
+- Added v0.2.8 preflight validation scaffold after the execution authorization gate scaffold.
+- Recorded future preflight checks across runtime readiness, target binding, authorization, approvals, no-egress, timeout, kill-switch, evidence, and sanitizer boundaries while keeping execution disabled.
+
+
 ### Execution Authorization Gate Scaffold
 
 - Added v0.2.7 execution authorization gate scaffold after runtime enforcement design.
