@@ -11,6 +11,14 @@
 
 ## Phase 1: Technical Prototype
 
+### credential_ref Flow Decision
+
+- credential_ref is visible to AI as a reference only.
+- Raw credentials remain AI-hidden and are resolved only by Tool Gateway after authorization.
+- MVP may use a local mock Vault with fictitious credentials.
+- Sanitization is required before tool output is returned to AI.
+
+
 ### MVP Scope Decision
 
 - Initial MVP focuses on Web/API/NW assessment assistance.

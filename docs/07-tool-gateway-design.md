@@ -19,6 +19,21 @@ Tool Gatewayは、AIからの診断アクション要求を直接実行せず、
 
 ## Responsibilities
 
+## credential_ref Responsibilities
+
+When a tool action requires authentication, Tool Gateway is responsible for:
+
+- verifying the authorization_decision_id,
+- verifying that the requested credential_ref is allowed,
+- resolving credential_ref through Vault or mock Vault,
+- injecting the secret into the approved tool runtime,
+- preventing the secret from being returned to AI,
+- sending raw output to Sanitizer / Normalizer,
+- recording credential_ref usage in Evidence Store without exposing the raw secret.
+
+Tool Gateway must not accept arbitrary AI-generated shell commands as equivalent to authorized tool actions.
+
+
 - Validate authorized tool actions.
 - Retrieve secrets from Vault when required.
 - Inject secrets into approved tool runtimes.

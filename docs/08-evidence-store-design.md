@@ -22,4 +22,18 @@
 
 ## Rule
 
+## credential_ref Evidence Requirements
+
+Evidence records may include `credential_ref_used`, but must not include raw secret values.
+
+Evidence should preserve traceability between:
+
+- tool_action_request_id,
+- authorization_decision_id,
+- credential_ref_used,
+- tool execution metadata,
+- sanitized artifact reference,
+- human review status.
+
+
 Evidence must support reconstruction of what was requested, what was authorized, what was executed, what was observed, and what was finally reported.
