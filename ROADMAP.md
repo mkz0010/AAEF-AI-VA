@@ -457,3 +457,14 @@ Purpose:
 - Stop older v0.3.x checkpoints from dominating the first public impression.
 - Make the commercial adoption entrypoint visible without converting the repository into a sales deck.
 - Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.
+
+## v0.5.2 README compatibility phrase registry and test design hardening
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Reduce future README rewrite regressions.
+- Record compatibility phrases expected by README-facing checkpoint tests.
+- Preserve the distinction between unsafe positive claims and safe negative boundary statements.
+- Keep README maintenance compatible with license, security, publication hygiene, metadata, release, and commercial-adoption checkpoints.

@@ -194,3 +194,9 @@
 - Moved the current public state, authority boundary, validation, security, release, and commercial adoption entrypoint near the top.
 - Removed obsolete local-first/private-by-default public-entry wording.
 - Added a local validation test for README public baseline and commercial entrypoint cleanup.
+
+## v0.5.2 - README compatibility phrase registry and test design hardening
+
+- Added a README compatibility phrase registry for stable README headings, attribution phrases, commercial-entrypoint wording, and safety-boundary phrases.
+- Documented the test design distinction between forbidden positive claims and allowed negative boundary statements.
+- Added a local validation test for README compatibility phrase preservation.

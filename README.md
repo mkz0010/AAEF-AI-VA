@@ -227,3 +227,9 @@ For current public evaluation, start with:
 4. `docs/66-commercial-adoption-preparation-checkpoint.md`,
 5. `docs/65-github-release-publication-checkpoint.md`,
 6. `tools/run_all_local_checks.py`.
+
+## README Compatibility Phrase Registry
+
+AAEF-AI-VA maintains a README compatibility phrase registry so future README rewrites preserve earlier checkpoint expectations and avoid broad false-positive claim checks.
+
+See `docs/68-readme-compatibility-phrase-registry-and-test-design-hardening.md`.
