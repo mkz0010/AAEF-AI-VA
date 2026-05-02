@@ -52,6 +52,21 @@ prototypes/tool-gateway/
 
 ## Running the Mock Runner
 
+## Running Tests
+
+Run the Tool Gateway runner self-tests from the repository root:
+
+~~~bash
+py tools/test_tool_gateway_runner.py
+~~~
+
+Expected final line:
+
+~~~text
+Tool Gateway runner tests passed.
+~~~
+
+
 Run all mock scenarios from the repository root:
 
 ~~~bash

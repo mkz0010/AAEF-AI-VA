@@ -65,4 +65,15 @@ The mock runner:
 
 ## Next Step
 
+## Self-Test Command
+
+Run the Tool Gateway runner tests:
+
+~~~bash
+py tools/test_tool_gateway_runner.py
+~~~
+
+The tests cover positive scenarios, fail-closed negative scenarios, and generated runner outputs.
+
+
 The next step is to validate generated outputs against schemas and then add explicit negative tests for mismatched authorization.

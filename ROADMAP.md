@@ -11,6 +11,13 @@
 
 ## Phase 1: Technical Prototype
 
+### Tool Gateway Fail-Closed Tests
+
+- Added negative tests for request/authorization mismatches and unsafe constraints.
+- Added generated output validation for the mock runner.
+- Next step is schema validation for generated outputs and mock Vault metadata tests.
+
+
 ### Tool Gateway Mock Runner
 
 - Added a standard-library-only mock runner before real tool integration.

@@ -4,6 +4,9 @@
 
 ### Added
 
+- Added Tool Gateway runner self-tests for positive scenarios, generated outputs, and fail-closed negative cases.
+- Added documentation and ADR for Tool Gateway negative tests.
+
 - Added standard-library Tool Gateway mock runner for allowed, denied, and human-approval-required scenarios.
 - Added Tool Gateway mock runner documentation and ADR.
 
