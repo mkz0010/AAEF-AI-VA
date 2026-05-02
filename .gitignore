@@ -1,0 +1,39 @@
+# Private / sensitive
+private-not-in-git/
+customer-materials/
+raw-scan-logs/
+secrets/
+vault/
+*.key
+*.pem
+*.pfx
+*.p12
+*.env
+.env
+.env.*
+*.har
+*.burp
+*.nessus
+*.pcap
+*.pcapng
+*.sqlite
+*.db
+
+# Office / temp
+~$*
+*.tmp
+*.bak
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
