@@ -11,6 +11,12 @@
 
 ## Phase 1: Technical Prototype
 
+### Human Approval Record and Gate
+
+- Added explicit human approval records for operator review decisions.
+- Added approval binding and expiration validation while preserving real-execution blocking.
+
+
 ### Operator Readiness Review
 
 - Added operator-facing readiness review summary for real execution blockers.

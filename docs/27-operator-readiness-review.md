@@ -106,3 +106,13 @@ Before real execution is introduced, the operator review should be extended to i
 - evidence link,
 - runtime approval link,
 - customer authorization reference.
+
+## Relationship to Human Approval Record
+
+Operator readiness review produces a reviewable blocker summary.
+
+Human approval record captures the operator decision that follows review.
+
+The current MVP can record approval decisions, but approval does not permit real execution.
+
+See `docs/28-human-approval-record-gate.md`.

@@ -4,6 +4,8 @@
 
 ### Added
 
+- Added human approval record and approval gate while keeping real execution disabled in the MVP.
+
 - Added operator readiness review summary for real execution blockers and next actions.
 
 - Added real execution readiness gate and tests to keep real tool execution disabled until explicit prerequisites are satisfied.

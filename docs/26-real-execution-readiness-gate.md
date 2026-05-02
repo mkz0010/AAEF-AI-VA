@@ -133,3 +133,11 @@ The readiness gate produces machine-readable blockers.
 The operator readiness review converts those blockers into categorized next actions and a reviewable Markdown/JSON artifact.
 
 See `docs/27-operator-readiness-review.md`.
+
+## Relationship to Human Approval Gate
+
+Human approval is one readiness condition, but it is not sufficient authority by itself.
+
+The current MVP validates approval records while keeping real execution disabled.
+
+See `docs/28-human-approval-record-gate.md`.
