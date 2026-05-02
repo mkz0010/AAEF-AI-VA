@@ -200,3 +200,9 @@
 - Added a README compatibility phrase registry for stable README headings, attribution phrases, commercial-entrypoint wording, and safety-boundary phrases.
 - Documented the test design distinction between forbidden positive claims and allowed negative boundary statements.
 - Added a local validation test for README compatibility phrase preservation.
+
+## v0.5.3 - Licensing, trademark, authorship, and commercial-use protection hardening
+
+- Added public protection documents for notices, authorship, copyright attribution, commercial-license discussions, trademark-like project-name usage, and contribution boundaries.
+- Added a protection checkpoint documenting commercial-use, naming, attribution, and contribution boundaries.
+- Added a local validation test for licensing/trademark/authorship protection materials.

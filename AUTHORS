@@ -1,0 +1,29 @@
+# AUTHORS
+
+This file records project authorship and contribution attribution for AAEF-AI-VA.
+
+## Project author
+
+- mkz0010
+
+## Project
+
+- Name: AAEF-AI-VA
+- Repository: https://github.com/mkz0010/AAEF-AI-VA
+
+## Parent framework attribution
+
+AAEF-AI-VA builds on the Agentic Authority & Evidence Framework / AAEF.
+
+- Parent framework: Agentic Authority & Evidence Framework / AAEF
+- Parent repository: https://github.com/mkz0010/agentic-authority-evidence-framework
+- Parent framework license: CC BY 4.0 (Creative Commons Attribution 4.0 International)
+
+## Contributors
+
+Future contributors may be recorded here or through Git history.
+
+Contributions are accepted only under the repository's contribution terms and must
+not introduce runtime execution, scanning, credential injection, customer-target
+operation, or sensitive vulnerability disclosure without explicit review and
+maintainer acceptance.

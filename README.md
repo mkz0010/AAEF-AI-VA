@@ -233,3 +233,19 @@ For current public evaluation, start with:
 AAEF-AI-VA maintains a README compatibility phrase registry so future README rewrites preserve earlier checkpoint expectations and avoid broad false-positive claim checks.
 
 See `docs/68-readme-compatibility-phrase-registry-and-test-design-hardening.md`.
+
+## Licensing, Trademark, Authorship, and Commercial-Use Protection
+
+AAEF-AI-VA includes public boundary documents for licensing, authorship, notices, trademark-like name usage, contribution rules, and commercial-use discussions.
+
+These documents do not provide legal advice and do not claim registered trademark status unless separately registered.
+
+See:
+
+- `NOTICE`
+- `AUTHORS`
+- `COPYRIGHT`
+- `COMMERCIAL-LICENSE.md`
+- `TRADEMARKS.md`
+- `CONTRIBUTING.md`
+- `docs/69-licensing-trademark-authorship-protection-checkpoint.md`

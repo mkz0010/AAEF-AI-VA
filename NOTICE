@@ -1,0 +1,27 @@
+AAEF-AI-VA NOTICE
+
+AAEF-AI-VA is a safety-first reference implementation for AI-assisted vulnerability
+assessment control boundaries.
+
+Repository:
+https://github.com/mkz0010/AAEF-AI-VA
+
+AAEF-AI-VA code is licensed under the GNU Affero General Public License v3.0.
+See LICENSE for details.
+
+This project builds on the Agentic Authority & Evidence Framework / AAEF.
+
+Parent AAEF repository:
+https://github.com/mkz0010/agentic-authority-evidence-framework
+
+AAEF is licensed under CC BY 4.0 (Creative Commons Attribution 4.0 International).
+
+AAEF-AI-VA is not a production scanner, not an autonomous vulnerability scanner,
+and not permission to scan third-party systems.
+
+For commercial licensing inquiries, requests are separate from vulnerability reports and do not
+authorize runtime execution, scanning, credential injection, or customer-target
+operation.
+
+Security reports should follow SECURITY.md.
+Sensitive vulnerability details should not be posted publicly.

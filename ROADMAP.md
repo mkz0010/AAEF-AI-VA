@@ -468,3 +468,15 @@ Purpose:
 - Record compatibility phrases expected by README-facing checkpoint tests.
 - Preserve the distinction between unsafe positive claims and safe negative boundary statements.
 - Keep README maintenance compatible with license, security, publication hygiene, metadata, release, and commercial-adoption checkpoints.
+
+## v0.5.3 Licensing, trademark, authorship, and commercial-use protection hardening
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Strengthen the public repository boundary for commercial adoption.
+- Preserve AGPL-3.0 transparency while making commercial-license discussions explicit.
+- Record authorship and attribution expectations.
+- Clarify project-name and mark usage without overclaiming registered trademark status.
+- Keep contribution rules aligned with safety, disclosure, runtime-execution, and commercial-use boundaries.
