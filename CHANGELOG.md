@@ -4,6 +4,8 @@
 
 ### Added
 
+- Added evidence reconstruction report generation from evidence chain and review decision linkage.
+
 - Added evidence chain and review decision linkage across request, authorization, execution, evidence, operator review, human approval, and approval gate records.
 
 - Added human approval record and approval gate while keeping real execution disabled in the MVP.

@@ -11,6 +11,12 @@
 
 ## Phase 1: Technical Prototype
 
+### Evidence Reconstruction Report
+
+- Added human-readable reconstruction report generated from evidence chain and review decision linkage.
+- Included safety assertions, blockers, next actions, chain nodes, and review questions.
+
+
 ### Evidence Chain Review Linkage
 
 - Added reconstruction chain across request, authorization, execution result, evidence, operator review, human approval, and approval gate records.

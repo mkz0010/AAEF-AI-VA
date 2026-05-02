@@ -106,3 +106,11 @@ This chain is the basis for later:
 - audit support,
 - readiness review packets,
 - incident reconstruction.
+
+## Relationship to Evidence Reconstruction Report
+
+The evidence chain provides structure.
+
+The evidence reconstruction report turns that structure into a human-readable explanation of the action, review, approval, and real-execution blocking status.
+
+See `docs/30-evidence-reconstruction-report.md`.

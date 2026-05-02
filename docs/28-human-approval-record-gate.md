@@ -123,3 +123,11 @@ Human approval records are linked into the evidence chain with the operator revi
 This makes approval decisions reconstructable and prevents approval records from being detached from the command plan they reviewed.
 
 See `docs/29-evidence-chain-review-linkage.md`.
+
+## Relationship to Evidence Reconstruction Report
+
+Human approval records are included in the evidence reconstruction report so that reviewers can see what decision was recorded and whether it permitted execution.
+
+In the current MVP, approval does not permit real execution.
+
+See `docs/30-evidence-reconstruction-report.md`.
