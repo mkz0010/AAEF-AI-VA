@@ -309,3 +309,13 @@ The summary explains what the repository currently demonstrates, what it does no
 It is an evidence and capability explanation only. It does not authorize runtime execution, scanning, credential injection, customer-target operation, production deployment, certification, legal approval, or audit opinion.
 
 See `docs/75-public-evidence-and-capability-boundary-summary.md`.
+
+## Public FAQ and Reviewer Objections Handling
+
+AAEF-AI-VA includes a public FAQ and reviewer objections handling checkpoint.
+
+The FAQ gives first-time reviewers direct answers to likely questions about scope, runtime execution, scanning, AGPL-3.0, commercial licensing, security reporting, evidence, governance, and what remains intentionally blocked.
+
+It is explanatory material only. It does not authorize runtime execution, scanning, credential injection, customer-target operation, production deployment, certification, legal approval, or audit opinion.
+
+See `docs/76-public-faq-and-reviewer-objections-handling.md`.

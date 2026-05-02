@@ -548,3 +548,14 @@ Purpose:
 - Separate evidence-backed public claims from unsupported product claims.
 - Make capability boundaries easier for first-time reviewers to understand.
 - Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.
+
+## v0.5.10 Public FAQ and reviewer objections handling
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Answer likely reviewer objections before a direct sales or technical conversation.
+- Clarify scope, safety boundaries, evidence-backed claims, commercial-use boundaries, and intentionally blocked capabilities.
+- Help the public repository function as a conservative product introduction surface.
+- Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.

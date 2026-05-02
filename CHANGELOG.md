@@ -242,3 +242,9 @@
 - Added a public evidence and capability boundary summary.
 - Documented demonstrated capabilities, non-demonstrated capabilities, intentionally blocked capabilities, evidence artifacts, reviewer interpretation guidance, and public claim boundaries.
 - Added a local validation test confirming the evidence/capability summary preserves runtime-execution and scanning boundaries.
+
+## v0.5.10 - Public FAQ and reviewer objections handling
+
+- Added a public FAQ and reviewer objections handling checkpoint.
+- Documented answers to likely first-time reviewer questions about scope, runtime execution, scanning, AGPL-3.0, commercial licensing, evidence, governance, security reporting, and intentionally blocked capabilities.
+- Added a local validation test confirming FAQ wording preserves runtime-execution and scanning boundaries.
