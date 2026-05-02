@@ -98,3 +98,9 @@ Future versions should add:
 - remediation review,
 - evidence attachment review,
 - report versioning.
+
+## Relationship to Report Review Gate
+
+A promoted `report_finding` must pass report review before it can move into a report packet candidate.
+
+See `docs/35-report-review-gate.md`.

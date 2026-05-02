@@ -11,6 +11,12 @@
 
 ## Phase 1: Technical Prototype
 
+### Report Review Gate
+
+- Added report review gate for report findings.
+- Added report packet candidate assembly while keeping packet review required and customer delivery disabled.
+
+
 ### Report Finding Promotion Gate
 
 - Added promotion gate from confirmed finding review to report finding.

@@ -108,3 +108,9 @@ Confirmed finding reviews may move to the report finding promotion gate.
 The promoted object is a `report_finding`, but it still requires report review and is not customer-delivery-ready in the current MVP.
 
 See `docs/34-report-finding-promotion-gate.md`.
+
+## Relationship to Report Review
+
+Confirmed finding reviews may eventually lead to report findings, but report findings still require report review before packet assembly.
+
+See `docs/35-report-review-gate.md`.
