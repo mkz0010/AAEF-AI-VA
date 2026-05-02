@@ -379,3 +379,13 @@ The profile defines target mode, target ownership, network boundary, allowed act
 It is documentation-only. It does not authorize runtime execution, scanning, credential injection, customer-target operation, production deployment, certification, legal approval, or audit opinion.
 
 See `docs/82-v065-documentation-only-local-lab-profile-and-action-taxonomy.md`.
+
+## v0.6.6 AI Request Decision Boundary and Tool Selection Criteria
+
+AAEF-AI-VA includes a v0.6.6 AI request decision boundary and tool selection criteria checkpoint.
+
+The checkpoint defines the project’s core execution-separation rule: AI may generate `tool_action_request` and recommend candidate methods, but execution is decided by authorization, scope, preflight, Tool Gateway, and human review gates.
+
+It is design and planning only. It does not authorize runtime execution, scanning, credential injection, customer-target operation, production deployment, certification, legal approval, or audit opinion.
+
+See `docs/83-v066-ai-request-decision-boundary-and-tool-selection-criteria.md`.

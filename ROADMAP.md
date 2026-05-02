@@ -625,3 +625,14 @@ Purpose:
 - Define allowed and denied action categories without enabling execution.
 - Establish preflight evidence and human review expectations for later dry-run planning.
 - Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.
+
+## v0.6.6 AI request decision boundary and tool selection criteria
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Define the difference between AI method selection and execution authorization.
+- Preserve the rule that AI generates `tool_action_request`, while gates decide execution.
+- Establish tool-selection criteria before demo, observation, dry-run, or lab work expands.
+- Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.

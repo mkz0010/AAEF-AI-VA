@@ -285,3 +285,10 @@
 - Added a v0.6.5 documentation-only local lab profile and action taxonomy.
 - Defined local lab profile fields, local-only assumptions, allowed action taxonomy, denied action taxonomy, preflight evidence requirements, human review requirements, generated output policy, and "what this lab does not prove" boundaries.
 - Added a local validation test confirming the documentation-only lab profile preserves runtime-execution and scanning boundaries.
+
+## v0.6.6 - AI request decision boundary and tool selection criteria
+
+- Added a v0.6.6 AI request decision boundary and tool selection criteria checkpoint.
+- Documented that AI may generate `tool_action_request` and recommend candidate methods, while execution authority remains with gates.
+- Defined current and future tool-selection criteria for ZAP, Nmap, nuclei, browser, testssl.sh/sslyze, nikto, ffuf/feroxbuster, constrained sqlmap, wapiti/arachni, Burp Suite Pro CLI/API, and Nessus Essentials/OpenVAS.
+- Added a local validation test confirming the AI request boundary preserves runtime-execution and scanning boundaries.

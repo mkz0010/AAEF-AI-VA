@@ -76,6 +76,7 @@ def main() -> int:
     run([sys.executable, "tools/test_v063_safety_boundary_non_goal_review.py"])
     run([sys.executable, "tools/test_v064_local_assessment_lab_decision_record.py"])
     run([sys.executable, "tools/test_v065_documentation_only_local_lab_profile_action_taxonomy.py"])
+    run([sys.executable, "tools/test_v066_ai_request_decision_boundary_tool_selection_criteria.py"])
     print("All local checks passed.")
     return 0
 
