@@ -429,3 +429,13 @@ The checkpoint defines how intentionally vulnerable local targets such as DVWA, 
 It is roadmap and candidate planning only. It does not authorize runtime execution, scanning, credential injection, customer-target operation, production deployment, certification, legal approval, or audit opinion.
 
 See `docs/87-v0610-safe-docker-lab-roadmap-and-local-target-candidate-planning.md`.
+
+## v0.6.11 Local Lab Candidate Profile and Preflight Evidence Planning
+
+AAEF-AI-VA includes a v0.6.11 local lab candidate profile and preflight evidence planning checkpoint.
+
+The checkpoint defines candidate profile fields and preflight evidence expectations for future local-only lab candidates such as DVWA, OWASP Juice Shop, WebGoat, a synthetic local API, and static fixture targets, while keeping Docker execution, container startup, scanner execution, credential injection, and customer-target operation blocked.
+
+It is candidate-profile and preflight-evidence planning only. It does not authorize runtime execution, scanning, credential injection, customer-target operation, production deployment, certification, legal approval, or audit opinion.
+
+See `docs/88-v0611-local-lab-candidate-profile-and-preflight-evidence-planning.md`.

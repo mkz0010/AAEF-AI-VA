@@ -680,3 +680,14 @@ Purpose:
 - Identify local target candidates such as DVWA, OWASP Juice Shop, and WebGoat as future localhost-only candidates.
 - Define candidate acceptance criteria before dry-run or bounded local execution work expands.
 - Preserve disabled runtime execution, network activity, scan execution, credential injection, raw artifact capture, and customer-target boundaries.
+
+## v0.6.11 Local lab candidate profile and preflight evidence planning
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Define local lab candidate profile fields before Docker or scanner work expands.
+- Define preflight evidence expectations for future local-only target candidates.
+- Compare DVWA, OWASP Juice Shop, WebGoat, synthetic local API, and static fixture target candidates without selecting or running them.
+- Preserve disabled Docker execution, runtime execution, network activity, scan execution, credential injection, raw artifact capture, and customer-target boundaries.

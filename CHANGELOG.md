@@ -320,3 +320,10 @@
 - Preserved the separation between local target candidate planning, dry-run behavior, bounded local execution, runtime execution, scan execution, commercial PoC readiness, and customer-target operation.
 - Removed tracked public test inventories of specific private-sensitive terms and replaced them with abstract public-sensitive wording checks.
 - Added a local validation test confirming safe Docker lab roadmap planning preserves runtime-execution and scanning boundaries.
+
+## v0.6.11 - Local lab candidate profile and preflight evidence planning
+
+- Added a v0.6.11 local lab candidate profile and preflight evidence planning checkpoint.
+- Defined local lab candidate profile fields, candidate profile examples, preflight evidence package planning, candidate scoring, rejection criteria, human review expectations, and advancement gates.
+- Preserved the separation between candidate profile planning, Docker execution, container startup, bounded local execution, scan execution, commercial PoC readiness, and customer-target operation.
+- Added a local validation test confirming local lab candidate profile and preflight evidence planning preserves runtime-execution and scanning boundaries.
