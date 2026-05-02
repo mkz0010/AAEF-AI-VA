@@ -399,3 +399,13 @@ The review defines how raw responses, sanitized artifacts, normalized observatio
 It is design and risk review only. It does not authorize runtime execution, scanning, credential injection, customer-target operation, production deployment, certification, legal approval, or audit opinion.
 
 See `docs/84-v067-observation-normalization-and-diagnostic-fidelity-risk-review.md`.
+
+## v0.6.8 Demo Scenario and Reviewer Walkthrough Planning
+
+AAEF-AI-VA includes a v0.6.8 demo scenario and reviewer walkthrough planning checkpoint.
+
+The checkpoint defines a public-safe, non-executing reviewer walkthrough that explains what AI may see through approved diagnostic context, what `tool_action_request` it may generate, which gates evaluate the request, what evidence is expected, and what the walkthrough does not prove.
+
+It is planning only. It does not authorize runtime execution, scanning, credential injection, customer-target operation, production deployment, certification, legal approval, or audit opinion.
+
+See `docs/85-v068-demo-scenario-and-reviewer-walkthrough-planning.md`.

@@ -647,3 +647,14 @@ Purpose:
 - Record the risk that sanitizer or normalizer behavior can reduce diagnostic accuracy.
 - Establish loss-aware normalization, signal-preserving extraction, sufficiency scoring, and escalation paths.
 - Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.
+
+## v0.6.8 Demo scenario and reviewer walkthrough planning
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Define a public-safe reviewer walkthrough before any dry-run or local lab execution behavior expands.
+- Show how the core proposition can be explained without exposing private advanced feature details.
+- Connect approved diagnostic context, AI request generation, gate decision, and evidence expectations.
+- Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.

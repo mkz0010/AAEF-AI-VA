@@ -298,3 +298,10 @@
 - Added a v0.6.7 observation normalization and diagnostic fidelity risk review.
 - Documented Diagnostic Fidelity Risk, loss-aware normalization, signal-preserving extraction, diagnostic context packages, sufficiency criteria, normalization loss records, escalation paths, and AI behavior under insufficient information.
 - Added a local validation test confirming observation normalization guidance preserves runtime-execution and scanning boundaries.
+
+## v0.6.8 - Demo scenario and reviewer walkthrough planning
+
+- Added a v0.6.8 demo scenario and reviewer walkthrough planning checkpoint.
+- Defined a public-safe non-executing walkthrough for explaining AI-visible context, AI-generated `tool_action_request`, gate decisions, evidence expectations, reviewer questions, and non-proof boundaries.
+- Preserved the separation between demo explanation, dry-run behavior, runtime execution, and commercial PoC readiness.
+- Added a local validation test confirming the demo planning preserves runtime-execution and scanning boundaries.
