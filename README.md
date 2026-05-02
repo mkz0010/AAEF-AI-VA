@@ -6,7 +6,7 @@ v0.3.4 adds representative negative preflight evidence examples. These examples 
 
 This release does not generate live evidence, does not satisfy preflight, does not authorize execution, and does not permit runtime scanning, network activity, external process execution, credential injection, or raw artifact capture.
 
-AAEF制御型AI脆弱性診断基盤のローカル管理リポジトリ。
+A safety-first reference implementation for AI-assisted vulnerability assessment control boundaries.
 
 This repository is local-first and private by default.
 
@@ -14,7 +14,7 @@ This repository is local-first and private by default.
 
 Model output is not authority.
 
-AIの出力は診断行為の権限ではない。AIは診断行為を要求できるが、実行可否はAAEF Authorization Gateway、Tool Gateway、契約スコープ、人間レビューによって決定される。
+AI output is not authority to perform assessment actions.AI may request assessment actions, but execution is decided by the AAEF Authorization Gateway, Tool Gateway, contractual scope, and human review.
 
 ## Repository Rule
 

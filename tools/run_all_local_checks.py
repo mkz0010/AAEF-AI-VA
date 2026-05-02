@@ -54,6 +54,7 @@ def main() -> int:
     run([sys.executable, "tools/test_first_publication_repository_settings_checklist.py"])
     run([sys.executable, "tools/test_v040_publication_preparation_release.py"])
     run([sys.executable, "tools/test_github_actions_ci_scaffold.py"])
+    run([sys.executable, "tools/test_readme_public_english_wording.py"])
     print("All local checks passed.")
     return 0
 

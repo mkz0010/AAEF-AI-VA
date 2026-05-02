@@ -379,3 +379,14 @@ Purpose:
 - Run the existing local validation suite in GitHub Actions.
 - Keep CI validation separate from runtime readiness.
 - Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.
+
+## v0.4.2 README public English wording cleanup
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Keep the public README English-first.
+- Remove local-management phrasing from the public entry point.
+- Preserve the AAEF authority boundary in English.
+- Keep README polish separate from runtime readiness.

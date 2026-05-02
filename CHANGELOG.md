@@ -148,3 +148,9 @@
 - Added a minimal GitHub Actions workflow for repository validation.
 - The workflow runs `python tools/run_all_local_checks.py` on `push`, `pull_request`, and manual dispatch.
 - Added a local validation test confirming the CI scaffold preserves runtime-execution and publication-safety boundaries.
+
+## v0.4.2 - README public English wording cleanup
+
+- Cleaned up README wording for English-first public repository presentation.
+- Replaced Japanese local-management and AI authority wording with public English wording.
+- Added a local validation test to keep the README public entry point English-first while preserving the AAEF authority boundary.
