@@ -434,3 +434,13 @@ Tool Gateway must not place raw adapter output directly into public generated re
 Raw adapter artifacts should remain under ignored/private paths, and sanitized artifacts should be referenced explicitly.
 
 See `docs/22-internal-adapter-artifact-policy.md`.
+
+## Controlled Executor Policy
+
+Tool Gateway command plans are not execution authority.
+
+Before real tool execution is introduced, command plans must pass a controlled executor policy.
+
+In the current MVP, the controlled executor is dry-run-only and rejects non-dry-run execution, arbitrary command fields, secret material, destructive tests, external discovery, and unsafe artifact paths.
+
+See `docs/24-controlled-executor-policy.md`.

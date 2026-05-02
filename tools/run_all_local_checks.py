@@ -17,6 +17,7 @@ def main() -> int:
     run([sys.executable, "tools/validate_generated_outputs.py"])
     run([sys.executable, "tools/test_tool_gateway_runner.py"])
     run([sys.executable, "tools/test_tool_gateway_adapters.py"])
+    run([sys.executable, "tools/test_controlled_executor_policy.py"])
     print("All local checks passed.")
     return 0
 

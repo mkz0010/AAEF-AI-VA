@@ -94,3 +94,11 @@ The adapter may return command plan details when called directly in tests.
 Tool Gateway generated public outputs must still not embed adapter output.
 
 Adapter command plans are internal implementation artifacts unless explicitly sanitized and exposed.
+
+## Relationship to Controlled Executor
+
+The ZAP command plan is still not execution authority.
+
+A future executor must validate the command plan before real tool execution is possible.
+
+In v0.1.16, the controlled executor is dry-run-only and validates that no external process execution is requested.

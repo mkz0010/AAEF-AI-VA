@@ -4,6 +4,8 @@
 
 ### Added
 
+- Added dry-run controlled executor policy and tests before real tool execution.
+
 - Added dry-run ZAP adapter command plan support without executing ZAP or external processes.
 
 - Documented internal adapter artifact policy and clarified that adapter output remains private/internal by default.

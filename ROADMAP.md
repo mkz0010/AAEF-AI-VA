@@ -11,6 +11,12 @@
 
 ## Phase 1: Technical Prototype
 
+### Controlled Executor Policy
+
+- Added dry-run-only executor policy for adapter command plans.
+- Confirmed command plans are not execution authority and must pass executor validation before any future real tool execution.
+
+
 ### ZAP Adapter Command Plan
 
 - Added a dry-run command plan for the ZAP adapter.
