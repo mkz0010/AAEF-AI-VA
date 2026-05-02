@@ -329,3 +329,13 @@ The checkpoint organizes the next phase before choosing whether to start with a 
 It is planning and sequencing only. It does not authorize runtime execution, scanning, credential injection, customer-target operation, production deployment, certification, legal approval, or audit opinion.
 
 See `docs/77-v060-implementation-and-evaluation-work-ordering.md`.
+
+## v0.6.1 Capability Inventory and Maturity Map
+
+AAEF-AI-VA includes a v0.6.1 capability inventory and maturity map.
+
+The map inventories current capabilities, supporting artifacts, maturity levels, known gaps, and next-step implications before deciding whether to build a local assessment lab, improve evaluation criteria, harden runtime gates, or prepare controlled demos.
+
+It is inventory and planning only. It does not authorize runtime execution, scanning, credential injection, customer-target operation, production deployment, certification, legal approval, or audit opinion.
+
+See `docs/78-v061-capability-inventory-and-maturity-map.md`.

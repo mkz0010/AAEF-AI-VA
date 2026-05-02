@@ -570,3 +570,14 @@ Purpose:
 - Separate planning, evaluation, implementation, demo, and commercial-readiness workstreams.
 - Prioritize decisions that reduce rework before enabling any runtime capability.
 - Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.
+
+## v0.6.1 Capability inventory and maturity map
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Inventory existing AAEF-AI-VA capabilities before new implementation work.
+- Map each capability to a maturity level from L0 through L6.
+- Identify which capabilities are demonstrated locally, which remain planning-only, and which remain intentionally blocked.
+- Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.

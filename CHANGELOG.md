@@ -254,3 +254,9 @@
 - Added a v0.6.0 implementation and evaluation work-ordering checkpoint.
 - Documented workstream ordering across capability inventory, evaluation criteria, local lab decisioning, runtime boundary hardening, demonstration planning, and commercial PoC readiness.
 - Added a local validation test confirming v0.6.0 sequencing preserves runtime-execution and scanning boundaries.
+
+## v0.6.1 - Capability inventory and maturity map
+
+- Added a v0.6.1 capability inventory and maturity map.
+- Documented current capabilities, maturity levels, supporting artifacts, known gaps, and next-step implications across control gates, evidence/report flow, runtime boundaries, preflight scaffolding, governance, public trust, and future local-lab/commercial-PoC paths.
+- Added a local validation test confirming the inventory preserves runtime-execution and scanning boundaries.
