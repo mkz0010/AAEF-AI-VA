@@ -74,6 +74,7 @@ def main() -> int:
     run([sys.executable, "tools/test_v061_capability_inventory_maturity_map.py"])
     run([sys.executable, "tools/test_v062_evaluation_criteria_acceptance_model.py"])
     run([sys.executable, "tools/test_v063_safety_boundary_non_goal_review.py"])
+    run([sys.executable, "tools/test_v064_local_assessment_lab_decision_record.py"])
     print("All local checks passed.")
     return 0
 

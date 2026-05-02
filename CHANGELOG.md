@@ -272,3 +272,10 @@
 - Added a v0.6.3 safety boundary and non-goal review.
 - Documented hard non-goals, intentionally blocked capabilities, local-lab constraints, demo constraints, commercial-PoC constraints, fail-closed requirements, unsafe implication checks, and advancement conditions.
 - Added a local validation test confirming the safety boundary and non-goal review preserves runtime-execution and scanning boundaries.
+
+## v0.6.4 - Local assessment lab decision record
+
+- Added a v0.6.4 local assessment lab decision record.
+- Decided to proceed with documentation-only local lab profile and dry-run planning while deferring localhost-only controlled execution.
+- Documented selected lab option, rejected options, entry criteria, exit criteria, allowed artifacts, prohibited behavior, local-only assumptions, and next-step implications.
+- Added a local validation test confirming the lab decision preserves runtime-execution and scanning boundaries.

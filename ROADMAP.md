@@ -603,3 +603,14 @@ Purpose:
 - Preserve hard non-goals around runtime execution, live scanning, credential injection, customer-target operation, production deployment, certification, legal approval, and audit opinion.
 - Define the conditions that must be satisfied before any later local lab, demo, runtime gate hardening, or commercial PoC work.
 - Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.
+
+## v0.6.4 Local assessment lab decision record
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Decide whether and how AAEF-AI-VA should proceed toward a local assessment lab.
+- Select a conservative local lab path before implementation expands.
+- Preserve documentation-only and dry-run planning before any localhost-only controlled behavior.
+- Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.

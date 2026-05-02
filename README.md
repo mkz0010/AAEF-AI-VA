@@ -359,3 +359,13 @@ The review reconfirms which capabilities remain intentionally blocked before the
 It is boundary review only. It does not authorize runtime execution, scanning, credential injection, customer-target operation, production deployment, certification, legal approval, or audit opinion.
 
 See `docs/80-v063-safety-boundary-and-non-goal-review.md`.
+
+## v0.6.4 Local Assessment Lab Decision Record
+
+AAEF-AI-VA includes a v0.6.4 local assessment lab decision record.
+
+The record decides that the project may proceed with a documentation-only local lab profile and dry-run planning, but must not build or enable localhost-only controlled execution yet.
+
+It is a decision record only. It does not authorize runtime execution, scanning, credential injection, customer-target operation, production deployment, certification, legal approval, or audit opinion.
+
+See `docs/81-v064-local-assessment-lab-decision-record.md`.
