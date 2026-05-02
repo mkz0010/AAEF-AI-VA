@@ -153,6 +153,21 @@ See `docs/52-preflight-evidence-validation-rules.md`.
 
 ## License
 
+## Public Repository Readiness
+
+This repository is prepared as a local-first implementation project until an explicit public repository readiness checkpoint is satisfied.
+
+The current public-readiness posture is:
+
+- license boundary recorded: AGPL-3.0 for AAEF-AI-VA code
+- AAEF attribution boundary recorded: AAEF remains CC BY 4.0
+- private generated artifacts remain under `private-not-in-git/`
+- runtime execution remains disabled unless future explicit authorization gates are implemented and satisfied
+- external network activity, scan execution, and credential injection remain disabled
+- commercial licensing contact information remains a placeholder until the author publishes a durable contact channel
+
+See `docs/55-public-repository-readiness-checkpoint.md` for the detailed checkpoint.
+
 AAEF-AI-VA is licensed under the GNU Affero General Public License v3.0.
 See [LICENSE](LICENSE) for details.
 

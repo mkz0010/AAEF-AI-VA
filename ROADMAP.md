@@ -307,3 +307,16 @@ This step records the repository licensing and commercial-use boundary:
 - future dependency, contributor, and legal review tasks.
 
 This does not change runtime execution state. Execution remains blocked.
+
+## v0.3.6 Public repository readiness checkpoint
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Confirm that the project is ready to be reviewed before first public repository publication.
+- Keep public-readiness separate from runtime-readiness.
+- Confirm that `private-not-in-git/` remains the generated/private artifact boundary.
+- Confirm that AGPL-3.0 and AAEF CC BY 4.0 attribution are visible before publication.
+- Confirm that runtime execution, external network activity, scan execution, and credential injection remain disabled.
+- Keep commercial licensing contact information as an explicit placeholder until a durable contact channel is chosen.

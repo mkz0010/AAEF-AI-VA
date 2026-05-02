@@ -111,3 +111,9 @@
 - Initial local project scaffold.
 - Local-first project management structure.
 - Draft documents for business planning, architecture, AAEF controls, credential_ref, AI data handling, and exit strategy.
+
+## v0.3.6 - Public repository readiness checkpoint
+
+- Added a public repository readiness checkpoint before GitHub publication.
+- Recorded publication gating checks for README, LICENSE, AGPL/CC BY attribution, private generated artifacts, execution prohibition, and commercial-contact placeholder handling.
+- Added a local validation test for repository publication readiness boundaries.

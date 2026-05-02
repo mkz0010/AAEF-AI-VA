@@ -48,6 +48,7 @@ def main() -> int:
     run([sys.executable, "tools/test_preflight_evidence_validation_rules.py"])
     run([sys.executable, "tools/test_preflight_evidence_negative_examples.py"])
     run([sys.executable, "tools/test_licensing_and_commercial_use_boundary.py"])
+    run([sys.executable, "tools/test_public_repository_readiness_checkpoint.py"])
     print("All local checks passed.")
     return 0
 
