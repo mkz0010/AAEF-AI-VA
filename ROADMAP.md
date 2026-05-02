@@ -11,6 +11,12 @@
 
 ## Phase 1: Technical Prototype
 
+### Evidence Chain Review Linkage
+
+- Added reconstruction chain across request, authorization, execution result, evidence, operator review, human approval, and approval gate records.
+- Added generated private JSON and Markdown evidence chain artifacts.
+
+
 ### Human Approval Record and Gate
 
 - Added explicit human approval records for operator review decisions.

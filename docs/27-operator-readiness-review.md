@@ -116,3 +116,9 @@ Human approval record captures the operator decision that follows review.
 The current MVP can record approval decisions, but approval does not permit real execution.
 
 See `docs/28-human-approval-record-gate.md`.
+
+## Relationship to Evidence Chain
+
+Operator readiness reviews are linked into the evidence chain between execution evidence and human approval records.
+
+See `docs/29-evidence-chain-review-linkage.md`.

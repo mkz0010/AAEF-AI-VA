@@ -4,6 +4,8 @@
 
 ### Added
 
+- Added evidence chain and review decision linkage across request, authorization, execution, evidence, operator review, human approval, and approval gate records.
+
 - Added human approval record and approval gate while keeping real execution disabled in the MVP.
 
 - Added operator readiness review summary for real execution blockers and next actions.

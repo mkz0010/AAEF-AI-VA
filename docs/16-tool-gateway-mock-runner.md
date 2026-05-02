@@ -112,3 +112,9 @@ The tests cover positive scenarios, fail-closed negative scenarios, and generate
 
 
 The next step is to validate generated outputs against schemas and then add explicit negative tests for mismatched authorization.
+
+## Relationship to Evidence Chain
+
+Generated tool execution results and evidence records are linked into the evidence chain with later review and approval artifacts.
+
+See `docs/29-evidence-chain-review-linkage.md`.

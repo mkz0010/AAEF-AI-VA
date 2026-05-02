@@ -115,3 +115,11 @@ Future versions may bind human approval records to:
 - runtime readiness result,
 - evidence store record,
 - SIEM event.
+
+## Relationship to Evidence Chain
+
+Human approval records are linked into the evidence chain with the operator review and approval gate result.
+
+This makes approval decisions reconstructable and prevents approval records from being detached from the command plan they reviewed.
+
+See `docs/29-evidence-chain-review-linkage.md`.
