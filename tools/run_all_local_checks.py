@@ -25,6 +25,7 @@ def main() -> int:
     run([sys.executable, "tools/test_evidence_chain_linkage.py"])
     run([sys.executable, "tools/test_evidence_reconstruction_report.py"])
     run([sys.executable, "tools/test_sanitizer_redaction_policy.py"])
+    run([sys.executable, "tools/test_finding_candidate_model.py"])
     print("All local checks passed.")
     return 0
 

@@ -11,6 +11,12 @@
 
 ## Phase 1: Technical Prototype
 
+### Sanitized Finding Candidate Model
+
+- Added non-report-ready finding candidate model derived from sanitized artifacts.
+- Required human review and conservative severity/confidence defaults before any report workflow.
+
+
 ### Sanitizer and Redaction Policy
 
 - Added sanitizer/redaction policy scaffold before real tool output can become AI-visible.

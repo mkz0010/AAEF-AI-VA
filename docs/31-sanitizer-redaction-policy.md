@@ -104,3 +104,11 @@ Future versions should add:
 - redaction coverage reporting,
 - customer-specific retention settings,
 - policy version binding to evidence records.
+
+## Relationship to Finding Candidates
+
+Sanitized artifacts may be converted into finding candidates.
+
+A finding candidate is not a confirmed vulnerability and must require human review before report use.
+
+See `docs/32-sanitized-finding-candidate-model.md`.

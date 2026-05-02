@@ -4,6 +4,8 @@
 
 ### Added
 
+- Added sanitized finding candidate model for AI-visible-safe review objects derived from sanitized artifacts.
+
 - Added sanitizer and redaction policy scaffold for raw adapter artifacts before AI-visible use.
 
 - Added evidence reconstruction report generation from evidence chain and review decision linkage.

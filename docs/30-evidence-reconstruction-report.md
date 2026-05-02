@@ -100,3 +100,11 @@ The reconstruction report currently asserts that secrets were not exposed to AI 
 The sanitizer/redaction policy scaffold adds a technical boundary for future raw adapter outputs before they become AI-visible.
 
 See `docs/31-sanitizer-redaction-policy.md`.
+
+## Relationship to Finding Candidates
+
+Future reconstruction reports may reference reviewed finding candidates.
+
+The current MVP introduces finding candidates as non-report-ready review objects derived from sanitized artifacts.
+
+See `docs/32-sanitized-finding-candidate-model.md`.
