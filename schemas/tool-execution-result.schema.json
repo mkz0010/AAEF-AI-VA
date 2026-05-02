@@ -1,0 +1,119 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/aaef-ai-va/schemas/tool-execution-result.schema.json",
+  "title": "Tool Execution Result",
+  "description": "Tool Gateway execution result emitted after an authorized or blocked tool action.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "tool_execution_id": {
+      "type": "string",
+      "pattern": "^exec-[A-Za-z0-9._-]+$"
+    },
+    "tool_action_request_id": {
+      "type": "string",
+      "pattern": "^tar-[A-Za-z0-9._-]+$"
+    },
+    "authorization_decision_id": {
+      "type": "string",
+      "pattern": "^authz-[A-Za-z0-9._-]+$"
+    },
+    "execution_status": {
+      "type": "string",
+      "enum": [
+        "completed",
+        "failed",
+        "blocked",
+        "skipped",
+        "requires_human_approval"
+      ]
+    },
+    "target_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scope_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "tool": {
+      "type": "string",
+      "enum": [
+        "zap",
+        "nmap",
+        "nuclei",
+        "browser"
+      ]
+    },
+    "operation": {
+      "type": "string",
+      "enum": [
+        "passive_scan",
+        "authenticated_crawl",
+        "safe_port_discovery",
+        "service_version_detection",
+        "safe_template_scan",
+        "safe_login_check"
+      ]
+    },
+    "credential_ref_used": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1
+    },
+    "credential_resolved_by": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1
+    },
+    "secret_exposed_to_ai": {
+      "type": "boolean",
+      "const": false
+    },
+    "raw_artifact_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "sanitized_artifact_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "started_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "completed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "error_summary": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "tool_execution_id",
+    "tool_action_request_id",
+    "authorization_decision_id",
+    "execution_status",
+    "target_id",
+    "scope_id",
+    "tool",
+    "operation",
+    "secret_exposed_to_ai",
+    "raw_artifact_ref",
+    "sanitized_artifact_ref",
+    "started_at",
+    "completed_at"
+  ]
+}

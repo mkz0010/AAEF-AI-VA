@@ -11,6 +11,13 @@
 
 ## Phase 1: Technical Prototype
 
+### MVP Schema Contract Decision
+
+- Tool Gateway implementation will use explicit JSON schema contracts.
+- MVP schemas cover tool_action_request, authorization_decision, tool_execution_result, and evidence_record.
+- Initial schemas constrain tools and operations to the MVP scope.
+
+
 ### Tool Gateway MVP Decision
 
 - Tool Gateway is the trusted execution boundary between AI requests and real diagnostic tools.

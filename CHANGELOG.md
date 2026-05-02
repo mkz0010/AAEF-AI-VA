@@ -4,6 +4,9 @@
 
 ### Added
 
+- Added MVP schema contracts for tool action requests, authorization decisions, tool execution results, and evidence records.
+- Added lightweight schema validation script.
+
 - Defined Tool Gateway MVP design as the trusted execution control boundary.
 - Added ADR for treating Tool Gateway as a trusted control boundary rather than a generic command executor.
 

@@ -1,0 +1,144 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/aaef-ai-va/schemas/authorization-decision.schema.json",
+  "title": "Authorization Decision",
+  "description": "AAEF Authorization Gateway decision for a requested tool action.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "authorization_decision_id": {
+      "type": "string",
+      "pattern": "^authz-[A-Za-z0-9._-]+$"
+    },
+    "tool_action_request_id": {
+      "type": "string",
+      "pattern": "^tar-[A-Za-z0-9._-]+$"
+    },
+    "decided_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "expires_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "decision": {
+      "type": "string",
+      "enum": [
+        "allow",
+        "deny",
+        "require_human_approval"
+      ]
+    },
+    "action_type": {
+      "type": "string",
+      "const": "tool_execution"
+    },
+    "target_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scope_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "tool": {
+      "type": "string",
+      "enum": [
+        "zap",
+        "nmap",
+        "nuclei",
+        "browser"
+      ]
+    },
+    "operation": {
+      "type": "string",
+      "enum": [
+        "passive_scan",
+        "authenticated_crawl",
+        "safe_port_discovery",
+        "service_version_detection",
+        "safe_template_scan",
+        "safe_login_check"
+      ]
+    },
+    "credential_ref": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1
+    },
+    "constraints": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "rate_limit": {
+          "type": "string",
+          "enum": [
+            "none",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        "destructive_tests": {
+          "type": "boolean"
+        },
+        "external_discovery": {
+          "type": "boolean"
+        },
+        "evidence_required": {
+          "type": "boolean"
+        },
+        "max_duration_seconds": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "allowed_time_window_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        }
+      },
+      "required": [
+        "rate_limit",
+        "destructive_tests",
+        "external_discovery",
+        "evidence_required"
+      ]
+    },
+    "human_review_required": {
+      "type": "boolean"
+    },
+    "evidence_required": {
+      "type": "boolean"
+    },
+    "policy_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "decision_reason": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "authorization_decision_id",
+    "tool_action_request_id",
+    "decided_at",
+    "expires_at",
+    "decision",
+    "action_type",
+    "target_id",
+    "scope_id",
+    "tool",
+    "operation",
+    "constraints",
+    "human_review_required",
+    "evidence_required",
+    "policy_version",
+    "decision_reason"
+  ]
+}

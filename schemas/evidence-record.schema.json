@@ -1,0 +1,122 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/aaef-ai-va/schemas/evidence-record.schema.json",
+  "title": "Evidence Record",
+  "description": "Evidence Store record linking request, authorization, execution, sanitized artifact, and human review status.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "evidence_id": {
+      "type": "string",
+      "pattern": "^ev-[A-Za-z0-9._-]+$"
+    },
+    "tool_execution_id": {
+      "type": "string",
+      "pattern": "^exec-[A-Za-z0-9._-]+$"
+    },
+    "tool_action_request_id": {
+      "type": "string",
+      "pattern": "^tar-[A-Za-z0-9._-]+$"
+    },
+    "authorization_decision_id": {
+      "type": "string",
+      "pattern": "^authz-[A-Za-z0-9._-]+$"
+    },
+    "target_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scope_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "tool": {
+      "type": "string",
+      "enum": [
+        "zap",
+        "nmap",
+        "nuclei",
+        "browser"
+      ]
+    },
+    "operation": {
+      "type": "string",
+      "enum": [
+        "passive_scan",
+        "authenticated_crawl",
+        "safe_port_discovery",
+        "service_version_detection",
+        "safe_template_scan",
+        "safe_login_check"
+      ]
+    },
+    "credential_ref_used": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1
+    },
+    "secret_exposed_to_ai": {
+      "type": "boolean",
+      "const": false
+    },
+    "raw_artifact_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "sanitized_artifact_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "sanitization_status": {
+      "type": "string",
+      "enum": [
+        "not_required",
+        "completed",
+        "failed"
+      ]
+    },
+    "finding_candidate_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "human_review_status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "approved",
+        "rejected",
+        "needs_revision",
+        "not_required"
+      ]
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "evidence_id",
+    "tool_execution_id",
+    "tool_action_request_id",
+    "authorization_decision_id",
+    "target_id",
+    "scope_id",
+    "tool",
+    "operation",
+    "secret_exposed_to_ai",
+    "raw_artifact_ref",
+    "sanitized_artifact_ref",
+    "sanitization_status",
+    "finding_candidate_ids",
+    "human_review_status",
+    "created_at"
+  ]
+}

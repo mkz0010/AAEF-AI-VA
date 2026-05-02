@@ -248,6 +248,18 @@ Tool Gateway must fail closed when:
 
 ## MVP Action Model
 
+## Schema Contract Dependency
+
+Tool Gateway MVP implementation should consume and emit the schema contracts defined in `docs/14-mvp-schemas.md`.
+
+The relevant schema files are:
+
+- `schemas/tool-action-request.schema.json`
+- `schemas/authorization-decision.schema.json`
+- `schemas/tool-execution-result.schema.json`
+- `schemas/evidence-record.schema.json`
+
+
 An MVP tool action request may look like:
 
 ~~~json
