@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Add v0.3.5 licensing and commercial-use boundary with AGPL-3.0 repository license, AAEF/CC BY 4.0 attribution, commercial license inquiry language, and local validation.
+
 ### Added
 
 - Added v0.3.4 negative preflight evidence examples to document and validate representative invalid evidence claims that must fail closed without satisfying preflight or authorizing runtime execution.

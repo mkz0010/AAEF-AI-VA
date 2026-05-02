@@ -150,3 +150,21 @@ v0.3.3 introduces preflight evidence validation rules.
 The rules validate generated preflight evidence examples while keeping live evidence validation, preflight satisfaction, execution authorization, and runtime execution disabled.
 
 See `docs/52-preflight-evidence-validation-rules.md`.
+
+## License
+
+AAEF-AI-VA is licensed under the GNU Affero General Public License v3.0.
+See [LICENSE](LICENSE) for details.
+
+This project builds on concepts and documentation from the
+Agentic Authority & Evidence Framework (AAEF), which is licensed under
+Creative Commons Attribution 4.0 International (CC BY 4.0).
+
+AAEF:
+https://github.com/mkz0010/agentic-authority-evidence-framework
+
+AAEF-AI-VA is a separate code implementation project. Use of AAEF-AI-VA
+must comply with AGPL-3.0 unless a separate commercial license has been
+granted by the author.
+
+For commercial licensing inquiries, please contact the author.

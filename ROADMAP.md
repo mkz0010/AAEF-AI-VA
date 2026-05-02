@@ -294,3 +294,16 @@ Status: added.
 Purpose: record and validate representative invalid preflight evidence claims that must fail closed, including missing input evidence, mismatched target binding, stale readiness state, false authorization claims, false preflight satisfaction claims, AI-visible raw evidence, raw artifact capture, example/live evidence confusion, no-egress verification spoofing, and sanitizer boundary verification spoofing.
 
 Boundary: this milestone does not permit live evidence generation, runtime execution, scanning, network activity, external process execution, credential injection, or raw artifact capture.
+
+## v0.3.5 licensing and commercial-use boundary
+
+Status: candidate.
+
+This step records the repository licensing and commercial-use boundary:
+
+- AGPL-3.0 for the AAEF-AI-VA code implementation;
+- CC BY 4.0 attribution boundary for the parent AAEF framework/specification;
+- commercial licensing inquiry language;
+- future dependency, contributor, and legal review tasks.
+
+This does not change runtime execution state. Execution remains blocked.
