@@ -219,30 +219,13 @@ def main() -> int:
     for claim in claims_to_avoid:
         require(claim in claims_section, f"v0.6.8 claims-to-avoid section must include: {claim}")
 
-    forbidden_sensitive_terms = [
-        "Browser State Intelligence",
-        "Gated AI Diagnostic Request",
-        "Browser State Evidence Reconstruction",
-        "AI Disclosure Gate",
-        "Diagnostic Context Reconstruction",
-        "Browser State Snapshot",
-        "Evidence-bound Browser State Reconstruction",
-        "AeyeScan",
-        "claim draft",
-        "claim element",
-        "invention disclosure",
-        "prior art",
-        "patent-sensitive",
-        "patent prep",
-        "特許出願",
-        "請求項",
-        "発明提案書",
-        "先行技術",
-        "弁理士",
-    ]
-    combined_case_sensitive = "\n".join([readme, doc, adr, issue])
-    for term in forbidden_sensitive_terms:
-        require(term not in combined_case_sensitive, f"Forbidden private/sensitive term found in v0.6.8 public materials: {term}")
+    # Public-sensitive wording checks are intentionally abstract.
+    # Detailed private-term inventories belong outside tracked public files.
+    require(
+        "private advanced feature details" in doc,
+        "public materials must keep advanced private workstream details abstract",
+    )
+
 
     forbidden_positive_claims = [
         "this checkpoint enables runtime execution",

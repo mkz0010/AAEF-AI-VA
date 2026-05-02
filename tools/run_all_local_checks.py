@@ -80,6 +80,7 @@ def main() -> int:
     run([sys.executable, "tools/test_v067_observation_normalization_diagnostic_fidelity_risk_review.py"])
     run([sys.executable, "tools/test_v068_demo_scenario_reviewer_walkthrough_planning.py"])
     run([sys.executable, "tools/test_v069_evidence_reconstruction_sample_report_demonstration_planning.py"])
+    run([sys.executable, "tools/test_v0610_safe_docker_lab_roadmap_local_target_candidate_planning.py"])
     print("All local checks passed.")
     return 0
 

@@ -669,3 +669,14 @@ Purpose:
 - Connect approved diagnostic context, AI-generated requests, gate decisions, evidence expectations, finding review, and report packet boundaries.
 - Preserve public-safe wording and avoid private advanced feature details.
 - Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.
+
+## v0.6.10 Safe Docker lab roadmap and local target candidate planning
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Define a safe Docker lab roadmap without enabling Docker execution.
+- Identify local target candidates such as DVWA, OWASP Juice Shop, and WebGoat as future localhost-only candidates.
+- Define candidate acceptance criteria before dry-run or bounded local execution work expands.
+- Preserve disabled runtime execution, network activity, scan execution, credential injection, raw artifact capture, and customer-target boundaries.

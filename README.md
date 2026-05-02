@@ -419,3 +419,13 @@ The checkpoint defines how a public-safe, non-executing demonstration can show t
 It is planning only. It does not authorize runtime execution, scanning, credential injection, customer-target operation, production deployment, certification, legal approval, or audit opinion.
 
 See `docs/86-v069-evidence-reconstruction-and-sample-report-demonstration-planning.md`.
+
+## v0.6.10 Safe Docker Lab Roadmap and Local Target Candidate Planning
+
+AAEF-AI-VA includes a v0.6.10 safe Docker lab roadmap and local target candidate planning checkpoint.
+
+The checkpoint defines how intentionally vulnerable local targets such as DVWA, OWASP Juice Shop, and WebGoat may be considered as future local-only candidates without enabling Docker execution, scan execution, external network testing, credential injection, or customer-target operation.
+
+It is roadmap and candidate planning only. It does not authorize runtime execution, scanning, credential injection, customer-target operation, production deployment, certification, legal approval, or audit opinion.
+
+See `docs/87-v0610-safe-docker-lab-roadmap-and-local-target-candidate-planning.md`.

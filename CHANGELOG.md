@@ -312,3 +312,11 @@
 - Defined public-safe non-executing planning for evidence reconstruction, sample evidence packets, sample report finding demonstration, reviewer questions, and report/delivery boundaries.
 - Preserved the separation between sample evidence demonstration, dry-run behavior, runtime execution, commercial PoC readiness, and delivery authorization.
 - Added a local validation test confirming the evidence/report demonstration plan preserves runtime-execution and scanning boundaries.
+
+## v0.6.10 - Safe Docker lab roadmap and local target candidate planning
+
+- Added a v0.6.10 safe Docker lab roadmap and local target candidate planning checkpoint.
+- Defined local-only target candidate criteria, candidate lab targets, phased roadmap, preflight evidence expectations, human review expectations, network boundary requirements, reset/teardown expectations, and non-proof boundaries.
+- Preserved the separation between local target candidate planning, dry-run behavior, bounded local execution, runtime execution, scan execution, commercial PoC readiness, and customer-target operation.
+- Removed tracked public test inventories of specific private-sensitive terms and replaced them with abstract public-sensitive wording checks.
+- Added a local validation test confirming safe Docker lab roadmap planning preserves runtime-execution and scanning boundaries.
