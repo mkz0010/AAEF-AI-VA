@@ -51,6 +51,7 @@ def main() -> int:
     run([sys.executable, "tools/test_public_repository_readiness_checkpoint.py"])
     run([sys.executable, "tools/test_publication_hygiene_private_artifact_exclusion.py"])
     run([sys.executable, "tools/test_public_security_policy_vulnerability_disclosure.py"])
+    run([sys.executable, "tools/test_first_publication_repository_settings_checklist.py"])
     print("All local checks passed.")
     return 0
 

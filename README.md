@@ -210,3 +210,19 @@ Before public repository publication, the project distinguishes:
 - publication hygiene and private artifact exclusion
 
 See `SECURITY.md` and `docs/57-public-security-policy-and-vulnerability-disclosure-checkpoint.md`.
+
+## First Publication Repository Settings
+
+AAEF-AI-VA includes a first-publication repository settings checklist before any remote repository is created, configured, or pushed.
+
+The checklist separates:
+
+- repository visibility decision: public, private, or staged public
+- repository metadata: description, topics, About sidebar, license display
+- security settings: `SECURITY.md`, private vulnerability reporting, security advisories
+- repository collaboration settings: Issues, Discussions, Wiki, pull requests
+- branch protection or ruleset planning for `main`
+- initial remote setup and push commands as a manual, non-automated step
+- runtime execution authorization, which remains disabled
+
+See `docs/58-first-publication-repository-settings-checklist.md`.

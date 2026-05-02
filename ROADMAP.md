@@ -344,3 +344,15 @@ Purpose:
 - Keep vulnerability reporting separate from commercial licensing inquiries.
 - Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.
 - Prepare the repository for a future durable security reporting channel.
+
+## v0.3.9 First-publication repository settings checklist
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Prepare a manual checklist for the first GitHub repository publication.
+- Decide staged public vs private-first publication without changing local source state.
+- Record repository metadata and settings decisions before any push.
+- Keep GitHub configuration separate from runtime readiness.
+- Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.

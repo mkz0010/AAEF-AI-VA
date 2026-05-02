@@ -129,3 +129,9 @@
 - Added `SECURITY.md` for vulnerability disclosure posture, supported-version posture, scope, out-of-scope items, and safe testing expectations.
 - Added a public security policy checkpoint that separates vulnerability reporting from commercial licensing and runtime authorization.
 - Added a local validation test for security policy and vulnerability disclosure boundaries.
+
+## v0.3.9 - First-publication repository settings checklist
+
+- Added a first-publication repository settings checklist for GitHub repository creation and configuration.
+- Recorded visibility, metadata, security, collaboration, branch protection/ruleset, and initial remote setup decision points.
+- Added a local validation test that confirms first-publication guidance does not create a remote, push code, or weaken runtime execution boundaries.
