@@ -526,3 +526,14 @@ Purpose:
 - Provide role-based reviewer navigation for technical, security, commercial, licensing, and maintainer-operations review.
 - Connect public trust signals such as license, security policy, CI, release governance, and repository governance.
 - Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.
+
+## v0.5.8 Public front page and repository landing polish checkpoint
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Improve the repository's value as a public product introduction page.
+- Define first-minute reviewer goals without turning the repository into a sales deck.
+- Preserve safety, license, governance, and commercial-use boundaries.
+- Keep runtime execution, network activity, scan execution, credential injection, and raw artifact capture disabled.

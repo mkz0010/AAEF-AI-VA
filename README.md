@@ -289,3 +289,13 @@ The checkpoint gives first-time reviewers a role-based reading path for technica
 It is a public navigation aid only and does not claim production readiness, certification, legal approval, audit opinion, scan authorization, or customer-target authorization.
 
 See `docs/73-public-trust-and-reviewer-navigation-checkpoint.md`.
+
+## Public Front Page and Repository Landing Polish
+
+AAEF-AI-VA includes a public front page and repository landing polish checkpoint.
+
+The checkpoint records how the repository should introduce itself to first-time readers: concise value proposition, clear safety boundaries, role-based navigation, trust signals, and commercial-use boundaries.
+
+It is presentation and navigation polish only. It does not authorize runtime execution, scanning, credential injection, customer-target operation, production deployment, certification, legal approval, or audit opinion.
+
+See `docs/74-public-front-page-and-repository-landing-polish-checkpoint.md`.

@@ -230,3 +230,9 @@
 - Added a public trust and reviewer navigation checkpoint.
 - Documented role-based reading paths for technical reviewers, security reviewers, commercial reviewers, licensing reviewers, and maintainer operations reviewers.
 - Added a local validation test confirming reviewer navigation preserves runtime-execution and scanning boundaries.
+
+## v0.5.8 - Public front page and repository landing polish checkpoint
+
+- Added a public front page and repository landing polish checkpoint.
+- Documented above-the-fold README expectations, first-minute reviewer goals, trust-signal placement, role-based navigation placement, and product-introduction boundaries.
+- Added a local validation test confirming front-page polish preserves runtime-execution and scanning boundaries.
