@@ -11,6 +11,12 @@
 
 ## Phase 1: Technical Prototype
 
+### Local Target Lab Profile
+
+- Added v0.2.1 local target lab profile before bounded execution work.
+- Restricted future target consideration to localhost/Docker-internal intentionally vulnerable lab targets while keeping scan execution disabled.
+
+
 ### Controlled Local Runtime Readiness
 
 - Added v0.2.0 controlled local ZAP runtime readiness.

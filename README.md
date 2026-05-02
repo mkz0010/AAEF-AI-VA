@@ -40,3 +40,11 @@ v0.2.0 introduces controlled local ZAP runtime readiness.
 This is detection-only: it may record whether a local ZAP runtime appears available, but it does not start ZAP, run scans, perform network activity, inject credentials, or capture raw runtime artifacts.
 
 See `docs/39-controlled-local-runtime-readiness.md`.
+
+## Local Target Lab Profile
+
+v0.2.1 introduces a local target lab profile.
+
+It defines localhost/Docker-internal intentionally vulnerable lab targets for future bounded execution consideration, while keeping scans, network activity, customer targets, and external targets disabled.
+
+See `docs/40-local-target-lab-profile.md`.

@@ -4,6 +4,8 @@
 
 ### Added
 
+- Added v0.2.1 local target lab profile to define localhost/Docker-internal intentionally vulnerable target boundaries while keeping scans disabled.
+
 - Added v0.2.0 controlled local ZAP runtime readiness with detection-only behavior and no external process execution.
 
 - Added v0.1.30 lifecycle integration checkpoint summarizing stable control/review capabilities and safety invariants before v0.2.x runtime work.

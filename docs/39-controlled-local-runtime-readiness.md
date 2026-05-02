@@ -106,3 +106,11 @@ Future v0.2.x work should add:
 - sanitizer coverage expansion for ZAP artifacts,
 - raw artifact capture boundary design,
 - emergency stop and timeout readiness.
+
+## Relationship to Local Target Lab Profile
+
+Runtime readiness only describes whether a local tool runtime appears available.
+
+The local target lab profile separately defines what a future bounded local execution may point toward. Neither grants execution authority.
+
+See `docs/40-local-target-lab-profile.md`.
