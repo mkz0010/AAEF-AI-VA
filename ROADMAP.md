@@ -11,6 +11,12 @@
 
 ## Phase 1: Technical Prototype
 
+### Controlled Local Runtime Readiness
+
+- Added v0.2.0 controlled local ZAP runtime readiness.
+- Runtime detection remains separate from execution authority, and real execution remains disabled.
+
+
 ### Lifecycle Integration Checkpoint
 
 - Added v0.1.30 lifecycle integration checkpoint before controlled local runtime work.

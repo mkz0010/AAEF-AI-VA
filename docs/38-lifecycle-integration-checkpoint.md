@@ -137,3 +137,11 @@ The next natural phase is v0.2.x, focused on controlled local runtime readiness,
 This project avoids `final` as a lifecycle label for report artifacts.
 
 Artifacts remain reviewable, versioned, and subject to separate authorization gates.
+
+## Relationship to Controlled Local Runtime Readiness
+
+The lifecycle checkpoint is the baseline before controlled local runtime work.
+
+v0.2.0 starts with runtime detection only and keeps real execution, external process execution, and network activity disabled.
+
+See `docs/39-controlled-local-runtime-readiness.md`.

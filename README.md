@@ -32,3 +32,11 @@ The local prototype includes a v0.1.30 lifecycle integration checkpoint.
 It summarizes the current control and review workflow while keeping real execution, network activity, report-ready status, delivery dispatch, and customer delivery disabled.
 
 See `docs/38-lifecycle-integration-checkpoint.md`.
+
+## Controlled Local Runtime Readiness
+
+v0.2.0 introduces controlled local ZAP runtime readiness.
+
+This is detection-only: it may record whether a local ZAP runtime appears available, but it does not start ZAP, run scans, perform network activity, inject credentials, or capture raw runtime artifacts.
+
+See `docs/39-controlled-local-runtime-readiness.md`.
