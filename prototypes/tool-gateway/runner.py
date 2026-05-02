@@ -4,6 +4,7 @@ import argparse
 import sys
 from pathlib import Path
 
+# Allow direct execution from repository root or this directory.
 THIS_DIR = Path(__file__).resolve().parent
 if str(THIS_DIR) not in sys.path:
     sys.path.insert(0, str(THIS_DIR))
@@ -13,6 +14,7 @@ from models import load_json, write_json
 
 
 EXAMPLE_DIR = THIS_DIR / "examples"
+MOCK_VAULT_METADATA = THIS_DIR / "mock_vault" / "metadata.json"
 
 SCENARIOS = {
     "allowed-action": {
@@ -30,14 +32,19 @@ SCENARIOS = {
 }
 
 
+def load_vault_metadata() -> dict:
+    return load_json(MOCK_VAULT_METADATA)
+
+
 def run_scenario(scenario: str, out_dir: Path) -> tuple[Path, Path]:
     if scenario not in SCENARIOS:
         raise SystemExit(f"Unknown scenario: {scenario}. Choose one of: {', '.join(SCENARIOS)}")
 
     request = load_json(SCENARIOS[scenario]["request"])
     decision = load_json(SCENARIOS[scenario]["decision"])
+    vault_metadata = load_vault_metadata()
 
-    result, evidence = run_mock_tool_gateway(request, decision)
+    result, evidence = run_mock_tool_gateway(request, decision, vault_metadata=vault_metadata)
 
     scenario_dir = out_dir / scenario
     result_path = scenario_dir / "tool-execution-result.generated.json"
@@ -51,7 +58,11 @@ def run_scenario(scenario: str, out_dir: Path) -> tuple[Path, Path]:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Run MVP Tool Gateway mock scenarios.")
-    parser.add_argument("scenario", choices=sorted(SCENARIOS.keys()) + ["all"], help="Scenario to run.")
+    parser.add_argument(
+        "scenario",
+        choices=sorted(SCENARIOS.keys()) + ["all"],
+        help="Scenario to run.",
+    )
     parser.add_argument(
         "--out-dir",
         default="private-not-in-git/prototype-runs",
@@ -59,7 +70,9 @@ def main() -> int:
     )
 
     args = parser.parse_args()
+
     out_dir = Path(args.out_dir)
+
     scenarios = sorted(SCENARIOS.keys()) if args.scenario == "all" else [args.scenario]
 
     for scenario in scenarios:

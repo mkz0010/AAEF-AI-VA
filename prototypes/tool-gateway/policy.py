@@ -5,7 +5,7 @@ from typing import Any
 
 
 class PolicyError(ValueError):
-    pass
+    \"\"\"Raised when a Tool Gateway policy or binding check fails.\"\"\"
 
 
 BINDING_FIELDS = [
@@ -33,6 +33,11 @@ def validate_request_decision_binding(
     request: dict[str, Any],
     decision: dict[str, Any],
 ) -> None:
+    \"\"\"Validate that an authorization decision is bound to the request.
+
+    This does not make model output authoritative. It only checks that the
+    Authorization Gateway decision is for the same requested action.
+    \"\"\"
     require_keys(request, BINDING_FIELDS, "tool_action_request")
     require_keys(decision, BINDING_FIELDS + ["decision", "expires_at", "decided_at"], "authorization_decision")
 
@@ -43,7 +48,8 @@ def validate_request_decision_binding(
                 f"request={request.get(field)!r}, decision={decision.get(field)!r}"
             )
 
-    # Stable MVP check: ensure expiry is after decision time without making examples fail as real time passes.
+    # Stable MVP check: ensure expiry is after decision time without making
+    # examples fail as real time passes.
     decided_at = parse_zulu(decision["decided_at"])
     expires_at = parse_zulu(decision["expires_at"])
     if expires_at <= decided_at:
@@ -70,3 +76,79 @@ def decision_to_execution_status(decision: dict[str, Any]) -> str:
 
 def should_resolve_credential(decision: dict[str, Any]) -> bool:
     return decision["decision"] == "allow" and bool(decision.get("credential_ref"))
+
+
+def _credential_entries(vault_metadata: dict[str, Any]) -> list[dict[str, Any]]:
+    entries = vault_metadata.get("credential_refs")
+    if not isinstance(entries, list):
+        raise PolicyError("mock Vault metadata must contain credential_refs list")
+    return entries
+
+
+def find_credential_metadata(
+    credential_ref: str,
+    vault_metadata: dict[str, Any],
+) -> dict[str, Any]:
+    for entry in _credential_entries(vault_metadata):
+        if entry.get("credential_ref") == credential_ref:
+            return entry
+    raise PolicyError(f"credential_ref not found in mock Vault metadata: {credential_ref}")
+
+
+def validate_credential_ref_against_vault_metadata(
+    decision: dict[str, Any],
+    vault_metadata: dict[str, Any] | None,
+) -> dict[str, Any] | None:
+    \"\"\"Validate credential_ref against mock Vault metadata.
+
+    This makes credential_ref a constrained reference rather than a free-form
+    string. It still does not expose or resolve the raw secret.
+    \"\"\"
+    if not should_resolve_credential(decision):
+        return None
+
+    credential_ref = decision.get("credential_ref")
+    if not isinstance(credential_ref, str) or not credential_ref:
+        raise PolicyError("credential_ref must be a non-empty string when credential resolution is required")
+
+    if vault_metadata is None:
+        raise PolicyError("credential_ref requires mock Vault metadata for allowed execution")
+
+    entry = find_credential_metadata(credential_ref, vault_metadata)
+
+    if entry.get("revoked") is True:
+        raise PolicyError(f"credential_ref is revoked: {credential_ref}")
+
+    if entry.get("target_id") != decision.get("target_id"):
+        raise PolicyError(
+            f"credential_ref target mismatch: "
+            f"vault={entry.get('target_id')!r}, decision={decision.get('target_id')!r}"
+        )
+
+    if entry.get("scope_id") != decision.get("scope_id"):
+        raise PolicyError(
+            f"credential_ref scope mismatch: "
+            f"vault={entry.get('scope_id')!r}, decision={decision.get('scope_id')!r}"
+        )
+
+    allowed_tools = entry.get("allowed_tools", [])
+    if decision.get("tool") not in allowed_tools:
+        raise PolicyError(
+            f"credential_ref tool not allowed: tool={decision.get('tool')!r}, allowed={allowed_tools!r}"
+        )
+
+    allowed_operations = entry.get("allowed_operations", [])
+    if decision.get("operation") not in allowed_operations:
+        raise PolicyError(
+            f"credential_ref operation not allowed: "
+            f"operation={decision.get('operation')!r}, allowed={allowed_operations!r}"
+        )
+
+    expires_at = entry.get("expires_at")
+    if not isinstance(expires_at, str):
+        raise PolicyError(f"credential_ref metadata missing expires_at: {credential_ref}")
+
+    if parse_zulu(expires_at) <= parse_zulu(decision["decided_at"]):
+        raise PolicyError(f"credential_ref is expired at decision time: {credential_ref}")
+
+    return entry

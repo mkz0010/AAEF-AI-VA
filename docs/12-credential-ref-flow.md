@@ -357,6 +357,15 @@ Revocation triggers may include:
 
 ## MVP Implementation Guidance
 
+## Mock Vault Metadata Validation
+
+The MVP mock runner validates credential_ref against committed mock metadata.
+
+This metadata is intentionally secretless and validates only constraints such as target, scope, tool, operation, expiry, and revocation.
+
+Raw usernames, passwords, API keys, session cookies, bearer tokens, and other secrets must remain outside Git.
+
+
 For the first local prototype:
 
 - use fictitious credentials only,

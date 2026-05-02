@@ -3,16 +3,29 @@ from __future__ import annotations
 from typing import Any
 
 from models import make_evidence_id, make_execution_id, utc_now_iso
-from policy import decision_to_execution_status, should_resolve_credential, validate_request_decision_binding
+from policy import (
+    decision_to_execution_status,
+    should_resolve_credential,
+    validate_credential_ref_against_vault_metadata,
+    validate_request_decision_binding,
+)
 
 
 def run_mock_tool_gateway(
     request: dict[str, Any],
     decision: dict[str, Any],
+    vault_metadata: dict[str, Any] | None = None,
 ) -> tuple[dict[str, Any], dict[str, Any]]:
+    \"\"\"Run the MVP Tool Gateway mock flow.
+
+    This function does not execute real tools. It validates request/decision
+    binding and emits mock execution/evidence objects.
+    \"\"\"
     validate_request_decision_binding(request, decision)
 
     status = decision_to_execution_status(decision)
+    credential_metadata = validate_credential_ref_against_vault_metadata(decision, vault_metadata)
+
     started_at = utc_now_iso()
     completed_at = started_at
 
@@ -81,5 +94,9 @@ def run_mock_tool_gateway(
         "human_review_status": human_review_status,
         "created_at": utc_now_iso(),
     }
+
+    # Keep credential metadata out of schema-bound records, but access it here
+    # so static checkers do not treat validation as unused.
+    _ = credential_metadata
 
     return result, evidence

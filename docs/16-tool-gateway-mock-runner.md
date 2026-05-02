@@ -55,6 +55,17 @@ This path is intentionally ignored by Git.
 
 ## Safety
 
+## Mock Vault Metadata
+
+The runner loads secretless mock Vault metadata from:
+
+~~~text
+prototypes/tool-gateway/mock_vault/metadata.json
+~~~
+
+This metadata is used to validate credential_ref constraints. It must not contain raw secrets.
+
+
 The mock runner:
 
 - does not execute real tools,

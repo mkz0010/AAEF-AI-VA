@@ -4,6 +4,9 @@
 
 ### Added
 
+- Added mock Vault metadata validation for credential_ref target, scope, tool, operation, expiry, and revocation constraints.
+- Added credential_ref mock Vault negative tests.
+
 - Added Tool Gateway runner self-tests for positive scenarios, generated outputs, and fail-closed negative cases.
 - Added documentation and ADR for Tool Gateway negative tests.
 

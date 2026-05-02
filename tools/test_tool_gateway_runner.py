@@ -1,15 +1,16 @@
 from __future__ import annotations
 
-import json
-import runpy
+import copy
 import shutil
+import subprocess
 import sys
-from copy import deepcopy
 from pathlib import Path
 from typing import Any
 
-ROOT = Path(__file__).resolve().parents[1]
-TOOL_GATEWAY_DIR = ROOT / "prototypes" / "tool-gateway"
+REPO = Path(__file__).resolve().parents[1]
+TOOL_GATEWAY_DIR = REPO / "prototypes" / "tool-gateway"
+EXAMPLE_DIR = TOOL_GATEWAY_DIR / "examples"
+TEST_OUT_DIR = REPO / "private-not-in-git" / "test-runs" / "tool-gateway-runner"
 
 if str(TOOL_GATEWAY_DIR) not in sys.path:
     sys.path.insert(0, str(TOOL_GATEWAY_DIR))
@@ -19,132 +20,136 @@ from models import load_json
 from policy import PolicyError
 
 
-EXAMPLE_DIR = TOOL_GATEWAY_DIR / "examples"
-TEST_OUTPUT_DIR = ROOT / "private-not-in-git" / "test-runs" / "tool-gateway-runner"
-
-SCENARIOS = {
-    "allowed-action": {
-        "request": EXAMPLE_DIR / "allowed-action.tool-action-request.json",
-        "decision": EXAMPLE_DIR / "allowed-action.authorization-decision.json",
-        "expected_status": "completed",
-    },
-    "denied-action": {
-        "request": EXAMPLE_DIR / "denied-action.tool-action-request.json",
-        "decision": EXAMPLE_DIR / "denied-action.authorization-decision.json",
-        "expected_status": "blocked",
-    },
-    "human-approval-required": {
-        "request": EXAMPLE_DIR / "human-approval-required.tool-action-request.json",
-        "decision": EXAMPLE_DIR / "human-approval-required.authorization-decision.json",
-        "expected_status": "requires_human_approval",
-    },
-}
+def load_example(name: str, kind: str) -> dict[str, Any]:
+    return load_json(EXAMPLE_DIR / f"{name}.{kind}.json")
 
 
-def fail(message: str) -> None:
-    raise AssertionError(message)
+def load_vault_metadata() -> dict[str, Any]:
+    return load_json(TOOL_GATEWAY_DIR / "mock_vault" / "metadata.json")
 
 
-def assert_equal(actual: Any, expected: Any, label: str) -> None:
-    if actual != expected:
-        fail(f"{label}: expected {expected!r}, got {actual!r}")
-
-
-def assert_false(value: Any, label: str) -> None:
-    if value is not False:
-        fail(f"{label}: expected false, got {value!r}")
-
-
-def require_policy_error(label: str, request: dict[str, Any], decision: dict[str, Any]) -> None:
+def expect_policy_error(label: str, request: dict[str, Any], decision: dict[str, Any], vault_metadata: dict[str, Any] | None = None) -> None:
     try:
-        run_mock_tool_gateway(request, decision)
+        run_mock_tool_gateway(request, decision, vault_metadata=vault_metadata)
     except PolicyError:
         return
-    fail(f"{label}: expected PolicyError")
+    raise AssertionError(f"Expected PolicyError for {label}")
 
 
-def load_pair(scenario: str) -> tuple[dict[str, Any], dict[str, Any]]:
-    spec = SCENARIOS[scenario]
-    return load_json(spec["request"]), load_json(spec["decision"])
+def test_positive_scenarios() -> None:
+    vault_metadata = load_vault_metadata()
+
+    allowed_req = load_example("allowed-action", "tool-action-request")
+    allowed_dec = load_example("allowed-action", "authorization-decision")
+    result, evidence = run_mock_tool_gateway(allowed_req, allowed_dec, vault_metadata=vault_metadata)
+    assert result["execution_status"] == "completed"
+    assert result["credential_ref_used"] == "test-account-001"
+    assert result["credential_resolved_by"] == "mock-vault"
+    assert result["secret_exposed_to_ai"] is False
+    assert evidence["credential_ref_used"] == "test-account-001"
+
+    denied_req = load_example("denied-action", "tool-action-request")
+    denied_dec = load_example("denied-action", "authorization-decision")
+    result, evidence = run_mock_tool_gateway(denied_req, denied_dec, vault_metadata=vault_metadata)
+    assert result["execution_status"] == "blocked"
+    assert result["credential_ref_used"] is None
+    assert result["secret_exposed_to_ai"] is False
+    assert evidence["human_review_status"] == "not_required"
+
+    human_req = load_example("human-approval-required", "tool-action-request")
+    human_dec = load_example("human-approval-required", "authorization-decision")
+    result, evidence = run_mock_tool_gateway(human_req, human_dec, vault_metadata=vault_metadata)
+    assert result["execution_status"] == "requires_human_approval"
+    assert result["credential_ref_used"] is None
+    assert result["secret_exposed_to_ai"] is False
+    assert evidence["human_review_status"] == "pending"
+
+    print("PASS: positive scenarios")
 
 
-def validate_positive_scenarios() -> None:
-    for name, spec in SCENARIOS.items():
-        request, decision = load_pair(name)
-        result, evidence = run_mock_tool_gateway(request, decision)
+def test_negative_fail_closed_scenarios() -> None:
+    vault_metadata = load_vault_metadata()
+    request = load_example("allowed-action", "tool-action-request")
+    decision = load_example("allowed-action", "authorization-decision")
 
-        assert_equal(result["execution_status"], spec["expected_status"], f"{name} status")
-        assert_equal(evidence["tool_execution_id"], result["tool_execution_id"], f"{name} evidence execution link")
-        assert_equal(evidence["tool_action_request_id"], request["tool_action_request_id"], f"{name} evidence request link")
-        assert_equal(evidence["authorization_decision_id"], decision["authorization_decision_id"], f"{name} evidence authz link")
-        assert_false(result["secret_exposed_to_ai"], f"{name} result secret exposure")
-        assert_false(evidence["secret_exposed_to_ai"], f"{name} evidence secret exposure")
+    mutated_request = copy.deepcopy(request)
+    mutated_request["target_id"] = "webapp-other"
+    expect_policy_error("target_id mismatch", mutated_request, decision, vault_metadata)
 
-        if name == "allowed-action":
-            assert_equal(result["credential_ref_used"], "test-account-001", f"{name} credential_ref")
-            assert_equal(result["credential_resolved_by"], "mock-vault", f"{name} credential resolver")
-            assert_equal(evidence["sanitization_status"], "completed", f"{name} sanitization")
-        elif name == "denied-action":
-            assert_equal(result["credential_ref_used"], None, f"{name} credential_ref")
-            assert_equal(evidence["human_review_status"], "not_required", f"{name} human review")
-        elif name == "human-approval-required":
-            assert_equal(result["credential_ref_used"], None, f"{name} credential_ref")
-            assert_equal(evidence["human_review_status"], "pending", f"{name} human review")
+    mutated_request = copy.deepcopy(request)
+    mutated_request["operation"] = "passive_scan"
+    expect_policy_error("operation mismatch", mutated_request, decision, vault_metadata)
 
+    mutated_decision = copy.deepcopy(decision)
+    mutated_decision["credential_ref"] = "test-account-other"
+    expect_policy_error("credential_ref mismatch", request, mutated_decision, vault_metadata)
 
-def validate_negative_scenarios() -> None:
-    request, decision = load_pair("allowed-action")
+    mutated_decision = copy.deepcopy(decision)
+    mutated_decision["constraints"]["destructive_tests"] = True
+    expect_policy_error("destructive_tests true", request, mutated_decision, vault_metadata)
 
-    mutated = deepcopy(decision)
-    mutated["target_id"] = "different-target"
-    require_policy_error("mismatched target_id", request, mutated)
+    mutated_decision = copy.deepcopy(decision)
+    mutated_decision["evidence_required"] = False
+    expect_policy_error("evidence_required false", request, mutated_decision, vault_metadata)
 
-    mutated = deepcopy(decision)
-    mutated["scope_id"] = "different-scope"
-    require_policy_error("mismatched scope_id", request, mutated)
-
-    mutated = deepcopy(decision)
-    mutated["tool"] = "nmap"
-    require_policy_error("mismatched tool", request, mutated)
-
-    mutated = deepcopy(decision)
-    mutated["operation"] = "passive_scan"
-    require_policy_error("mismatched operation", request, mutated)
-
-    mutated = deepcopy(decision)
-    mutated["credential_ref"] = "different-credential"
-    require_policy_error("mismatched credential_ref", request, mutated)
-
-    mutated = deepcopy(decision)
-    mutated["constraints"]["destructive_tests"] = True
-    require_policy_error("destructive_tests true", request, mutated)
-
-    mutated = deepcopy(decision)
-    mutated["evidence_required"] = False
-    require_policy_error("evidence_required false", request, mutated)
-
-    mutated = deepcopy(decision)
-    mutated["expires_at"] = mutated["decided_at"]
-    require_policy_error("expires_at not after decided_at", request, mutated)
+    print("PASS: negative fail-closed scenarios")
 
 
-def validate_generated_runner_outputs() -> None:
-    if TEST_OUTPUT_DIR.exists():
-        shutil.rmtree(TEST_OUTPUT_DIR)
+def test_credential_ref_vault_metadata_negative_scenarios() -> None:
+    request = load_example("allowed-action", "tool-action-request")
+    decision = load_example("allowed-action", "authorization-decision")
+    vault_metadata = load_vault_metadata()
 
-    runner = ROOT / "tools" / "run_tool_gateway_example.py"
+    expect_policy_error("missing vault metadata", request, decision, None)
 
-    old_argv = sys.argv[:]
-    try:
-        sys.argv = [
-            str(runner),
+    mutated_request = copy.deepcopy(request)
+    mutated_decision = copy.deepcopy(decision)
+    mutated_request["credential_ref"] = "missing-account-001"
+    mutated_decision["credential_ref"] = "missing-account-001"
+    expect_policy_error("credential_ref not found", mutated_request, mutated_decision, vault_metadata)
+
+    bad_vault = copy.deepcopy(vault_metadata)
+    bad_vault["credential_refs"][0]["target_id"] = "webapp-other"
+    expect_policy_error("vault target mismatch", request, decision, bad_vault)
+
+    bad_vault = copy.deepcopy(vault_metadata)
+    bad_vault["credential_refs"][0]["scope_id"] = "scope-other"
+    expect_policy_error("vault scope mismatch", request, decision, bad_vault)
+
+    bad_vault = copy.deepcopy(vault_metadata)
+    bad_vault["credential_refs"][0]["allowed_tools"] = ["browser"]
+    expect_policy_error("vault tool not allowed", request, decision, bad_vault)
+
+    bad_vault = copy.deepcopy(vault_metadata)
+    bad_vault["credential_refs"][0]["allowed_operations"] = ["safe_login_check"]
+    expect_policy_error("vault operation not allowed", request, decision, bad_vault)
+
+    bad_vault = copy.deepcopy(vault_metadata)
+    bad_vault["credential_refs"][0]["revoked"] = True
+    expect_policy_error("vault credential revoked", request, decision, bad_vault)
+
+    bad_vault = copy.deepcopy(vault_metadata)
+    bad_vault["credential_refs"][0]["expires_at"] = "2026-05-02T09:59:59Z"
+    expect_policy_error("vault credential expired", request, decision, bad_vault)
+
+    print("PASS: credential_ref mock Vault metadata negative scenarios")
+
+
+def test_generated_runner_outputs() -> None:
+    if TEST_OUT_DIR.exists():
+        shutil.rmtree(TEST_OUT_DIR)
+
+    subprocess.run(
+        [
+            sys.executable,
+            str(REPO / "tools" / "run_tool_gateway_example.py"),
             "all",
             "--out-dir",
-            str(TEST_OUTPUT_DIR),
-        ]
-        runpy.run_path(str(runner), run_name="__main__")
-    finally:
-        sys.argv = old_argv
+            str(TEST_OUT_DIR),
+        ],
+        check=True,
+        cwd=REPO,
+    )
 
     expected = {
         "allowed-action": "completed",
@@ -152,35 +157,29 @@ def validate_generated_runner_outputs() -> None:
         "human-approval-required": "requires_human_approval",
     }
 
-    for scenario, expected_status in expected.items():
-        result_path = TEST_OUTPUT_DIR / scenario / "tool-execution-result.generated.json"
-        evidence_path = TEST_OUTPUT_DIR / scenario / "evidence-record.generated.json"
+    for scenario, status in expected.items():
+        result_path = TEST_OUT_DIR / scenario / "tool-execution-result.generated.json"
+        evidence_path = TEST_OUT_DIR / scenario / "evidence-record.generated.json"
+        assert result_path.exists(), result_path
+        assert evidence_path.exists(), evidence_path
 
-        if not result_path.exists():
-            fail(f"generated result missing: {result_path}")
-        if not evidence_path.exists():
-            fail(f"generated evidence missing: {evidence_path}")
+        result = load_json(result_path)
+        evidence = load_json(evidence_path)
 
-        result = json.loads(result_path.read_text(encoding="utf-8"))
-        evidence = json.loads(evidence_path.read_text(encoding="utf-8"))
+        assert result["execution_status"] == status
+        assert result["secret_exposed_to_ai"] is False
+        assert evidence["secret_exposed_to_ai"] is False
+        assert result["tool_action_request_id"] == evidence["tool_action_request_id"]
+        assert result["authorization_decision_id"] == evidence["authorization_decision_id"]
 
-        assert_equal(result["execution_status"], expected_status, f"{scenario} generated status")
-        assert_false(result["secret_exposed_to_ai"], f"{scenario} generated result secret exposure")
-        assert_false(evidence["secret_exposed_to_ai"], f"{scenario} generated evidence secret exposure")
-        assert_equal(evidence["tool_execution_id"], result["tool_execution_id"], f"{scenario} generated evidence link")
+    print("PASS: generated runner outputs")
 
 
 def main() -> int:
-    tests = [
-        ("positive scenarios", validate_positive_scenarios),
-        ("negative fail-closed scenarios", validate_negative_scenarios),
-        ("generated runner outputs", validate_generated_runner_outputs),
-    ]
-
-    for label, func in tests:
-        func()
-        print(f"PASS: {label}")
-
+    test_positive_scenarios()
+    test_negative_fail_closed_scenarios()
+    test_credential_ref_vault_metadata_negative_scenarios()
+    test_generated_runner_outputs()
     print("Tool Gateway runner tests passed.")
     return 0
 

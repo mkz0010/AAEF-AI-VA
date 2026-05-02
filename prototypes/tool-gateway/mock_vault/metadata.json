@@ -1,0 +1,24 @@
+{
+  "mock_vault_metadata_version": "mock-vault-v0.1",
+  "credential_refs": [
+    {
+      "credential_ref": "test-account-001",
+      "customer_alias": "customer-demo",
+      "target_id": "webapp-demo-001",
+      "scope_id": "scope-demo-001",
+      "auth_profile": "standard-user",
+      "allowed_tools": [
+        "zap",
+        "browser"
+      ],
+      "allowed_operations": [
+        "authenticated_crawl",
+        "safe_login_check"
+      ],
+      "expires_at": "2026-12-31T23:59:59Z",
+      "revoked": false,
+      "sensitivity_level": "L3",
+      "storage_location": "private-not-in-git/mock-vault/test-account-001.secret.json"
+    }
+  ]
+}

@@ -11,6 +11,13 @@
 
 ## Phase 1: Technical Prototype
 
+### Mock Vault credential_ref Validation
+
+- credential_ref is now validated against secretless mock Vault metadata.
+- Tool Gateway fails closed for unknown, mismatched, revoked, expired, or disallowed credential_ref usage.
+- Raw secrets remain outside Git and outside AI-visible records.
+
+
 ### Tool Gateway Fail-Closed Tests
 
 - Added negative tests for request/authorization mismatches and unsafe constraints.

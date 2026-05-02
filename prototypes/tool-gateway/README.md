@@ -52,6 +52,20 @@ prototypes/tool-gateway/
 
 ## Running the Mock Runner
 
+## Mock Vault Metadata Validation
+
+The mock runner now validates credential_ref against:
+
+- target_id,
+- scope_id,
+- allowed tools,
+- allowed operations,
+- expiry,
+- revocation status.
+
+See `docs/18-mock-vault-credential-ref-validation.md`.
+
+
 ## Running Tests
 
 Run the Tool Gateway runner self-tests from the repository root:

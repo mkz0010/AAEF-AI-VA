@@ -2,6 +2,20 @@
 
 ## Purpose
 
+## credential_ref Metadata Tests
+
+The negative test suite now includes credential_ref mock Vault metadata checks for:
+
+- missing mock Vault metadata,
+- unknown credential_ref,
+- target mismatch,
+- scope mismatch,
+- disallowed tool,
+- disallowed operation,
+- revoked credential_ref,
+- expired credential_ref.
+
+
 This document defines the first negative tests for the Tool Gateway mock runner.
 
 The purpose is to confirm that Tool Gateway behaves as a fail-closed control boundary, not as a convenience wrapper around AI output.
