@@ -11,6 +11,12 @@
 
 ## Phase 1: Technical Prototype
 
+### Report Packet Review Gate
+
+- Added report packet review gate for report packet candidates.
+- Added delivery authorization candidate assembly while keeping delivery authorization required and customer delivery disabled.
+
+
 ### Report Review Gate
 
 - Added report review gate for report findings.

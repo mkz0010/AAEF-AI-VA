@@ -101,3 +101,9 @@ Future versions should add:
 - reviewer identity policy,
 - customer approval linkage,
 - report export controls.
+
+## Relationship to Report Packet Review Gate
+
+A `report_packet_candidate` must pass packet review before it can move toward delivery authorization.
+
+See `docs/36-report-packet-review-gate.md`.

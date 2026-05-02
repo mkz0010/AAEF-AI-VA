@@ -29,6 +29,7 @@ def main() -> int:
     run([sys.executable, "tools/test_finding_review_gate.py"])
     run([sys.executable, "tools/test_report_finding_promotion_gate.py"])
     run([sys.executable, "tools/test_report_review_gate.py"])
+    run([sys.executable, "tools/test_report_packet_review_gate.py"])
     print("All local checks passed.")
     return 0
 

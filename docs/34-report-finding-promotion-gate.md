@@ -104,3 +104,9 @@ Future versions should add:
 A promoted `report_finding` must pass report review before it can move into a report packet candidate.
 
 See `docs/35-report-review-gate.md`.
+
+## Relationship to Packet Review
+
+Report findings can eventually be included in report packet candidates, but packet review is still required before delivery authorization can be considered.
+
+See `docs/36-report-packet-review-gate.md`.

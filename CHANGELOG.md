@@ -4,6 +4,8 @@
 
 ### Added
 
+- Added report packet review gate and delivery authorization candidate assembly while keeping customer delivery disabled.
+
 - Added report review gate and report packet candidate assembly while keeping customer delivery disabled.
 
 - Added report finding promotion gate for confirmed finding reviews while avoiding final lifecycle terminology.
