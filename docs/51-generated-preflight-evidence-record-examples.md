@@ -131,3 +131,11 @@ Future v0.3.x work should add:
 - evidence integrity fields,
 - preflight reconstruction examples,
 - live evidence generation separated from scaffold examples.
+
+## Relationship to Preflight Evidence Validation Rules
+
+Generated preflight evidence examples become input to the preflight evidence validation rules.
+
+Passing validation rules for generated examples does not validate live evidence or authorize execution.
+
+See `docs/52-preflight-evidence-validation-rules.md`.

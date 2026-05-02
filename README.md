@@ -136,3 +136,11 @@ v0.3.2 introduces representative generated preflight evidence record examples.
 The examples demonstrate fail-closed evidence behavior for selected checks while remaining separate from live evidence generation, check satisfaction, preflight satisfaction, and execution authorization.
 
 See `docs/51-generated-preflight-evidence-record-examples.md`.
+
+## Preflight Evidence Validation Rules
+
+v0.3.3 introduces preflight evidence validation rules.
+
+The rules validate generated preflight evidence examples while keeping live evidence validation, preflight satisfaction, execution authorization, and runtime execution disabled.
+
+See `docs/52-preflight-evidence-validation-rules.md`.

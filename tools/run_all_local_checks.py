@@ -45,6 +45,7 @@ def main() -> int:
     run([sys.executable, "tools/test_preflight_check_implementation.py"])
     run([sys.executable, "tools/test_preflight_evidence_record_model.py"])
     run([sys.executable, "tools/test_preflight_evidence_examples.py"])
+    run([sys.executable, "tools/test_preflight_evidence_validation_rules.py"])
     print("All local checks passed.")
     return 0
 

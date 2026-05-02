@@ -11,6 +11,12 @@
 
 ## Phase 1: Technical Prototype
 
+### Preflight Evidence Validation Rules
+
+- Added v0.3.3 preflight evidence validation rules after generated preflight evidence examples.
+- Validated generated examples while preserving the boundary that live evidence, preflight satisfaction, execution authorization, and runtime execution remain disabled.
+
+
 ### Generated Preflight Evidence Record Examples
 
 - Added v0.3.2 generated preflight evidence record examples after the preflight evidence record model.

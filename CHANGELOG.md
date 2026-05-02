@@ -4,6 +4,8 @@
 
 ### Added
 
+- Added v0.3.3 preflight evidence validation rules for generated examples while keeping live evidence validation, preflight satisfaction, and execution disabled.
+
 - Added v0.3.2 generated preflight evidence record examples for representative fail-closed checks while keeping live evidence generation, preflight satisfaction, and execution disabled.
 
 - Added v0.3.1 preflight evidence record model for all required preflight checks while keeping evidence records not generated, preflight unsatisfied, and execution disabled.

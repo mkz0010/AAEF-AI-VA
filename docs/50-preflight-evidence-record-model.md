@@ -149,3 +149,11 @@ The preflight evidence record model becomes input to representative generated pr
 The examples are not live evidence and do not satisfy preflight.
 
 See `docs/51-generated-preflight-evidence-record-examples.md`.
+
+## Relationship to Preflight Evidence Validation Rules
+
+The preflight evidence record model remains the upstream shape for generated examples and validation rules.
+
+Validation rules for generated examples do not satisfy live preflight evidence requirements.
+
+See `docs/52-preflight-evidence-validation-rules.md`.
