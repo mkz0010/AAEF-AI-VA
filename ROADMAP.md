@@ -581,3 +581,14 @@ Purpose:
 - Map each capability to a maturity level from L0 through L6.
 - Identify which capabilities are demonstrated locally, which remain planning-only, and which remain intentionally blocked.
 - Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.
+
+## v0.6.2 Evaluation criteria and acceptance model
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Define how future AAEF-AI-VA capabilities should be evaluated.
+- Establish acceptance criteria before local lab, demo, runtime hardening, or commercial PoC work.
+- Distinguish maturity advancement from unsupported readiness claims.
+- Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.

@@ -260,3 +260,9 @@
 - Added a v0.6.1 capability inventory and maturity map.
 - Documented current capabilities, maturity levels, supporting artifacts, known gaps, and next-step implications across control gates, evidence/report flow, runtime boundaries, preflight scaffolding, governance, public trust, and future local-lab/commercial-PoC paths.
 - Added a local validation test confirming the inventory preserves runtime-execution and scanning boundaries.
+
+## v0.6.2 - Evaluation criteria and acceptance model
+
+- Added a v0.6.2 evaluation criteria and acceptance model.
+- Documented evaluation dimensions, acceptance gates, failure criteria, maturity advancement rules, evidence requirements, review expectations, local-lab decision criteria, demo-readiness criteria, and commercial-PoC boundary criteria.
+- Added a local validation test confirming the evaluation model preserves runtime-execution and scanning boundaries.

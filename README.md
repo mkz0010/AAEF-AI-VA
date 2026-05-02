@@ -339,3 +339,13 @@ The map inventories current capabilities, supporting artifacts, maturity levels,
 It is inventory and planning only. It does not authorize runtime execution, scanning, credential injection, customer-target operation, production deployment, certification, legal approval, or audit opinion.
 
 See `docs/78-v061-capability-inventory-and-maturity-map.md`.
+
+## v0.6.2 Evaluation Criteria and Acceptance Model
+
+AAEF-AI-VA includes a v0.6.2 evaluation criteria and acceptance model.
+
+The model defines how future capabilities should be evaluated before the project proceeds to local lab decisioning, demo walkthroughs, runtime gate hardening, or commercial PoC readiness.
+
+It is evaluation planning only. It does not authorize runtime execution, scanning, credential injection, customer-target operation, production deployment, certification, legal approval, or audit opinion.
+
+See `docs/79-v062-evaluation-criteria-and-acceptance-model.md`.
