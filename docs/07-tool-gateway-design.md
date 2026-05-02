@@ -2,6 +2,22 @@
 
 ## Role
 
+## Trusted Control Boundary
+
+Tool Gateway is a trusted control boundary.
+
+It is the component that prevents AI-generated tool requests from becoming direct execution authority.
+
+Tool Gateway must not be implemented as:
+
+- a generic shell wrapper,
+- an unrestricted command runner,
+- a blind executor of AI-generated commands,
+- a convenience layer that bypasses AAEF authorization.
+
+Tool Gateway must execute only authorized, constrained, known operations through approved tool adapters.
+
+
 Tool Gatewayは、AIからの診断アクション要求を直接実行せず、AAEF Authorization Gatewayによる認可済みアクションのみを診断ツールへ渡す。
 
 ## Initial Tools

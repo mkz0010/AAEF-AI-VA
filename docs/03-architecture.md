@@ -42,6 +42,15 @@ AI does not directly access customer systems, secrets, credentials, or unrestric
 
 ## Trusted Components
 
+## Tool Gateway Boundary
+
+Tool Gateway is the key execution boundary between AI requests and real diagnostic activity.
+
+AI-generated requests must pass through AAEF Authorization Gateway before Tool Gateway executes anything.
+
+Tool Gateway must fail closed when authorization is missing, denied, expired, mismatched, or insufficiently constrained.
+
+
 - AAEF Authorization Gateway
 - Tool Gateway
 - Vault / Credential Store

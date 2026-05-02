@@ -29,6 +29,19 @@ AI output is a request, not authorization.
 
 ### TOOL: Tool Execution Controls
 
+### TGW: Tool Gateway Controls
+
+- TGW-01: Tool Gateway must require a valid authorization_decision_id before execution.
+- TGW-02: Tool Gateway must verify target_id, scope_id, tool, operation, and credential_ref binding.
+- TGW-03: Tool Gateway must expose only narrow approved tool adapter operations.
+- TGW-04: Tool Gateway must reject arbitrary AI-generated shell commands.
+- TGW-05: Tool Gateway must resolve credential_ref only after authorization.
+- TGW-06: Tool Gateway must prevent raw secrets from being returned to AI.
+- TGW-07: Tool Gateway must hand off raw artifacts to Sanitizer / Normalizer.
+- TGW-08: Tool Gateway must emit execution metadata to Evidence Store.
+- TGW-09: Tool Gateway must fail closed when required evidence cannot be recorded.
+
+
 - Tool actions must be requested through Tool Gateway.
 - Tools must not be executed directly by AI.
 - Tool actions must reference approved targets and scopes.

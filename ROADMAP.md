@@ -11,6 +11,14 @@
 
 ## Phase 1: Technical Prototype
 
+### Tool Gateway MVP Decision
+
+- Tool Gateway is the trusted execution boundary between AI requests and real diagnostic tools.
+- Tool Gateway must not execute arbitrary AI-generated shell commands.
+- MVP adapters are ZAP, Nmap, nuclei, and limited browser automation where necessary.
+- Tool Gateway must fail closed on missing, denied, expired, or mismatched authorization.
+
+
 ### credential_ref Flow Decision
 
 - credential_ref is visible to AI as a reference only.
