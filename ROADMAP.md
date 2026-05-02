@@ -592,3 +592,14 @@ Purpose:
 - Establish acceptance criteria before local lab, demo, runtime hardening, or commercial PoC work.
 - Distinguish maturity advancement from unsupported readiness claims.
 - Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.
+
+## v0.6.3 Safety boundary and non-goal review
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Reconfirm what AAEF-AI-VA must not do before local lab decisioning.
+- Preserve hard non-goals around runtime execution, live scanning, credential injection, customer-target operation, production deployment, certification, legal approval, and audit opinion.
+- Define the conditions that must be satisfied before any later local lab, demo, runtime gate hardening, or commercial PoC work.
+- Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.

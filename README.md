@@ -349,3 +349,13 @@ The model defines how future capabilities should be evaluated before the project
 It is evaluation planning only. It does not authorize runtime execution, scanning, credential injection, customer-target operation, production deployment, certification, legal approval, or audit opinion.
 
 See `docs/79-v062-evaluation-criteria-and-acceptance-model.md`.
+
+## v0.6.3 Safety Boundary and Non-Goal Review
+
+AAEF-AI-VA includes a v0.6.3 safety boundary and non-goal review.
+
+The review reconfirms which capabilities remain intentionally blocked before the project proceeds toward local lab decisioning, demo walkthroughs, runtime gate hardening, or commercial PoC readiness.
+
+It is boundary review only. It does not authorize runtime execution, scanning, credential injection, customer-target operation, production deployment, certification, legal approval, or audit opinion.
+
+See `docs/80-v063-safety-boundary-and-non-goal-review.md`.

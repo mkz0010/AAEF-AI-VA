@@ -266,3 +266,9 @@
 - Added a v0.6.2 evaluation criteria and acceptance model.
 - Documented evaluation dimensions, acceptance gates, failure criteria, maturity advancement rules, evidence requirements, review expectations, local-lab decision criteria, demo-readiness criteria, and commercial-PoC boundary criteria.
 - Added a local validation test confirming the evaluation model preserves runtime-execution and scanning boundaries.
+
+## v0.6.3 - Safety boundary and non-goal review
+
+- Added a v0.6.3 safety boundary and non-goal review.
+- Documented hard non-goals, intentionally blocked capabilities, local-lab constraints, demo constraints, commercial-PoC constraints, fail-closed requirements, unsafe implication checks, and advancement conditions.
+- Added a local validation test confirming the safety boundary and non-goal review preserves runtime-execution and scanning boundaries.
