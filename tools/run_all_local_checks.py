@@ -70,6 +70,7 @@ def main() -> int:
     run([sys.executable, "tools/test_public_front_page_landing_polish.py"])
     run([sys.executable, "tools/test_public_evidence_capability_boundary_summary.py"])
     run([sys.executable, "tools/test_public_faq_reviewer_objections.py"])
+    run([sys.executable, "tools/test_v060_implementation_evaluation_work_ordering.py"])
     print("All local checks passed.")
     return 0
 

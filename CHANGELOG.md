@@ -248,3 +248,9 @@
 - Added a public FAQ and reviewer objections handling checkpoint.
 - Documented answers to likely first-time reviewer questions about scope, runtime execution, scanning, AGPL-3.0, commercial licensing, evidence, governance, security reporting, and intentionally blocked capabilities.
 - Added a local validation test confirming FAQ wording preserves runtime-execution and scanning boundaries.
+
+## v0.6.0 - Implementation and evaluation work ordering
+
+- Added a v0.6.0 implementation and evaluation work-ordering checkpoint.
+- Documented workstream ordering across capability inventory, evaluation criteria, local lab decisioning, runtime boundary hardening, demonstration planning, and commercial PoC readiness.
+- Added a local validation test confirming v0.6.0 sequencing preserves runtime-execution and scanning boundaries.

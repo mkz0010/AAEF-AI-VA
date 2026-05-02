@@ -319,3 +319,13 @@ The FAQ gives first-time reviewers direct answers to likely questions about scop
 It is explanatory material only. It does not authorize runtime execution, scanning, credential injection, customer-target operation, production deployment, certification, legal approval, or audit opinion.
 
 See `docs/76-public-faq-and-reviewer-objections-handling.md`.
+
+## v0.6.0 Implementation and Evaluation Work Ordering
+
+AAEF-AI-VA includes a v0.6.0 implementation and evaluation work-ordering checkpoint.
+
+The checkpoint organizes the next phase before choosing whether to start with a local assessment lab, an evaluation matrix, runtime gate hardening, demo scenarios, or commercial PoC preparation.
+
+It is planning and sequencing only. It does not authorize runtime execution, scanning, credential injection, customer-target operation, production deployment, certification, legal approval, or audit opinion.
+
+See `docs/77-v060-implementation-and-evaluation-work-ordering.md`.

@@ -559,3 +559,14 @@ Purpose:
 - Clarify scope, safety boundaries, evidence-backed claims, commercial-use boundaries, and intentionally blocked capabilities.
 - Help the public repository function as a conservative product introduction surface.
 - Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.
+
+## v0.6.0 Implementation and evaluation work ordering
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Organize v0.6.x before deciding whether to start from a local assessment lab.
+- Separate planning, evaluation, implementation, demo, and commercial-readiness workstreams.
+- Prioritize decisions that reduce rework before enabling any runtime capability.
+- Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.
