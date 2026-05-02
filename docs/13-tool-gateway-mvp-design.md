@@ -444,3 +444,13 @@ Before real tool execution is introduced, command plans must pass a controlled e
 In the current MVP, the controlled executor is dry-run-only and rejects non-dry-run execution, arbitrary command fields, secret material, destructive tests, external discovery, and unsafe artifact paths.
 
 See `docs/24-controlled-executor-policy.md`.
+
+## Scope Registry and Target Alias Resolution
+
+Tool Gateway owns target alias resolution.
+
+AI may reference `target_id`, but raw destinations must be resolved through a controlled scope registry before any future execution.
+
+In the current MVP, target bindings remain dry-run-only and do not permit network execution.
+
+See `docs/25-scope-registry-target-alias-resolution.md`.

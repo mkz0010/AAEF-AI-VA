@@ -1,0 +1,62 @@
+{
+  "registry_version": "mvp-scope-registry-v0.1",
+  "targets": {
+    "webapp-demo-001": {
+      "target_type": "web_app",
+      "environment": "demo",
+      "approval_status": "approved",
+      "scope_ids": [
+        "scope-demo-001"
+      ],
+      "allowed_tools": [
+        "zap",
+        "browser"
+      ],
+      "allowed_operations": [
+        "authenticated_crawl",
+        "passive_scan",
+        "safe_login_check"
+      ],
+      "network_destination_ref": "scope-registry://targets/webapp-demo-001",
+      "raw_destination_included": false,
+      "network_execution_allowed": false,
+      "egress_profile": "dry-run-only",
+      "notes": "Fictitious approved demo web application target. No real URL is stored in Git."
+    },
+    "net-demo-001": {
+      "target_type": "network_segment",
+      "environment": "demo",
+      "approval_status": "approved",
+      "scope_ids": [
+        "scope-demo-001"
+      ],
+      "allowed_tools": [
+        "nmap"
+      ],
+      "allowed_operations": [
+        "safe_port_discovery",
+        "service_version_detection"
+      ],
+      "network_destination_ref": "scope-registry://targets/net-demo-001",
+      "raw_destination_included": false,
+      "network_execution_allowed": false,
+      "egress_profile": "dry-run-only",
+      "notes": "Fictitious approved demo network target. No real IP range is stored in Git."
+    },
+    "external-demo-001": {
+      "target_type": "external_candidate",
+      "environment": "demo",
+      "approval_status": "denied",
+      "scope_ids": [
+        "scope-demo-001"
+      ],
+      "allowed_tools": [],
+      "allowed_operations": [],
+      "network_destination_ref": "scope-registry://targets/external-demo-001",
+      "raw_destination_included": false,
+      "network_execution_allowed": false,
+      "egress_profile": "blocked",
+      "notes": "Fictitious denied external discovery candidate."
+    }
+  }
+}

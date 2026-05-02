@@ -2,6 +2,8 @@ from __future__ import annotations
 
 from typing import Any
 
+from scope_registry import validate_command_plan_target_binding
+
 
 class ControlledExecutorError(ValueError):
     pass
@@ -16,6 +18,7 @@ REQUIRED_PLAN_FIELDS = [
     "operation",
     "target_id",
     "scope_id",
+    "target_binding",
     "secret_material_included",
     "approved_constraints",
     "artifact_refs",
@@ -35,6 +38,10 @@ FORBIDDEN_PLAN_FIELDS = {
     "shell_command",
     "command",
     "argv",
+    "target_url",
+    "target_uri",
+    "ip_address",
+    "host",
 }
 
 
@@ -71,6 +78,11 @@ def validate_command_plan_for_dry_run(command_plan: dict[str, Any]) -> None:
         if not isinstance(ref_value, str) or not ref_value.startswith("private-not-in-git/"):
             raise ControlledExecutorError(f"{ref_name} must point to ignored private path")
 
+    try:
+        validate_command_plan_target_binding(command_plan)
+    except Exception as exc:
+        raise ControlledExecutorError(f"target binding validation failed: {exc}") from exc
+
 
 def evaluate_command_plan(command_plan: dict[str, Any]) -> dict[str, Any]:
     validate_command_plan_for_dry_run(command_plan)
@@ -82,6 +94,7 @@ def evaluate_command_plan(command_plan: dict[str, Any]) -> dict[str, Any]:
         "operation": command_plan["operation"],
         "target_id": command_plan["target_id"],
         "scope_id": command_plan["scope_id"],
+        "network_destination_ref": command_plan["target_binding"]["network_destination_ref"],
         "external_process_executed": False,
         "network_activity_performed": False,
         "secret_material_observed": False,

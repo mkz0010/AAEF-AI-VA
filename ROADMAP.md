@@ -11,6 +11,13 @@
 
 ## Phase 1: Technical Prototype
 
+### Scope Registry and Target Alias Resolution
+
+- Added Tool Gateway-controlled scope registry for target aliases.
+- Added target binding to ZAP command plans and dry-run executor validation.
+- Kept raw destinations out of committed registry data and command plans.
+
+
 ### Controlled Executor Policy
 
 - Added dry-run-only executor policy for adapter command plans.

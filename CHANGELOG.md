@@ -4,6 +4,8 @@
 
 ### Added
 
+- Added scope registry and target alias resolution controls for command plans and dry-run executor validation.
+
 - Added dry-run controlled executor policy and tests before real tool execution.
 
 - Added dry-run ZAP adapter command plan support without executing ZAP or external processes.

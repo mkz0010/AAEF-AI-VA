@@ -102,3 +102,11 @@ The ZAP command plan is still not execution authority.
 A future executor must validate the command plan before real tool execution is possible.
 
 In v0.1.16, the controlled executor is dry-run-only and validates that no external process execution is requested.
+
+## Relationship to Scope Registry
+
+The ZAP command plan now receives target binding from the Tool Gateway scope registry.
+
+The plan must not embed raw target URLs or IP addresses.
+
+It should use a scope registry destination reference and let a future controlled executor resolve runtime details only after policy checks.

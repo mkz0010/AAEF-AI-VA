@@ -43,6 +43,7 @@ def main() -> int:
     result = evaluate_command_plan(plan)
 
     assert_true(result["executor_result"] == "accepted_for_dry_run_only", "plan should be accepted only for dry-run")
+    assert_true(result["network_destination_ref"].startswith("scope-registry://"), "executor should use target ref")
     assert_true(result["external_process_executed"] is False, "executor must not execute external process")
     assert_true(result["network_activity_performed"] is False, "executor must not perform network activity")
     assert_true(result["secret_material_observed"] is False, "executor must not observe secret material")
@@ -70,6 +71,18 @@ def main() -> int:
     bad = copy.deepcopy(plan)
     bad["shell_command"] = "zap.sh -cmd -quickurl https://example.invalid"
     expect_executor_error(bad, "shell command field should fail closed")
+
+    bad = copy.deepcopy(plan)
+    bad["target_url"] = "https://example.invalid"
+    expect_executor_error(bad, "raw target URL should fail closed")
+
+    bad = copy.deepcopy(plan)
+    bad["target_binding"]["raw_destination_included"] = True
+    expect_executor_error(bad, "raw destination in target binding should fail closed")
+
+    bad = copy.deepcopy(plan)
+    bad["target_binding"]["network_execution_allowed"] = True
+    expect_executor_error(bad, "network execution allowed should fail closed in dry-run MVP")
 
     bad = copy.deepcopy(plan)
     bad["artifact_refs"]["raw_artifact_ref"] = "tracked/raw.json"

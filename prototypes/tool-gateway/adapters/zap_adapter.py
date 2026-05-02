@@ -4,6 +4,7 @@ from typing import Any
 
 from .base import BaseToolAdapter, ToolAdapterError
 from .command_plan import artifact_refs, make_plan_id, require_no_secret_material
+from scope_registry import resolve_target_binding
 
 
 class ZapAdapter(BaseToolAdapter):
@@ -19,6 +20,13 @@ class ZapAdapter(BaseToolAdapter):
         if decision["operation"] not in self.supported_operations:
             raise ToolAdapterError(f"Unsupported ZAP operation: {decision['operation']}")
 
+        target_binding = resolve_target_binding(
+            target_id=decision["target_id"],
+            scope_id=decision["scope_id"],
+            tool=decision["tool"],
+            operation=decision["operation"],
+        )
+
         execution_id = f"exec-{request['tool_action_request_id'].removeprefix('tar-')}"
         refs = artifact_refs("zap", execution_id)
 
@@ -31,15 +39,17 @@ class ZapAdapter(BaseToolAdapter):
             "operation": decision["operation"],
             "target_id": decision["target_id"],
             "scope_id": decision["scope_id"],
+            "target_binding": target_binding,
             "credential_ref": decision.get("credential_ref"),
             "credential_resolved_by": credential_resolved_by,
             "secret_material_included": False,
             "approved_constraints": decision["constraints"],
             "planned_steps": [
-                "Load approved target alias from scope registry.",
+                "Resolve target_id through Tool Gateway scope registry.",
+                "Load approved target alias without exposing raw destination to AI.",
                 "Create or select ZAP context for approved target.",
                 "Apply authentication profile using credential_ref through Tool Gateway only.",
-                "Run only the approved ZAP operation.",
+                "Run only the approved ZAP operation through a future controlled executor.",
                 "Write raw ZAP output to ignored private artifact path.",
                 "Pass raw output to Sanitizer / Normalizer before AI-visible use.",
             ],
@@ -48,6 +58,7 @@ class ZapAdapter(BaseToolAdapter):
                 "No arbitrary command construction from AI text.",
                 "No direct AI access to ZAP API.",
                 "No raw credential exposure in command plan.",
+                "No raw target destination embedded in command plan.",
                 "No external discovery unless explicitly authorized.",
                 "No destructive tests.",
             ],

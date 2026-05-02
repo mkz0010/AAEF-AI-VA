@@ -100,3 +100,9 @@ This means the project now has both:
 - executor-side acceptance/refusal logic.
 
 Both are required before real tool integration.
+
+## Scope Registry Validation
+
+The controlled executor validates target binding in command plans.
+
+In the current MVP, target binding must use a scope registry destination reference and must not include raw destinations or allow network execution.

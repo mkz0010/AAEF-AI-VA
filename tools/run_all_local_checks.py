@@ -13,6 +13,7 @@ def main() -> int:
     run([sys.executable, "-m", "compileall", "-q", "prototypes", "tools"])
     run([sys.executable, "tools/validate_mvp_schemas.py"])
     run([sys.executable, "tools/validate_mvp_examples.py"])
+    run([sys.executable, "tools/test_scope_registry.py"])
     run([sys.executable, "tools/run_tool_gateway_example.py", "all"])
     run([sys.executable, "tools/validate_generated_outputs.py"])
     run([sys.executable, "tools/test_tool_gateway_runner.py"])
