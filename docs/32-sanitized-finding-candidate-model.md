@@ -114,3 +114,11 @@ Finding candidates must pass human review before they can move toward future rep
 Even confirmed candidates are not report-ready in the current MVP.
 
 See `docs/33-finding-candidate-review-gate.md`.
+
+## Relationship to Report Finding Promotion
+
+Finding candidates cannot become report findings directly.
+
+They must pass finding review first, and only confirmed reviews can enter the report finding promotion gate.
+
+See `docs/34-report-finding-promotion-gate.md`.

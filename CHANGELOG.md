@@ -4,6 +4,8 @@
 
 ### Added
 
+- Added report finding promotion gate for confirmed finding reviews while avoiding final lifecycle terminology.
+
 - Added finding candidate review gate for confirmed, rejected, needs_more_info, duplicate, and false_positive outcomes while keeping report_ready false.
 
 - Added sanitized finding candidate model for AI-visible-safe review objects derived from sanitized artifacts.

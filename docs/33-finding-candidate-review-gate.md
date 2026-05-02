@@ -100,3 +100,11 @@ Future versions should add:
 - customer impact review,
 - remediation guidance review,
 - report draft generation.
+
+## Relationship to Report Finding Promotion Gate
+
+Confirmed finding reviews may move to the report finding promotion gate.
+
+The promoted object is a `report_finding`, but it still requires report review and is not customer-delivery-ready in the current MVP.
+
+See `docs/34-report-finding-promotion-gate.md`.

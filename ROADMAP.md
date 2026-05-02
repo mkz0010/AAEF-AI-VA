@@ -11,6 +11,12 @@
 
 ## Phase 1: Technical Prototype
 
+### Report Finding Promotion Gate
+
+- Added promotion gate from confirmed finding review to report finding.
+- Kept report findings review-required, not report-ready, and not customer-delivery-ready in the MVP.
+
+
 ### Finding Candidate Review Gate
 
 - Added human review gate for sanitized finding candidates.
