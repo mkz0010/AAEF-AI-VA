@@ -11,6 +11,13 @@
 
 ## Phase 1: Technical Prototype
 
+### Tool Gateway Mock Runner
+
+- Added a standard-library-only mock runner before real tool integration.
+- The runner validates request and authorization binding and emits generated execution/evidence records.
+- Generated outputs are written under ignored local private paths.
+
+
 ### Tool Gateway Prototype Scaffold
 
 - Added prototype examples for allowed, denied, and human-approval-required flows.

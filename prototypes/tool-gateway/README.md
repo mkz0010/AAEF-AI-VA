@@ -50,6 +50,25 @@ prototypes/tool-gateway/
 
 ## Expected Next Step
 
+## Running the Mock Runner
+
+Run all mock scenarios from the repository root:
+
+~~~bash
+py tools/run_tool_gateway_example.py all
+~~~
+
+Expected statuses:
+
+~~~text
+allowed-action: completed
+denied-action: blocked
+human-approval-required: requires_human_approval
+~~~
+
+Generated outputs are written under `private-not-in-git/prototype-runs/`.
+
+
 The next implementation step is to add a minimal Python prototype that:
 
 - loads a tool action request,

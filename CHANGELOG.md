@@ -4,6 +4,10 @@
 
 ### Added
 
+- Added standard-library Tool Gateway mock runner for allowed, denied, and human-approval-required scenarios.
+- Added Tool Gateway mock runner documentation and ADR.
+
+
 - Added Tool Gateway prototype scaffold and example contract flows for allowed, denied, and human-approval-required actions.
 - Added MVP example validation script.
 
