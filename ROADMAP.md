@@ -10,6 +10,12 @@
 - Define NDA, AI use, and external AI handling assumptions.
 
 ## Phase 1: Technical Prototype
+### Tool Gateway Adapter Stubs
+
+- Added adapter registry for ZAP, Nmap, nuclei, and browser automation.
+- Completed mock actions now route through adapter stubs.
+- Real tool execution remains deferred until the adapter boundary is proven.
+
 
 ### v0.1.10 Stability Checkpoint
 

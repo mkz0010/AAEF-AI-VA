@@ -65,6 +65,19 @@ private-not-in-git/prototype-runs/
 This path is intentionally ignored by Git.
 
 ## Safety
+## Adapter Stub Layer
+
+As of v0.1.12, completed mock actions are routed through the adapter registry.
+
+Current adapters are stubs only:
+
+- ZAP
+- Nmap
+- nuclei
+- browser
+
+They do not execute real tools.
+
 
 ## Mock Vault Metadata
 

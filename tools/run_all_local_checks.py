@@ -4,20 +4,18 @@ import subprocess
 import sys
 
 
-COMMANDS = [
-    [sys.executable, "-m", "compileall", "-q", "prototypes", "tools"],
-    [sys.executable, "tools/validate_mvp_schemas.py"],
-    [sys.executable, "tools/validate_mvp_examples.py"],
-    [sys.executable, "tools/run_tool_gateway_example.py", "all"],
-    [sys.executable, "tools/test_tool_gateway_runner.py"],
-]
+def run(cmd: list[str]) -> None:
+    print("+", " ".join(cmd))
+    subprocess.run(cmd, check=True)
 
 
 def main() -> int:
-    for command in COMMANDS:
-        print("+", " ".join(command))
-        subprocess.run(command, check=True)
-
+    run([sys.executable, "-m", "compileall", "-q", "prototypes", "tools"])
+    run([sys.executable, "tools/validate_mvp_schemas.py"])
+    run([sys.executable, "tools/validate_mvp_examples.py"])
+    run([sys.executable, "tools/run_tool_gateway_example.py", "all"])
+    run([sys.executable, "tools/test_tool_gateway_runner.py"])
+    run([sys.executable, "tools/test_tool_gateway_adapters.py"])
     print("All local checks passed.")
     return 0
 

@@ -19,6 +19,17 @@ The first prototype should demonstrate:
 7. execution results can be linked to evidence records.
 
 ## Current Contents
+## Adapter Stubs
+
+The prototype includes adapter stubs for:
+
+- ZAP
+- Nmap
+- nuclei
+- browser automation
+
+These adapters do not execute real tools. They expose narrow allowed operations and return mock artifact references.
+
 
 ~~~text
 prototypes/tool-gateway/

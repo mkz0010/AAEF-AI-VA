@@ -335,6 +335,12 @@ A Tool Gateway execution result may look like:
 ~~~
 
 ## Tool Adapter Model
+## Adapter Stub Status
+
+As of v0.1.12, Tool Gateway routes completed mock actions through adapter stubs.
+
+The adapter stubs do not execute real tools. They validate the adapter boundary before real ZAP, Nmap, nuclei, or browser automation integrations are added.
+
 
 Each tool adapter should expose a narrow set of approved operations.
 

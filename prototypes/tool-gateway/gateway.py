@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from typing import Any
 
+from adapters.registry import get_adapter
 from models import make_evidence_id, make_execution_id, utc_now_iso
 from policy import (
     decision_to_execution_status,
@@ -16,16 +17,11 @@ def run_mock_tool_gateway(
     decision: dict[str, Any],
     vault_metadata: dict[str, Any] | None = None,
 ) -> tuple[dict[str, Any], dict[str, Any]]:
-    """Run the MVP Tool Gateway mock flow.
-
-    This function does not execute real tools. It validates request/decision
-    binding and emits mock execution/evidence objects.
-    """
+    """Run the MVP Tool Gateway mock flow through adapter stubs."""
     validate_request_decision_binding(request, decision)
+    validate_credential_ref_against_vault_metadata(decision, vault_metadata=vault_metadata)
 
     status = decision_to_execution_status(decision)
-    credential_metadata = validate_credential_ref_against_vault_metadata(decision, vault_metadata)
-
     started_at = utc_now_iso()
     completed_at = started_at
 
@@ -35,7 +31,10 @@ def run_mock_tool_gateway(
 
     tool_execution_id = make_execution_id(request)
 
+    adapter_output: dict[str, Any] | None = None
     if status == "completed":
+        adapter = get_adapter(decision["tool"])
+        adapter_output = adapter.execute(request, decision, credential_resolved_by)
         raw_artifact_ref = f"private-not-in-git/raw-artifacts/{decision['tool']}/{tool_execution_id}.json"
         sanitized_artifact_ref = f"private-not-in-git/prototype-runs/{tool_execution_id}/sanitized-result.json"
         sanitization_status = "completed"
@@ -76,6 +75,9 @@ def run_mock_tool_gateway(
         "error_summary": error_summary,
     }
 
+    if adapter_output is not None:
+        result["_adapter_output"] = adapter_output
+
     evidence = {
         "evidence_id": make_evidence_id(request),
         "tool_execution_id": tool_execution_id,
@@ -94,9 +96,5 @@ def run_mock_tool_gateway(
         "human_review_status": human_review_status,
         "created_at": utc_now_iso(),
     }
-
-    # Keep credential metadata out of schema-bound records, but access it here
-    # so static checkers do not treat validation as unused.
-    _ = credential_metadata
 
     return result, evidence

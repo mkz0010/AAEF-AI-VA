@@ -3,6 +3,9 @@
 ## Unreleased
 
 ### Added
+- Added Tool Gateway adapter stubs and adapter registry for ZAP, Nmap, nuclei, and browser automation.
+- Routed completed mock Tool Gateway actions through adapter stubs before real tool integration.
+
 
 - Added v0.1.10 stability checkpoint documentation and a single local validation runner.
 
