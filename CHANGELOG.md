@@ -305,3 +305,10 @@
 - Defined a public-safe non-executing walkthrough for explaining AI-visible context, AI-generated `tool_action_request`, gate decisions, evidence expectations, reviewer questions, and non-proof boundaries.
 - Preserved the separation between demo explanation, dry-run behavior, runtime execution, and commercial PoC readiness.
 - Added a local validation test confirming the demo planning preserves runtime-execution and scanning boundaries.
+
+## v0.6.9 - Evidence reconstruction and sample report demonstration planning
+
+- Added a v0.6.9 evidence reconstruction and sample report demonstration planning checkpoint.
+- Defined public-safe non-executing planning for evidence reconstruction, sample evidence packets, sample report finding demonstration, reviewer questions, and report/delivery boundaries.
+- Preserved the separation between sample evidence demonstration, dry-run behavior, runtime execution, commercial PoC readiness, and delivery authorization.
+- Added a local validation test confirming the evidence/report demonstration plan preserves runtime-execution and scanning boundaries.

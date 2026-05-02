@@ -658,3 +658,14 @@ Purpose:
 - Show how the core proposition can be explained without exposing private advanced feature details.
 - Connect approved diagnostic context, AI request generation, gate decision, and evidence expectations.
 - Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.
+
+## v0.6.9 Evidence reconstruction and sample report demonstration planning
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Define how reviewers can inspect a non-executing evidence reconstruction and sample report demonstration.
+- Connect approved diagnostic context, AI-generated requests, gate decisions, evidence expectations, finding review, and report packet boundaries.
+- Preserve public-safe wording and avoid private advanced feature details.
+- Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.

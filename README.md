@@ -409,3 +409,13 @@ The checkpoint defines a public-safe, non-executing reviewer walkthrough that ex
 It is planning only. It does not authorize runtime execution, scanning, credential injection, customer-target operation, production deployment, certification, legal approval, or audit opinion.
 
 See `docs/85-v068-demo-scenario-and-reviewer-walkthrough-planning.md`.
+
+## v0.6.9 Evidence Reconstruction and Sample Report Demonstration Planning
+
+AAEF-AI-VA includes a v0.6.9 evidence reconstruction and sample report demonstration planning checkpoint.
+
+The checkpoint defines how a public-safe, non-executing demonstration can show the relationship between approved diagnostic context, AI-generated `tool_action_request`, gate decisions, expected evidence, finding review, report finding promotion, report packet review, and delivery authorization boundaries.
+
+It is planning only. It does not authorize runtime execution, scanning, credential injection, customer-target operation, production deployment, certification, legal approval, or audit opinion.
+
+See `docs/86-v069-evidence-reconstruction-and-sample-report-demonstration-planning.md`.
