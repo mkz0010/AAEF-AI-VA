@@ -183,3 +183,17 @@ must comply with AGPL-3.0 unless a separate commercial license has been
 granted by the author.
 
 For commercial licensing inquiries, please contact the author.
+
+## Publication Hygiene and Private Artifact Boundary
+
+Before any public push, this repository treats publication hygiene as a separate checkpoint from runtime readiness.
+
+The expected publication hygiene posture is:
+
+- `private-not-in-git/` is excluded from version control
+- generated local evidence, run outputs, and review artifacts are not intended for public publication
+- Python caches and local environment files are excluded
+- repository publication does not authorize runtime execution
+- repository publication does not permit external network activity, scan execution, credential injection, or raw artifact capture
+
+See `docs/56-publication-hygiene-and-private-artifact-exclusion-checkpoint.md` for the detailed checkpoint.

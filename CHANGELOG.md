@@ -117,3 +117,9 @@
 - Added a public repository readiness checkpoint before GitHub publication.
 - Recorded publication gating checks for README, LICENSE, AGPL/CC BY attribution, private generated artifacts, execution prohibition, and commercial-contact placeholder handling.
 - Added a local validation test for repository publication readiness boundaries.
+
+## v0.3.7 - Publication hygiene and private artifact exclusion checkpoint
+
+- Added a publication hygiene checkpoint before public repository publication.
+- Added `.gitignore` coverage for `private-not-in-git/`, generated outputs, Python caches, local environment files, and editor noise.
+- Added a local validation test to confirm private/generated artifacts are not tracked and publication hygiene does not imply runtime readiness.

@@ -37,3 +37,19 @@ node_modules/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# AAEF-AI-VA private/generated/local artifacts
+*.generated.json
+*.generated.md
+
+# Python local artifacts
+*.py[cod]
+*$py.class
+
+# Local environment and secrets
+*.local
+*.log
+
+# Tool and editor noise
+.vscode/
+.idea/

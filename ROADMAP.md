@@ -320,3 +320,15 @@ Purpose:
 - Confirm that AGPL-3.0 and AAEF CC BY 4.0 attribution are visible before publication.
 - Confirm that runtime execution, external network activity, scan execution, and credential injection remain disabled.
 - Keep commercial licensing contact information as an explicit placeholder until a durable contact channel is chosen.
+
+## v0.3.7 Publication hygiene and private artifact exclusion checkpoint
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Prevent generated/private/local artifacts from being accidentally published.
+- Confirm that `private-not-in-git/` remains outside tracked source artifacts.
+- Confirm that generated evidence and local run outputs are excluded by `.gitignore`.
+- Keep publication hygiene separate from runtime readiness.
+- Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.
