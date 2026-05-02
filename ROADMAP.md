@@ -11,6 +11,12 @@
 
 ## Phase 1: Technical Prototype
 
+### Runtime Destination Binding
+
+- Added v0.2.2 scope-registry-style binding between runtime readiness and local target lab profile.
+- Kept scan execution, network activity, real execution, credential injection, raw artifact capture, customer targets, and external targets disabled.
+
+
 ### Local Target Lab Profile
 
 - Added v0.2.1 local target lab profile before bounded execution work.

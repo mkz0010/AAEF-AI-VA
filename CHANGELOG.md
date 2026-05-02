@@ -4,6 +4,8 @@
 
 ### Added
 
+- Added v0.2.2 scope-registry-style runtime destination binding between controlled local runtime readiness and local target lab profiles while keeping execution blocked.
+
 - Added v0.2.1 local target lab profile to define localhost/Docker-internal intentionally vulnerable target boundaries while keeping scans disabled.
 
 - Added v0.2.0 controlled local ZAP runtime readiness with detection-only behavior and no external process execution.

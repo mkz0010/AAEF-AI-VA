@@ -48,3 +48,11 @@ v0.2.1 introduces a local target lab profile.
 It defines localhost/Docker-internal intentionally vulnerable lab targets for future bounded execution consideration, while keeping scans, network activity, customer targets, and external targets disabled.
 
 See `docs/40-local-target-lab-profile.md`.
+
+## Runtime Destination Binding
+
+v0.2.2 introduces scope-registry-style runtime destination binding.
+
+It binds a controlled local ZAP runtime readiness profile to a local lab target profile while keeping scans, network activity, real execution, customer targets, and external targets disabled.
+
+See `docs/41-scope-registry-runtime-destination-binding.md`.

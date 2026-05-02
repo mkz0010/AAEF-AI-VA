@@ -103,3 +103,11 @@ Future v0.2.x work should add:
 - emergency stop and timeout controls,
 - no-egress validation,
 - raw artifact capture boundary.
+
+## Relationship to Runtime Destination Binding
+
+The local target lab profile defines the allowed local target boundary.
+
+The runtime destination binding connects that target boundary to a runtime readiness profile without granting execution authority.
+
+See `docs/41-scope-registry-runtime-destination-binding.md`.
