@@ -187,3 +187,10 @@
 - Added public commercial-adoption boundary documentation covering OSS, commercial licensing, consulting/adoption support, and private sales-pack separation.
 - Added local private sales-pack draft material under `private-not-in-git/` for enterprise outreach planning.
 - Added a local validation test confirming commercial adoption wording preserves runtime-execution and scanning boundaries.
+
+## v0.5.1 - README public baseline and commercial entrypoint cleanup
+
+- Reworked README as the public front door for the current repository baseline.
+- Moved the current public state, authority boundary, validation, security, release, and commercial adoption entrypoint near the top.
+- Removed obsolete local-first/private-by-default public-entry wording.
+- Added a local validation test for README public baseline and commercial entrypoint cleanup.

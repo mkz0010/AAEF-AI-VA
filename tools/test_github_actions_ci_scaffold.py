@@ -107,8 +107,8 @@ def main() -> int:
         "scan execution allowed",
         "credential injection permitted",
         "customer target operation allowed",
-        "production-ready scanner",
-        "autonomous vulnerability scanner",
+        "is a production-ready scanner",
+        "is an autonomous vulnerability scanner",
     ]
     combined_public_text = "\n".join([readme, doc, adr, issue]).lower()
     for claim in forbidden_positive_claims:

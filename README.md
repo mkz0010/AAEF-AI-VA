@@ -1,262 +1,105 @@
-# AAEF-controlled AI Vulnerability Assessment Platform
+# AAEF-AI-VA
 
 [![Validate AAEF-AI-VA artifacts](https://github.com/mkz0010/AAEF-AI-VA/actions/workflows/validate.yml/badge.svg)](https://github.com/mkz0010/AAEF-AI-VA/actions/workflows/validate.yml)
 
-## v0.3.4 Negative preflight evidence examples
-
-v0.3.4 adds representative negative preflight evidence examples. These examples describe invalid, missing, stale, mismatched, or unsafe evidence claims that must be rejected fail-closed.
-
-This release does not generate live evidence, does not satisfy preflight, does not authorize execution, and does not permit runtime scanning, network activity, external process execution, credential injection, or raw artifact capture.
-
 A safety-first reference implementation for AI-assisted vulnerability assessment control boundaries.
 
-This repository is local-first and private by default.
+AAEF-AI-VA demonstrates how AI-assisted vulnerability assessment workflows can remain blocked by default until authorization, contractual scope, Tool Gateway behavior, preflight evidence, and human review gates support the action.
 
-## Core Principle
+## Current public baseline
 
-Model output is not authority.
+| Item | Current state |
+| --- | --- |
+| Repository | `https://github.com/mkz0010/AAEF-AI-VA` |
+| Visibility | Public |
+| Latest repository checkpoint | `v0.5.0` |
+| Latest GitHub Release | `AAEF-AI-VA v0.4.5 Public Launch Communication Package` |
+| Release URL | `https://github.com/mkz0010/AAEF-AI-VA/releases/tag/v0.4.5` |
+| License | GNU Affero General Public License v3.0 |
+| Security policy | `SECURITY.md` |
+| Private vulnerability reporting | Enabled |
+| GitHub Actions | `.github/workflows/validate.yml` |
+| Runtime execution | Disabled |
+| Live scanning | Not authorized |
+| Customer-target operation | Not authorized |
 
-AI output is not authority to perform assessment actions.AI may request assessment actions, but execution is decided by the AAEF Authorization Gateway, Tool Gateway, contractual scope, and human review.
+## Core principle
 
-## Repository Rule
+AI output is not authority to perform assessment actions.
 
+AI may request assessment actions, but execution is decided by the AAEF Authorization Gateway, Tool Gateway, contractual scope, and human review.
 
-## Local Validation
+This repository treats AI output as a request that must pass explicit control boundaries before any assessment action can proceed.
 
-Run the complete local validation set before committing, merging, or tagging implementation changes:
+## What this is
+
+AAEF-AI-VA is:
+
+- a public AGPL-3.0 reference implementation,
+- a control-boundary model for AI-assisted vulnerability assessment,
+- a repository of local validation gates and safety checkpoints,
+- a demonstration of fail-closed authorization, preflight evidence, review, and delivery boundaries,
+- a technical credibility artifact for commercial adoption discussions,
+- a foundation for controlled PoC and advisory conversations.
+
+## What this is not
+
+AAEF-AI-VA is not:
+
+- a production scanner,
+- an autonomous vulnerability scanner,
+- a customer-ready managed assessment platform,
+- a compliance certification scheme,
+- legal advice,
+- an audit opinion,
+- permission to scan third-party systems,
+- permission to inject credentials,
+- permission to operate against customer targets.
+
+## Commercial adoption entrypoint
+
+The public repository is intended to provide technical credibility and reviewable boundaries.
+
+Commercial adoption discussions are separate from vulnerability reports and do not authorize runtime execution, scanning, credential injection, or customer-target operation.
+
+Potential commercial paths include:
+
+- advisory workshop,
+- controlled internal PoC design,
+- AI-assisted assessment workflow architecture review,
+- integration support,
+- commercial license discussion for organizations that cannot use AGPL-3.0 as-is.
+
+See `docs/66-commercial-adoption-preparation-checkpoint.md`.
+
+## Safety and runtime boundary
+
+Runtime execution remains disabled.
+
+The current public implementation does not authorize:
+
+- live scanning,
+- external network testing,
+- credential injection,
+- customer-target operation,
+- unmanaged tool execution,
+- unreviewed report delivery.
+
+Generated local artifacts, private sales materials, and temporary review outputs belong under `private-not-in-git/` and must not be tracked.
+
+## Validation
+
+Run all local checks:
 
 ~~~bash
-py tools/run_all_local_checks.py
+python tools/run_all_local_checks.py
 ~~~
 
-As of `v0.1.10`, the Tool Gateway mock runner baseline is the current stable local checkpoint.
-
-Do not commit raw customer materials, credentials, scan artifacts, personal data, secrets, or confidential client data.
-
-## Local Lifecycle Checkpoint
-
-The local prototype includes a v0.1.30 lifecycle integration checkpoint.
-
-It summarizes the current control and review workflow while keeping real execution, network activity, report-ready status, delivery dispatch, and customer delivery disabled.
-
-See `docs/38-lifecycle-integration-checkpoint.md`.
-
-## Controlled Local Runtime Readiness
-
-v0.2.0 introduces controlled local ZAP runtime readiness.
-
-This is detection-only: it may record whether a local ZAP runtime appears available, but it does not start ZAP, run scans, perform network activity, inject credentials, or capture raw runtime artifacts.
-
-See `docs/39-controlled-local-runtime-readiness.md`.
-
-## Local Target Lab Profile
-
-v0.2.1 introduces a local target lab profile.
-
-It defines localhost/Docker-internal intentionally vulnerable lab targets for future bounded execution consideration, while keeping scans, network activity, customer targets, and external targets disabled.
-
-See `docs/40-local-target-lab-profile.md`.
-
-## Runtime Destination Binding
-
-v0.2.2 introduces scope-registry-style runtime destination binding.
-
-It binds a controlled local ZAP runtime readiness profile to a local lab target profile while keeping scans, network activity, real execution, customer targets, and external targets disabled.
-
-See `docs/41-scope-registry-runtime-destination-binding.md`.
-
-## Bounded Execution Transition Candidate
-
-v0.2.3 introduces a bounded execution transition candidate.
-
-It structures prerequisites for future local-only execution planning while keeping scan execution, network activity, real execution, process execution, credential injection, and raw artifact capture disabled.
-
-See `docs/42-bounded-execution-transition-candidate.md`.
-
-## Local-Only Execution Plan Review
-
-v0.2.4 introduces local-only execution plan review.
-
-It allows only plan-level `runtime_detection` and `health_check_plan_only` while keeping ZAP start/stop/API calls, scans, network activity, credential injection, raw artifact capture, customer targets, and external targets disabled.
-
-See `docs/43-local-only-execution-plan-review.md`.
-
-## Runtime Safety Policy Scaffold
-
-v0.2.5 introduces a no-egress, timeout, and kill-switch policy scaffold.
-
-It defines future safety requirements while keeping ZAP process launch, network activity, scans, credential injection, raw artifact capture, customer targets, and external targets disabled.
-
-See `docs/44-no-egress-timeout-kill-switch-policy.md`.
-
-## Runtime Enforcement Design Scaffold
-
-v0.2.6 introduces a runtime enforcement design scaffold.
-
-It records future components such as preflight check, process wrapper, no-egress guard, timeout watcher, kill-switch controller, evidence emitter, and sanitizer boundary while keeping all runtime enforcement unimplemented and execution disabled.
-
-See `docs/45-runtime-enforcement-design-scaffold.md`.
-
-## Execution Authorization Gate Scaffold
-
-v0.2.7 introduces an execution authorization gate scaffold.
-
-It defines future approval and verification requirements while keeping execution authorization, real execution, process execution, network activity, scans, credential injection, and raw artifact capture disabled.
-
-See `docs/46-execution-authorization-gate-scaffold.md`.
-
-## Preflight Validation Scaffold
-
-v0.2.8 introduces a preflight validation scaffold.
-
-It defines the future execution-before-checklist across runtime readiness, target binding, authorization, approvals, no-egress, timeout, kill-switch, evidence, and sanitizer boundaries while keeping preflight unsatisfied and execution disabled.
-
-See `docs/47-preflight-validation-scaffold.md`.
-
-## Runtime Transition Checkpoint
-
-v0.2.9 introduces a runtime transition checkpoint.
-
-It summarizes v0.2.0 through v0.2.8 and confirms that the project is ready for concrete preflight implementation work, while runtime execution, process launch, network activity, scans, credential injection, raw artifact capture, customer targets, and external targets remain disabled.
-
-See `docs/48-runtime-transition-checkpoint.md`.
-
-## Concrete Preflight Check Implementation Scaffold
-
-v0.3.0 introduces concrete preflight check implementation scaffolding.
-
-Each required preflight check receives input sources, evidence type, fail-closed behavior, and responsibility while all checks remain unimplemented, preflight remains unsatisfied, and execution remains disabled.
-
-See `docs/49-preflight-check-implementation-scaffold.md`.
-
-## Preflight Evidence Record Model
-
-v0.3.1 introduces the preflight evidence record model.
-
-Each required preflight check receives a non-generated evidence record shape with evidence type, input sources, fail-closed behavior, AI visibility boundary, raw artifact boundary, and sanitized summary requirement while execution remains disabled.
-
-See `docs/50-preflight-evidence-record-model.md`.
-
-## Generated Preflight Evidence Record Examples
-
-v0.3.2 introduces representative generated preflight evidence record examples.
-
-The examples demonstrate fail-closed evidence behavior for selected checks while remaining separate from live evidence generation, check satisfaction, preflight satisfaction, and execution authorization.
-
-See `docs/51-generated-preflight-evidence-record-examples.md`.
-
-## Preflight Evidence Validation Rules
-
-v0.3.3 introduces preflight evidence validation rules.
-
-The rules validate generated preflight evidence examples while keeping live evidence validation, preflight satisfaction, execution authorization, and runtime execution disabled.
-
-See `docs/52-preflight-evidence-validation-rules.md`.
-
-## License
-
-## Public Repository Readiness
-
-This repository is prepared as a local-first implementation project until an explicit public repository readiness checkpoint is satisfied.
-
-The current public-readiness posture is:
-
-- license boundary recorded: AGPL-3.0 for AAEF-AI-VA code
-- AAEF attribution boundary recorded: AAEF remains CC BY 4.0
-- private generated artifacts remain under `private-not-in-git/`
-- runtime execution remains disabled unless future explicit authorization gates are implemented and satisfied
-- external network activity, scan execution, and credential injection remain disabled
-- commercial licensing contact information remains a placeholder until the author publishes a durable contact channel
-
-See `docs/55-public-repository-readiness-checkpoint.md` for the detailed checkpoint.
-
-AAEF-AI-VA is licensed under the GNU Affero General Public License v3.0.
-See [LICENSE](LICENSE) for details.
-
-This project builds on concepts and documentation from the
-Agentic Authority & Evidence Framework (AAEF), which is licensed under
-Creative Commons Attribution 4.0 International (CC BY 4.0).
-
-AAEF:
-https://github.com/mkz0010/agentic-authority-evidence-framework
-
-AAEF-AI-VA is a separate code implementation project. Use of AAEF-AI-VA
-must comply with AGPL-3.0 unless a separate commercial license has been
-granted by the author.
-
-For commercial licensing inquiries, please contact the author.
-
-## Publication Hygiene and Private Artifact Boundary
-
-Before any public push, this repository treats publication hygiene as a separate checkpoint from runtime readiness.
-
-The expected publication hygiene posture is:
-
-- `private-not-in-git/` is excluded from version control
-- generated local evidence, run outputs, and review artifacts are not intended for public publication
-- Python caches and local environment files are excluded
-- repository publication does not authorize runtime execution
-- repository publication does not permit external network activity, scan execution, credential injection, or raw artifact capture
-
-See `docs/56-publication-hygiene-and-private-artifact-exclusion-checkpoint.md` for the detailed checkpoint.
-
-## Security Policy
-
-AAEF-AI-VA includes a public security policy and vulnerability disclosure checkpoint.
-
-Before public repository publication, the project distinguishes:
-
-- security vulnerability reports
-- commercial licensing inquiries
-- runtime execution authorization
-- publication hygiene and private artifact exclusion
-
-See `SECURITY.md` and `docs/57-public-security-policy-and-vulnerability-disclosure-checkpoint.md`.
-
-## First Publication Repository Settings
-
-AAEF-AI-VA includes a first-publication repository settings checklist before any remote repository is created, configured, or pushed.
-
-The checklist separates:
-
-- repository visibility decision: public, private, or staged public
-- repository metadata: description, topics, About sidebar, license display
-- security settings: `SECURITY.md`, private vulnerability reporting, security advisories
-- repository collaboration settings: Issues, Discussions, Wiki, pull requests
-- branch protection or ruleset planning for `main`
-- initial remote setup and push commands as a manual, non-automated step
-- runtime execution authorization, which remains disabled
-
-See `docs/58-first-publication-repository-settings-checklist.md`.
-
-## v0.4.0 Public Publication Preparation Release
-
-AAEF-AI-VA v0.4.0 is planned as a public publication preparation release.
-
-This means the repository has accumulated local validation checkpoints for:
-
-- AGPL-3.0 licensing and commercial-use boundary
-- public repository readiness
-- publication hygiene and private artifact exclusion
-- public security policy and vulnerability disclosure posture
-- first-publication repository settings
-
-v0.4.0 does not create a remote repository, push code, change GitHub visibility, enable runtime execution, or authorize scanning.
-
-See `docs/59-v040-publication-preparation-release.md`.
-
-## GitHub Actions CI Scaffold
-
-AAEF-AI-VA includes a minimal GitHub Actions validation workflow.
-
-The workflow is intentionally narrow:
-
-- check out the repository
-- set up Python
-- run `python tools/run_all_local_checks.py`
-- avoid runtime execution, scan execution, credential injection, external network testing, or customer-target testing
-
-See `.github/workflows/validate.yml` and `docs/60-github-actions-ci-scaffold.md`.
+The GitHub Actions workflow also runs the same validation entry point:
+
+~~~text
+.github/workflows/validate.yml
+~~~
 
 ## Public Repository Metadata
 
@@ -265,71 +108,122 @@ Recommended GitHub repository metadata:
 - Repository name: `AAEF-AI-VA`
 - Description: `Safety-first reference implementation for AI-assisted vulnerability assessment control boundaries`
 - URL: `https://github.com/mkz0010/AAEF-AI-VA`
-- Topics: `ai-security`, `vulnerability-assessment`, `agentic-ai`, `security-automation`, `auditability`, `agpl`
+- Topics: `ai-security`, `vulnerability-assessment`, `agentic-ai`, `security-automation`, `auditability`, `agpl`, `ai-assurance`, `security-controls`
 
 See `docs/62-public-facing-repository-metadata-and-announcement-pack.md`.
 
+## License and commercial-use boundary
+
+AAEF-AI-VA code is licensed under the GNU Affero General Public License v3.0.
+
+This project builds on the Agentic Authority & Evidence Framework / AAEF.
+
+Parent AAEF repository: https://github.com/mkz0010/agentic-authority-evidence-framework
+
+AAEF is licensed under CC BY 4.0 (Creative Commons Attribution 4.0 International).
+
+AAEF-AI-VA code is licensed under the GNU Affero General Public License v3.0.
+
+For commercial licensing inquiries, private deployment discussions, proprietary integration, and managed service use, contact the project author. These discussions do not replace AGPL-3.0 obligations unless a separate commercial license is agreed.
+
+See:
+
+- `LICENSE`
+- `docs/54-licensing-and-commercial-use-boundary.md`
+- `docs/66-commercial-adoption-preparation-checkpoint.md`
+
+## Publication Hygiene and Private Artifact Boundary
+
+AAEF-AI-VA keeps publication hygiene and private artifact handling as explicit public repository boundaries.
+
+Private generated artifacts, local run outputs, sales materials, release-note drafts, and customer-specific planning material must remain under `private-not-in-git/` and must not be tracked.
+
+See `docs/56-publication-hygiene-and-private-artifact-exclusion-checkpoint.md`.
+
+## Security Policy
+
+Security reports should follow `SECURITY.md`.
+
+Sensitive vulnerability details should not be posted publicly. Private vulnerability reporting is enabled for this public repository.
+
+See:
+
+- `SECURITY.md`
+- `docs/57-public-security-policy-and-vulnerability-disclosure-checkpoint.md`
+
+## Publication and release checkpoints
+
+The repository records its publication and release state in versioned checkpoints:
+
+- `docs/55-public-repository-readiness-checkpoint.md`
+- `docs/56-publication-hygiene-and-private-artifact-exclusion-checkpoint.md`
+- `docs/58-first-publication-repository-settings-checklist.md`
+- `docs/59-v040-publication-preparation-release.md`
+- `docs/60-github-actions-ci-scaffold.md`
+- `docs/61-readme-public-english-wording-cleanup.md`
+- `docs/62-public-facing-repository-metadata-and-announcement-pack.md`
+- `docs/63-public-repository-launch-checkpoint.md`
+- `docs/64-public-release-notes-and-launch-announcement-package.md`
+- `docs/65-github-release-publication-checkpoint.md`
+- `docs/66-commercial-adoption-preparation-checkpoint.md`
+
+## First Publication Repository Settings
+
+The first-publication repository settings checklist records GitHub repository settings and publication decisions as manual actions.
+
+See `docs/58-first-publication-repository-settings-checklist.md`.
+
+## v0.4.0 Public Publication Preparation Release
+
+v0.4.0 prepared the repository for deliberate public publication.
+
+See `docs/59-v040-publication-preparation-release.md`.
+
+## GitHub Actions CI Scaffold
+
+The GitHub Actions CI scaffold validates the repository without enabling runtime execution.
+
+See `.github/workflows/validate.yml` and `docs/60-github-actions-ci-scaffold.md`.
+
 ## Public Repository Launch Checkpoint
 
-AAEF-AI-VA has a public repository launch checkpoint.
+The public repository launch checkpoint records public visibility, Actions validation, private vulnerability reporting, repository metadata, and continued runtime-execution prohibition.
 
-Recorded public launch state:
-
-- Repository URL: `https://github.com/mkz0010/AAEF-AI-VA`
-- Visibility: public
-- `origin/main`: published
-- GitHub Actions validation: active and passing
-- Private vulnerability reporting: enabled
-- Repository description and topics: configured
-- Issues: enabled
-- Discussions, Wiki, and Projects: disabled
-- Runtime execution: still disabled
+Repository URL: `https://github.com/mkz0010/AAEF-AI-VA`
 
 See `docs/63-public-repository-launch-checkpoint.md`.
 
 ## Public Release Notes and Launch Announcement Package
 
-AAEF-AI-VA includes a public release notes and launch announcement package for post-launch communication.
-
-The package provides:
-
-- GitHub Release notes draft
-- short repository introduction
-- longer public announcement draft
-- LinkedIn-style announcement draft
-- Zenn/Qiita-style technical article lead
-- commercial inquiry wording
-- claim boundaries for public messaging
-- runtime and scanning prohibitions
+The public release notes and launch announcement package records reusable launch communication material and claim boundaries.
 
 See `docs/64-public-release-notes-and-launch-announcement-package.md`.
 
 ## GitHub Release Publication Checkpoint
 
-AAEF-AI-VA includes a GitHub Release publication checkpoint.
+The GitHub Release publication checkpoint records the first public GitHub Release publication.
 
-Recorded release state:
+Release title: `AAEF-AI-VA v0.4.5 Public Launch Communication Package`
 
-- Release tag: `v0.4.5`
-- Release title: `AAEF-AI-VA v0.4.5 Public Launch Communication Package`
-- Release URL: `https://github.com/mkz0010/AAEF-AI-VA/releases/tag/v0.4.5`
-- Release type: Latest
-- Release status: published
-- Release notes source: `private-not-in-git/release-notes/v0.4.5-release-notes.md`
-- Runtime execution: still disabled
+Release URL: `https://github.com/mkz0010/AAEF-AI-VA/releases/tag/v0.4.5`
 
 See `docs/65-github-release-publication-checkpoint.md`.
 
 ## Commercial Adoption Preparation
 
-AAEF-AI-VA includes a commercial adoption preparation checkpoint.
-
-The public repository records only the safe, high-level commercial adoption boundary:
-
-- OSS reference implementation: public, AGPL-3.0
-- commercial licensing discussion: separate from vulnerability reports
-- consulting/adoption support: possible service path
-- customer-specific workflows, pricing, target details, and proposal material: private
-- runtime execution, scanning, credential injection, and customer-target operation: still disabled
+The commercial adoption preparation checkpoint records the public/private commercial-material boundary and targeted enterprise adoption posture.
 
 See `docs/66-commercial-adoption-preparation-checkpoint.md`.
+
+## Historical implementation checkpoints
+
+Earlier implementation and readiness checkpoints remain available in the repository history, docs, changelog, roadmap, and tags.
+
+For current public evaluation, start with:
+
+1. this README,
+2. `SECURITY.md`,
+3. `LICENSE`,
+4. `docs/66-commercial-adoption-preparation-checkpoint.md`,
+5. `docs/65-github-release-publication-checkpoint.md`,
+6. `tools/run_all_local_checks.py`.

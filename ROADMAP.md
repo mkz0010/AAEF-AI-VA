@@ -446,3 +446,14 @@ Purpose:
 - Keep public repository wording credible and technical, not overly sales-oriented.
 - Keep customer-specific sales material, pricing, outreach plans, and proposal drafts private.
 - Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.
+
+## v0.5.1 README public baseline and commercial entrypoint cleanup
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Align README with the public repository and commercial adoption state.
+- Stop older v0.3.x checkpoints from dominating the first public impression.
+- Make the commercial adoption entrypoint visible without converting the repository into a sales deck.
+- Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.

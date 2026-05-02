@@ -83,18 +83,40 @@ def main() -> int:
         require(marker in doc, f"metadata pack doc must preserve marker: {marker}")
 
     forbidden_positive_claims = [
+        "runtime execution: enabled",
         "runtime execution enabled",
+        "network activity: allowed",
         "network activity allowed",
+        "scan execution: allowed",
         "scan execution allowed",
+        "credential injection: permitted",
         "credential injection permitted",
+        "customer target operation: allowed",
         "customer target operation allowed",
-        "production-ready scanner",
-        "autonomous vulnerability scanner",
-        "customer-ready assessment platform",
+        "is a production-ready scanner",
+        "is a production scanner",
+        "is an autonomous vulnerability scanner",
+        "is a customer-ready assessment platform",
+        "is a customer-ready managed assessment platform",
     ]
     combined_public_text = "\n".join([readme, doc, adr, issue]).lower()
     for claim in forbidden_positive_claims:
         require(claim not in combined_public_text, f"Forbidden metadata pack claim found: {claim}")
+
+    if "## What this is not" in readme:
+        what_this_is_not = readme.split("## What this is not", 1)[1].split("## Commercial adoption entrypoint", 1)[0].lower()
+        for avoided_claim in [
+            "production scanner",
+            "autonomous vulnerability scanner",
+            "customer-ready managed assessment platform",
+            "permission to scan third-party systems",
+            "permission to inject credentials",
+            "permission to operate against customer targets",
+        ]:
+            require(
+                avoided_claim in what_this_is_not,
+                f"README What this is not must explicitly list avoided claim: {avoided_claim}",
+            )
 
     print("Public-facing repository metadata and announcement pack tests passed.")
     return 0
