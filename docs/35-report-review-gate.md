@@ -107,3 +107,9 @@ Future versions should add:
 A `report_packet_candidate` must pass packet review before it can move toward delivery authorization.
 
 See `docs/36-report-packet-review-gate.md`.
+
+## Relationship to Delivery Authorization
+
+Report packet candidates may eventually lead to delivery authorization candidates, but delivery authorization is a separate gate and still does not perform customer delivery.
+
+See `docs/37-delivery-authorization-gate.md`.

@@ -105,3 +105,11 @@ Future versions should add:
 - export controls,
 - report packet versioning,
 - post-delivery evidence records.
+
+## Relationship to Delivery Authorization Gate
+
+A `delivery_authorization_candidate` must pass delivery authorization before a delivery package can be generated.
+
+The current MVP may generate a package but still does not perform customer delivery.
+
+See `docs/37-delivery-authorization-gate.md`.

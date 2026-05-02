@@ -4,6 +4,8 @@
 
 ### Added
 
+- Added delivery authorization gate and delivery package generation while keeping customer delivery and dispatch disabled.
+
 - Added report packet review gate and delivery authorization candidate assembly while keeping customer delivery disabled.
 
 - Added report review gate and report packet candidate assembly while keeping customer delivery disabled.

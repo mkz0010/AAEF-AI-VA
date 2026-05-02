@@ -11,6 +11,12 @@
 
 ## Phase 1: Technical Prototype
 
+### Delivery Authorization Gate
+
+- Added delivery authorization gate for delivery authorization candidates.
+- Added delivery package generation while keeping dispatch, customer delivery, and report-ready status disabled.
+
+
 ### Report Packet Review Gate
 
 - Added report packet review gate for report packet candidates.
