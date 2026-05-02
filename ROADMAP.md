@@ -11,6 +11,12 @@
 
 ## Phase 1: Technical Prototype
 
+### Finding Candidate Review Gate
+
+- Added human review gate for sanitized finding candidates.
+- Kept confirmed candidates eligible only for future report promotion review, not report-ready in the MVP.
+
+
 ### Sanitized Finding Candidate Model
 
 - Added non-report-ready finding candidate model derived from sanitized artifacts.

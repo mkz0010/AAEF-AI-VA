@@ -4,6 +4,8 @@
 
 ### Added
 
+- Added finding candidate review gate for confirmed, rejected, needs_more_info, duplicate, and false_positive outcomes while keeping report_ready false.
+
 - Added sanitized finding candidate model for AI-visible-safe review objects derived from sanitized artifacts.
 
 - Added sanitizer and redaction policy scaffold for raw adapter artifacts before AI-visible use.

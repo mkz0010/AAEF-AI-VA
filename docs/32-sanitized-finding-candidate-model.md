@@ -106,3 +106,11 @@ Future versions should add:
 - evidence references,
 - human validation workflow,
 - report finding promotion gate.
+
+## Relationship to Finding Candidate Review Gate
+
+Finding candidates must pass human review before they can move toward future report promotion.
+
+Even confirmed candidates are not report-ready in the current MVP.
+
+See `docs/33-finding-candidate-review-gate.md`.

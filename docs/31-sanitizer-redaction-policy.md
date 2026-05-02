@@ -112,3 +112,11 @@ Sanitized artifacts may be converted into finding candidates.
 A finding candidate is not a confirmed vulnerability and must require human review before report use.
 
 See `docs/32-sanitized-finding-candidate-model.md`.
+
+## Relationship to Finding Review
+
+Sanitized artifacts can become finding candidates, and finding candidates can be reviewed by a human.
+
+The review gate must not reintroduce raw sensitive values.
+
+See `docs/33-finding-candidate-review-gate.md`.
