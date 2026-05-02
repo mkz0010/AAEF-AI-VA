@@ -390,3 +390,14 @@ Purpose:
 - Remove local-management phrasing from the public entry point.
 - Preserve the AAEF authority boundary in English.
 - Keep README polish separate from runtime readiness.
+
+## v0.4.3 Public-facing repository metadata and announcement pack
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Add README validation badge now that the GitHub repository URL is stable.
+- Prepare GitHub About metadata and topic candidates.
+- Prepare public announcement language.
+- Keep public messaging aligned with safety, evidence, authorization, and runtime-execution boundaries.

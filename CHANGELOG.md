@@ -154,3 +154,10 @@
 - Cleaned up README wording for English-first public repository presentation.
 - Replaced Japanese local-management and AI authority wording with public English wording.
 - Added a local validation test to keep the README public entry point English-first while preserving the AAEF authority boundary.
+
+## v0.4.3 - Public-facing repository metadata and announcement pack
+
+- Added a GitHub Actions validation badge to README.
+- Added public repository metadata guidance for GitHub About fields and topics.
+- Added a public-facing announcement draft and claim-boundary guidance.
+- Added a local validation test for repository metadata and announcement positioning.

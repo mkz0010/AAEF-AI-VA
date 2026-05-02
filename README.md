@@ -1,5 +1,7 @@
 # AAEF-controlled AI Vulnerability Assessment Platform
 
+[![Validate AAEF-AI-VA artifacts](https://github.com/mkz0010/AAEF-AI-VA/actions/workflows/validate.yml/badge.svg)](https://github.com/mkz0010/AAEF-AI-VA/actions/workflows/validate.yml)
+
 ## v0.3.4 Negative preflight evidence examples
 
 v0.3.4 adds representative negative preflight evidence examples. These examples describe invalid, missing, stale, mismatched, or unsafe evidence claims that must be rejected fail-closed.
@@ -255,3 +257,14 @@ The workflow is intentionally narrow:
 - avoid runtime execution, scan execution, credential injection, external network testing, or customer-target testing
 
 See `.github/workflows/validate.yml` and `docs/60-github-actions-ci-scaffold.md`.
+
+## Public Repository Metadata
+
+Recommended GitHub repository metadata:
+
+- Repository name: `AAEF-AI-VA`
+- Description: `Safety-first reference implementation for AI-assisted vulnerability assessment control boundaries`
+- URL: `https://github.com/mkz0010/AAEF-AI-VA`
+- Topics: `ai-security`, `vulnerability-assessment`, `agentic-ai`, `security-automation`, `auditability`, `agpl`
+
+See `docs/62-public-facing-repository-metadata-and-announcement-pack.md`.
