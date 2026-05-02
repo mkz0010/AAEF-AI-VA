@@ -356,3 +356,15 @@ Purpose:
 - Record repository metadata and settings decisions before any push.
 - Keep GitHub configuration separate from runtime readiness.
 - Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.
+
+## v0.4.0 Public publication preparation release
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Summarize the public-readiness stack before first GitHub publication.
+- Confirm the repository remains local-only until the author manually creates a remote.
+- Prepare first-publication dry-run and announcement material.
+- Keep public publication preparation separate from runtime readiness.
+- Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.

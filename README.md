@@ -226,3 +226,19 @@ The checklist separates:
 - runtime execution authorization, which remains disabled
 
 See `docs/58-first-publication-repository-settings-checklist.md`.
+
+## v0.4.0 Public Publication Preparation Release
+
+AAEF-AI-VA v0.4.0 is planned as a public publication preparation release.
+
+This means the repository has accumulated local validation checkpoints for:
+
+- AGPL-3.0 licensing and commercial-use boundary
+- public repository readiness
+- publication hygiene and private artifact exclusion
+- public security policy and vulnerability disclosure posture
+- first-publication repository settings
+
+v0.4.0 does not create a remote repository, push code, change GitHub visibility, enable runtime execution, or authorize scanning.
+
+See `docs/59-v040-publication-preparation-release.md`.

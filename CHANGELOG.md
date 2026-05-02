@@ -135,3 +135,10 @@
 - Added a first-publication repository settings checklist for GitHub repository creation and configuration.
 - Recorded visibility, metadata, security, collaboration, branch protection/ruleset, and initial remote setup decision points.
 - Added a local validation test that confirms first-publication guidance does not create a remote, push code, or weaken runtime execution boundaries.
+
+## v0.4.0 - Public publication preparation release
+
+- Added a v0.4.0 public publication preparation release summary.
+- Consolidated the v0.3.5 through v0.3.9 public-readiness stack into a single publication-preparation checkpoint.
+- Added a first-publication dry-run checklist and announcement draft for manual review.
+- Added a local validation test confirming v0.4.0 does not create a remote, push code, change repository visibility, or weaken runtime execution boundaries.
