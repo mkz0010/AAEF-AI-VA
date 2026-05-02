@@ -4,6 +4,8 @@
 
 ### Added
 
+- Fixed remaining escaped Python docstring sequences that prevented Tool Gateway runner validation after v0.1.9.
+
 ### Fixed
 
 - Fixed Tool Gateway mock runner syntax error introduced during mock Vault credential_ref validation.

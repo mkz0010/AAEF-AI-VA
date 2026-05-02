@@ -5,7 +5,7 @@ from typing import Any
 
 
 class PolicyError(ValueError):
-    \"\"\"Raised when a Tool Gateway policy or binding check fails.\"\"\"
+    """Raised when a Tool Gateway policy or binding check fails."""
 
 
 BINDING_FIELDS = [
@@ -33,11 +33,11 @@ def validate_request_decision_binding(
     request: dict[str, Any],
     decision: dict[str, Any],
 ) -> None:
-    \"\"\"Validate that an authorization decision is bound to the request.
+    """Validate that an authorization decision is bound to the request.
 
     This does not make model output authoritative. It only checks that the
     Authorization Gateway decision is for the same requested action.
-    \"\"\"
+    """
     require_keys(request, BINDING_FIELDS, "tool_action_request")
     require_keys(decision, BINDING_FIELDS + ["decision", "expires_at", "decided_at"], "authorization_decision")
 
@@ -99,11 +99,11 @@ def validate_credential_ref_against_vault_metadata(
     decision: dict[str, Any],
     vault_metadata: dict[str, Any] | None,
 ) -> dict[str, Any] | None:
-    \"\"\"Validate credential_ref against mock Vault metadata.
+    """Validate credential_ref against mock Vault metadata.
 
     This makes credential_ref a constrained reference rather than a free-form
     string. It still does not expose or resolve the raw secret.
-    \"\"\"
+    """
     if not should_resolve_credential(decision):
         return None
 
