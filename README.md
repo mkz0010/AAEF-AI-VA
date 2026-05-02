@@ -88,3 +88,11 @@ v0.2.6 introduces a runtime enforcement design scaffold.
 It records future components such as preflight check, process wrapper, no-egress guard, timeout watcher, kill-switch controller, evidence emitter, and sanitizer boundary while keeping all runtime enforcement unimplemented and execution disabled.
 
 See `docs/45-runtime-enforcement-design-scaffold.md`.
+
+## Execution Authorization Gate Scaffold
+
+v0.2.7 introduces an execution authorization gate scaffold.
+
+It defines future approval and verification requirements while keeping execution authorization, real execution, process execution, network activity, scans, credential injection, and raw artifact capture disabled.
+
+See `docs/46-execution-authorization-gate-scaffold.md`.

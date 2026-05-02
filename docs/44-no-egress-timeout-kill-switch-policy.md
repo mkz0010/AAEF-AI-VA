@@ -146,3 +146,9 @@ The no-egress, timeout, and kill-switch policy scaffold becomes input to the run
 The enforcement design still does not implement or authorize runtime execution.
 
 See `docs/45-runtime-enforcement-design-scaffold.md`.
+
+## Relationship to Execution Authorization
+
+No-egress, timeout, and kill-switch requirements must be verified before any future execution authorization can be satisfied.
+
+See `docs/46-execution-authorization-gate-scaffold.md`.

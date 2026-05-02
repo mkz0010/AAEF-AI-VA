@@ -127,3 +127,11 @@ Future v0.2.x work should add:
 - evidence emitter design,
 - sanitizer boundary binding,
 - raw artifact storage boundary.
+
+## Relationship to Execution Authorization Gate
+
+Runtime enforcement design becomes input to the execution authorization gate scaffold.
+
+The authorization scaffold still does not authorize execution.
+
+See `docs/46-execution-authorization-gate-scaffold.md`.

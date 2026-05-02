@@ -11,6 +11,12 @@
 
 ## Phase 1: Technical Prototype
 
+### Execution Authorization Gate Scaffold
+
+- Added v0.2.7 execution authorization gate scaffold after runtime enforcement design.
+- Recorded future authorization requirements while keeping execution authorization and runtime execution disabled.
+
+
 ### Runtime Enforcement Design Scaffold
 
 - Added v0.2.6 runtime enforcement design scaffold after the no-egress, timeout, and kill-switch policy scaffold.
