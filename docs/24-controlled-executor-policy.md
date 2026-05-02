@@ -106,3 +106,11 @@ Both are required before real tool integration.
 The controlled executor validates target binding in command plans.
 
 In the current MVP, target binding must use a scope registry destination reference and must not include raw destinations or allow network execution.
+
+## Relationship to Real Execution Readiness Gate
+
+Controlled executor acceptance is necessary but not sufficient for real execution.
+
+A command plan must also pass the real execution readiness gate before any future bounded execution can be considered.
+
+In the current MVP, the readiness gate keeps real execution disabled.

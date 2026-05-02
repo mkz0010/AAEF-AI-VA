@@ -1,0 +1,15 @@
+{
+  "real_execution_enabled": false,
+  "runtime_configured": false,
+  "egress_profile_configured": false,
+  "artifact_paths_private": true,
+  "sanitizer_configured": false,
+  "stop_timeout_configured": false,
+  "evidence_emission_required": true,
+  "target_binding_approved": false,
+  "credential_injection_policy_configured": false,
+  "human_approval_status": "not_requested",
+  "real_tool_runtime": null,
+  "network_egress_profile": null,
+  "notes": "MVP default: real execution is disabled until a future release explicitly enables and tests bounded execution."
+}

@@ -11,6 +11,12 @@
 
 ## Phase 1: Technical Prototype
 
+### Real Execution Readiness Gate
+
+- Added a readiness gate for future real tool execution prerequisites.
+- Kept real execution disabled by default while surfacing runtime, egress, sanitizer, timeout, evidence, target binding, credential injection, and approval blockers.
+
+
 ### Scope Registry and Target Alias Resolution
 
 - Added Tool Gateway-controlled scope registry for target aliases.

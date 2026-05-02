@@ -19,6 +19,7 @@ def main() -> int:
     run([sys.executable, "tools/test_tool_gateway_runner.py"])
     run([sys.executable, "tools/test_tool_gateway_adapters.py"])
     run([sys.executable, "tools/test_controlled_executor_policy.py"])
+    run([sys.executable, "tools/test_real_execution_readiness_gate.py"])
     print("All local checks passed.")
     return 0
 

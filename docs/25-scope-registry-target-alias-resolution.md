@@ -126,3 +126,9 @@ The controlled executor remains dry-run-only.
 Even if a target binding is valid, the current executor still performs no external process execution and no network activity.
 
 Target binding is necessary but not sufficient for execution.
+
+## Relationship to Real Execution Readiness Gate
+
+Target binding is necessary but not sufficient for real execution.
+
+The real execution readiness gate still requires runtime, egress, sanitizer, timeout, evidence, credential injection, and approval prerequisites before future execution can be considered.

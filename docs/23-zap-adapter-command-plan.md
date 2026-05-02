@@ -110,3 +110,9 @@ The ZAP command plan now receives target binding from the Tool Gateway scope reg
 The plan must not embed raw target URLs or IP addresses.
 
 It should use a scope registry destination reference and let a future controlled executor resolve runtime details only after policy checks.
+
+## Relationship to Real Execution Readiness Gate
+
+The ZAP command plan remains dry-run-only.
+
+The real execution readiness gate makes this explicit by treating `command_plan_is_dry_run_only` as a blocker for real execution.
