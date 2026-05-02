@@ -11,6 +11,14 @@
 
 ## Phase 1: Technical Prototype
 
+### MVP Scope Decision
+
+- Initial MVP focuses on Web/API/NW assessment assistance.
+- Initial tools are OWASP ZAP, Nmap, nuclei, and limited browser automation.
+- Burp Suite and Nessus / Tenable are deferred until the core control model is stable.
+- Fully autonomous penetration testing, destructive testing, exploit chaining, and lateral movement are out of scope.
+
+
 - Build Scope Extraction Agent prototype.
 - Build Authorization Gateway prototype.
 - Build Tool Gateway prototype.
