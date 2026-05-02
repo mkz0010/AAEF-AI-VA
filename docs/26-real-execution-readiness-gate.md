@@ -125,3 +125,11 @@ It should be added only after the readiness gate is extended and tested for:
 - timeout behavior,
 - human approval,
 - evidence emission.
+
+## Relationship to Operator Readiness Review
+
+The readiness gate produces machine-readable blockers.
+
+The operator readiness review converts those blockers into categorized next actions and a reviewable Markdown/JSON artifact.
+
+See `docs/27-operator-readiness-review.md`.

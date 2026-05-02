@@ -114,3 +114,9 @@ Controlled executor acceptance is necessary but not sufficient for real executio
 A command plan must also pass the real execution readiness gate before any future bounded execution can be considered.
 
 In the current MVP, the readiness gate keeps real execution disabled.
+
+## Operator Review Layer
+
+Controlled executor results and readiness blockers should be reviewed through the operator readiness review layer before future execution decisions.
+
+See `docs/27-operator-readiness-review.md`.

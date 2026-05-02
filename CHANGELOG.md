@@ -4,6 +4,8 @@
 
 ### Added
 
+- Added operator readiness review summary for real execution blockers and next actions.
+
 - Added real execution readiness gate and tests to keep real tool execution disabled until explicit prerequisites are satisfied.
 
 - Added scope registry and target alias resolution controls for command plans and dry-run executor validation.

@@ -11,6 +11,12 @@
 
 ## Phase 1: Technical Prototype
 
+### Operator Readiness Review
+
+- Added operator-facing readiness review summary for real execution blockers.
+- Added generated private Markdown and JSON review artifacts for do-not-execute decisions.
+
+
 ### Real Execution Readiness Gate
 
 - Added a readiness gate for future real tool execution prerequisites.
