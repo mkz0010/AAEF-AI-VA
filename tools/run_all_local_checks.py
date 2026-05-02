@@ -14,6 +14,7 @@ def main() -> int:
     run([sys.executable, "tools/validate_mvp_schemas.py"])
     run([sys.executable, "tools/validate_mvp_examples.py"])
     run([sys.executable, "tools/run_tool_gateway_example.py", "all"])
+    run([sys.executable, "tools/validate_generated_outputs.py"])
     run([sys.executable, "tools/test_tool_gateway_runner.py"])
     run([sys.executable, "tools/test_tool_gateway_adapters.py"])
     print("All local checks passed.")

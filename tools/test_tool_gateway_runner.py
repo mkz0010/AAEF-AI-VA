@@ -60,7 +60,7 @@ def test_positive_scenarios() -> None:
     assert_true(result["credential_ref_used"] == "test-account-001", "credential_ref should be used")
     assert_true(result["credential_resolved_by"] == "mock-vault", "credential should resolve through mock-vault")
     assert_true(result["secret_exposed_to_ai"] is False, "secret must not be exposed")
-    assert_true(result.get("_adapter_output", {}).get("adapter") == "zap", "adapter output should identify zap")
+    assert_true("_adapter_output" not in result, "adapter output must not be included in public result")
     assert_true(evidence["human_review_status"] == "pending", "allowed evidence should await review")
 
     request, decision = load_pair("denied-action")
@@ -151,6 +151,7 @@ def test_generated_runner_outputs() -> None:
         evidence = load_json(out_dir / scenario / "evidence-record.generated.json")
         assert_true(result["execution_status"] == status, f"{scenario} status mismatch")
         assert_true(result["secret_exposed_to_ai"] is False, f"{scenario} secret exposure flag mismatch")
+        assert_true("_adapter_output" not in result, f"{scenario} must not expose adapter output in result")
         assert_true(evidence["secret_exposed_to_ai"] is False, f"{scenario} evidence secret flag mismatch")
 
 

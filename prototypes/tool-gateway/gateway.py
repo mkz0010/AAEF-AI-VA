@@ -17,7 +17,6 @@ def run_mock_tool_gateway(
     decision: dict[str, Any],
     vault_metadata: dict[str, Any] | None = None,
 ) -> tuple[dict[str, Any], dict[str, Any]]:
-    """Run the MVP Tool Gateway mock flow through adapter stubs."""
     validate_request_decision_binding(request, decision)
     validate_credential_ref_against_vault_metadata(decision, vault_metadata=vault_metadata)
 
@@ -31,10 +30,11 @@ def run_mock_tool_gateway(
 
     tool_execution_id = make_execution_id(request)
 
-    adapter_output: dict[str, Any] | None = None
     if status == "completed":
         adapter = get_adapter(decision["tool"])
-        adapter_output = adapter.execute(request, decision, credential_resolved_by)
+        # Adapter output is internal Tool Gateway information.
+        # Do not include it in generated public tool_execution_result objects.
+        adapter.execute(request, decision, credential_resolved_by)
         raw_artifact_ref = f"private-not-in-git/raw-artifacts/{decision['tool']}/{tool_execution_id}.json"
         sanitized_artifact_ref = f"private-not-in-git/prototype-runs/{tool_execution_id}/sanitized-result.json"
         sanitization_status = "completed"
@@ -74,9 +74,6 @@ def run_mock_tool_gateway(
         "completed_at": completed_at,
         "error_summary": error_summary,
     }
-
-    if adapter_output is not None:
-        result["_adapter_output"] = adapter_output
 
     evidence = {
         "evidence_id": make_evidence_id(request),

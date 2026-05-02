@@ -33,11 +33,16 @@ def main() -> int:
     decision = load_json(example_dir / "allowed-action.authorization-decision.json")
     vault_metadata = load_default_vault_metadata()
 
+    adapter = get_adapter("zap")
+    adapter_output = adapter.execute(request, decision, "mock-vault")
+    assert_true(adapter_output["adapter"] == "zap", "direct adapter output should identify zap")
+    assert_true(adapter_output["mock_execution"] is True, "adapter output should be marked mock")
+
     result, evidence = run_mock_tool_gateway(request, decision, vault_metadata=vault_metadata)
 
     assert_true(result["execution_status"] == "completed", "allowed action should complete")
     assert_true(result["credential_resolved_by"] == "mock-vault", "credential should resolve through mock-vault")
-    assert_true(result.get("_adapter_output", {}).get("adapter") == "zap", "allowed action should use zap adapter")
+    assert_true("_adapter_output" not in result, "adapter output must not be included in public result")
     assert_true(evidence["credential_ref_used"] == "test-account-001", "evidence should record credential_ref")
 
     print("Tool Gateway adapter tests passed.")
