@@ -4,6 +4,8 @@
 
 ### Added
 
+- Added v0.3.0 concrete preflight check implementation scaffold with input sources, evidence types, fail-closed behavior, and responsibilities for all required preflight checks while keeping execution disabled.
+
 - Added v0.2.9 runtime transition checkpoint summarizing v0.2.0 through v0.2.8 and confirming readiness for preflight implementation while keeping execution disabled.
 
 - Added v0.2.8 preflight validation scaffold for future execution-before-checklist requirements while keeping preflight unsatisfied and execution disabled.

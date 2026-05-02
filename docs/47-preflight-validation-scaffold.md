@@ -121,3 +121,11 @@ The preflight validation scaffold becomes input to the runtime transition checkp
 The checkpoint confirms that the project is ready to design concrete preflight checks, not to execute.
 
 See `docs/48-runtime-transition-checkpoint.md`.
+
+## Relationship to Concrete Preflight Check Implementation
+
+The preflight validation scaffold defines the required checks.
+
+The concrete preflight check implementation scaffold records input sources, evidence types, and fail-closed behavior for those checks without satisfying them.
+
+See `docs/49-preflight-check-implementation-scaffold.md`.

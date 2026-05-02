@@ -114,3 +114,11 @@ A natural v0.3.0 direction is:
 - sanitizer boundary verification.
 
 Even then, execution should remain disabled until an explicit future release changes the execution boundary.
+
+## Relationship to Concrete Preflight Check Implementation
+
+The runtime transition checkpoint becomes input to the concrete preflight check implementation scaffold.
+
+v0.3.0 starts implementation scaffolding for preflight checks while keeping preflight unsatisfied and execution disabled.
+
+See `docs/49-preflight-check-implementation-scaffold.md`.

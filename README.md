@@ -112,3 +112,11 @@ v0.2.9 introduces a runtime transition checkpoint.
 It summarizes v0.2.0 through v0.2.8 and confirms that the project is ready for concrete preflight implementation work, while runtime execution, process launch, network activity, scans, credential injection, raw artifact capture, customer targets, and external targets remain disabled.
 
 See `docs/48-runtime-transition-checkpoint.md`.
+
+## Concrete Preflight Check Implementation Scaffold
+
+v0.3.0 introduces concrete preflight check implementation scaffolding.
+
+Each required preflight check receives input sources, evidence type, fail-closed behavior, and responsibility while all checks remain unimplemented, preflight remains unsatisfied, and execution remains disabled.
+
+See `docs/49-preflight-check-implementation-scaffold.md`.

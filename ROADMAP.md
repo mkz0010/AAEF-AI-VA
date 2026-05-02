@@ -11,6 +11,12 @@
 
 ## Phase 1: Technical Prototype
 
+### Concrete Preflight Check Implementation Scaffold
+
+- Added v0.3.0 concrete preflight check implementation scaffold after the runtime transition checkpoint.
+- Recorded implementation responsibility, evidence type, input sources, and fail-closed behavior for all preflight checks while keeping preflight unsatisfied and execution disabled.
+
+
 ### Runtime Transition Checkpoint
 
 - Added v0.2.9 runtime transition checkpoint after the preflight validation scaffold.
