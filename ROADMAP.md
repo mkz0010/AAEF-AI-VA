@@ -11,6 +11,12 @@
 
 ## Phase 1: Technical Prototype
 
+### Generated Preflight Evidence Record Examples
+
+- Added v0.3.2 generated preflight evidence record examples after the preflight evidence record model.
+- Recorded representative fail-closed examples while keeping them separate from live evidence generation and execution authorization.
+
+
 ### Preflight Evidence Record Model
 
 - Added v0.3.1 preflight evidence record model after the concrete preflight check implementation scaffold.

@@ -138,3 +138,11 @@ The concrete preflight check implementation scaffold becomes input to the prefli
 The evidence model defines record shapes for future generated evidence without satisfying checks or authorizing execution.
 
 See `docs/50-preflight-evidence-record-model.md`.
+
+## Relationship to Generated Preflight Evidence Examples
+
+Generated preflight evidence examples show how future fail-closed check outputs should be represented.
+
+They do not implement checks or authorize execution.
+
+See `docs/51-generated-preflight-evidence-record-examples.md`.

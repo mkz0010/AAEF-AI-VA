@@ -128,3 +128,11 @@ v0.3.1 introduces the preflight evidence record model.
 Each required preflight check receives a non-generated evidence record shape with evidence type, input sources, fail-closed behavior, AI visibility boundary, raw artifact boundary, and sanitized summary requirement while execution remains disabled.
 
 See `docs/50-preflight-evidence-record-model.md`.
+
+## Generated Preflight Evidence Record Examples
+
+v0.3.2 introduces representative generated preflight evidence record examples.
+
+The examples demonstrate fail-closed evidence behavior for selected checks while remaining separate from live evidence generation, check satisfaction, preflight satisfaction, and execution authorization.
+
+See `docs/51-generated-preflight-evidence-record-examples.md`.

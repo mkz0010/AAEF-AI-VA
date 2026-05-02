@@ -141,3 +141,11 @@ Future v0.3.x work should add:
 - sanitized evidence summaries,
 - negative tests for unsafe evidence claims,
 - missing-input and mismatch evidence cases.
+
+## Relationship to Generated Preflight Evidence Examples
+
+The preflight evidence record model becomes input to representative generated preflight evidence examples.
+
+The examples are not live evidence and do not satisfy preflight.
+
+See `docs/51-generated-preflight-evidence-record-examples.md`.
