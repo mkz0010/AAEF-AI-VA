@@ -401,3 +401,14 @@ Purpose:
 - Prepare GitHub About metadata and topic candidates.
 - Prepare public announcement language.
 - Keep public messaging aligned with safety, evidence, authorization, and runtime-execution boundaries.
+
+## v0.4.4 Public repository launch checkpoint
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Record the first public repository launch state.
+- Confirm public repository metadata and security reporting posture are documented.
+- Keep public launch separate from runtime readiness.
+- Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.

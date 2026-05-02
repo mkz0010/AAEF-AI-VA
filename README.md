@@ -268,3 +268,21 @@ Recommended GitHub repository metadata:
 - Topics: `ai-security`, `vulnerability-assessment`, `agentic-ai`, `security-automation`, `auditability`, `agpl`
 
 See `docs/62-public-facing-repository-metadata-and-announcement-pack.md`.
+
+## Public Repository Launch Checkpoint
+
+AAEF-AI-VA has a public repository launch checkpoint.
+
+Recorded public launch state:
+
+- Repository URL: `https://github.com/mkz0010/AAEF-AI-VA`
+- Visibility: public
+- `origin/main`: published
+- GitHub Actions validation: active and passing
+- Private vulnerability reporting: enabled
+- Repository description and topics: configured
+- Issues: enabled
+- Discussions, Wiki, and Projects: disabled
+- Runtime execution: still disabled
+
+See `docs/63-public-repository-launch-checkpoint.md`.

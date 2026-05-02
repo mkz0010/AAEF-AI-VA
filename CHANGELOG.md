@@ -161,3 +161,9 @@
 - Added public repository metadata guidance for GitHub About fields and topics.
 - Added a public-facing announcement draft and claim-boundary guidance.
 - Added a local validation test for repository metadata and announcement positioning.
+
+## v0.4.4 - Public repository launch checkpoint
+
+- Added a public repository launch checkpoint after making the repository public.
+- Recorded public visibility, origin publication, Actions validation, metadata, topics, private vulnerability reporting, and feature settings.
+- Added a local validation test confirming the launch checkpoint preserves runtime-execution and scanning boundaries.
