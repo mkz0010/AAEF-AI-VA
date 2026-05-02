@@ -35,6 +35,7 @@ def main() -> int:
     run([sys.executable, "tools/test_runtime_readiness_gate.py"])
     run([sys.executable, "tools/test_local_target_lab_profile.py"])
     run([sys.executable, "tools/test_runtime_destination_binding.py"])
+    run([sys.executable, "tools/test_bounded_execution_transition_candidate.py"])
     print("All local checks passed.")
     return 0
 

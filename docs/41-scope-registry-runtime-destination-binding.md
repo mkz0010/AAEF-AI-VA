@@ -119,3 +119,11 @@ Future v0.2.x work should add:
 - local-only operation allowlist,
 - raw artifact capture design,
 - sanitizer policy binding to runtime outputs.
+
+## Relationship to Bounded Execution Transition Candidate
+
+A runtime destination binding may become input to a bounded execution transition candidate.
+
+The transition candidate still does not grant execution authority.
+
+See `docs/42-bounded-execution-transition-candidate.md`.

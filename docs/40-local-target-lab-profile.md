@@ -111,3 +111,11 @@ The local target lab profile defines the allowed local target boundary.
 The runtime destination binding connects that target boundary to a runtime readiness profile without granting execution authority.
 
 See `docs/41-scope-registry-runtime-destination-binding.md`.
+
+## Relationship to Bounded Execution Transition
+
+The local target lab profile is one prerequisite for a bounded execution transition candidate.
+
+The candidate still requires no-egress, timeout, kill-switch, human approval, and execution plan review before any future local execution can be considered.
+
+See `docs/42-bounded-execution-transition-candidate.md`.

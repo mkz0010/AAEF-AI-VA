@@ -56,3 +56,11 @@ v0.2.2 introduces scope-registry-style runtime destination binding.
 It binds a controlled local ZAP runtime readiness profile to a local lab target profile while keeping scans, network activity, real execution, customer targets, and external targets disabled.
 
 See `docs/41-scope-registry-runtime-destination-binding.md`.
+
+## Bounded Execution Transition Candidate
+
+v0.2.3 introduces a bounded execution transition candidate.
+
+It structures prerequisites for future local-only execution planning while keeping scan execution, network activity, real execution, process execution, credential injection, and raw artifact capture disabled.
+
+See `docs/42-bounded-execution-transition-candidate.md`.

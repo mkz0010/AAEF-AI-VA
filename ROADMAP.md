@@ -11,6 +11,12 @@
 
 ## Phase 1: Technical Prototype
 
+### Bounded Execution Transition Candidate
+
+- Added v0.2.3 bounded execution transition candidate after runtime destination binding.
+- Structured no-egress, timeout, kill-switch, operation allowlist, human approval, sanitizer, evidence, and raw artifact boundary prerequisites while keeping execution disabled.
+
+
 ### Runtime Destination Binding
 
 - Added v0.2.2 scope-registry-style binding between runtime readiness and local target lab profile.

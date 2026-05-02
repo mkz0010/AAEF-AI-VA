@@ -4,6 +4,8 @@
 
 ### Added
 
+- Added v0.2.3 bounded execution transition candidate to structure future local-only execution prerequisites while keeping execution disabled.
+
 - Added v0.2.2 scope-registry-style runtime destination binding between controlled local runtime readiness and local target lab profiles while keeping execution blocked.
 
 - Added v0.2.1 local target lab profile to define localhost/Docker-internal intentionally vulnerable target boundaries while keeping scans disabled.
