@@ -4,6 +4,8 @@
 
 ### Added
 
+- Added v0.2.5 no-egress, timeout, and kill-switch policy scaffold while keeping runtime execution disabled.
+
 - Added v0.2.4 local-only execution plan review with plan-level runtime_detection and health_check_plan_only while keeping ZAP runtime operations disabled.
 
 - Added v0.2.3 bounded execution transition candidate to structure future local-only execution prerequisites while keeping execution disabled.

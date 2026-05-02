@@ -126,3 +126,9 @@ The bounded execution transition candidate can become input to a local-only exec
 The execution plan still does not grant execution authority.
 
 See `docs/43-local-only-execution-plan-review.md`.
+
+## Relationship to Runtime Safety Policy
+
+The bounded execution transition candidate requires no-egress, timeout, and kill-switch controls before any future runtime execution can be considered.
+
+See `docs/44-no-egress-timeout-kill-switch-policy.md`.

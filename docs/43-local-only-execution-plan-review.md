@@ -119,3 +119,11 @@ Future v0.2.x work should add:
 - execution transition human approval record,
 - runtime output artifact boundary,
 - sanitizer policy binding to runtime output.
+
+## Relationship to Runtime Safety Policy
+
+The local-only execution plan becomes input to the no-egress, timeout, and kill-switch policy scaffold.
+
+The safety policy still does not grant execution authority.
+
+See `docs/44-no-egress-timeout-kill-switch-policy.md`.

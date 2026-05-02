@@ -72,3 +72,11 @@ v0.2.4 introduces local-only execution plan review.
 It allows only plan-level `runtime_detection` and `health_check_plan_only` while keeping ZAP start/stop/API calls, scans, network activity, credential injection, raw artifact capture, customer targets, and external targets disabled.
 
 See `docs/43-local-only-execution-plan-review.md`.
+
+## Runtime Safety Policy Scaffold
+
+v0.2.5 introduces a no-egress, timeout, and kill-switch policy scaffold.
+
+It defines future safety requirements while keeping ZAP process launch, network activity, scans, credential injection, raw artifact capture, customer targets, and external targets disabled.
+
+See `docs/44-no-egress-timeout-kill-switch-policy.md`.

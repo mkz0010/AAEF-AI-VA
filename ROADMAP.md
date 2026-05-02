@@ -11,6 +11,12 @@
 
 ## Phase 1: Technical Prototype
 
+### Runtime Safety Policy Scaffold
+
+- Added v0.2.5 no-egress, timeout, and kill-switch policy scaffold after local-only execution plan review.
+- Defined future local-only safety requirements while keeping process launch, network activity, scans, credential injection, and raw artifact capture disabled.
+
+
 ### Local-Only Execution Plan Review
 
 - Added v0.2.4 local-only execution plan review after bounded execution transition candidate.
