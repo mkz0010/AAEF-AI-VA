@@ -111,3 +111,11 @@ Future versions should add:
 - delivery evidence record,
 - post-delivery audit trail,
 - customer receipt acknowledgement.
+
+## Relationship to Lifecycle Integration Checkpoint
+
+The lifecycle integration checkpoint summarizes delivery authorization as part of the current v0.1.x control and review workflow.
+
+It confirms that delivery packages are generated only for workflow validation and are not customer-delivery-ready.
+
+See `docs/38-lifecycle-integration-checkpoint.md`.

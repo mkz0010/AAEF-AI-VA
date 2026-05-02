@@ -4,6 +4,8 @@
 
 ### Added
 
+- Added v0.1.30 lifecycle integration checkpoint summarizing stable control/review capabilities and safety invariants before v0.2.x runtime work.
+
 - Added delivery authorization gate and delivery package generation while keeping customer delivery and dispatch disabled.
 
 - Added report packet review gate and delivery authorization candidate assembly while keeping customer delivery disabled.

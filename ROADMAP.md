@@ -11,6 +11,12 @@
 
 ## Phase 1: Technical Prototype
 
+### Lifecycle Integration Checkpoint
+
+- Added v0.1.30 lifecycle integration checkpoint before controlled local runtime work.
+- Summarized stable capabilities, explicit non-goals, safety invariants, and v0.2.x next-phase candidates.
+
+
 ### Delivery Authorization Gate
 
 - Added delivery authorization gate for delivery authorization candidates.

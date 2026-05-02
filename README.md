@@ -24,3 +24,11 @@ py tools/run_all_local_checks.py
 As of `v0.1.10`, the Tool Gateway mock runner baseline is the current stable local checkpoint.
 
 Do not commit raw customer materials, credentials, scan artifacts, personal data, secrets, or confidential client data.
+
+## Local Lifecycle Checkpoint
+
+The local prototype includes a v0.1.30 lifecycle integration checkpoint.
+
+It summarizes the current control and review workflow while keeping real execution, network activity, report-ready status, delivery dispatch, and customer delivery disabled.
+
+See `docs/38-lifecycle-integration-checkpoint.md`.
