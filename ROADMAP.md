@@ -286,3 +286,11 @@
 
 - Run controlled PoC with a vulnerability assessment company, MSSP, SIer, or security consulting partner.
 - Measure effort reduction, report quality, false positive reduction, and evidence completeness.
+
+## v0.3.4 negative preflight evidence examples
+
+Status: added.
+
+Purpose: record and validate representative invalid preflight evidence claims that must fail closed, including missing input evidence, mismatched target binding, stale readiness state, false authorization claims, false preflight satisfaction claims, AI-visible raw evidence, raw artifact capture, example/live evidence confusion, no-egress verification spoofing, and sanitizer boundary verification spoofing.
+
+Boundary: this milestone does not permit live evidence generation, runtime execution, scanning, network activity, external process execution, credential injection, or raw artifact capture.

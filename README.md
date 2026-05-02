@@ -1,5 +1,11 @@
 # AAEF-controlled AI Vulnerability Assessment Platform
 
+## v0.3.4 Negative preflight evidence examples
+
+v0.3.4 adds representative negative preflight evidence examples. These examples describe invalid, missing, stale, mismatched, or unsafe evidence claims that must be rejected fail-closed.
+
+This release does not generate live evidence, does not satisfy preflight, does not authorize execution, and does not permit runtime scanning, network activity, external process execution, credential injection, or raw artifact capture.
+
 AAEF制御型AI脆弱性診断基盤のローカル管理リポジトリ。
 
 This repository is local-first and private by default.
