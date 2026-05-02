@@ -169,3 +169,11 @@ Before integrating a real ZAP, Nmap, nuclei, Burp, or Nessus adapter, define:
 v0.1.13 added generated output validation and ensured `_adapter_output` does not appear in public generated Tool Gateway result objects.
 
 This policy records the design reason for that boundary.
+
+## ZAP Command Plan as Internal Artifact
+
+The ZAP dry-run command plan is internal adapter output.
+
+It may be inspected by tests and future trusted executor components, but it must not be embedded directly in public generated Tool Gateway results or evidence records.
+
+See `docs/23-zap-adapter-command-plan.md`.

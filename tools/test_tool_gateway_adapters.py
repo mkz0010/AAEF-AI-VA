@@ -10,9 +10,9 @@ if str(TGW) not in sys.path:
     sys.path.insert(0, str(TGW))
 
 from adapters.registry import get_adapter, registered_adapter_names
+from gateway import run_mock_tool_gateway
 from models import load_json
 from policy import load_default_vault_metadata
-from gateway import run_mock_tool_gateway
 
 
 def assert_true(condition: bool, message: str) -> None:
@@ -33,10 +33,21 @@ def main() -> int:
     decision = load_json(example_dir / "allowed-action.authorization-decision.json")
     vault_metadata = load_default_vault_metadata()
 
-    adapter = get_adapter("zap")
-    adapter_output = adapter.execute(request, decision, "mock-vault")
+    zap_adapter = get_adapter("zap")
+    command_plan = zap_adapter.build_command_plan(request, decision, "mock-vault")
+
+    assert_true(command_plan["execution_mode"] == "dry_run_plan_only", "ZAP command plan must be dry-run only")
+    assert_true(command_plan["external_process_execution"] is False, "ZAP plan must not execute external process")
+    assert_true(command_plan["secret_material_included"] is False, "ZAP plan must not include secret material")
+    assert_true(command_plan["credential_ref"] == "test-account-001", "ZAP plan should reference credential_ref")
+    assert_true("artifact_refs" in command_plan, "ZAP plan should include artifact refs")
+    assert_true("raw_artifact_ref" in command_plan["artifact_refs"], "ZAP plan should include raw artifact ref")
+    assert_true("sanitized_artifact_ref" in command_plan["artifact_refs"], "ZAP plan should include sanitized artifact ref")
+
+    adapter_output = zap_adapter.execute(request, decision, "mock-vault")
     assert_true(adapter_output["adapter"] == "zap", "direct adapter output should identify zap")
     assert_true(adapter_output["mock_execution"] is True, "adapter output should be marked mock")
+    assert_true(adapter_output["command_plan"]["execution_mode"] == "dry_run_plan_only", "adapter output should include dry-run plan")
 
     result, evidence = run_mock_tool_gateway(request, decision, vault_metadata=vault_metadata)
 

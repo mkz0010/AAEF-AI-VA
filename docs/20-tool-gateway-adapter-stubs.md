@@ -68,3 +68,11 @@ It must not appear directly in generated public `tool_execution_result` objects 
 Future real tool integrations should persist raw adapter output only under ignored/private artifact paths and expose only sanitized references or summaries to AI-visible and evidence-facing components.
 
 See `docs/22-internal-adapter-artifact-policy.md`.
+
+## ZAP Command Plan Step
+
+The ZAP adapter now supports a dry-run command plan.
+
+This does not execute ZAP. It only structures the future execution plan so that real execution can later be added through a controlled executor rather than arbitrary AI-generated shell commands.
+
+See `docs/23-zap-adapter-command-plan.md`.

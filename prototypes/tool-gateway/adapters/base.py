@@ -4,11 +4,30 @@ from typing import Any
 
 
 class ToolAdapterError(RuntimeError):
-    """Raised when a Tool Gateway adapter cannot handle a request."""
+    pass
 
 
 class BaseToolAdapter:
     tool_name: str = ""
+
+    def build_command_plan(
+        self,
+        request: dict[str, Any],
+        decision: dict[str, Any],
+        credential_resolved_by: str | None,
+    ) -> dict[str, Any]:
+        return {
+            "execution_mode": "dry_run_plan_only",
+            "adapter": self.tool_name,
+            "tool": decision["tool"],
+            "operation": decision["operation"],
+            "target_id": decision["target_id"],
+            "scope_id": decision["scope_id"],
+            "credential_ref": decision.get("credential_ref"),
+            "credential_resolved_by": credential_resolved_by,
+            "secret_material_included": False,
+            "notes": "Generic adapter command plan stub. No external process is executed.",
+        }
 
     def execute(
         self,

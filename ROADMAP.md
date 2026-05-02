@@ -11,6 +11,12 @@
 
 ## Phase 1: Technical Prototype
 
+### ZAP Adapter Command Plan
+
+- Added a dry-run command plan for the ZAP adapter.
+- Moved ZAP integration closer to real execution without invoking ZAP or constructing arbitrary shell commands.
+
+
 ### Internal Adapter Artifact Policy
 
 - Documented that adapter output is internal/private by default.
