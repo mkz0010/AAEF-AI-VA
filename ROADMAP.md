@@ -11,6 +11,12 @@
 
 ## Phase 1: Technical Prototype
 
+### Sanitizer and Redaction Policy
+
+- Added sanitizer/redaction policy scaffold before real tool output can become AI-visible.
+- Added generated sanitized artifact demo and tests for common sensitive values.
+
+
 ### Evidence Reconstruction Report
 
 - Added human-readable reconstruction report generated from evidence chain and review decision linkage.

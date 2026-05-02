@@ -177,3 +177,9 @@ The ZAP dry-run command plan is internal adapter output.
 It may be inspected by tests and future trusted executor components, but it must not be embedded directly in public generated Tool Gateway results or evidence records.
 
 See `docs/23-zap-adapter-command-plan.md`.
+
+## Relationship to Sanitizer
+
+Internal adapter artifacts must not become AI-visible until they pass sanitizer and redaction policy checks.
+
+See `docs/31-sanitizer-redaction-policy.md`.

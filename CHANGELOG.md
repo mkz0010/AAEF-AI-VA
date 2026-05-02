@@ -4,6 +4,8 @@
 
 ### Added
 
+- Added sanitizer and redaction policy scaffold for raw adapter artifacts before AI-visible use.
+
 - Added evidence reconstruction report generation from evidence chain and review decision linkage.
 
 - Added evidence chain and review decision linkage across request, authorization, execution, evidence, operator review, human approval, and approval gate records.

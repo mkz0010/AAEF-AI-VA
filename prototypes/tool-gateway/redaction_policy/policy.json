@@ -1,0 +1,62 @@
+{
+  "policy_version": "redaction-policy-mvp-v0.1",
+  "purpose": "Redact sensitive values from raw tool artifacts before AI-visible use.",
+  "ai_visible_only_after_sanitizer": true,
+  "raw_artifacts_private_only": true,
+  "patterns": [
+    {
+      "name": "authorization_header",
+      "category": "credential_or_token",
+      "pattern": "(?i)Authorization:\\s*[^\\r\\n]+",
+      "replacement": "[REDACTED_AUTHORIZATION_HEADER]"
+    },
+    {
+      "name": "cookie_header",
+      "category": "session_material",
+      "pattern": "(?i)Cookie:\\s*[^\\r\\n]+",
+      "replacement": "[REDACTED_COOKIE_HEADER]"
+    },
+    {
+      "name": "set_cookie_header",
+      "category": "session_material",
+      "pattern": "(?i)Set-Cookie:\\s*[^\\r\\n]+",
+      "replacement": "[REDACTED_SET_COOKIE_HEADER]"
+    },
+    {
+      "name": "bearer_token",
+      "category": "credential_or_token",
+      "pattern": "(?i)Bearer\\s+[A-Za-z0-9._~+/=-]{12,}",
+      "replacement": "[REDACTED_BEARER_TOKEN]"
+    },
+    {
+      "name": "api_key",
+      "category": "credential_or_token",
+      "pattern": "(?i)(api[_-]?key|x-api-key|apikey)\\s*[:=]\\s*[A-Za-z0-9._~+/=-]{8,}",
+      "replacement": "[REDACTED_API_KEY]"
+    },
+    {
+      "name": "csrf_token",
+      "category": "session_material",
+      "pattern": "(?i)(csrf[_-]?token|xsrf[_-]?token)\\s*[:=]\\s*[A-Za-z0-9._~+/=-]{8,}",
+      "replacement": "[REDACTED_CSRF_TOKEN]"
+    },
+    {
+      "name": "session_id",
+      "category": "session_material",
+      "pattern": "(?i)(sessionid|session_id|sid)\\s*[:=]\\s*[A-Za-z0-9._~+/=-]{8,}",
+      "replacement": "[REDACTED_SESSION_ID]"
+    },
+    {
+      "name": "password",
+      "category": "credential_or_token",
+      "pattern": "(?i)(password|passwd|pwd)\\s*[:=]\\s*[^&\\s\\r\\n]+",
+      "replacement": "[REDACTED_PASSWORD]"
+    },
+    {
+      "name": "private_ip",
+      "category": "internal_network",
+      "pattern": "\\b(10\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}|192\\.168\\.\\d{1,3}\\.\\d{1,3}|172\\.(1[6-9]|2\\d|3[0-1])\\.\\d{1,3}\\.\\d{1,3})\\b",
+      "replacement": "[REDACTED_PRIVATE_IP]"
+    }
+  ]
+}

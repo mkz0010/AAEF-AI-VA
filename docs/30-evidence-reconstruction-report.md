@@ -92,3 +92,11 @@ Future versions may use reconstruction reports for:
 - incident reconstruction,
 - diagnostic run approval history,
 - management reporting.
+
+## Relationship to Sanitizer
+
+The reconstruction report currently asserts that secrets were not exposed to AI based on generated result and evidence flags.
+
+The sanitizer/redaction policy scaffold adds a technical boundary for future raw adapter outputs before they become AI-visible.
+
+See `docs/31-sanitizer-redaction-policy.md`.
