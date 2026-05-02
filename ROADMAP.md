@@ -614,3 +614,14 @@ Purpose:
 - Select a conservative local lab path before implementation expands.
 - Preserve documentation-only and dry-run planning before any localhost-only controlled behavior.
 - Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.
+
+## v0.6.5 Documentation-only local lab profile and action taxonomy
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Define the documentation-only local lab profile before any lab implementation expands.
+- Define allowed and denied action categories without enabling execution.
+- Establish preflight evidence and human review expectations for later dry-run planning.
+- Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.

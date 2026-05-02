@@ -369,3 +369,13 @@ The record decides that the project may proceed with a documentation-only local 
 It is a decision record only. It does not authorize runtime execution, scanning, credential injection, customer-target operation, production deployment, certification, legal approval, or audit opinion.
 
 See `docs/81-v064-local-assessment-lab-decision-record.md`.
+
+## v0.6.5 Documentation-Only Local Lab Profile and Action Taxonomy
+
+AAEF-AI-VA includes a v0.6.5 documentation-only local lab profile and action taxonomy.
+
+The profile defines target mode, target ownership, network boundary, allowed action categories, denied action categories, preflight evidence requirements, human review requirements, generated output location, and what the lab does not prove.
+
+It is documentation-only. It does not authorize runtime execution, scanning, credential injection, customer-target operation, production deployment, certification, legal approval, or audit opinion.
+
+See `docs/82-v065-documentation-only-local-lab-profile-and-action-taxonomy.md`.

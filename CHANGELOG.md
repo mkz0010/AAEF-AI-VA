@@ -279,3 +279,9 @@
 - Decided to proceed with documentation-only local lab profile and dry-run planning while deferring localhost-only controlled execution.
 - Documented selected lab option, rejected options, entry criteria, exit criteria, allowed artifacts, prohibited behavior, local-only assumptions, and next-step implications.
 - Added a local validation test confirming the lab decision preserves runtime-execution and scanning boundaries.
+
+## v0.6.5 - Documentation-only local lab profile and action taxonomy
+
+- Added a v0.6.5 documentation-only local lab profile and action taxonomy.
+- Defined local lab profile fields, local-only assumptions, allowed action taxonomy, denied action taxonomy, preflight evidence requirements, human review requirements, generated output policy, and "what this lab does not prove" boundaries.
+- Added a local validation test confirming the documentation-only lab profile preserves runtime-execution and scanning boundaries.
