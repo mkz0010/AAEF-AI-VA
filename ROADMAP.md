@@ -11,6 +11,13 @@
 
 ## Phase 1: Technical Prototype
 
+### Tool Gateway Prototype Scaffold
+
+- Added prototype examples for allowed, denied, and human-approval-required flows.
+- Added example validation before implementing real tool execution.
+- Next step is a minimal Tool Gateway runner that consumes these examples.
+
+
 ### MVP Schema Contract Decision
 
 - Tool Gateway implementation will use explicit JSON schema contracts.

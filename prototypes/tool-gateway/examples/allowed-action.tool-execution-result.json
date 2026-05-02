@@ -1,0 +1,18 @@
+{
+  "tool_execution_id": "exec-demo-allowed-0001",
+  "tool_action_request_id": "tar-demo-allowed-0001",
+  "authorization_decision_id": "authz-demo-allowed-0001",
+  "execution_status": "completed",
+  "target_id": "webapp-demo-001",
+  "scope_id": "scope-demo-001",
+  "tool": "zap",
+  "operation": "authenticated_crawl",
+  "credential_ref_used": "test-account-001",
+  "credential_resolved_by": "mock-vault",
+  "secret_exposed_to_ai": false,
+  "raw_artifact_ref": "private-not-in-git/raw-artifacts/zap/exec-demo-allowed-0001.json",
+  "sanitized_artifact_ref": "prototypes/tool-gateway/examples/sanitized/exec-demo-allowed-0001.json",
+  "started_at": "2026-05-02T10:00:20Z",
+  "completed_at": "2026-05-02T10:03:20Z",
+  "error_summary": null
+}

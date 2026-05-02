@@ -1,0 +1,18 @@
+{
+  "tool_execution_id": "exec-demo-human-0001",
+  "tool_action_request_id": "tar-demo-human-0001",
+  "authorization_decision_id": "authz-demo-human-0001",
+  "execution_status": "requires_human_approval",
+  "target_id": "net-demo-001",
+  "scope_id": "scope-demo-001",
+  "tool": "nmap",
+  "operation": "service_version_detection",
+  "credential_ref_used": null,
+  "credential_resolved_by": null,
+  "secret_exposed_to_ai": false,
+  "raw_artifact_ref": null,
+  "sanitized_artifact_ref": null,
+  "started_at": "2026-05-02T10:10:15Z",
+  "completed_at": "2026-05-02T10:10:15Z",
+  "error_summary": "Execution paused because human approval is required."
+}

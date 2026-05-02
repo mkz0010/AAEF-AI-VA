@@ -1,0 +1,24 @@
+{
+  "tool_action_request_id": "tar-demo-human-0001",
+  "requested_by": "ai-agent-demo",
+  "requested_at": "2026-05-02T10:10:00Z",
+  "action_type": "tool_execution",
+  "target_id": "net-demo-001",
+  "scope_id": "scope-demo-001",
+  "tool": "nmap",
+  "operation": "service_version_detection",
+  "credential_ref": null,
+  "reason": "Service version detection may be useful, but the operation requires human approval in this demo policy.",
+  "requested_constraints": {
+    "rate_limit": "low",
+    "destructive_tests": false,
+    "external_discovery": false,
+    "evidence_required": true,
+    "max_duration_seconds": 180,
+    "allowed_time_window_id": "window-demo-001"
+  },
+  "metadata": {
+    "demo": true,
+    "customer_alias": "customer-demo"
+  }
+}

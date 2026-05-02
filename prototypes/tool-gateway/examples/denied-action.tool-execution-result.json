@@ -1,0 +1,18 @@
+{
+  "tool_execution_id": "exec-demo-denied-0001",
+  "tool_action_request_id": "tar-demo-denied-0001",
+  "authorization_decision_id": "authz-demo-denied-0001",
+  "execution_status": "blocked",
+  "target_id": "external-demo-001",
+  "scope_id": "scope-demo-001",
+  "tool": "nuclei",
+  "operation": "safe_template_scan",
+  "credential_ref_used": null,
+  "credential_resolved_by": null,
+  "secret_exposed_to_ai": false,
+  "raw_artifact_ref": null,
+  "sanitized_artifact_ref": null,
+  "started_at": "2026-05-02T10:05:15Z",
+  "completed_at": "2026-05-02T10:05:15Z",
+  "error_summary": "Blocked by authorization decision before tool execution."
+}

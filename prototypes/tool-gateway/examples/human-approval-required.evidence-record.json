@@ -1,0 +1,18 @@
+{
+  "evidence_id": "ev-demo-human-0001",
+  "tool_execution_id": "exec-demo-human-0001",
+  "tool_action_request_id": "tar-demo-human-0001",
+  "authorization_decision_id": "authz-demo-human-0001",
+  "target_id": "net-demo-001",
+  "scope_id": "scope-demo-001",
+  "tool": "nmap",
+  "operation": "service_version_detection",
+  "credential_ref_used": null,
+  "secret_exposed_to_ai": false,
+  "raw_artifact_ref": null,
+  "sanitized_artifact_ref": null,
+  "sanitization_status": "not_required",
+  "finding_candidate_ids": [],
+  "human_review_status": "pending",
+  "created_at": "2026-05-02T10:10:20Z"
+}

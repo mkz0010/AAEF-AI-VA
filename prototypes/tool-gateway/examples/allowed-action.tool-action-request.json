@@ -1,0 +1,24 @@
+{
+  "tool_action_request_id": "tar-demo-allowed-0001",
+  "requested_by": "ai-agent-demo",
+  "requested_at": "2026-05-02T10:00:00Z",
+  "action_type": "tool_execution",
+  "target_id": "webapp-demo-001",
+  "scope_id": "scope-demo-001",
+  "tool": "zap",
+  "operation": "authenticated_crawl",
+  "credential_ref": "test-account-001",
+  "reason": "Perform a safe authenticated crawl against the approved demo web application.",
+  "requested_constraints": {
+    "rate_limit": "low",
+    "destructive_tests": false,
+    "external_discovery": false,
+    "evidence_required": true,
+    "max_duration_seconds": 300,
+    "allowed_time_window_id": "window-demo-001"
+  },
+  "metadata": {
+    "demo": true,
+    "customer_alias": "customer-demo"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "authorization_decision_id": "authz-demo-human-0001",
+  "tool_action_request_id": "tar-demo-human-0001",
+  "decided_at": "2026-05-02T10:10:10Z",
+  "expires_at": "2026-05-02T10:20:10Z",
+  "decision": "require_human_approval",
+  "action_type": "tool_execution",
+  "target_id": "net-demo-001",
+  "scope_id": "scope-demo-001",
+  "tool": "nmap",
+  "operation": "service_version_detection",
+  "credential_ref": null,
+  "constraints": {
+    "rate_limit": "low",
+    "destructive_tests": false,
+    "external_discovery": false,
+    "evidence_required": true,
+    "max_duration_seconds": 180,
+    "allowed_time_window_id": "window-demo-001"
+  },
+  "human_review_required": true,
+  "evidence_required": true,
+  "policy_version": "mvp-policy-v0.1",
+  "decision_reason": "Requires human approval because service version detection is configured as review-gated for the MVP demo."
+}

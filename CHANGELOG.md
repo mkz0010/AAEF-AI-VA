@@ -4,6 +4,9 @@
 
 ### Added
 
+- Added Tool Gateway prototype scaffold and example contract flows for allowed, denied, and human-approval-required actions.
+- Added MVP example validation script.
+
 - Added MVP schema contracts for tool action requests, authorization decisions, tool execution results, and evidence records.
 - Added lightweight schema validation script.
 

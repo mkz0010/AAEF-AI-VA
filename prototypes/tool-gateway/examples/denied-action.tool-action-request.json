@@ -1,0 +1,24 @@
+{
+  "tool_action_request_id": "tar-demo-denied-0001",
+  "requested_by": "ai-agent-demo",
+  "requested_at": "2026-05-02T10:05:00Z",
+  "action_type": "tool_execution",
+  "target_id": "external-demo-001",
+  "scope_id": "scope-demo-001",
+  "tool": "nuclei",
+  "operation": "safe_template_scan",
+  "credential_ref": null,
+  "reason": "Attempt to scan a target that is not approved for external discovery in this demo.",
+  "requested_constraints": {
+    "rate_limit": "low",
+    "destructive_tests": false,
+    "external_discovery": true,
+    "evidence_required": true,
+    "max_duration_seconds": 120,
+    "allowed_time_window_id": "window-demo-001"
+  },
+  "metadata": {
+    "demo": true,
+    "customer_alias": "customer-demo"
+  }
+}

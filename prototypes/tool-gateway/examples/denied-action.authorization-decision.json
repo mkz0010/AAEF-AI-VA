@@ -1,0 +1,25 @@
+{
+  "authorization_decision_id": "authz-demo-denied-0001",
+  "tool_action_request_id": "tar-demo-denied-0001",
+  "decided_at": "2026-05-02T10:05:10Z",
+  "expires_at": "2026-05-02T10:15:10Z",
+  "decision": "deny",
+  "action_type": "tool_execution",
+  "target_id": "external-demo-001",
+  "scope_id": "scope-demo-001",
+  "tool": "nuclei",
+  "operation": "safe_template_scan",
+  "credential_ref": null,
+  "constraints": {
+    "rate_limit": "low",
+    "destructive_tests": false,
+    "external_discovery": false,
+    "evidence_required": true,
+    "max_duration_seconds": 120,
+    "allowed_time_window_id": "window-demo-001"
+  },
+  "human_review_required": false,
+  "evidence_required": true,
+  "policy_version": "mvp-policy-v0.1",
+  "decision_reason": "Denied because the request requires external discovery that is not allowed by the approved scope."
+}

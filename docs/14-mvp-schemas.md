@@ -162,6 +162,17 @@ Full JSON Schema validation of example instances can be added later.
 
 ## Relationship to Tool Gateway
 
+## Example Contract Flows
+
+Initial example flows are documented in `docs/15-tool-gateway-prototype-examples.md`.
+
+The example files live under `prototypes/tool-gateway/examples/` and cover:
+
+- allowed action,
+- denied action,
+- human-approval-required action.
+
+
 Tool Gateway relies on these schemas to avoid ambiguous execution.
 
 The MVP implementation should treat these schemas as contract boundaries rather than informal examples.

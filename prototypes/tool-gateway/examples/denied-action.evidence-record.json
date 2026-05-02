@@ -1,0 +1,18 @@
+{
+  "evidence_id": "ev-demo-denied-0001",
+  "tool_execution_id": "exec-demo-denied-0001",
+  "tool_action_request_id": "tar-demo-denied-0001",
+  "authorization_decision_id": "authz-demo-denied-0001",
+  "target_id": "external-demo-001",
+  "scope_id": "scope-demo-001",
+  "tool": "nuclei",
+  "operation": "safe_template_scan",
+  "credential_ref_used": null,
+  "secret_exposed_to_ai": false,
+  "raw_artifact_ref": null,
+  "sanitized_artifact_ref": null,
+  "sanitization_status": "not_required",
+  "finding_candidate_ids": [],
+  "human_review_status": "not_required",
+  "created_at": "2026-05-02T10:05:20Z"
+}
