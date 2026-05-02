@@ -299,3 +299,13 @@ The checkpoint records how the repository should introduce itself to first-time 
 It is presentation and navigation polish only. It does not authorize runtime execution, scanning, credential injection, customer-target operation, production deployment, certification, legal approval, or audit opinion.
 
 See `docs/74-public-front-page-and-repository-landing-polish-checkpoint.md`.
+
+## Public Evidence and Capability Boundary Summary
+
+AAEF-AI-VA includes a public evidence and capability boundary summary.
+
+The summary explains what the repository currently demonstrates, what it does not yet demonstrate, what remains intentionally blocked, and which public artifacts support those boundaries.
+
+It is an evidence and capability explanation only. It does not authorize runtime execution, scanning, credential injection, customer-target operation, production deployment, certification, legal approval, or audit opinion.
+
+See `docs/75-public-evidence-and-capability-boundary-summary.md`.

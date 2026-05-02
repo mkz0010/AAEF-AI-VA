@@ -236,3 +236,9 @@
 - Added a public front page and repository landing polish checkpoint.
 - Documented above-the-fold README expectations, first-minute reviewer goals, trust-signal placement, role-based navigation placement, and product-introduction boundaries.
 - Added a local validation test confirming front-page polish preserves runtime-execution and scanning boundaries.
+
+## v0.5.9 - Public evidence and capability boundary summary
+
+- Added a public evidence and capability boundary summary.
+- Documented demonstrated capabilities, non-demonstrated capabilities, intentionally blocked capabilities, evidence artifacts, reviewer interpretation guidance, and public claim boundaries.
+- Added a local validation test confirming the evidence/capability summary preserves runtime-execution and scanning boundaries.

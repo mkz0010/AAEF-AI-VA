@@ -537,3 +537,14 @@ Purpose:
 - Define first-minute reviewer goals without turning the repository into a sales deck.
 - Preserve safety, license, governance, and commercial-use boundaries.
 - Keep runtime execution, network activity, scan execution, credential injection, and raw artifact capture disabled.
+
+## v0.5.9 Public evidence and capability boundary summary
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Explain what the repository currently demonstrates and does not demonstrate.
+- Separate evidence-backed public claims from unsupported product claims.
+- Make capability boundaries easier for first-time reviewers to understand.
+- Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.

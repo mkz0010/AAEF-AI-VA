@@ -68,6 +68,7 @@ def main() -> int:
     run([sys.executable, "tools/test_release_governance_maintainer_operations_checklist.py"])
     run([sys.executable, "tools/test_public_trust_reviewer_navigation.py"])
     run([sys.executable, "tools/test_public_front_page_landing_polish.py"])
+    run([sys.executable, "tools/test_public_evidence_capability_boundary_summary.py"])
     print("All local checks passed.")
     return 0
 
