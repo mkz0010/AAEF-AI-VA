@@ -11,6 +11,12 @@
 
 ## Phase 1: Technical Prototype
 
+### Local-Only Execution Plan Review
+
+- Added v0.2.4 local-only execution plan review after bounded execution transition candidate.
+- Restricted plan operations to runtime_detection and health_check_plan_only while keeping ZAP start/stop/API calls, scans, network activity, credential injection, and raw artifact capture disabled.
+
+
 ### Bounded Execution Transition Candidate
 
 - Added v0.2.3 bounded execution transition candidate after runtime destination binding.

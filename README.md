@@ -64,3 +64,11 @@ v0.2.3 introduces a bounded execution transition candidate.
 It structures prerequisites for future local-only execution planning while keeping scan execution, network activity, real execution, process execution, credential injection, and raw artifact capture disabled.
 
 See `docs/42-bounded-execution-transition-candidate.md`.
+
+## Local-Only Execution Plan Review
+
+v0.2.4 introduces local-only execution plan review.
+
+It allows only plan-level `runtime_detection` and `health_check_plan_only` while keeping ZAP start/stop/API calls, scans, network activity, credential injection, raw artifact capture, customer targets, and external targets disabled.
+
+See `docs/43-local-only-execution-plan-review.md`.

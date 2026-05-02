@@ -118,3 +118,11 @@ Future v0.2.x work should add:
 - raw artifact capture boundary,
 - sanitizer policy binding to runtime output,
 - execution transition human approval record.
+
+## Relationship to Local-Only Execution Plan Review
+
+The bounded execution transition candidate can become input to a local-only execution plan review.
+
+The execution plan still does not grant execution authority.
+
+See `docs/43-local-only-execution-plan-review.md`.

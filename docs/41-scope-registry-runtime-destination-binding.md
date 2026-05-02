@@ -127,3 +127,11 @@ A runtime destination binding may become input to a bounded execution transition
 The transition candidate still does not grant execution authority.
 
 See `docs/42-bounded-execution-transition-candidate.md`.
+
+## Relationship to Local Execution Planning
+
+Runtime destination binding is an upstream prerequisite for local-only execution planning.
+
+The local execution plan still keeps scans, process execution, network activity, credential injection, and raw artifact capture disabled.
+
+See `docs/43-local-only-execution-plan-review.md`.
