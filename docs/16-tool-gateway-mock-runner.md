@@ -21,6 +21,17 @@ tools/
 
 ## Run Commands
 
+## Complete Local Check
+
+Run all local checks:
+
+~~~bash
+py tools/run_all_local_checks.py
+~~~
+
+Do not commit, merge, or tag if this command fails.
+
+
 Run all scenarios:
 
 ~~~bash

@@ -4,6 +4,8 @@
 
 ### Added
 
+- Added v0.1.10 stability checkpoint documentation and a single local validation runner.
+
 - Fixed remaining escaped Python docstring sequences that prevented Tool Gateway runner validation after v0.1.9.
 
 ### Fixed

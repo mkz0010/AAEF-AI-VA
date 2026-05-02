@@ -11,6 +11,13 @@
 
 ## Phase 1: Technical Prototype
 
+### v0.1.10 Stability Checkpoint
+
+- v0.1.10 is treated as the stable local checkpoint after v0.1.8/v0.1.9 remediation.
+- Added a single local validation command before future commits, merges, and tags.
+- Next implementation step can proceed to adapter stubs from this stable baseline.
+
+
 ### Mock Vault credential_ref Validation
 
 - credential_ref is now validated against secretless mock Vault metadata.
