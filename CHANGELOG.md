@@ -180,3 +180,10 @@
 - Added a GitHub Release publication checkpoint after publishing the `v0.4.5` GitHub Release.
 - Recorded release title, tag, URL, latest status, release-note safety boundaries, and private release-note source path.
 - Added a local validation test confirming the release publication checkpoint preserves runtime-execution and scanning boundaries.
+
+## v0.5.0 - Commercial adoption preparation checkpoint
+
+- Added a commercial adoption preparation checkpoint for business-facing use without turning the public repository into a sales deck.
+- Added public commercial-adoption boundary documentation covering OSS, commercial licensing, consulting/adoption support, and private sales-pack separation.
+- Added local private sales-pack draft material under `private-not-in-git/` for enterprise outreach planning.
+- Added a local validation test confirming commercial adoption wording preserves runtime-execution and scanning boundaries.

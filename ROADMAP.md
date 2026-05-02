@@ -434,3 +434,15 @@ Purpose:
 - Preserve release title, URL, latest status, and release-note safety boundaries.
 - Keep release publication separate from runtime readiness.
 - Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.
+
+## v0.5.0 Commercial adoption preparation checkpoint
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Convert the public OSS launch into enterprise adoption readiness.
+- Prepare business-facing positioning for vulnerability assessment companies, MSSPs, AI security firms, and security automation teams.
+- Keep public repository wording credible and technical, not overly sales-oriented.
+- Keep customer-specific sales material, pricing, outreach plans, and proposal drafts private.
+- Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.

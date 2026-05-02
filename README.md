@@ -319,3 +319,17 @@ Recorded release state:
 - Runtime execution: still disabled
 
 See `docs/65-github-release-publication-checkpoint.md`.
+
+## Commercial Adoption Preparation
+
+AAEF-AI-VA includes a commercial adoption preparation checkpoint.
+
+The public repository records only the safe, high-level commercial adoption boundary:
+
+- OSS reference implementation: public, AGPL-3.0
+- commercial licensing discussion: separate from vulnerability reports
+- consulting/adoption support: possible service path
+- customer-specific workflows, pricing, target details, and proposal material: private
+- runtime execution, scanning, credential injection, and customer-target operation: still disabled
+
+See `docs/66-commercial-adoption-preparation-checkpoint.md`.
