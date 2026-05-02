@@ -58,3 +58,13 @@ py tools/run_all_local_checks.py
 ~~~
 
 This includes adapter registry and fail-closed operation checks.
+
+## Internal Adapter Artifact Boundary
+
+Adapter output is internal Tool Gateway information.
+
+It must not appear directly in generated public `tool_execution_result` objects or evidence records.
+
+Future real tool integrations should persist raw adapter output only under ignored/private artifact paths and expose only sanitized references or summaries to AI-visible and evidence-facing components.
+
+See `docs/22-internal-adapter-artifact-policy.md`.

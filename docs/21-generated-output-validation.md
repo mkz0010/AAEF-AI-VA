@@ -58,3 +58,11 @@ py tools/validate_generated_outputs.py
 - Generated evidence records validate against `schemas/evidence-record.schema.json`.
 - `_adapter_output` does not appear in generated public outputs.
 - `secret_exposed_to_ai` remains false.
+
+## Relationship to Internal Adapter Artifacts
+
+Generated output validation enforces the public contract boundary.
+
+Adapter output may be useful internally, but it must remain outside generated public result objects unless a future schema explicitly introduces a sanitized internal artifact reference model.
+
+See `docs/22-internal-adapter-artifact-policy.md`.

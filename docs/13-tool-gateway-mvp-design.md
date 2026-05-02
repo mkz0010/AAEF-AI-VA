@@ -424,3 +424,13 @@ The MVP Tool Gateway does not initially need:
 - production SaaS hardening.
 
 Those are deferred until the core boundary model is proven.
+
+## Internal Adapter Artifact Policy
+
+Tool adapters may produce internal implementation artifacts.
+
+Tool Gateway must not place raw adapter output directly into public generated result objects, evidence records, or AI-visible summaries.
+
+Raw adapter artifacts should remain under ignored/private paths, and sanitized artifacts should be referenced explicitly.
+
+See `docs/22-internal-adapter-artifact-policy.md`.

@@ -3,6 +3,8 @@
 ## Unreleased
 
 ### Added
+
+- Documented internal adapter artifact policy and clarified that adapter output remains private/internal by default.
 - Added Tool Gateway adapter stubs and adapter registry for ZAP, Nmap, nuclei, and browser automation.
 - Routed completed mock Tool Gateway actions through adapter stubs before real tool integration.
 

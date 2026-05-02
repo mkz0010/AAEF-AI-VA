@@ -10,6 +10,12 @@
 - Define NDA, AI use, and external AI handling assumptions.
 
 ## Phase 1: Technical Prototype
+
+### Internal Adapter Artifact Policy
+
+- Documented that adapter output is internal/private by default.
+- Clarified raw artifact, sanitized artifact, public result, evidence, and AI-visible boundaries before real tool integration.
+
 ### Tool Gateway Adapter Stubs
 
 - Added adapter registry for ZAP, Nmap, nuclei, and browser automation.
