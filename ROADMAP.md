@@ -515,3 +515,14 @@ Purpose:
 - Keep private generated artifacts untracked.
 - Define emergency exception and post-release review expectations.
 - Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.
+
+## v0.5.7 Public trust and reviewer navigation checkpoint
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Make the public repository easier to evaluate without a direct sales meeting.
+- Provide role-based reviewer navigation for technical, security, commercial, licensing, and maintainer-operations review.
+- Connect public trust signals such as license, security policy, CI, release governance, and repository governance.
+- Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.

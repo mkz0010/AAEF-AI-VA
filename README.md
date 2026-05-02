@@ -279,3 +279,13 @@ The checklist records the intended operational steps for scoped branches, local 
 It is an operations checklist only and does not configure GitHub settings by itself.
 
 See `docs/72-release-governance-and-maintainer-operations-checklist.md`.
+
+## Public Trust and Reviewer Navigation
+
+AAEF-AI-VA includes a public trust and reviewer navigation checkpoint.
+
+The checkpoint gives first-time reviewers a role-based reading path for technical review, security review, commercial review, licensing review, and maintainer operations review.
+
+It is a public navigation aid only and does not claim production readiness, certification, legal approval, audit opinion, scan authorization, or customer-target authorization.
+
+See `docs/73-public-trust-and-reviewer-navigation-checkpoint.md`.

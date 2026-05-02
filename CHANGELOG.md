@@ -224,3 +224,9 @@
 - Added a release governance and maintainer operations checklist.
 - Documented pre-release, merge, tag, push, GitHub Actions, private artifact, emergency exception, and post-release review steps.
 - Added a local validation test confirming release operations wording preserves runtime-execution and scanning boundaries.
+
+## v0.5.7 - Public trust and reviewer navigation checkpoint
+
+- Added a public trust and reviewer navigation checkpoint.
+- Documented role-based reading paths for technical reviewers, security reviewers, commercial reviewers, licensing reviewers, and maintainer operations reviewers.
+- Added a local validation test confirming reviewer navigation preserves runtime-execution and scanning boundaries.
