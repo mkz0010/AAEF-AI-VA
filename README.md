@@ -303,3 +303,19 @@ The package provides:
 - runtime and scanning prohibitions
 
 See `docs/64-public-release-notes-and-launch-announcement-package.md`.
+
+## GitHub Release Publication Checkpoint
+
+AAEF-AI-VA includes a GitHub Release publication checkpoint.
+
+Recorded release state:
+
+- Release tag: `v0.4.5`
+- Release title: `AAEF-AI-VA v0.4.5 Public Launch Communication Package`
+- Release URL: `https://github.com/mkz0010/AAEF-AI-VA/releases/tag/v0.4.5`
+- Release type: Latest
+- Release status: published
+- Release notes source: `private-not-in-git/release-notes/v0.4.5-release-notes.md`
+- Runtime execution: still disabled
+
+See `docs/65-github-release-publication-checkpoint.md`.

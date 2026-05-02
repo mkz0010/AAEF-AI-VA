@@ -174,3 +174,9 @@
 - Added GitHub Release notes, short description, longer public announcement, LinkedIn-style announcement, and technical article lead drafts.
 - Added commercial inquiry wording and public claim boundaries while preserving runtime-execution and scanning prohibitions.
 - Added a local validation test for launch communication materials.
+
+## v0.4.6 - GitHub release publication checkpoint
+
+- Added a GitHub Release publication checkpoint after publishing the `v0.4.5` GitHub Release.
+- Recorded release title, tag, URL, latest status, release-note safety boundaries, and private release-note source path.
+- Added a local validation test confirming the release publication checkpoint preserves runtime-execution and scanning boundaries.

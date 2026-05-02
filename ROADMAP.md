@@ -423,3 +423,14 @@ Purpose:
 - Provide reusable release notes and announcement drafts.
 - Keep launch messaging aligned with safety, evidence, authorization, human review, and runtime-execution boundaries.
 - Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.
+
+## v0.4.6 GitHub release publication checkpoint
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Record that the `v0.4.5` GitHub Release was published.
+- Preserve release title, URL, latest status, and release-note safety boundaries.
+- Keep release publication separate from runtime readiness.
+- Preserve disabled runtime execution, network activity, scan execution, credential injection, and raw artifact capture boundaries.

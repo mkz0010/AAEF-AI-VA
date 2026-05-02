@@ -58,6 +58,7 @@ def main() -> int:
     run([sys.executable, "tools/test_public_facing_repository_metadata_announcement_pack.py"])
     run([sys.executable, "tools/test_public_repository_launch_checkpoint.py"])
     run([sys.executable, "tools/test_public_release_notes_launch_announcement_package.py"])
+    run([sys.executable, "tools/test_github_release_publication_checkpoint.py"])
     print("All local checks passed.")
     return 0
 
