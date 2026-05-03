@@ -334,3 +334,10 @@
 - Defined Compose design review fields, network boundary review, port exposure review, image provenance review, environment variable review, volume and persistence review, reset/teardown review, resource limit review, preflight evidence expectations, and advancement gates.
 - Preserved the separation between design review, Compose file creation, image pull, container startup, bounded local execution, scan execution, commercial PoC readiness, and customer-target operation.
 - Added a local validation test confirming non-running Docker Compose design review planning preserves Docker execution, runtime-execution, scanning, and customer-target boundaries.
+
+## v0.6.13 - Static Compose design sketch and network boundary review
+
+- Added a v0.6.13 static Compose design sketch and network boundary review checkpoint.
+- Defined non-runnable design sketch fields, service role inventory, localhost-only binding intent, isolated network posture, outbound network posture, port exposure intent, environment and secret posture, volume posture, reset/teardown posture, and advancement gates.
+- Preserved the separation between static design sketch, Compose file creation, image pull, container startup, bounded local execution, scan execution, commercial PoC readiness, and customer-target operation.
+- Added a local validation test confirming static Compose design sketch planning preserves Docker execution, runtime-execution, scanning, network, and customer-target boundaries.

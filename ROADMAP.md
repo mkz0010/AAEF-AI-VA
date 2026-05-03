@@ -702,3 +702,14 @@ Purpose:
 - Review future lab design boundaries for network, ports, images, environment variables, volumes, reset/teardown, and resource limits.
 - Separate image retrieval or dependency setup from assessment activity.
 - Preserve disabled Docker execution, image pull, container startup, runtime execution, network activity, scan execution, credential injection, raw artifact capture, and customer-target boundaries.
+
+## v0.6.13 Static Compose design sketch and network boundary review
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Define a static, non-runnable Compose design sketch before any Compose file is created.
+- Review future service roles, network boundary, port binding intent, outbound posture, volume posture, and reset/teardown posture.
+- Keep the sketch distinct from runnable Docker Compose configuration.
+- Preserve disabled Compose file creation, image pull, container startup, Docker execution, runtime execution, network activity, scan execution, credential injection, raw artifact capture, and customer-target boundaries.

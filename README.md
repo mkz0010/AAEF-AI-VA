@@ -449,3 +449,13 @@ The checkpoint defines review criteria for a future Docker Compose design withou
 It is non-running design review planning only. It does not authorize Docker execution, runtime execution, scanning, credential injection, customer-target operation, production deployment, certification, legal approval, or audit opinion.
 
 See `docs/89-v0612-non-running-docker-compose-design-review-planning.md`.
+
+## v0.6.13 Static Compose Design Sketch and Network Boundary Review
+
+AAEF-AI-VA includes a v0.6.13 static Compose design sketch and network boundary review checkpoint.
+
+The checkpoint defines review criteria for a non-runnable static Compose design sketch, including service role inventory, local network boundary, port binding intent, outbound network posture, environment and secret posture, volume posture, reset/teardown posture, and advancement gates without creating Docker Compose files, pulling images, starting containers, opening ports, running scanners, injecting credentials, or authorizing customer-target operation.
+
+It is static design sketch and network boundary review only. It does not authorize Docker execution, runtime execution, scanning, credential injection, customer-target operation, production deployment, certification, legal approval, or audit opinion.
+
+See `docs/90-v0613-static-compose-design-sketch-and-network-boundary-review.md`.
