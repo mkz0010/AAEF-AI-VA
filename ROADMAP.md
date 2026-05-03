@@ -724,3 +724,14 @@ Purpose:
 - Connect candidate profile, static sketch, AI request, gate decision, expected evidence, reviewer questions, and non-proof statement.
 - Keep fixture content synthetic, non-customer, non-secret, and private until a separate public-safe artifact decision exists.
 - Preserve disabled Compose file creation, image pull, container startup, Docker execution, runtime execution, network activity, scan execution, credential injection, raw artifact capture, and customer-target boundaries.
+
+## v0.6.15 Static fixture schema and validator planning
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Define schema and validator planning for future static lab scenario fixtures before fixture files are generated.
+- Define required fixture nodes, reference integrity, scenario trace validation, synthetic data checks, no-secret checks, no-runtime checks, and no-runnable-configuration checks.
+- Keep validator planning separate from generated fixture artifacts.
+- Preserve disabled fixture generation, Compose file creation, image pull, container startup, Docker execution, runtime execution, network activity, scan execution, credential injection, raw artifact capture, and customer-target boundaries.

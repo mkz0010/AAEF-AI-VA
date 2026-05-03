@@ -469,3 +469,13 @@ The checkpoint defines how a future non-executing static fixture set can connect
 It is static scenario fixture planning only. It does not authorize Docker execution, runtime execution, scanning, credential injection, customer-target operation, production deployment, certification, legal approval, or audit opinion.
 
 See `docs/91-v0614-static-lab-scenario-fixture-planning.md`.
+
+## v0.6.15 Static Fixture Schema and Validator Planning
+
+AAEF-AI-VA includes a v0.6.15 static fixture schema and validator planning checkpoint.
+
+The checkpoint defines how future non-executing static lab scenario fixtures should be shaped, linked, and validated before any fixture artifacts are generated or committed. It covers fixture manifest fields, node schemas, reference integrity, synthetic data assertions, no-secret checks, no-runtime checks, no-runnable-configuration checks, scenario trace validation, and validator failure categories.
+
+It is schema and validator planning only. It does not generate fixture files, create runnable configuration, authorize Docker execution, authorize runtime execution, run scanners, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
+
+See `docs/92-v0615-static-fixture-schema-and-validator-planning.md`.

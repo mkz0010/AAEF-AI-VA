@@ -348,3 +348,10 @@
 - Defined non-executing scenario fixture purpose, fixture set model, fixture node model, candidate-to-sketch linkage, AI request fixture boundary, gate decision fixture boundary, expected evidence fixture boundary, reviewer walkthrough linkage, fixture validation expectations, and advancement gates.
 - Preserved the separation between static fixtures, runnable Compose configuration, image pull, container startup, bounded local execution, scan execution, commercial PoC readiness, and customer-target operation.
 - Added a local validation test confirming static lab scenario fixture planning preserves Docker execution, runtime-execution, scanning, port binding, and customer-target boundaries.
+
+## v0.6.15 - Static fixture schema and validator planning
+
+- Added a v0.6.15 static fixture schema and validator planning checkpoint.
+- Defined planning for fixture manifest schema, fixture node schemas, reference integrity, scenario trace validation, synthetic data assertions, no-secret checks, no-runtime checks, no-runnable-configuration checks, validator failure categories, and future validator boundaries.
+- Preserved the separation between schema/validator planning, fixture generation, runnable Compose configuration, image pull, container startup, bounded local execution, scan execution, commercial PoC readiness, and customer-target operation.
+- Added a local validation test confirming static fixture schema and validator planning preserves Docker execution, runtime-execution, scanning, port binding, fixture generation, and customer-target boundaries.
