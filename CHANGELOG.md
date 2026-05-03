@@ -341,3 +341,10 @@
 - Defined non-runnable design sketch fields, service role inventory, localhost-only binding intent, isolated network posture, outbound network posture, port exposure intent, environment and secret posture, volume posture, reset/teardown posture, and advancement gates.
 - Preserved the separation between static design sketch, Compose file creation, image pull, container startup, bounded local execution, scan execution, commercial PoC readiness, and customer-target operation.
 - Added a local validation test confirming static Compose design sketch planning preserves Docker execution, runtime-execution, scanning, network, and customer-target boundaries.
+
+## v0.6.14 - Static lab scenario fixture planning
+
+- Added a v0.6.14 static lab scenario fixture planning checkpoint.
+- Defined non-executing scenario fixture purpose, fixture set model, fixture node model, candidate-to-sketch linkage, AI request fixture boundary, gate decision fixture boundary, expected evidence fixture boundary, reviewer walkthrough linkage, fixture validation expectations, and advancement gates.
+- Preserved the separation between static fixtures, runnable Compose configuration, image pull, container startup, bounded local execution, scan execution, commercial PoC readiness, and customer-target operation.
+- Added a local validation test confirming static lab scenario fixture planning preserves Docker execution, runtime-execution, scanning, port binding, and customer-target boundaries.

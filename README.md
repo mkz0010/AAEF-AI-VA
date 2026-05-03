@@ -459,3 +459,13 @@ The checkpoint defines review criteria for a non-runnable static Compose design 
 It is static design sketch and network boundary review only. It does not authorize Docker execution, runtime execution, scanning, credential injection, customer-target operation, production deployment, certification, legal approval, or audit opinion.
 
 See `docs/90-v0613-static-compose-design-sketch-and-network-boundary-review.md`.
+
+## v0.6.14 Static Lab Scenario Fixture Planning
+
+AAEF-AI-VA includes a v0.6.14 static lab scenario fixture planning checkpoint.
+
+The checkpoint defines how a future non-executing static fixture set can connect a local lab candidate profile, static Compose design sketch, approved diagnostic context summary, AI-generated `tool_action_request`, gate decision, expected evidence, reviewer questions, and non-proof statement without creating runnable configuration, starting containers, running scanners, opening ports, injecting credentials, or authorizing customer-target operation.
+
+It is static scenario fixture planning only. It does not authorize Docker execution, runtime execution, scanning, credential injection, customer-target operation, production deployment, certification, legal approval, or audit opinion.
+
+See `docs/91-v0614-static-lab-scenario-fixture-planning.md`.

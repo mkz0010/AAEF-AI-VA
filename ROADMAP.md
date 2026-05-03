@@ -713,3 +713,14 @@ Purpose:
 - Review future service roles, network boundary, port binding intent, outbound posture, volume posture, and reset/teardown posture.
 - Keep the sketch distinct from runnable Docker Compose configuration.
 - Preserve disabled Compose file creation, image pull, container startup, Docker execution, runtime execution, network activity, scan execution, credential injection, raw artifact capture, and customer-target boundaries.
+
+## v0.6.14 Static lab scenario fixture planning
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Define static, non-executing scenario fixture planning before any runnable Compose configuration or local execution exists.
+- Connect candidate profile, static sketch, AI request, gate decision, expected evidence, reviewer questions, and non-proof statement.
+- Keep fixture content synthetic, non-customer, non-secret, and private until a separate public-safe artifact decision exists.
+- Preserve disabled Compose file creation, image pull, container startup, Docker execution, runtime execution, network activity, scan execution, credential injection, raw artifact capture, and customer-target boundaries.

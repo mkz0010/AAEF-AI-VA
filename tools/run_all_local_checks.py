@@ -84,6 +84,7 @@ def main() -> int:
     run([sys.executable, "tools/test_v0611_local_lab_candidate_profile_preflight_evidence_planning.py"])
     run([sys.executable, "tools/test_v0612_non_running_docker_compose_design_review_planning.py"])
     run([sys.executable, "tools/test_v0613_static_compose_design_sketch_network_boundary_review.py"])
+    run([sys.executable, "tools/test_v0614_static_lab_scenario_fixture_planning.py"])
     print("All local checks passed.")
     return 0
 
