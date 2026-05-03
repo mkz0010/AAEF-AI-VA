@@ -691,3 +691,14 @@ Purpose:
 - Define preflight evidence expectations for future local-only target candidates.
 - Compare DVWA, OWASP Juice Shop, WebGoat, synthetic local API, and static fixture target candidates without selecting or running them.
 - Preserve disabled Docker execution, runtime execution, network activity, scan execution, credential injection, raw artifact capture, and customer-target boundaries.
+
+## v0.6.12 Non-running Docker Compose design review planning
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Define non-running Docker Compose design review criteria before Compose files are created.
+- Review future lab design boundaries for network, ports, images, environment variables, volumes, reset/teardown, and resource limits.
+- Separate image retrieval or dependency setup from assessment activity.
+- Preserve disabled Docker execution, image pull, container startup, runtime execution, network activity, scan execution, credential injection, raw artifact capture, and customer-target boundaries.

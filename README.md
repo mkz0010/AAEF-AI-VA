@@ -439,3 +439,13 @@ The checkpoint defines candidate profile fields and preflight evidence expectati
 It is candidate-profile and preflight-evidence planning only. It does not authorize runtime execution, scanning, credential injection, customer-target operation, production deployment, certification, legal approval, or audit opinion.
 
 See `docs/88-v0611-local-lab-candidate-profile-and-preflight-evidence-planning.md`.
+
+## v0.6.12 Non-running Docker Compose Design Review Planning
+
+AAEF-AI-VA includes a v0.6.12 non-running Docker Compose design review planning checkpoint.
+
+The checkpoint defines review criteria for a future Docker Compose design without creating Compose files, pulling images, starting containers, opening ports, running scanners, injecting credentials, or authorizing customer-target operation.
+
+It is non-running design review planning only. It does not authorize Docker execution, runtime execution, scanning, credential injection, customer-target operation, production deployment, certification, legal approval, or audit opinion.
+
+See `docs/89-v0612-non-running-docker-compose-design-review-planning.md`.

@@ -327,3 +327,10 @@
 - Defined local lab candidate profile fields, candidate profile examples, preflight evidence package planning, candidate scoring, rejection criteria, human review expectations, and advancement gates.
 - Preserved the separation between candidate profile planning, Docker execution, container startup, bounded local execution, scan execution, commercial PoC readiness, and customer-target operation.
 - Added a local validation test confirming local lab candidate profile and preflight evidence planning preserves runtime-execution and scanning boundaries.
+
+## v0.6.12 - Non-running Docker Compose design review planning
+
+- Added a v0.6.12 non-running Docker Compose design review planning checkpoint.
+- Defined Compose design review fields, network boundary review, port exposure review, image provenance review, environment variable review, volume and persistence review, reset/teardown review, resource limit review, preflight evidence expectations, and advancement gates.
+- Preserved the separation between design review, Compose file creation, image pull, container startup, bounded local execution, scan execution, commercial PoC readiness, and customer-target operation.
+- Added a local validation test confirming non-running Docker Compose design review planning preserves Docker execution, runtime-execution, scanning, and customer-target boundaries.
