@@ -355,3 +355,11 @@
 - Defined planning for fixture manifest schema, fixture node schemas, reference integrity, scenario trace validation, synthetic data assertions, no-secret checks, no-runtime checks, no-runnable-configuration checks, validator failure categories, and future validator boundaries.
 - Preserved the separation between schema/validator planning, fixture generation, runnable Compose configuration, image pull, container startup, bounded local execution, scan execution, commercial PoC readiness, and customer-target operation.
 - Added a local validation test confirming static fixture schema and validator planning preserves Docker execution, runtime-execution, scanning, port binding, fixture generation, and customer-target boundaries.
+
+## v0.6.16 - Static fixture schema draft and negative test planning
+
+- Added a v0.6.16 static fixture schema draft and negative test planning checkpoint.
+- Defined non-implemented draft fields for fixture manifest, node envelope, required fixture nodes, AI request fixture, gate decision fixture, expected evidence fixture, scenario trace, and validator failure expectations.
+- Defined negative test planning categories for missing nodes, broken references, runtime implications, runnable configuration, secret-like content, customer-like content, delivery implication, and overclaiming.
+- Preserved the separation between schema draft planning, validator implementation, fixture generation, runnable Compose configuration, image pull, container startup, bounded local execution, scan execution, commercial PoC readiness, and customer-target operation.
+- Added a local validation test confirming v0.6.16 preserves fixture-generation, validator-implementation, Docker execution, runtime-execution, scanning, port binding, and customer-target boundaries.

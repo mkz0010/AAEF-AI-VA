@@ -479,3 +479,13 @@ The checkpoint defines how future non-executing static lab scenario fixtures sho
 It is schema and validator planning only. It does not generate fixture files, create runnable configuration, authorize Docker execution, authorize runtime execution, run scanners, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
 
 See `docs/92-v0615-static-fixture-schema-and-validator-planning.md`.
+
+## v0.6.16 Static Fixture Schema Draft and Negative Test Planning
+
+AAEF-AI-VA includes a v0.6.16 static fixture schema draft and negative test planning checkpoint.
+
+The checkpoint defines a non-implemented schema draft posture and negative test expectations for future static lab scenario fixtures. It covers fixture manifest draft fields, node envelope draft fields, required node draft fields, reference integrity draft rules, scenario trace draft rules, negative example classes, no-secret expectations, no-runtime expectations, no-runnable-configuration expectations, and future validator failure expectations.
+
+It is schema draft and negative test planning only. It does not implement fixture schemas, implement fixture validators, generate fixture files, create runnable configuration, authorize Docker execution, authorize runtime execution, run scanners, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
+
+See `docs/93-v0616-static-fixture-schema-draft-and-negative-test-planning.md`.

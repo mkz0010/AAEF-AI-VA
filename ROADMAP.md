@@ -735,3 +735,14 @@ Purpose:
 - Define required fixture nodes, reference integrity, scenario trace validation, synthetic data checks, no-secret checks, no-runtime checks, and no-runnable-configuration checks.
 - Keep validator planning separate from generated fixture artifacts.
 - Preserve disabled fixture generation, Compose file creation, image pull, container startup, Docker execution, runtime execution, network activity, scan execution, credential injection, raw artifact capture, and customer-target boundaries.
+
+## v0.6.16 Static fixture schema draft and negative test planning
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Define draft schema fields for future static lab scenario fixtures before implementation.
+- Define negative test expectations before fixture validator implementation.
+- Keep schema draft and negative tests separate from generated fixture artifacts.
+- Preserve disabled fixture schema implementation, fixture validator implementation, fixture generation, Compose file creation, image pull, container startup, Docker execution, runtime execution, network activity, scan execution, credential injection, raw artifact capture, and customer-target boundaries.

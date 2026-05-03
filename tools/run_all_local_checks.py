@@ -86,6 +86,7 @@ def main() -> int:
     run([sys.executable, "tools/test_v0613_static_compose_design_sketch_network_boundary_review.py"])
     run([sys.executable, "tools/test_v0614_static_lab_scenario_fixture_planning.py"])
     run([sys.executable, "tools/test_v0615_static_fixture_schema_validator_planning.py"])
+    run([sys.executable, "tools/test_v0616_static_fixture_schema_draft_negative_test_planning.py"])
     print("All local checks passed.")
     return 0
 
