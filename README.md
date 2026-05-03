@@ -489,3 +489,13 @@ The checkpoint defines a non-implemented schema draft posture and negative test 
 It is schema draft and negative test planning only. It does not implement fixture schemas, implement fixture validators, generate fixture files, create runnable configuration, authorize Docker execution, authorize runtime execution, run scanners, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
 
 See `docs/93-v0616-static-fixture-schema-draft-and-negative-test-planning.md`.
+
+## v0.6.17 Static Fixture Validator Scaffold Planning
+
+AAEF-AI-VA includes a v0.6.17 static fixture validator scaffold planning checkpoint.
+
+The checkpoint defines the responsibilities, input boundaries, output boundaries, failure categories, fail-closed behavior, implementation order, and future registration conditions for a future static fixture validator scaffold before any validator code is implemented or fixture artifacts are generated.
+
+It is validator scaffold planning only. It does not implement fixture schemas, implement fixture validators, implement negative tests, generate fixture files, create runnable configuration, authorize Docker execution, authorize runtime execution, run scanners, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
+
+See `docs/94-v0617-static-fixture-validator-scaffold-planning.md`.

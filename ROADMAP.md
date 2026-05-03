@@ -746,3 +746,14 @@ Purpose:
 - Define negative test expectations before fixture validator implementation.
 - Keep schema draft and negative tests separate from generated fixture artifacts.
 - Preserve disabled fixture schema implementation, fixture validator implementation, fixture generation, Compose file creation, image pull, container startup, Docker execution, runtime execution, network activity, scan execution, credential injection, raw artifact capture, and customer-target boundaries.
+
+## v0.6.17 Static fixture validator scaffold planning
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Define future static fixture validator scaffold responsibilities before implementation.
+- Define validator input boundaries, output boundaries, fail-closed behavior, planned validation stages, failure categories, negative-test handling, and registration order.
+- Keep validator scaffold planning separate from implemented validator code and generated fixture artifacts.
+- Preserve disabled fixture schema implementation, fixture validator implementation, negative test implementation, fixture generation, Compose file creation, image pull, container startup, Docker execution, runtime execution, network activity, scan execution, credential injection, raw artifact capture, and customer-target boundaries.

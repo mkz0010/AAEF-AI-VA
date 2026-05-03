@@ -363,3 +363,10 @@
 - Defined negative test planning categories for missing nodes, broken references, runtime implications, runnable configuration, secret-like content, customer-like content, delivery implication, and overclaiming.
 - Preserved the separation between schema draft planning, validator implementation, fixture generation, runnable Compose configuration, image pull, container startup, bounded local execution, scan execution, commercial PoC readiness, and customer-target operation.
 - Added a local validation test confirming v0.6.16 preserves fixture-generation, validator-implementation, Docker execution, runtime-execution, scanning, port binding, and customer-target boundaries.
+
+## v0.6.17 - Static fixture validator scaffold planning
+
+- Added a v0.6.17 static fixture validator scaffold planning checkpoint.
+- Defined future validator scaffold responsibilities, input and output boundaries, fail-closed behavior, planned validation stages, failure categories, negative-test handling, registration order, and review gates.
+- Preserved the separation between validator scaffold planning, validator implementation, fixture generation, runnable Compose configuration, image pull, container startup, bounded local execution, scan execution, commercial PoC readiness, and customer-target operation.
+- Added a local validation test confirming v0.6.17 preserves fixture-generation, validator-implementation, Docker execution, runtime-execution, scanning, port binding, and customer-target boundaries.
