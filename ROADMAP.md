@@ -757,3 +757,14 @@ Purpose:
 - Define validator input boundaries, output boundaries, fail-closed behavior, planned validation stages, failure categories, negative-test handling, and registration order.
 - Keep validator scaffold planning separate from implemented validator code and generated fixture artifacts.
 - Preserve disabled fixture schema implementation, fixture validator implementation, negative test implementation, fixture generation, Compose file creation, image pull, container startup, Docker execution, runtime execution, network activity, scan execution, credential injection, raw artifact capture, and customer-target boundaries.
+
+## v0.6.18 Static fixture validator minimal scaffold design
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Define future read-only static fixture validator minimal scaffold design before implementation.
+- Define planned module boundaries, CLI boundary, input model, output model, function boundaries, failure result model, fail-closed behavior, and registration conditions.
+- Keep scaffold design separate from implemented validator code and generated fixture artifacts.
+- Preserve disabled fixture schema implementation, fixture validator implementation, negative test implementation, fixture generation, Compose file creation, image pull, container startup, Docker execution, runtime execution, network activity, scan execution, credential injection, raw artifact capture, and customer-target boundaries.

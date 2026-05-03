@@ -499,3 +499,13 @@ The checkpoint defines the responsibilities, input boundaries, output boundaries
 It is validator scaffold planning only. It does not implement fixture schemas, implement fixture validators, implement negative tests, generate fixture files, create runnable configuration, authorize Docker execution, authorize runtime execution, run scanners, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
 
 See `docs/94-v0617-static-fixture-validator-scaffold-planning.md`.
+
+## v0.6.18 Static Fixture Validator Minimal Scaffold Design
+
+AAEF-AI-VA includes a v0.6.18 static fixture validator minimal scaffold design checkpoint.
+
+The checkpoint defines a future read-only validator scaffold design before implementation. It records minimal module boundaries, CLI boundary, input model, output model, planned function boundaries, failure result model, fail-closed behavior, and future registration conditions while preserving the boundary that no validator code is implemented and no fixture artifacts are generated.
+
+It is minimal scaffold design only. It does not implement fixture schemas, implement fixture validators, implement negative tests, generate fixture files, create runnable configuration, authorize Docker execution, authorize runtime execution, run scanners, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
+
+See `docs/95-v0618-static-fixture-validator-minimal-scaffold-design.md`.

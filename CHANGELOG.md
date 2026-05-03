@@ -370,3 +370,10 @@
 - Defined future validator scaffold responsibilities, input and output boundaries, fail-closed behavior, planned validation stages, failure categories, negative-test handling, registration order, and review gates.
 - Preserved the separation between validator scaffold planning, validator implementation, fixture generation, runnable Compose configuration, image pull, container startup, bounded local execution, scan execution, commercial PoC readiness, and customer-target operation.
 - Added a local validation test confirming v0.6.17 preserves fixture-generation, validator-implementation, Docker execution, runtime-execution, scanning, port binding, and customer-target boundaries.
+
+## v0.6.18 - Static fixture validator minimal scaffold design
+
+- Added a v0.6.18 static fixture validator minimal scaffold design checkpoint.
+- Defined future read-only validator module boundaries, CLI boundary, input model, output model, planned function boundaries, failure result model, fail-closed behavior, and future local-check registration conditions.
+- Preserved the separation between minimal scaffold design, validator implementation, fixture generation, runnable Compose configuration, image pull, container startup, bounded local execution, scan execution, commercial PoC readiness, and customer-target operation.
+- Added a local validation test confirming v0.6.18 preserves fixture-generation, validator-implementation, Docker execution, runtime-execution, scanning, port binding, and customer-target boundaries.
