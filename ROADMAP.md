@@ -790,3 +790,14 @@ Purpose:
 - Define review-only data structures, planned failure categories, fail-closed missing-input behavior, and non-authorizing CLI output.
 - Keep the scaffold separate from generated fixture artifacts, complete schema validation, negative-test implementation, and positive fixture generation.
 - Preserve disabled fixture generation, complete fixture validator implementation, Compose file creation, image pull, container startup, Docker execution, runtime execution, network activity, scan execution, credential injection, raw artifact capture, and customer-target boundaries.
+
+## v0.6.21 Static fixture validator required-node check planning
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Define future required-node check planning for the static fixture validator before implementation.
+- Specify fixture manifest expectations, required static fixture node types, missing-node failure categories, fail-closed behavior, and future implementation order.
+- Keep required-node check planning separate from implemented validator behavior and generated fixture artifacts.
+- Preserve disabled required-node check implementation, complete fixture validator implementation, negative test implementation, fixture generation, Compose file creation, image pull, container startup, Docker execution, runtime execution, network activity, scan execution, credential injection, raw artifact capture, and customer-target boundaries.

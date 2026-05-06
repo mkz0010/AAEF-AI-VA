@@ -529,3 +529,13 @@ The checkpoint adds a minimal read-only validator scaffold at `tools/validate_st
 It is read-only implementation scaffold only. It does not implement complete fixture schemas, implement complete fixture validators, implement negative tests, generate fixture files, create runnable configuration, authorize Docker execution, authorize runtime execution, run scanners, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
 
 See `docs/97-v0620-static-fixture-validator-read-only-implementation-scaffold.md`.
+
+## v0.6.21 Static Fixture Validator Required-node Check Planning
+
+AAEF-AI-VA includes a v0.6.21 static fixture validator required-node check planning checkpoint.
+
+The checkpoint defines how future read-only validator work should check the fixture manifest and required static fixture nodes before full schema validation, reference validation, negative-test implementation, or positive fixture generation begins. It preserves that v0.6.21 is planning only and does not extend the v0.6.20 read-only scaffold with new validation behavior.
+
+It is required-node check planning only. It does not implement complete fixture schemas, implement complete fixture validators, implement required-node checks, implement negative tests, generate fixture files, create runnable configuration, authorize Docker execution, authorize runtime execution, run scanners, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
+
+See `docs/98-v0621-static-fixture-validator-required-node-check-planning.md`.

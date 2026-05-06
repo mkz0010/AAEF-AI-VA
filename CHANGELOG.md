@@ -391,3 +391,11 @@
 - Added `tools/validate_static_lab_fixtures.py` as a minimal read-only scaffold with review-only result data, planned failure categories, fail-closed missing-directory behavior, and a non-authorizing CLI boundary.
 - Added validation tests confirming the scaffold is read-only, does not create fixture artifacts, does not authorize execution, and preserves Docker/runtime/scanning/customer-target boundaries.
 - Preserved the separation between read-only scaffold implementation, complete validator implementation, fixture generation, runnable Compose configuration, image pull, container startup, bounded local execution, scan execution, commercial PoC readiness, and customer-target operation.
+
+## v0.6.21 - Static fixture validator required-node check planning
+
+- Added a v0.6.21 static fixture validator required-node check planning checkpoint.
+- Defined future manifest and required-node check boundaries for the read-only static fixture validator.
+- Recorded required fixture node set, missing-node failure categories, fail-closed expected behavior, non-authorization boundaries, and future implementation sequencing.
+- Preserved the separation between required-node check planning, validator implementation, fixture generation, runnable Compose configuration, image pull, container startup, bounded local execution, scan execution, commercial PoC readiness, and customer-target operation.
+- Added a local validation test confirming v0.6.21 preserves required-node-check implementation, fixture-generation, Docker execution, runtime-execution, scanning, port binding, and customer-target boundaries.
