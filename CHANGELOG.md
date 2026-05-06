@@ -540,3 +540,11 @@
 - Validates package artifacts, scenario artifacts, `.example.` naming, four-scenario coverage, representative request-to-evidence linkage, non-proof visibility, AAEF five-questions mapping visibility, publication hygiene status, and runtime/scanning/customer/delivery boundary flags.
 - Added local tests and registered the v0.6.40 validator test in `tools/run_all_local_checks.py`.
 - Preserved the boundary that v0.6.40 does not run scanners, create runnable configuration, authorize Docker/runtime execution, inject credentials, authorize customer-target operation, or authorize delivery.
+
+## v0.6.41 - Public example structural validator review and close-readiness
+
+- Added a v0.6.41 public example structural validator review and close-readiness checkpoint.
+- Reviewed the v0.6.40 read-only public example structural validator result for the sanitized public sample.
+- Recorded public example structural validation close-readiness.
+- Added safe AAEF Applied Implementation handback guidance focused on evidence/interface lessons, not implementation details or patent-sensitive material.
+- Preserved the boundary that v0.6.41 does not run scanners, create runnable configuration, authorize Docker/runtime execution, inject credentials, authorize customer-target operation, or authorize delivery.

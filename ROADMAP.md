@@ -1002,3 +1002,14 @@ Purpose:
 - Implement a read-only structural validator for the sanitized public sample artifact set.
 - Keep the validator scoped to public `.example.` artifacts.
 - Keep validator success separate from diagnostic accuracy, production readiness, implementation conformance, audit sufficiency, legal sufficiency, compliance certification, external-framework equivalence, runtime authorization, scanner authorization, customer-target operation, and delivery authorization.
+
+## v0.6.41 Public example structural validator review and close-readiness
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Review the v0.6.40 read-only public example structural validator result.
+- Treat the public example structural validation track as close-ready when validator output passes with empty blockers.
+- Capture AAEF Applied Implementation handback guidance for AAEF main.
+- Keep the review separate from local diagnostic execution, Docker execution, scanner execution, credential injection, customer-target operation, report delivery, and certification/compliance/audit/legal claims.

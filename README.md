@@ -729,3 +729,13 @@ This checkpoint adds a read-only, public-example-scoped validator for `examples/
 It is read-only structural validator implementation only. It does not run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
 
 See `docs/117-v0640-public-example-structural-validator-implementation-candidate.md`.
+
+## v0.6.41 Public Example Structural Validator Review and Close-Readiness
+
+AAEF-AI-VA includes a v0.6.41 public example structural validator review and close-readiness checkpoint.
+
+This checkpoint reviews the v0.6.40 read-only public example structural validator result, records that the public example structural validation track is close-ready if the validator passes, and defines safe AAEF Applied Implementation handback guidance. The handback focuses on the AAEF five questions, AI output as request, gate decision, dispatch/non-dispatch evidence, non-execution evidence, and reviewer traceability.
+
+It is validator review and close-readiness only. It does not run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
+
+See `docs/118-v0641-public-example-structural-validator-review-and-close-readiness.md`.
