@@ -749,3 +749,13 @@ This checkpoint summarizes the v0.6.35 through v0.6.41 public evidence/example/v
 It intentionally excludes detailed implementation, patent-sensitive browser-state or diagnostic reconstruction detail, commercial strategy, pricing strategy, customer lists, and NDA-assumed material.
 
 See `docs/119-v0642-aaef-applied-implementation-handback-summary.md`.
+
+## v0.6.43 Applied Implementation Handback Review and Next Direction
+
+AAEF-AI-VA includes a v0.6.43 Applied Implementation handback review and next direction checkpoint.
+
+This checkpoint reviews whether the v0.6.42 AAEF Applied Implementation handback is sufficient for AAEF main and records a conservative next direction. It keeps the handback at the evidence/interface level, confirms excluded material remains excluded, and compares next-track options: public validator hardening, local-lab/preflight planning return, AAEF handback only, or applied evidence track pause.
+
+It is handback review and next-direction planning only. It does not run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal advice, or provide audit opinion.
+
+See `docs/120-v0643-applied-implementation-handback-review-and-next-direction.md`.
