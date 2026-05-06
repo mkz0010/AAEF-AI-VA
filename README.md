@@ -689,3 +689,13 @@ This checkpoint adds a bounded publication review generator for the sanitized pu
 It is sanitized public sample publication review recording only. It does not run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
 
 See `docs/113-v0636-sanitized-public-sample-publication-review-record.md`.
+
+## v0.6.37 Sanitized Public Sample Close-Readiness Review
+
+AAEF-AI-VA includes a v0.6.37 sanitized public sample close-readiness review checkpoint.
+
+This checkpoint reviews whether the sanitized public sample track can be treated as close-ready after v0.6.35 generated a synthetic, non-executing public sample candidate and v0.6.36 recorded publication review status as `reviewed_retain_limited_public_example`. It records completion criteria, remaining limitations, next-track options, and the boundary that the public example remains a limited sample rather than diagnostic evidence, implementation conformance, audit evidence, legal advice, production guidance, or customer deliverable material.
+
+It is close-readiness review only. It does not run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
+
+See `docs/114-v0637-sanitized-public-sample-close-readiness-review.md`.

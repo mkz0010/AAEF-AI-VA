@@ -107,6 +107,7 @@ def main() -> int:
     run([sys.executable, "tools/test_v0634_sanitized_public_sample_generation_readiness_review.py"])
     run([sys.executable, "tools/test_v0635_sanitized_public_sample_generation_candidate.py"])
     run([sys.executable, "tools/test_v0636_sanitized_public_sample_publication_review_record.py"])
+    run([sys.executable, "tools/test_v0637_sanitized_public_sample_close_readiness_review.py"])
     print("All local checks passed.")
     return 0
 

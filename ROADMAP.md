@@ -961,3 +961,14 @@ Purpose:
 - Generate a publication review record for the sanitized public sample candidate created in v0.6.35.
 - Record that the sample may be retained as a limited public example while preserving non-proof and non-execution boundaries.
 - Keep publication review separate from local diagnostic execution, Docker execution, scanner execution, credential injection, customer-target operation, report delivery, and certification/compliance/audit/legal claims.
+
+## v0.6.37 Sanitized public sample close-readiness review
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Review whether the sanitized public sample track can be considered close-ready.
+- Preserve that the public example remains a limited synthetic non-executing example.
+- Identify next-track options after public sample close-readiness: public example structural validation, applied evidence structural validator implementation, or return to local-lab/preflight planning.
+- Keep close-readiness review separate from local diagnostic execution, Docker execution, scanner execution, credential injection, customer-target operation, report delivery, and certification/compliance/audit/legal claims.

@@ -511,3 +511,10 @@
 - Generated publication review artifacts under `examples/applied-evidence/sanitized-static-mock/`.
 - Recorded limited-public-example status, artifact coverage, four-scenario coverage, non-proof visibility, AAEF five-questions visibility, publication hygiene posture, and runtime/scanning/customer/delivery boundaries.
 - Preserved the boundary that v0.6.36 does not run scanners, create runnable configuration, authorize Docker/runtime execution, inject credentials, authorize customer-target operation, or authorize delivery.
+
+## v0.6.37 - Sanitized public sample close-readiness review
+
+- Added a v0.6.37 sanitized public sample close-readiness review checkpoint.
+- Reviewed the sanitized public sample track after v0.6.35 public sample generation candidate and v0.6.36 publication review record.
+- Recorded close-readiness criteria, remaining limitations, close recommendation, next-track options, and AAEF-side reporting guidance.
+- Preserved the boundary that v0.6.37 does not run scanners, create runnable configuration, authorize Docker/runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
