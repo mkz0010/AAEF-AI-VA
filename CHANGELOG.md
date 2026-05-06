@@ -518,3 +518,10 @@
 - Reviewed the sanitized public sample track after v0.6.35 public sample generation candidate and v0.6.36 publication review record.
 - Recorded close-readiness criteria, remaining limitations, close recommendation, next-track options, and AAEF-side reporting guidance.
 - Preserved the boundary that v0.6.37 does not run scanners, create runnable configuration, authorize Docker/runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
+
+## v0.6.38 - Public example structural validation planning
+
+- Added a v0.6.38 public example structural validation planning checkpoint.
+- Planned future structural validation checks for the sanitized public sample artifact set under `examples/applied-evidence/sanitized-static-mock/`.
+- Defined validation objectives, input scope, planned required-artifact checks, `.example.` naming checks, scenario coverage checks, linkage checks, non-proof visibility checks, AAEF five-questions mapping checks, publication hygiene checks, runtime/scanning/customer/delivery boundary checks, and failure categories.
+- Preserved the boundary that v0.6.38 does not implement structural validators, execute validator checks, run scanners, create runnable configuration, authorize Docker/runtime execution, inject credentials, authorize customer-target operation, or authorize delivery.

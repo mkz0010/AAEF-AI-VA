@@ -972,3 +972,13 @@ Purpose:
 - Preserve that the public example remains a limited synthetic non-executing example.
 - Identify next-track options after public sample close-readiness: public example structural validation, applied evidence structural validator implementation, or return to local-lab/preflight planning.
 - Keep close-readiness review separate from local diagnostic execution, Docker execution, scanner execution, credential injection, customer-target operation, report delivery, and certification/compliance/audit/legal claims.
+
+## v0.6.38 Public example structural validation planning
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Plan structural validation for the sanitized public sample artifact set.
+- Define checks that a later validator implementation should perform.
+- Keep validation planning separate from validator implementation, local diagnostic execution, Docker execution, scanner execution, credential injection, customer-target operation, report delivery, and certification/compliance/audit/legal claims.

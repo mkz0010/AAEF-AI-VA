@@ -699,3 +699,13 @@ This checkpoint reviews whether the sanitized public sample track can be treated
 It is close-readiness review only. It does not run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
 
 See `docs/114-v0637-sanitized-public-sample-close-readiness-review.md`.
+
+## v0.6.38 Public Example Structural Validation Planning
+
+AAEF-AI-VA includes a v0.6.38 public example structural validation planning checkpoint.
+
+This checkpoint plans how the sanitized public sample under `examples/applied-evidence/sanitized-static-mock/` should be structurally validated in a later implementation checkpoint. It defines planned checks for required artifact presence, `.example.` naming, four-scenario coverage, request-to-evidence linkage, non-proof visibility, AAEF five-questions mapping visibility, publication hygiene posture, runtime/scanning/customer/delivery boundary flags, and failure categories.
+
+It is structural validation planning only. It does not implement structural validators, execute validator checks, run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
+
+See `docs/115-v0638-public-example-structural-validation-planning.md`.
