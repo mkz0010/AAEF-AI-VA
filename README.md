@@ -589,3 +589,13 @@ This checkpoint defines how future static applied evidence fixtures should be ex
 It is reviewer walkthrough and mapping planning only. It does not generate fixture files, generate applied evidence packages, run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
 
 See `docs/103-v0626-reviewer-walkthrough-and-five-questions-mapping.md`.
+
+## v0.6.27 Applied Evidence Structural Validator Planning
+
+AAEF-AI-VA includes a v0.6.27 applied evidence structural validator planning checkpoint.
+
+This checkpoint defines the structural validation plan for future static/mock applied evidence packages before any fixture generation or validator implementation begins. It plans checks for artifact presence, required fields, stable identifier linkage, scenario consistency, dispatch/result contradiction prevention, non-execution evidence, reviewer walkthrough coverage, non-proof statements, and overclaim prevention.
+
+It is structural validator planning only. It does not implement a structural validator, generate fixture files, generate applied evidence packages, run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
+
+See `docs/104-v0627-applied-evidence-structural-validator-planning.md`.

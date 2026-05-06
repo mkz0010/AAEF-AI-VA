@@ -856,3 +856,13 @@ Purpose:
 - Map each scenario and artifact chain to the AAEF five questions.
 - Make permitted, denied, held, and not-executed outcomes understandable without relying on raw JSON alone.
 - Keep reviewer walkthrough planning separate from fixture generation, package generation, local diagnostic execution, Docker execution, scanner execution, credential injection, customer-target operation, and delivery authorization.
+
+## v0.6.27 Applied evidence structural validator planning
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Define structural validation criteria before generating static/mock applied evidence packages.
+- Plan checks for required artifacts, required fields, ID linkage, scenario consistency, non-execution evidence, non-proof statements, reviewer walkthrough coverage, and overclaim prevention.
+- Keep validator planning separate from validator implementation, fixture generation, package generation, local diagnostic execution, Docker execution, scanner execution, credential injection, customer-target operation, and delivery authorization.

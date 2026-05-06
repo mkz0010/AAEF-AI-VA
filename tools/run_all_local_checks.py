@@ -97,6 +97,7 @@ def main() -> int:
     run([sys.executable, "tools/test_v0624_applied_evidence_scenario_set_planning.py"])
     run([sys.executable, "tools/test_v0625_static_applied_evidence_fixture_planning.py"])
     run([sys.executable, "tools/test_v0626_reviewer_walkthrough_five_questions_mapping.py"])
+    run([sys.executable, "tools/test_v0627_applied_evidence_structural_validator_planning.py"])
     print("All local checks passed.")
     return 0
 

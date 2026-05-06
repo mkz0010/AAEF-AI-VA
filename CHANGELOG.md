@@ -438,3 +438,10 @@
 - Mapped `tool_action_request`, `gate_decision`, `dispatch_decision`, `execution_result` / `non_execution_result`, `evidence_event`, and `review_summary` to the AAEF five questions.
 - Recorded per-scenario reviewer questions, expected reviewer conclusions, non-proof boundaries, and future walkthrough artifact planning.
 - Preserved the boundary that v0.6.26 does not generate fixtures, generate evidence packages, run scanners, create runnable configuration, authorize Docker/runtime execution, inject credentials, authorize customer-target operation, or authorize delivery.
+
+## v0.6.27 - Applied evidence structural validator planning
+
+- Added a v0.6.27 applied evidence structural validator planning checkpoint.
+- Planned structural checks for artifact presence, required fields, identifier linkage, scenario consistency, dispatch/result contradiction prevention, non-execution evidence, reviewer walkthrough coverage, non-proof statements, and overclaim prevention.
+- Defined validator input/output boundaries, fail-closed categories, scenario-specific contradiction checks, five-questions mapping checks, and future implementation sequencing.
+- Preserved the boundary that v0.6.27 does not implement validators, generate fixtures, generate evidence packages, run scanners, create runnable configuration, authorize Docker/runtime execution, inject credentials, authorize customer-target operation, or authorize delivery.
