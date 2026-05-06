@@ -1051,3 +1051,12 @@ Purpose:
 - Keep the future implementation scoped to synthetic, public-safe, static negative fixtures and optional read-only harness behavior.
 - Confirm fixture root expectations, temporary copy strategy, expected blocker metadata, positive control preservation, fail-closed expectations, and validation harness constraints.
 - Keep readiness review separate from fixture implementation, validator behavior changes, local diagnostic execution, Docker execution, scanner execution, credential injection, customer-target operation, report delivery, and certification/compliance/audit/legal claims.
+## v0.6.46 Public validator negative fixture implementation candidate
+Status: completed candidate once local checks pass.
+Purpose:
+- Add synthetic, public-safe, static negative fixtures for the public example structural validator.
+- Add a read-only harness test that runs the existing validator against the positive control and each negative fixture.
+- Confirm expected fail-closed blocker categories without changing validator behavior.
+- Keep fixture implementation separate from local diagnostic execution, Docker execution, scanner execution, credential injection, customer-target operation, report delivery, and certification/compliance/audit/legal claims.
+Recommended next step:
+- Review whether the negative fixture set is sufficient before considering any validator behavior expansion or additional fixture categories.

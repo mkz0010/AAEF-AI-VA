@@ -1,0 +1,13 @@
+{
+  "event_summary": "Synthetic expired trace with no dispatch.",
+  "event_type": "expired_non_execution_example_evidence",
+  "evidence_event_id": "example-evidence-not-executed-expired",
+  "integrity_notes": "Synthetic public example; no live execution or scanner output.",
+  "linked_decision_id": "example-decision-not-executed-expired",
+  "linked_dispatch_decision_id": "example-dispatch-not-executed-expired",
+  "linked_request_id": "example-request-not-executed-expired",
+  "linked_result_id": "example-result-not-executed-expired",
+  "non_authorization_statement": "This public example is synthetic and non-executing. It does not authorize runtime execution, scanner execution, credential injection, customer-target operation, delivery, certification, legal approval, or audit opinion.",
+  "non_proof_statement_ref": "non_proof_statement.example.md",
+  "scenario_id": "not-executed-expired"
+}

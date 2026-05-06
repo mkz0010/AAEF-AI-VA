@@ -1,0 +1,24 @@
+{
+  "expected_blockers": [
+    "publication_hygiene_not_passed"
+  ],
+  "expected_validator_result": "fail_closed",
+  "fixture_id": "v0646-hygiene-not-passed",
+  "mutation_summary": "Change the publication hygiene status from passed to a failing static negative-fixture status.",
+  "negative_category": "hygiene-not-passed",
+  "non_authorization_statement": "This fixture is a static negative validator test artifact. It does not authorize runtime execution, scanner execution, Docker execution, credential injection, customer-target operation, or delivery.",
+  "runtime_boundary": {
+    "credential_injection_permitted": false,
+    "customer_deliverable": false,
+    "customer_target": false,
+    "customer_target_authorized": false,
+    "delivery_authorized": false,
+    "fixture_live_evidence": false,
+    "runtime_execution_authorized": false,
+    "scan_execution_allowed": false,
+    "scanner_execution_authorized": false,
+    "validator_behavior_modified_by_fixture": false
+  },
+  "source_positive_control": "examples/applied-evidence/sanitized-static-mock",
+  "synthetic_public_safe_static_fixture": true
+}

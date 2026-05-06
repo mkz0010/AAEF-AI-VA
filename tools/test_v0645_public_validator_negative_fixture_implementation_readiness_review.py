@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import re
+import json
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[1]
@@ -38,7 +39,49 @@ def main() -> int:
     require("examples/applied-evidence/sanitized-static-mock/" in doc, "doc must reference positive control")
     require("examples/applied-evidence/public-validator-negative-fixtures/" in doc, "doc must include future fixture root")
     require("v0.6.46 Public Validator Negative Fixture Implementation Candidate" in doc, "doc must recommend v0.6.46")
-    require(not FIXTURE_ROOT.exists(), "v0.6.45 must not create negative fixture root")
+    if FIXTURE_ROOT.exists():
+        # v0.6.45 itself must not create negative fixtures, but later releases may
+        # add the planned public-safe negative fixture root. Keep this readiness
+        # review durable by validating the later index in a schema-compatible way.
+        index_path = FIXTURE_ROOT / "negative_fixture_index.example.json"
+        require(
+            index_path.exists(),
+            "negative fixture root may exist only after a later indexed implementation candidate",
+        )
+        index = json.loads(index_path.read_text(encoding="utf-8"))
+        fixture_set_id = str(index.get("fixture_set_id", ""))
+        version = str(index.get("version", ""))
+        require(
+            fixture_set_id.startswith("v0646_") or version >= "v0.6.46",
+            "negative fixture root must be introduced by v0.6.46 or later",
+        )
+        require(
+            index.get("synthetic_public_safe_static_fixtures") is True
+            or (
+                index.get("public_safe") is True
+                and index.get("static_only") is True
+                and index.get("synthetic_only") is True
+            ),
+            "later negative fixture root must remain public-safe, static-only, and synthetic-only",
+        )
+        require(
+            index.get("validator_behavior_modified") is False,
+            "later negative fixture root must not imply validator behavior modification",
+        )
+        runtime_boundary = index.get("runtime_boundary")
+        require(isinstance(runtime_boundary, dict), "later negative fixture root must include runtime_boundary")
+        for flag in [
+            "runtime_execution_authorized",
+            "scanner_execution_authorized",
+            "scan_execution_allowed",
+            "credential_injection_permitted",
+            "customer_target_authorized",
+            "delivery_authorized",
+        ]:
+            require(
+                runtime_boundary.get(flag) is False,
+                f"later negative fixture root must keep {flag}=false",
+            )
 
     sections = [
         "Purpose",

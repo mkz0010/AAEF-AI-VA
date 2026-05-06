@@ -1,0 +1,123 @@
+{
+  "all_example_names": true,
+  "blocker_categories": [],
+  "boundary_ok": true,
+  "expected_scenario_count": 4,
+  "generator_version": "v0.6.36-public-sample-publication-review",
+  "hygiene_status": "passed",
+  "linkage_ok": true,
+  "non_authorization_statement": "This publication review record is review-only. It does not authorize runtime execution, scanner execution, customer-target operation, delivery, certification, legal approval, or audit opinion.",
+  "non_proof_visible": true,
+  "package_artifact_presence": {
+    "five_questions_mapping": true,
+    "package_manifest": true,
+    "package_non_proof_statement": true,
+    "publication_hygiene_report": true,
+    "readme": true,
+    "reviewer_walkthrough": true
+  },
+  "publication_limit": "limited_synthetic_non_executing_example",
+  "publication_review_status": "reviewed_retain_limited_public_example",
+  "review_id": "publication-review-sanitized-static-mock-v0636",
+  "runtime_boundary": {
+    "container_started": false,
+    "credential_injection_permitted": false,
+    "customer_deliverable": false,
+    "customer_target": false,
+    "customer_target_authorized": false,
+    "delivery_authorized": false,
+    "docker_compose_executed": false,
+    "docker_compose_file_created": false,
+    "docker_execution_authorized": false,
+    "docker_image_pulled": false,
+    "execution_authorized": false,
+    "external_network_target": false,
+    "fixture_live_evidence": false,
+    "local_lab_diagnostic_system_built": false,
+    "network_activity_allowed": false,
+    "port_bound": false,
+    "private_artifact_copied_to_public": false,
+    "public_sample_publication_review_completed": true,
+    "publication_review_record_generated": true,
+    "real_execution_permitted": false,
+    "runtime_execution_authorized": false,
+    "sanitized_public_sample_candidate_generated": true,
+    "scan_execution_allowed": false,
+    "scanner_execution_authorized": false,
+    "structural_validator_checks_execute": false,
+    "structural_validator_implemented": false,
+    "tool_backed_diagnostic_capture_started": false,
+    "validator_authorizes_delivery": false,
+    "validator_authorizes_docker": false,
+    "validator_authorizes_execution": false,
+    "validator_authorizes_scanning": false
+  },
+  "sample_dir": "examples\\applied-evidence\\sanitized-static-mock",
+  "scenario_count": 4,
+  "scenario_reviews": [
+    {
+      "artifact_presence": {
+        "dispatch_decision": true,
+        "evidence_event": true,
+        "gate_decision": true,
+        "non_proof_statement": true,
+        "request": true,
+        "result": true,
+        "review_summary": true
+      },
+      "blockers": [],
+      "boundary_ok": true,
+      "linkage_ok": true,
+      "non_proof_visible": true,
+      "scenario_id": "permitted-safe-diagnostic"
+    },
+    {
+      "artifact_presence": {
+        "dispatch_decision": true,
+        "evidence_event": true,
+        "gate_decision": true,
+        "non_proof_statement": true,
+        "request": true,
+        "result": true,
+        "review_summary": true
+      },
+      "blockers": [],
+      "boundary_ok": true,
+      "linkage_ok": true,
+      "non_proof_visible": true,
+      "scenario_id": "denied-out-of-scope-request"
+    },
+    {
+      "artifact_presence": {
+        "dispatch_decision": true,
+        "evidence_event": true,
+        "gate_decision": true,
+        "non_proof_statement": true,
+        "request": true,
+        "result": true,
+        "review_summary": true
+      },
+      "blockers": [],
+      "boundary_ok": true,
+      "linkage_ok": true,
+      "non_proof_visible": true,
+      "scenario_id": "human-approval-required"
+    },
+    {
+      "artifact_presence": {
+        "dispatch_decision": true,
+        "evidence_event": true,
+        "gate_decision": true,
+        "non_proof_statement": true,
+        "request": true,
+        "result": true,
+        "review_summary": true
+      },
+      "blockers": [],
+      "boundary_ok": true,
+      "linkage_ok": true,
+      "non_proof_visible": true,
+      "scenario_id": "not-executed-expired"
+    }
+  ]
+}

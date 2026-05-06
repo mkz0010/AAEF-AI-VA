@@ -1,0 +1,149 @@
+{
+  "fixture_set_id": "v0646_public_validator_negative_fixture_implementation_candidate",
+  "fixtures": [
+    {
+      "expected_blockers": [
+        "package_artifact_missing:package_manifest.example.json"
+      ],
+      "expected_validator_result": "fail_closed",
+      "fixture_id": "v0646-missing-package-artifact",
+      "mutation_summary": "Remove one required package-level artifact from an otherwise sanitized public example package.",
+      "negative_category": "missing-package-artifact",
+      "path": "examples/applied-evidence/public-validator-negative-fixtures/missing-package-artifact"
+    },
+    {
+      "expected_blockers": [
+        "scenario_artifact_missing:permitted-safe-diagnostic:evidence_event.example.json"
+      ],
+      "expected_validator_result": "fail_closed",
+      "fixture_id": "v0646-missing-scenario-artifact",
+      "mutation_summary": "Remove one required scenario artifact while leaving the scenario directory present.",
+      "negative_category": "missing-scenario-artifact",
+      "path": "examples/applied-evidence/public-validator-negative-fixtures/missing-scenario-artifact"
+    },
+    {
+      "expected_blockers": [
+        "scenario_missing:not-executed-expired"
+      ],
+      "expected_validator_result": "fail_closed",
+      "fixture_id": "v0646-missing-scenario-directory",
+      "mutation_summary": "Remove one required scenario directory from the public example scenario set.",
+      "negative_category": "missing-scenario-directory",
+      "path": "examples/applied-evidence/public-validator-negative-fixtures/missing-scenario-directory"
+    },
+    {
+      "expected_blockers": [
+        "malformed_json:*"
+      ],
+      "expected_validator_result": "fail_closed",
+      "fixture_id": "v0646-malformed-json",
+      "mutation_summary": "Replace one required JSON artifact with syntactically invalid JSON text.",
+      "negative_category": "malformed-json",
+      "path": "examples/applied-evidence/public-validator-negative-fixtures/malformed-json"
+    },
+    {
+      "expected_blockers": [
+        "identifier_linkage_broken:permitted-safe-diagnostic"
+      ],
+      "expected_validator_result": "fail_closed",
+      "fixture_id": "v0646-broken-linkage",
+      "mutation_summary": "Change one linked request identifier so request, gate, dispatch, result, and evidence no longer link.",
+      "negative_category": "broken-linkage",
+      "path": "examples/applied-evidence/public-validator-negative-fixtures/broken-linkage"
+    },
+    {
+      "expected_blockers": [
+        "scenario_posture_contradiction:denied-out-of-scope-request"
+      ],
+      "expected_validator_result": "fail_closed",
+      "fixture_id": "v0646-scenario-posture-contradiction",
+      "mutation_summary": "Make a denied non-execution scenario imply that execution occurred.",
+      "negative_category": "scenario-posture-contradiction",
+      "path": "examples/applied-evidence/public-validator-negative-fixtures/scenario-posture-contradiction"
+    },
+    {
+      "expected_blockers": [
+        "non_example_artifact_name_detected:not_public_safe_name.txt"
+      ],
+      "expected_validator_result": "fail_closed",
+      "fixture_id": "v0646-non-example-name",
+      "mutation_summary": "Add a file whose name does not use the public `.example.` artifact naming convention.",
+      "negative_category": "non-example-name",
+      "path": "examples/applied-evidence/public-validator-negative-fixtures/non-example-name"
+    },
+    {
+      "expected_blockers": [
+        "non_proof_statement_missing_or_incomplete:human-approval-required"
+      ],
+      "expected_validator_result": "fail_closed",
+      "fixture_id": "v0646-missing-non-proof-statement",
+      "mutation_summary": "Keep the scenario non-proof statement file present but remove the required non-proof claim coverage.",
+      "negative_category": "missing-non-proof-statement",
+      "path": "examples/applied-evidence/public-validator-negative-fixtures/missing-non-proof-statement"
+    },
+    {
+      "expected_blockers": [
+        "five_questions_mapping_missing"
+      ],
+      "expected_validator_result": "fail_closed",
+      "fixture_id": "v0646-missing-five-questions-mapping",
+      "mutation_summary": "Remove the package-level AAEF five-questions mapping artifact.",
+      "negative_category": "missing-five-questions-mapping",
+      "path": "examples/applied-evidence/public-validator-negative-fixtures/missing-five-questions-mapping"
+    },
+    {
+      "expected_blockers": [
+        "publication_hygiene_not_passed"
+      ],
+      "expected_validator_result": "fail_closed",
+      "fixture_id": "v0646-hygiene-not-passed",
+      "mutation_summary": "Change the publication hygiene status from passed to a failing static negative-fixture status.",
+      "negative_category": "hygiene-not-passed",
+      "path": "examples/applied-evidence/public-validator-negative-fixtures/hygiene-not-passed"
+    },
+    {
+      "expected_blockers": [
+        "forbidden_fragment_detected:*"
+      ],
+      "expected_validator_result": "fail_closed",
+      "fixture_id": "v0646-forbidden-text-leakage",
+      "mutation_summary": "Insert a forbidden public-artifact sentinel fragment into a markdown artifact.",
+      "negative_category": "forbidden-text-leakage",
+      "path": "examples/applied-evidence/public-validator-negative-fixtures/forbidden-text-leakage"
+    },
+    {
+      "expected_blockers": [
+        "overclaim_detected:*"
+      ],
+      "expected_validator_result": "fail_closed",
+      "fixture_id": "v0646-overclaim-language",
+      "mutation_summary": "Insert a positive overclaim sentence that the public validator should reject.",
+      "negative_category": "overclaim-language",
+      "path": "examples/applied-evidence/public-validator-negative-fixtures/overclaim-language"
+    },
+    {
+      "expected_blockers": [
+        "runtime_boundary_flag_not_false:permitted-safe-diagnostic:execution_result.example.json:runtime_execution_authorized"
+      ],
+      "expected_validator_result": "fail_closed",
+      "fixture_id": "v0646-boundary-flag-violation",
+      "mutation_summary": "Set one runtime/scanning/customer/delivery boundary flag to true in a static result artifact.",
+      "negative_category": "boundary-flag-violation",
+      "path": "examples/applied-evidence/public-validator-negative-fixtures/boundary-flag-violation"
+    }
+  ],
+  "runtime_boundary": {
+    "credential_injection_permitted": false,
+    "customer_deliverable": false,
+    "customer_target": false,
+    "customer_target_authorized": false,
+    "delivery_authorized": false,
+    "runtime_execution_authorized": false,
+    "scan_execution_allowed": false,
+    "scanner_execution_authorized": false
+  },
+  "source_positive_control": "examples/applied-evidence/sanitized-static-mock",
+  "synthetic_public_safe_static_fixtures": true,
+  "validator": "tools/validate_public_example_structure.py",
+  "validator_behavior_modified": false
+}

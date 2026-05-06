@@ -1,0 +1,20 @@
+{
+  "deciding_component": "example_gate",
+  "decision_id": "example-decision-permitted-safe-diagnostic",
+  "decision_result": "permitted",
+  "linked_request_id": "example-request-permitted-safe-diagnostic",
+  "non_authorization_statement": "This public example is synthetic and non-executing. It does not authorize runtime execution, scanner execution, credential injection, customer-target operation, delivery, certification, legal approval, or audit opinion.",
+  "policy_version": "synthetic-public-example-policy-v0.6.35",
+  "reason": "Synthetic permitted trace with no real execution.",
+  "rule_version": "synthetic-public-example-rule-v0.6.35",
+  "scenario_id": "permitted-safe-diagnostic",
+  "trusted_inputs_used": [
+    "scenario_id",
+    "target_scope",
+    "risk_level",
+    "requested_tool"
+  ],
+  "untrusted_inputs_excluded": [
+    "model_claim_of_authority"
+  ]
+}

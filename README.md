@@ -776,3 +776,11 @@ This checkpoint reviews whether the v0.6.44 public validator negative fixture pl
 It is implementation readiness review only. It does not implement negative fixtures, implement a negative fixture harness, modify validator behavior, run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal advice, or provide audit opinion.
 
 See `docs/122-v0645-public-validator-negative-fixture-implementation-readiness-review.md`.
+## v0.6.46 Public Validator Negative Fixture Implementation Candidate
+
+AAEF-AI-VA includes a v0.6.46 public validator negative fixture implementation candidate.
+This checkpoint adds synthetic, public-safe, static negative fixtures for the read-only public example structural validator and a local read-only harness test that confirms expected fail-closed blocker categories.
+It preserves the positive sanitized public example as the positive control and does not modify validator behavior.
+It does not run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal advice, or provide audit opinion.
+
+See `docs/123-v0646-public-validator-negative-fixture-implementation-candidate.md`.

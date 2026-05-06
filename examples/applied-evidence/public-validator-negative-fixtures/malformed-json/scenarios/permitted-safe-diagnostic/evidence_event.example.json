@@ -1,0 +1,13 @@
+{
+  "event_summary": "Synthetic permitted trace with no real execution.",
+  "event_type": "permitted_static_mock_example_evidence",
+  "evidence_event_id": "example-evidence-permitted-safe-diagnostic",
+  "integrity_notes": "Synthetic public example; no live execution or scanner output.",
+  "linked_decision_id": "example-decision-permitted-safe-diagnostic",
+  "linked_dispatch_decision_id": "example-dispatch-permitted-safe-diagnostic",
+  "linked_request_id": "example-request-permitted-safe-diagnostic",
+  "linked_result_id": "example-result-permitted-safe-diagnostic",
+  "non_authorization_statement": "This public example is synthetic and non-executing. It does not authorize runtime execution, scanner execution, credential injection, customer-target operation, delivery, certification, legal approval, or audit opinion.",
+  "non_proof_statement_ref": "non_proof_statement.example.md",
+  "scenario_id": "permitted-safe-diagnostic"
+}
