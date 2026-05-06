@@ -101,6 +101,7 @@ def main() -> int:
     run([sys.executable, "tools/test_v0628_static_mock_applied_evidence_generation_readiness_review.py"])
     run([sys.executable, "tools/test_v0629_static_mock_applied_evidence_package_private_generation_candidate.py"])
     run([sys.executable, "tools/test_v0630_static_mock_applied_evidence_review_promotion_gate_planning.py"])
+    run([sys.executable, "tools/test_v0631_static_mock_applied_evidence_private_review_record.py"])
     print("All local checks passed.")
     return 0
 

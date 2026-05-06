@@ -467,3 +467,10 @@
 - Defined private package review criteria for the v0.6.29 generated static/mock applied evidence package.
 - Planned public sample promotion gate criteria, blocker categories, promotion outcomes, publication-safe requirements, rollback posture, and AAEF-side reporting boundaries.
 - Preserved the boundary that v0.6.30 does not promote public samples, generate public artifacts, implement structural validators, run scanners, create runnable configuration, authorize Docker/runtime execution, inject credentials, authorize customer-target operation, or authorize delivery.
+
+## v0.6.31 - Static/mock applied evidence package private review record
+
+- Added a v0.6.31 static/mock applied evidence package private review record checkpoint.
+- Added `tools/generate_static_mock_applied_evidence_private_review_record.py` to review the private static/mock package and emit private review records under `private-not-in-git/`.
+- Generated private review outputs summarize scenario coverage, artifact presence, identifier linkage posture, non-proof visibility, runtime/scanning/customer/delivery boundaries, blocker categories, and promotion gate result.
+- Preserved the boundary that v0.6.31 does not promote public samples, generate public artifacts, implement structural validators, run scanners, create runnable configuration, authorize Docker/runtime execution, inject credentials, authorize customer-target operation, or authorize delivery.

@@ -899,3 +899,14 @@ Purpose:
 - Separate private package review, public sanitized sample promotion, and real local-lab diagnostic execution.
 - Plan blocker categories, promotion outcomes, publication-safe checks, and AAEF-side reporting.
 - Keep promotion planning separate from public sample generation, local diagnostic execution, Docker execution, scanner execution, credential injection, customer-target operation, and delivery authorization.
+
+## v0.6.31 Static/mock applied evidence package private review record
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Generate a private review record for the v0.6.29 static/mock applied evidence package.
+- Keep the package private unless a later public-safe promotion planning checkpoint explicitly approves further work.
+- Record review status, promotion gate result, blocker categories, and AAEF-side reporting boundaries.
+- Keep private review separate from public sample generation, local diagnostic execution, Docker execution, scanner execution, credential injection, customer-target operation, and delivery authorization.

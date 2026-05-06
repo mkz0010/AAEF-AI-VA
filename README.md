@@ -629,3 +629,13 @@ This checkpoint defines how the private-first static/mock applied evidence packa
 It is review and promotion gate planning only. It does not promote public samples, generate new public artifacts, implement structural validators, run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
 
 See `docs/107-v0630-static-mock-applied-evidence-package-review-and-promotion-gate-planning.md`.
+
+## v0.6.31 Static/Mock Applied Evidence Package Private Review Record
+
+AAEF-AI-VA includes a v0.6.31 static/mock applied evidence package private review record checkpoint.
+
+This checkpoint adds a private review-record generator for the v0.6.29 static/mock applied evidence package under `private-not-in-git/applied-evidence-runs/static-mock-demo/`. The review record summarizes scenario coverage, artifact presence, request-to-evidence linkage posture, non-proof visibility, runtime/scanning/customer/delivery boundaries, blocker categories, and a promotion gate result that keeps the package private unless a later public-safe planning checkpoint explicitly approves promotion.
+
+It is private review-record generation only. It does not promote public samples, generate public sample artifacts, run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
+
+See `docs/108-v0631-static-mock-applied-evidence-package-private-review-record.md`.
