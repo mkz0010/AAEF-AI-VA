@@ -992,3 +992,13 @@ Purpose:
 - Review whether public example structural validator implementation can be considered after v0.6.38 planning.
 - Keep the future validator read-only and scoped to public `.example.` artifacts.
 - Keep readiness review separate from validator implementation, validator execution, local diagnostic execution, Docker execution, scanner execution, credential injection, customer-target operation, report delivery, and certification/compliance/audit/legal claims.
+
+## v0.6.40 Public example structural validator implementation candidate
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Implement a read-only structural validator for the sanitized public sample artifact set.
+- Keep the validator scoped to public `.example.` artifacts.
+- Keep validator success separate from diagnostic accuracy, production readiness, implementation conformance, audit sufficiency, legal sufficiency, compliance certification, external-framework equivalence, runtime authorization, scanner authorization, customer-target operation, and delivery authorization.

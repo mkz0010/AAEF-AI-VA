@@ -719,3 +719,13 @@ This checkpoint reviews whether the v0.6.38 public example structural validation
 It is validator implementation readiness review only. It does not implement structural validators, execute validator checks, run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
 
 See `docs/116-v0639-public-example-structural-validator-implementation-readiness-review.md`.
+
+## v0.6.40 Public Example Structural Validator Implementation Candidate
+
+AAEF-AI-VA includes a v0.6.40 public example structural validator implementation candidate.
+
+This checkpoint adds a read-only, public-example-scoped validator for `examples/applied-evidence/sanitized-static-mock/`. The validator checks package artifacts, scenario artifacts, `.example.` naming, four-scenario coverage, representative request-to-evidence linkage, non-proof visibility, AAEF five-questions mapping visibility, publication hygiene posture, and runtime/scanning/customer/delivery boundary flags.
+
+It is read-only structural validator implementation only. It does not run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
+
+See `docs/117-v0640-public-example-structural-validator-implementation-candidate.md`.

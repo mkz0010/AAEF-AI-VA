@@ -532,3 +532,11 @@
 - Reviewed readiness to implement a later read-only, public-example-scoped structural validator for `examples/applied-evidence/sanitized-static-mock/`.
 - Defined implementation prerequisites, allowed scope, prohibited behavior, expected checks, expected outputs, failure behavior, and next-step recommendation.
 - Preserved the boundary that v0.6.39 does not implement structural validators, execute validator checks, run scanners, create runnable configuration, authorize Docker/runtime execution, inject credentials, authorize customer-target operation, or authorize delivery.
+
+## v0.6.40 - Public example structural validator implementation candidate
+
+- Added a v0.6.40 public example structural validator implementation candidate.
+- Added `tools/validate_public_example_structure.py`, a read-only validator scoped to `examples/applied-evidence/sanitized-static-mock/`.
+- Validates package artifacts, scenario artifacts, `.example.` naming, four-scenario coverage, representative request-to-evidence linkage, non-proof visibility, AAEF five-questions mapping visibility, publication hygiene status, and runtime/scanning/customer/delivery boundary flags.
+- Added local tests and registered the v0.6.40 validator test in `tools/run_all_local_checks.py`.
+- Preserved the boundary that v0.6.40 does not run scanners, create runnable configuration, authorize Docker/runtime execution, inject credentials, authorize customer-target operation, or authorize delivery.
