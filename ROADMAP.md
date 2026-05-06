@@ -834,3 +834,14 @@ Purpose:
 - Make each scenario traceable through request, gate decision, dispatch decision, result, evidence event, and review summary.
 - Preserve non-execution evidence as first-class evidence.
 - Keep scenario planning separate from static/mock evidence generation, local diagnostic execution, Docker execution, scanner execution, credential injection, customer-target operation, and delivery authorization.
+
+## v0.6.25 Static applied evidence fixture planning
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Define the static fixture artifacts for the four applied evidence scenarios before generating them.
+- Make each future fixture set traceable through request, gate decision, dispatch decision, result, evidence event, and review summary.
+- Plan identifier linkage and non-execution evidence as first-class evidence.
+- Keep fixture planning separate from fixture generation, package generation, local diagnostic execution, Docker execution, scanner execution, credential injection, customer-target operation, and delivery authorization.

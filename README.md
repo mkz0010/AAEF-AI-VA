@@ -569,3 +569,13 @@ This checkpoint defines the four minimum scenarios for the AAEF applied evidence
 It is scenario set planning only. It does not generate applied evidence packages, generate fixture files, run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
 
 See `docs/101-v0624-applied-evidence-scenario-set-planning.md`.
+
+## v0.6.25 Static Applied Evidence Fixture Planning
+
+AAEF-AI-VA includes a v0.6.25 static applied evidence fixture planning checkpoint.
+
+This checkpoint defines the static fixture plan for the four applied evidence scenarios: `permitted-safe-diagnostic`, `denied-out-of-scope-request`, `human-approval-required`, and `not-executed-expired`. It plans the static artifact files for `tool_action_request`, `gate_decision`, `dispatch_decision`, `execution_result` or `non_execution_result`, `evidence_event`, and `review_summary` before any fixture generation, package generation, local-lab diagnostic execution, or delivery authorization begins.
+
+It is fixture planning only. It does not generate fixture files, generate applied evidence packages, run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
+
+See `docs/102-v0625-static-applied-evidence-fixture-planning.md`.

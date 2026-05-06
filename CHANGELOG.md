@@ -422,3 +422,11 @@
 - Defined the four minimum AAEF applied evidence scenarios: permitted safe diagnostic, denied out-of-scope request, human approval required, and not-executed / expired.
 - Recorded scenario intent, expected artifact chain, decision posture, dispatch posture, result posture, evidence posture, reviewer focus, AAEF five-questions coverage, and non-proof boundaries.
 - Preserved the boundary that scenario planning does not generate evidence packages, implement fixtures, run scanners, create runnable configuration, authorize Docker/runtime execution, inject credentials, authorize customer-target operation, or authorize delivery.
+
+## v0.6.25 - Static applied evidence fixture planning
+
+- Added a v0.6.25 static applied evidence fixture planning checkpoint.
+- Planned the static fixture artifact set for all four applied evidence scenarios: `permitted-safe-diagnostic`, `denied-out-of-scope-request`, `human-approval-required`, and `not-executed-expired`.
+- Defined per-artifact fixture planning for `tool_action_request`, `gate_decision`, `dispatch_decision`, `execution_result` / `non_execution_result`, `evidence_event`, and `review_summary`.
+- Recorded fixture naming, identifier-linkage, scenario consistency, non-execution evidence, AAEF five-questions coverage, non-proof statements, and future generation boundaries.
+- Preserved the boundary that v0.6.25 does not generate fixtures, generate evidence packages, run scanners, create runnable configuration, authorize Docker/runtime execution, inject credentials, authorize customer-target operation, or authorize delivery.
