@@ -384,3 +384,10 @@
 - Defined readiness review posture, read-only checklist, fail-closed checklist, negative-test-first checklist, input and output boundary review, implementation gate checklist, registration readiness checklist, review record model, blocking issue categories, and future implementation order.
 - Preserved the separation between implementation readiness review, validator implementation, fixture generation, runnable Compose configuration, image pull, container startup, bounded local execution, scan execution, commercial PoC readiness, and customer-target operation.
 - Added a local validation test confirming v0.6.19 preserves fixture-generation, validator-implementation, CLI-implementation, Docker execution, runtime-execution, scanning, port binding, and customer-target boundaries.
+
+## v0.6.20 - Static fixture validator read-only implementation scaffold
+
+- Added a v0.6.20 static fixture validator read-only implementation scaffold.
+- Added `tools/validate_static_lab_fixtures.py` as a minimal read-only scaffold with review-only result data, planned failure categories, fail-closed missing-directory behavior, and a non-authorizing CLI boundary.
+- Added validation tests confirming the scaffold is read-only, does not create fixture artifacts, does not authorize execution, and preserves Docker/runtime/scanning/customer-target boundaries.
+- Preserved the separation between read-only scaffold implementation, complete validator implementation, fixture generation, runnable Compose configuration, image pull, container startup, bounded local execution, scan execution, commercial PoC readiness, and customer-target operation.

@@ -519,3 +519,13 @@ The checkpoint defines the review gates that must be satisfied before future val
 It is implementation-readiness review only. It does not implement fixture schemas, implement fixture validators, implement CLI behavior, implement negative tests, generate fixture files, create runnable configuration, authorize Docker execution, authorize runtime execution, run scanners, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
 
 See `docs/96-v0619-static-fixture-validator-implementation-readiness-review.md`.
+
+## v0.6.20 Static Fixture Validator Read-only Implementation Scaffold
+
+AAEF-AI-VA includes a v0.6.20 static fixture validator read-only implementation scaffold.
+
+The checkpoint adds a minimal read-only validator scaffold at `tools/validate_static_lab_fixtures.py`. The scaffold exposes review-only data structures, a read-only CLI boundary, planned failure categories, and fail-closed behavior for missing or invalid fixture directories. It does not generate fixture artifacts, implement full fixture validation, run Docker, run scanners, access external targets, inject credentials, authorize execution, or authorize delivery.
+
+It is read-only implementation scaffold only. It does not implement complete fixture schemas, implement complete fixture validators, implement negative tests, generate fixture files, create runnable configuration, authorize Docker execution, authorize runtime execution, run scanners, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
+
+See `docs/97-v0620-static-fixture-validator-read-only-implementation-scaffold.md`.

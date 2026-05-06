@@ -779,3 +779,14 @@ Purpose:
 - Confirm read-only behavior, fail-closed behavior, negative-test-first ordering, input boundaries, output boundaries, registration readiness, and blocking issue categories.
 - Keep readiness review separate from implemented validator code, implemented CLI behavior, implemented negative tests, and generated fixture artifacts.
 - Preserve disabled fixture schema implementation, fixture validator implementation, validator CLI implementation, negative test implementation, fixture generation, Compose file creation, image pull, container startup, Docker execution, runtime execution, network activity, scan execution, credential injection, raw artifact capture, and customer-target boundaries.
+
+## v0.6.20 Static fixture validator read-only implementation scaffold
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Add a minimal read-only static fixture validator scaffold before complete validator implementation.
+- Define review-only data structures, planned failure categories, fail-closed missing-input behavior, and non-authorizing CLI output.
+- Keep the scaffold separate from generated fixture artifacts, complete schema validation, negative-test implementation, and positive fixture generation.
+- Preserve disabled fixture generation, complete fixture validator implementation, Compose file creation, image pull, container startup, Docker execution, runtime execution, network activity, scan execution, credential injection, raw artifact capture, and customer-target boundaries.
