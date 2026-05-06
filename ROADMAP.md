@@ -951,3 +951,13 @@ Purpose:
 - Generate a sanitized public sample candidate under `examples/applied-evidence/sanitized-static-mock/`.
 - Use synthetic `.example.` artifacts to demonstrate AAEF applied-evidence traceability.
 - Keep public sample candidate generation separate from private artifact promotion, local diagnostic execution, Docker execution, scanner execution, credential injection, customer-target operation, report delivery, and certification/compliance/audit/legal claims.
+
+## v0.6.36 Sanitized public sample publication review record
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Generate a publication review record for the sanitized public sample candidate created in v0.6.35.
+- Record that the sample may be retained as a limited public example while preserving non-proof and non-execution boundaries.
+- Keep publication review separate from local diagnostic execution, Docker execution, scanner execution, credential injection, customer-target operation, report delivery, and certification/compliance/audit/legal claims.

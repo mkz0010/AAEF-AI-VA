@@ -679,3 +679,13 @@ This checkpoint adds a bounded generator for sanitized, synthetic, non-executing
 It is sanitized public sample candidate generation only. It does not copy private generated artifacts into the public repository, run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
 
 See `docs/112-v0635-sanitized-public-sample-generation-candidate.md`.
+
+## v0.6.36 Sanitized Public Sample Publication Review Record
+
+AAEF-AI-VA includes a v0.6.36 sanitized public sample publication review record checkpoint.
+
+This checkpoint adds a bounded publication review generator for the sanitized public sample candidate created in v0.6.35 under `examples/applied-evidence/sanitized-static-mock/`. The review record confirms artifact presence, `.example.` naming, four-scenario coverage, non-proof visibility, AAEF five-questions visibility, publication hygiene posture, limited-public-example status, and runtime/scanning/customer/delivery boundaries.
+
+It is sanitized public sample publication review recording only. It does not run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
+
+See `docs/113-v0636-sanitized-public-sample-publication-review-record.md`.

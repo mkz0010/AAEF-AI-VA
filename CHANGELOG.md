@@ -503,3 +503,11 @@
 - Generated public-safe example artifacts for `permitted-safe-diagnostic`, `denied-out-of-scope-request`, `human-approval-required`, and `not-executed-expired`.
 - Added validation tests for artifact presence, `.example.` naming, request-to-evidence linkage, non-proof statements, publication hygiene, and no runtime/scanning/customer-target/delivery authorization.
 - Preserved the boundary that v0.6.35 does not copy private generated artifacts into the public repository, run scanners, create runnable configuration, authorize Docker/runtime execution, inject credentials, authorize customer-target operation, or authorize delivery.
+
+## v0.6.36 - Sanitized public sample publication review record
+
+- Added a v0.6.36 sanitized public sample publication review record checkpoint.
+- Added `tools/generate_sanitized_public_sample_publication_review_record.py` to review the v0.6.35 sanitized public sample candidate.
+- Generated publication review artifacts under `examples/applied-evidence/sanitized-static-mock/`.
+- Recorded limited-public-example status, artifact coverage, four-scenario coverage, non-proof visibility, AAEF five-questions visibility, publication hygiene posture, and runtime/scanning/customer/delivery boundaries.
+- Preserved the boundary that v0.6.36 does not run scanners, create runnable configuration, authorize Docker/runtime execution, inject credentials, authorize customer-target operation, or authorize delivery.
