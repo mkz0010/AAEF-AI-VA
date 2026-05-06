@@ -430,3 +430,11 @@
 - Defined per-artifact fixture planning for `tool_action_request`, `gate_decision`, `dispatch_decision`, `execution_result` / `non_execution_result`, `evidence_event`, and `review_summary`.
 - Recorded fixture naming, identifier-linkage, scenario consistency, non-execution evidence, AAEF five-questions coverage, non-proof statements, and future generation boundaries.
 - Preserved the boundary that v0.6.25 does not generate fixtures, generate evidence packages, run scanners, create runnable configuration, authorize Docker/runtime execution, inject credentials, authorize customer-target operation, or authorize delivery.
+
+## v0.6.26 - Reviewer walkthrough and five questions mapping
+
+- Added a v0.6.26 reviewer walkthrough and AAEF five questions mapping checkpoint.
+- Defined reviewer walkthrough structure for the applied evidence package and all four minimum scenarios.
+- Mapped `tool_action_request`, `gate_decision`, `dispatch_decision`, `execution_result` / `non_execution_result`, `evidence_event`, and `review_summary` to the AAEF five questions.
+- Recorded per-scenario reviewer questions, expected reviewer conclusions, non-proof boundaries, and future walkthrough artifact planning.
+- Preserved the boundary that v0.6.26 does not generate fixtures, generate evidence packages, run scanners, create runnable configuration, authorize Docker/runtime execution, inject credentials, authorize customer-target operation, or authorize delivery.

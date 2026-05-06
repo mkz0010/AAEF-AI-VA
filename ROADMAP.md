@@ -845,3 +845,14 @@ Purpose:
 - Make each future fixture set traceable through request, gate decision, dispatch decision, result, evidence event, and review summary.
 - Plan identifier linkage and non-execution evidence as first-class evidence.
 - Keep fixture planning separate from fixture generation, package generation, local diagnostic execution, Docker execution, scanner execution, credential injection, customer-target operation, and delivery authorization.
+
+## v0.6.26 Reviewer walkthrough and five questions mapping
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Define a reviewer-facing walkthrough for the static applied evidence package before generating fixtures.
+- Map each scenario and artifact chain to the AAEF five questions.
+- Make permitted, denied, held, and not-executed outcomes understandable without relying on raw JSON alone.
+- Keep reviewer walkthrough planning separate from fixture generation, package generation, local diagnostic execution, Docker execution, scanner execution, credential injection, customer-target operation, and delivery authorization.

@@ -579,3 +579,13 @@ This checkpoint defines the static fixture plan for the four applied evidence sc
 It is fixture planning only. It does not generate fixture files, generate applied evidence packages, run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
 
 See `docs/102-v0625-static-applied-evidence-fixture-planning.md`.
+
+## v0.6.26 Reviewer Walkthrough and Five Questions Mapping
+
+AAEF-AI-VA includes a v0.6.26 reviewer walkthrough and AAEF five questions mapping checkpoint.
+
+This checkpoint defines how future static applied evidence fixtures should be explained to an external reviewer. It maps each scenario and artifact chain to the five AAEF questions: who or what acted, on whose behalf, with what authority, whether the action was allowed at the point of execution, and what evidence proves what happened.
+
+It is reviewer walkthrough and mapping planning only. It does not generate fixture files, generate applied evidence packages, run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
+
+See `docs/103-v0626-reviewer-walkthrough-and-five-questions-mapping.md`.
