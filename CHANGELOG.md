@@ -488,3 +488,10 @@
 - Planned public sample scope, sanitized artifact naming, public directory placement, synthetic-only requirements, private-to-public transformation rules, publication hygiene checks, non-proof visibility, overclaim prevention, patent-sensitive detail exclusion, and human publication review requirements.
 - Kept direct public sample generation unauthorized while allowing a later sanitized public sample generation candidate to be considered only after this planning boundary.
 - Preserved the boundary that v0.6.33 does not generate public sample artifacts, copy private generated artifacts into the public repository, run scanners, create runnable configuration, authorize Docker/runtime execution, inject credentials, authorize customer-target operation, or authorize delivery.
+
+## v0.6.34 - Sanitized public sample generation readiness review
+
+- Added a v0.6.34 sanitized public sample generation readiness review checkpoint.
+- Reviewed readiness after v0.6.33 sanitized public sample planning, including sample scope, `.example.` naming, public directory placement, synthetic-only requirements, publication hygiene, patent-sensitive detail exclusion, non-proof visibility, overclaim prevention, and human publication review.
+- Recorded a conservative readiness outcome: a later sanitized public sample generation candidate may be considered, but public sample generation remains unauthorized by v0.6.34.
+- Preserved the boundary that v0.6.34 does not generate public sample artifacts, copy private generated artifacts into the public repository, run scanners, create runnable configuration, authorize Docker/runtime execution, inject credentials, authorize customer-target operation, or authorize delivery.

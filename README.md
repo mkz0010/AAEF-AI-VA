@@ -659,3 +659,13 @@ This checkpoint plans how a future sanitized public sample could be prepared fro
 It is sanitized public sample planning only. It does not generate public sample artifacts, copy private generated artifacts into the public repository, run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
 
 See `docs/110-v0633-sanitized-public-sample-planning.md`.
+
+## v0.6.34 Sanitized Public Sample Generation Readiness Review
+
+AAEF-AI-VA includes a v0.6.34 sanitized public sample generation readiness review checkpoint.
+
+This checkpoint reviews whether the v0.6.33 sanitized public sample planning is mature enough to allow a later sanitized public sample generation candidate to be considered. It confirms public sample scope, `.example.` naming, public directory placement, synthetic-only requirements, publication hygiene expectations, patent-sensitive detail exclusion, non-proof visibility, overclaim prevention, human publication review requirements, and runtime/scanning/customer/delivery boundaries.
+
+It is sanitized public sample generation readiness review only. It does not generate public sample artifacts, copy private generated artifacts into the public repository, run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
+
+See `docs/111-v0634-sanitized-public-sample-generation-readiness-review.md`.

@@ -931,3 +931,13 @@ Purpose:
 - Plan sanitized public sample scope and hygiene before any public sample artifact is generated.
 - Define allowed public sample artifacts, naming, placement, synthetic-only content, non-proof statements, and publication review gates.
 - Keep public sample planning separate from public artifact generation, private artifact promotion, local diagnostic execution, Docker execution, scanner execution, credential injection, customer-target operation, and delivery authorization.
+
+## v0.6.34 Sanitized public sample generation readiness review
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Review whether sanitized public sample generation can be considered after v0.6.33 planning.
+- Confirm readiness conditions and remaining blockers before any public artifact generation.
+- Keep readiness review separate from public sample generation, private artifact promotion, local diagnostic execution, Docker execution, scanner execution, credential injection, customer-target operation, and delivery authorization.
