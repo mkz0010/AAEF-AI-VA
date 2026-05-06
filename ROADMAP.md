@@ -801,3 +801,14 @@ Purpose:
 - Specify fixture manifest expectations, required static fixture node types, missing-node failure categories, fail-closed behavior, and future implementation order.
 - Keep required-node check planning separate from implemented validator behavior and generated fixture artifacts.
 - Preserve disabled required-node check implementation, complete fixture validator implementation, negative test implementation, fixture generation, Compose file creation, image pull, container startup, Docker execution, runtime execution, network activity, scan execution, credential injection, raw artifact capture, and customer-target boundaries.
+
+## v0.6.22 AAEF applied evidence work intake and current-state review
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Pause the previously natural required-node minimal implementation step long enough to respond to the AAEF-side applied evidence request.
+- Start from current-state inventory and work-ordering, as requested by AAEF-side guidance.
+- Reframe the next work around a local-lab applied evidence package that traces `tool_action_request` to gate decision, dispatch/non-dispatch, result, evidence event, and reviewer summary.
+- Keep implementation, fixture generation, Docker execution, scanner execution, credential injection, customer-target operation, and delivery authorization blocked.

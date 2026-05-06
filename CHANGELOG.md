@@ -399,3 +399,11 @@
 - Recorded required fixture node set, missing-node failure categories, fail-closed expected behavior, non-authorization boundaries, and future implementation sequencing.
 - Preserved the separation between required-node check planning, validator implementation, fixture generation, runnable Compose configuration, image pull, container startup, bounded local execution, scan execution, commercial PoC readiness, and customer-target operation.
 - Added a local validation test confirming v0.6.21 preserves required-node-check implementation, fixture-generation, Docker execution, runtime-execution, scanning, port binding, and customer-target boundaries.
+
+## v0.6.22 - AAEF applied evidence work intake and current-state review
+
+- Added a v0.6.22 AAEF applied evidence work intake and current-state review checkpoint.
+- Recorded the AAEF-side request to prioritize a safe applied evidence record over a stronger vulnerability scanning AI.
+- Inventoried current repository state, including latest tag/commit, docs/planning/ADR/issue artifacts, validators, Tool Gateway/local-lab-related files, and current local-check registration posture.
+- Reordered the next work so evidence-package planning, scenario planning, reviewer walkthrough, and AAEF five-questions mapping precede further validator implementation.
+- Preserved public/private boundaries, patent-sensitive abstraction boundaries, and non-goals for production readiness, certification, compliance, audit/legal sufficiency, implementation conformance, and external-framework equivalence.

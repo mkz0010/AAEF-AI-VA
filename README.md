@@ -539,3 +539,13 @@ The checkpoint defines how future read-only validator work should check the fixt
 It is required-node check planning only. It does not implement complete fixture schemas, implement complete fixture validators, implement required-node checks, implement negative tests, generate fixture files, create runnable configuration, authorize Docker execution, authorize runtime execution, run scanners, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
 
 See `docs/98-v0621-static-fixture-validator-required-node-check-planning.md`.
+
+## v0.6.22 AAEF Applied Evidence Work Intake and Current-state Review
+
+AAEF-AI-VA includes a v0.6.22 AAEF applied evidence work intake and current-state review checkpoint.
+
+This checkpoint responds to the AAEF-side request to prioritize a small, safe, reviewable applied evidence record over building a stronger vulnerability scanning AI. It inventories the current repository state, restates the local-lab-only boundary, maps the required request / gate / dispatch / evidence chain, and reorders the next work so that evidence-package planning comes before further validator implementation.
+
+It is intake, inventory, and work-ordering only. It does not implement required-node checks, generate fixture files, run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
+
+See `docs/99-v0622-aaef-applied-evidence-work-intake-and-current-state-review.md`.
