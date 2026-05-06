@@ -415,3 +415,10 @@
 - Clarified the difference between static/mock applied evidence capture and real local-lab diagnostic system evidence capture.
 - Recorded that static/mock evidence package generation can begin after package design, scenario planning, fixture planning, reviewer walkthrough, and structural validator planning, while real local-lab diagnostic execution should remain deferred to a later gated local-lab phase.
 - Preserved the boundary that no new runtime execution, scanner execution, credential injection, customer-target operation, certification, compliance, audit/legal sufficiency, implementation conformance, or production-readiness claim is introduced.
+
+## v0.6.24 - Applied evidence scenario set planning
+
+- Added a v0.6.24 applied evidence scenario set planning checkpoint.
+- Defined the four minimum AAEF applied evidence scenarios: permitted safe diagnostic, denied out-of-scope request, human approval required, and not-executed / expired.
+- Recorded scenario intent, expected artifact chain, decision posture, dispatch posture, result posture, evidence posture, reviewer focus, AAEF five-questions coverage, and non-proof boundaries.
+- Preserved the boundary that scenario planning does not generate evidence packages, implement fixtures, run scanners, create runnable configuration, authorize Docker/runtime execution, inject credentials, authorize customer-target operation, or authorize delivery.

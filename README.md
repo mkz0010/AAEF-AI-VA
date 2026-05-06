@@ -559,3 +559,13 @@ This checkpoint defines the package structure for a small, safe, reviewable AAEF
 It is package design only. It does not generate applied evidence packages, implement new scanner execution, create runnable configuration, authorize Docker execution, authorize runtime execution, run scanners, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
 
 See `docs/100-v0623-aaef-applied-evidence-package-design.md`.
+
+## v0.6.24 Applied Evidence Scenario Set Planning
+
+AAEF-AI-VA includes a v0.6.24 applied evidence scenario set planning checkpoint.
+
+This checkpoint defines the four minimum scenarios for the AAEF applied evidence package: `permitted-safe-diagnostic`, `denied-out-of-scope-request`, `human-approval-required`, and `not-executed-expired`. It records scenario intent, expected decision posture, dispatch posture, result posture, evidence posture, reviewer focus, AAEF five-questions coverage, and non-proof boundaries before static/mock evidence package generation begins.
+
+It is scenario set planning only. It does not generate applied evidence packages, generate fixture files, run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
+
+See `docs/101-v0624-applied-evidence-scenario-set-planning.md`.

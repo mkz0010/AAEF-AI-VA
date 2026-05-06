@@ -823,3 +823,14 @@ Purpose:
 - Design the request-to-evidence chain and scenario package layout.
 - Clarify when evidence capture should begin: static/mock package generation first, real local-lab diagnostic execution later after additional gates.
 - Keep package design separate from fixture generation, local diagnostic execution, Docker execution, scanner execution, credential injection, customer-target operation, and delivery authorization.
+
+## v0.6.24 Applied evidence scenario set planning
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Define the four minimum applied evidence scenarios before fixture planning or package generation.
+- Make each scenario traceable through request, gate decision, dispatch decision, result, evidence event, and review summary.
+- Preserve non-execution evidence as first-class evidence.
+- Keep scenario planning separate from static/mock evidence generation, local diagnostic execution, Docker execution, scanner execution, credential injection, customer-target operation, and delivery authorization.
