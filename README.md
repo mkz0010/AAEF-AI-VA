@@ -639,3 +639,13 @@ This checkpoint adds a private review-record generator for the v0.6.29 static/mo
 It is private review-record generation only. It does not promote public samples, generate public sample artifacts, run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
 
 See `docs/108-v0631-static-mock-applied-evidence-package-private-review-record.md`.
+
+## v0.6.32 Static/Mock Applied Evidence Package Public Sample Promotion Decision Record
+
+AAEF-AI-VA includes a v0.6.32 static/mock applied evidence package public sample promotion decision record checkpoint.
+
+This checkpoint records the decision after the v0.6.31 private review record. The decision keeps the private static/mock applied evidence package private, does not authorize public sample generation, and allows only a later sanitized public sample planning checkpoint to be considered under separate review.
+
+It is promotion decision recording only. It does not promote public samples, generate public sample artifacts, run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
+
+See `docs/109-v0632-static-mock-applied-evidence-package-public-sample-promotion-decision-record.md`.

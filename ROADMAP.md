@@ -910,3 +910,14 @@ Purpose:
 - Keep the package private unless a later public-safe promotion planning checkpoint explicitly approves further work.
 - Record review status, promotion gate result, blocker categories, and AAEF-side reporting boundaries.
 - Keep private review separate from public sample generation, local diagnostic execution, Docker execution, scanner execution, credential injection, customer-target operation, and delivery authorization.
+
+## v0.6.32 Static/mock applied evidence package public sample promotion decision record
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Record the promotion decision after the v0.6.31 private review record.
+- Keep direct public sample generation blocked.
+- Permit only a later sanitized public sample planning checkpoint to be considered, subject to separate review.
+- Keep promotion decision recording separate from public sample generation, local diagnostic execution, Docker execution, scanner execution, credential injection, customer-target operation, and delivery authorization.

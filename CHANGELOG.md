@@ -474,3 +474,10 @@
 - Added `tools/generate_static_mock_applied_evidence_private_review_record.py` to review the private static/mock package and emit private review records under `private-not-in-git/`.
 - Generated private review outputs summarize scenario coverage, artifact presence, identifier linkage posture, non-proof visibility, runtime/scanning/customer/delivery boundaries, blocker categories, and promotion gate result.
 - Preserved the boundary that v0.6.31 does not promote public samples, generate public artifacts, implement structural validators, run scanners, create runnable configuration, authorize Docker/runtime execution, inject credentials, authorize customer-target operation, or authorize delivery.
+
+## v0.6.32 - Static/mock applied evidence package public sample promotion decision record
+
+- Added a v0.6.32 static/mock applied evidence package public sample promotion decision record checkpoint.
+- Recorded the decision after the v0.6.31 private review record: keep the private package private, do not authorize public sample generation, and allow only a later sanitized public sample planning checkpoint to be considered under separate review.
+- Defined decision inputs, decision outcome, conditions for later planning, blockers that still prevent public generation, AAEF-side reporting notes, and rollback posture.
+- Preserved the boundary that v0.6.32 does not promote public samples, generate public artifacts, implement structural validators, run scanners, create runnable configuration, authorize Docker/runtime execution, inject credentials, authorize customer-target operation, or authorize delivery.
