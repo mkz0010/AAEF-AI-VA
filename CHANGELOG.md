@@ -481,3 +481,10 @@
 - Recorded the decision after the v0.6.31 private review record: keep the private package private, do not authorize public sample generation, and allow only a later sanitized public sample planning checkpoint to be considered under separate review.
 - Defined decision inputs, decision outcome, conditions for later planning, blockers that still prevent public generation, AAEF-side reporting notes, and rollback posture.
 - Preserved the boundary that v0.6.32 does not promote public samples, generate public artifacts, implement structural validators, run scanners, create runnable configuration, authorize Docker/runtime execution, inject credentials, authorize customer-target operation, or authorize delivery.
+
+## v0.6.33 - Sanitized public sample planning
+
+- Added a v0.6.33 sanitized public sample planning checkpoint.
+- Planned public sample scope, sanitized artifact naming, public directory placement, synthetic-only requirements, private-to-public transformation rules, publication hygiene checks, non-proof visibility, overclaim prevention, patent-sensitive detail exclusion, and human publication review requirements.
+- Kept direct public sample generation unauthorized while allowing a later sanitized public sample generation candidate to be considered only after this planning boundary.
+- Preserved the boundary that v0.6.33 does not generate public sample artifacts, copy private generated artifacts into the public repository, run scanners, create runnable configuration, authorize Docker/runtime execution, inject credentials, authorize customer-target operation, or authorize delivery.

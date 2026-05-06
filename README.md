@@ -649,3 +649,13 @@ This checkpoint records the decision after the v0.6.31 private review record. Th
 It is promotion decision recording only. It does not promote public samples, generate public sample artifacts, run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
 
 See `docs/109-v0632-static-mock-applied-evidence-package-public-sample-promotion-decision-record.md`.
+
+## v0.6.33 Sanitized Public Sample Planning
+
+AAEF-AI-VA includes a v0.6.33 sanitized public sample planning checkpoint.
+
+This checkpoint plans how a future sanitized public sample could be prepared from the private static/mock applied evidence package lineage without generating public sample artifacts yet. It defines public sample scope, sanitized artifact naming, public directory placement, synthetic-only requirements, private-to-public transformation rules, publication hygiene checks, non-proof visibility, overclaim prevention, patent-sensitive detail exclusion, and human publication review requirements.
+
+It is sanitized public sample planning only. It does not generate public sample artifacts, copy private generated artifacts into the public repository, run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
+
+See `docs/110-v0633-sanitized-public-sample-planning.md`.

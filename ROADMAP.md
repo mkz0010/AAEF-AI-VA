@@ -921,3 +921,13 @@ Purpose:
 - Keep direct public sample generation blocked.
 - Permit only a later sanitized public sample planning checkpoint to be considered, subject to separate review.
 - Keep promotion decision recording separate from public sample generation, local diagnostic execution, Docker execution, scanner execution, credential injection, customer-target operation, and delivery authorization.
+
+## v0.6.33 Sanitized public sample planning
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Plan sanitized public sample scope and hygiene before any public sample artifact is generated.
+- Define allowed public sample artifacts, naming, placement, synthetic-only content, non-proof statements, and publication review gates.
+- Keep public sample planning separate from public artifact generation, private artifact promotion, local diagnostic execution, Docker execution, scanner execution, credential injection, customer-target operation, and delivery authorization.
