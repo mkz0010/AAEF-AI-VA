@@ -93,6 +93,7 @@ def main() -> int:
     run([sys.executable, "tools/test_v0620_static_fixture_validator_read_only_implementation_scaffold.py"])
     run([sys.executable, "tools/test_v0621_static_fixture_validator_required_node_check_planning.py"])
     run([sys.executable, "tools/test_v0622_aaef_applied_evidence_work_intake_current_state_review.py"])
+    run([sys.executable, "tools/test_v0623_aaef_applied_evidence_package_design.py"])
     print("All local checks passed.")
     return 0
 

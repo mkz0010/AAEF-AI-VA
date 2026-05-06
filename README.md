@@ -549,3 +549,13 @@ This checkpoint responds to the AAEF-side request to prioritize a small, safe, r
 It is intake, inventory, and work-ordering only. It does not implement required-node checks, generate fixture files, run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
 
 See `docs/99-v0622-aaef-applied-evidence-work-intake-and-current-state-review.md`.
+
+## v0.6.23 AAEF Applied Evidence Package Design
+
+AAEF-AI-VA includes a v0.6.23 AAEF applied evidence package design checkpoint.
+
+This checkpoint defines the package structure for a small, safe, reviewable AAEF applied evidence record for AI-assisted vulnerability assessment workflows. It designs the artifact chain from `tool_action_request` to `gate_decision`, `dispatch_decision`, `execution_result` or `non_execution_result`, `evidence_event`, and `review_summary`, and clarifies when static/mock evidence capture and real local-lab diagnostic evidence capture should begin.
+
+It is package design only. It does not generate applied evidence packages, implement new scanner execution, create runnable configuration, authorize Docker execution, authorize runtime execution, run scanners, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
+
+See `docs/100-v0623-aaef-applied-evidence-package-design.md`.

@@ -812,3 +812,14 @@ Purpose:
 - Start from current-state inventory and work-ordering, as requested by AAEF-side guidance.
 - Reframe the next work around a local-lab applied evidence package that traces `tool_action_request` to gate decision, dispatch/non-dispatch, result, evidence event, and reviewer summary.
 - Keep implementation, fixture generation, Docker execution, scanner execution, credential injection, customer-target operation, and delivery authorization blocked.
+
+## v0.6.23 AAEF applied evidence package design
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Define the AAEF applied evidence package structure before generating evidence artifacts.
+- Design the request-to-evidence chain and scenario package layout.
+- Clarify when evidence capture should begin: static/mock package generation first, real local-lab diagnostic execution later after additional gates.
+- Keep package design separate from fixture generation, local diagnostic execution, Docker execution, scanner execution, credential injection, customer-target operation, and delivery authorization.

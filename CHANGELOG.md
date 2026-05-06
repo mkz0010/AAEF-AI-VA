@@ -407,3 +407,11 @@
 - Inventoried current repository state, including latest tag/commit, docs/planning/ADR/issue artifacts, validators, Tool Gateway/local-lab-related files, and current local-check registration posture.
 - Reordered the next work so evidence-package planning, scenario planning, reviewer walkthrough, and AAEF five-questions mapping precede further validator implementation.
 - Preserved public/private boundaries, patent-sensitive abstraction boundaries, and non-goals for production readiness, certification, compliance, audit/legal sufficiency, implementation conformance, and external-framework equivalence.
+
+## v0.6.23 - AAEF applied evidence package design
+
+- Added a v0.6.23 AAEF applied evidence package design checkpoint.
+- Defined the applied evidence package structure for `tool_action_request`, `gate_decision`, `dispatch_decision`, `execution_result` / `non_execution_result`, `evidence_event`, and `review_summary`.
+- Clarified the difference between static/mock applied evidence capture and real local-lab diagnostic system evidence capture.
+- Recorded that static/mock evidence package generation can begin after package design, scenario planning, fixture planning, reviewer walkthrough, and structural validator planning, while real local-lab diagnostic execution should remain deferred to a later gated local-lab phase.
+- Preserved the boundary that no new runtime execution, scanner execution, credential injection, customer-target operation, certification, compliance, audit/legal sufficiency, implementation conformance, or production-readiness claim is introduced.
