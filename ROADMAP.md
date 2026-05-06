@@ -877,3 +877,14 @@ Purpose:
 - Confirm package design, scenario set, fixture plan, reviewer walkthrough mapping, and structural validator planning are in place.
 - Define blocker categories and private-first generation posture before any generated artifacts are created.
 - Keep readiness review separate from fixture generation, package generation, structural validator implementation, local diagnostic execution, Docker execution, scanner execution, credential injection, customer-target operation, and delivery authorization.
+
+## v0.6.29 Static/mock applied evidence package private generation candidate
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Generate the first private-first static/mock applied evidence package under `private-not-in-git/`.
+- Cover all four minimum applied evidence scenarios with linked request, gate, dispatch, result, evidence, review, and non-proof artifacts.
+- Keep generated artifacts private until a later public-safe promotion decision.
+- Keep generation separate from public sample publication, structural validator implementation, local diagnostic execution, Docker execution, scanner execution, credential injection, customer-target operation, and delivery authorization.

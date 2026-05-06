@@ -452,3 +452,11 @@
 - Reviewed readiness conditions after package design, scenario planning, fixture planning, reviewer walkthrough mapping, and structural validator planning.
 - Defined generation readiness criteria, blocker categories, private-first generation posture, public-safe publication criteria, rollback boundaries, and the next checkpoint path.
 - Preserved the boundary that v0.6.28 does not generate fixtures, generate evidence packages, implement structural validators, run scanners, create runnable configuration, authorize Docker/runtime execution, inject credentials, authorize customer-target operation, or authorize delivery.
+
+## v0.6.29 - Static/mock applied evidence package private generation candidate
+
+- Added a v0.6.29 static/mock applied evidence package private generation candidate.
+- Added `tools/generate_static_mock_applied_evidence_package.py` to generate a private-first static/mock package under `private-not-in-git/`.
+- Generated package structure covers `permitted-safe-diagnostic`, `denied-out-of-scope-request`, `human-approval-required`, and `not-executed-expired`.
+- Added validation tests confirming generated private artifacts preserve request-to-evidence linkage, scenario consistency, non-execution evidence, non-proof statements, AAEF five-questions mapping, and runtime/scanning/customer-target/delivery boundaries.
+- Preserved the boundary that v0.6.29 does not create public samples, run scanners, create runnable configuration, authorize Docker/runtime execution, inject credentials, authorize customer-target operation, or authorize delivery.

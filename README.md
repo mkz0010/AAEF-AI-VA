@@ -609,3 +609,13 @@ This checkpoint reviews whether the project is ready to generate a static/mock A
 It is generation-readiness review only. It does not generate fixture files, generate applied evidence packages, implement structural validators, run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
 
 See `docs/105-v0628-static-mock-applied-evidence-package-generation-readiness-review.md`.
+
+## v0.6.29 Static/Mock Applied Evidence Package Private Generation Candidate
+
+AAEF-AI-VA includes a v0.6.29 static/mock applied evidence package private generation candidate.
+
+This checkpoint adds a private-first generator for a static/mock AAEF applied evidence package under `private-not-in-git/applied-evidence-runs/static-mock-demo/`. The generated package covers the four minimum scenarios and links `tool_action_request`, `gate_decision`, `dispatch_decision`, `execution_result` or `non_execution_result`, `evidence_event`, `review_summary`, and non-proof statements without running scanners or authorizing runtime execution.
+
+It is private static/mock generation only. It does not create public samples, run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
+
+See `docs/106-v0629-static-mock-applied-evidence-package-private-generation-candidate.md`.
