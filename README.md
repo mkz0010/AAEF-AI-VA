@@ -599,3 +599,13 @@ This checkpoint defines the structural validation plan for future static/mock ap
 It is structural validator planning only. It does not implement a structural validator, generate fixture files, generate applied evidence packages, run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
 
 See `docs/104-v0627-applied-evidence-structural-validator-planning.md`.
+
+## v0.6.28 Static/Mock Applied Evidence Package Generation Readiness Review
+
+AAEF-AI-VA includes a v0.6.28 static/mock applied evidence package generation readiness review checkpoint.
+
+This checkpoint reviews whether the project is ready to generate a static/mock AAEF applied evidence package after v0.6.23 package design, v0.6.24 scenario planning, v0.6.25 fixture planning, v0.6.26 reviewer walkthrough mapping, and v0.6.27 structural validator planning. It defines readiness conditions, blockers, private-first generation posture, public-safe criteria, and rollback boundaries before any fixture or package generation begins.
+
+It is generation-readiness review only. It does not generate fixture files, generate applied evidence packages, implement structural validators, run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
+
+See `docs/105-v0628-static-mock-applied-evidence-package-generation-readiness-review.md`.

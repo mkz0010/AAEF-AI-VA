@@ -445,3 +445,10 @@
 - Planned structural checks for artifact presence, required fields, identifier linkage, scenario consistency, dispatch/result contradiction prevention, non-execution evidence, reviewer walkthrough coverage, non-proof statements, and overclaim prevention.
 - Defined validator input/output boundaries, fail-closed categories, scenario-specific contradiction checks, five-questions mapping checks, and future implementation sequencing.
 - Preserved the boundary that v0.6.27 does not implement validators, generate fixtures, generate evidence packages, run scanners, create runnable configuration, authorize Docker/runtime execution, inject credentials, authorize customer-target operation, or authorize delivery.
+
+## v0.6.28 - Static/mock applied evidence package generation readiness review
+
+- Added a v0.6.28 static/mock applied evidence package generation readiness review checkpoint.
+- Reviewed readiness conditions after package design, scenario planning, fixture planning, reviewer walkthrough mapping, and structural validator planning.
+- Defined generation readiness criteria, blocker categories, private-first generation posture, public-safe publication criteria, rollback boundaries, and the next checkpoint path.
+- Preserved the boundary that v0.6.28 does not generate fixtures, generate evidence packages, implement structural validators, run scanners, create runnable configuration, authorize Docker/runtime execution, inject credentials, authorize customer-target operation, or authorize delivery.

@@ -866,3 +866,14 @@ Purpose:
 - Define structural validation criteria before generating static/mock applied evidence packages.
 - Plan checks for required artifacts, required fields, ID linkage, scenario consistency, non-execution evidence, non-proof statements, reviewer walkthrough coverage, and overclaim prevention.
 - Keep validator planning separate from validator implementation, fixture generation, package generation, local diagnostic execution, Docker execution, scanner execution, credential injection, customer-target operation, and delivery authorization.
+
+## v0.6.28 Static/mock applied evidence package generation readiness review
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Review whether static/mock applied evidence package generation is safe to begin.
+- Confirm package design, scenario set, fixture plan, reviewer walkthrough mapping, and structural validator planning are in place.
+- Define blocker categories and private-first generation posture before any generated artifacts are created.
+- Keep readiness review separate from fixture generation, package generation, structural validator implementation, local diagnostic execution, Docker execution, scanner execution, credential injection, customer-target operation, and delivery authorization.
