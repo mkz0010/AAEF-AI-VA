@@ -495,3 +495,11 @@
 - Reviewed readiness after v0.6.33 sanitized public sample planning, including sample scope, `.example.` naming, public directory placement, synthetic-only requirements, publication hygiene, patent-sensitive detail exclusion, non-proof visibility, overclaim prevention, and human publication review.
 - Recorded a conservative readiness outcome: a later sanitized public sample generation candidate may be considered, but public sample generation remains unauthorized by v0.6.34.
 - Preserved the boundary that v0.6.34 does not generate public sample artifacts, copy private generated artifacts into the public repository, run scanners, create runnable configuration, authorize Docker/runtime execution, inject credentials, authorize customer-target operation, or authorize delivery.
+
+## v0.6.35 - Sanitized public sample generation candidate
+
+- Added a v0.6.35 sanitized public sample generation candidate.
+- Added `tools/generate_sanitized_public_sample.py` to create synthetic, non-executing `.example.` artifacts under `examples/applied-evidence/sanitized-static-mock/`.
+- Generated public-safe example artifacts for `permitted-safe-diagnostic`, `denied-out-of-scope-request`, `human-approval-required`, and `not-executed-expired`.
+- Added validation tests for artifact presence, `.example.` naming, request-to-evidence linkage, non-proof statements, publication hygiene, and no runtime/scanning/customer-target/delivery authorization.
+- Preserved the boundary that v0.6.35 does not copy private generated artifacts into the public repository, run scanners, create runnable configuration, authorize Docker/runtime execution, inject credentials, authorize customer-target operation, or authorize delivery.

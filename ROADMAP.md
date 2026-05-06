@@ -941,3 +941,13 @@ Purpose:
 - Review whether sanitized public sample generation can be considered after v0.6.33 planning.
 - Confirm readiness conditions and remaining blockers before any public artifact generation.
 - Keep readiness review separate from public sample generation, private artifact promotion, local diagnostic execution, Docker execution, scanner execution, credential injection, customer-target operation, and delivery authorization.
+
+## v0.6.35 Sanitized public sample generation candidate
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Generate a sanitized public sample candidate under `examples/applied-evidence/sanitized-static-mock/`.
+- Use synthetic `.example.` artifacts to demonstrate AAEF applied-evidence traceability.
+- Keep public sample candidate generation separate from private artifact promotion, local diagnostic execution, Docker execution, scanner execution, credential injection, customer-target operation, report delivery, and certification/compliance/audit/legal claims.

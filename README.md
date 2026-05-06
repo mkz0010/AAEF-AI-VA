@@ -669,3 +669,13 @@ This checkpoint reviews whether the v0.6.33 sanitized public sample planning is 
 It is sanitized public sample generation readiness review only. It does not generate public sample artifacts, copy private generated artifacts into the public repository, run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
 
 See `docs/111-v0634-sanitized-public-sample-generation-readiness-review.md`.
+
+## v0.6.35 Sanitized Public Sample Generation Candidate
+
+AAEF-AI-VA includes a v0.6.35 sanitized public sample generation candidate.
+
+This checkpoint adds a bounded generator for sanitized, synthetic, non-executing public example artifacts under `examples/applied-evidence/sanitized-static-mock/`. The sample uses `.example.` naming, covers the four minimum applied-evidence scenarios, includes request-to-evidence linkage, reviewer walkthrough, AAEF five-questions mapping, non-proof statements, and a publication hygiene report.
+
+It is sanitized public sample candidate generation only. It does not copy private generated artifacts into the public repository, run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
+
+See `docs/112-v0635-sanitized-public-sample-generation-candidate.md`.
