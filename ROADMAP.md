@@ -982,3 +982,13 @@ Purpose:
 - Plan structural validation for the sanitized public sample artifact set.
 - Define checks that a later validator implementation should perform.
 - Keep validation planning separate from validator implementation, local diagnostic execution, Docker execution, scanner execution, credential injection, customer-target operation, report delivery, and certification/compliance/audit/legal claims.
+
+## v0.6.39 Public example structural validator implementation readiness review
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Review whether public example structural validator implementation can be considered after v0.6.38 planning.
+- Keep the future validator read-only and scoped to public `.example.` artifacts.
+- Keep readiness review separate from validator implementation, validator execution, local diagnostic execution, Docker execution, scanner execution, credential injection, customer-target operation, report delivery, and certification/compliance/audit/legal claims.

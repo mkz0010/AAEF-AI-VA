@@ -709,3 +709,13 @@ This checkpoint plans how the sanitized public sample under `examples/applied-ev
 It is structural validation planning only. It does not implement structural validators, execute validator checks, run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
 
 See `docs/115-v0638-public-example-structural-validation-planning.md`.
+
+## v0.6.39 Public Example Structural Validator Implementation Readiness Review
+
+AAEF-AI-VA includes a v0.6.39 public example structural validator implementation readiness review checkpoint.
+
+This checkpoint reviews whether the v0.6.38 public example structural validation planning is ready to proceed to a later read-only, public-example-scoped validator implementation. It confirms implementation prerequisites, allowed validator scope, prohibited behavior, expected checks, expected outputs, fail-closed behavior, and runtime/scanning/customer/delivery boundaries.
+
+It is validator implementation readiness review only. It does not implement structural validators, execute validator checks, run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
+
+See `docs/116-v0639-public-example-structural-validator-implementation-readiness-review.md`.
