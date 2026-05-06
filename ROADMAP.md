@@ -1013,3 +1013,14 @@ Purpose:
 - Treat the public example structural validation track as close-ready when validator output passes with empty blockers.
 - Capture AAEF Applied Implementation handback guidance for AAEF main.
 - Keep the review separate from local diagnostic execution, Docker execution, scanner execution, credential injection, customer-target operation, report delivery, and certification/compliance/audit/legal claims.
+
+## v0.6.42 AAEF Applied Implementation handback summary
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Provide AAEF main with a public-safe Applied Implementation handback summary.
+- Keep the handback at the evidence/interface level.
+- Exclude detailed implementation, patent-sensitive diagnostic reconstruction detail, commercial strategy, pricing strategy, customer lists, and NDA-assumed content.
+- Keep the handback separate from local diagnostic execution, Docker execution, scanner execution, credential injection, customer-target operation, report delivery, and certification/compliance/audit/legal claims.

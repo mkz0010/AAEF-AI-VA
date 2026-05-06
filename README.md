@@ -739,3 +739,13 @@ This checkpoint reviews the v0.6.40 read-only public example structural validato
 It is validator review and close-readiness only. It does not run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
 
 See `docs/118-v0641-public-example-structural-validator-review-and-close-readiness.md`.
+
+## v0.6.42 AAEF Applied Implementation Handback Summary
+
+AAEF-AI-VA includes a v0.6.42 AAEF Applied Implementation handback summary checkpoint.
+
+This checkpoint summarizes the v0.6.35 through v0.6.41 public evidence/example/validator track for AAEF main as an Applied Implementation. It reports evidence-interface lessons: how the evidence answers the AAEF five questions, how AI output is treated as a request rather than authority, how gate decisions determine execution permission, how dispatch and non-dispatch are evidenced, how non-execution evidence is represented, and how reviewers can trace the decision path.
+
+It intentionally excludes detailed implementation, patent-sensitive browser-state or diagnostic reconstruction detail, commercial strategy, pricing strategy, customer lists, and NDA-assumed material.
+
+See `docs/119-v0642-aaef-applied-implementation-handback-summary.md`.

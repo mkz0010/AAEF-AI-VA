@@ -112,6 +112,7 @@ def main() -> int:
     run([sys.executable, "tools/test_v0639_public_example_structural_validator_implementation_readiness_review.py"])
     run([sys.executable, "tools/test_v0640_public_example_structural_validator_implementation_candidate.py"])
     run([sys.executable, "tools/test_v0641_public_example_structural_validator_review_close_readiness.py"])
+    run([sys.executable, "tools/test_v0642_aaef_applied_implementation_handback_summary.py"])
     print("All local checks passed.")
     return 0
 
