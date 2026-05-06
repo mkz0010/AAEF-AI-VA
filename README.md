@@ -784,3 +784,11 @@ It preserves the positive sanitized public example as the positive control and d
 It does not run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal advice, or provide audit opinion.
 
 See `docs/123-v0646-public-validator-negative-fixture-implementation-candidate.md`.
+
+## v0.6.47 Public Validator Negative Fixture Coverage Review and Close-Readiness
+
+v0.6.47 reviews and closes the first public validator negative fixture implementation track.
+
+It retains the public-safe static negative fixtures introduced in v0.6.46, confirms the expected 13 negative categories, preserves the positive control, and keeps the read-only harness boundary. It does not modify validator behavior, authorize runtime execution, run scanners, run Docker, inject credentials, authorize customer targets, authorize delivery, or make certification, legal, audit, compliance, or external-framework equivalence claims.
+
+See `docs/124-v0647-public-validator-negative-fixture-coverage-review-close-readiness.md`.

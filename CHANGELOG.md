@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.6.47 - Public validator negative fixture coverage review and close-readiness
+
+- Added a close-readiness review for the v0.6.46 public-safe static negative fixture implementation candidate.
+- Confirmed the 13 negative fixture categories, metadata, index, read-only harness, and positive control preservation.
+- Kept validator behavior unchanged and preserved runtime, scanner, Docker, credential, customer-target, and delivery prohibitions.
+
+
+
 ## Unreleased
 
 - Add v0.3.5 licensing and commercial-use boundary with AGPL-3.0 repository license, AAEF/CC BY 4.0 attribution, commercial license inquiry language, and local validation.

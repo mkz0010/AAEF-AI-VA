@@ -120,6 +120,7 @@ def main() -> int:
 
 
     run([sys.executable, "tools/test_v0646_public_validator_negative_fixture_implementation_candidate.py"])
+    run([sys.executable, "tools/test_v0647_public_validator_negative_fixture_coverage_review_close_readiness.py"])
     print("All local checks passed.")
     return 0
 
