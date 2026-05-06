@@ -1034,3 +1034,13 @@ Purpose:
 - Review whether the v0.6.42 AAEF Applied Implementation handback is sufficient for AAEF main.
 - Decide the next AAEF-AI-VA direction after the public sample and public validator track.
 - Keep the review separate from local diagnostic execution, Docker execution, scanner execution, credential injection, customer-target operation, report delivery, and certification/compliance/audit/legal claims.
+
+## v0.6.44 Public validator negative fixture planning
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Plan negative fixtures for the read-only public example structural validator.
+- Keep fixture planning separate from fixture implementation, validator behavior changes, local diagnostic execution, Docker execution, scanner execution, credential injection, customer-target operation, report delivery, and certification/compliance/audit/legal claims.
+- Preserve fail-closed behavior as a validation-safety goal.

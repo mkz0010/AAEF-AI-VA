@@ -563,3 +563,10 @@
 - Confirmed handback scope remains evidence/interface-level and excludes detailed implementation, patent-sensitive diagnostic reconstruction details, commercial/pricing/customer/NDA material, private generated artifacts, scanner output, and credential material.
 - Compared next-track options: public validator hardening, local-lab/preflight planning return, AAEF handback only, and applied evidence track pause.
 - Preserved the boundary that v0.6.43 does not run scanners, create runnable configuration, authorize Docker/runtime execution, inject credentials, authorize customer-target operation, or authorize delivery.
+
+## v0.6.44 - Public validator negative fixture planning
+
+- Added a v0.6.44 public validator negative fixture planning checkpoint.
+- Planned fail-closed negative fixture categories for the read-only public example structural validator.
+- Covered missing artifacts, malformed JSON, broken linkage, scenario posture contradictions, non-example names, missing non-proof statements, missing AAEF five-questions mapping, failed publication hygiene, forbidden text leakage, overclaim language, and runtime/scanning/customer/delivery boundary violations.
+- Preserved the boundary that v0.6.44 does not implement negative fixtures, modify validator behavior, run scanners, create runnable configuration, authorize Docker/runtime execution, inject credentials, authorize customer-target operation, or authorize delivery.

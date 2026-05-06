@@ -759,3 +759,13 @@ This checkpoint reviews whether the v0.6.42 AAEF Applied Implementation handback
 It is handback review and next-direction planning only. It does not run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal advice, or provide audit opinion.
 
 See `docs/120-v0643-applied-implementation-handback-review-and-next-direction.md`.
+
+## v0.6.44 Public Validator Negative Fixture Planning
+
+AAEF-AI-VA includes a v0.6.44 public validator negative fixture planning checkpoint.
+
+This checkpoint plans negative fixtures for the read-only public example structural validator introduced in v0.6.40 and reviewed through v0.6.43. It defines planned negative fixture categories for missing artifacts, malformed JSON, broken linkage, scenario posture contradictions, non-example names, missing non-proof statements, missing AAEF five-questions mapping, failed publication hygiene, forbidden text leakage, overclaim language, and runtime/scanning/customer/delivery boundary flag violations.
+
+It is negative fixture planning only. It does not implement negative fixtures, modify validator behavior, run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal advice, or provide audit opinion.
+
+See `docs/121-v0644-public-validator-negative-fixture-planning.md`.
