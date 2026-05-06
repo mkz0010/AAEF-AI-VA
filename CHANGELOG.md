@@ -460,3 +460,10 @@
 - Generated package structure covers `permitted-safe-diagnostic`, `denied-out-of-scope-request`, `human-approval-required`, and `not-executed-expired`.
 - Added validation tests confirming generated private artifacts preserve request-to-evidence linkage, scenario consistency, non-execution evidence, non-proof statements, AAEF five-questions mapping, and runtime/scanning/customer-target/delivery boundaries.
 - Preserved the boundary that v0.6.29 does not create public samples, run scanners, create runnable configuration, authorize Docker/runtime execution, inject credentials, authorize customer-target operation, or authorize delivery.
+
+## v0.6.30 - Static/mock applied evidence package review and promotion gate planning
+
+- Added a v0.6.30 static/mock applied evidence package review and promotion gate planning checkpoint.
+- Defined private package review criteria for the v0.6.29 generated static/mock applied evidence package.
+- Planned public sample promotion gate criteria, blocker categories, promotion outcomes, publication-safe requirements, rollback posture, and AAEF-side reporting boundaries.
+- Preserved the boundary that v0.6.30 does not promote public samples, generate public artifacts, implement structural validators, run scanners, create runnable configuration, authorize Docker/runtime execution, inject credentials, authorize customer-target operation, or authorize delivery.

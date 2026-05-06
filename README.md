@@ -619,3 +619,13 @@ This checkpoint adds a private-first generator for a static/mock AAEF applied ev
 It is private static/mock generation only. It does not create public samples, run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
 
 See `docs/106-v0629-static-mock-applied-evidence-package-private-generation-candidate.md`.
+
+## v0.6.30 Static/Mock Applied Evidence Package Review and Promotion Gate Planning
+
+AAEF-AI-VA includes a v0.6.30 static/mock applied evidence package review and promotion gate planning checkpoint.
+
+This checkpoint defines how the private-first static/mock applied evidence package generated in v0.6.29 should be reviewed before any public sanitized sample promotion is considered. It plans review inputs, private package review criteria, promotion gate criteria, blocker categories, publication-safe requirements, rollback posture, and AAEF-side reporting boundaries.
+
+It is review and promotion gate planning only. It does not promote public samples, generate new public artifacts, implement structural validators, run scanners, create runnable configuration, authorize Docker execution, authorize runtime execution, inject credentials, authorize customer-target operation, create customer deliverables, provide certification, provide legal approval, or provide audit opinion.
+
+See `docs/107-v0630-static-mock-applied-evidence-package-review-and-promotion-gate-planning.md`.

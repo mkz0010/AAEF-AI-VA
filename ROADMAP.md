@@ -888,3 +888,14 @@ Purpose:
 - Cover all four minimum applied evidence scenarios with linked request, gate, dispatch, result, evidence, review, and non-proof artifacts.
 - Keep generated artifacts private until a later public-safe promotion decision.
 - Keep generation separate from public sample publication, structural validator implementation, local diagnostic execution, Docker execution, scanner execution, credential injection, customer-target operation, and delivery authorization.
+
+## v0.6.30 Static/mock applied evidence package review and promotion gate planning
+
+Status: completed candidate once local checks pass.
+
+Purpose:
+
+- Define the review and promotion gate for the private static/mock applied evidence package generated in v0.6.29.
+- Separate private package review, public sanitized sample promotion, and real local-lab diagnostic execution.
+- Plan blocker categories, promotion outcomes, publication-safe checks, and AAEF-side reporting.
+- Keep promotion planning separate from public sample generation, local diagnostic execution, Docker execution, scanner execution, credential injection, customer-target operation, and delivery authorization.
