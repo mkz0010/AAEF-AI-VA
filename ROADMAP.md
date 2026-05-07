@@ -1246,3 +1246,9 @@ Recommended next checkpoint: v0.6.77 Public Sample Relationship-to-Validator Pla
 v0.6.78 plans public sample relationship-to-validator clarity as a documentation-only reader aid without changing the current public sample, validator, fixtures, or runtime boundaries.
 
 Recommended next checkpoint: v0.6.79 Public Sample Relationship-to-Validator Candidate.
+
+## v0.6.79 Public Sample Relationship-to-Validator Candidate
+
+v0.6.79 creates a narrow documentation-only public sample relationship-to-validator candidate without changing the current public sample, validator, fixtures, or runtime boundaries.
+
+Recommended next checkpoint: v0.6.80 Public Sample Relationship-to-Validator Review and Close-Readiness.

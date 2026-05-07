@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.79 - Public sample relationship-to-validator candidate
+
+- Added the public sample relationship-to-validator candidate planned in v0.6.78.
+- Explained the public sample purpose, public validator purpose, validator checks and non-checks, public negative fixture relationship, validator-output-is-not-authority boundary, documentation-only mapping boundary, non-execution and non-delivery boundary, and relationship matrix.
+- Retained current public sample content, validator behavior, validator output, fixture metadata, public negative fixtures, reviewer current-state summary closeout, public sample five-questions clarity closeout, public validator relationship, documentation-only mapping, documentation-only hardening scope, and non-execution/non-delivery boundaries.
+- Kept public sample refinement, public example text changes, validator behavior changes, validator output changes, validator output contracts, metadata-level failure category fields, JSON Schema, fixture metadata rewrites, fixture additions, package generation, private review record generation, public sample promotion, AAEF main handback preparation, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+
+
 ## v0.6.78 - Public sample relationship-to-validator planning
 
 - Added public sample relationship-to-validator planning after v0.6.76 selected it as the next Applied Evidence gap.
