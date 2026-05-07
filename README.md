@@ -896,3 +896,11 @@ v0.6.60 establishes a conservative documentation-only maintenance baseline for t
 It retains the current public-safe negative fixture set, metadata contract baseline, documentation-only mapping baseline, documentation-only hardening scope, positive control, and public structural validator. It identifies maintenance cleanup candidates while keeping validator behavior changes, validator output changes, validator output contracts, metadata-level failure category fields, JSON Schema, fixture metadata rewrites, fixture additions, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
 
 See `docs/137-v0660-public-validator-hardening-maintenance-baseline-review.md`.
+
+## v0.6.61 Public Validator Hardening Maintenance Cleanup Planning
+
+v0.6.61 plans maintenance cleanup for the public validator hardening track after v0.6.60 established the documentation-only maintenance baseline.
+
+It defines a narrow cleanup planning scope focused on reviewer navigation, summary clarity, test grouping comments, metadata explanation, mapping layout, hardening-scope non-implementation wording, public claim boundaries, and next-step clarity. It does not implement cleanup beyond the planning document and read-only test, reorganize files, change validator behavior, add validator output, create validator output contracts, add metadata-level failure category fields, add JSON Schema, rewrite fixture metadata, add fixtures, run scanners, run Docker, enable runtime execution, inject credentials, authorize customer targets, or authorize delivery.
+
+See `docs/138-v0661-public-validator-hardening-maintenance-cleanup-planning.md`.

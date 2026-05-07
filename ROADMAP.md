@@ -1144,3 +1144,9 @@ Recommended next checkpoint: v0.6.60 Public Validator Hardening Maintenance Base
 v0.6.60 establishes a documentation-only public validator hardening maintenance baseline and identifies maintenance cleanup candidates.
 
 Recommended next checkpoint: v0.6.61 Public Validator Hardening Maintenance Cleanup Planning.
+
+## v0.6.61 Public Validator Hardening Maintenance Cleanup Planning
+
+v0.6.61 plans documentation-only public validator hardening maintenance cleanup while preserving the v0.6.60 maintenance baseline.
+
+Recommended next checkpoint: v0.6.62 Public Validator Hardening Maintenance Cleanup Candidate.

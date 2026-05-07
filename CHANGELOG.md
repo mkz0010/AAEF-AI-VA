@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.61 - Public validator hardening maintenance cleanup planning
+
+- Added maintenance cleanup planning after the v0.6.60 documentation-only maintenance baseline review.
+- Defined planned cleanup surfaces for reviewer navigation, fixture index summary, non-implementation wording, public claim boundaries, local-check grouping comments, mapping layout, metadata explanations, and duplicate prose reduction.
+- Retained the public-safe static fixture set, metadata contract baseline, documentation-only mapping baseline, documentation-only hardening scope, positive control, and public structural validator.
+- Kept cleanup implementation, file reorganization, validator behavior changes, validator output changes, validator output contracts, metadata-level failure category fields, JSON Schema, fixture metadata rewrites, fixture additions, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+
+
 ## v0.6.60 - Public validator hardening maintenance baseline review
 
 - Added a maintenance baseline review after the v0.6.59 maintenance-first direction review.
