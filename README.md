@@ -984,3 +984,11 @@ v0.6.71 reviews the v0.6.70 Applied Evidence reviewer current-state summary cand
 It retains the summary candidate as the current reviewer orientation summary for the Applied Evidence track, preserving scope and non-goals, current artifact map, public-safe sample baseline orientation, AAEF five-questions orientation, public validator relationship, non-execution and non-delivery boundary, and deferred gap summary. It does not start public sample five-questions clarity work, refine public sample content, generate packages, create private review records, promote public samples, prepare AAEF main handback material, change validator behavior, change validator output, add validator output contracts, add metadata-level failure category fields, add JSON Schema, rewrite fixture metadata, add fixtures, run scanners, run Docker, enable runtime execution, inject credentials, authorize customer targets, or authorize delivery.
 
 See `docs/148-v0671-applied-evidence-reviewer-current-state-summary-review-close-readiness.md`.
+
+## v0.6.72 Applied Evidence Next Gap Selection Review
+
+v0.6.72 selects public sample five-questions clarity as the next Applied Evidence gap to plan after v0.6.71 closed the reviewer current-state summary candidate.
+
+It preserves the reviewer current-state summary closeout, public-safe sample baseline, public validator relationship, public negative fixture baseline, documentation-only mapping, documentation-only hardening scope, and non-execution/non-delivery boundaries. It does not start public sample five-questions clarity work, refine public sample content, generate packages, create private review records, promote public samples, prepare AAEF main handback material, change validator behavior, change validator output, add validator output contracts, add metadata-level failure category fields, add JSON Schema, rewrite fixture metadata, add fixtures, run scanners, run Docker, enable runtime execution, inject credentials, authorize customer targets, or authorize delivery.
+
+See `docs/149-v0672-applied-evidence-next-gap-selection-review.md`.

@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.72 - Applied Evidence next gap selection review
+
+- Added an Applied Evidence next gap selection review after v0.6.71 closed the reviewer current-state summary candidate.
+- Selected public sample five-questions clarity as the next Applied Evidence gap to plan.
+- Retained the reviewer current-state summary closeout, public-safe sample baseline, public validator relationship, public negative fixture baseline, documentation-only mapping, documentation-only hardening scope, and non-execution/non-delivery boundaries.
+- Kept public sample five-questions clarity implementation, public sample refinement, package generation, private review record generation, public sample promotion, AAEF main handback preparation, validator behavior changes, validator output changes, validator output contracts, metadata-level failure category fields, JSON Schema, fixture metadata rewrites, fixture additions, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+
+
 ## v0.6.71 - Applied Evidence reviewer current-state summary review and close-readiness
 
 - Added a close-readiness review for the v0.6.70 Applied Evidence reviewer current-state summary candidate.

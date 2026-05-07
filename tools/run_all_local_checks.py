@@ -145,6 +145,7 @@ def main() -> int:
     run([sys.executable, "tools/test_v0669_applied_evidence_reviewer_current_state_summary_planning.py"])
     run([sys.executable, "tools/test_v0670_applied_evidence_reviewer_current_state_summary_candidate.py"])
     run([sys.executable, "tools/test_v0671_applied_evidence_reviewer_current_state_summary_review_close_readiness.py"])
+    run([sys.executable, "tools/test_v0672_applied_evidence_next_gap_selection_review.py"])
     print("All local checks passed.")
     return 0
 

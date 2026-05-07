@@ -1210,3 +1210,9 @@ Recommended next checkpoint: v0.6.71 Applied Evidence Reviewer Current-State Sum
 v0.6.71 reviews and closes the Applied Evidence reviewer current-state summary candidate from v0.6.70.
 
 Recommended next checkpoint: v0.6.72 Applied Evidence Next Gap Selection Review.
+
+## v0.6.72 Applied Evidence Next Gap Selection Review
+
+v0.6.72 selects public sample five-questions clarity as the next Applied Evidence gap to plan.
+
+Recommended next checkpoint: v0.6.73 Public Sample Five-Questions Clarity Planning.
