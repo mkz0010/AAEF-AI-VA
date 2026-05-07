@@ -1240,3 +1240,9 @@ Recommended next checkpoint: v0.6.76 Applied Evidence Next Gap Selection After C
 v0.6.76 selects public sample relationship to validator as the next Applied Evidence gap to plan.
 
 Recommended next checkpoint: v0.6.77 Public Sample Relationship-to-Validator Planning.
+
+## v0.6.78 Public Sample Relationship-to-Validator Planning
+
+v0.6.78 plans public sample relationship-to-validator clarity as a documentation-only reader aid without changing the current public sample, validator, fixtures, or runtime boundaries.
+
+Recommended next checkpoint: v0.6.79 Public Sample Relationship-to-Validator Candidate.

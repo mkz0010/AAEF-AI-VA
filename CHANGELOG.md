@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.78 - Public sample relationship-to-validator planning
+
+- Added public sample relationship-to-validator planning after v0.6.76 selected it as the next Applied Evidence gap.
+- Noted that v0.6.77 was used for repository hygiene cleanup after v0.6.76.
+- Planned a documentation-only relationship aid covering public sample purpose, validator checks and non-checks, negative fixture relationship, validator-output-is-not-authority boundary, and documentation-only failure category mapping boundaries.
+- Retained current public sample content, validator behavior, validator output, fixture metadata, public negative fixtures, reviewer current-state summary closeout, public sample five-questions clarity closeout, public validator relationship, documentation-only mapping, documentation-only hardening scope, and non-execution/non-delivery boundaries.
+- Kept public sample refinement, public example text changes, validator behavior changes, validator output changes, validator output contracts, metadata-level failure category fields, JSON Schema, fixture metadata rewrites, fixture additions, package generation, private review record generation, public sample promotion, AAEF main handback preparation, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+
+
 ## v0.6.76 - Applied Evidence next gap selection after clarity closeout
 
 - Added an Applied Evidence next gap selection review after v0.6.75 closed the public sample five-questions clarity candidate.
