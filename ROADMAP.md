@@ -1258,3 +1258,9 @@ Recommended next checkpoint: v0.6.80 Public Sample Relationship-to-Validator Rev
 v0.6.80 reviews and closes the public sample relationship-to-validator candidate from v0.6.79.
 
 Recommended next checkpoint: v0.6.81 Applied Evidence Next Gap Selection After Relationship Closeout.
+
+## v0.6.81 Applied Evidence Next Gap Selection After Relationship Closeout
+
+v0.6.81 selects evidence-interface handback readiness as the next Applied Evidence gap to plan.
+
+Recommended next checkpoint: v0.6.82 Evidence-Interface Handback Readiness Planning.

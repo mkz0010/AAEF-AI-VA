@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.81 - Applied Evidence next gap selection after relationship closeout
+
+- Added an Applied Evidence next gap selection review after v0.6.80 closed the public sample relationship-to-validator candidate.
+- Selected evidence-interface handback readiness as the next Applied Evidence gap to plan.
+- Retained the public sample relationship-to-validator closeout, public sample five-questions clarity closeout, reviewer current-state summary closeout, public-safe sample baseline, public validator relationship, public negative fixture baseline, documentation-only mapping, documentation-only hardening scope, and non-execution/non-delivery boundaries.
+- Kept evidence-interface handback readiness planning, AAEF main handback preparation, AAEF main handback work, public sample changes, public sample refinement, validator behavior changes, validator output changes, validator output contracts, metadata-level failure category fields, JSON Schema, fixture metadata rewrites, fixture additions, package generation, private review record generation, public sample promotion, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+
+
 ## v0.6.80 - Public sample relationship-to-validator review and close-readiness
 
 - Added a close-readiness review for the v0.6.79 public sample relationship-to-validator candidate.
