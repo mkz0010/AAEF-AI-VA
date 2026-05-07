@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.58 - Public validator behavior hardening scope review and close-readiness
+
+- Added a review and close-readiness checkpoint for the v0.6.57 documentation-only public validator behavior hardening scope.
+- Recorded the hardening scope-planning track as close-ready while retaining the v0.6.55 and v0.6.56 baselines.
+- Retained the 13 public negative fixture categories in the hardening scope.
+- Kept validator behavior changes, validator output changes, validator output contracts, metadata-level failure category fields, JSON Schema, fixture metadata rewrites, fixture additions, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+
+
 ## v0.6.57 - Public validator behavior hardening scope planning
 
 - Added a documentation-only scope planning checkpoint for future public validator behavior hardening.
