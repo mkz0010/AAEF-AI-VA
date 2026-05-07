@@ -1198,3 +1198,9 @@ Recommended next checkpoint: v0.6.69 Applied Evidence Reviewer Current-State Sum
 v0.6.69 plans the reviewer current-state summary for Applied Evidence without generating the summary or changing artifacts.
 
 Recommended next checkpoint: v0.6.70 Applied Evidence Reviewer Current-State Summary Candidate.
+
+## v0.6.70 Applied Evidence Reviewer Current-State Summary Candidate
+
+v0.6.70 creates a narrow documentation-only reviewer current-state summary candidate for Applied Evidence.
+
+Recommended next checkpoint: v0.6.71 Applied Evidence Reviewer Current-State Summary Review and Close-Readiness.

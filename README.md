@@ -968,3 +968,11 @@ v0.6.69 plans the Applied Evidence reviewer current-state summary selected by th
 It defines intended audiences, planned section order, summary goals, content boundaries, AAEF five-questions planning requirements, validator relationship boundaries, and future candidate acceptance checks. It does not generate the summary, add a summary file, refine public sample content, generate packages, prepare AAEF main handback material, change validator behavior, change validator output, add validator output contracts, add metadata-level failure category fields, add JSON Schema, rewrite fixture metadata, add fixtures, run scanners, run Docker, enable runtime execution, inject credentials, authorize customer targets, or authorize delivery.
 
 See `docs/146-v0669-applied-evidence-reviewer-current-state-summary-planning.md`.
+
+## v0.6.70 Applied Evidence Reviewer Current-State Summary Candidate
+
+v0.6.70 creates the narrow documentation-only Applied Evidence reviewer current-state summary candidate planned in v0.6.69.
+
+It summarizes what Applied Evidence artifacts exist today, what is public-safe versus private/static history, how the sanitized public sample baseline should be read, how the AAEF five questions relate to current artifacts, what the public validator checks and does not check, what remains non-execution and non-delivery, and which gaps remain deferred. It does not refine public sample content, generate packages, create private review records, promote public samples, prepare AAEF main handback material, change validator behavior, change validator output, add validator output contracts, add metadata-level failure category fields, add JSON Schema, rewrite fixture metadata, add fixtures, run scanners, run Docker, enable runtime execution, inject credentials, authorize customer targets, or authorize delivery.
+
+See `docs/147-v0670-applied-evidence-reviewer-current-state-summary-candidate.md`.
