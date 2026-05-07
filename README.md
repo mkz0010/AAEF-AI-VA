@@ -904,3 +904,11 @@ v0.6.61 plans maintenance cleanup for the public validator hardening track after
 It defines a narrow cleanup planning scope focused on reviewer navigation, summary clarity, test grouping comments, metadata explanation, mapping layout, hardening-scope non-implementation wording, public claim boundaries, and next-step clarity. It does not implement cleanup beyond the planning document and read-only test, reorganize files, change validator behavior, add validator output, create validator output contracts, add metadata-level failure category fields, add JSON Schema, rewrite fixture metadata, add fixtures, run scanners, run Docker, enable runtime execution, inject credentials, authorize customer targets, or authorize delivery.
 
 See `docs/138-v0661-public-validator-hardening-maintenance-cleanup-planning.md`.
+
+## v0.6.62 Public Validator Hardening Maintenance Cleanup Candidate
+
+v0.6.62 adds a narrow documentation-only maintenance cleanup candidate after the v0.6.61 cleanup planning checkpoint.
+
+It focuses only on reviewer navigation for the v0.6.44-v0.6.62 public validator negative fixture and hardening track and a reviewer-facing public validator negative fixture index summary. It does not reorganize files, change validator behavior, add validator output, create validator output contracts, add metadata-level failure category fields, add JSON Schema, rewrite fixture metadata, add fixtures, run scanners, run Docker, enable runtime execution, inject credentials, authorize customer targets, or authorize delivery.
+
+See `docs/139-v0662-public-validator-hardening-maintenance-cleanup-candidate.md`.

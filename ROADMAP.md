@@ -1150,3 +1150,9 @@ Recommended next checkpoint: v0.6.61 Public Validator Hardening Maintenance Clea
 v0.6.61 plans documentation-only public validator hardening maintenance cleanup while preserving the v0.6.60 maintenance baseline.
 
 Recommended next checkpoint: v0.6.62 Public Validator Hardening Maintenance Cleanup Candidate.
+
+## v0.6.62 Public Validator Hardening Maintenance Cleanup Candidate
+
+v0.6.62 adds a narrow documentation-only maintenance cleanup candidate focused on reviewer navigation and a public negative fixture index summary.
+
+Recommended next checkpoint: v0.6.63 Public Validator Hardening Maintenance Cleanup Review and Close-Readiness.

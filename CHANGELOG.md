@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.62 - Public validator hardening maintenance cleanup candidate
+
+- Added a narrow documentation-only maintenance cleanup candidate after v0.6.61 cleanup planning.
+- Added reviewer navigation guidance for the v0.6.44-v0.6.62 public validator negative fixture and hardening track.
+- Added a reviewer-facing public validator negative fixture index summary covering the current 13 retained negative fixture categories.
+- Kept file reorganization, validator behavior changes, validator output changes, validator output contracts, metadata-level failure category fields, JSON Schema, fixture metadata rewrites, fixture additions, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+
+
 ## v0.6.61 - Public validator hardening maintenance cleanup planning
 
 - Added maintenance cleanup planning after the v0.6.60 documentation-only maintenance baseline review.
