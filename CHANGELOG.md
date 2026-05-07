@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.80 - Public sample relationship-to-validator review and close-readiness
+
+- Added a close-readiness review for the v0.6.79 public sample relationship-to-validator candidate.
+- Retained the relationship candidate as the current public sample relationship-to-validator reader aid.
+- Confirmed the relationship candidate preserves public sample purpose, public validator purpose, validator checks and non-checks, public negative fixture relationship, validator-output-is-not-authority boundary, validator-success-does-not-authorize-execution boundary, documentation-only mapping boundary, non-execution/non-delivery boundary, relationship matrix, current public sample content, validator behavior, validator output, fixture metadata, public negative fixtures, reviewer current-state summary closeout, and public sample five-questions clarity closeout.
+- Kept public sample refinement, public example text changes, validator behavior changes, validator output changes, validator output contracts, metadata-level failure category fields, JSON Schema, fixture metadata rewrites, fixture additions, package generation, private review record generation, public sample promotion, AAEF main handback preparation, evidence-interface handback readiness planning, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+
+
 ## v0.6.79 - Public sample relationship-to-validator candidate
 
 - Added the public sample relationship-to-validator candidate planned in v0.6.78.

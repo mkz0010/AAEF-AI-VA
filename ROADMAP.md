@@ -1252,3 +1252,9 @@ Recommended next checkpoint: v0.6.79 Public Sample Relationship-to-Validator Can
 v0.6.79 creates a narrow documentation-only public sample relationship-to-validator candidate without changing the current public sample, validator, fixtures, or runtime boundaries.
 
 Recommended next checkpoint: v0.6.80 Public Sample Relationship-to-Validator Review and Close-Readiness.
+
+## v0.6.80 Public Sample Relationship-to-Validator Review and Close-Readiness
+
+v0.6.80 reviews and closes the public sample relationship-to-validator candidate from v0.6.79.
+
+Recommended next checkpoint: v0.6.81 Applied Evidence Next Gap Selection After Relationship Closeout.

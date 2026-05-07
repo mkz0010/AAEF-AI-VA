@@ -152,6 +152,7 @@ def main() -> int:
     run([sys.executable, "tools/test_v0676_applied_evidence_next_gap_selection_after_clarity_closeout.py"])
     run([sys.executable, "tools/test_v0678_public_sample_relationship_to_validator_planning.py"])
     run([sys.executable, "tools/test_v0679_public_sample_relationship_to_validator_candidate.py"])
+    run([sys.executable, "tools/test_v0680_public_sample_relationship_to_validator_review_close_readiness.py"])
     print("All local checks passed.")
     return 0
 
