@@ -1216,3 +1216,9 @@ Recommended next checkpoint: v0.6.72 Applied Evidence Next Gap Selection Review.
 v0.6.72 selects public sample five-questions clarity as the next Applied Evidence gap to plan.
 
 Recommended next checkpoint: v0.6.73 Public Sample Five-Questions Clarity Planning.
+
+## v0.6.73 Public Sample Five-Questions Clarity Planning
+
+v0.6.73 plans public sample five-questions clarity as a documentation-only reader aid without changing the current public sample.
+
+Recommended next checkpoint: v0.6.74 Public Sample Five-Questions Clarity Candidate.

@@ -992,3 +992,11 @@ v0.6.72 selects public sample five-questions clarity as the next Applied Evidenc
 It preserves the reviewer current-state summary closeout, public-safe sample baseline, public validator relationship, public negative fixture baseline, documentation-only mapping, documentation-only hardening scope, and non-execution/non-delivery boundaries. It does not start public sample five-questions clarity work, refine public sample content, generate packages, create private review records, promote public samples, prepare AAEF main handback material, change validator behavior, change validator output, add validator output contracts, add metadata-level failure category fields, add JSON Schema, rewrite fixture metadata, add fixtures, run scanners, run Docker, enable runtime execution, inject credentials, authorize customer targets, or authorize delivery.
 
 See `docs/149-v0672-applied-evidence-next-gap-selection-review.md`.
+
+## v0.6.73 Public Sample Five-Questions Clarity Planning
+
+v0.6.73 plans public sample five-questions clarity after v0.6.72 selected it as the next Applied Evidence gap.
+
+It defines a documentation-only approach for helping reviewers read the existing public sample against the AAEF five questions while preserving the current sample content, reviewer current-state summary closeout, public validator relationship, public negative fixture baseline, documentation-only mapping, documentation-only hardening scope, and non-execution/non-delivery boundaries. It does not start public sample five-questions clarity implementation, refine public sample content, change public example text, create a new reviewer walkthrough, generate packages, create private review records, promote public samples, prepare AAEF main handback material, change validator behavior, change validator output, add validator output contracts, add metadata-level failure category fields, add JSON Schema, rewrite fixture metadata, add fixtures, run scanners, run Docker, enable runtime execution, inject credentials, authorize customer targets, or authorize delivery.
+
+See `docs/150-v0673-public-sample-five-questions-clarity-planning.md`.
