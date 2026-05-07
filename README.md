@@ -960,3 +960,11 @@ v0.6.68 prioritizes candidate Applied Evidence gaps after the v0.6.67 current-st
 It selects Applied Evidence reviewer current-state summary as the first gap to plan, identifies public sample five-questions clarity as a second-priority candidate, and keeps implementation, summary generation, package generation, private review record generation, public sample promotion, sanitized public sample content refinement, AAEF handback preparation, validator behavior changes, validator output changes, validator output contracts, metadata-level failure category fields, JSON Schema, fixture metadata rewrites, fixture additions, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
 
 See `docs/145-v0668-applied-evidence-gap-prioritization-review.md`.
+
+## v0.6.69 Applied Evidence Reviewer Current-State Summary Planning
+
+v0.6.69 plans the Applied Evidence reviewer current-state summary selected by the v0.6.68 gap prioritization review.
+
+It defines intended audiences, planned section order, summary goals, content boundaries, AAEF five-questions planning requirements, validator relationship boundaries, and future candidate acceptance checks. It does not generate the summary, add a summary file, refine public sample content, generate packages, prepare AAEF main handback material, change validator behavior, change validator output, add validator output contracts, add metadata-level failure category fields, add JSON Schema, rewrite fixture metadata, add fixtures, run scanners, run Docker, enable runtime execution, inject credentials, authorize customer targets, or authorize delivery.
+
+See `docs/146-v0669-applied-evidence-reviewer-current-state-summary-planning.md`.

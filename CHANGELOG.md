@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.69 - Applied Evidence reviewer current-state summary planning
+
+- Added planning for the Applied Evidence reviewer current-state summary selected by v0.6.68.
+- Defined intended audiences, planned section order, summary goals, content boundaries, AAEF five-questions planning requirements, validator relationship boundaries, and future candidate acceptance checks.
+- Retained the sanitized public sample baseline, public validator closeout state, public negative fixture baseline, documentation-only mapping, documentation-only hardening scope, and v0.6.68 gap prioritization result.
+- Kept summary generation, summary file addition, public sample refinement, package generation, private review record generation, public sample promotion, AAEF main handback preparation, validator behavior changes, validator output changes, validator output contracts, metadata-level failure category fields, JSON Schema, fixture metadata rewrites, fixture additions, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+
+
 ## v0.6.68 - Applied Evidence gap prioritization review
 
 - Added an Applied Evidence gap prioritization review after the v0.6.67 current-state review.

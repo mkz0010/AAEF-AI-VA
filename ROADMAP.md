@@ -1192,3 +1192,9 @@ Recommended next checkpoint: v0.6.68 Applied Evidence Gap Prioritization Review.
 v0.6.68 prioritizes candidate Applied Evidence gaps and selects reviewer current-state summary planning as the next separate checkpoint.
 
 Recommended next checkpoint: v0.6.69 Applied Evidence Reviewer Current-State Summary Planning.
+
+## v0.6.69 Applied Evidence Reviewer Current-State Summary Planning
+
+v0.6.69 plans the reviewer current-state summary for Applied Evidence without generating the summary or changing artifacts.
+
+Recommended next checkpoint: v0.6.70 Applied Evidence Reviewer Current-State Summary Candidate.
