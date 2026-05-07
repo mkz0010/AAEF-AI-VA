@@ -944,3 +944,11 @@ v0.6.66 opens Applied Evidence next-direction intake after v0.6.65 closed out th
 It selects Applied Evidence current-state review as the next separate checkpoint to consider and keeps Applied Evidence implementation, new package generation, private review record generation, public sample promotion, validator behavior changes, validator output changes, validator output contracts, metadata-level failure category fields, JSON Schema, fixture metadata rewrites, fixture additions, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
 
 See `docs/143-v0666-applied-evidence-next-direction-intake.md`.
+
+## v0.6.67 Applied Evidence Current-State Review
+
+v0.6.67 reviews the current Applied Evidence state after v0.6.66 selected Applied Evidence current-state review as the next separate checkpoint.
+
+It inventories the sanitized public sample baseline, static/mock Applied Evidence history, reviewer walkthrough and AAEF five-questions mapping history, public validator relationship, public negative fixture baseline, documentation-only hardening scope, handback boundary, and candidate gaps for later prioritization. It keeps Applied Evidence implementation, new package generation, private review record generation, public sample promotion, public sample content refinement, validator behavior changes, validator output changes, validator output contracts, metadata-level failure category fields, JSON Schema, fixture metadata rewrites, fixture additions, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+See `docs/144-v0667-applied-evidence-current-state-review.md`.

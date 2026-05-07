@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.67 - Applied Evidence current-state review
+
+- Added an Applied Evidence current-state review after the v0.6.66 next-direction intake.
+- Inventoried the retained sanitized public sample baseline, static/mock Applied Evidence history, reviewer walkthrough and five-questions mapping history, public validator relationship, public negative fixture baseline, documentation-only hardening scope, and handback boundary.
+- Identified candidate Applied Evidence gaps for later prioritization.
+- Kept Applied Evidence implementation, new package generation, private review record generation, public sample promotion, public sample content refinement, validator behavior changes, validator output changes, validator output contracts, metadata-level failure category fields, JSON Schema, fixture metadata rewrites, fixture additions, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+
+
 ## v0.6.66 - Applied Evidence next-direction intake
 
 - Added an Applied Evidence next-direction intake checkpoint after the v0.6.65 public validator pause review closeout.

@@ -1180,3 +1180,9 @@ Recommended next checkpoint: v0.6.66 Applied Evidence Next-Direction Intake.
 v0.6.66 opens Applied Evidence next-direction intake after public validator pause closeout and selects Applied Evidence current-state review as the next separate checkpoint.
 
 Recommended next checkpoint: v0.6.67 Applied Evidence Current-State Review.
+
+## v0.6.67 Applied Evidence Current-State Review
+
+v0.6.67 reviews the current Applied Evidence state and identifies candidate gaps for later prioritization.
+
+Recommended next checkpoint: v0.6.68 Applied Evidence Gap Prioritization Review.
