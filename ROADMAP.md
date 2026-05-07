@@ -1132,3 +1132,9 @@ Recommended next checkpoint: v0.6.58 Public Validator Behavior Hardening Scope R
 v0.6.58 reviews and closes the documentation-only public validator behavior hardening scope-planning track.
 
 Recommended next checkpoint: v0.6.59 Public Validator Behavior Hardening Implementation Readiness Review, or the more conservative v0.6.59 Public Validator Hardening Maintenance Direction Review.
+
+## v0.6.59 Public Validator Hardening Maintenance Direction Review
+
+v0.6.59 selects a maintenance-first direction and defers validator behavior hardening implementation readiness.
+
+Recommended next checkpoint: v0.6.60 Public Validator Hardening Maintenance Baseline Review.

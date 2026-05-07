@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.59 - Public validator hardening maintenance direction review
+
+- Added a maintenance-first direction review after the v0.6.58 documentation-only hardening scope close-readiness checkpoint.
+- Deferred validator behavior hardening implementation readiness.
+- Identified maintenance review surfaces including documentation ordering, test ordering, fixture duplication, metadata readability, mapping readability, hardening scope readability, public claim boundaries, and next-step clarity.
+- Kept validator behavior changes, validator output changes, validator output contracts, metadata-level failure category fields, JSON Schema, fixture metadata rewrites, fixture additions, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+
+
 ## v0.6.58 - Public validator behavior hardening scope review and close-readiness
 
 - Added a review and close-readiness checkpoint for the v0.6.57 documentation-only public validator behavior hardening scope.

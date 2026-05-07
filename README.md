@@ -880,3 +880,11 @@ v0.6.58 reviews the v0.6.57 documentation-only public validator behavior hardeni
 It retains the documentation-only hardening scope and compatibility requirements, while keeping validator behavior changes, validator output changes, validator output contracts, metadata-level failure category fields, JSON Schema, fixture metadata rewrites, fixture additions, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
 
 See `docs/135-v0658-public-validator-behavior-hardening-scope-review-close-readiness.md`.
+
+## v0.6.59 Public Validator Hardening Maintenance Direction Review
+
+v0.6.59 selects the conservative maintenance-first direction after the v0.6.58 documentation-only validator hardening scope close-readiness review.
+
+It defers validator behavior hardening implementation readiness and keeps the current public validator behavior, validator output, fixture metadata, JSON Schema posture, fixture set, runtime/scanner/Docker/credential/customer/delivery boundaries, and claim boundaries unchanged.
+
+See `docs/136-v0659-public-validator-hardening-maintenance-direction-review.md`.
