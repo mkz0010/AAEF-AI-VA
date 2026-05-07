@@ -125,6 +125,7 @@ def main() -> int:
     run([sys.executable, "tools/test_v0649_public_validator_negative_fixture_metadata_contract_readiness_review.py"])
     run([sys.executable, "tools/test_v0650_public_validator_negative_fixture_metadata_contract_candidate.py"])
     run([sys.executable, "tools/test_v0651_public_validator_negative_fixture_metadata_contract_review_close_readiness.py"])
+    run([sys.executable, "tools/test_v0652_public_validator_failure_category_mapping_readiness_review.py"])
     print("All local checks passed.")
     return 0
 

@@ -824,3 +824,11 @@ v0.6.51 reviews the v0.6.50 public validator negative fixture metadata contract 
 It retains the candidate contract and read-only contract test, confirms the required metadata fields and boundary flags, and keeps JSON Schema, fixture rewrites, fixture additions, validator behavior changes, validator failure category mapping, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
 
 See `docs/128-v0651-public-validator-negative-fixture-metadata-contract-review-close-readiness.md`.
+
+## v0.6.52 Public Validator Failure Category Mapping Readiness Review
+
+v0.6.52 reviews whether the project is ready to consider a future mapping between public negative fixture categories and public validator failure categories.
+
+It documents candidate mapping names, readiness criteria, future candidate options, and risks to avoid. It does not implement mapping, add validator failure category output, add JSON Schema, rewrite metadata, add fixtures, modify validator behavior, authorize runtime execution, run scanners, run Docker, inject credentials, authorize customer targets, authorize delivery, or make certification, legal, audit, compliance, or external-framework equivalence claims.
+
+See `docs/129-v0652-public-validator-failure-category-mapping-readiness-review.md`.

@@ -1090,3 +1090,9 @@ Recommended next checkpoint: v0.6.51 Public Validator Negative Fixture Metadata 
 v0.6.51 reviews and closes the metadata contract track for the current public validator negative fixture set.
 
 Recommended next checkpoint: v0.6.52 Public Validator Failure Category Mapping Readiness Review.
+
+## v0.6.52 Public Validator Failure Category Mapping Readiness Review
+
+v0.6.52 reviews readiness for a future mapping between public negative fixture categories and validator failure category names.
+
+Recommended next checkpoint: v0.6.53 Public Validator Failure Category Mapping Candidate.
