@@ -840,3 +840,11 @@ v0.6.53 adds a documentation-only candidate mapping between the current public n
 It intentionally avoids validator output changes, metadata-level failure category fields, JSON Schema, fixture metadata rewrites, fixture additions, validator behavior changes, runtime execution, scanners, Docker, credentials, customer targets, delivery, and certification, legal, audit, compliance, or external-framework equivalence claims.
 
 See `docs/130-v0653-public-validator-failure-category-mapping-candidate.md`.
+
+## v0.6.54 Public Validator Failure Category Mapping Review and Close-Readiness
+
+v0.6.54 reviews the v0.6.53 documentation-only public validator failure category mapping candidate and records the mapping track as close-ready for the current v0.6.46 public-safe static fixture set.
+
+It retains the documentation-only mapping candidate, re-runs the v0.6.53 mapping candidate test, and keeps validator output changes, metadata-level mapping fields, JSON Schema, fixture metadata rewrites, fixture additions, validator behavior changes, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+See `docs/131-v0654-public-validator-failure-category-mapping-review-close-readiness.md`.

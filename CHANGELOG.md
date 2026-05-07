@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.54 - Public validator failure category mapping review and close-readiness
+
+- Added a review and close-readiness checkpoint for the v0.6.53 documentation-only failure category mapping candidate.
+- Confirmed the current 13 public negative fixture categories remain covered by the retained mapping.
+- Re-ran the v0.6.53 mapping candidate test from the v0.6.54 close-readiness test.
+- Kept validator output changes, metadata-level mapping fields, JSON Schema, fixture metadata rewrites, fixture additions, validator behavior changes, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+
+
 ## v0.6.53 - Public validator failure category mapping candidate
 
 - Added a documentation-only candidate mapping between the current 13 public negative fixture categories and candidate validator failure category names.
