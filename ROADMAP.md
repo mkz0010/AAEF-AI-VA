@@ -1084,3 +1084,9 @@ Recommended next checkpoint: v0.6.50 Public Validator Negative Fixture Metadata 
 v0.6.50 adds a candidate metadata contract and read-only contract test for public validator negative fixtures without adding JSON Schema or changing validator behavior.
 
 Recommended next checkpoint: v0.6.51 Public Validator Negative Fixture Metadata Contract Review and Close-Readiness.
+
+## v0.6.51 Public Validator Negative Fixture Metadata Contract Review and Close-Readiness
+
+v0.6.51 reviews and closes the metadata contract track for the current public validator negative fixture set.
+
+Recommended next checkpoint: v0.6.52 Public Validator Failure Category Mapping Readiness Review.

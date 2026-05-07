@@ -816,3 +816,11 @@ v0.6.50 adds a candidate metadata contract for public validator negative fixture
 It documents required metadata fields, required runtime boundary flags, non-authorization statement requirements, expected categories, and a read-only contract test over the existing v0.6.46 fixture metadata. It does not add JSON Schema, rewrite fixture metadata, add fixtures, modify validator behavior, authorize runtime execution, run scanners, run Docker, inject credentials, authorize customer targets, authorize delivery, or make certification, legal, audit, compliance, or external-framework equivalence claims.
 
 See `docs/127-v0650-public-validator-negative-fixture-metadata-contract-candidate.md`.
+
+## v0.6.51 Public Validator Negative Fixture Metadata Contract Review and Close-Readiness
+
+v0.6.51 reviews the v0.6.50 public validator negative fixture metadata contract candidate and records the metadata contract track as close-ready for the current v0.6.46 public-safe static fixture set.
+
+It retains the candidate contract and read-only contract test, confirms the required metadata fields and boundary flags, and keeps JSON Schema, fixture rewrites, fixture additions, validator behavior changes, validator failure category mapping, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+See `docs/128-v0651-public-validator-negative-fixture-metadata-contract-review-close-readiness.md`.

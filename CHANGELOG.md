@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.51 - Public validator negative fixture metadata contract review and close-readiness
+
+- Added a review and close-readiness checkpoint for the v0.6.50 metadata contract candidate.
+- Confirmed the current v0.6.46 public-safe static fixture set satisfies the retained metadata contract baseline.
+- Reused the v0.6.50 read-only contract test from the v0.6.51 close-readiness test.
+- Kept JSON Schema, fixture rewrites, fixture additions, validator behavior changes, validator failure category mapping, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+
+
 ## v0.6.50 - Public validator negative fixture metadata contract candidate
 
 - Added a candidate metadata contract for public validator negative fixtures.
