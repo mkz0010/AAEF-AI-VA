@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.6.49 - Public validator negative fixture metadata contract readiness review
+
+- Added a readiness review for a future public validator negative fixture metadata contract.
+- Identified candidate required metadata fields, boundary flags, readiness criteria, and risks to avoid.
+- Kept metadata contract implementation, fixture rewrites, fixture additions, validator behavior changes, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+
+
 ## v0.6.48 - Public validator negative fixture coverage hardening planning
 
 - Added a planning checkpoint for future public validator negative fixture coverage hardening after v0.6.47 close-readiness.

@@ -1072,3 +1072,9 @@ Recommended next checkpoint: v0.6.48 Public Validator Negative Fixture Coverage 
 v0.6.48 plans the next hardening path for public validator negative fixture coverage without adding fixtures or modifying validator behavior.
 
 Recommended next checkpoint: v0.6.49 Public Validator Negative Fixture Metadata Contract Readiness Review.
+
+## v0.6.49 Public Validator Negative Fixture Metadata Contract Readiness Review
+
+v0.6.49 reviews readiness for a future metadata contract for public validator negative fixtures without implementing the contract or changing validator behavior.
+
+Recommended next checkpoint: v0.6.50 Public Validator Negative Fixture Metadata Contract Candidate.

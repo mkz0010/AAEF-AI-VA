@@ -800,3 +800,11 @@ v0.6.48 plans future hardening for public validator negative fixture coverage af
 It defines planning workstreams for expected blocker metadata, validator failure category alignment, fixture maintainability, positive control guardrails, publication hygiene guardrails, and Applied Implementation handback boundaries. It does not add new fixtures, rewrite fixtures, modify validator behavior, authorize runtime execution, run scanners, run Docker, inject credentials, authorize customer targets, authorize delivery, or make certification, legal, audit, compliance, or external-framework equivalence claims.
 
 See `docs/125-v0648-public-validator-negative-fixture-coverage-hardening-planning.md`.
+
+## v0.6.49 Public Validator Negative Fixture Metadata Contract Readiness Review
+
+v0.6.49 reviews whether the project is ready to define a future metadata contract for public validator negative fixtures.
+
+It identifies candidate required fields, boundary flags, readiness criteria, and risks to avoid. It does not implement a metadata contract, add schemas, rewrite fixture metadata, add fixtures, modify validator behavior, authorize runtime execution, run scanners, run Docker, inject credentials, authorize customer targets, authorize delivery, or make certification, legal, audit, compliance, or external-framework equivalence claims.
+
+See `docs/126-v0649-public-validator-negative-fixture-metadata-contract-readiness-review.md`.
