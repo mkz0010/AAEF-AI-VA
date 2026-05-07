@@ -1234,3 +1234,9 @@ Recommended next checkpoint: v0.6.75 Public Sample Five-Questions Clarity Review
 v0.6.75 reviews and closes the public sample five-questions clarity candidate from v0.6.74.
 
 Recommended next checkpoint: v0.6.76 Applied Evidence Next Gap Selection After Clarity Closeout.
+
+## v0.6.76 Applied Evidence Next Gap Selection After Clarity Closeout
+
+v0.6.76 selects public sample relationship to validator as the next Applied Evidence gap to plan.
+
+Recommended next checkpoint: v0.6.77 Public Sample Relationship-to-Validator Planning.

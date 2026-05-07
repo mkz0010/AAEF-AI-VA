@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.76 - Applied Evidence next gap selection after clarity closeout
+
+- Added an Applied Evidence next gap selection review after v0.6.75 closed the public sample five-questions clarity candidate.
+- Selected public sample relationship to validator as the next Applied Evidence gap to plan.
+- Retained the public sample five-questions clarity closeout, reviewer current-state summary closeout, public-safe sample baseline, public validator relationship, public negative fixture baseline, documentation-only mapping, documentation-only hardening scope, and non-execution/non-delivery boundaries.
+- Kept relationship-to-validator implementation, public sample changes, public sample refinement, validator behavior changes, validator output changes, validator output contracts, metadata-level failure category fields, JSON Schema, fixture metadata rewrites, fixture additions, package generation, private review record generation, public sample promotion, AAEF main handback preparation, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+
+
 ## v0.6.75 - Public sample five-questions clarity review and close-readiness
 
 - Added a close-readiness review for the v0.6.74 public sample five-questions clarity candidate.
