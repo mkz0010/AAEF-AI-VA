@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.66 - Applied Evidence next-direction intake
+
+- Added an Applied Evidence next-direction intake checkpoint after the v0.6.65 public validator pause review closeout.
+- Selected Applied Evidence current-state review as the next separate checkpoint to consider.
+- Retained the public validator pause closeout, current static public-safe negative fixture set, reviewer navigation note, public negative fixture index summary, documentation-only mapping, and documentation-only hardening scope.
+- Kept Applied Evidence implementation, new package generation, private review record generation, public sample promotion, validator behavior changes, validator output changes, validator output contracts, metadata-level failure category fields, JSON Schema, fixture metadata rewrites, fixture additions, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+
+
 ## v0.6.65 - Public validator pause review closeout
 
 - Added a closeout checkpoint for the public validator maintenance pause state after v0.6.64 selected `pause_and_reassess`.

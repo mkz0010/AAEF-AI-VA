@@ -1174,3 +1174,9 @@ Recommended next checkpoint: v0.6.65 Public Validator Pause Review Closeout or A
 v0.6.65 closes out the public validator maintenance pause state and records Applied Evidence next-direction intake as the next separate checkpoint.
 
 Recommended next checkpoint: v0.6.66 Applied Evidence Next-Direction Intake.
+
+## v0.6.66 Applied Evidence Next-Direction Intake
+
+v0.6.66 opens Applied Evidence next-direction intake after public validator pause closeout and selects Applied Evidence current-state review as the next separate checkpoint.
+
+Recommended next checkpoint: v0.6.67 Applied Evidence Current-State Review.

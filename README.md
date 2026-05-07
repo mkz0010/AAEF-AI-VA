@@ -936,3 +936,11 @@ v0.6.65 closes out the public validator maintenance pause review after v0.6.64 s
 It records a stable documentation-only closeout point for the public validator, negative fixture, hardening, and maintenance track; retains the current public-safe static negative fixture set, reviewer navigation note, public negative fixture index summary, documentation-only mapping, and documentation-only hardening scope; and selects Applied Evidence next-direction intake as the next workstream to consider through a separate checkpoint.
 
 See `docs/142-v0665-public-validator-pause-review-closeout.md`.
+
+## v0.6.66 Applied Evidence Next-Direction Intake
+
+v0.6.66 opens Applied Evidence next-direction intake after v0.6.65 closed out the public validator pause review.
+
+It selects Applied Evidence current-state review as the next separate checkpoint to consider and keeps Applied Evidence implementation, new package generation, private review record generation, public sample promotion, validator behavior changes, validator output changes, validator output contracts, metadata-level failure category fields, JSON Schema, fixture metadata rewrites, fixture additions, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+See `docs/143-v0666-applied-evidence-next-direction-intake.md`.
