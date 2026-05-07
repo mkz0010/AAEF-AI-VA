@@ -832,3 +832,11 @@ v0.6.52 reviews whether the project is ready to consider a future mapping betwee
 It documents candidate mapping names, readiness criteria, future candidate options, and risks to avoid. It does not implement mapping, add validator failure category output, add JSON Schema, rewrite metadata, add fixtures, modify validator behavior, authorize runtime execution, run scanners, run Docker, inject credentials, authorize customer targets, authorize delivery, or make certification, legal, audit, compliance, or external-framework equivalence claims.
 
 See `docs/129-v0652-public-validator-failure-category-mapping-readiness-review.md`.
+
+## v0.6.53 Public Validator Failure Category Mapping Candidate
+
+v0.6.53 adds a documentation-only candidate mapping between the current public negative fixture categories and candidate public validator failure category names.
+
+It intentionally avoids validator output changes, metadata-level failure category fields, JSON Schema, fixture metadata rewrites, fixture additions, validator behavior changes, runtime execution, scanners, Docker, credentials, customer targets, delivery, and certification, legal, audit, compliance, or external-framework equivalence claims.
+
+See `docs/130-v0653-public-validator-failure-category-mapping-candidate.md`.

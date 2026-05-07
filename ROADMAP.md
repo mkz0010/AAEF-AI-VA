@@ -1096,3 +1096,9 @@ Recommended next checkpoint: v0.6.52 Public Validator Failure Category Mapping R
 v0.6.52 reviews readiness for a future mapping between public negative fixture categories and validator failure category names.
 
 Recommended next checkpoint: v0.6.53 Public Validator Failure Category Mapping Candidate.
+
+## v0.6.53 Public Validator Failure Category Mapping Candidate
+
+v0.6.53 adds a documentation-only failure category mapping candidate for public validator negative fixtures.
+
+Recommended next checkpoint: v0.6.54 Public Validator Failure Category Mapping Review and Close-Readiness.

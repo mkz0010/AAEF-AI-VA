@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.6.53 - Public validator failure category mapping candidate
+
+- Added a documentation-only candidate mapping between the current 13 public negative fixture categories and candidate validator failure category names.
+- Preserved the v0.6.51 metadata contract baseline and v0.6.52 readiness boundary.
+- Kept validator output changes, metadata-level mapping fields, JSON Schema, fixture metadata rewrites, fixture additions, validator behavior changes, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+
+
 ## v0.6.52 - Public validator failure category mapping readiness review
 
 - Added a readiness review for future public validator failure category mapping.
