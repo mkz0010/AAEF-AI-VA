@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.64 - Public validator maintenance pause and next-direction review
+
+- Added a pause and next-direction review after v0.6.63 closed the narrow documentation-only maintenance cleanup candidate.
+- Inventoried the retained public validator, negative fixture, hardening, and maintenance track from v0.6.38 through v0.6.63.
+- Selected pause-and-reassess as the current public validator maintenance direction.
+- Retained the reviewer navigation note, public negative fixture index summary, current 13 static public-safe negative fixture categories, and documentation-only hardening posture.
+- Deferred additional cleanup and validator behavior implementation readiness while preserving non-execution and non-authorization boundaries.
+
+
+
 ## v0.6.63 - Public validator hardening maintenance cleanup review and close-readiness
 
 - Added a review and close-readiness checkpoint for the v0.6.62 narrow documentation-only maintenance cleanup candidate.

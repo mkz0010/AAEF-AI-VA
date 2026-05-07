@@ -137,6 +137,7 @@ def main() -> int:
     run([sys.executable, "tools/test_v0661_public_validator_hardening_maintenance_cleanup_planning.py"])
     run([sys.executable, "tools/test_v0662_public_validator_hardening_maintenance_cleanup_candidate.py"])
     run([sys.executable, "tools/test_v0663_public_validator_hardening_maintenance_cleanup_review_close_readiness.py"])
+    run([sys.executable, "tools/test_v0664_public_validator_maintenance_pause_next_direction_review.py"])
     print("All local checks passed.")
     return 0
 

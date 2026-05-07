@@ -1162,3 +1162,9 @@ Recommended next checkpoint: v0.6.63 Public Validator Hardening Maintenance Clea
 v0.6.63 reviews and closes the narrow documentation-only public validator hardening maintenance cleanup candidate from v0.6.62.
 
 Recommended next checkpoint: v0.6.64 Public Validator Maintenance Pause and Next-Direction Review.
+
+## v0.6.64 Public Validator Maintenance Pause and Next-Direction Review
+
+v0.6.64 establishes a stable documentation-only pause point for the public validator hardening maintenance track and selects pause-and-reassess as the current direction.
+
+Recommended next checkpoint: v0.6.65 Public Validator Pause Review Closeout or Applied Evidence Next-Direction Intake.
