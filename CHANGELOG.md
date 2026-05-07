@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.65 - Public validator pause review closeout
+
+- Added a closeout checkpoint for the public validator maintenance pause state after v0.6.64 selected `pause_and_reassess`.
+- Recorded a stable documentation-only closeout point for the public validator, negative fixture, hardening, and maintenance track.
+- Retained the current 13 public-safe static negative fixture categories, reviewer navigation note, public negative fixture index summary, documentation-only mapping, and documentation-only hardening scope.
+- Selected Applied Evidence next-direction intake as the next workstream to consider through a separate checkpoint.
+- Kept validator behavior changes, validator output changes, validator output contracts, metadata-level failure category fields, JSON Schema, fixture metadata rewrites, fixture additions, Applied Evidence implementation work, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+
+
 ## v0.6.64 - Public validator maintenance pause and next-direction review
 
 - Added a pause and next-direction review after v0.6.63 closed the narrow documentation-only maintenance cleanup candidate.

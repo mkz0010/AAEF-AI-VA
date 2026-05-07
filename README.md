@@ -928,3 +928,11 @@ v0.6.64 inventories the public validator negative fixture, hardening, and mainte
 It records a stable documentation-only pause point, selects pause-and-reassess as the current direction, retains the reviewer navigation note and public negative fixture index summary, and defers additional cleanup and validator behavior implementation readiness. It does not reorganize files, change validator behavior, add validator output, create validator output contracts, add metadata-level failure category fields, add JSON Schema, rewrite fixture metadata, add fixtures, run scanners, run Docker, enable runtime execution, inject credentials, authorize customer targets, or authorize delivery.
 
 See `docs/141-v0664-public-validator-maintenance-pause-next-direction-review.md`.
+
+## v0.6.65 Public Validator Pause Review Closeout
+
+v0.6.65 closes out the public validator maintenance pause review after v0.6.64 selected `pause_and_reassess`.
+
+It records a stable documentation-only closeout point for the public validator, negative fixture, hardening, and maintenance track; retains the current public-safe static negative fixture set, reviewer navigation note, public negative fixture index summary, documentation-only mapping, and documentation-only hardening scope; and selects Applied Evidence next-direction intake as the next workstream to consider through a separate checkpoint.
+
+See `docs/142-v0665-public-validator-pause-review-closeout.md`.

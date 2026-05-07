@@ -1168,3 +1168,9 @@ Recommended next checkpoint: v0.6.64 Public Validator Maintenance Pause and Next
 v0.6.64 establishes a stable documentation-only pause point for the public validator hardening maintenance track and selects pause-and-reassess as the current direction.
 
 Recommended next checkpoint: v0.6.65 Public Validator Pause Review Closeout or Applied Evidence Next-Direction Intake.
+
+## v0.6.65 Public Validator Pause Review Closeout
+
+v0.6.65 closes out the public validator maintenance pause state and records Applied Evidence next-direction intake as the next separate checkpoint.
+
+Recommended next checkpoint: v0.6.66 Applied Evidence Next-Direction Intake.
