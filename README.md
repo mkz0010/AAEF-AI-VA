@@ -912,3 +912,11 @@ v0.6.62 adds a narrow documentation-only maintenance cleanup candidate after the
 It focuses only on reviewer navigation for the v0.6.44-v0.6.62 public validator negative fixture and hardening track and a reviewer-facing public validator negative fixture index summary. It does not reorganize files, change validator behavior, add validator output, create validator output contracts, add metadata-level failure category fields, add JSON Schema, rewrite fixture metadata, add fixtures, run scanners, run Docker, enable runtime execution, inject credentials, authorize customer targets, or authorize delivery.
 
 See `docs/139-v0662-public-validator-hardening-maintenance-cleanup-candidate.md`.
+
+## v0.6.63 Public Validator Hardening Maintenance Cleanup Review and Close-Readiness
+
+v0.6.63 reviews the v0.6.62 narrow documentation-only maintenance cleanup candidate and records it as close-ready.
+
+It retains the reviewer navigation note and public validator negative fixture index summary while keeping additional cleanup surfaces, file reorganization, validator behavior changes, validator output changes, validator output contracts, metadata-level failure category fields, JSON Schema, fixture metadata rewrites, fixture additions, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+See `docs/140-v0663-public-validator-hardening-maintenance-cleanup-review-close-readiness.md`.
