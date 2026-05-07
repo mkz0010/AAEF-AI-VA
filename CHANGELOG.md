@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.60 - Public validator hardening maintenance baseline review
+
+- Added a maintenance baseline review after the v0.6.59 maintenance-first direction review.
+- Established a documentation-only maintenance baseline for the public validator hardening track.
+- Retained the public-safe negative fixture set, metadata contract baseline, documentation-only mapping baseline, documentation-only hardening scope, positive control, and public structural validator.
+- Identified maintenance cleanup candidates for later review.
+- Kept validator behavior changes, validator output changes, validator output contracts, metadata-level failure category fields, JSON Schema, fixture metadata rewrites, fixture additions, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+
+
 ## v0.6.59 - Public validator hardening maintenance direction review
 
 - Added a maintenance-first direction review after the v0.6.58 documentation-only hardening scope close-readiness checkpoint.

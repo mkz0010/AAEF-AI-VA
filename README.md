@@ -888,3 +888,11 @@ v0.6.59 selects the conservative maintenance-first direction after the v0.6.58 d
 It defers validator behavior hardening implementation readiness and keeps the current public validator behavior, validator output, fixture metadata, JSON Schema posture, fixture set, runtime/scanner/Docker/credential/customer/delivery boundaries, and claim boundaries unchanged.
 
 See `docs/136-v0659-public-validator-hardening-maintenance-direction-review.md`.
+
+## v0.6.60 Public Validator Hardening Maintenance Baseline Review
+
+v0.6.60 establishes a conservative documentation-only maintenance baseline for the public validator hardening track after v0.6.59 selected the maintenance-first direction.
+
+It retains the current public-safe negative fixture set, metadata contract baseline, documentation-only mapping baseline, documentation-only hardening scope, positive control, and public structural validator. It identifies maintenance cleanup candidates while keeping validator behavior changes, validator output changes, validator output contracts, metadata-level failure category fields, JSON Schema, fixture metadata rewrites, fixture additions, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+See `docs/137-v0660-public-validator-hardening-maintenance-baseline-review.md`.

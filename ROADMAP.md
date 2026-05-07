@@ -1138,3 +1138,9 @@ Recommended next checkpoint: v0.6.59 Public Validator Behavior Hardening Impleme
 v0.6.59 selects a maintenance-first direction and defers validator behavior hardening implementation readiness.
 
 Recommended next checkpoint: v0.6.60 Public Validator Hardening Maintenance Baseline Review.
+
+## v0.6.60 Public Validator Hardening Maintenance Baseline Review
+
+v0.6.60 establishes a documentation-only public validator hardening maintenance baseline and identifies maintenance cleanup candidates.
+
+Recommended next checkpoint: v0.6.61 Public Validator Hardening Maintenance Cleanup Planning.
