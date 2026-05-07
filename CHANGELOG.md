@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.57 - Public validator behavior hardening scope planning
+
+- Added a documentation-only scope planning checkpoint for future public validator behavior hardening.
+- Defined in-scope planning surfaces for the current 13 public negative fixture categories.
+- Recorded compatibility requirements and future option boundaries.
+- Kept validator behavior changes, validator output changes, validator output contracts, metadata-level failure category fields, JSON Schema, fixture metadata rewrites, fixture additions, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+
+
 ## v0.6.56 - Public validator behavior hardening readiness review
 
 - Added a readiness review for future public validator behavior hardening planning after v0.6.55 consolidation.

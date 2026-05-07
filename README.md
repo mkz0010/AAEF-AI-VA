@@ -864,3 +864,11 @@ v0.6.56 reviews whether public validator behavior hardening planning may be cons
 It allows later hardening planning to be considered, but does not approve implementation. It keeps validator behavior changes, validator output changes, validator output contracts, metadata-level failure category fields, JSON Schema, fixture metadata rewrites, fixture additions, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
 
 See `docs/133-v0656-public-validator-behavior-hardening-readiness-review.md`.
+
+## v0.6.57 Public Validator Behavior Hardening Scope Planning
+
+v0.6.57 defines a documentation-only public validator behavior hardening scope after the v0.6.56 readiness review.
+
+It keeps hardening scope planning limited to documentation and future gates. It does not change validator behavior, add validator output, create validator output contracts, add metadata-level failure category fields, add JSON Schema, rewrite fixture metadata, add fixtures, run scanners, run Docker, enable runtime execution, inject credentials, authorize customer targets, authorize delivery, or make certification, legal, audit, compliance, or external-framework equivalence claims.
+
+See `docs/134-v0657-public-validator-behavior-hardening-scope-planning.md`.

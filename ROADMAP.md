@@ -1120,3 +1120,9 @@ Recommended next checkpoint: v0.6.56 Public Validator Behavior Hardening Readine
 v0.6.56 reviews readiness to plan validator behavior hardening without approving validator behavior implementation.
 
 Recommended next checkpoint: v0.6.57 Public Validator Behavior Hardening Scope Planning.
+
+## v0.6.57 Public Validator Behavior Hardening Scope Planning
+
+v0.6.57 defines a documentation-only scope for future validator behavior hardening without approving implementation.
+
+Recommended next checkpoint: v0.6.58 Public Validator Behavior Hardening Scope Review and Close-Readiness.

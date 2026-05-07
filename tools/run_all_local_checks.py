@@ -130,6 +130,7 @@ def main() -> int:
     run([sys.executable, "tools/test_v0654_public_validator_failure_category_mapping_review_close_readiness.py"])
     run([sys.executable, "tools/test_v0655_public_validator_negative_fixture_track_consolidation_review.py"])
     run([sys.executable, "tools/test_v0656_public_validator_behavior_hardening_readiness_review.py"])
+    run([sys.executable, "tools/test_v0657_public_validator_behavior_hardening_scope_planning.py"])
     print("All local checks passed.")
     return 0
 
