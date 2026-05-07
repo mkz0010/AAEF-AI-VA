@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.6.48 - Public validator negative fixture coverage hardening planning
+
+- Added a planning checkpoint for future public validator negative fixture coverage hardening after v0.6.47 close-readiness.
+- Planned expected blocker metadata, validator failure category alignment, fixture maintainability, positive control guardrails, publication hygiene guardrails, and Applied Implementation handback boundaries.
+- Kept validator behavior unchanged and preserved runtime, scanner, Docker, credential, customer-target, and delivery prohibitions.
+
+
+
 ## v0.6.47 - Public validator negative fixture coverage review and close-readiness
 
 - Added a close-readiness review for the v0.6.46 public-safe static negative fixture implementation candidate.

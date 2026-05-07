@@ -792,3 +792,11 @@ v0.6.47 reviews and closes the first public validator negative fixture implement
 It retains the public-safe static negative fixtures introduced in v0.6.46, confirms the expected 13 negative categories, preserves the positive control, and keeps the read-only harness boundary. It does not modify validator behavior, authorize runtime execution, run scanners, run Docker, inject credentials, authorize customer targets, authorize delivery, or make certification, legal, audit, compliance, or external-framework equivalence claims.
 
 See `docs/124-v0647-public-validator-negative-fixture-coverage-review-close-readiness.md`.
+
+## v0.6.48 Public Validator Negative Fixture Coverage Hardening Planning
+
+v0.6.48 plans future hardening for public validator negative fixture coverage after the first negative fixture track was closed in v0.6.47.
+
+It defines planning workstreams for expected blocker metadata, validator failure category alignment, fixture maintainability, positive control guardrails, publication hygiene guardrails, and Applied Implementation handback boundaries. It does not add new fixtures, rewrite fixtures, modify validator behavior, authorize runtime execution, run scanners, run Docker, inject credentials, authorize customer targets, authorize delivery, or make certification, legal, audit, compliance, or external-framework equivalence claims.
+
+See `docs/125-v0648-public-validator-negative-fixture-coverage-hardening-planning.md`.
