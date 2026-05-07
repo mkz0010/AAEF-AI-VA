@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.82 - Evidence-interface handback readiness planning
+
+- Added evidence-interface handback readiness planning after v0.6.81 selected it as the next Applied Evidence gap.
+- Planned a documentation-only readiness approach for deciding whether any public-safe evidence/interface-level lesson may later be considered for AAEF main handback.
+- Planned readiness questions, permitted handback themes, forbidden handback content, and future candidate acceptance checks.
+- Retained the public sample relationship-to-validator closeout, public sample five-questions clarity closeout, reviewer current-state summary closeout, public-safe sample baseline, public validator relationship, public negative fixture baseline, documentation-only mapping, documentation-only hardening scope, and non-execution/non-delivery boundaries.
+- Kept AAEF main handback preparation, AAEF main issue/PR/release/document drafting, public sample changes, public sample refinement, validator behavior changes, validator output changes, validator output contracts, metadata-level failure category fields, JSON Schema, fixture metadata rewrites, fixture additions, package generation, private review record generation, public sample promotion, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+
+
 ## v0.6.81 - Applied Evidence next gap selection after relationship closeout
 
 - Added an Applied Evidence next gap selection review after v0.6.80 closed the public sample relationship-to-validator candidate.
