@@ -952,3 +952,11 @@ v0.6.67 reviews the current Applied Evidence state after v0.6.66 selected Applie
 It inventories the sanitized public sample baseline, static/mock Applied Evidence history, reviewer walkthrough and AAEF five-questions mapping history, public validator relationship, public negative fixture baseline, documentation-only hardening scope, handback boundary, and candidate gaps for later prioritization. It keeps Applied Evidence implementation, new package generation, private review record generation, public sample promotion, public sample content refinement, validator behavior changes, validator output changes, validator output contracts, metadata-level failure category fields, JSON Schema, fixture metadata rewrites, fixture additions, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
 
 See `docs/144-v0667-applied-evidence-current-state-review.md`.
+
+## v0.6.68 Applied Evidence Gap Prioritization Review
+
+v0.6.68 prioritizes candidate Applied Evidence gaps after the v0.6.67 current-state review.
+
+It selects Applied Evidence reviewer current-state summary as the first gap to plan, identifies public sample five-questions clarity as a second-priority candidate, and keeps implementation, summary generation, package generation, private review record generation, public sample promotion, sanitized public sample content refinement, AAEF handback preparation, validator behavior changes, validator output changes, validator output contracts, metadata-level failure category fields, JSON Schema, fixture metadata rewrites, fixture additions, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+See `docs/145-v0668-applied-evidence-gap-prioritization-review.md`.

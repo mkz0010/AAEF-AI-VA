@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.68 - Applied Evidence gap prioritization review
+
+- Added an Applied Evidence gap prioritization review after the v0.6.67 current-state review.
+- Selected Applied Evidence reviewer current-state summary as the first gap to plan.
+- Identified public sample five-questions clarity as a second-priority candidate.
+- Retained the sanitized public sample baseline, public validator closeout state, public negative fixture baseline, documentation-only mapping, and documentation-only hardening scope.
+- Kept implementation, summary generation, package generation, private review record generation, public sample promotion, sanitized public sample content refinement, AAEF handback preparation, validator behavior changes, validator output changes, validator output contracts, metadata-level failure category fields, JSON Schema, fixture metadata rewrites, fixture additions, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+
+
 ## v0.6.67 - Applied Evidence current-state review
 
 - Added an Applied Evidence current-state review after the v0.6.66 next-direction intake.
