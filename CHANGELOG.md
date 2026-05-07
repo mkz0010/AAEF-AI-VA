@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.75 - Public sample five-questions clarity review and close-readiness
+
+- Added a close-readiness review for the v0.6.74 public sample five-questions clarity candidate.
+- Retained the clarity candidate as the current public sample five-questions reader aid.
+- Confirmed the clarity candidate preserves the reviewer reading path, five-questions clarity matrix, model-request-versus-authority boundary, static-sample-versus-runtime-execution boundary, validator relationship, public sample can/cannot statements, deferred gaps, and current public sample content.
+- Kept public sample refinement, public example text changes, new reviewer walkthrough creation, public sample relationship-to-validator review, package generation, private review record generation, public sample promotion, AAEF main handback preparation, validator behavior changes, validator output changes, validator output contracts, metadata-level failure category fields, JSON Schema, fixture metadata rewrites, fixture additions, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+
+
 ## v0.6.74 - Public sample five-questions clarity candidate
 
 - Added the public sample five-questions clarity candidate planned in v0.6.73.

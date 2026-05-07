@@ -1228,3 +1228,9 @@ Recommended next checkpoint: v0.6.74 Public Sample Five-Questions Clarity Candid
 v0.6.74 creates a narrow documentation-only public sample five-questions clarity candidate without changing the current public sample.
 
 Recommended next checkpoint: v0.6.75 Public Sample Five-Questions Clarity Review and Close-Readiness.
+
+## v0.6.75 Public Sample Five-Questions Clarity Review and Close-Readiness
+
+v0.6.75 reviews and closes the public sample five-questions clarity candidate from v0.6.74.
+
+Recommended next checkpoint: v0.6.76 Applied Evidence Next Gap Selection After Clarity Closeout.
