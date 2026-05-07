@@ -976,3 +976,11 @@ v0.6.70 creates the narrow documentation-only Applied Evidence reviewer current-
 It summarizes what Applied Evidence artifacts exist today, what is public-safe versus private/static history, how the sanitized public sample baseline should be read, how the AAEF five questions relate to current artifacts, what the public validator checks and does not check, what remains non-execution and non-delivery, and which gaps remain deferred. It does not refine public sample content, generate packages, create private review records, promote public samples, prepare AAEF main handback material, change validator behavior, change validator output, add validator output contracts, add metadata-level failure category fields, add JSON Schema, rewrite fixture metadata, add fixtures, run scanners, run Docker, enable runtime execution, inject credentials, authorize customer targets, or authorize delivery.
 
 See `docs/147-v0670-applied-evidence-reviewer-current-state-summary-candidate.md`.
+
+## v0.6.71 Applied Evidence Reviewer Current-State Summary Review and Close-Readiness
+
+v0.6.71 reviews the v0.6.70 Applied Evidence reviewer current-state summary candidate and records it as close-ready.
+
+It retains the summary candidate as the current reviewer orientation summary for the Applied Evidence track, preserving scope and non-goals, current artifact map, public-safe sample baseline orientation, AAEF five-questions orientation, public validator relationship, non-execution and non-delivery boundary, and deferred gap summary. It does not start public sample five-questions clarity work, refine public sample content, generate packages, create private review records, promote public samples, prepare AAEF main handback material, change validator behavior, change validator output, add validator output contracts, add metadata-level failure category fields, add JSON Schema, rewrite fixture metadata, add fixtures, run scanners, run Docker, enable runtime execution, inject credentials, authorize customer targets, or authorize delivery.
+
+See `docs/148-v0671-applied-evidence-reviewer-current-state-summary-review-close-readiness.md`.

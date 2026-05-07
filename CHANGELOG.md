@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.71 - Applied Evidence reviewer current-state summary review and close-readiness
+
+- Added a close-readiness review for the v0.6.70 Applied Evidence reviewer current-state summary candidate.
+- Retained the summary candidate as the current reviewer orientation summary for the Applied Evidence track.
+- Confirmed the summary preserves scope and non-goals, current artifact map, public-safe sample baseline orientation, AAEF five-questions orientation, public validator relationship, non-execution and non-delivery boundary, and deferred gap summary.
+- Kept public sample five-questions clarity work, public sample refinement, package generation, private review record generation, public sample promotion, AAEF main handback preparation, validator behavior changes, validator output changes, validator output contracts, metadata-level failure category fields, JSON Schema, fixture metadata rewrites, fixture additions, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+
+
 ## v0.6.70 - Applied Evidence reviewer current-state summary candidate
 
 - Added the Applied Evidence reviewer current-state summary candidate planned in v0.6.69.
