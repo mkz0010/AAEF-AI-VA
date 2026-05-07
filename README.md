@@ -1000,3 +1000,11 @@ v0.6.73 plans public sample five-questions clarity after v0.6.72 selected it as 
 It defines a documentation-only approach for helping reviewers read the existing public sample against the AAEF five questions while preserving the current sample content, reviewer current-state summary closeout, public validator relationship, public negative fixture baseline, documentation-only mapping, documentation-only hardening scope, and non-execution/non-delivery boundaries. It does not start public sample five-questions clarity implementation, refine public sample content, change public example text, create a new reviewer walkthrough, generate packages, create private review records, promote public samples, prepare AAEF main handback material, change validator behavior, change validator output, add validator output contracts, add metadata-level failure category fields, add JSON Schema, rewrite fixture metadata, add fixtures, run scanners, run Docker, enable runtime execution, inject credentials, authorize customer targets, or authorize delivery.
 
 See `docs/150-v0673-public-sample-five-questions-clarity-planning.md`.
+
+## v0.6.74 Public Sample Five-Questions Clarity Candidate
+
+v0.6.74 creates the narrow documentation-only public sample five-questions clarity candidate planned in v0.6.73.
+
+It explains how reviewers should read the existing public sample against the AAEF five questions, including recommended reading path, model-request-versus-authority boundary, static-sample-versus-runtime-execution boundary, validator relationship, public sample can/cannot statements, deferred gaps, and candidate acceptance checks. It preserves current public sample content and does not refine public sample content, change public example text, create a new reviewer walkthrough, generate packages, create private review records, promote public samples, prepare AAEF main handback material, change validator behavior, change validator output, add validator output contracts, add metadata-level failure category fields, add JSON Schema, rewrite fixture metadata, add fixtures, run scanners, run Docker, enable runtime execution, inject credentials, authorize customer targets, or authorize delivery.
+
+See `docs/151-v0674-public-sample-five-questions-clarity-candidate.md`.

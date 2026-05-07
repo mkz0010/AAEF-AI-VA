@@ -1222,3 +1222,9 @@ Recommended next checkpoint: v0.6.73 Public Sample Five-Questions Clarity Planni
 v0.6.73 plans public sample five-questions clarity as a documentation-only reader aid without changing the current public sample.
 
 Recommended next checkpoint: v0.6.74 Public Sample Five-Questions Clarity Candidate.
+
+## v0.6.74 Public Sample Five-Questions Clarity Candidate
+
+v0.6.74 creates a narrow documentation-only public sample five-questions clarity candidate without changing the current public sample.
+
+Recommended next checkpoint: v0.6.75 Public Sample Five-Questions Clarity Review and Close-Readiness.

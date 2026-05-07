@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.74 - Public sample five-questions clarity candidate
+
+- Added the public sample five-questions clarity candidate planned in v0.6.73.
+- Explained how reviewers should read the existing public sample against the AAEF five questions.
+- Added a recommended reviewer reading path, five-questions clarity matrix, model-request-versus-authority boundary, static-sample-versus-runtime-execution boundary, validator relationship, public sample can/cannot statements, deferred gaps, and candidate acceptance checks.
+- Retained current public sample content, reviewer current-state summary closeout, public validator relationship, public negative fixture baseline, documentation-only mapping, documentation-only hardening scope, and non-execution/non-delivery boundaries.
+- Kept public sample refinement, public example text changes, new reviewer walkthrough creation, package generation, private review record generation, public sample promotion, AAEF main handback preparation, validator behavior changes, validator output changes, validator output contracts, metadata-level failure category fields, JSON Schema, fixture metadata rewrites, fixture additions, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+
+
 ## v0.6.73 - Public sample five-questions clarity planning
 
 - Added public sample five-questions clarity planning after v0.6.72 selected it as the next Applied Evidence gap.
