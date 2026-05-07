@@ -848,3 +848,11 @@ v0.6.54 reviews the v0.6.53 documentation-only public validator failure category
 It retains the documentation-only mapping candidate, re-runs the v0.6.53 mapping candidate test, and keeps validator output changes, metadata-level mapping fields, JSON Schema, fixture metadata rewrites, fixture additions, validator behavior changes, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
 
 See `docs/131-v0654-public-validator-failure-category-mapping-review-close-readiness.md`.
+
+## v0.6.55 Public Validator Negative Fixture Track Consolidation Review
+
+v0.6.55 consolidates the public validator negative fixture work from v0.6.44 through v0.6.54.
+
+It records the current public-safe static negative fixture set, metadata contract baseline, and documentation-only failure category mapping as retained baselines; confirms the relevant sub-tracks are closed; and keeps fixture additions, fixture rewrites, metadata-level failure category fields, JSON Schema, validator output changes, validator behavior changes, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+See `docs/132-v0655-public-validator-negative-fixture-track-consolidation-review.md`.
