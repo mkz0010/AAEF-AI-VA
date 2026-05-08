@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.90 - Narrow public-safe AAEF main handback drafting planning
+
+- Added narrow public-safe AAEF main handback drafting planning after v0.6.89 selected it as the next checkpoint.
+- Planned target audience, target artifact shape, permitted wording families, forbidden wording families, source boundaries, and review gates for a future internal drafting candidate.
+- Retained `public_safe_evidence_interface_boundary_lessons` as the eligible lesson family for drafting planning.
+- Preserved AAEF five questions, model-output-is-not-authority, validator-output-is-not-authority, authority boundaries, non-execution evidence, static public sample boundaries, reviewer traceability, public sample relationship-to-validator closeout, public sample five-questions clarity closeout, public-safe sample baseline, public validator relationship, public negative fixture baseline, documentation-only mapping, and non-execution/non-delivery boundaries.
+- Kept AAEF main handback preparation, AAEF main issue/PR/release/document drafting, AAEF main handback text, handback package creation, handback draft creation, handback drafting candidate creation, public sample changes, public sample refinement, validator behavior changes, validator output changes, validator output contracts, metadata-level failure category fields, JSON Schema, fixture metadata rewrites, fixture additions, package generation, private review record generation, public sample promotion, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+
+
 ## v0.6.89 - Applied Evidence handback drafting decision
 
 - Added an Applied Evidence handback drafting decision after v0.6.88 closed the internal narrow public-safe AAEF main handback preparation candidate.

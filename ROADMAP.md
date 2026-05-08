@@ -1312,3 +1312,9 @@ Recommended next checkpoint: v0.6.89 Applied Evidence Handback Drafting Decision
 v0.6.89 selects narrow public-safe AAEF main handback drafting planning as the next checkpoint.
 
 Recommended next checkpoint: v0.6.90 Narrow Public-Safe AAEF Main Handback Drafting Planning.
+
+## v0.6.90 Narrow Public-Safe AAEF Main Handback Drafting Planning
+
+v0.6.90 plans controls for a future narrow internal public-safe AAEF main handback drafting candidate.
+
+Recommended next checkpoint: v0.6.91 Narrow Public-Safe AAEF Main Handback Drafting Candidate.
