@@ -1282,3 +1282,9 @@ Recommended next checkpoint: v0.6.84 Evidence-Interface Handback Readiness Revie
 v0.6.84 reviews and closes the evidence-interface handback readiness candidate from v0.6.83.
 
 Recommended next checkpoint: v0.6.85 Applied Evidence Handback Preparation Decision.
+
+## v0.6.85 Applied Evidence Handback Preparation Decision
+
+v0.6.85 selects narrow public-safe AAEF main handback preparation planning as the next checkpoint.
+
+Recommended next checkpoint: v0.6.86 Narrow Public-Safe AAEF Main Handback Preparation Planning.

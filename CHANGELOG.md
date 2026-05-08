@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.85 - Applied Evidence handback preparation decision
+
+- Added an Applied Evidence handback preparation decision after v0.6.84 closed the evidence-interface handback readiness candidate.
+- Selected narrow public-safe AAEF main handback preparation planning as the next checkpoint.
+- Retained `public_safe_evidence_interface_boundary_lessons` as the eligible lesson family for preparation planning.
+- Preserved the AAEF five questions, model-output-is-not-authority, validator-output-is-not-authority, authority boundaries, non-execution evidence, static public sample boundaries, reviewer traceability, public sample relationship-to-validator closeout, public sample five-questions clarity closeout, public-safe sample baseline, public validator relationship, public negative fixture baseline, documentation-only mapping, and non-execution/non-delivery boundaries.
+- Kept AAEF main handback preparation, AAEF main issue/PR/release/document drafting, AAEF main handback text, handback package creation, public sample changes, public sample refinement, validator behavior changes, validator output changes, validator output contracts, metadata-level failure category fields, JSON Schema, fixture metadata rewrites, fixture additions, package generation, private review record generation, public sample promotion, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+
+
 ## v0.6.84 - Evidence-interface handback readiness review and close-readiness
 
 - Added a close-readiness review for the v0.6.83 evidence-interface handback readiness candidate.
