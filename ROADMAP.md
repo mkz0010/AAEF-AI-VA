@@ -1342,3 +1342,9 @@ Recommended next checkpoint: v0.6.94 Narrow Public-Safe AAEF Main Handback Mater
 v0.6.94 plans controls for a future narrow internal public-safe AAEF main handback material preparation candidate and records the two-layer public/private boundary.
 
 Recommended next checkpoint: v0.6.95 Narrow Public-Safe AAEF Main Handback Material Preparation Candidate.
+
+## v0.6.95 Narrow Public-Safe AAEF Main Handback Material Preparation Candidate
+
+v0.6.95 creates an internal material preparation candidate for a future narrow public-safe AAEF main handback material review.
+
+Recommended next checkpoint: v0.6.96 Narrow Public-Safe AAEF Main Handback Material Preparation Candidate Review and Close-Readiness.

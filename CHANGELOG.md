@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.6.95 - Narrow public-safe AAEF main handback material preparation candidate
+
+- Added the internal narrow public-safe AAEF main handback material preparation candidate planned in v0.6.94.
+- Recorded a reviewer aid and internal material preparation candidate for later close-readiness review.
+- Preserved the two-layer public/private publication boundary: public repository as trust proof/evaluation package, paid or NDA package as implementation/adoption package.
+- Retained `public_safe_evidence_interface_boundary_lessons` as the eligible lesson family and kept AAEF main handback limited to evidence/interface-level lessons.
+- Excluded implementation adoption know-how, enterprise runbooks, customer templates, detailed PoC templates, commercial Tool Gateway detail, evidence retention implementation detail, pricing/contracts/responsibility materials, delivery authorization material, credentials, scanner output, private artifacts, and patent-sensitive detail.
+- Kept AAEF main handback material preparation, AAEF main issue/PR/release/document drafting, AAEF main handback text, handback package creation, handback draft creation, final handback text creation, public sample changes, validator behavior changes, validator output changes, metadata/schema/fixture changes, package generation, private review record generation, public sample promotion, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+
+
 ## v0.6.94 - Narrow public-safe AAEF main handback material preparation planning
 
 - Added narrow public-safe AAEF main handback material preparation planning after v0.6.93 selected it as the next checkpoint.
