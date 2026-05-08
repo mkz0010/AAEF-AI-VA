@@ -1288,3 +1288,9 @@ Recommended next checkpoint: v0.6.85 Applied Evidence Handback Preparation Decis
 v0.6.85 selects narrow public-safe AAEF main handback preparation planning as the next checkpoint.
 
 Recommended next checkpoint: v0.6.86 Narrow Public-Safe AAEF Main Handback Preparation Planning.
+
+## v0.6.86 Narrow Public-Safe AAEF Main Handback Preparation Planning
+
+v0.6.86 plans controls for a future narrow public-safe AAEF main handback preparation candidate.
+
+Recommended next checkpoint: v0.6.87 Narrow Public-Safe AAEF Main Handback Preparation Candidate.
