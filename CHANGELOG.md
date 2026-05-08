@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.93 - Applied Evidence handback material preparation decision
+
+- Added an Applied Evidence handback material preparation decision after v0.6.92 closed the internal narrow public-safe AAEF main handback drafting candidate.
+- Selected narrow public-safe AAEF main handback material preparation planning as the next checkpoint.
+- Retained the close-ready internal drafting candidate and `public_safe_evidence_interface_boundary_lessons` as the eligible lesson family for material preparation planning.
+- Preserved AAEF five questions, model-output-is-not-authority, validator-output-is-not-authority, authority boundaries, non-execution evidence, static public sample boundaries, reviewer traceability, public sample relationship-to-validator closeout, public sample five-questions clarity closeout, public-safe sample baseline, public validator relationship, public negative fixture baseline, documentation-only mapping, and non-execution/non-delivery boundaries.
+- Kept AAEF main handback material preparation, AAEF main issue/PR/release/document drafting, AAEF main handback text, handback package creation, handback draft creation, final handback text creation, public sample changes, public sample refinement, validator behavior changes, validator output changes, validator output contracts, metadata-level failure category fields, JSON Schema, fixture metadata rewrites, fixture additions, package generation, private review record generation, public sample promotion, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+
+
 ## v0.6.92 - Narrow public-safe AAEF main handback drafting candidate review and close-readiness
 
 - Added a close-readiness review for the v0.6.91 internal narrow public-safe AAEF main handback drafting candidate.
