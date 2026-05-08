@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.88 - Narrow public-safe AAEF main handback preparation review and close-readiness
+
+- Added a close-readiness review for the v0.6.87 internal narrow public-safe AAEF main handback preparation candidate.
+- Retained the internal preparation candidate and `public_safe_evidence_interface_boundary_lessons` as the eligible lesson family for a later, separate handback drafting decision.
+- Confirmed the candidate preparation packet, allowed lesson family, public-safe filters, internal-only review gates, AAEF five-questions alignment, model-output-is-not-authority, validator-output-is-not-authority, non-execution evidence, static public sample boundaries, and reviewer traceability are close-ready.
+- Preserved public sample relationship-to-validator closeout, public sample five-questions clarity closeout, public-safe sample baseline, public validator relationship, public negative fixture baseline, documentation-only mapping, and non-execution/non-delivery boundaries.
+- Kept AAEF main handback preparation, AAEF main issue/PR/release/document drafting, AAEF main handback text, handback package creation, handback draft creation, public sample changes, public sample refinement, validator behavior changes, validator output changes, validator output contracts, metadata-level failure category fields, JSON Schema, fixture metadata rewrites, fixture additions, package generation, private review record generation, public sample promotion, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+
+
 ## v0.6.87 - Narrow public-safe AAEF main handback preparation candidate
 
 - Added the internal narrow public-safe AAEF main handback preparation candidate planned in v0.6.86.

@@ -1300,3 +1300,9 @@ Recommended next checkpoint: v0.6.87 Narrow Public-Safe AAEF Main Handback Prepa
 v0.6.87 creates an internal preparation candidate for a future narrow public-safe AAEF main handback preparation review.
 
 Recommended next checkpoint: v0.6.88 Narrow Public-Safe AAEF Main Handback Preparation Review and Close-Readiness.
+
+## v0.6.88 Narrow Public-Safe AAEF Main Handback Preparation Review and Close-Readiness
+
+v0.6.88 reviews and closes the internal narrow public-safe AAEF main handback preparation candidate from v0.6.87.
+
+Recommended next checkpoint: v0.6.89 Applied Evidence Handback Drafting Decision.
