@@ -1324,3 +1324,9 @@ Recommended next checkpoint: v0.6.91 Narrow Public-Safe AAEF Main Handback Draft
 v0.6.91 creates an internal drafting candidate for a future narrow public-safe AAEF main handback drafting review.
 
 Recommended next checkpoint: v0.6.92 Narrow Public-Safe AAEF Main Handback Drafting Candidate Review and Close-Readiness.
+
+## v0.6.92 Narrow Public-Safe AAEF Main Handback Drafting Candidate Review and Close-Readiness
+
+v0.6.92 reviews and closes the internal narrow public-safe AAEF main handback drafting candidate from v0.6.91.
+
+Recommended next checkpoint: v0.6.93 Applied Evidence Handback Material Preparation Decision.
