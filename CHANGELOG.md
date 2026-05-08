@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.96 - Narrow public-safe AAEF main handback material preparation candidate review and close-readiness
+
+- Added a close-readiness review for the v0.6.95 internal narrow public-safe AAEF main handback material preparation candidate.
+- Retained the internal material preparation candidate, the two-layer public/private boundary, public repository as trust proof/evaluation package, paid or NDA package as implementation/adoption package, and `public_safe_evidence_interface_boundary_lessons` as the eligible lesson family.
+- Confirmed the internal material preparation candidate packet, two-layer boundary, source boundaries, review gates, AAEF five-questions alignment, model-output-is-not-authority, validator-output-is-not-authority, non-execution evidence, static public sample boundaries, and reviewer traceability are close-ready.
+- Excluded implementation adoption know-how, enterprise runbooks, customer templates, detailed PoC templates, commercial Tool Gateway detail, evidence retention implementation detail, pricing/contracts/responsibility materials, delivery authorization material, credentials, scanner output, private artifacts, and patent-sensitive detail.
+- Kept AAEF main handback material preparation, AAEF main issue/PR/release/document drafting, AAEF main handback text, handback package creation, handback draft creation, final handback text creation, public sample changes, validator behavior changes, validator output changes, metadata/schema/fixture changes, package generation, private review record generation, public sample promotion, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+
+
 ## v0.6.95 - Narrow public-safe AAEF main handback material preparation candidate
 
 - Added the internal narrow public-safe AAEF main handback material preparation candidate planned in v0.6.94.
