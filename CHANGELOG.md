@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.6.94 - Narrow public-safe AAEF main handback material preparation planning
+
+- Added narrow public-safe AAEF main handback material preparation planning after v0.6.93 selected it as the next checkpoint.
+- Incorporated the two-layer public/private publication boundary: public repository as trust proof/evaluation package, paid or NDA package as implementation/adoption package.
+- Planned target material shape, allowed sources, forbidden sources, public-safe wording families, two-layer boundary gates, commercial/adoption know-how gates, and review gates for a future internal material preparation candidate.
+- Retained `public_safe_evidence_interface_boundary_lessons` as the eligible lesson family.
+- Preserved AAEF five questions, model-output-is-not-authority, validator-output-is-not-authority, authority boundaries, non-execution evidence, static public sample boundaries, reviewer traceability, public sample baseline, public validator relationship, public negative fixture baseline, documentation-only mapping, and non-execution/non-delivery boundaries.
+- Kept AAEF main handback material preparation, AAEF main issue/PR/release/document drafting, AAEF main handback text, handback package creation, handback draft creation, final handback text creation, material preparation candidate creation, public sample changes, validator behavior changes, validator output changes, metadata/schema/fixture changes, package generation, private review record generation, public sample promotion, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+
+
 ## v0.6.93 - Applied Evidence handback material preparation decision
 
 - Added an Applied Evidence handback material preparation decision after v0.6.92 closed the internal narrow public-safe AAEF main handback drafting candidate.

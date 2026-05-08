@@ -1336,3 +1336,9 @@ Recommended next checkpoint: v0.6.93 Applied Evidence Handback Material Preparat
 v0.6.93 selects narrow public-safe AAEF main handback material preparation planning as the next checkpoint.
 
 Recommended next checkpoint: v0.6.94 Narrow Public-Safe AAEF Main Handback Material Preparation Planning.
+
+## v0.6.94 Narrow Public-Safe AAEF Main Handback Material Preparation Planning
+
+v0.6.94 plans controls for a future narrow internal public-safe AAEF main handback material preparation candidate and records the two-layer public/private boundary.
+
+Recommended next checkpoint: v0.6.95 Narrow Public-Safe AAEF Main Handback Material Preparation Candidate.
