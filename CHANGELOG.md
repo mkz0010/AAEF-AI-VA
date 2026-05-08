@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.6.97 - Applied Evidence handback material drafting or submission decision
+
+- Added an Applied Evidence handback material drafting or submission decision after v0.6.96 closed the internal narrow public-safe AAEF main handback material preparation candidate.
+- Selected narrow public-safe AAEF main handback text drafting planning as the next checkpoint.
+- Explicitly did not select direct AAEF main submission, direct AAEF main issue creation, direct AAEF main PR creation, release note drafting, document-change drafting, or handback package creation.
+- Retained the close-ready internal material preparation candidate, the two-layer public/private boundary, public repository as trust proof/evaluation package, paid or NDA package as implementation/adoption package, and `public_safe_evidence_interface_boundary_lessons` as the eligible lesson family.
+- Kept AAEF main handback limited to evidence/interface-level lessons and excluded implementation adoption know-how, enterprise runbooks, customer templates, detailed PoC templates, commercial Tool Gateway detail, evidence retention implementation detail, pricing/contracts/responsibility materials, delivery authorization material, credentials, scanner output, private artifacts, and patent-sensitive detail.
+- Kept AAEF main handback material preparation, AAEF main issue/PR/release/document drafting, AAEF main handback text, submittable text, handback package creation, handback draft creation, final handback text creation, public sample changes, validator behavior changes, validator output changes, metadata/schema/fixture changes, package generation, private review record generation, public sample promotion, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+
+
 ## v0.6.96 - Narrow public-safe AAEF main handback material preparation candidate review and close-readiness
 
 - Added a close-readiness review for the v0.6.95 internal narrow public-safe AAEF main handback material preparation candidate.

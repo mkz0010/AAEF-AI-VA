@@ -1354,3 +1354,9 @@ Recommended next checkpoint: v0.6.96 Narrow Public-Safe AAEF Main Handback Mater
 v0.6.96 reviews and closes the internal narrow public-safe AAEF main handback material preparation candidate from v0.6.95.
 
 Recommended next checkpoint: v0.6.97 Applied Evidence Handback Material Drafting or Submission Decision.
+
+## v0.6.97 Applied Evidence Handback Material Drafting or Submission Decision
+
+v0.6.97 selects narrow public-safe AAEF main handback text drafting planning as the next checkpoint and explicitly avoids direct AAEF main submission.
+
+Recommended next checkpoint: v0.6.98 Narrow Public-Safe AAEF Main Handback Text Drafting Planning.
