@@ -1276,3 +1276,9 @@ Recommended next checkpoint: v0.6.83 Evidence-Interface Handback Readiness Candi
 v0.6.83 creates a documentation-only evidence-interface handback readiness candidate without preparing AAEF main handback material.
 
 Recommended next checkpoint: v0.6.84 Evidence-Interface Handback Readiness Review and Close-Readiness.
+
+## v0.6.84 Evidence-Interface Handback Readiness Review and Close-Readiness
+
+v0.6.84 reviews and closes the evidence-interface handback readiness candidate from v0.6.83.
+
+Recommended next checkpoint: v0.6.85 Applied Evidence Handback Preparation Decision.
