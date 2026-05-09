@@ -1402,3 +1402,9 @@ Recommended next checkpoint: v0.6.104 Narrow Public-Safe AAEF Main Handback Fina
 v0.6.104 reviews and closes the internal narrow public-safe AAEF main handback final-text preparation candidate from v0.6.103.
 
 Recommended next checkpoint: v0.6.105 Applied Evidence Handback Submittable Text or Pause Decision.
+
+## v0.6.105 Applied Evidence Handback Submittable Text or Pause Decision
+
+v0.6.105 selects narrow public-safe AAEF main handback submittable text preparation planning as the next checkpoint and explicitly avoids direct AAEF main submission or direct issue/PR creation.
+
+Recommended next checkpoint: v0.6.106 Narrow Public-Safe AAEF Main Handback Submittable Text Preparation Planning.
