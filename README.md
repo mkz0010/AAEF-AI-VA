@@ -1288,3 +1288,11 @@ v0.6.110 plans the AAEF main handback submission workflow boundary after v0.6.10
 It plans workflow options, workflow authority boundaries, required gates, allowed source material, forbidden source material, exact-text boundaries, and non-submission controls. It explicitly does not select or execute an AAEF main workflow, open an AAEF main issue, open an AAEF main pull request, prepare exact issue text, prepare exact PR text, prepare release notes, prepare document changes, create a handback package, or submit anything to AAEF main. It preserves `public_safe_evidence_interface_boundary_lessons`, the two-layer public/private boundary, and evidence/interface-level scope. It confirms only the human maintainer may execute any future AAEF main workflow, and AI output remains workflow planning support, not execution authority.
 
 See `docs/186-v06110-narrow-public-safe-aaef-main-handback-submission-workflow-planning.md`.
+
+## v0.6.111 Narrow Public-Safe AAEF Main Handback Workflow Selection or Exact Text Preparation Decision
+
+v0.6.111 selects the AAEF main issue workflow as the lower-risk public handback workflow to plan next after v0.6.110 submission workflow planning.
+
+It selects `narrow_public_safe_aaef_main_handback_exact_issue_text_preparation_planning` as the next checkpoint. It does not prepare exact issue text, prepare exact PR text, open an AAEF main issue, open an AAEF main pull request, submit anything to AAEF main, create a handback package, or create a handback draft. It preserves `public_safe_evidence_interface_boundary_lessons`, the two-layer public/private boundary, evidence/interface-level scope, AAEF five-questions alignment, model-output-is-not-authority, validator-output-is-not-authority, and non-execution evidence. Only the human maintainer may execute any future AAEF main workflow, and AI output remains workflow planning support, not execution authority.
+
+See `docs/187-v06111-narrow-public-safe-aaef-main-handback-workflow-selection-or-exact-text-preparation-decision.md`.

@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.6.111 - Narrow public-safe AAEF main handback workflow selection or exact text preparation decision
+
+- Added a workflow selection or exact text preparation decision after v0.6.110 submission workflow planning.
+- Selected the AAEF main issue workflow as the lower-risk public handback workflow to plan next.
+- Selected narrow public-safe AAEF main handback exact issue text preparation planning as the next checkpoint.
+- Confirmed exact issue text, exact PR text, AAEF main issue opening, AAEF main PR opening, actual submission, release note drafting, document-change drafting, handback package creation, and handback draft creation remain out of scope.
+- Preserved `public_safe_evidence_interface_boundary_lessons`, the two-layer public/private boundary, evidence/interface-level scope, AAEF five-questions alignment, model-output-is-not-authority, validator-output-is-not-authority, non-execution evidence, and static public sample boundaries.
+- Kept public sample changes, validator behavior changes, validator output changes, metadata/schema/fixture changes, package generation, private review record generation, public sample promotion, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+
+
 ## v0.6.110 - Narrow public-safe AAEF main handback submission workflow planning
 
 - Added narrow public-safe AAEF main handback submission workflow planning after v0.6.109 selected it as the next checkpoint.

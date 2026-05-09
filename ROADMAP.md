@@ -1438,3 +1438,9 @@ Recommended next checkpoint: v0.6.110 Narrow Public-Safe AAEF Main Handback Subm
 v0.6.110 plans the AAEF main handback submission workflow boundary without selecting or executing any AAEF main workflow.
 
 Recommended next checkpoint: v0.6.111 Narrow Public-Safe AAEF Main Handback Workflow Selection or Exact Text Preparation Decision.
+
+## v0.6.111 Narrow Public-Safe AAEF Main Handback Workflow Selection or Exact Text Preparation Decision
+
+v0.6.111 selects the AAEF main issue workflow for planning and selects exact issue text preparation planning as the next checkpoint.
+
+Recommended next checkpoint: v0.6.112 Narrow Public-Safe AAEF Main Handback Exact Issue Text Preparation Planning.
