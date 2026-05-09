@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.6.102 - Narrow public-safe AAEF main handback final text preparation planning
+
+- Added narrow public-safe AAEF main handback final text preparation planning after v0.6.101 selected it as the next checkpoint.
+- Planned final-text preparation controls, source boundaries, review gates, non-submission boundaries, final-text candidate boundaries, and AAEF main workflow boundaries.
+- Retained `public_safe_evidence_interface_boundary_lessons` as the eligible lesson family and kept future final-text candidate work limited to evidence/interface-level lessons.
+- Preserved the two-layer public/private boundary: public repository as trust proof/evaluation package and paid or NDA package as implementation/adoption package.
+- Confirmed future final-text candidates must remain internal and non-submittable unless a separate checkpoint explicitly authorizes otherwise.
+- Kept final AAEF main handback text writing, final text creation, submittable text creation, AAEF main issue/PR/release/document drafting, handback package creation, handback draft creation, public sample changes, validator behavior changes, validator output changes, metadata/schema/fixture changes, package generation, private review record generation, public sample promotion, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+
+
 ## v0.6.101 - Applied Evidence handback text submission or pause decision
 
 - Added an Applied Evidence handback text submission or pause decision after v0.6.100 closed the internal narrow public-safe AAEF main handback text drafting candidate.
