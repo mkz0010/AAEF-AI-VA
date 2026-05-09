@@ -1304,3 +1304,11 @@ v0.6.112 plans exact AAEF main issue text preparation after v0.6.111 selected th
 It plans issue title/body/labels/milestone handling, allowed and forbidden source material, required section families, forbidden wording, human approval, and non-submission gates. It does not prepare exact issue text, prepare exact PR text, open an AAEF main issue, open an AAEF main pull request, submit anything to AAEF main, create a handback package, or create a handback draft. It preserves `public_safe_evidence_interface_boundary_lessons`, the two-layer public/private boundary, evidence/interface-level scope, AAEF five-questions alignment, model-output-is-not-authority, validator-output-is-not-authority, and non-execution evidence. Only the human maintainer may open any future AAEF main issue, and AI output remains planning support, not execution authority.
 
 See `docs/188-v06112-narrow-public-safe-aaef-main-handback-exact-issue-text-preparation-planning.md`.
+
+## v0.6.113 Narrow Public-Safe AAEF Main Handback Exact Issue Text Preparation Candidate
+
+v0.6.113 prepares an internal exact AAEF main issue text candidate after v0.6.112 planned exact issue text preparation.
+
+It creates an internal issue title/body/label-note/milestone-note candidate while preserving non-submission controls. It does not open an AAEF main issue, open an AAEF main pull request, submit anything to AAEF main, prepare exact PR text, create a handback package, or create a handback draft. It preserves `public_safe_evidence_interface_boundary_lessons`, the two-layer public/private boundary, evidence/interface-level scope, AAEF five-questions alignment, model-output-is-not-authority, validator-output-is-not-authority, and non-execution evidence. Only the human maintainer may open any future AAEF main issue, and AI output remains candidate support, not execution authority.
+
+See `docs/189-v06113-narrow-public-safe-aaef-main-handback-exact-issue-text-preparation-candidate.md`.
