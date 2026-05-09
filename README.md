@@ -1344,3 +1344,11 @@ v0.6.117 reviews the human-maintainer-only submission checklist prepared in v0.6
 The checklist remains internal only and not submission-ready. This checkpoint does not open an AAEF main issue, open an AAEF main pull request, submit anything to AAEF main, generate an issue command, create an issue URL, create a handback package, or create a handback draft. It preserves `public_safe_evidence_interface_boundary_lessons`, the two-layer public/private boundary, evidence/interface-level scope, model-output-is-not-authority, validator-output-is-not-authority, and non-execution evidence.
 
 See `docs/193-v06117-narrow-public-safe-aaef-main-handback-human-submission-checklist-review-close-readiness.md`.
+
+## v0.6.118 Narrow Public-Safe AAEF Main Handback Human-Maintainer Final Submission Decision or Pause
+
+v0.6.118 makes the safe final submission-or-pause decision after v0.6.117 marked the human-maintainer-only checklist close-ready.
+
+It selects pause and keep-internal rather than final submission. The close-ready exact issue text candidate and close-ready checklist remain internal reviewer aids only. It does not open an AAEF main issue, open an AAEF main pull request, submit anything to AAEF main, generate an issue command, create an issue URL, create a handback package, or create a handback draft. It preserves `public_safe_evidence_interface_boundary_lessons`, the two-layer public/private boundary, evidence/interface-level scope, model-output-is-not-authority, validator-output-is-not-authority, and non-execution evidence.
+
+See `docs/194-v06118-narrow-public-safe-aaef-main-handback-human-maintainer-final-submission-decision-or-pause.md`.
