@@ -1432,3 +1432,9 @@ Recommended next checkpoint: v0.6.109 Applied Evidence Handback Submission or Pa
 v0.6.109 selects narrow public-safe AAEF main handback submission workflow planning as the next checkpoint and explicitly avoids direct AAEF main submission or direct issue/PR creation.
 
 Recommended next checkpoint: v0.6.110 Narrow Public-Safe AAEF Main Handback Submission Workflow Planning.
+
+## v0.6.110 Narrow Public-Safe AAEF Main Handback Submission Workflow Planning
+
+v0.6.110 plans the AAEF main handback submission workflow boundary without selecting or executing any AAEF main workflow.
+
+Recommended next checkpoint: v0.6.111 Narrow Public-Safe AAEF Main Handback Workflow Selection or Exact Text Preparation Decision.
