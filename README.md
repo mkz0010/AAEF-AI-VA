@@ -1368,3 +1368,11 @@ v0.6.120 adopts a risk-tiered checkpoint granularity policy for future AAEF-AI-V
 It intentionally completes this low-risk operational policy decision in one checkpoint as the first application of the new policy. The previous planning -> candidate -> review -> close-readiness -> decision pattern is no longer the default, but remains available for critical-risk work such as runtime/scanner/Docker/credential/customer/delivery or actual external submission. Existing checkpoints, tags, and release history are not retroactively rewritten.
 
 See `docs/196-v06120-checkpoint-granularity-policy-decision-record.md`.
+
+## v0.6.121 Next-Direction Selection Using Risk-Tiered Granularity
+
+v0.6.121 applies the v0.6.120 risk-tiered checkpoint granularity policy by selecting README current/latest baseline clarity as the next work item.
+
+The selected work item is classified as Medium risk because it is public-facing documentation-only work. It should use two checkpoints: candidate preparation, then review and decision. This v0.6.121 direction-selection record is itself a Low-risk decision completed in one checkpoint. It does not update README wording, reopen the AAEF main handback sequence, open an AAEF main issue, generate an issue command, or authorize runtime/scanner/Docker/credential/customer/delivery activity.
+
+See `docs/197-v06121-next-direction-selection-using-risk-tiered-granularity.md`.

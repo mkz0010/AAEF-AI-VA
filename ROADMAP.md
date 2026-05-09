@@ -1498,3 +1498,9 @@ No next AAEF main handback checkpoint is selected for this sequence unless the h
 v0.6.120 adopts risk-tiered checkpoint granularity and demonstrates the new policy by closing a low-risk decision in one checkpoint.
 
 Likely next checkpoint: v0.6.121 Next-Direction Selection Using Risk-Tiered Granularity.
+
+## v0.6.121 Next-Direction Selection Using Risk-Tiered Granularity
+
+v0.6.121 selects README current/latest baseline clarity as the next Medium-risk work item.
+
+Next checkpoint: v0.6.122 README Current/Latest Baseline Clarity Candidate.
