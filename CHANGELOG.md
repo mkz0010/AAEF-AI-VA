@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.6.99 - Narrow public-safe AAEF main handback text drafting candidate
+
+- Added the internal narrow public-safe AAEF main handback text drafting candidate planned in v0.6.98.
+- Recorded internal candidate wording and a reviewer aid for later close-readiness review.
+- Preserved non-submission boundaries: candidate text is not final, not submittable, not AAEF main issue text, not AAEF main pull request text, not release-note text, and not document-change text.
+- Retained `public_safe_evidence_interface_boundary_lessons` as the eligible lesson family, kept AAEF main handback limited to evidence/interface-level lessons, and preserved the two-layer public/private boundary.
+- Excluded implementation adoption know-how, enterprise runbooks, customer templates, detailed PoC templates, commercial Tool Gateway detail, evidence retention implementation detail, pricing/contracts/responsibility materials, delivery authorization material, credentials, scanner output, private artifacts, patent-sensitive detail, paid/NDA adoption package material, production-readiness claims, diagnostic-completeness claims, certification claims, legal claims, audit claims, compliance claims, and external-framework equivalence claims.
+- Kept final AAEF main handback text, submittable text, AAEF main issue/PR/release/document drafting, handback package creation, handback draft creation, public sample changes, validator behavior changes, validator output changes, metadata/schema/fixture changes, package generation, private review record generation, public sample promotion, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+
+
 ## v0.6.98 - Narrow public-safe AAEF main handback text drafting planning
 
 - Added narrow public-safe AAEF main handback text drafting planning after v0.6.97 selected it as the next checkpoint.

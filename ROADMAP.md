@@ -1366,3 +1366,9 @@ Recommended next checkpoint: v0.6.98 Narrow Public-Safe AAEF Main Handback Text 
 v0.6.98 plans controls for a future narrow internal public-safe AAEF main handback text drafting candidate.
 
 Recommended next checkpoint: v0.6.99 Narrow Public-Safe AAEF Main Handback Text Drafting Candidate.
+
+## v0.6.99 Narrow Public-Safe AAEF Main Handback Text Drafting Candidate
+
+v0.6.99 creates an internal text drafting candidate for future narrow public-safe AAEF main handback text review.
+
+Recommended next checkpoint: v0.6.100 Narrow Public-Safe AAEF Main Handback Text Drafting Candidate Review and Close-Readiness.
