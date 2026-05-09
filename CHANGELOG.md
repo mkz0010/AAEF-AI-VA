@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.6.109 - Applied Evidence handback submission or pause decision
+
+- Added an Applied Evidence handback submission or pause decision after v0.6.108 closed the internal narrow public-safe AAEF main handback submittable text preparation candidate.
+- Selected narrow public-safe AAEF main handback submission workflow planning as the next checkpoint.
+- Explicitly did not select pause, direct AAEF main submission, direct AAEF main issue creation, direct AAEF main PR creation, exact issue text preparation, exact PR text preparation, release note drafting, document-change drafting, handback package creation, or handback sequence closeout now.
+- Retained the v0.6.108 close-ready internal candidate as a reviewer aid only and confirmed it remains internal only, not submitted, not opened as an AAEF main issue, not opened as an AAEF main pull request, not release-note text, not document-change text, and not a handback package.
+- Preserved `public_safe_evidence_interface_boundary_lessons`, the two-layer public/private boundary, evidence/interface-level scope, AAEF five-questions alignment, model-output-is-not-authority, validator-output-is-not-authority, non-execution evidence, and static public sample boundaries.
+- Kept actual submission, AAEF main issue/PR/release/document drafting, handback package creation, handback draft creation, public sample changes, validator behavior changes, validator output changes, metadata/schema/fixture changes, package generation, private review record generation, public sample promotion, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+
+
 ## v0.6.108 - Narrow public-safe AAEF main handback submittable text preparation candidate review and close-readiness
 
 - Added a close-readiness review for the v0.6.107 internal narrow public-safe AAEF main handback submittable text preparation candidate.
