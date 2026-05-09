@@ -1296,3 +1296,11 @@ v0.6.111 selects the AAEF main issue workflow as the lower-risk public handback 
 It selects `narrow_public_safe_aaef_main_handback_exact_issue_text_preparation_planning` as the next checkpoint. It does not prepare exact issue text, prepare exact PR text, open an AAEF main issue, open an AAEF main pull request, submit anything to AAEF main, create a handback package, or create a handback draft. It preserves `public_safe_evidence_interface_boundary_lessons`, the two-layer public/private boundary, evidence/interface-level scope, AAEF five-questions alignment, model-output-is-not-authority, validator-output-is-not-authority, and non-execution evidence. Only the human maintainer may execute any future AAEF main workflow, and AI output remains workflow planning support, not execution authority.
 
 See `docs/187-v06111-narrow-public-safe-aaef-main-handback-workflow-selection-or-exact-text-preparation-decision.md`.
+
+## v0.6.112 Narrow Public-Safe AAEF Main Handback Exact Issue Text Preparation Planning
+
+v0.6.112 plans exact AAEF main issue text preparation after v0.6.111 selected the AAEF main issue workflow.
+
+It plans issue title/body/labels/milestone handling, allowed and forbidden source material, required section families, forbidden wording, human approval, and non-submission gates. It does not prepare exact issue text, prepare exact PR text, open an AAEF main issue, open an AAEF main pull request, submit anything to AAEF main, create a handback package, or create a handback draft. It preserves `public_safe_evidence_interface_boundary_lessons`, the two-layer public/private boundary, evidence/interface-level scope, AAEF five-questions alignment, model-output-is-not-authority, validator-output-is-not-authority, and non-execution evidence. Only the human maintainer may open any future AAEF main issue, and AI output remains planning support, not execution authority.
+
+See `docs/188-v06112-narrow-public-safe-aaef-main-handback-exact-issue-text-preparation-planning.md`.

@@ -1444,3 +1444,9 @@ Recommended next checkpoint: v0.6.111 Narrow Public-Safe AAEF Main Handback Work
 v0.6.111 selects the AAEF main issue workflow for planning and selects exact issue text preparation planning as the next checkpoint.
 
 Recommended next checkpoint: v0.6.112 Narrow Public-Safe AAEF Main Handback Exact Issue Text Preparation Planning.
+
+## v0.6.112 Narrow Public-Safe AAEF Main Handback Exact Issue Text Preparation Planning
+
+v0.6.112 plans exact AAEF main issue text preparation without generating exact issue text or opening an AAEF main issue.
+
+Recommended next checkpoint: v0.6.113 Narrow Public-Safe AAEF Main Handback Exact Issue Text Preparation Candidate.
