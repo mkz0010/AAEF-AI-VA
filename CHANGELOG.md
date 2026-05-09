@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.6.98 - Narrow public-safe AAEF main handback text drafting planning
+
+- Added narrow public-safe AAEF main handback text drafting planning after v0.6.97 selected it as the next checkpoint.
+- Planned target text shape, permitted wording families, forbidden wording families, allowed sources, forbidden sources, drafting review gates, two-layer public/private boundaries, and non-submission boundaries for a future internal text drafting candidate.
+- Retained `public_safe_evidence_interface_boundary_lessons` as the eligible lesson family and kept future handback text limited to evidence/interface-level lessons.
+- Preserved the two-layer public/private boundary: public repository as trust proof/evaluation package and paid or NDA package as implementation/adoption package.
+- Excluded implementation adoption know-how, enterprise runbooks, customer templates, detailed PoC templates, commercial Tool Gateway detail, evidence retention implementation detail, pricing/contracts/responsibility materials, delivery authorization material, credentials, scanner output, private artifacts, patent-sensitive detail, paid/NDA adoption package material, production-readiness claims, diagnostic-completeness claims, certification claims, legal claims, audit claims, compliance claims, and external-framework equivalence claims.
+- Kept AAEF main handback text writing, final text, submittable text, AAEF main issue/PR/release/document drafting, handback package creation, handback draft creation, public sample changes, validator behavior changes, validator output changes, metadata/schema/fixture changes, package generation, private review record generation, public sample promotion, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+
+
 ## v0.6.97 - Applied Evidence handback material drafting or submission decision
 
 - Added an Applied Evidence handback material drafting or submission decision after v0.6.96 closed the internal narrow public-safe AAEF main handback material preparation candidate.
