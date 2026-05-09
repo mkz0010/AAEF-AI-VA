@@ -1492,3 +1492,9 @@ Recommended next checkpoint: v0.6.119 Narrow Public-Safe AAEF Main Handback Paus
 v0.6.119 closes the current AAEF main handback sequence as paused and keeps close-ready materials internal.
 
 No next AAEF main handback checkpoint is selected for this sequence unless the human maintainer separately reopens it.
+
+## v0.6.120 Checkpoint Granularity Policy — Decision Record
+
+v0.6.120 adopts risk-tiered checkpoint granularity and demonstrates the new policy by closing a low-risk decision in one checkpoint.
+
+Likely next checkpoint: v0.6.121 Next-Direction Selection Using Risk-Tiered Granularity.

@@ -1360,3 +1360,11 @@ v0.6.119 closes out the current narrow public-safe AAEF main handback sequence a
 It records the sequence as paused, retains the close-ready exact issue text candidate and close-ready human submission checklist as internal reviewer aids only, and selects no next AAEF main handback checkpoint for this sequence. It does not open an AAEF main issue, open an AAEF main pull request, submit anything to AAEF main, generate an issue command, create an issue URL, create a handback package, or create a handback draft. It preserves `public_safe_evidence_interface_boundary_lessons`, the two-layer public/private boundary, evidence/interface-level scope, model-output-is-not-authority, validator-output-is-not-authority, and non-execution evidence.
 
 See `docs/195-v06119-narrow-public-safe-aaef-main-handback-pause-and-current-state-closeout-review.md`.
+
+## v0.6.120 Checkpoint Granularity Policy — Decision Record
+
+v0.6.120 adopts a risk-tiered checkpoint granularity policy for future AAEF-AI-VA work.
+
+It intentionally completes this low-risk operational policy decision in one checkpoint as the first application of the new policy. The previous planning -> candidate -> review -> close-readiness -> decision pattern is no longer the default, but remains available for critical-risk work such as runtime/scanner/Docker/credential/customer/delivery or actual external submission. Existing checkpoints, tags, and release history are not retroactively rewritten.
+
+See `docs/196-v06120-checkpoint-granularity-policy-decision-record.md`.

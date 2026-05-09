@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.6.120 - Checkpoint granularity policy decision record
+
+- Adopted risk-tiered checkpoint granularity for future AAEF-AI-VA work.
+- Demonstrated the policy by completing this low-risk operational policy decision in one checkpoint.
+- Made the expanded planning -> candidate -> review -> close-readiness -> decision pattern no longer the default.
+- Preserved the expanded checkpoint pattern for critical-risk work.
+- Confirmed existing checkpoints, tags, and release history are not retroactively rewritten.
+- Confirmed the v0.6.119 AAEF main handback sequence remains paused and is not reopened.
+- Confirmed no AAEF main issue, AAEF main PR, issue command, issue URL, runtime execution, scanner execution, Docker execution, credential injection, customer target, delivery authorization, validator behavior change, schema change, public sample change, or AAEF Core/Profile/Practical Package promotion occurs.
+
+
+
 ## v0.6.119 - Narrow public-safe AAEF main handback pause and current-state closeout review
 
 - Added a pause and current-state closeout review after v0.6.118 selected pause and keep-internal.
