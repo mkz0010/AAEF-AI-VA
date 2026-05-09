@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.6.114 - Narrow public-safe AAEF main handback exact issue text preparation candidate review close-readiness
+
+- Added review and close-readiness for the internal exact AAEF main issue text candidate prepared in v0.6.113.
+- Marked the internal candidate close-ready while preserving internal-only and non-submission boundaries.
+- Selected a future exact issue submission-or-pause decision checkpoint as the next step.
+- Confirmed the candidate remains not submitted, and that no AAEF main issue, AAEF main PR, exact PR text, release note, document change, handback package, or handback draft is created.
+- Preserved `public_safe_evidence_interface_boundary_lessons`, the two-layer public/private boundary, evidence/interface-level scope, AAEF five-questions alignment, model-output-is-not-authority, validator-output-is-not-authority, non-execution evidence, and static public sample boundaries.
+- Kept public sample changes, validator behavior changes, validator output changes, metadata/schema/fixture changes, package generation, private review record generation, public sample promotion, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+
+
 ## v0.6.113 - Narrow public-safe AAEF main handback exact issue text preparation candidate
 
 - Added an internal exact AAEF main issue text preparation candidate after v0.6.112 planned exact issue text preparation.
