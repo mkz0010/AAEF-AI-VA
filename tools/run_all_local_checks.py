@@ -189,6 +189,7 @@ def main() -> int:
     run([sys.executable, "tools/test_v06114_narrow_public_safe_aaef_main_handback_exact_issue_text_preparation_candidate_review_close_readiness.py"])
     run([sys.executable, "tools/test_v06115_narrow_public_safe_aaef_main_handback_exact_issue_submission_or_pause_decision.py"])
     run([sys.executable, "tools/test_v06116_narrow_public_safe_aaef_main_handback_human_submission_checklist_preparation.py"])
+    run([sys.executable, "tools/test_v06117_narrow_public_safe_aaef_main_handback_human_submission_checklist_review_close_readiness.py"])
     print("All local checks passed.")
     return 0
 
