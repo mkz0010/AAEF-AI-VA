@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.107 - Narrow public-safe AAEF main handback submittable text preparation candidate
+
+- Added the internal narrow public-safe AAEF main handback submittable text preparation candidate planned in v0.6.106.
+- Recorded internal submittable text candidate wording and a reviewer aid for later close-readiness review.
+- Preserved non-submission boundaries: the candidate is internal only and is not submitted, not opened as an AAEF main issue, not opened as an AAEF main pull request, not release-note text, not document-change text, and not a handback package.
+- Retained `public_safe_evidence_interface_boundary_lessons` as the eligible lesson family, kept AAEF main handback limited to evidence/interface-level lessons, and preserved the two-layer public/private boundary.
+- Kept AAEF main issue/PR/release/document opening or drafting outside the internal candidate, actual submission, handback package creation, handback draft creation, public sample changes, validator behavior changes, validator output changes, metadata/schema/fixture changes, package generation, private review record generation, public sample promotion, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+
+
 ## v0.6.106 - Narrow public-safe AAEF main handback submittable text preparation planning
 
 - Added narrow public-safe AAEF main handback submittable text preparation planning after v0.6.105 selected it as the next checkpoint.
