@@ -1320,3 +1320,11 @@ v0.6.114 reviews the internal exact AAEF main issue text candidate prepared in v
 It confirms the candidate remains internal only, not submitted, and not opened as an AAEF main issue. It does not open an AAEF main issue, open an AAEF main pull request, submit anything to AAEF main, prepare exact PR text, create a handback package, or create a handback draft. It preserves `public_safe_evidence_interface_boundary_lessons`, the two-layer public/private boundary, evidence/interface-level scope, AAEF five-questions alignment, model-output-is-not-authority, validator-output-is-not-authority, and non-execution evidence. Only the human maintainer may open any future AAEF main issue, and AI output remains review support, not execution authority.
 
 See `docs/190-v06114-narrow-public-safe-aaef-main-handback-exact-issue-text-preparation-candidate-review-close-readiness.md`.
+
+## v0.6.115 Narrow Public-Safe AAEF Main Handback Exact Issue Submission or Pause Decision
+
+v0.6.115 decides the next step after v0.6.114 marked the internal exact AAEF main issue text candidate close-ready.
+
+It does not select direct submission and does not pause. It selects human-maintainer-only submission checklist preparation as the next checkpoint. The close-ready candidate remains internal only, not submitted, and not opened as an AAEF main issue. It does not open an AAEF main issue, open an AAEF main pull request, submit anything to AAEF main, create a checklist in this checkpoint, prepare exact PR text, create a handback package, or create a handback draft. It preserves `public_safe_evidence_interface_boundary_lessons`, the two-layer public/private boundary, evidence/interface-level scope, model-output-is-not-authority, validator-output-is-not-authority, and non-execution evidence.
+
+See `docs/191-v06115-narrow-public-safe-aaef-main-handback-exact-issue-submission-or-pause-decision.md`.

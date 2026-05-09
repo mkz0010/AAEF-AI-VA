@@ -1462,3 +1462,9 @@ Recommended next checkpoint: v0.6.114 Narrow Public-Safe AAEF Main Handback Exac
 v0.6.114 reviews the internal exact AAEF main issue text candidate and marks it close-ready without opening an AAEF main issue or submitting anything.
 
 Recommended next checkpoint: v0.6.115 Narrow Public-Safe AAEF Main Handback Exact Issue Submission or Pause Decision.
+
+## v0.6.115 Narrow Public-Safe AAEF Main Handback Exact Issue Submission or Pause Decision
+
+v0.6.115 selects human-maintainer-only submission checklist preparation as the next checkpoint without opening an AAEF main issue or submitting anything.
+
+Recommended next checkpoint: v0.6.116 Narrow Public-Safe AAEF Main Handback Human Submission Checklist Preparation.
