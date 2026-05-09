@@ -1328,3 +1328,11 @@ v0.6.115 decides the next step after v0.6.114 marked the internal exact AAEF mai
 It does not select direct submission and does not pause. It selects human-maintainer-only submission checklist preparation as the next checkpoint. The close-ready candidate remains internal only, not submitted, and not opened as an AAEF main issue. It does not open an AAEF main issue, open an AAEF main pull request, submit anything to AAEF main, create a checklist in this checkpoint, prepare exact PR text, create a handback package, or create a handback draft. It preserves `public_safe_evidence_interface_boundary_lessons`, the two-layer public/private boundary, evidence/interface-level scope, model-output-is-not-authority, validator-output-is-not-authority, and non-execution evidence.
 
 See `docs/191-v06115-narrow-public-safe-aaef-main-handback-exact-issue-submission-or-pause-decision.md`.
+
+## v0.6.116 Narrow Public-Safe AAEF Main Handback Human Submission Checklist Preparation
+
+v0.6.116 prepares a human-maintainer-only submission checklist after v0.6.115 selected checklist preparation.
+
+The checklist covers target repository confirmation, exact issue title/body confirmation, label/milestone handling, public-safe source checks, private/patent/commercial exclusion checks, overclaim checks, AAEF five-questions checks, authority boundary checks, non-execution evidence checks, static public sample boundary checks, and final human-only action boundary. It does not open an AAEF main issue, open an AAEF main pull request, submit anything to AAEF main, generate an issue command, create an issue URL, create a handback package, or create a handback draft. It preserves `public_safe_evidence_interface_boundary_lessons`, the two-layer public/private boundary, evidence/interface-level scope, model-output-is-not-authority, validator-output-is-not-authority, and non-execution evidence.
+
+See `docs/192-v06116-narrow-public-safe-aaef-main-handback-human-submission-checklist-preparation.md`.

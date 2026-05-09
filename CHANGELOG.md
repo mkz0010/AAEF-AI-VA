@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.6.116 - Narrow public-safe AAEF main handback human submission checklist preparation
+
+- Added human-maintainer-only submission checklist preparation after v0.6.115 selected it as the next checkpoint.
+- Prepared an internal checklist covering target repository confirmation, exact issue title/body confirmation, label/milestone handling, public-safe source checks, private/patent/commercial exclusion checks, overclaim checks, AAEF five-questions checks, authority boundary checks, non-execution evidence checks, static public sample boundary checks, and final human-only action boundary.
+- Selected a future checklist review and close-readiness checkpoint as the next step.
+- Confirmed no AAEF main issue, AAEF main PR, exact PR text, release note, document change, handback package, handback draft, issue URL, or issue command is created.
+- Preserved `public_safe_evidence_interface_boundary_lessons`, the two-layer public/private boundary, evidence/interface-level scope, model-output-is-not-authority, validator-output-is-not-authority, non-execution evidence, and static public sample boundaries.
+- Kept public sample changes, validator behavior changes, validator output changes, metadata/schema/fixture changes, package generation, private review record generation, public sample promotion, runtime execution, scanners, Docker, credentials, customer targets, and delivery out of scope.
+
+
+
 ## v0.6.115 - Narrow public-safe AAEF main handback exact issue submission or pause decision
 
 - Added a submission-or-pause decision after v0.6.114 marked the internal exact AAEF main issue text candidate close-ready.
