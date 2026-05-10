@@ -1504,3 +1504,9 @@ Likely next checkpoint: v0.6.121 Next-Direction Selection Using Risk-Tiered Gran
 v0.6.121 selects README current/latest baseline clarity as the next Medium-risk work item.
 
 Next checkpoint: v0.6.122 README Current/Latest Baseline Clarity Candidate.
+
+## v0.6.122 README Current/Latest Baseline Clarity Candidate
+
+v0.6.122 prepares README current/latest baseline clarity as the Medium-risk candidate checkpoint.
+
+Next checkpoint: v0.6.123 README Current/Latest Baseline Clarity Review and Decision.

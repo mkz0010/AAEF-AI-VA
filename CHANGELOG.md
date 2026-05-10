@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.122 - README current/latest baseline clarity candidate
+
+- Prepared README current/latest baseline clarity as checkpoint 1 of 2 for the Medium-risk work item selected in v0.6.121.
+- Added README wording clarifying that the latest tagged AAEF-AI-VA checkpoint describes the current repository state for this applied implementation and is not an AAEF main active control or assessment baseline.
+- Clarified that AAEF-AI-VA remains an applied implementation/reference boundary demonstration, not a production vulnerability scanner, certification scheme, legal compliance claim, audit opinion, conformity assessment, diagnostic completeness claim, or external-framework equivalence claim.
+- Deferred review and decision to v0.6.123.
+- Confirmed no SECURITY.md wording, validator behavior, schema, public sample, runtime, scanner, Docker, credential, customer, delivery, AAEF main issue, AAEF main PR, issue command, issue URL, or AAEF Core/Profile/Practical Package promotion occurs.
+
+
+
 ## v0.6.121 - Next-direction selection using risk-tiered granularity
 
 - Applied the v0.6.120 risk-tiered checkpoint granularity policy.

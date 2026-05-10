@@ -194,6 +194,7 @@ def main() -> int:
     run([sys.executable, "tools/test_v06119_narrow_public_safe_aaef_main_handback_pause_and_current_state_closeout_review.py"])
     run([sys.executable, "tools/test_v06120_checkpoint_granularity_policy_decision_record.py"])
     run([sys.executable, "tools/test_v06121_next_direction_selection_using_risk_tiered_granularity.py"])
+    run([sys.executable, "tools/test_v06122_readme_current_latest_baseline_clarity_candidate.py"])
     print("All local checks passed.")
     return 0
 

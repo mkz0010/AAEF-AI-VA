@@ -1376,3 +1376,23 @@ v0.6.121 applies the v0.6.120 risk-tiered checkpoint granularity policy by selec
 The selected work item is classified as Medium risk because it is public-facing documentation-only work. It should use two checkpoints: candidate preparation, then review and decision. This v0.6.121 direction-selection record is itself a Low-risk decision completed in one checkpoint. It does not update README wording, reopen the AAEF main handback sequence, open an AAEF main issue, generate an issue command, or authorize runtime/scanner/Docker/credential/customer/delivery activity.
 
 See `docs/197-v06121-next-direction-selection-using-risk-tiered-granularity.md`.
+
+## Current repository checkpoint and baseline interpretation
+
+The latest tagged AAEF-AI-VA checkpoint describes the current repository state for this applied implementation.
+
+This repository's latest checkpoint is not an AAEF main active control or assessment baseline.
+
+AAEF-AI-VA is an applied implementation and reference boundary demonstration. It is not a production vulnerability scanner, certification scheme, legal compliance claim, audit opinion, conformity assessment, diagnostic completeness claim, or external-framework equivalence claim.
+
+A later AAEF-AI-VA tag may update this repository's implementation, documentation, or reviewer guidance. Such a tag does not by itself change AAEF main, promote AAEF-AI-VA into AAEF Core/Profile/Practical Package status, authorize testing against third-party systems, or authorize runtime/scanner/Docker/credential/customer/delivery activity.
+
+When this README refers to the current or latest AAEF-AI-VA baseline, read that phrase as the current tagged repository checkpoint for this applied implementation unless a later scoped decision explicitly says otherwise.
+
+## v0.6.122 README Current/Latest Baseline Clarity Candidate
+
+v0.6.122 prepares README current/latest baseline clarity as checkpoint 1 of 2 for the Medium-risk public-facing documentation work item selected in v0.6.121.
+
+It adds README wording clarifying that the latest tagged AAEF-AI-VA checkpoint describes the current repository state for this applied implementation and is not an AAEF main active control or assessment baseline. It also clarifies that AAEF-AI-VA remains an applied implementation/reference boundary demonstration, not a production vulnerability scanner, certification scheme, legal compliance claim, audit opinion, conformity assessment, diagnostic completeness claim, or external-framework equivalence claim.
+
+Review and decision are deferred to v0.6.123.
