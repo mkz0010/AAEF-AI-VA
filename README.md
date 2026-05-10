@@ -1436,3 +1436,11 @@ v0.6.127 applies the v0.6.120 risk-tiered checkpoint granularity policy after v0
 It selects authorization expiry checked against current time as the next work item. The selected work item is classified as High risk because it can affect authorization gate behavior and evidence interpretation. It should use three checkpoints: readiness, candidate implementation, then review and decision. This v0.6.127 direction-selection record is itself a Low-risk decision completed in one checkpoint. It does not implement the authorization expiry check, modify authorization behavior, reopen the AAEF main handback sequence, open an AAEF main issue, generate an issue command, or authorize runtime/scanner/Docker/credential/customer/delivery activity.
 
 See `docs/203-v06127-next-work-selection-using-risk-tiered-granularity.md`.
+
+## v0.6.128 Authorization Expiry Current-Time Check Readiness
+
+v0.6.128 prepares authorization expiry current-time check readiness as checkpoint 1 of 3 for the High-risk gate-semantics work item selected in v0.6.127.
+
+It identifies target discovery, expected behavior, tests to add or update, fail-closed boundaries, current-time source boundaries, and non-goals. It does not implement the authorization expiry check, modify authorization behavior, modify runtime behavior, reopen the AAEF main handback sequence, open an AAEF main issue, generate an issue command, or authorize runtime/scanner/Docker/credential/customer/delivery activity.
+
+See `docs/204-v06128-authorization-expiry-current-time-check-readiness.md`.

@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.128 - Authorization expiry current-time check readiness
+
+- Prepared authorization expiry current-time check readiness as checkpoint 1 of 3 for the High-risk work item selected in v0.6.127.
+- Identified target discovery, expected behavior, tests to add or update, fail-closed boundaries, current-time source boundaries, and non-goals.
+- Deferred candidate implementation to v0.6.129 and review/decision to v0.6.130.
+- Confirmed no authorization behavior, validator behavior, schema, public sample, runtime, scanner, Docker, credential, customer, delivery, AAEF main issue, AAEF main PR, issue command, issue URL, or AAEF Core/Profile/Practical Package promotion occurs.
+
+
+
 ## v0.6.127 - Next work selection using risk-tiered granularity
 
 - Applied the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.126 closed SECURITY.md reporting-channel consistency.

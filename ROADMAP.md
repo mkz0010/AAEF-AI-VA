@@ -1540,3 +1540,9 @@ Likely next checkpoint: v0.6.127 Next Work Selection Using Risk-Tiered Granulari
 v0.6.127 selects authorization expiry checked against current time as the next High-risk work item.
 
 Next checkpoint: v0.6.128 Authorization Expiry Current-Time Check Readiness.
+
+## v0.6.128 Authorization Expiry Current-Time Check Readiness
+
+v0.6.128 prepares authorization expiry current-time check readiness as the High-risk readiness checkpoint.
+
+Next checkpoint: v0.6.129 Authorization Expiry Current-Time Check Candidate.
