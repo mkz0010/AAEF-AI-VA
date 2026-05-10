@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.143 - Enterprise Review Guide candidate
+
+- Added `docs/enterprise-review-guide.md`.
+- Added the v0.6.143 Enterprise Review Guide candidate record.
+- Added tests for guide structure, required reviewer-facing sections, conservative claim boundaries, v0.6.142 selection continuity, and absence of forbidden affirmative claims.
+- Deferred review and decision to v0.6.144.
+- Confirmed no runtime/scanner/Docker/credential/customer/delivery authorization, AAEF main issue/PR, issue command/URL, validator behavior change, schema change, public sample change, certification claim, legal compliance claim, audit opinion claim, production readiness claim, external-framework equivalence claim, diagnostic completeness claim, third-party testing authorization claim, or AAEF Core/Profile/Practical Package promotion occurs.
+
+
+
 ## v0.6.142 - Next work selection using risk-tiered granularity
 
 - Applied the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.141 closed mock/dry-run `completed` status terminology cleanup.

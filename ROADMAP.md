@@ -1630,3 +1630,9 @@ Likely next checkpoint: v0.6.142 Next Work Selection Using Risk-Tiered Granulari
 v0.6.142 selects Enterprise Review Guide as the next Medium-risk work item.
 
 Next checkpoint: v0.6.143 Enterprise Review Guide Candidate.
+
+## v0.6.143 Enterprise Review Guide Candidate
+
+v0.6.143 creates the Enterprise Review Guide candidate.
+
+Next checkpoint: v0.6.144 Enterprise Review Guide Review and Decision.

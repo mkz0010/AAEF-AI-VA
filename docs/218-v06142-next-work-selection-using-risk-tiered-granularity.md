@@ -80,11 +80,11 @@ delivery_authorized = false
 aaef_core_promotion = false
 aaef_profile_promotion = false
 aaef_practical_package_promotion = false
-certification_claim_made = false
-legal_compliance_claim_made = false
-audit_opinion_claim_made = false
-production_readiness_claim_made = false
-external_framework_equivalence_claim_made = false
+certification_claim_occurs = false
+legal_compliance_claim_occurs = false
+audit_opinion_claim_occurs = false
+production_readiness_claim_occurs = false
+external_framework_equivalence_claim_occurs = false
 ~~~
 
 ## Candidate work items reviewed

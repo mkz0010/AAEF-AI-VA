@@ -1556,3 +1556,11 @@ v0.6.142 applies the v0.6.120 risk-tiered checkpoint granularity policy after v0
 It selects Enterprise Review Guide as the next work item. The selected work item is classified as Medium risk because it is buyer/reviewer-facing documentation that can affect interpretation and claim boundaries, but should not change gate authorization semantics or runtime behavior. It should use two checkpoints: candidate implementation, then review and decision. This v0.6.142 direction-selection record is itself a Low-risk decision completed in one checkpoint. It does not create the Enterprise Review Guide, reopen the AAEF main handback sequence, open an AAEF main issue, generate an issue command, or authorize runtime/scanner/Docker/credential/customer/delivery activity.
 
 See `docs/218-v06142-next-work-selection-using-risk-tiered-granularity.md`.
+
+## v0.6.143 Enterprise Review Guide Candidate
+
+v0.6.143 creates the Enterprise Review Guide candidate as checkpoint 1 of 2 for the Medium-risk work item selected in v0.6.142.
+
+The guide is for enterprise reviewers, vulnerability assessment company decision-makers, security architects, and technical reviewers. It explains what AAEF-AI-VA demonstrates, what it does not demonstrate, what reviewers should inspect, and which claim boundaries remain conservative. It does not modify runtime behavior, validator behavior, schemas, public samples, or runtime/scanner/Docker/credential/customer/delivery authorization.
+
+See `docs/enterprise-review-guide.md` and `docs/219-v06143-enterprise-review-guide-candidate.md`.
