@@ -1564,3 +1564,9 @@ Likely next checkpoint: v0.6.131 Next Work Selection Using Risk-Tiered Granulari
 v0.6.131 selects request/decision constraint-diff enforcement as the next High-risk work item.
 
 Next checkpoint: v0.6.132 Request/Decision Constraint-Diff Enforcement Readiness.
+
+## v0.6.132 Request/Decision Constraint-Diff Enforcement Readiness
+
+v0.6.132 prepares request/decision constraint-diff enforcement readiness as the High-risk readiness checkpoint.
+
+Next checkpoint: v0.6.133 Request/Decision Constraint-Diff Enforcement Candidate.

@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.132 - Request/decision constraint-diff enforcement readiness
+
+- Prepared request/decision constraint-diff enforcement readiness as checkpoint 1 of 3 for the High-risk work item selected in v0.6.131.
+- Identified comparison inputs, target discovery, expected behavior, diff categories, fail-closed boundaries, tests to add or update, evidence boundaries, and non-goals.
+- Deferred candidate implementation to v0.6.133 and review/decision to v0.6.134.
+- Confirmed no constraint-diff behavior, validator behavior, schema, public sample, runtime, scanner, Docker, credential, customer, delivery, AAEF main issue, AAEF main PR, issue command, issue URL, or AAEF Core/Profile/Practical Package promotion occurs.
+
+
+
 ## v0.6.131 - Next work selection using risk-tiered granularity
 
 - Applied the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.130 closed authorization expiry current-time checking.

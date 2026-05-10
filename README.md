@@ -1468,3 +1468,11 @@ v0.6.131 applies the v0.6.120 risk-tiered checkpoint granularity policy after v0
 It selects request/decision constraint-diff enforcement as the next work item. The selected work item is classified as High risk because it can affect gate behavior and evidence interpretation. It should use three checkpoints: readiness, candidate implementation, then review and decision. This v0.6.131 direction-selection record is itself a Low-risk decision completed in one checkpoint. It does not implement constraint-diff enforcement, modify constraint-diff behavior, reopen the AAEF main handback sequence, open an AAEF main issue, generate an issue command, or authorize runtime/scanner/Docker/credential/customer/delivery activity.
 
 See `docs/207-v06131-next-work-selection-using-risk-tiered-granularity.md`.
+
+## v0.6.132 Request/Decision Constraint-Diff Enforcement Readiness
+
+v0.6.132 prepares request/decision constraint-diff enforcement readiness as checkpoint 1 of 3 for the High-risk gate-semantics work item selected in v0.6.131.
+
+It identifies comparison inputs, target discovery, expected candidate behavior, diff categories, fail-closed boundaries, tests to add or update, evidence boundaries, and non-goals. It does not implement constraint-diff enforcement, modify constraint-diff behavior, modify runtime behavior, reopen the AAEF main handback sequence, open an AAEF main issue, generate an issue command, or authorize runtime/scanner/Docker/credential/customer/delivery activity.
+
+See `docs/208-v06132-request-decision-constraint-diff-enforcement-readiness.md`.
