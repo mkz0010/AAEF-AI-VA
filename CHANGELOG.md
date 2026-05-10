@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.130 - Authorization expiry current-time check review and decision
+
+- Reviewed and accepted the v0.6.129 authorization expiry current-time check candidate.
+- Closed the High-risk authorization expiry current-time check work item.
+- Confirmed deterministic current-time injection, fail-closed behavior, not-expired/equal-boundary continuation, and evidence-safe result fields.
+- Confirmed no runtime/scanner/Docker/credential/customer/delivery authorization, AAEF main issue/PR, issue command/URL, validator behavior change, schema change, public sample change, or AAEF Core/Profile/Practical Package promotion occurs.
+
+
+
 ## v0.6.129 - Authorization expiry current-time check candidate
 
 - Added a deterministic authorization expiry current-time helper.

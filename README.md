@@ -1452,3 +1452,11 @@ v0.6.129 implements the authorization expiry current-time check candidate as che
 It adds a deterministic, evidence-safe helper for evaluating authorization expiry against an explicit current-time value and tests fail-closed behavior for expired, malformed, missing-required, timezone-naive, and ambiguous current-time inputs. Review and decision are deferred to v0.6.130.
 
 See `docs/205-v06129-authorization-expiry-current-time-check-candidate.md`.
+
+## v0.6.130 Authorization Expiry Current-Time Check Review and Decision
+
+v0.6.130 reviews and accepts the authorization expiry current-time check candidate as checkpoint 3 of 3 for the High-risk gate-semantics work item selected in v0.6.127.
+
+It closes the work item after confirming deterministic current-time injection, fail-closed behavior for expired/malformed/missing-required/timezone-naive/ambiguous current-time inputs, not-expired and equal-boundary continuation of existing checks, and evidence-safe result fields. It does not authorize runtime/scanner/Docker/credential/customer/delivery activity.
+
+See `docs/206-v06130-authorization-expiry-current-time-check-review-and-decision.md`.
