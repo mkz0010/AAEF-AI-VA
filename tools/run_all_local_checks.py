@@ -197,6 +197,7 @@ def main() -> int:
     run([sys.executable, "tools/test_v06122_readme_current_latest_baseline_clarity_candidate.py"])
     run([sys.executable, "tools/test_v06123_readme_current_latest_baseline_clarity_review_and_decision.py"])
     run([sys.executable, "tools/test_v06124_next_work_selection_using_risk_tiered_granularity.py"])
+    run([sys.executable, "tools/test_v06125_security_reporting_channel_consistency_candidate.py"])
     print("All local checks passed.")
     return 0
 

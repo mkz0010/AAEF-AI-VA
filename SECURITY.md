@@ -103,3 +103,19 @@ Commercial licensing inquiries are separate from vulnerability reports.
 
 This policy does not provide legal advice, contract terms, audit opinions, compliance
 certification, or authorization to use the project against third-party targets.
+
+## Reporting channel and scope clarification
+
+Use GitHub Security Advisories / private vulnerability reporting for sensitive reports about this repository when that channel is available.
+
+If the private reporting channel is unavailable, open a public GitHub issue only for non-sensitive coordination and do not include exploit details, secrets, credentials, target-specific data, private customer material, scanner output, or other sensitive information.
+
+Security reports for this repository should concern the AAEF-AI-VA implementation, documentation, examples, release process, or repository configuration.
+
+This repository is not an authorization to test third-party systems. Do not use this repository, its examples, or its documentation as permission to scan, attack, probe, exploit, or otherwise test systems that you do not own or do not have explicit written authorization to assess.
+
+Do not submit live third-party vulnerability details, customer target data, credentials, tokens, private scan output, exploit chains, or operationally sensitive diagnostics through public issues.
+
+AAEF-AI-VA is a safety-first reference implementation for AI-assisted vulnerability assessment control boundaries. It is not a production vulnerability scanner, not a managed vulnerability disclosure program, not a bug bounty program, not an emergency response service, not a certification scheme, not a legal compliance claim, not an audit opinion, and not an authorization service.
+
+For questions about commercial licensing, paid evaluation, or NDA-based adoption discussions, use the commercial contact path described in the repository documentation rather than the vulnerability reporting channel.

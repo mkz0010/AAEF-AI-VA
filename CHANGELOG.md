@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.125 - SECURITY.md reporting-channel consistency candidate
+
+- Prepared SECURITY.md reporting-channel consistency as checkpoint 1 of 2 for the Medium-risk work item selected in v0.6.124.
+- Added SECURITY.md wording clarifying private reporting for sensitive reports, non-sensitive public issue limits, repository-scope security reporting, no third-party testing authorization, no public secrets/scanner output, and separation from commercial/NDA discussions.
+- Deferred review and decision to v0.6.126.
+- Confirmed no validator behavior, schema, public sample, runtime, scanner, Docker, credential, customer, delivery, AAEF main issue, AAEF main PR, issue command, issue URL, or AAEF Core/Profile/Practical Package promotion occurs.
+
+
+
 ## v0.6.124 - Next work selection using risk-tiered granularity
 
 - Applied the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.123 closed README current/latest baseline clarity.
