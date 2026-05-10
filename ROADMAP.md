@@ -1588,3 +1588,9 @@ Likely next checkpoint: v0.6.135 Next Work Selection Using Risk-Tiered Granulari
 v0.6.135 selects external_discovery=true fail-closed behavior as the next High-risk work item.
 
 Next checkpoint: v0.6.136 External Discovery Fail-Closed Behavior Readiness.
+
+## v0.6.136 External Discovery Fail-Closed Behavior Readiness
+
+v0.6.136 prepares external_discovery=true fail-closed behavior readiness as the High-risk readiness checkpoint.
+
+Next checkpoint: v0.6.137 External Discovery Fail-Closed Behavior Candidate.

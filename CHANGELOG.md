@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.136 - External discovery fail-closed behavior readiness
+
+- Prepared external_discovery=true fail-closed behavior readiness as checkpoint 1 of 3 for the High-risk work item selected in v0.6.135.
+- Identified current semantics to inspect, target discovery, target-boundary inputs, expected behavior, fail-closed boundaries, tests to add or update, evidence boundaries, and non-goals.
+- Deferred candidate implementation to v0.6.137 and review/decision to v0.6.138.
+- Confirmed no external_discovery behavior, validator behavior, schema, public sample, runtime, scanner, Docker, credential, customer, delivery, AAEF main issue, AAEF main PR, issue command, issue URL, or AAEF Core/Profile/Practical Package promotion occurs.
+
+
+
 ## v0.6.135 - Next work selection using risk-tiered granularity
 
 - Applied the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.134 closed request/decision constraint-diff enforcement.

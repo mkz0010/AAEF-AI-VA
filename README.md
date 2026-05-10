@@ -1500,3 +1500,11 @@ v0.6.135 applies the v0.6.120 risk-tiered checkpoint granularity policy after v0
 It selects external_discovery=true fail-closed behavior as the next work item. The selected work item is classified as High risk because it can affect target-boundary gate behavior and evidence interpretation. It should use three checkpoints: readiness, candidate implementation, then review and decision. This v0.6.135 direction-selection record is itself a Low-risk decision completed in one checkpoint. It does not implement external_discovery fail-closed behavior, modify external_discovery behavior, reopen the AAEF main handback sequence, open an AAEF main issue, generate an issue command, or authorize runtime/scanner/Docker/credential/customer/delivery activity.
 
 See `docs/211-v06135-next-work-selection-using-risk-tiered-granularity.md`.
+
+## v0.6.136 External Discovery Fail-Closed Behavior Readiness
+
+v0.6.136 prepares external_discovery=true fail-closed behavior readiness as checkpoint 1 of 3 for the High-risk gate-semantics work item selected in v0.6.135.
+
+It identifies current semantics to inspect, target discovery, target-boundary inputs, expected candidate behavior, fail-closed boundaries, tests to add or update, evidence boundaries, and non-goals. It does not implement external_discovery fail-closed behavior, modify external_discovery behavior, modify runtime behavior, reopen the AAEF main handback sequence, open an AAEF main issue, generate an issue command, or authorize runtime/scanner/Docker/credential/customer/delivery activity.
+
+See `docs/212-v06136-external-discovery-fail-closed-behavior-readiness.md`.
