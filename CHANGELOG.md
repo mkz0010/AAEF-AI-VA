@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.129 - Authorization expiry current-time check candidate
+
+- Added a deterministic authorization expiry current-time helper.
+- Added tests for not-expired, equal-boundary, expired, malformed, missing-required, missing-optional, timezone-aware, timezone-naive, and evidence-safe result cases.
+- Implemented candidate fail-closed behavior for expired, malformed, missing-required, timezone-naive, and ambiguous current-time inputs.
+- Deferred review and decision to v0.6.130.
+- Confirmed no runtime/scanner/Docker/credential/customer/delivery authorization, AAEF main issue/PR, issue command/URL, validator behavior change, schema change, public sample change, or AAEF Core/Profile/Practical Package promotion occurs.
+
+
+
 ## v0.6.128 - Authorization expiry current-time check readiness
 
 - Prepared authorization expiry current-time check readiness as checkpoint 1 of 3 for the High-risk work item selected in v0.6.127.

@@ -1444,3 +1444,11 @@ v0.6.128 prepares authorization expiry current-time check readiness as checkpoin
 It identifies target discovery, expected behavior, tests to add or update, fail-closed boundaries, current-time source boundaries, and non-goals. It does not implement the authorization expiry check, modify authorization behavior, modify runtime behavior, reopen the AAEF main handback sequence, open an AAEF main issue, generate an issue command, or authorize runtime/scanner/Docker/credential/customer/delivery activity.
 
 See `docs/204-v06128-authorization-expiry-current-time-check-readiness.md`.
+
+## v0.6.129 Authorization Expiry Current-Time Check Candidate
+
+v0.6.129 implements the authorization expiry current-time check candidate as checkpoint 2 of 3 for the High-risk gate-semantics work item selected in v0.6.127.
+
+It adds a deterministic, evidence-safe helper for evaluating authorization expiry against an explicit current-time value and tests fail-closed behavior for expired, malformed, missing-required, timezone-naive, and ambiguous current-time inputs. Review and decision are deferred to v0.6.130.
+
+See `docs/205-v06129-authorization-expiry-current-time-check-candidate.md`.

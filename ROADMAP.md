@@ -1546,3 +1546,9 @@ Next checkpoint: v0.6.128 Authorization Expiry Current-Time Check Readiness.
 v0.6.128 prepares authorization expiry current-time check readiness as the High-risk readiness checkpoint.
 
 Next checkpoint: v0.6.129 Authorization Expiry Current-Time Check Candidate.
+
+## v0.6.129 Authorization Expiry Current-Time Check Candidate
+
+v0.6.129 implements the authorization expiry current-time check candidate.
+
+Next checkpoint: v0.6.130 Authorization Expiry Current-Time Check Review and Decision.

@@ -201,6 +201,8 @@ def main() -> int:
     run([sys.executable, "tools/test_v06126_security_reporting_channel_consistency_review_and_decision.py"])
     run([sys.executable, "tools/test_v06127_next_work_selection_using_risk_tiered_granularity.py"])
     run([sys.executable, "tools/test_v06128_authorization_expiry_current_time_check_readiness.py"])
+    run([sys.executable, "tools/test_authorization_expiry_current_time_check.py"])
+    run([sys.executable, "tools/test_v06129_authorization_expiry_current_time_check_candidate.py"])
     print("All local checks passed.")
     return 0
 
