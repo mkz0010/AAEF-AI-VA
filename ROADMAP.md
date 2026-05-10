@@ -1516,3 +1516,9 @@ Next checkpoint: v0.6.123 README Current/Latest Baseline Clarity Review and Deci
 v0.6.123 reviews and accepts the README current/latest baseline clarity candidate and closes the Medium-risk work item.
 
 Likely next checkpoint: v0.6.124 Next Work Selection Using Risk-Tiered Granularity.
+
+## v0.6.124 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.124 selects SECURITY.md reporting-channel consistency as the next Medium-risk work item.
+
+Next checkpoint: v0.6.125 SECURITY.md Reporting-Channel Consistency Candidate.

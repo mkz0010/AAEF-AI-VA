@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.124 - Next work selection using risk-tiered granularity
+
+- Applied the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.123 closed README current/latest baseline clarity.
+- Selected SECURITY.md reporting-channel consistency as the next work item.
+- Classified the selected work item as Medium risk and assigned two checkpoints.
+- Completed this direction-selection decision as one Low-risk checkpoint.
+- Confirmed no SECURITY.md wording, validator behavior, schema, public sample, runtime, scanner, Docker, credential, customer, delivery, AAEF main issue, AAEF main PR, issue command, issue URL, or AAEF Core/Profile/Practical Package promotion occurs in this checkpoint.
+
+
+
 ## v0.6.123 - README current/latest baseline clarity review and decision
 
 - Reviewed and accepted the README current/latest baseline clarity candidate prepared in v0.6.122.

@@ -1404,3 +1404,11 @@ v0.6.123 reviews and accepts the README current/latest baseline clarity candidat
 It closes the Medium-risk README current/latest baseline clarity work item as documentation-only. The accepted wording clarifies that the latest tagged AAEF-AI-VA checkpoint describes the current repository state for this applied implementation and is not an AAEF main active control or assessment baseline. It also keeps the applied implementation/reference boundary and avoids production scanner, certification, legal compliance, audit opinion, conformity assessment, diagnostic completeness, and external-framework equivalence claims.
 
 No runtime behavior, validator behavior, schema, public sample, AAEF main handback state, or external submission state is changed.
+
+## v0.6.124 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.124 applies the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.123 closed README current/latest baseline clarity.
+
+It selects SECURITY.md reporting-channel consistency as the next work item. The selected work item is classified as Medium risk because it is public-facing documentation-only work. It should use two checkpoints: candidate preparation, then review and decision. This v0.6.124 direction-selection record is itself a Low-risk decision completed in one checkpoint. It does not update SECURITY.md wording, reopen the AAEF main handback sequence, open an AAEF main issue, generate an issue command, or authorize runtime/scanner/Docker/credential/customer/delivery activity.
+
+See `docs/200-v06124-next-work-selection-using-risk-tiered-granularity.md`.
