@@ -1396,3 +1396,11 @@ v0.6.122 prepares README current/latest baseline clarity as checkpoint 1 of 2 fo
 It adds README wording clarifying that the latest tagged AAEF-AI-VA checkpoint describes the current repository state for this applied implementation and is not an AAEF main active control or assessment baseline. It also clarifies that AAEF-AI-VA remains an applied implementation/reference boundary demonstration, not a production vulnerability scanner, certification scheme, legal compliance claim, audit opinion, conformity assessment, diagnostic completeness claim, or external-framework equivalence claim.
 
 Review and decision are deferred to v0.6.123.
+
+## v0.6.123 README Current/Latest Baseline Clarity Review and Decision
+
+v0.6.123 reviews and accepts the README current/latest baseline clarity candidate prepared in v0.6.122.
+
+It closes the Medium-risk README current/latest baseline clarity work item as documentation-only. The accepted wording clarifies that the latest tagged AAEF-AI-VA checkpoint describes the current repository state for this applied implementation and is not an AAEF main active control or assessment baseline. It also keeps the applied implementation/reference boundary and avoids production scanner, certification, legal compliance, audit opinion, conformity assessment, diagnostic completeness, and external-framework equivalence claims.
+
+No runtime behavior, validator behavior, schema, public sample, AAEF main handback state, or external submission state is changed.

@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.123 - README current/latest baseline clarity review and decision
+
+- Reviewed and accepted the README current/latest baseline clarity candidate prepared in v0.6.122.
+- Closed the Medium-risk README current/latest baseline clarity work item as documentation-only.
+- Confirmed the README wording avoids AAEF main active baseline confusion, production scanner claims, certification claims, legal compliance claims, audit opinion claims, conformity assessment claims, diagnostic completeness claims, and external-framework equivalence claims.
+- Confirmed no SECURITY.md wording, validator behavior, schema, public sample, runtime, scanner, Docker, credential, customer, delivery, AAEF main issue, AAEF main PR, issue command, issue URL, or AAEF Core/Profile/Practical Package promotion occurs.
+
+
+
 ## v0.6.122 - README current/latest baseline clarity candidate
 
 - Prepared README current/latest baseline clarity as checkpoint 1 of 2 for the Medium-risk work item selected in v0.6.121.
