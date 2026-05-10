@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.137 - External discovery fail-closed behavior candidate
+
+- Added a deterministic external discovery fail-closed helper.
+- Added tests for external_discovery=false, missing/not-required external_discovery, explicitly allowed boundary-compatible external discovery, missing decision allowance, allowance=false, localhost-only boundary, local-lab-only boundary, missing/malformed destination binding, missing scope support, ambiguous target boundary, invalid authorization, malformed external_discovery flag, and evidence-safe output.
+- Implemented candidate fail-closed behavior for external_discovery=true target-boundary expansion risks.
+- Deferred review and decision to v0.6.138.
+- Confirmed no runtime/scanner/Docker/credential/customer/delivery authorization, AAEF main issue/PR, issue command/URL, validator behavior change, schema change, public sample change, or AAEF Core/Profile/Practical Package promotion occurs.
+
+
+
 ## v0.6.136 - External discovery fail-closed behavior readiness
 
 - Prepared external_discovery=true fail-closed behavior readiness as checkpoint 1 of 3 for the High-risk work item selected in v0.6.135.

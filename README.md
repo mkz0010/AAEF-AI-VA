@@ -1508,3 +1508,11 @@ v0.6.136 prepares external_discovery=true fail-closed behavior readiness as chec
 It identifies current semantics to inspect, target discovery, target-boundary inputs, expected candidate behavior, fail-closed boundaries, tests to add or update, evidence boundaries, and non-goals. It does not implement external_discovery fail-closed behavior, modify external_discovery behavior, modify runtime behavior, reopen the AAEF main handback sequence, open an AAEF main issue, generate an issue command, or authorize runtime/scanner/Docker/credential/customer/delivery activity.
 
 See `docs/212-v06136-external-discovery-fail-closed-behavior-readiness.md`.
+
+## v0.6.137 External Discovery Fail-Closed Behavior Candidate
+
+v0.6.137 implements the external_discovery=true fail-closed behavior candidate as checkpoint 2 of 3 for the High-risk gate-semantics work item selected in v0.6.135.
+
+It adds a deterministic, evidence-safe helper for evaluating external discovery against explicit decision allowance, target-boundary compatibility, destination binding, scope support, and authorization validity. It tests fail-closed behavior for missing allowance, local-only boundaries, missing or malformed destination binding, missing scope support, ambiguous target boundaries, invalid authorization, and malformed flags. Review and decision are deferred to v0.6.138.
+
+See `docs/213-v06137-external-discovery-fail-closed-behavior-candidate.md`.

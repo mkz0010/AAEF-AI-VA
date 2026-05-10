@@ -1594,3 +1594,9 @@ Next checkpoint: v0.6.136 External Discovery Fail-Closed Behavior Readiness.
 v0.6.136 prepares external_discovery=true fail-closed behavior readiness as the High-risk readiness checkpoint.
 
 Next checkpoint: v0.6.137 External Discovery Fail-Closed Behavior Candidate.
+
+## v0.6.137 External Discovery Fail-Closed Behavior Candidate
+
+v0.6.137 implements the external_discovery=true fail-closed behavior candidate.
+
+Next checkpoint: v0.6.138 External Discovery Fail-Closed Behavior Review and Decision.
