@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.139 - Next work selection using risk-tiered granularity
+
+- Applied the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.138 closed external_discovery=true fail-closed behavior.
+- Selected mock/dry-run `completed` status terminology cleanup as the next work item.
+- Classified the selected work item as Medium risk and assigned two checkpoints.
+- Completed this direction-selection decision as one Low-risk checkpoint.
+- Confirmed no mock/dry-run status wording, validator behavior, schema, public sample, runtime, scanner, Docker, credential, customer, delivery, AAEF main issue, AAEF main PR, issue command, issue URL, or AAEF Core/Profile/Practical Package promotion occurs in this checkpoint.
+
+
+
 ## v0.6.138 - External discovery fail-closed behavior review and decision
 
 - Reviewed and accepted the v0.6.137 external_discovery=true fail-closed behavior candidate.

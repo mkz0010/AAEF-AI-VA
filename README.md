@@ -1524,3 +1524,11 @@ v0.6.138 reviews and accepts the external_discovery=true fail-closed behavior ca
 It closes the work item after confirming deterministic comparison, fail-closed behavior for missing explicit decision allowance, allowance=false, local-only/local-lab-only boundaries, missing/malformed destination binding, missing scope support, ambiguous target boundary, expired/invalid authorization, and malformed external_discovery flags. It also confirms that external_discovery=false, missing/not-required external_discovery, and explicitly allowed boundary-compatible external discovery continue existing checks. It does not integrate the helper into a live runtime gate or authorize runtime/scanner/Docker/credential/customer/delivery activity.
 
 See `docs/214-v06138-external-discovery-fail-closed-behavior-review-and-decision.md`.
+
+## v0.6.139 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.139 applies the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.138 closed external_discovery=true fail-closed behavior.
+
+It selects mock/dry-run `completed` status terminology cleanup as the next work item. The selected work item is classified as Medium risk because it can affect reviewer interpretation and status wording, but should not change gate authorization semantics or runtime behavior. It should use two checkpoints: candidate implementation, then review and decision. This v0.6.139 direction-selection record is itself a Low-risk decision completed in one checkpoint. It does not rename mock/dry-run `completed` status, modify mock/dry-run status behavior, reopen the AAEF main handback sequence, open an AAEF main issue, generate an issue command, or authorize runtime/scanner/Docker/credential/customer/delivery activity.
+
+See `docs/215-v06139-next-work-selection-using-risk-tiered-granularity.md`.

@@ -1606,3 +1606,9 @@ Next checkpoint: v0.6.138 External Discovery Fail-Closed Behavior Review and Dec
 v0.6.138 reviews and accepts the external_discovery=true fail-closed behavior candidate and closes the High-risk work item.
 
 Likely next checkpoint: v0.6.139 Next Work Selection Using Risk-Tiered Granularity.
+
+## v0.6.139 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.139 selects mock/dry-run `completed` status terminology cleanup as the next Medium-risk work item.
+
+Next checkpoint: v0.6.140 Mock/Dry-Run Completed Status Terminology Cleanup Candidate.
