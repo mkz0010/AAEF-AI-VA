@@ -1534,3 +1534,9 @@ Next checkpoint: v0.6.126 SECURITY.md Reporting-Channel Consistency Review and D
 v0.6.126 reviews and accepts the SECURITY.md reporting-channel consistency candidate and closes the Medium-risk work item.
 
 Likely next checkpoint: v0.6.127 Next Work Selection Using Risk-Tiered Granularity.
+
+## v0.6.127 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.127 selects authorization expiry checked against current time as the next High-risk work item.
+
+Next checkpoint: v0.6.128 Authorization Expiry Current-Time Check Readiness.

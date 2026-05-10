@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.127 - Next work selection using risk-tiered granularity
+
+- Applied the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.126 closed SECURITY.md reporting-channel consistency.
+- Selected authorization expiry checked against current time as the next work item.
+- Classified the selected work item as High risk and assigned three checkpoints.
+- Completed this direction-selection decision as one Low-risk checkpoint.
+- Confirmed no authorization behavior, validator behavior, schema, public sample, runtime, scanner, Docker, credential, customer, delivery, AAEF main issue, AAEF main PR, issue command, issue URL, or AAEF Core/Profile/Practical Package promotion occurs in this checkpoint.
+
+
+
 ## v0.6.126 - SECURITY.md reporting-channel consistency review and decision
 
 - Reviewed and accepted the SECURITY.md reporting-channel consistency candidate prepared in v0.6.125.
