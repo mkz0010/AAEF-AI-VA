@@ -1484,3 +1484,11 @@ v0.6.133 implements the request/decision constraint-diff enforcement candidate a
 It adds a deterministic, evidence-safe helper for comparing request constraints with authorization decision constraints and tests fail-closed behavior for material mismatches, missing required fields, malformed inputs, and external_discovery escalation. Review and decision are deferred to v0.6.134.
 
 See `docs/209-v06133-request-decision-constraint-diff-enforcement-candidate.md`.
+
+## v0.6.134 Request/Decision Constraint-Diff Enforcement Review and Decision
+
+v0.6.134 reviews and accepts the request/decision constraint-diff enforcement candidate as checkpoint 3 of 3 for the High-risk gate-semantics work item selected in v0.6.131.
+
+It closes the work item after confirming deterministic comparison, fail-closed behavior for material mismatches, missing required fields, malformed inputs, and external_discovery escalation, exact-match continuation of existing checks, and evidence-safe result fields. It does not integrate the helper into a live runtime gate or authorize runtime/scanner/Docker/credential/customer/delivery activity.
+
+See `docs/210-v06134-request-decision-constraint-diff-enforcement-review-and-decision.md`.

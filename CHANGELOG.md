@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.134 - Request/decision constraint-diff enforcement review and decision
+
+- Reviewed and accepted the v0.6.133 request/decision constraint-diff enforcement candidate.
+- Closed the High-risk request/decision constraint-diff enforcement work item.
+- Confirmed deterministic comparison, fail-closed behavior, exact-match continuation, and evidence-safe result fields.
+- Confirmed no runtime gate integration, runtime/scanner/Docker/credential/customer/delivery authorization, AAEF main issue/PR, issue command/URL, validator behavior change, schema change, public sample change, or AAEF Core/Profile/Practical Package promotion occurs.
+
+
+
 ## v0.6.133 - Request/decision constraint-diff enforcement candidate
 
 - Added a deterministic request/decision constraint-diff helper.

@@ -208,6 +208,7 @@ def main() -> int:
     run([sys.executable, "tools/test_v06132_request_decision_constraint_diff_enforcement_readiness.py"])
     run([sys.executable, "tools/test_request_decision_constraint_diff_enforcement.py"])
     run([sys.executable, "tools/test_v06133_request_decision_constraint_diff_enforcement_candidate.py"])
+    run([sys.executable, "tools/test_v06134_request_decision_constraint_diff_enforcement_review_and_decision.py"])
     print("All local checks passed.")
     return 0
 

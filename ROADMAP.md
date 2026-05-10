@@ -1576,3 +1576,9 @@ Next checkpoint: v0.6.133 Request/Decision Constraint-Diff Enforcement Candidate
 v0.6.133 implements the request/decision constraint-diff enforcement candidate.
 
 Next checkpoint: v0.6.134 Request/Decision Constraint-Diff Enforcement Review and Decision.
+
+## v0.6.134 Request/Decision Constraint-Diff Enforcement Review and Decision
+
+v0.6.134 reviews and accepts the request/decision constraint-diff enforcement candidate and closes the High-risk work item.
+
+Likely next checkpoint: v0.6.135 Next Work Selection Using Risk-Tiered Granularity.
