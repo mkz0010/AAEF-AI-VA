@@ -1420,3 +1420,11 @@ v0.6.125 prepares SECURITY.md reporting-channel consistency as checkpoint 1 of 2
 It adds SECURITY.md wording clarifying that sensitive reports about this repository should use GitHub Security Advisories / private vulnerability reporting when available, public issues are only for non-sensitive coordination, repository security reports should concern AAEF-AI-VA repository concerns, this repository is not authorization to test third-party systems, and commercial/NDA discussions should use the commercial contact path rather than the vulnerability reporting channel.
 
 Review and decision are deferred to v0.6.126.
+
+## v0.6.126 SECURITY.md Reporting-Channel Consistency Review and Decision
+
+v0.6.126 reviews and accepts the SECURITY.md reporting-channel consistency candidate prepared in v0.6.125.
+
+It closes the Medium-risk SECURITY.md reporting-channel consistency work item as documentation-only. The accepted wording clarifies private reporting for sensitive reports, non-sensitive public issue limits, repository-scope security reporting, no third-party testing authorization, no public secrets/scanner output, and separation from commercial/NDA discussions.
+
+No runtime behavior, validator behavior, schema, public sample, AAEF main handback state, or external submission state is changed.

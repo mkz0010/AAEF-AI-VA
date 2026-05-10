@@ -1528,3 +1528,9 @@ Next checkpoint: v0.6.125 SECURITY.md Reporting-Channel Consistency Candidate.
 v0.6.125 prepares SECURITY.md reporting-channel consistency as the Medium-risk candidate checkpoint.
 
 Next checkpoint: v0.6.126 SECURITY.md Reporting-Channel Consistency Review and Decision.
+
+## v0.6.126 SECURITY.md Reporting-Channel Consistency Review and Decision
+
+v0.6.126 reviews and accepts the SECURITY.md reporting-channel consistency candidate and closes the Medium-risk work item.
+
+Likely next checkpoint: v0.6.127 Next Work Selection Using Risk-Tiered Granularity.

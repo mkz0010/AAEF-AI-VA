@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.126 - SECURITY.md reporting-channel consistency review and decision
+
+- Reviewed and accepted the SECURITY.md reporting-channel consistency candidate prepared in v0.6.125.
+- Closed the Medium-risk SECURITY.md reporting-channel consistency work item as documentation-only.
+- Confirmed the SECURITY.md wording avoids sensitive public issue path confusion, third-party testing authorization confusion, commercial contact confusion, production scanner claims, managed disclosure program claims, bug bounty claims, emergency response claims, certification claims, legal compliance claims, audit opinion claims, and authorization service claims.
+- Confirmed no validator behavior, schema, public sample, runtime, scanner, Docker, credential, customer, delivery, AAEF main issue, AAEF main PR, issue command, issue URL, or AAEF Core/Profile/Practical Package promotion occurs.
+
+
+
 ## v0.6.125 - SECURITY.md reporting-channel consistency candidate
 
 - Prepared SECURITY.md reporting-channel consistency as checkpoint 1 of 2 for the Medium-risk work item selected in v0.6.124.
