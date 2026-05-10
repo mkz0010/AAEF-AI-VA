@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.142 - Next work selection using risk-tiered granularity
+
+- Applied the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.141 closed mock/dry-run `completed` status terminology cleanup.
+- Selected Enterprise Review Guide as the next work item.
+- Classified the selected work item as Medium risk and assigned two checkpoints.
+- Completed this direction-selection decision as one Low-risk checkpoint.
+- Confirmed no Enterprise Review Guide, validator behavior, schema, public sample, runtime, scanner, Docker, credential, customer, delivery, AAEF main issue, AAEF main PR, issue command, issue URL, certification claim, legal compliance claim, audit opinion claim, production readiness claim, external-framework equivalence claim, or AAEF Core/Profile/Practical Package promotion occurs in this checkpoint.
+
+
+
 ## v0.6.141 - Mock/dry-run completed status terminology cleanup review and decision
 
 - Reviewed and accepted the v0.6.140 mock/dry-run `completed` status terminology cleanup candidate.

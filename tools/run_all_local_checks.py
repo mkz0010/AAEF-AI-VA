@@ -218,6 +218,7 @@ def main() -> int:
     run([sys.executable, "tools/test_mock_dry_run_completed_status_terminology.py"])
     run([sys.executable, "tools/test_v06140_mock_dry_run_completed_status_terminology_cleanup_candidate.py"])
     run([sys.executable, "tools/test_v06141_mock_dry_run_completed_status_terminology_cleanup_review_and_decision.py"])
+    run([sys.executable, "tools/test_v06142_next_work_selection_using_risk_tiered_granularity.py"])
     print("All local checks passed.")
     return 0
 
