@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.138 - External discovery fail-closed behavior review and decision
+
+- Reviewed and accepted the v0.6.137 external_discovery=true fail-closed behavior candidate.
+- Closed the High-risk external discovery fail-closed behavior work item.
+- Confirmed deterministic comparison, fail-closed behavior, allowed boundary-compatible behavior, and evidence-safe result fields.
+- Confirmed no runtime gate integration, runtime/scanner/Docker/credential/customer/delivery authorization, AAEF main issue/PR, issue command/URL, validator behavior change, schema change, public sample change, or AAEF Core/Profile/Practical Package promotion occurs.
+
+
+
 ## v0.6.137 - External discovery fail-closed behavior candidate
 
 - Added a deterministic external discovery fail-closed helper.

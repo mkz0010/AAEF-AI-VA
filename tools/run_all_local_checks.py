@@ -213,6 +213,7 @@ def main() -> int:
     run([sys.executable, "tools/test_v06136_external_discovery_fail_closed_behavior_readiness.py"])
     run([sys.executable, "tools/test_external_discovery_fail_closed_behavior.py"])
     run([sys.executable, "tools/test_v06137_external_discovery_fail_closed_behavior_candidate.py"])
+    run([sys.executable, "tools/test_v06138_external_discovery_fail_closed_behavior_review_and_decision.py"])
     print("All local checks passed.")
     return 0
 

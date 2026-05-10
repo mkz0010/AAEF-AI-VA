@@ -1516,3 +1516,11 @@ v0.6.137 implements the external_discovery=true fail-closed behavior candidate a
 It adds a deterministic, evidence-safe helper for evaluating external discovery against explicit decision allowance, target-boundary compatibility, destination binding, scope support, and authorization validity. It tests fail-closed behavior for missing allowance, local-only boundaries, missing or malformed destination binding, missing scope support, ambiguous target boundaries, invalid authorization, and malformed flags. Review and decision are deferred to v0.6.138.
 
 See `docs/213-v06137-external-discovery-fail-closed-behavior-candidate.md`.
+
+## v0.6.138 External Discovery Fail-Closed Behavior Review and Decision
+
+v0.6.138 reviews and accepts the external_discovery=true fail-closed behavior candidate as checkpoint 3 of 3 for the High-risk gate-semantics work item selected in v0.6.135.
+
+It closes the work item after confirming deterministic comparison, fail-closed behavior for missing explicit decision allowance, allowance=false, local-only/local-lab-only boundaries, missing/malformed destination binding, missing scope support, ambiguous target boundary, expired/invalid authorization, and malformed external_discovery flags. It also confirms that external_discovery=false, missing/not-required external_discovery, and explicitly allowed boundary-compatible external discovery continue existing checks. It does not integrate the helper into a live runtime gate or authorize runtime/scanner/Docker/credential/customer/delivery activity.
+
+See `docs/214-v06138-external-discovery-fail-closed-behavior-review-and-decision.md`.
