@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.140 - Mock/dry-run completed status terminology cleanup candidate
+
+- Added a reviewer-facing terminology helper for mock/dry-run `completed` records.
+- Added tests for dry-run completed, mock completed, no-real-execution completed, execution-blocked completed, ambiguous completed, non-completed status preservation, malformed status record handling, and evidence-safe output.
+- Preserved raw `completed` status behavior while adding reviewer-facing `mock_dry_run_completed_no_real_execution` terminology.
+- Deferred review and decision to v0.6.141.
+- Confirmed no runtime/scanner/Docker/credential/customer/delivery authorization, AAEF main issue/PR, issue command/URL, validator behavior change, schema change, public sample change, or AAEF Core/Profile/Practical Package promotion occurs.
+
+
+
 ## v0.6.139 - Next work selection using risk-tiered granularity
 
 - Applied the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.138 closed external_discovery=true fail-closed behavior.

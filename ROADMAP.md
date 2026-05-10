@@ -1612,3 +1612,9 @@ Likely next checkpoint: v0.6.139 Next Work Selection Using Risk-Tiered Granulari
 v0.6.139 selects mock/dry-run `completed` status terminology cleanup as the next Medium-risk work item.
 
 Next checkpoint: v0.6.140 Mock/Dry-Run Completed Status Terminology Cleanup Candidate.
+
+## v0.6.140 Mock/Dry-Run Completed Status Terminology Cleanup Candidate
+
+v0.6.140 implements the mock/dry-run `completed` status terminology cleanup candidate.
+
+Next checkpoint: v0.6.141 Mock/Dry-Run Completed Status Terminology Cleanup Review and Decision.
