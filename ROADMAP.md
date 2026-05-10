@@ -1582,3 +1582,9 @@ Next checkpoint: v0.6.134 Request/Decision Constraint-Diff Enforcement Review an
 v0.6.134 reviews and accepts the request/decision constraint-diff enforcement candidate and closes the High-risk work item.
 
 Likely next checkpoint: v0.6.135 Next Work Selection Using Risk-Tiered Granularity.
+
+## v0.6.135 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.135 selects external_discovery=true fail-closed behavior as the next High-risk work item.
+
+Next checkpoint: v0.6.136 External Discovery Fail-Closed Behavior Readiness.
