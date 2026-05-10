@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.141 - Mock/dry-run completed status terminology cleanup review and decision
+
+- Reviewed and accepted the v0.6.140 mock/dry-run `completed` status terminology cleanup candidate.
+- Closed the Medium-risk mock/dry-run completed status terminology cleanup work item.
+- Confirmed raw status compatibility, reviewer-facing no-real-execution terminology, ambiguous completed context review, non-completed status preservation, malformed record review handling, execution-blocked marker support, and evidence-safe result fields.
+- Confirmed no raw status rename, runtime behavior change, validator behavior change, schema change, public sample change, runtime/scanner/Docker/credential/customer/delivery authorization, AAEF main issue/PR, issue command/URL, or AAEF Core/Profile/Practical Package promotion occurs.
+
+
+
 ## v0.6.140 - Mock/dry-run completed status terminology cleanup candidate
 
 - Added a reviewer-facing terminology helper for mock/dry-run `completed` records.

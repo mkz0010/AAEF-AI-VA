@@ -1540,3 +1540,11 @@ v0.6.140 implements the mock/dry-run `completed` status terminology cleanup cand
 It adds a reviewer-facing terminology helper that preserves raw `completed` status values while labeling mock/dry-run or explicitly no-real-execution completed records as `mock_dry_run_completed_no_real_execution`. It does not modify raw status behavior, runtime behavior, validator behavior, schemas, public samples, or runtime/scanner/Docker/credential/customer/delivery authorization.
 
 See `docs/216-v06140-mock-dry-run-completed-status-terminology-cleanup-candidate.md`.
+
+## v0.6.141 Mock/Dry-Run Completed Status Terminology Cleanup Review and Decision
+
+v0.6.141 reviews and accepts the mock/dry-run `completed` status terminology cleanup candidate as checkpoint 2 of 2 for the Medium-risk work item selected in v0.6.139.
+
+It closes the work item after confirming raw status compatibility, reviewer-facing no-real-execution terminology, ambiguous completed context review, non-completed status preservation, malformed record review handling, execution-blocked marker support, and evidence-safe result fields. It does not rename raw `completed` status, modify runtime behavior, modify validator behavior, change schemas or public samples, or authorize runtime/scanner/Docker/credential/customer/delivery activity.
+
+See `docs/217-v06141-mock-dry-run-completed-status-terminology-cleanup-review-and-decision.md`.
