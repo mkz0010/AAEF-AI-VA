@@ -1570,3 +1570,9 @@ Next checkpoint: v0.6.132 Request/Decision Constraint-Diff Enforcement Readiness
 v0.6.132 prepares request/decision constraint-diff enforcement readiness as the High-risk readiness checkpoint.
 
 Next checkpoint: v0.6.133 Request/Decision Constraint-Diff Enforcement Candidate.
+
+## v0.6.133 Request/Decision Constraint-Diff Enforcement Candidate
+
+v0.6.133 implements the request/decision constraint-diff enforcement candidate.
+
+Next checkpoint: v0.6.134 Request/Decision Constraint-Diff Enforcement Review and Decision.

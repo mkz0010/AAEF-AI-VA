@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.133 - Request/decision constraint-diff enforcement candidate
+
+- Added a deterministic request/decision constraint-diff helper.
+- Added tests for exact match, tool/action mismatch, target mismatch, destination binding mismatch, target mode mismatch, scope mismatch, credential_ref mismatch, execution mode mismatch, external_discovery escalation, missing required fields, malformed inputs, and evidence-safe output.
+- Implemented candidate fail-closed behavior for material request/decision constraint drift.
+- Deferred review and decision to v0.6.134.
+- Confirmed no runtime/scanner/Docker/credential/customer/delivery authorization, AAEF main issue/PR, issue command/URL, validator behavior change, schema change, public sample change, or AAEF Core/Profile/Practical Package promotion occurs.
+
+
+
 ## v0.6.132 - Request/decision constraint-diff enforcement readiness
 
 - Prepared request/decision constraint-diff enforcement readiness as checkpoint 1 of 3 for the High-risk work item selected in v0.6.131.

@@ -1476,3 +1476,11 @@ v0.6.132 prepares request/decision constraint-diff enforcement readiness as chec
 It identifies comparison inputs, target discovery, expected candidate behavior, diff categories, fail-closed boundaries, tests to add or update, evidence boundaries, and non-goals. It does not implement constraint-diff enforcement, modify constraint-diff behavior, modify runtime behavior, reopen the AAEF main handback sequence, open an AAEF main issue, generate an issue command, or authorize runtime/scanner/Docker/credential/customer/delivery activity.
 
 See `docs/208-v06132-request-decision-constraint-diff-enforcement-readiness.md`.
+
+## v0.6.133 Request/Decision Constraint-Diff Enforcement Candidate
+
+v0.6.133 implements the request/decision constraint-diff enforcement candidate as checkpoint 2 of 3 for the High-risk gate-semantics work item selected in v0.6.131.
+
+It adds a deterministic, evidence-safe helper for comparing request constraints with authorization decision constraints and tests fail-closed behavior for material mismatches, missing required fields, malformed inputs, and external_discovery escalation. Review and decision are deferred to v0.6.134.
+
+See `docs/209-v06133-request-decision-constraint-diff-enforcement-candidate.md`.
