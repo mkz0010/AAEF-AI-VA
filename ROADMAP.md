@@ -1558,3 +1558,9 @@ Next checkpoint: v0.6.130 Authorization Expiry Current-Time Check Review and Dec
 v0.6.130 reviews and accepts the authorization expiry current-time check candidate and closes the High-risk work item.
 
 Likely next checkpoint: v0.6.131 Next Work Selection Using Risk-Tiered Granularity.
+
+## v0.6.131 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.131 selects request/decision constraint-diff enforcement as the next High-risk work item.
+
+Next checkpoint: v0.6.132 Request/Decision Constraint-Diff Enforcement Readiness.

@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.131 - Next work selection using risk-tiered granularity
+
+- Applied the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.130 closed authorization expiry current-time checking.
+- Selected request/decision constraint-diff enforcement as the next work item.
+- Classified the selected work item as High risk and assigned three checkpoints.
+- Completed this direction-selection decision as one Low-risk checkpoint.
+- Confirmed no constraint-diff behavior, validator behavior, schema, public sample, runtime, scanner, Docker, credential, customer, delivery, AAEF main issue, AAEF main PR, issue command, issue URL, or AAEF Core/Profile/Practical Package promotion occurs in this checkpoint.
+
+
+
 ## v0.6.130 - Authorization expiry current-time check review and decision
 
 - Reviewed and accepted the v0.6.129 authorization expiry current-time check candidate.
