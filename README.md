@@ -1603,3 +1603,11 @@ v0.6.148 applies the v0.6.120 risk-tiered checkpoint granularity policy after v0
 It selects Safe PoC Boundary Template as the next work item. The selected work item is classified as Medium risk because it is PoC-facing documentation that can affect customer/commercial evaluation framing, but should not change gate authorization semantics or runtime behavior. It should use two checkpoints: candidate implementation, then review and decision. This v0.6.148 direction-selection record is itself a Low-risk decision completed in one checkpoint. It does not create the Safe PoC Boundary Template, authorize a customer PoC, create a commercial contract, reopen the AAEF main handback sequence, open an AAEF main issue, generate an issue command, or authorize runtime/scanner/Docker/credential/customer/delivery activity.
 
 See `docs/224-v06148-next-work-selection-using-risk-tiered-granularity.md`.\n
+
+## v0.6.149 Safe PoC Boundary Template Candidate
+
+v0.6.149 creates the Safe PoC Boundary Template candidate as checkpoint 1 of 2 for the Medium-risk work item selected in v0.6.148.
+
+The template defines boundary information that would be required before a separately approved controlled PoC could be considered. It includes written authorization fields, parties and responsibilities, target scope, exclusions, time window, tool/action limits, AI request/gate boundary, credential/data handling, evidence retention/deletion, human review, stop conditions, communications/escalation, deliverables boundary, commercial/license boundary, pre-PoC checklist, not-allowed section, and conservative claim boundaries. It does not authorize a customer PoC, create a commercial contract, modify runtime behavior, modify validator behavior, change schemas or public samples, or authorize runtime/scanner/Docker/credential/customer/delivery activity.
+
+See `docs/safe-poc-boundary-template.md` and `docs/225-v06149-safe-poc-boundary-template-candidate.md`.

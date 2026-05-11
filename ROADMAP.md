@@ -1665,3 +1665,9 @@ Likely next checkpoint: v0.6.148 Next Work Selection Using Risk-Tiered Granulari
 v0.6.148 selects Safe PoC Boundary Template as the next Medium-risk work item.
 
 Next checkpoint: v0.6.149 Safe PoC Boundary Template Candidate.\n
+
+## v0.6.149 Safe PoC Boundary Template Candidate
+
+v0.6.149 creates the Safe PoC Boundary Template candidate.
+
+Next checkpoint: v0.6.150 Safe PoC Boundary Template Review and Decision.
