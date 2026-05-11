@@ -1619,3 +1619,11 @@ v0.6.150 reviews and accepts the Safe PoC Boundary Template candidate as checkpo
 It closes the work item after confirming the non-authorizing notice, written authorization fields, parties/responsibilities, target scope, exclusions, time window, tool/action limits, AI request/gate boundary, credential/data handling, evidence retention/deletion, human review, stop conditions, communications/escalation, deliverables boundary, commercial/license boundary, pre-PoC checklist, not-allowed section, non-authorizing boundary, and conservative claim boundaries. It does not create customer PoC approval, create a commercial contract, modify runtime behavior, modify validator behavior, change schemas or public samples, or approve runtime/scanner/Docker/credential/customer/delivery activity.
 
 See `docs/safe-poc-boundary-template.md` and `docs/226-v06150-safe-poc-boundary-template-review-and-decision.md`.
+
+## v0.6.151 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.151 applies the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.150 closed the Safe PoC Boundary Template work item.
+
+It selects Control Matrix as the next work item. The selected work item is classified as Medium risk because it is reviewer-facing documentation that can affect interpretation and may resemble a compliance or audit matrix if poorly scoped, but should not change gate authorization semantics or runtime behavior. It should use two checkpoints: candidate implementation, then review and decision. This v0.6.151 direction-selection record is itself a Low-risk decision completed in one checkpoint. It does not create the Control Matrix, authorize a customer PoC, create a commercial contract, reopen the AAEF main handback sequence, open an AAEF main issue, generate an issue command, or authorize runtime/scanner/Docker/credential/customer/delivery activity.
+
+See `docs/227-v06151-next-work-selection-using-risk-tiered-granularity.md`.

@@ -1677,3 +1677,9 @@ Next checkpoint: v0.6.150 Safe PoC Boundary Template Review and Decision.
 v0.6.150 reviews and accepts the Safe PoC Boundary Template candidate and closes the Medium-risk work item.
 
 Likely next checkpoint: v0.6.151 Next Work Selection Using Risk-Tiered Granularity.
+
+## v0.6.151 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.151 selects Control Matrix as the next Medium-risk work item.
+
+Next checkpoint: v0.6.152 Control Matrix Candidate.
