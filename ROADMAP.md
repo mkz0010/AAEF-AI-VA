@@ -1749,3 +1749,9 @@ Next checkpoint: v0.6.162 Public Review Entry Point Polish Review and Decision.
 v0.6.162 reviews and accepts the Public Review Entry Point Polish candidate and closes the Medium-risk work item.
 
 Likely next checkpoint: v0.6.163 Next Work Selection Using Risk-Tiered Granularity.
+
+## v0.6.163 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.163 selects Buyer-Facing Commercial Inquiry Boundary as the next Medium-risk work item.
+
+Next checkpoint: v0.6.164 Buyer-Facing Commercial Inquiry Boundary Candidate.

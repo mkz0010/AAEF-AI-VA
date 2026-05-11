@@ -1746,3 +1746,11 @@ v0.6.162 reviews and accepts the Public Review Entry Point Polish candidate as c
 It closes the work item after confirming the README public review entry point, External Review Package pointer, review-and-orientation-only language, non-authorizing notice, safe review order, separate authorization statement, and conservative claim boundaries. It does not create customer PoC approval, create a commercial contract, modify runtime behavior, modify validator behavior, change schemas or public samples, or approve runtime/scanner/Docker/credential/customer/delivery activity.
 
 See `docs/238-v06162-public-review-entry-point-polish-review-and-decision.md`.
+
+## v0.6.163 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.163 applies the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.162 closed the Public Review Entry Point Polish work item.
+
+It selects Buyer-Facing Commercial Inquiry Boundary as the next work item. The selected work item is classified as Medium risk because public buyer-facing and commercial-inquiry wording can influence external reader interpretation, but should not change gate authorization semantics or runtime behavior. It should use two checkpoints: candidate implementation, then review and decision. This v0.6.163 direction-selection record is itself a Low-risk decision completed in one checkpoint. It does not create a commercial inquiry boundary, authorize a customer PoC, create a commercial contract, create commercial license terms, approve a paid engagement, reopen the AAEF main handback sequence, open an AAEF main issue, generate an issue command, or authorize runtime/scanner/Docker/credential/customer/delivery activity.
+
+See `docs/239-v06163-next-work-selection-using-risk-tiered-granularity.md`.

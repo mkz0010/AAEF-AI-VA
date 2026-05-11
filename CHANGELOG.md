@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.163 - Next work selection using risk-tiered granularity
+
+- Applied the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.162 closed the Public Review Entry Point Polish work item.
+- Selected Buyer-Facing Commercial Inquiry Boundary as the next work item.
+- Classified the selected work item as Medium risk and assigned two checkpoints.
+- Completed this direction-selection decision as one Low-risk checkpoint.
+- Confirmed no commercial inquiry boundary creation, README commercial inquiry modification, customer PoC authorization, commercial contract, commercial license terms, paid engagement approval, customer-specific material, validator behavior, schema, public sample, runtime, scanner, Docker, credential, customer, delivery, AAEF main issue, AAEF main PR, issue command, issue URL, certification claim, legal compliance claim, audit opinion claim, production readiness claim, external-framework equivalence claim, diagnostic completeness claim, third-party testing authorization claim, or AAEF Core/Profile/Practical Package promotion occurs in this checkpoint.
+
+
+
 ## v0.6.162 - Public Review Entry Point Polish review and decision
 
 - Reviewed and accepted the v0.6.161 Public Review Entry Point Polish candidate.
