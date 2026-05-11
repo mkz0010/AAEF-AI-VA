@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.6.165 - Buyer-Facing Commercial Inquiry Boundary review and decision
+
+- Reviewed and accepted the v0.6.164 Buyer-Facing Commercial Inquiry Boundary candidate.
+- Closed the Medium-risk Buyer-Facing Commercial Inquiry Boundary work item.
+- Accepted the email-based inquiry model and maintainer-provided inquiry address model.
+- Deferred actual inquiry address publication to a dedicated contact-publication checkpoint.
+- Confirmed allowed inquiry topics, topics requiring separate agreement, not-a-contract notice, no-paid-engagement approval, no-customer-PoC authorization, no-runtime/scanner authorization, no-credential/customer/delivery authorization, External Review Package relationship, Safe PoC Boundary Template relationship, licensing/commercial-use boundary, public/private material boundary, and conservative claim boundaries.
+- Confirmed no inquiry address publication, customer PoC approval, commercial contract creation, commercial license terms publication, paid engagement approval, customer-specific material, runtime/scanner/Docker/credential/customer/delivery approval, AAEF main issue/PR, issue command/URL, validator behavior change, schema change, public sample change, certification claim, legal compliance claim, audit opinion claim, production readiness claim, external-framework equivalence claim, diagnostic completeness claim, third-party testing authorization claim, or AAEF Core/Profile/Practical Package promotion occurs.
+
+
+
 ## v0.6.164 - Buyer-Facing Commercial Inquiry Boundary candidate
 
 - Added `docs/buyer-facing-commercial-inquiry-boundary.md`.

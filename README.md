@@ -1778,3 +1778,11 @@ Commercial inquiry is not scanner approval.
 Commercial inquiry is not delivery approval.
 
 Customer PoC, paid engagement, commercial license terms, runtime/scanner execution, credential use, customer targets, and delivery require separate written authorization or agreement.
+
+## v0.6.165 Buyer-Facing Commercial Inquiry Boundary Review and Decision
+
+v0.6.165 reviews and accepts the Buyer-Facing Commercial Inquiry Boundary candidate as checkpoint 2 of 2 for the Medium-risk work item selected in v0.6.163.
+
+It closes the work item after confirming the email-based inquiry model, maintainer-provided inquiry address model, allowed inquiry topics, topics requiring separate agreement, not-a-contract notice, no-paid-engagement approval, no-customer-PoC authorization, no-runtime/scanner authorization, no-credential/customer/delivery authorization, External Review Package relationship, Safe PoC Boundary Template relationship, licensing/commercial-use boundary, public/private material boundary, and conservative claim boundaries. Actual inquiry address publication is deferred to a dedicated contact-publication checkpoint.
+
+See `docs/241-v06165-buyer-facing-commercial-inquiry-boundary-review-and-decision.md`.

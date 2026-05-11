@@ -1761,3 +1761,9 @@ Next checkpoint: v0.6.164 Buyer-Facing Commercial Inquiry Boundary Candidate.
 v0.6.164 creates the Buyer-Facing Commercial Inquiry Boundary candidate.
 
 Next checkpoint: v0.6.165 Buyer-Facing Commercial Inquiry Boundary Review and Decision.
+
+## v0.6.165 Buyer-Facing Commercial Inquiry Boundary Review and Decision
+
+v0.6.165 reviews and accepts the Buyer-Facing Commercial Inquiry Boundary candidate and closes the Medium-risk work item.
+
+Next checkpoint: v0.6.166 Maintainer Inquiry Address Publication Candidate.
