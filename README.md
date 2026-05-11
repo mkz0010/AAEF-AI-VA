@@ -1611,3 +1611,11 @@ v0.6.149 creates the Safe PoC Boundary Template candidate as checkpoint 1 of 2 f
 The template defines boundary information that would be required before a separately approved controlled PoC could be considered. It includes written authorization fields, parties and responsibilities, target scope, exclusions, time window, tool/action limits, AI request/gate boundary, credential/data handling, evidence retention/deletion, human review, stop conditions, communications/escalation, deliverables boundary, commercial/license boundary, pre-PoC checklist, not-allowed section, and conservative claim boundaries. It does not authorize a customer PoC, create a commercial contract, modify runtime behavior, modify validator behavior, change schemas or public samples, or authorize runtime/scanner/Docker/credential/customer/delivery activity.
 
 See `docs/safe-poc-boundary-template.md` and `docs/225-v06149-safe-poc-boundary-template-candidate.md`.
+
+## v0.6.150 Safe PoC Boundary Template Review and Decision
+
+v0.6.150 reviews and accepts the Safe PoC Boundary Template candidate as checkpoint 2 of 2 for the Medium-risk work item selected in v0.6.148.
+
+It closes the work item after confirming the non-authorizing notice, written authorization fields, parties/responsibilities, target scope, exclusions, time window, tool/action limits, AI request/gate boundary, credential/data handling, evidence retention/deletion, human review, stop conditions, communications/escalation, deliverables boundary, commercial/license boundary, pre-PoC checklist, not-allowed section, non-authorizing boundary, and conservative claim boundaries. It does not create customer PoC approval, create a commercial contract, modify runtime behavior, modify validator behavior, change schemas or public samples, or approve runtime/scanner/Docker/credential/customer/delivery activity.
+
+See `docs/safe-poc-boundary-template.md` and `docs/226-v06150-safe-poc-boundary-template-review-and-decision.md`.

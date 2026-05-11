@@ -1671,3 +1671,9 @@ Next checkpoint: v0.6.149 Safe PoC Boundary Template Candidate.\n
 v0.6.149 creates the Safe PoC Boundary Template candidate.
 
 Next checkpoint: v0.6.150 Safe PoC Boundary Template Review and Decision.
+
+## v0.6.150 Safe PoC Boundary Template Review and Decision
+
+v0.6.150 reviews and accepts the Safe PoC Boundary Template candidate and closes the Medium-risk work item.
+
+Likely next checkpoint: v0.6.151 Next Work Selection Using Risk-Tiered Granularity.

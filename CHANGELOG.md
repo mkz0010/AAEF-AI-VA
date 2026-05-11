@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.150 - Safe PoC Boundary Template review and decision
+
+- Reviewed and accepted the v0.6.149 Safe PoC Boundary Template candidate.
+- Closed the Medium-risk Safe PoC Boundary Template work item.
+- Confirmed non-authorizing notice, written authorization fields, parties/responsibilities, target scope, exclusions, time window, tool/action limits, AI request/gate boundary, credential/data handling, evidence retention/deletion, human review, stop conditions, communications/escalation, deliverables boundary, commercial/license boundary, pre-PoC checklist, not-allowed section, non-authorizing boundary, and conservative claim boundaries.
+- Confirmed no customer PoC approval, commercial contract creation, runtime/scanner/Docker/credential/customer/delivery approval, AAEF main issue/PR, issue command/URL, validator behavior change, schema change, public sample change, certification claim, legal compliance claim, audit opinion claim, production readiness claim, external-framework equivalence claim, diagnostic completeness claim, third-party testing authorization claim, or AAEF Core/Profile/Practical Package promotion occurs.
+
+
+
 ## v0.6.149 - Safe PoC Boundary Template candidate
 
 - Added `docs/safe-poc-boundary-template.md`.
