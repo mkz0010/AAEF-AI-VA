@@ -1699,3 +1699,42 @@ v0.6.160 applies the v0.6.120 risk-tiered checkpoint granularity policy after v0
 It selects Public Review Entry Point Polish as the next work item. The selected work item is classified as Medium risk because public-facing entry-point wording can influence external reviewer, buyer, sponsor, maintainer, and commercial-reader interpretation, but should not change gate authorization semantics or runtime behavior. It should use two checkpoints: candidate implementation, then review and decision. This v0.6.160 direction-selection record is itself a Low-risk decision completed in one checkpoint. It does not modify the README public entry point, authorize a customer PoC, create a commercial contract, reopen the AAEF main handback sequence, open an AAEF main issue, generate an issue command, or authorize runtime/scanner/Docker/credential/customer/delivery activity.
 
 See `docs/236-v06160-next-work-selection-using-risk-tiered-granularity.md`.
+
+## Public Review Entry Point
+
+For external review, start with `docs/external-review-package.md`.
+
+This entry point is for review and orientation only.
+
+Core boundary proposition:
+
+~~~text
+AI output is a request; gates decide execution.
+~~~
+
+Recommended review path:
+
+1. `docs/external-review-package.md`
+2. `docs/reviewer-walkthrough.md`
+3. `docs/control-matrix.md`
+4. `docs/technical-due-diligence-summary.md`
+5. `docs/enterprise-review-guide.md`
+6. `docs/safe-poc-boundary-template.md`
+
+Use this path to review boundaries, not to approve real-world action.
+
+It does not authorize a PoC.
+
+It does not approve runtime execution.
+
+It does not approve scanner execution.
+
+It does not grant permission to test any system.
+
+It does not create a commercial contract.
+
+It does not approve customer delivery.
+
+Customer PoC, commercial terms, runtime/scanner execution, credential use, customer targets, and delivery require separate authorization.
+
+Do not interpret this entry point as certification, legal compliance determination, audit opinion, audit sufficiency determination, production readiness, diagnostic completeness, external-framework equivalence, third-party testing authorization, or promotion into AAEF Core, Profile, or Practical Package status.
