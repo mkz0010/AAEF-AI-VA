@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.158 - External Review Package Integration candidate
+
+- Added `docs/external-review-package.md`.
+- Added the v0.6.158 External Review Package Integration candidate record.
+- Added tests for package structure, document inventory, recommended entry points, reviewer paths, evidence/test-family index, boundary/non-goal summary, package-level claim boundaries, Safe PoC Template guidance, outside-public-package boundaries, v0.6.157 selection continuity, and absence of forbidden affirmative claims.
+- Deferred review and decision to v0.6.159.
+- Confirmed no customer PoC approval, commercial contract creation, runtime/scanner/Docker/credential/customer/delivery approval, AAEF main issue/PR, issue command/URL, validator behavior change, schema change, public sample change, certification claim, legal compliance claim, audit opinion claim, production readiness claim, external-framework equivalence claim, diagnostic completeness claim, third-party testing authorization claim, or AAEF Core/Profile/Practical Package promotion occurs.
+
+
+
 ## v0.6.157 - Next work selection using risk-tiered granularity
 
 - Applied the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.156 closed the Reviewer Walkthrough work item.

@@ -1675,3 +1675,11 @@ v0.6.157 applies the v0.6.120 risk-tiered checkpoint granularity policy after v0
 It selects External Review Package Integration as the next work item. The selected work item is classified as Medium risk because it is external-review-facing documentation that can influence buyer, technical reviewer, sponsor, maintainer, and commercial-reviewer interpretation, but should not change gate authorization semantics or runtime behavior. It should use two checkpoints: candidate implementation, then review and decision. This v0.6.157 direction-selection record is itself a Low-risk decision completed in one checkpoint. It does not create the External Review Package, authorize a customer PoC, create a commercial contract, reopen the AAEF main handback sequence, open an AAEF main issue, generate an issue command, or authorize runtime/scanner/Docker/credential/customer/delivery activity.
 
 See `docs/233-v06157-next-work-selection-using-risk-tiered-granularity.md`.
+
+## v0.6.158 External Review Package Integration Candidate
+
+v0.6.158 creates the External Review Package Integration candidate as checkpoint 1 of 2 for the Medium-risk work item selected in v0.6.157.
+
+The package gives external reviewers a single safe entry point for README positioning, Enterprise Review Guide, Technical Due Diligence Summary, Safe PoC Boundary Template, Control Matrix, Reviewer Walkthrough, evidence/test-family review paths, version records, and package-level claim boundaries. It does not create a deployment guide, scanner operation guide, customer PoC approval, commercial contract, runtime/scanner/Docker/credential/customer/delivery approval, validator behavior change, schema change, or public sample change.
+
+See `docs/external-review-package.md` and `docs/234-v06158-external-review-package-integration-candidate.md`.

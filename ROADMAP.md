@@ -1719,3 +1719,9 @@ Likely next checkpoint: v0.6.157 Next Work Selection Using Risk-Tiered Granulari
 v0.6.157 selects External Review Package Integration as the next Medium-risk work item.
 
 Next checkpoint: v0.6.158 External Review Package Integration Candidate.
+
+## v0.6.158 External Review Package Integration Candidate
+
+v0.6.158 creates the External Review Package Integration candidate.
+
+Next checkpoint: v0.6.159 External Review Package Integration Review and Decision.
