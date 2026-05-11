@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.146 - Technical Due Diligence Summary candidate
+
+- Added `docs/technical-due-diligence-summary.md`.
+- Added the v0.6.146 Technical Due Diligence Summary candidate record.
+- Added tests for summary structure, required technical-review sections, conservative claim boundaries, v0.6.145 selection continuity, and absence of forbidden affirmative claims.
+- Deferred review and decision to v0.6.147.
+- Confirmed no runtime/scanner/Docker/credential/customer/delivery authorization, AAEF main issue/PR, issue command/URL, validator behavior change, schema change, public sample change, certification claim, legal compliance claim, audit opinion claim, production readiness claim, external-framework equivalence claim, diagnostic completeness claim, third-party testing authorization claim, or AAEF Core/Profile/Practical Package promotion occurs.
+
+
+
 ## v0.6.145 - Next work selection using risk-tiered granularity
 
 - Applied the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.144 closed the Enterprise Review Guide work item.
