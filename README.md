@@ -1564,3 +1564,11 @@ v0.6.143 creates the Enterprise Review Guide candidate as checkpoint 1 of 2 for 
 The guide is for enterprise reviewers, vulnerability assessment company decision-makers, security architects, and technical reviewers. It explains what AAEF-AI-VA demonstrates, what it does not demonstrate, what reviewers should inspect, and which claim boundaries remain conservative. It does not modify runtime behavior, validator behavior, schemas, public samples, or runtime/scanner/Docker/credential/customer/delivery authorization.
 
 See `docs/enterprise-review-guide.md` and `docs/219-v06143-enterprise-review-guide-candidate.md`.
+
+## v0.6.144 Enterprise Review Guide Review and Decision
+
+v0.6.144 reviews and accepts the Enterprise Review Guide candidate as checkpoint 2 of 2 for the Medium-risk work item selected in v0.6.142.
+
+It closes the work item after confirming reader fit, project positioning, evidence review questions, gate-semantics review questions, demo boundary, deployment due-diligence prompts, commercial evaluation boundary, non-authorizing boundary, and conservative claim boundaries. It does not modify runtime behavior, validator behavior, schemas, public samples, or runtime/scanner/Docker/credential/customer/delivery authorization.
+
+See `docs/enterprise-review-guide.md` and `docs/220-v06144-enterprise-review-guide-review-and-decision.md`.

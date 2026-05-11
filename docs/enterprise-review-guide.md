@@ -202,7 +202,7 @@ Do not interpret this guide as:
 * complete vulnerability assessment capability,
 * authorization for testing third-party systems,
 * equivalence mapping to external frameworks,
-* proof that AI can safely run tools without gates,
+* proof that gate-free AI tool execution is acceptable,
 * promotion of AAEF-AI-VA into AAEF Core, Profile, or Practical Package status.
 
 Allowed interpretation:

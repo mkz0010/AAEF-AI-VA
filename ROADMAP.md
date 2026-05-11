@@ -1636,3 +1636,9 @@ Next checkpoint: v0.6.143 Enterprise Review Guide Candidate.
 v0.6.143 creates the Enterprise Review Guide candidate.
 
 Next checkpoint: v0.6.144 Enterprise Review Guide Review and Decision.
+
+## v0.6.144 Enterprise Review Guide Review and Decision
+
+v0.6.144 reviews and accepts the Enterprise Review Guide candidate and closes the Medium-risk work item.
+
+Likely next checkpoint: v0.6.145 Next Work Selection Using Risk-Tiered Granularity.

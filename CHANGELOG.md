@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.144 - Enterprise Review Guide review and decision
+
+- Reviewed and accepted the v0.6.143 Enterprise Review Guide candidate.
+- Closed the Medium-risk Enterprise Review Guide work item.
+- Confirmed reader fit, project positioning, evidence review questions, gate-semantics review questions, demo boundary, deployment due-diligence prompts, commercial evaluation boundary, non-authorizing boundary, and conservative claim boundaries.
+- Confirmed no runtime/scanner/Docker/credential/customer/delivery authorization, AAEF main issue/PR, issue command/URL, validator behavior change, schema change, public sample change, certification claim, legal compliance claim, audit opinion claim, production readiness claim, external-framework equivalence claim, diagnostic completeness claim, third-party testing authorization claim, or AAEF Core/Profile/Practical Package promotion occurs.
+
+
+
 ## v0.6.143 - Enterprise Review Guide candidate
 
 - Added `docs/enterprise-review-guide.md`.
