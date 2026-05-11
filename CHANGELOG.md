@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.6.164 - Buyer-Facing Commercial Inquiry Boundary candidate
+
+- Added `docs/buyer-facing-commercial-inquiry-boundary.md`.
+- Added a README Commercial Inquiry Boundary entry.
+- Added the v0.6.164 Buyer-Facing Commercial Inquiry Boundary candidate record.
+- Selected email-based inquiry as the contact model without committing an unapproved public email address.
+- Added tests for commercial inquiry boundary language, README commercial inquiry entry language, not-a-contract language, no-paid-engagement approval, no-customer-PoC authorization, no-runtime/scanner authorization, no-credential/customer/delivery authorization, public/private material boundary, v0.6.163 selection continuity, and absence of forbidden affirmative claims.
+- Deferred review and decision to v0.6.165.
+- Confirmed no customer PoC approval, commercial contract creation, commercial license terms, paid engagement approval, customer-specific material, runtime/scanner/Docker/credential/customer/delivery approval, AAEF main issue/PR, issue command/URL, validator behavior change, schema change, public sample change, certification claim, legal compliance claim, audit opinion claim, production readiness claim, external-framework equivalence claim, diagnostic completeness claim, third-party testing authorization claim, or AAEF Core/Profile/Practical Package promotion occurs.
+
+
+
 ## v0.6.163 - Next work selection using risk-tiered granularity
 
 - Applied the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.162 closed the Public Review Entry Point Polish work item.

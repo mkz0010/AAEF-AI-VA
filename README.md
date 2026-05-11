@@ -1754,3 +1754,27 @@ v0.6.163 applies the v0.6.120 risk-tiered checkpoint granularity policy after v0
 It selects Buyer-Facing Commercial Inquiry Boundary as the next work item. The selected work item is classified as Medium risk because public buyer-facing and commercial-inquiry wording can influence external reader interpretation, but should not change gate authorization semantics or runtime behavior. It should use two checkpoints: candidate implementation, then review and decision. This v0.6.163 direction-selection record is itself a Low-risk decision completed in one checkpoint. It does not create a commercial inquiry boundary, authorize a customer PoC, create a commercial contract, create commercial license terms, approve a paid engagement, reopen the AAEF main handback sequence, open an AAEF main issue, generate an issue command, or authorize runtime/scanner/Docker/credential/customer/delivery activity.
 
 See `docs/239-v06163-next-work-selection-using-risk-tiered-granularity.md`.
+
+## Commercial Inquiry Boundary
+
+Commercial inquiry is welcome as a boundary discussion, but inquiry is not authorization.
+
+Email-based inquiry is the selected contact model.
+
+This repository does not commit an email address in this candidate.
+
+Use the maintainer-provided email address when it is published or otherwise provided by the maintainer.
+
+Start with `docs/buyer-facing-commercial-inquiry-boundary.md`.
+
+Commercial inquiry is not a contract.
+
+Commercial inquiry is not PoC approval.
+
+Commercial inquiry is not runtime approval.
+
+Commercial inquiry is not scanner approval.
+
+Commercial inquiry is not delivery approval.
+
+Customer PoC, paid engagement, commercial license terms, runtime/scanner execution, credential use, customer targets, and delivery require separate written authorization or agreement.
