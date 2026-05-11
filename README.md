@@ -1683,3 +1683,11 @@ v0.6.158 creates the External Review Package Integration candidate as checkpoint
 The package gives external reviewers a single safe entry point for README positioning, Enterprise Review Guide, Technical Due Diligence Summary, Safe PoC Boundary Template, Control Matrix, Reviewer Walkthrough, evidence/test-family review paths, version records, and package-level claim boundaries. It does not create a deployment guide, scanner operation guide, customer PoC approval, commercial contract, runtime/scanner/Docker/credential/customer/delivery approval, validator behavior change, schema change, or public sample change.
 
 See `docs/external-review-package.md` and `docs/234-v06158-external-review-package-integration-candidate.md`.
+
+## v0.6.159 External Review Package Integration Review and Decision
+
+v0.6.159 reviews and accepts the External Review Package Integration candidate as checkpoint 2 of 2 for the Medium-risk work item selected in v0.6.157.
+
+It closes the work item after confirming reader fit, non-authorizing notice, document inventory, recommended entry points, reviewer paths, evidence/test-family index, boundary and non-goal summary, package-level claim-boundary summary, questions the package can and cannot answer, Safe PoC Boundary Template guidance, when not to request a PoC, outside-public-package boundary, explicit non-goals, and conservative claim boundaries. It does not create customer PoC approval, create a commercial contract, modify runtime behavior, modify validator behavior, change schemas or public samples, or approve runtime/scanner/Docker/credential/customer/delivery activity.
+
+See `docs/external-review-package.md` and `docs/235-v06159-external-review-package-integration-review-and-decision.md`.

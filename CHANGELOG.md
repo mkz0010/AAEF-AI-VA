@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.159 - External Review Package Integration review and decision
+
+- Reviewed and accepted the v0.6.158 External Review Package Integration candidate.
+- Closed the Medium-risk External Review Package Integration work item.
+- Confirmed reader fit, non-authorizing notice, document inventory, recommended entry points, reviewer paths, evidence/test-family index, boundary and non-goal summary, package-level claim-boundary summary, questions the package can and cannot answer, Safe PoC Boundary Template guidance, when not to request a PoC, outside-public-package boundary, explicit non-goals, and conservative claim boundaries.
+- Confirmed no customer PoC approval, commercial contract creation, runtime/scanner/Docker/credential/customer/delivery approval, AAEF main issue/PR, issue command/URL, validator behavior change, schema change, public sample change, certification claim, legal compliance claim, audit opinion claim, production readiness claim, external-framework equivalence claim, diagnostic completeness claim, third-party testing authorization claim, or AAEF Core/Profile/Practical Package promotion occurs.
+
+
+
 ## v0.6.158 - External Review Package Integration candidate
 
 - Added `docs/external-review-package.md`.
