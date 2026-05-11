@@ -1667,3 +1667,11 @@ v0.6.156 reviews and accepts the Reviewer Walkthrough candidate as checkpoint 2 
 It closes the work item after confirming reader fit, non-authorizing notice, suggested reading sequence, first-pass review path, technical due-diligence review path, PoC-boundary review path, Control Matrix review path, evidence/test-family inspection path, claim-boundary inspection path, questions before asking for a PoC, reviewer outputs, interpretation limits, explicit non-goals, and conservative claim boundaries. It does not create customer PoC approval, create a commercial contract, modify runtime behavior, modify validator behavior, change schemas or public samples, or approve runtime/scanner/Docker/credential/customer/delivery activity.
 
 See `docs/reviewer-walkthrough.md` and `docs/232-v06156-reviewer-walkthrough-review-and-decision.md`.
+
+## v0.6.157 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.157 applies the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.156 closed the Reviewer Walkthrough work item.
+
+It selects External Review Package Integration as the next work item. The selected work item is classified as Medium risk because it is external-review-facing documentation that can influence buyer, technical reviewer, sponsor, maintainer, and commercial-reviewer interpretation, but should not change gate authorization semantics or runtime behavior. It should use two checkpoints: candidate implementation, then review and decision. This v0.6.157 direction-selection record is itself a Low-risk decision completed in one checkpoint. It does not create the External Review Package, authorize a customer PoC, create a commercial contract, reopen the AAEF main handback sequence, open an AAEF main issue, generate an issue command, or authorize runtime/scanner/Docker/credential/customer/delivery activity.
+
+See `docs/233-v06157-next-work-selection-using-risk-tiered-granularity.md`.

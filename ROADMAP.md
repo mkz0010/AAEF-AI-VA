@@ -1713,3 +1713,9 @@ Next checkpoint: v0.6.156 Reviewer Walkthrough Review and Decision.
 v0.6.156 reviews and accepts the Reviewer Walkthrough candidate and closes the Medium-risk work item.
 
 Likely next checkpoint: v0.6.157 Next Work Selection Using Risk-Tiered Granularity.
+
+## v0.6.157 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.157 selects External Review Package Integration as the next Medium-risk work item.
+
+Next checkpoint: v0.6.158 External Review Package Integration Candidate.
