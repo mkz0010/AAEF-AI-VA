@@ -1691,3 +1691,11 @@ v0.6.159 reviews and accepts the External Review Package Integration candidate a
 It closes the work item after confirming reader fit, non-authorizing notice, document inventory, recommended entry points, reviewer paths, evidence/test-family index, boundary and non-goal summary, package-level claim-boundary summary, questions the package can and cannot answer, Safe PoC Boundary Template guidance, when not to request a PoC, outside-public-package boundary, explicit non-goals, and conservative claim boundaries. It does not create customer PoC approval, create a commercial contract, modify runtime behavior, modify validator behavior, change schemas or public samples, or approve runtime/scanner/Docker/credential/customer/delivery activity.
 
 See `docs/external-review-package.md` and `docs/235-v06159-external-review-package-integration-review-and-decision.md`.
+
+## v0.6.160 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.160 applies the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.159 closed the External Review Package Integration work item.
+
+It selects Public Review Entry Point Polish as the next work item. The selected work item is classified as Medium risk because public-facing entry-point wording can influence external reviewer, buyer, sponsor, maintainer, and commercial-reader interpretation, but should not change gate authorization semantics or runtime behavior. It should use two checkpoints: candidate implementation, then review and decision. This v0.6.160 direction-selection record is itself a Low-risk decision completed in one checkpoint. It does not modify the README public entry point, authorize a customer PoC, create a commercial contract, reopen the AAEF main handback sequence, open an AAEF main issue, generate an issue command, or authorize runtime/scanner/Docker/credential/customer/delivery activity.
+
+See `docs/236-v06160-next-work-selection-using-risk-tiered-granularity.md`.

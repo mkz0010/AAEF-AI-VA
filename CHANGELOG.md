@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.160 - Next work selection using risk-tiered granularity
+
+- Applied the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.159 closed the External Review Package Integration work item.
+- Selected Public Review Entry Point Polish as the next work item.
+- Classified the selected work item as Medium risk and assigned two checkpoints.
+- Completed this direction-selection decision as one Low-risk checkpoint.
+- Confirmed no README/public-entry modification, customer PoC authorization, commercial contract, validator behavior, schema, public sample, runtime, scanner, Docker, credential, customer, delivery, AAEF main issue, AAEF main PR, issue command, issue URL, certification claim, legal compliance claim, audit opinion claim, production readiness claim, external-framework equivalence claim, diagnostic completeness claim, third-party testing authorization claim, or AAEF Core/Profile/Practical Package promotion occurs in this checkpoint.
+
+
+
 ## v0.6.159 - External Review Package Integration review and decision
 
 - Reviewed and accepted the v0.6.158 External Review Package Integration candidate.

@@ -1731,3 +1731,9 @@ Next checkpoint: v0.6.159 External Review Package Integration Review and Decisio
 v0.6.159 reviews and accepts the External Review Package Integration candidate and closes the Medium-risk work item.
 
 Likely next checkpoint: v0.6.160 Next Work Selection Using Risk-Tiered Granularity.
+
+## v0.6.160 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.160 selects Public Review Entry Point Polish as the next Medium-risk work item.
+
+Next checkpoint: v0.6.161 Public Review Entry Point Polish Candidate.
