@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.156 - Reviewer Walkthrough review and decision
+
+- Reviewed and accepted the v0.6.155 Reviewer Walkthrough candidate.
+- Closed the Medium-risk Reviewer Walkthrough work item.
+- Confirmed reader fit, non-authorizing notice, suggested reading sequence, first-pass review path, technical due-diligence review path, PoC-boundary review path, Control Matrix review path, evidence/test-family inspection path, claim-boundary inspection path, questions before asking for a PoC, reviewer outputs, interpretation limits, explicit non-goals, and conservative claim boundaries.
+- Confirmed no customer PoC approval, commercial contract creation, runtime/scanner/Docker/credential/customer/delivery approval, AAEF main issue/PR, issue command/URL, validator behavior change, schema change, public sample change, certification claim, legal compliance claim, audit opinion claim, production readiness claim, external-framework equivalence claim, diagnostic completeness claim, third-party testing authorization claim, or AAEF Core/Profile/Practical Package promotion occurs.
+
+
+
 ## v0.6.155 - Reviewer Walkthrough candidate
 
 - Added `docs/reviewer-walkthrough.md`.

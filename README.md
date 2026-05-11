@@ -1659,3 +1659,11 @@ v0.6.155 creates the Reviewer Walkthrough candidate as checkpoint 1 of 2 for the
 The walkthrough gives reviewers a safe reading path through README, Enterprise Review Guide, Technical Due Diligence Summary, Safe PoC Boundary Template, Control Matrix, relevant test families, and current version records. It includes a first-pass review path, technical due-diligence path, PoC-boundary path, Control Matrix path, evidence/test-family path, claim-boundary path, questions before asking for a PoC, reviewer outputs, interpretation limits, explicit non-goals, and conservative claim boundaries. It does not create a deployment guide, scanner operation guide, customer PoC approval, commercial contract, runtime/scanner/Docker/credential/customer/delivery approval, validator behavior change, schema change, or public sample change.
 
 See `docs/reviewer-walkthrough.md` and `docs/231-v06155-reviewer-walkthrough-candidate.md`.
+
+## v0.6.156 Reviewer Walkthrough Review and Decision
+
+v0.6.156 reviews and accepts the Reviewer Walkthrough candidate as checkpoint 2 of 2 for the Medium-risk work item selected in v0.6.154.
+
+It closes the work item after confirming reader fit, non-authorizing notice, suggested reading sequence, first-pass review path, technical due-diligence review path, PoC-boundary review path, Control Matrix review path, evidence/test-family inspection path, claim-boundary inspection path, questions before asking for a PoC, reviewer outputs, interpretation limits, explicit non-goals, and conservative claim boundaries. It does not create customer PoC approval, create a commercial contract, modify runtime behavior, modify validator behavior, change schemas or public samples, or approve runtime/scanner/Docker/credential/customer/delivery activity.
+
+See `docs/reviewer-walkthrough.md` and `docs/232-v06156-reviewer-walkthrough-review-and-decision.md`.
