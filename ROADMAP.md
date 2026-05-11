@@ -1660,3 +1660,8 @@ Next checkpoint: v0.6.147 Technical Due Diligence Summary Review and Decision.
 v0.6.147 reviews and accepts the Technical Due Diligence Summary candidate and closes the Medium-risk work item.
 
 Likely next checkpoint: v0.6.148 Next Work Selection Using Risk-Tiered Granularity.
+\n\n## v0.6.148 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.148 selects Safe PoC Boundary Template as the next Medium-risk work item.
+
+Next checkpoint: v0.6.149 Safe PoC Boundary Template Candidate.\n

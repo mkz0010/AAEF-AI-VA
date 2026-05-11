@@ -1596,3 +1596,10 @@ v0.6.147 reviews and accepts the Technical Due Diligence Summary candidate as ch
 It closes the work item after confirming technical reviewer fit, technical positioning, control surface, repository review surface, evidence paths, gate-semantics checks, non-execution boundaries, runtime boundary, credential/data boundary, public/private artifact boundary, due-diligence questions, review artifacts, follow-on PoC boundary, non-authorizing boundary, and conservative claim boundaries. It does not modify runtime behavior, validator behavior, schemas, public samples, or runtime/scanner/Docker/credential/customer/delivery authorization.
 
 See `docs/technical-due-diligence-summary.md` and `docs/223-v06147-technical-due-diligence-summary-review-and-decision.md`.
+\n\n## v0.6.148 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.148 applies the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.147 closed the Technical Due Diligence Summary work item.
+
+It selects Safe PoC Boundary Template as the next work item. The selected work item is classified as Medium risk because it is PoC-facing documentation that can affect customer/commercial evaluation framing, but should not change gate authorization semantics or runtime behavior. It should use two checkpoints: candidate implementation, then review and decision. This v0.6.148 direction-selection record is itself a Low-risk decision completed in one checkpoint. It does not create the Safe PoC Boundary Template, authorize a customer PoC, create a commercial contract, reopen the AAEF main handback sequence, open an AAEF main issue, generate an issue command, or authorize runtime/scanner/Docker/credential/customer/delivery activity.
+
+See `docs/224-v06148-next-work-selection-using-risk-tiered-granularity.md`.\n

@@ -1,4 +1,10 @@
-# Changelog
+# Changelog\n\n## v0.6.148 - Next work selection using risk-tiered granularity
+
+- Applied the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.147 closed the Technical Due Diligence Summary work item.
+- Selected Safe PoC Boundary Template as the next work item.
+- Classified the selected work item as Medium risk and assigned two checkpoints.
+- Completed this direction-selection decision as one Low-risk checkpoint.
+- Confirmed no Safe PoC Boundary Template, customer PoC authorization, commercial contract, validator behavior, schema, public sample, runtime, scanner, Docker, credential, customer, delivery, AAEF main issue, AAEF main PR, issue command, issue URL, certification claim, legal compliance claim, audit opinion claim, production readiness claim, external-framework equivalence claim, diagnostic completeness claim, third-party testing authorization claim, or AAEF Core/Profile/Practical Package promotion occurs in this checkpoint.\n\n
 
 ## v0.6.147 - Technical Due Diligence Summary review and decision
 
