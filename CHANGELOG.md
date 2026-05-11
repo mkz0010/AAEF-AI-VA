@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.152 - Control Matrix candidate
+
+- Added `docs/control-matrix.md`.
+- Added the v0.6.152 Control Matrix candidate record.
+- Added tests for matrix structure, required matrix rows, row columns, conservative claim boundaries, v0.6.151 selection continuity, and absence of forbidden affirmative claims.
+- Deferred review and decision to v0.6.153.
+- Confirmed no customer PoC approval, commercial contract creation, runtime/scanner/Docker/credential/customer/delivery approval, AAEF main issue/PR, issue command/URL, validator behavior change, schema change, public sample change, certification claim, legal compliance claim, audit opinion claim, production readiness claim, external-framework equivalence claim, diagnostic completeness claim, third-party testing authorization claim, or AAEF Core/Profile/Practical Package promotion occurs.
+
+
+
 ## v0.6.151 - Next work selection using risk-tiered granularity
 
 - Applied the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.150 closed the Safe PoC Boundary Template work item.

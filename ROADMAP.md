@@ -1683,3 +1683,9 @@ Likely next checkpoint: v0.6.151 Next Work Selection Using Risk-Tiered Granulari
 v0.6.151 selects Control Matrix as the next Medium-risk work item.
 
 Next checkpoint: v0.6.152 Control Matrix Candidate.
+
+## v0.6.152 Control Matrix Candidate
+
+v0.6.152 creates the Control Matrix candidate.
+
+Next checkpoint: v0.6.153 Control Matrix Review and Decision.

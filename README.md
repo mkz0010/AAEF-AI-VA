@@ -1627,3 +1627,11 @@ v0.6.151 applies the v0.6.120 risk-tiered checkpoint granularity policy after v0
 It selects Control Matrix as the next work item. The selected work item is classified as Medium risk because it is reviewer-facing documentation that can affect interpretation and may resemble a compliance or audit matrix if poorly scoped, but should not change gate authorization semantics or runtime behavior. It should use two checkpoints: candidate implementation, then review and decision. This v0.6.151 direction-selection record is itself a Low-risk decision completed in one checkpoint. It does not create the Control Matrix, authorize a customer PoC, create a commercial contract, reopen the AAEF main handback sequence, open an AAEF main issue, generate an issue command, or authorize runtime/scanner/Docker/credential/customer/delivery activity.
 
 See `docs/227-v06151-next-work-selection-using-risk-tiered-granularity.md`.
+
+## v0.6.152 Control Matrix Candidate
+
+v0.6.152 creates the Control Matrix candidate as checkpoint 1 of 2 for the Medium-risk work item selected in v0.6.151.
+
+The matrix maps reviewer questions, control boundaries, expected evidence, related artifacts, explicit non-goals, and reviewer notes across the current safety-first documentation package. It includes rows for AI request, gate decision, authorization expiry, request/decision drift, external discovery, mock/dry-run status, non-execution evidence, human approval, credential/data handling, public/private artifact boundary, report/delivery boundary, PoC non-authorization, commercial/license boundary, and conservative claim boundaries. It does not create a compliance matrix, audit checklist, certification checklist, production readiness checklist, external-framework equivalence mapping, customer PoC approval, commercial contract, runtime/scanner/Docker/credential/customer/delivery approval, validator behavior change, schema change, or public sample change.
+
+See `docs/control-matrix.md` and `docs/228-v06152-control-matrix-candidate.md`.
