@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.153 - Control Matrix review and decision
+
+- Reviewed and accepted the v0.6.152 Control Matrix candidate.
+- Closed the Medium-risk Control Matrix work item.
+- Confirmed reader fit, non-authorizing notice, matrix row design, review questions, control boundaries, expected evidence, related artifacts, explicit non-goals, reviewer notes, required matrix rows, interpretation limits, and conservative claim boundaries.
+- Confirmed no customer PoC approval, commercial contract creation, runtime/scanner/Docker/credential/customer/delivery approval, AAEF main issue/PR, issue command/URL, validator behavior change, schema change, public sample change, certification claim, legal compliance claim, audit opinion claim, production readiness claim, external-framework equivalence claim, diagnostic completeness claim, third-party testing authorization claim, or AAEF Core/Profile/Practical Package promotion occurs.
+
+
+
 ## v0.6.152 - Control Matrix candidate
 
 - Added `docs/control-matrix.md`.

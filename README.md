@@ -1635,3 +1635,11 @@ v0.6.152 creates the Control Matrix candidate as checkpoint 1 of 2 for the Mediu
 The matrix maps reviewer questions, control boundaries, expected evidence, related artifacts, explicit non-goals, and reviewer notes across the current safety-first documentation package. It includes rows for AI request, gate decision, authorization expiry, request/decision drift, external discovery, mock/dry-run status, non-execution evidence, human approval, credential/data handling, public/private artifact boundary, report/delivery boundary, PoC non-authorization, commercial/license boundary, and conservative claim boundaries. It does not create a compliance matrix, audit checklist, certification checklist, production readiness checklist, external-framework equivalence mapping, customer PoC approval, commercial contract, runtime/scanner/Docker/credential/customer/delivery approval, validator behavior change, schema change, or public sample change.
 
 See `docs/control-matrix.md` and `docs/228-v06152-control-matrix-candidate.md`.
+
+## v0.6.153 Control Matrix Review and Decision
+
+v0.6.153 reviews and accepts the Control Matrix candidate as checkpoint 2 of 2 for the Medium-risk work item selected in v0.6.151.
+
+It closes the work item after confirming reader fit, non-authorizing notice, matrix row design, review questions, control boundaries, expected evidence, related artifacts, explicit non-goals, reviewer notes, required matrix rows, interpretation limits, and conservative claim boundaries. It does not create customer PoC approval, create a commercial contract, modify runtime behavior, modify validator behavior, change schemas or public samples, or approve runtime/scanner/Docker/credential/customer/delivery activity.
+
+See `docs/control-matrix.md` and `docs/229-v06153-control-matrix-review-and-decision.md`.

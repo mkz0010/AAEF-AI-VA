@@ -1689,3 +1689,9 @@ Next checkpoint: v0.6.152 Control Matrix Candidate.
 v0.6.152 creates the Control Matrix candidate.
 
 Next checkpoint: v0.6.153 Control Matrix Review and Decision.
+
+## v0.6.153 Control Matrix Review and Decision
+
+v0.6.153 reviews and accepts the Control Matrix candidate and closes the Medium-risk work item.
+
+Likely next checkpoint: v0.6.154 Next Work Selection Using Risk-Tiered Granularity.
