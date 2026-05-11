@@ -1651,3 +1651,11 @@ v0.6.154 applies the v0.6.120 risk-tiered checkpoint granularity policy after v0
 It selects Reviewer Walkthrough as the next work item. The selected work item is classified as Medium risk because it is reviewer-facing documentation that can influence buyer, technical reviewer, sponsor, and maintainer interpretation, but should not change gate authorization semantics or runtime behavior. It should use two checkpoints: candidate implementation, then review and decision. This v0.6.154 direction-selection record is itself a Low-risk decision completed in one checkpoint. It does not create the Reviewer Walkthrough, authorize a customer PoC, create a commercial contract, reopen the AAEF main handback sequence, open an AAEF main issue, generate an issue command, or authorize runtime/scanner/Docker/credential/customer/delivery activity.
 
 See `docs/230-v06154-next-work-selection-using-risk-tiered-granularity.md`.
+
+## v0.6.155 Reviewer Walkthrough Candidate
+
+v0.6.155 creates the Reviewer Walkthrough candidate as checkpoint 1 of 2 for the Medium-risk work item selected in v0.6.154.
+
+The walkthrough gives reviewers a safe reading path through README, Enterprise Review Guide, Technical Due Diligence Summary, Safe PoC Boundary Template, Control Matrix, relevant test families, and current version records. It includes a first-pass review path, technical due-diligence path, PoC-boundary path, Control Matrix path, evidence/test-family path, claim-boundary path, questions before asking for a PoC, reviewer outputs, interpretation limits, explicit non-goals, and conservative claim boundaries. It does not create a deployment guide, scanner operation guide, customer PoC approval, commercial contract, runtime/scanner/Docker/credential/customer/delivery approval, validator behavior change, schema change, or public sample change.
+
+See `docs/reviewer-walkthrough.md` and `docs/231-v06155-reviewer-walkthrough-candidate.md`.

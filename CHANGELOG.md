@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.155 - Reviewer Walkthrough candidate
+
+- Added `docs/reviewer-walkthrough.md`.
+- Added the v0.6.155 Reviewer Walkthrough candidate record.
+- Added tests for walkthrough structure, reading sequence, review paths, evidence/test-family path, claim-boundary path, reviewer outputs, interpretation limits, v0.6.154 selection continuity, and absence of forbidden affirmative claims.
+- Deferred review and decision to v0.6.156.
+- Confirmed no customer PoC approval, commercial contract creation, runtime/scanner/Docker/credential/customer/delivery approval, AAEF main issue/PR, issue command/URL, validator behavior change, schema change, public sample change, certification claim, legal compliance claim, audit opinion claim, production readiness claim, external-framework equivalence claim, diagnostic completeness claim, third-party testing authorization claim, or AAEF Core/Profile/Practical Package promotion occurs.
+
+
+
 ## v0.6.154 - Next work selection using risk-tiered granularity
 
 - Applied the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.153 closed the Control Matrix work item.

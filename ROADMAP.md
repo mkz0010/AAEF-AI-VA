@@ -1701,3 +1701,9 @@ Likely next checkpoint: v0.6.154 Next Work Selection Using Risk-Tiered Granulari
 v0.6.154 selects Reviewer Walkthrough as the next Medium-risk work item.
 
 Next checkpoint: v0.6.155 Reviewer Walkthrough Candidate.
+
+## v0.6.155 Reviewer Walkthrough Candidate
+
+v0.6.155 creates the Reviewer Walkthrough candidate.
+
+Next checkpoint: v0.6.156 Reviewer Walkthrough Review and Decision.
