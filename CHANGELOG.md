@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.154 - Next work selection using risk-tiered granularity
+
+- Applied the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.153 closed the Control Matrix work item.
+- Selected Reviewer Walkthrough as the next work item.
+- Classified the selected work item as Medium risk and assigned two checkpoints.
+- Completed this direction-selection decision as one Low-risk checkpoint.
+- Confirmed no Reviewer Walkthrough, customer PoC authorization, commercial contract, validator behavior, schema, public sample, runtime, scanner, Docker, credential, customer, delivery, AAEF main issue, AAEF main PR, issue command, issue URL, certification claim, legal compliance claim, audit opinion claim, production readiness claim, external-framework equivalence claim, diagnostic completeness claim, third-party testing authorization claim, or AAEF Core/Profile/Practical Package promotion occurs in this checkpoint.
+
+
+
 ## v0.6.153 - Control Matrix review and decision
 
 - Reviewed and accepted the v0.6.152 Control Matrix candidate.

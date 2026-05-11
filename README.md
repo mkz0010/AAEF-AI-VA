@@ -1643,3 +1643,11 @@ v0.6.153 reviews and accepts the Control Matrix candidate as checkpoint 2 of 2 f
 It closes the work item after confirming reader fit, non-authorizing notice, matrix row design, review questions, control boundaries, expected evidence, related artifacts, explicit non-goals, reviewer notes, required matrix rows, interpretation limits, and conservative claim boundaries. It does not create customer PoC approval, create a commercial contract, modify runtime behavior, modify validator behavior, change schemas or public samples, or approve runtime/scanner/Docker/credential/customer/delivery activity.
 
 See `docs/control-matrix.md` and `docs/229-v06153-control-matrix-review-and-decision.md`.
+
+## v0.6.154 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.154 applies the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.153 closed the Control Matrix work item.
+
+It selects Reviewer Walkthrough as the next work item. The selected work item is classified as Medium risk because it is reviewer-facing documentation that can influence buyer, technical reviewer, sponsor, and maintainer interpretation, but should not change gate authorization semantics or runtime behavior. It should use two checkpoints: candidate implementation, then review and decision. This v0.6.154 direction-selection record is itself a Low-risk decision completed in one checkpoint. It does not create the Reviewer Walkthrough, authorize a customer PoC, create a commercial contract, reopen the AAEF main handback sequence, open an AAEF main issue, generate an issue command, or authorize runtime/scanner/Docker/credential/customer/delivery activity.
+
+See `docs/230-v06154-next-work-selection-using-risk-tiered-granularity.md`.

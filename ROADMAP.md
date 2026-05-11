@@ -1695,3 +1695,9 @@ Next checkpoint: v0.6.153 Control Matrix Review and Decision.
 v0.6.153 reviews and accepts the Control Matrix candidate and closes the Medium-risk work item.
 
 Likely next checkpoint: v0.6.154 Next Work Selection Using Risk-Tiered Granularity.
+
+## v0.6.154 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.154 selects Reviewer Walkthrough as the next Medium-risk work item.
+
+Next checkpoint: v0.6.155 Reviewer Walkthrough Candidate.
