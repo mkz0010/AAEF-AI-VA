@@ -1738,3 +1738,11 @@ It does not approve customer delivery.
 Customer PoC, commercial terms, runtime/scanner execution, credential use, customer targets, and delivery require separate authorization.
 
 Do not interpret this entry point as certification, legal compliance determination, audit opinion, audit sufficiency determination, production readiness, diagnostic completeness, external-framework equivalence, third-party testing authorization, or promotion into AAEF Core, Profile, or Practical Package status.
+
+## v0.6.162 Public Review Entry Point Polish Review and Decision
+
+v0.6.162 reviews and accepts the Public Review Entry Point Polish candidate as checkpoint 2 of 2 for the Medium-risk work item selected in v0.6.160.
+
+It closes the work item after confirming the README public review entry point, External Review Package pointer, review-and-orientation-only language, non-authorizing notice, safe review order, separate authorization statement, and conservative claim boundaries. It does not create customer PoC approval, create a commercial contract, modify runtime behavior, modify validator behavior, change schemas or public samples, or approve runtime/scanner/Docker/credential/customer/delivery activity.
+
+See `docs/238-v06162-public-review-entry-point-polish-review-and-decision.md`.

@@ -1743,3 +1743,9 @@ Next checkpoint: v0.6.161 Public Review Entry Point Polish Candidate.
 v0.6.161 creates the Public Review Entry Point Polish candidate.
 
 Next checkpoint: v0.6.162 Public Review Entry Point Polish Review and Decision.
+
+## v0.6.162 Public Review Entry Point Polish Review and Decision
+
+v0.6.162 reviews and accepts the Public Review Entry Point Polish candidate and closes the Medium-risk work item.
+
+Likely next checkpoint: v0.6.163 Next Work Selection Using Risk-Tiered Granularity.

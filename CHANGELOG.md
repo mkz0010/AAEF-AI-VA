@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.162 - Public Review Entry Point Polish review and decision
+
+- Reviewed and accepted the v0.6.161 Public Review Entry Point Polish candidate.
+- Closed the Medium-risk Public Review Entry Point Polish work item.
+- Confirmed the README public review entry point, External Review Package pointer, review-and-orientation-only language, non-authorizing notice, safe review order, separate authorization statement, and conservative claim boundaries.
+- Confirmed no customer PoC approval, commercial contract creation, runtime/scanner/Docker/credential/customer/delivery approval, AAEF main issue/PR, issue command/URL, validator behavior change, schema change, public sample change, certification claim, legal compliance claim, audit opinion claim, production readiness claim, external-framework equivalence claim, diagnostic completeness claim, third-party testing authorization claim, or AAEF Core/Profile/Practical Package promotion occurs.
+
+
+
 ## v0.6.161 - Public Review Entry Point Polish candidate
 
 - Added a public review entry point to README.
