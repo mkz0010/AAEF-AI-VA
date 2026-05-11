@@ -1654,3 +1654,9 @@ Next checkpoint: v0.6.146 Technical Due Diligence Summary Candidate.
 v0.6.146 creates the Technical Due Diligence Summary candidate.
 
 Next checkpoint: v0.6.147 Technical Due Diligence Summary Review and Decision.
+
+## v0.6.147 Technical Due Diligence Summary Review and Decision
+
+v0.6.147 reviews and accepts the Technical Due Diligence Summary candidate and closes the Medium-risk work item.
+
+Likely next checkpoint: v0.6.148 Next Work Selection Using Risk-Tiered Granularity.

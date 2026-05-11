@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.147 - Technical Due Diligence Summary review and decision
+
+- Reviewed and accepted the v0.6.146 Technical Due Diligence Summary candidate.
+- Closed the Medium-risk Technical Due Diligence Summary work item.
+- Confirmed technical reviewer fit, technical positioning, control surface, repository review surface, evidence paths, gate-semantics checks, non-execution boundaries, runtime boundary, credential/data boundary, public/private artifact boundary, due-diligence questions, review artifacts, follow-on PoC boundary, non-authorizing boundary, and conservative claim boundaries.
+- Confirmed no runtime/scanner/Docker/credential/customer/delivery authorization, AAEF main issue/PR, issue command/URL, validator behavior change, schema change, public sample change, certification claim, legal compliance claim, audit opinion claim, production readiness claim, external-framework equivalence claim, diagnostic completeness claim, third-party testing authorization claim, or AAEF Core/Profile/Practical Package promotion occurs.
+
+
+
 ## v0.6.146 - Technical Due Diligence Summary candidate
 
 - Added `docs/technical-due-diligence-summary.md`.

@@ -1588,3 +1588,11 @@ v0.6.146 creates the Technical Due Diligence Summary candidate as checkpoint 1 o
 The summary is for technical due-diligence reviewers, security architects, vulnerability assessment engineers, enterprise security reviewers, and commercial evaluation teams. It explains the technical control surface, repository review surface, evidence paths, gate-semantics checks, non-execution boundaries, runtime boundary, credential/data boundary, public/private artifact boundary, due-diligence questions, review artifacts, follow-on PoC considerations, and conservative claim boundaries. It does not modify runtime behavior, validator behavior, schemas, public samples, or runtime/scanner/Docker/credential/customer/delivery authorization.
 
 See `docs/technical-due-diligence-summary.md` and `docs/222-v06146-technical-due-diligence-summary-candidate.md`.
+
+## v0.6.147 Technical Due Diligence Summary Review and Decision
+
+v0.6.147 reviews and accepts the Technical Due Diligence Summary candidate as checkpoint 2 of 2 for the Medium-risk work item selected in v0.6.145.
+
+It closes the work item after confirming technical reviewer fit, technical positioning, control surface, repository review surface, evidence paths, gate-semantics checks, non-execution boundaries, runtime boundary, credential/data boundary, public/private artifact boundary, due-diligence questions, review artifacts, follow-on PoC boundary, non-authorizing boundary, and conservative claim boundaries. It does not modify runtime behavior, validator behavior, schemas, public samples, or runtime/scanner/Docker/credential/customer/delivery authorization.
+
+See `docs/technical-due-diligence-summary.md` and `docs/223-v06147-technical-due-diligence-summary-review-and-decision.md`.
