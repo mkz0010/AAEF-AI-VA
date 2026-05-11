@@ -1642,3 +1642,9 @@ Next checkpoint: v0.6.144 Enterprise Review Guide Review and Decision.
 v0.6.144 reviews and accepts the Enterprise Review Guide candidate and closes the Medium-risk work item.
 
 Likely next checkpoint: v0.6.145 Next Work Selection Using Risk-Tiered Granularity.
+
+## v0.6.145 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.145 selects Technical Due Diligence Summary as the next Medium-risk work item.
+
+Next checkpoint: v0.6.146 Technical Due Diligence Summary Candidate.
