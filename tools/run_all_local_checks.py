@@ -243,6 +243,7 @@ def main() -> int:
     run([sys.executable, "tools/test_v06164_buyer_facing_commercial_inquiry_boundary_candidate.py"])
     run([sys.executable, "tools/test_v06165_buyer_facing_commercial_inquiry_boundary_review_and_decision.py"])
     run([sys.executable, "tools/test_v06166_maintainer_inquiry_address_publication_candidate.py"])
+    run([sys.executable, "tools/test_v06167_maintainer_inquiry_address_publication_review_and_decision.py"])
     print("All local checks passed.")
     return 0
 
