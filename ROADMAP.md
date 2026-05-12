@@ -1821,3 +1821,9 @@ Recommended next checkpoint: v0.6.174 Next Work Selection Using Risk-Tiered Gran
 v0.6.174 selects Current-State Executive Summary as the next Medium-risk work item.
 
 Next checkpoint: v0.6.175 Current-State Executive Summary Candidate.
+
+## v0.6.175 Current-State Executive Summary Candidate
+
+v0.6.175 creates the Current-State Executive Summary candidate.
+
+Next checkpoint: v0.6.176 Current-State Executive Summary Review and Decision.
