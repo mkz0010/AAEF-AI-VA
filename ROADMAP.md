@@ -1899,3 +1899,9 @@ Next checkpoint: v0.6.187 Safe Demo Artifact Planning Review and Decision.
 v0.6.187 reviews and accepts the Safe Demo Artifact Planning candidate and closes the Medium-risk work item.
 
 Next checkpoint: v0.6.188 Next Work Selection Using Risk-Tiered Granularity.
+
+## v0.6.188 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.188 selects Safe Demo Fixture Set Planning as the next Medium-risk work item.
+
+Next checkpoint: v0.6.189 Safe Demo Fixture Set Planning Candidate.

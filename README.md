@@ -1970,3 +1970,11 @@ v0.6.187 reviews and accepts the Safe Demo Artifact Planning candidate.
 It closes the Medium-risk Safe Demo Artifact Planning work item after confirming that the plan defines artifact inventory, public/private artifact candidates, fixture boundary, evidence trace boundary, non-execution result boundary, reviewer flow, README/landing navigation expectation, future artifact creation sequence, and artifacts intentionally not created yet. It does not create fixtures, public samples, schemas, validators, executable demos, runtime behavior, scanner behavior, customer PoC materials, or AAEF main changes.
 
 See `docs/263-v06187-safe-demo-artifact-planning-review-and-decision.md`.
+
+## v0.6.188 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.188 applies the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.187 closed the Safe Demo Artifact Planning work item.
+
+It selects Safe Demo Fixture Set Planning as the next work item. The selected work item is classified as Medium risk because it defines the plan that later fixture files may follow and can influence repository structure, public reviewer navigation, evidence trace shape, static validation expectations, and the boundary between demonstration data and execution. It should use two checkpoints: candidate implementation, then review and decision. This v0.6.188 direction-selection record is itself a Low-risk decision completed in one checkpoint. It does not create the fixture set planning document, create fixture files, create public samples, create a safe demo, create a public demo, create an executable demo, authorize runtime/scanner execution, authorize customer PoC intake, modify AAEF main, or publish AAEF main contact information.
+
+See `docs/264-v06188-next-work-selection-using-risk-tiered-granularity.md`.
