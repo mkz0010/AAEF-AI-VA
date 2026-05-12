@@ -1898,3 +1898,11 @@ v0.6.178 adds a draft Public Demo Positioning candidate.
 The positioning explains how public demonstrations should show control boundaries and evidence traceability without implying live scanner activity, runtime authorization, customer PoC approval, production deployment, or diagnostic completeness. It distinguishes non-execution, mock, fixture, local-only, runtime execution, scanner execution, and customer PoC boundaries. It does not create a safe demo, create a public demo, authorize runtime/scanner execution, authorize customer PoC intake, modify AAEF main, or publish AAEF main contact information.
 
 See `docs/public-demo-positioning.md` and `docs/254-v06178-public-demo-positioning-candidate.md`.
+
+## v0.6.179 Public Demo Positioning Review and Decision
+
+v0.6.179 reviews and accepts the Public Demo Positioning candidate.
+
+It closes the Medium-risk Public Demo Positioning work item after confirming that the positioning explains how safe public demonstrations should show control boundaries and evidence traceability without implying live scanner activity, runtime authorization, customer PoC approval, production deployment, or diagnostic completeness. It does not create a safe demo, create a public demo, authorize runtime/scanner execution, authorize customer PoC intake, modify AAEF main, or publish AAEF main contact information.
+
+See `docs/255-v06179-public-demo-positioning-review-and-decision.md`.

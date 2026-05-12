@@ -1845,3 +1845,9 @@ Next checkpoint: v0.6.178 Public Demo Positioning Candidate.
 v0.6.178 creates the Public Demo Positioning candidate.
 
 Next checkpoint: v0.6.179 Public Demo Positioning Review and Decision.
+
+## v0.6.179 Public Demo Positioning Review and Decision
+
+v0.6.179 reviews and accepts the Public Demo Positioning candidate and closes the Medium-risk work item.
+
+Next checkpoint: v0.6.180 Next Work Selection Using Risk-Tiered Granularity.
