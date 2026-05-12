@@ -1850,3 +1850,11 @@ v0.6.172 records the maintainer clarification after v0.6.171: AAEF main should n
 AAEF-AI-VA may continue treating `hexroot0010@gmail.com` as the interim maintainer-provided inquiry route. For AAEF main, the address is retained only as an internal future candidate, preferably deferred until a dedicated email/domain exists or an explicit AAEF main maintainer decision is made. This checkpoint does not create a proposal, send a proposal, modify AAEF main, publish or modify AAEF main contact information, open an AAEF main issue or PR, generate an issue command or issue URL, reopen the AAEF main handback sequence, or authorize runtime/scanner/Docker/credential/customer/delivery activity.
 
 See `docs/248-v06172-aaef-main-contact-reflection-deferral-decision.md`.
+
+## v0.6.173 Current State and Priority Review
+
+v0.6.173 pauses implementation growth and reviews current state, implementation layering, and priority order.
+
+It records that the documentation/review package layer is implemented, the safe demo layer is a near-term candidate, the runtime/scanner layer is deferred pending readiness review, and the customer PoC layer is deferred pending commercial and scope boundaries. It recommends that the next formal selection checkpoint consider Current-State Executive Summary as a Medium-risk two-checkpoint work item. It does not create a safe demo, start real scanner execution, authorize runtime execution, authorize customer PoC intake, modify AAEF main, or publish AAEF main contact information.
+
+See `docs/249-v06173-current-state-and-priority-review.md`.
