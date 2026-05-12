@@ -1922,3 +1922,11 @@ v0.6.181 records a maintainer reassessment after v0.6.180.
 It defers Commercial Inquiry Response Boundary before candidate creation because the project should first improve demo/story readiness before buyer-facing response handling. The commercial inquiry response template is also deferred. The work remains valid for later, but it is not the immediate next work item. This checkpoint does not create a boundary artifact, create a response template, create a contract, approve a PoC, authorize runtime/scanner work, authorize customer target activity, modify AAEF main, or publish AAEF main contact information.
 
 See `docs/257-v06181-commercial-inquiry-response-boundary-deferral-decision.md`.
+
+## v0.6.182 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.182 applies the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.181 deferred Commercial Inquiry Response Boundary before candidate creation.
+
+It selects Safe Demo Scenario Definition as the next work item. The selected work item is classified as Medium risk because it defines the scenario that later implementation may follow and can influence public interpretation of demo readiness, runtime/scanner boundaries, customer target activity, and production maturity. It should use two checkpoints: candidate implementation, then review and decision. This v0.6.182 direction-selection record is itself a Low-risk decision completed in one checkpoint. It does not create the scenario definition artifact, create a safe demo, create a public demo, authorize runtime/scanner execution, authorize customer PoC intake, modify AAEF main, or publish AAEF main contact information.
+
+See `docs/258-v06182-next-work-selection-using-risk-tiered-granularity.md`.

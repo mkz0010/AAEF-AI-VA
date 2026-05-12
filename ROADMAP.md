@@ -1863,3 +1863,9 @@ Next checkpoint: v0.6.181 Commercial Inquiry Response Boundary Candidate.
 v0.6.181 defers Commercial Inquiry Response Boundary before candidate creation and returns the project to risk-tiered next-work selection.
 
 Next checkpoint: v0.6.182 Next Work Selection Using Risk-Tiered Granularity.
+
+## v0.6.182 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.182 selects Safe Demo Scenario Definition as the next Medium-risk work item.
+
+Next checkpoint: v0.6.183 Safe Demo Scenario Definition Candidate.
