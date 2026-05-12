@@ -1826,3 +1826,11 @@ v0.6.169 adds a documentation-only Public Entry and Inquiry Route Consistency Re
 The candidate reviews whether README public review entry, README commercial inquiry boundary, maintainer inquiry address publication, External Review Package, Buyer-Facing Commercial Inquiry Boundary, Reviewer Walkthrough, Control Matrix, Technical Due Diligence Summary, Enterprise Review Guide, and Safe PoC Boundary Template remain internally consistent and non-authorizing. It does not modify those accepted public routes, create customer PoC approval, create a commercial contract, publish commercial license terms, approve paid engagement, create customer-specific material, modify runtime behavior, modify validator behavior, change schemas or public samples, reopen the AAEF main handback sequence, or approve runtime/scanner/Docker/credential/customer/delivery activity.
 
 See `docs/public-entry-and-inquiry-route-consistency-review.md` and `docs/245-v06169-public-entry-and-inquiry-route-consistency-review-candidate.md`.
+
+## v0.6.170 Public Entry and Inquiry Route Consistency Review Review and Decision
+
+v0.6.170 reviews and accepts the Public Entry and Inquiry Route Consistency Review candidate.
+
+It closes the Medium-risk Public Entry and Inquiry Route Consistency Review work item after confirming public review route consistency, commercial inquiry route consistency, contact publication consistency, inquiry-route-only interpretation, and non-authorizing language. It does not modify accepted public routes, reopen the AAEF main handback sequence, create customer PoC approval, create a commercial contract, publish commercial license terms, approve paid engagement, create customer-specific material, modify runtime behavior, modify validator behavior, change schemas or public samples, or approve runtime/scanner/Docker/credential/customer/delivery activity.
+
+See `docs/246-v06170-public-entry-and-inquiry-route-consistency-review-review-and-decision.md`.

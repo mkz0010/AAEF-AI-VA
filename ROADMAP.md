@@ -1791,3 +1791,9 @@ Next checkpoint: v0.6.169 Public Entry and Inquiry Route Consistency Review Cand
 v0.6.169 creates the Public Entry and Inquiry Route Consistency Review candidate.
 
 Next checkpoint: v0.6.170 Public Entry and Inquiry Route Consistency Review Review and Decision.
+
+## v0.6.170 Public Entry and Inquiry Route Consistency Review Review and Decision
+
+v0.6.170 reviews and accepts the Public Entry and Inquiry Route Consistency Review candidate and closes the Medium-risk work item.
+
+Likely next checkpoint: v0.6.171 Next Work Selection Using Risk-Tiered Granularity.
