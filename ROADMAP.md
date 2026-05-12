@@ -1779,3 +1779,9 @@ Next checkpoint: v0.6.167 Maintainer Inquiry Address Publication Review and Deci
 v0.6.167 reviews and accepts the Maintainer Inquiry Address Publication candidate and closes the Medium-risk contact-publication work item.
 
 Likely next checkpoint: v0.6.168 Next Work Selection Using Risk-Tiered Granularity.
+
+## v0.6.168 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.168 selects Public Entry and Inquiry Route Consistency Review as the next Medium-risk work item.
+
+Next checkpoint: v0.6.169 Public Entry and Inquiry Route Consistency Review Candidate.

@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.168 - Next work selection using risk-tiered granularity
+
+- Applied the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.167 closed the Maintainer Inquiry Address Publication work item.
+- Selected Public Entry and Inquiry Route Consistency Review as the next work item.
+- Classified the selected work item as Medium risk and assigned two checkpoints.
+- Completed this direction-selection decision as one Low-risk checkpoint.
+- Confirmed no consistency review creation, README public-entry modification, commercial inquiry modification, inquiry address publication modification, customer PoC authorization, commercial contract, commercial license terms, paid engagement approval, customer-specific material, validator behavior, schema, public sample, runtime, scanner, Docker, credential, customer, delivery, AAEF main issue, AAEF main PR, issue command, issue URL, certification claim, legal compliance claim, audit opinion claim, production readiness claim, external-framework equivalence claim, diagnostic completeness claim, third-party testing authorization claim, or AAEF Core/Profile/Practical Package promotion occurs in this checkpoint.
+
+
+
 ## v0.6.167 - Maintainer Inquiry Address Publication review and decision
 
 - Reviewed and accepted `hexroot0010@gmail.com` as the maintainer-approved interim AAEF-wide inquiry address.
