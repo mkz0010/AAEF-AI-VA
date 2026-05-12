@@ -1869,3 +1869,9 @@ Next checkpoint: v0.6.182 Next Work Selection Using Risk-Tiered Granularity.
 v0.6.182 selects Safe Demo Scenario Definition as the next Medium-risk work item.
 
 Next checkpoint: v0.6.183 Safe Demo Scenario Definition Candidate.
+
+## v0.6.183 Safe Demo Scenario Definition Candidate
+
+v0.6.183 creates the Safe Demo Scenario Definition candidate.
+
+Next checkpoint: v0.6.184 Safe Demo Scenario Definition Review and Decision.
