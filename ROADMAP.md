@@ -1815,3 +1815,9 @@ Next checkpoint: v0.6.173 Next Work Selection Using Risk-Tiered Granularity.
 v0.6.173 reviews the current project state and priority order before selecting the next work item.
 
 Recommended next checkpoint: v0.6.174 Next Work Selection Using Risk-Tiered Granularity.
+
+## v0.6.174 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.174 selects Current-State Executive Summary as the next Medium-risk work item.
+
+Next checkpoint: v0.6.175 Current-State Executive Summary Candidate.

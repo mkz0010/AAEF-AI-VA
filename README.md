@@ -1858,3 +1858,11 @@ v0.6.173 pauses implementation growth and reviews current state, implementation 
 It records that the documentation/review package layer is implemented, the safe demo layer is a near-term candidate, the runtime/scanner layer is deferred pending readiness review, and the customer PoC layer is deferred pending commercial and scope boundaries. It recommends that the next formal selection checkpoint consider Current-State Executive Summary as a Medium-risk two-checkpoint work item. It does not create a safe demo, start real scanner execution, authorize runtime execution, authorize customer PoC intake, modify AAEF main, or publish AAEF main contact information.
 
 See `docs/249-v06173-current-state-and-priority-review.md`.
+
+## v0.6.174 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.174 applies the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.173 completed the Current State and Priority Review.
+
+It selects Current-State Executive Summary as the next work item. The selected work item is classified as Medium risk because it will create public-facing summary language that can influence external interpretation of project maturity, demo readiness, commercial inquiry, and implementation stage. It should use two checkpoints: candidate implementation, then review and decision. This v0.6.174 direction-selection record is itself a Low-risk decision completed in one checkpoint. It does not create the executive summary, create a safe demo, authorize runtime/scanner execution, authorize customer PoC intake, modify AAEF main, or publish AAEF main contact information.
+
+See `docs/250-v06174-next-work-selection-using-risk-tiered-granularity.md`.
