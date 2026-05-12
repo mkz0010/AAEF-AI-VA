@@ -1851,3 +1851,9 @@ Next checkpoint: v0.6.179 Public Demo Positioning Review and Decision.
 v0.6.179 reviews and accepts the Public Demo Positioning candidate and closes the Medium-risk work item.
 
 Next checkpoint: v0.6.180 Next Work Selection Using Risk-Tiered Granularity.
+
+## v0.6.180 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.180 selects Commercial Inquiry Response Boundary as the next Medium-risk work item.
+
+Next checkpoint: v0.6.181 Commercial Inquiry Response Boundary Candidate.
