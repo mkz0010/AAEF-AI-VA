@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.189 - Safe Demo Fixture Set Planning candidate
+
+- Added `docs/safe-demo-fixture-set-planning.md`.
+- Added the v0.6.189 Safe Demo Fixture Set Planning candidate record.
+- Added tests for planning file existence, required planning sections, v0.6.188 selection continuity, v0.6.187 artifact planning closeout continuity, v0.6.184 safe demo scenario definition closeout continuity, v0.6.181 commercial inquiry deferral continuity, v0.6.179 public demo positioning continuity, v0.6.173 safe demo priority continuity, v0.6.172 AAEF main contact deferral continuity, v0.6.119 handback pause continuity, and absence of forbidden affirmative claims.
+- Deferred review and decision to v0.6.190.
+- Confirmed no fixture creation, public sample creation, schema addition, validator behavior change, executable demo, safe demo creation, public demo creation, runtime/scanner readiness creation, real scanner execution selection, runtime execution selection, customer PoC intake selection, AAEF main publication, AAEF main issue/PR, issue command/URL, customer PoC authorization, commercial contract, paid engagement approval, commercial license terms, customer-specific material, runtime, scanner, Docker, credential, customer, delivery, certification claim, legal compliance claim, audit opinion claim, production readiness claim, external-framework equivalence claim, diagnostic completeness claim, third-party testing authorization claim, or AAEF Core/Profile/Practical Package promotion occurs.
+
+
+
 ## v0.6.188 - Next work selection using risk-tiered granularity
 
 - Applied the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.187 closed the Safe Demo Artifact Planning work item.

@@ -1978,3 +1978,11 @@ v0.6.188 applies the v0.6.120 risk-tiered checkpoint granularity policy after v0
 It selects Safe Demo Fixture Set Planning as the next work item. The selected work item is classified as Medium risk because it defines the plan that later fixture files may follow and can influence repository structure, public reviewer navigation, evidence trace shape, static validation expectations, and the boundary between demonstration data and execution. It should use two checkpoints: candidate implementation, then review and decision. This v0.6.188 direction-selection record is itself a Low-risk decision completed in one checkpoint. It does not create the fixture set planning document, create fixture files, create public samples, create a safe demo, create a public demo, create an executable demo, authorize runtime/scanner execution, authorize customer PoC intake, modify AAEF main, or publish AAEF main contact information.
 
 See `docs/264-v06188-next-work-selection-using-risk-tiered-granularity.md`.
+
+## v0.6.189 Safe Demo Fixture Set Planning Candidate
+
+v0.6.189 adds a draft Safe Demo Fixture Set Planning candidate.
+
+The plan defines the fixture set that could later support the accepted Safe Demo Artifact Planning document and the accepted Blocked Tool Action Request Review scenario. It covers fixture inventory, fixture file boundary, request fixture boundary, gate decision fixture boundary, non-execution result fixture boundary, evidence trace fixture boundary, reviewer walkthrough boundary, static validation expectations, file naming expectations, public/private fixture distinction, and future fixture creation sequence. It is documentation-only at this checkpoint and does not create fixtures, public samples, schemas, validators, executable demos, runtime behavior, scanner behavior, customer PoC materials, or AAEF main changes.
+
+See `docs/safe-demo-fixture-set-planning.md` and `docs/265-v06189-safe-demo-fixture-set-planning-candidate.md`.
