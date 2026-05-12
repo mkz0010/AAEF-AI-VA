@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.178 - Public Demo Positioning candidate
+
+- Added `docs/public-demo-positioning.md`.
+- Added the v0.6.178 Public Demo Positioning candidate record.
+- Added tests for positioning file existence, required positioning sections, v0.6.177 selection continuity, v0.6.176 current-state executive summary closeout continuity, v0.6.173 safe demo priority continuity, v0.6.172 AAEF main contact deferral continuity, v0.6.119 handback pause continuity, and absence of forbidden affirmative claims.
+- Deferred review and decision to v0.6.179.
+- Confirmed no safe demo creation, public demo creation, runtime/scanner readiness creation, real scanner execution selection, runtime execution selection, customer PoC intake selection, AAEF main publication, AAEF main issue/PR, issue command/URL, customer PoC approval, commercial contract, paid engagement approval, commercial license terms, customer-specific material, validator behavior, schema, public sample, runtime, scanner, Docker, credential, customer, delivery, certification claim, legal compliance claim, audit opinion claim, production readiness claim, external-framework equivalence claim, diagnostic completeness claim, third-party testing authorization claim, or AAEF Core/Profile/Practical Package promotion occurs.
+
+
+
 ## v0.6.177 - Next work selection using risk-tiered granularity
 
 - Applied the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.176 closed the Current-State Executive Summary work item.

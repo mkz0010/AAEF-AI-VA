@@ -1890,3 +1890,11 @@ v0.6.177 applies the v0.6.120 risk-tiered checkpoint granularity policy after v0
 It selects Public Demo Positioning as the next work item. The selected work item is classified as Medium risk because it will create public-facing demo-positioning language that can influence external interpretation of demo readiness, runtime authority, scanner activity, customer PoC boundaries, and production maturity. It should use two checkpoints: candidate implementation, then review and decision. This v0.6.177 direction-selection record is itself a Low-risk decision completed in one checkpoint. It does not create the positioning artifact, create a safe demo, create a public demo, authorize runtime/scanner execution, authorize customer PoC intake, modify AAEF main, or publish AAEF main contact information.
 
 See `docs/253-v06177-next-work-selection-using-risk-tiered-granularity.md`.
+
+## v0.6.178 Public Demo Positioning Candidate
+
+v0.6.178 adds a draft Public Demo Positioning candidate.
+
+The positioning explains how public demonstrations should show control boundaries and evidence traceability without implying live scanner activity, runtime authorization, customer PoC approval, production deployment, or diagnostic completeness. It distinguishes non-execution, mock, fixture, local-only, runtime execution, scanner execution, and customer PoC boundaries. It does not create a safe demo, create a public demo, authorize runtime/scanner execution, authorize customer PoC intake, modify AAEF main, or publish AAEF main contact information.
+
+See `docs/public-demo-positioning.md` and `docs/254-v06178-public-demo-positioning-candidate.md`.
