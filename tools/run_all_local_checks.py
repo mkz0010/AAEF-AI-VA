@@ -257,6 +257,7 @@ def main() -> int:
     run([sys.executable, "tools/test_v06178_public_demo_positioning_candidate.py"])
     run([sys.executable, "tools/test_v06179_public_demo_positioning_review_and_decision.py"])
     run([sys.executable, "tools/test_v06180_next_work_selection_using_risk_tiered_granularity.py"])
+    run([sys.executable, "tools/test_v06181_commercial_inquiry_response_boundary_deferral_decision.py"])
     print("All local checks passed.")
     return 0
 

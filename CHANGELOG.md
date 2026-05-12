@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.6.181 - Commercial Inquiry Response Boundary deferral decision
+
+- Recorded maintainer reassessment after v0.6.180.
+- Deferred Commercial Inquiry Response Boundary before candidate creation.
+- Deferred the commercial inquiry response template.
+- Recorded that the work remains valid for later but should follow stronger demo/story readiness.
+- Returned the project to risk-tiered next-work selection.
+- Confirmed no commercial inquiry response boundary artifact creation, commercial response template creation, safe demo creation, public demo creation, runtime/scanner readiness creation, real scanner execution selection, runtime execution selection, customer PoC intake selection, AAEF main publication, AAEF main issue/PR, issue command/URL, customer PoC authorization, commercial contract, paid engagement approval, commercial license terms, customer-specific material, validator behavior, schema, public sample, runtime, scanner, Docker, credential, customer, delivery, certification claim, legal compliance claim, audit opinion claim, production readiness claim, external-framework equivalence claim, diagnostic completeness claim, third-party testing authorization claim, or AAEF Core/Profile/Practical Package promotion occurs.
+
+
+
 ## v0.6.180 - Next work selection using risk-tiered granularity
 
 - Applied the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.179 closed the Public Demo Positioning work item.
