@@ -1946,3 +1946,11 @@ v0.6.184 reviews and accepts the Safe Demo Scenario Definition candidate.
 It closes the Medium-risk Safe Demo Scenario Definition work item after confirming that the scenario defines a first public-safe demonstration based on AI-generated request, gate decision, authorization and scope inputs, preflight expectation placeholders, blocked or non-executed outcome, evidence traceability, and reviewer questions. It does not create an executable demo, safe demo artifact, public demo artifact, runtime/scanner execution, customer PoC, customer-target activity, or delivery authorization.
 
 See `docs/260-v06184-safe-demo-scenario-definition-review-and-decision.md`.
+
+## v0.6.185 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.185 applies the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.184 closed the Safe Demo Scenario Definition work item.
+
+It selects Safe Demo Artifact Planning as the next work item. The selected work item is classified as Medium risk because it defines the plan that later demo artifacts may follow and can influence repository structure, public reviewer navigation, fixture design, evidence trace shape, and the boundary between demonstration and execution. It should use two checkpoints: candidate implementation, then review and decision. This v0.6.185 direction-selection record is itself a Low-risk decision completed in one checkpoint. It does not create the artifact planning document, create a safe demo, create a public demo, create an executable demo, authorize runtime/scanner execution, authorize customer PoC intake, modify AAEF main, or publish AAEF main contact information.
+
+See `docs/261-v06185-next-work-selection-using-risk-tiered-granularity.md`.
