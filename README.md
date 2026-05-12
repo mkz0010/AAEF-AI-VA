@@ -1954,3 +1954,11 @@ v0.6.185 applies the v0.6.120 risk-tiered checkpoint granularity policy after v0
 It selects Safe Demo Artifact Planning as the next work item. The selected work item is classified as Medium risk because it defines the plan that later demo artifacts may follow and can influence repository structure, public reviewer navigation, fixture design, evidence trace shape, and the boundary between demonstration and execution. It should use two checkpoints: candidate implementation, then review and decision. This v0.6.185 direction-selection record is itself a Low-risk decision completed in one checkpoint. It does not create the artifact planning document, create a safe demo, create a public demo, create an executable demo, authorize runtime/scanner execution, authorize customer PoC intake, modify AAEF main, or publish AAEF main contact information.
 
 See `docs/261-v06185-next-work-selection-using-risk-tiered-granularity.md`.
+
+## v0.6.186 Safe Demo Artifact Planning Candidate
+
+v0.6.186 adds a draft Safe Demo Artifact Planning candidate.
+
+The plan defines the artifact set that could later support the accepted Blocked Tool Action Request Review scenario, including artifact inventory, public/private artifact candidates, fixture boundaries, evidence trace boundaries, non-execution result boundaries, reviewer flow, and navigation expectations. It is documentation-only at this checkpoint and does not create fixtures, public samples, schemas, validators, executable demos, runtime behavior, scanner behavior, customer PoC materials, or AAEF main changes.
+
+See `docs/safe-demo-artifact-planning.md` and `docs/262-v06186-safe-demo-artifact-planning-candidate.md`.

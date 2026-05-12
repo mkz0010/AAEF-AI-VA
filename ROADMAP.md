@@ -1887,3 +1887,9 @@ Next checkpoint: v0.6.185 Next Work Selection Using Risk-Tiered Granularity.
 v0.6.185 selects Safe Demo Artifact Planning as the next Medium-risk work item.
 
 Next checkpoint: v0.6.186 Safe Demo Artifact Planning Candidate.
+
+## v0.6.186 Safe Demo Artifact Planning Candidate
+
+v0.6.186 creates the Safe Demo Artifact Planning candidate.
+
+Next checkpoint: v0.6.187 Safe Demo Artifact Planning Review and Decision.
