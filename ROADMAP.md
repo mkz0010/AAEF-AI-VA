@@ -1797,3 +1797,9 @@ Next checkpoint: v0.6.170 Public Entry and Inquiry Route Consistency Review Revi
 v0.6.170 reviews and accepts the Public Entry and Inquiry Route Consistency Review candidate and closes the Medium-risk work item.
 
 Likely next checkpoint: v0.6.171 Next Work Selection Using Risk-Tiered Granularity.
+
+## v0.6.171 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.171 selects AAEF Team Inquiry Address Reflection Proposal as the next Medium-risk work item.
+
+Next checkpoint: v0.6.172 AAEF Team Inquiry Address Reflection Proposal Candidate.

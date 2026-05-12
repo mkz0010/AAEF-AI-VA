@@ -1834,3 +1834,11 @@ v0.6.170 reviews and accepts the Public Entry and Inquiry Route Consistency Revi
 It closes the Medium-risk Public Entry and Inquiry Route Consistency Review work item after confirming public review route consistency, commercial inquiry route consistency, contact publication consistency, inquiry-route-only interpretation, and non-authorizing language. It does not modify accepted public routes, reopen the AAEF main handback sequence, create customer PoC approval, create a commercial contract, publish commercial license terms, approve paid engagement, create customer-specific material, modify runtime behavior, modify validator behavior, change schemas or public samples, or approve runtime/scanner/Docker/credential/customer/delivery activity.
 
 See `docs/246-v06170-public-entry-and-inquiry-route-consistency-review-review-and-decision.md`.
+
+## v0.6.171 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.171 applies the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.170 closed the Public Entry and Inquiry Route Consistency Review work item.
+
+It selects AAEF Team Inquiry Address Reflection Proposal as the next work item. The selected work item is classified as Medium risk because it creates proposal language about whether an AAEF-wide inquiry address accepted in AAEF-AI-VA may later be reflected toward AAEF main, while the AAEF main handback sequence remains paused. It should use two checkpoints: candidate implementation, then review and decision. This v0.6.171 direction-selection record is itself a Low-risk decision completed in one checkpoint. It does not create the proposal, send a proposal to the AAEF team, modify AAEF main, publish or modify AAEF main contact information, reopen the AAEF main handback sequence, open an AAEF main issue, generate an issue command, or authorize runtime/scanner/Docker/credential/customer/delivery activity.
+
+See `docs/247-v06171-next-work-selection-using-risk-tiered-granularity.md`.
