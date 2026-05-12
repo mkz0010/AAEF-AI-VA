@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.169 - Public Entry and Inquiry Route Consistency Review candidate
+
+- Added `docs/public-entry-and-inquiry-route-consistency-review.md`.
+- Added the v0.6.169 Public Entry and Inquiry Route Consistency Review candidate record.
+- Added tests for public review route consistency, commercial inquiry route consistency, maintainer inquiry address publication consistency, v0.6.168 selection continuity, v0.6.170 review/decision deferral, and absence of forbidden affirmative claims.
+- Deferred review and decision to v0.6.170.
+- Confirmed no README public-entry modification, commercial inquiry modification, inquiry address publication modification, customer PoC approval, commercial contract creation, commercial license terms publication, paid engagement approval, customer-specific material, runtime/scanner/Docker/credential/customer/delivery approval, AAEF main issue/PR, issue command/URL, validator behavior change, schema change, public sample change, certification claim, legal compliance claim, audit opinion claim, production readiness claim, external-framework equivalence claim, diagnostic completeness claim, third-party testing authorization claim, or AAEF Core/Profile/Practical Package promotion occurs.
+
+
+
 ## v0.6.168 - Next work selection using risk-tiered granularity
 
 - Applied the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.167 closed the Maintainer Inquiry Address Publication work item.

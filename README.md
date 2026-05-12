@@ -1818,3 +1818,11 @@ v0.6.168 applies the v0.6.120 risk-tiered checkpoint granularity policy after v0
 It selects Public Entry and Inquiry Route Consistency Review as the next work item. The selected work item is classified as Medium risk because public-facing route consistency can influence external reader interpretation, but should not change gate authorization semantics or runtime behavior. It should use two checkpoints: candidate implementation, then review and decision. This v0.6.168 direction-selection record is itself a Low-risk decision completed in one checkpoint. It does not create a consistency review, modify README public/commercial inquiry language, modify inquiry address publication, authorize a customer PoC, create a commercial contract, create commercial license terms, approve a paid engagement, reopen the AAEF main handback sequence, open an AAEF main issue, generate an issue command, or authorize runtime/scanner/Docker/credential/customer/delivery activity.
 
 See `docs/244-v06168-next-work-selection-using-risk-tiered-granularity.md`.
+
+## v0.6.169 Public Entry and Inquiry Route Consistency Review Candidate
+
+v0.6.169 adds a documentation-only Public Entry and Inquiry Route Consistency Review candidate.
+
+The candidate reviews whether README public review entry, README commercial inquiry boundary, maintainer inquiry address publication, External Review Package, Buyer-Facing Commercial Inquiry Boundary, Reviewer Walkthrough, Control Matrix, Technical Due Diligence Summary, Enterprise Review Guide, and Safe PoC Boundary Template remain internally consistent and non-authorizing. It does not modify those accepted public routes, create customer PoC approval, create a commercial contract, publish commercial license terms, approve paid engagement, create customer-specific material, modify runtime behavior, modify validator behavior, change schemas or public samples, reopen the AAEF main handback sequence, or approve runtime/scanner/Docker/credential/customer/delivery activity.
+
+See `docs/public-entry-and-inquiry-route-consistency-review.md` and `docs/245-v06169-public-entry-and-inquiry-route-consistency-review-candidate.md`.

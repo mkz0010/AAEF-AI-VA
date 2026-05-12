@@ -1785,3 +1785,9 @@ Likely next checkpoint: v0.6.168 Next Work Selection Using Risk-Tiered Granulari
 v0.6.168 selects Public Entry and Inquiry Route Consistency Review as the next Medium-risk work item.
 
 Next checkpoint: v0.6.169 Public Entry and Inquiry Route Consistency Review Candidate.
+
+## v0.6.169 Public Entry and Inquiry Route Consistency Review Candidate
+
+v0.6.169 creates the Public Entry and Inquiry Route Consistency Review candidate.
+
+Next checkpoint: v0.6.170 Public Entry and Inquiry Route Consistency Review Review and Decision.
