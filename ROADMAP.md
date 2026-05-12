@@ -1803,3 +1803,9 @@ Likely next checkpoint: v0.6.171 Next Work Selection Using Risk-Tiered Granulari
 v0.6.171 selects AAEF Team Inquiry Address Reflection Proposal as the next Medium-risk work item.
 
 Next checkpoint: v0.6.172 AAEF Team Inquiry Address Reflection Proposal Candidate.
+
+## v0.6.172 AAEF Main Contact Reflection Deferral Decision
+
+v0.6.172 defers AAEF main contact publication and keeps the interim inquiry address only as an AAEF main future candidate, while preserving AAEF-AI-VA interim inquiry routing.
+
+Next checkpoint: v0.6.173 Next Work Selection Using Risk-Tiered Granularity.

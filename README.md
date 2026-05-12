@@ -1842,3 +1842,11 @@ v0.6.171 applies the v0.6.120 risk-tiered checkpoint granularity policy after v0
 It selects AAEF Team Inquiry Address Reflection Proposal as the next work item. The selected work item is classified as Medium risk because it creates proposal language about whether an AAEF-wide inquiry address accepted in AAEF-AI-VA may later be reflected toward AAEF main, while the AAEF main handback sequence remains paused. It should use two checkpoints: candidate implementation, then review and decision. This v0.6.171 direction-selection record is itself a Low-risk decision completed in one checkpoint. It does not create the proposal, send a proposal to the AAEF team, modify AAEF main, publish or modify AAEF main contact information, reopen the AAEF main handback sequence, open an AAEF main issue, generate an issue command, or authorize runtime/scanner/Docker/credential/customer/delivery activity.
 
 See `docs/247-v06171-next-work-selection-using-risk-tiered-granularity.md`.
+
+## v0.6.172 AAEF Main Contact Reflection Deferral Decision
+
+v0.6.172 records the maintainer clarification after v0.6.171: AAEF main should not publish `hexroot0010@gmail.com` in README or other public docs for now.
+
+AAEF-AI-VA may continue treating `hexroot0010@gmail.com` as the interim maintainer-provided inquiry route. For AAEF main, the address is retained only as an internal future candidate, preferably deferred until a dedicated email/domain exists or an explicit AAEF main maintainer decision is made. This checkpoint does not create a proposal, send a proposal, modify AAEF main, publish or modify AAEF main contact information, open an AAEF main issue or PR, generate an issue command or issue URL, reopen the AAEF main handback sequence, or authorize runtime/scanner/Docker/credential/customer/delivery activity.
+
+See `docs/248-v06172-aaef-main-contact-reflection-deferral-decision.md`.

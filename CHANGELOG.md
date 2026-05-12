@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.6.172 - AAEF Main Contact Reflection Deferral Decision
+
+- Recorded the maintainer clarification after v0.6.171.
+- Deferred AAEF main README/public-doc contact publication for the interim inquiry address.
+- Confirmed AAEF-AI-VA may continue treating the address as the interim maintainer-provided inquiry route.
+- Confirmed the address is retained for AAEF main only as an internal future candidate.
+- Returned the project to next-work selection.
+- Confirmed no proposal creation, proposal sending, AAEF main repository modification, AAEF main contact publication change, AAEF main issue/PR, issue command/URL, AAEF main handback reopening, customer PoC authorization, commercial contract creation, commercial license terms publication, paid engagement approval, customer-specific material, runtime/scanner/Docker/credential/customer/delivery authorization, validator behavior change, schema change, public sample change, certification claim, legal compliance claim, audit opinion claim, production readiness claim, external-framework equivalence claim, diagnostic completeness claim, third-party testing authorization claim, or AAEF Core/Profile/Practical Package promotion occurs.
+
+
+
 ## v0.6.171 - Next work selection using risk-tiered granularity
 
 - Applied the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.170 closed the Public Entry and Inquiry Route Consistency Review work item.
