@@ -1833,3 +1833,9 @@ Next checkpoint: v0.6.176 Current-State Executive Summary Review and Decision.
 v0.6.176 reviews and accepts the Current-State Executive Summary candidate and closes the Medium-risk work item.
 
 Next checkpoint: v0.6.177 Next Work Selection Using Risk-Tiered Granularity.
+
+## v0.6.177 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.177 selects Public Demo Positioning as the next Medium-risk work item.
+
+Next checkpoint: v0.6.178 Public Demo Positioning Candidate.
