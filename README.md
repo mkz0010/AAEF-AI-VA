@@ -1938,3 +1938,11 @@ v0.6.183 adds a draft Safe Demo Scenario Definition candidate.
 The scenario defines a first public-safe demonstration based on AI-generated request, gate decision, authorization and scope inputs, preflight expectation placeholders, blocked or non-executed outcome, evidence traceability, and reviewer questions. It is documentation-only at this checkpoint and does not create an executable demo, safe demo artifact, public demo artifact, runtime/scanner execution, customer PoC, customer-target activity, or delivery authorization.
 
 See `docs/safe-demo-scenario-definition.md` and `docs/259-v06183-safe-demo-scenario-definition-candidate.md`.
+
+## v0.6.184 Safe Demo Scenario Definition Review and Decision
+
+v0.6.184 reviews and accepts the Safe Demo Scenario Definition candidate.
+
+It closes the Medium-risk Safe Demo Scenario Definition work item after confirming that the scenario defines a first public-safe demonstration based on AI-generated request, gate decision, authorization and scope inputs, preflight expectation placeholders, blocked or non-executed outcome, evidence traceability, and reviewer questions. It does not create an executable demo, safe demo artifact, public demo artifact, runtime/scanner execution, customer PoC, customer-target activity, or delivery authorization.
+
+See `docs/260-v06184-safe-demo-scenario-definition-review-and-decision.md`.
