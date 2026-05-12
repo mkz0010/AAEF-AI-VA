@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.187 - Safe Demo Artifact Planning review and decision
+
+- Reviewed and accepted the v0.6.186 Safe Demo Artifact Planning candidate.
+- Closed the Medium-risk Safe Demo Artifact Planning work item.
+- Confirmed the accepted plan supports the Blocked Tool Action Request Review scenario.
+- Confirmed the accepted plan defines artifact inventory, public/private artifact candidates, fixture boundary, evidence trace boundary, non-execution result boundary, reviewer flow, README/landing navigation expectation, future artifact creation sequence, and artifacts intentionally not created yet.
+- Confirmed no fixture creation, public sample creation, schema addition, validator behavior change, executable demo, safe demo creation, public demo creation, runtime/scanner readiness creation, real scanner execution selection, runtime execution selection, customer PoC intake selection, AAEF main publication, AAEF main issue/PR, issue command/URL, customer PoC authorization, commercial contract, paid engagement approval, commercial license terms, customer-specific material, runtime, scanner, Docker, credential, customer, delivery, certification claim, legal compliance claim, audit opinion claim, production readiness claim, external-framework equivalence claim, diagnostic completeness claim, third-party testing authorization claim, or AAEF Core/Profile/Practical Package promotion occurs.
+
+
+
 ## v0.6.186 - Safe Demo Artifact Planning candidate
 
 - Added `docs/safe-demo-artifact-planning.md`.

@@ -1962,3 +1962,11 @@ v0.6.186 adds a draft Safe Demo Artifact Planning candidate.
 The plan defines the artifact set that could later support the accepted Blocked Tool Action Request Review scenario, including artifact inventory, public/private artifact candidates, fixture boundaries, evidence trace boundaries, non-execution result boundaries, reviewer flow, and navigation expectations. It is documentation-only at this checkpoint and does not create fixtures, public samples, schemas, validators, executable demos, runtime behavior, scanner behavior, customer PoC materials, or AAEF main changes.
 
 See `docs/safe-demo-artifact-planning.md` and `docs/262-v06186-safe-demo-artifact-planning-candidate.md`.
+
+## v0.6.187 Safe Demo Artifact Planning Review and Decision
+
+v0.6.187 reviews and accepts the Safe Demo Artifact Planning candidate.
+
+It closes the Medium-risk Safe Demo Artifact Planning work item after confirming that the plan defines artifact inventory, public/private artifact candidates, fixture boundary, evidence trace boundary, non-execution result boundary, reviewer flow, README/landing navigation expectation, future artifact creation sequence, and artifacts intentionally not created yet. It does not create fixtures, public samples, schemas, validators, executable demos, runtime behavior, scanner behavior, customer PoC materials, or AAEF main changes.
+
+See `docs/263-v06187-safe-demo-artifact-planning-review-and-decision.md`.

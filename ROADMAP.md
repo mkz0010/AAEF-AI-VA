@@ -1893,3 +1893,9 @@ Next checkpoint: v0.6.186 Safe Demo Artifact Planning Candidate.
 v0.6.186 creates the Safe Demo Artifact Planning candidate.
 
 Next checkpoint: v0.6.187 Safe Demo Artifact Planning Review and Decision.
+
+## v0.6.187 Safe Demo Artifact Planning Review and Decision
+
+v0.6.187 reviews and accepts the Safe Demo Artifact Planning candidate and closes the Medium-risk work item.
+
+Next checkpoint: v0.6.188 Next Work Selection Using Risk-Tiered Granularity.
