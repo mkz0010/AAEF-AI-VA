@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.166 - Maintainer Inquiry Address Publication candidate
+
+- Published `hexroot0010@gmail.com` as the maintainer-approved interim AAEF-wide inquiry address in README and `docs/buyer-facing-commercial-inquiry-boundary.md`.
+- Added the v0.6.166 Maintainer Inquiry Address Publication candidate record.
+- Added tests for README address publication, commercial inquiry boundary address publication, AAEF-wide inquiry framing, inquiry-route-only interpretation, v0.6.165 continuity, and absence of forbidden affirmative claims.
+- Deferred review and decision to v0.6.167.
+- Confirmed no customer PoC approval, commercial contract creation, commercial license terms publication, paid engagement approval, customer-specific material, runtime/scanner/Docker/credential/customer/delivery approval, AAEF main issue/PR, validator behavior change, schema change, public sample change, certification claim, legal compliance claim, audit opinion claim, production readiness claim, external-framework equivalence claim, diagnostic completeness claim, third-party testing authorization claim, or AAEF Core/Profile/Practical Package promotion occurs.
+
+
+
 ## v0.6.165 - Buyer-Facing Commercial Inquiry Boundary review and decision
 
 - Reviewed and accepted the v0.6.164 Buyer-Facing Commercial Inquiry Boundary candidate.

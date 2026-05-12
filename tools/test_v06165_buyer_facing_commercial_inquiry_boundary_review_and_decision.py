@@ -51,7 +51,18 @@ def main() -> int:
     for phrase in FORBIDDEN_AFFIRMATIVE_PHRASES:
         require(phrase not in combined_lower, f"forbidden affirmative claim found: {phrase}")
 
-    require(CONTACT_ADDRESS.lower() not in combined_lower, "actual inquiry address must not be published in v0.6.165 repository files")
+    v06166_candidate = ROOT / "docs/242-v06166-maintainer-inquiry-address-publication-candidate.md"
+    if v06166_candidate.exists():
+        require(
+            CONTACT_ADDRESS.lower() in (readme_text + "\\n" + boundary_text).lower(),
+            "actual inquiry address should be published in current README/boundary after v0.6.166 candidate",
+        )
+        require(
+            CONTACT_ADDRESS.lower() not in doc_text.lower(),
+            "v0.6.165 review/decision record must not itself publish the actual inquiry address",
+        )
+    else:
+        require(CONTACT_ADDRESS.lower() not in combined_lower, "actual inquiry address must not be published before v0.6.166 repository files")
 
     v06164 = V06164_DOC.read_text(encoding="utf-8")
     for phrase in [

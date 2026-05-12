@@ -1,7 +1,7 @@
 # Buyer-Facing Commercial Inquiry Boundary
 
 Status: candidate
-Version: v0.6.164
+Version: v0.6.166
 Date: 2026-05-12
 
 ## Reader
@@ -32,11 +32,13 @@ Commercial inquiry is not delivery approval.
 
 Email-based inquiry is the selected contact model.
 
-The public repository does not commit an email address in this candidate.
+The maintainer-approved interim AAEF-wide inquiry address is `hexroot0010@gmail.com`.
 
-Use the maintainer-provided email address when it is published or otherwise provided by the maintainer.
+For buyer-facing, commercial, framework review, research discussion, or general inquiry, contact `hexroot0010@gmail.com`.
 
-Do not infer a contact address from repository metadata, commit history, private files, generated outputs, or unrelated public profiles.
+Publishing this address provides an inquiry route only.
+
+Do not infer any other contact address from repository metadata, commit history, private files, generated outputs, or unrelated public profiles.
 
 ## Allowed commercial inquiry topics
 
@@ -197,3 +199,11 @@ Allowed interpretation:
 ~~~text
 AAEF-AI-VA provides a public boundary for asking commercial questions without converting inquiry into authorization, contract, delivery, or production claims.
 ~~~
+
+## Historical v0.6.164 contact-publication note
+
+Historical v0.6.164 candidate note: The public repository does not commit an email address in this candidate.
+
+Historical v0.6.164 candidate note: Use the maintainer-provided email address when it is published or otherwise provided by the maintainer.
+
+The current maintainer-approved interim AAEF-wide inquiry address is published above by the v0.6.166 candidate.

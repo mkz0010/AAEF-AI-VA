@@ -1761,9 +1761,9 @@ Commercial inquiry is welcome as a boundary discussion, but inquiry is not autho
 
 Email-based inquiry is the selected contact model.
 
-This repository does not commit an email address in this candidate.
+The maintainer-approved interim AAEF-wide inquiry address is `hexroot0010@gmail.com`.
 
-Use the maintainer-provided email address when it is published or otherwise provided by the maintainer.
+For buyer-facing or commercial inquiry, contact `hexroot0010@gmail.com`.
 
 Start with `docs/buyer-facing-commercial-inquiry-boundary.md`.
 
@@ -1786,3 +1786,19 @@ v0.6.165 reviews and accepts the Buyer-Facing Commercial Inquiry Boundary candid
 It closes the work item after confirming the email-based inquiry model, maintainer-provided inquiry address model, allowed inquiry topics, topics requiring separate agreement, not-a-contract notice, no-paid-engagement approval, no-customer-PoC authorization, no-runtime/scanner authorization, no-credential/customer/delivery authorization, External Review Package relationship, Safe PoC Boundary Template relationship, licensing/commercial-use boundary, public/private material boundary, and conservative claim boundaries. Actual inquiry address publication is deferred to a dedicated contact-publication checkpoint.
 
 See `docs/241-v06165-buyer-facing-commercial-inquiry-boundary-review-and-decision.md`.
+
+## v0.6.166 Maintainer Inquiry Address Publication Candidate
+
+v0.6.166 publishes `hexroot0010@gmail.com` as the maintainer-approved interim AAEF-wide inquiry address in README and `docs/buyer-facing-commercial-inquiry-boundary.md`.
+
+The address is an inquiry route only. It does not create customer PoC approval, create a commercial contract, publish commercial license terms, approve paid engagement, create customer-specific material, modify runtime behavior, modify validator behavior, change schemas or public samples, or approve runtime/scanner/Docker/credential/customer/delivery activity. Review and decision are deferred to v0.6.167.
+
+See `docs/242-v06166-maintainer-inquiry-address-publication-candidate.md`.
+
+### Historical v0.6.164 contact-publication note
+
+Historical v0.6.164 candidate note: This repository does not commit an email address in this candidate.
+
+Historical v0.6.164 candidate note: Use the maintainer-provided email address when it is published or otherwise provided by the maintainer.
+
+The current maintainer-approved interim AAEF-wide inquiry address is published above by the v0.6.166 candidate.
