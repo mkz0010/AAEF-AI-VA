@@ -1874,3 +1874,11 @@ v0.6.175 adds a draft Current-State Executive Summary candidate.
 The summary explains the present state of AAEF-AI-VA for reviewers, decision makers, and technically informed buyers. It covers the implemented documentation/review package layer, near-term safe demo direction, deferred runtime/scanner work, deferred customer PoC work, and non-authorizing claim boundaries. It does not create a safe demo, authorize runtime/scanner execution, authorize customer PoC intake, modify AAEF main, or publish AAEF main contact information.
 
 See `docs/current-state-executive-summary.md` and `docs/251-v06175-current-state-executive-summary-candidate.md`.
+
+## v0.6.176 Current-State Executive Summary Review and Decision
+
+v0.6.176 reviews and accepts the Current-State Executive Summary candidate.
+
+It closes the Medium-risk Current-State Executive Summary work item after confirming that the summary explains the current project state, implementation layer staging, safe demo direction, deferred runtime/scanner work, deferred customer PoC work, and non-authorizing claim boundaries. It does not create a safe demo, authorize runtime/scanner execution, authorize customer PoC intake, modify AAEF main, or publish AAEF main contact information.
+
+See `docs/252-v06176-current-state-executive-summary-review-and-decision.md`.
