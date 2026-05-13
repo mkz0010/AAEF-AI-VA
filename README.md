@@ -2100,3 +2100,11 @@ v0.6.199 adds a draft Public Demo Readiness Review candidate.
 The candidate concludes that the current repository state should not be called a Public Demo yet and recommends `Static Fixture Review Path` as the safer public phrase. It confirms that the accepted fixture set and README landing path are publicly reviewable but remain static, mock, fixture-only, non-execution, and reviewer-facing. It does not create new fixtures, public samples, schemas, validators, executable demos, runtime behavior, scanner behavior, customer PoC materials, or AAEF main changes.
 
 See `docs/public-demo-readiness-review.md` and `docs/275-v06199-public-demo-readiness-review-candidate.md`.
+
+## v0.6.200 Public Demo Readiness Review and Decision
+
+v0.6.200 reviews and accepts the Public Demo Readiness Review candidate added in v0.6.199.
+
+It closes the Medium-risk Public Demo Readiness Review work item. The accepted decision is that the current repository state should not be called a Public Demo yet, and that `Static Fixture Review Path` is the safer public phrase. The accepted fixture set and README landing path are publicly reviewable but remain static, mock, fixture-only, non-execution, and reviewer-facing. It does not create additional fixtures, public samples, schemas, validators, executable demos, runtime behavior, scanner behavior, PoC material, or AAEF main changes.
+
+See `docs/276-v06200-public-demo-readiness-review-and-decision.md`.
