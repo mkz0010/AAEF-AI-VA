@@ -1959,3 +1959,9 @@ Next checkpoint: v0.6.197 Repository Landing and Demo Path Clarity Review and De
 v0.6.197 reviews and accepts the Repository Landing and Demo Path Clarity candidate and closes the Medium-risk work item.
 
 Next checkpoint: v0.6.198 Next Work Selection Using Risk-Tiered Granularity.
+
+## v0.6.198 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.198 selects Public Demo Readiness Review as the next Medium-risk work item.
+
+Next checkpoint: v0.6.199 Public Demo Readiness Review Candidate.

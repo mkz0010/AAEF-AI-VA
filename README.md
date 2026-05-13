@@ -2084,3 +2084,11 @@ v0.6.197 reviews and accepts the Repository Landing and Demo Path Clarity candid
 It closes the Medium-risk Repository Landing and Demo Path Clarity work item after confirming that the README `Safe Demo Fixture Review Path` entry and `docs/repository-landing-demo-path-clarity.md` clearly point reviewers to the accepted static, mock, fixture-only, non-execution fixture set and preserve scanner, executable demo, public demo, PoC readiness, delivery authorization, and third-party-testing authorization boundaries. It does not create additional fixtures, public samples, schemas, validators, executable demos, runtime behavior, scanner behavior, PoC material, or AAEF main changes.
 
 See `docs/273-v06197-repository-landing-demo-path-clarity-review-and-decision.md`.
+
+## v0.6.198 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.198 applies the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.197 closed the Repository Landing and Demo Path Clarity work item.
+
+It selects Public Demo Readiness Review as the next work item. The selected work item is classified as Medium risk because it is documentation-only but may affect public interpretation of demo readiness, scanner capability, executable demo availability, PoC readiness, and third-party-testing authorization. It should use two checkpoints: candidate review, then review and decision. This v0.6.198 direction-selection record is itself a Low-risk decision completed in one checkpoint. It does not create the public demo readiness candidate, create new fixture files, create public samples, create a safe demo, create a public demo, create an executable demo, authorize runtime/scanner execution, authorize customer PoC intake, modify AAEF main, or publish AAEF main contact information.
+
+See `docs/274-v06198-next-work-selection-using-risk-tiered-granularity.md`.
