@@ -2092,3 +2092,11 @@ v0.6.198 applies the v0.6.120 risk-tiered checkpoint granularity policy after v0
 It selects Public Demo Readiness Review as the next work item. The selected work item is classified as Medium risk because it is documentation-only but may affect public interpretation of demo readiness, scanner capability, executable demo availability, PoC readiness, and third-party-testing authorization. It should use two checkpoints: candidate review, then review and decision. This v0.6.198 direction-selection record is itself a Low-risk decision completed in one checkpoint. It does not create the public demo readiness candidate, create new fixture files, create public samples, create a safe demo, create a public demo, create an executable demo, authorize runtime/scanner execution, authorize customer PoC intake, modify AAEF main, or publish AAEF main contact information.
 
 See `docs/274-v06198-next-work-selection-using-risk-tiered-granularity.md`.
+
+## v0.6.199 Public Demo Readiness Review Candidate
+
+v0.6.199 adds a draft Public Demo Readiness Review candidate.
+
+The candidate concludes that the current repository state should not be called a Public Demo yet and recommends `Static Fixture Review Path` as the safer public phrase. It confirms that the accepted fixture set and README landing path are publicly reviewable but remain static, mock, fixture-only, non-execution, and reviewer-facing. It does not create new fixtures, public samples, schemas, validators, executable demos, runtime behavior, scanner behavior, customer PoC materials, or AAEF main changes.
+
+See `docs/public-demo-readiness-review.md` and `docs/275-v06199-public-demo-readiness-review-candidate.md`.
