@@ -1953,3 +1953,9 @@ Next checkpoint: v0.6.196 Repository Landing and Demo Path Clarity Candidate.
 v0.6.196 creates the Repository Landing and Demo Path Clarity candidate.
 
 Next checkpoint: v0.6.197 Repository Landing and Demo Path Clarity Review and Decision.
+
+## v0.6.197 Repository Landing and Demo Path Clarity Review and Decision
+
+v0.6.197 reviews and accepts the Repository Landing and Demo Path Clarity candidate and closes the Medium-risk work item.
+
+Next checkpoint: v0.6.198 Next Work Selection Using Risk-Tiered Granularity.
