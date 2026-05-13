@@ -2010,3 +2010,11 @@ v0.6.192 performs the readiness review for the High-risk Safe Demo Fixture Set C
 It accepts readiness for v0.6.193 to create only static, mock, non-execution fixture candidates within a constrained scope. The readiness review defines allowed fixture inventory, allowed path boundary, allowed file types, request/gate/non-execution/evidence/walkthrough constraints, forbidden values, forbidden claims, publication boundary, and static validation review. It does not create fixture files, public samples, schemas, validators, executable demos, runtime behavior, scanner behavior, customer PoC materials, or AAEF main changes.
 
 See `docs/268-v06192-safe-demo-fixture-set-creation-readiness-review.md`.
+
+## v0.6.193 Safe Demo Fixture Set Candidate
+
+v0.6.193 creates a static, mock, non-execution Safe Demo Fixture Set candidate within the v0.6.192 readiness scope.
+
+The fixture set is located at `docs/examples/safe-demo/blocked-tool-action-request-review/` and includes a request fixture, gate decision fixture, non-execution result fixture, evidence trace fixture, and reviewer walkthrough. The candidate demonstrates reviewability for the accepted Blocked Tool Action Request Review scenario without creating a public sample, safe demo, public demo, executable demo, runtime behavior, scanner behavior, PoC material, or AAEF main change.
+
+See `docs/269-v06193-safe-demo-fixture-set-candidate.md`.

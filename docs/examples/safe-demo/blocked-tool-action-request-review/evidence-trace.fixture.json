@@ -1,0 +1,46 @@
+{
+  "chain": [
+    {
+      "artifact": "request.fixture.json",
+      "artifact_id": "demo-request-0001",
+      "artifact_kind": "tool_action_request",
+      "step": 1
+    },
+    {
+      "artifact": "gate-decision.fixture.json",
+      "artifact_id": "demo-decision-0001",
+      "artifact_kind": "gate_decision",
+      "step": 2
+    },
+    {
+      "artifact": "non-execution-result.fixture.json",
+      "artifact_id": "demo-result-0001",
+      "artifact_kind": "non_execution_result",
+      "step": 3
+    }
+  ],
+  "fixture_kind": "evidence_trace",
+  "fixture_status": "draft_candidate",
+  "review_conclusion": {
+    "execution_occurred": false,
+    "execution_permitted": false,
+    "gate_decision_controlled_execution": true,
+    "model_output_became_authority": false,
+    "reviewable_non_execution_evidence": true
+  },
+  "review_questions": [
+    "What action was requested?",
+    "Which gate decision controlled execution?",
+    "Was execution permitted?",
+    "Did execution occur?",
+    "What evidence supports the review conclusion?"
+  ],
+  "safety_boundary": {
+    "mock_only": true,
+    "no_runtime_dispatch": true,
+    "non_execution": true,
+    "static_fixture": true
+  },
+  "scenario_id": "blocked-tool-action-request-review",
+  "trace_id": "demo-trace-0001"
+}

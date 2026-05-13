@@ -1,0 +1,20 @@
+{
+  "decision_id": "demo-decision-0001",
+  "evidence_summary": "The fixture records a blocked request and explicit non-execution outcome.",
+  "execution_occurred": false,
+  "execution_permitted": false,
+  "fixture_kind": "non_execution_result",
+  "fixture_status": "draft_candidate",
+  "observed_effect": "no_tool_dispatch",
+  "request_id": "demo-request-0001",
+  "result_id": "demo-result-0001",
+  "result_status": "non_executed_blocked",
+  "review_status": "blocked_request_reviewable",
+  "safety_boundary": {
+    "mock_only": true,
+    "no_runtime_dispatch": true,
+    "non_execution": true,
+    "static_fixture": true
+  },
+  "scenario_id": "blocked-tool-action-request-review"
+}

@@ -1,0 +1,25 @@
+{
+  "authority_boundary": {
+    "ai_request_is_not_execution_authority": true,
+    "dispatch_allowed": false,
+    "gate_decides_execution": true
+  },
+  "decision": "blocked",
+  "decision_id": "demo-decision-0001",
+  "decision_reason": "The request is preserved as a reviewable fixture and is not permitted to execute.",
+  "execution_occurred": false,
+  "execution_permitted": false,
+  "fixture_kind": "gate_decision",
+  "fixture_status": "draft_candidate",
+  "human_approval_required": false,
+  "preflight_checked": true,
+  "request_id": "demo-request-0001",
+  "safety_boundary": {
+    "mock_only": true,
+    "no_runtime_dispatch": true,
+    "non_execution": true,
+    "static_fixture": true
+  },
+  "scenario_id": "blocked-tool-action-request-review",
+  "scope_checked": true
+}

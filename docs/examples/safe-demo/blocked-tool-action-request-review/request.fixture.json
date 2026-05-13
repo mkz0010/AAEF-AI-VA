@@ -1,0 +1,28 @@
+{
+  "authority_boundary": {
+    "execution_permitted_by_request": false,
+    "model_output_is_authority": false,
+    "requires_gate_decision": true
+  },
+  "execution_mode": "fixture_only_non_execution",
+  "fixture_kind": "tool_action_request",
+  "fixture_status": "draft_candidate",
+  "request_id": "demo-request-0001",
+  "request_kind": "tool_action_request",
+  "requested_action": "demo_diagnostic_action_request",
+  "requested_at": "2026-05-13T00:00:00Z",
+  "requested_by": {
+    "actor_ref": "demo-ai-requester",
+    "actor_type": "ai_assistant"
+  },
+  "safety_boundary": {
+    "mock_only": true,
+    "no_live_target": true,
+    "no_runtime_dispatch": true,
+    "non_execution": true,
+    "static_fixture": true
+  },
+  "scenario_id": "blocked-tool-action-request-review",
+  "scope_ref": "fixture-scope:blocked-tool-action-request-review",
+  "target_ref": "fixture-target:mock-review-target"
+}

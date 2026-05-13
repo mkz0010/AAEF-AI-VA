@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.6.193 - Safe Demo Fixture Set candidate
+
+- Added a static, mock, non-execution Safe Demo Fixture Set candidate under `docs/examples/safe-demo/blocked-tool-action-request-review/`.
+- Added request, gate decision, non-execution result, evidence trace, and reviewer walkthrough fixture files.
+- Added the v0.6.193 Safe Demo Fixture Set candidate record.
+- Added tests for fixture file existence, allowed file types, fixture identifier consistency, non-execution status, reviewability, v0.6.192 readiness continuity, v0.6.191 selection continuity, v0.6.190 fixture planning closeout continuity, AAEF main contact deferral continuity, handback pause continuity, and forbidden value/claim exclusion.
+- Deferred review and decision to v0.6.194.
+- Confirmed no public sample creation, schema addition, validator behavior change, executable demo, safe demo creation, public demo creation, runtime/scanner readiness creation, real scanner execution selection, runtime execution selection, PoC intake selection, AAEF main publication, AAEF main issue/PR, issue command/URL, PoC authorization, commercial contract, paid engagement approval, commercial license terms, specific external-party material, runtime, scanner, Docker, sensitive value, target, delivery, certification claim, legal compliance claim, audit opinion claim, production readiness claim, external-framework equivalence claim, diagnostic completeness claim, third-party testing authorization claim, or AAEF Core/Profile/Practical Package promotion occurs.
+
+
+
 ## v0.6.192 - Safe Demo Fixture Set Creation readiness review
 
 - Added the v0.6.192 Safe Demo Fixture Set Creation readiness review.
