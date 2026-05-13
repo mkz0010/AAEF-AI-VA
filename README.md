@@ -2034,3 +2034,45 @@ v0.6.195 applies the v0.6.120 risk-tiered checkpoint granularity policy after v0
 It selects Repository Landing and Demo Path Clarity as the next work item. The selected work item is classified as Medium risk because it may modify public-facing repository navigation and affect reviewer interpretation while remaining documentation-only. It should use two checkpoints: candidate implementation, then review and decision. This v0.6.195 direction-selection record is itself a Low-risk decision completed in one checkpoint. It does not create the landing/demo clarity candidate artifact, create new fixture files, create public samples, create a safe demo, create a public demo, create an executable demo, authorize runtime/scanner execution, authorize customer PoC intake, modify AAEF main, or publish AAEF main contact information.
 
 See `docs/271-v06195-next-work-selection-using-risk-tiered-granularity.md`.
+
+## Safe Demo Fixture Review Path
+
+AAEF-AI-VA includes an accepted static, mock, fixture-only, non-execution fixture set for reviewing the `Blocked Tool Action Request Review` scenario.
+
+Start here:
+
+~~~text
+docs/examples/safe-demo/blocked-tool-action-request-review/
+~~~
+
+Review in this order:
+
+~~~text
+request.fixture.json
+gate-decision.fixture.json
+non-execution-result.fixture.json
+evidence-trace.fixture.json
+reviewer-walkthrough.md
+~~~
+
+Expected reviewer conclusion:
+
+~~~text
+AI output did not become authority.
+The gate decision controlled execution.
+Execution was not permitted.
+Execution did not occur.
+The non-execution outcome is reviewable from static fixture evidence.
+~~~
+
+Boundary: this fixture set is not a scanner, not an executable demo, not a public demo, not PoC readiness, not delivery authorization, and not authorization to test third-party systems.
+
+See `docs/270-v06194-safe-demo-fixture-set-review-and-decision.md` and `docs/repository-landing-demo-path-clarity.md`.
+
+## v0.6.196 Repository Landing and Demo Path Clarity Candidate
+
+v0.6.196 adds a draft Repository Landing and Demo Path Clarity candidate and README landing entry.
+
+The candidate points reviewers to the accepted static, mock, fixture-only, non-execution fixture set under `docs/examples/safe-demo/blocked-tool-action-request-review/`, identifies the review order, states the expected reviewer conclusion, and preserves the boundary that the fixture set is not a scanner, not an executable demo, not a public demo, not PoC readiness, not delivery authorization, and not authorization to test third-party systems. It does not create new fixtures, public samples, schemas, validators, executable demos, runtime behavior, scanner behavior, customer PoC materials, or AAEF main changes.
+
+See `docs/repository-landing-demo-path-clarity.md` and `docs/272-v06196-repository-landing-demo-path-clarity-candidate.md`.

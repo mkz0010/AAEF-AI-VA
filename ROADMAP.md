@@ -1947,3 +1947,9 @@ Next checkpoint: v0.6.195 Next Work Selection Using Risk-Tiered Granularity.
 v0.6.195 selects Repository Landing and Demo Path Clarity as the next Medium-risk work item.
 
 Next checkpoint: v0.6.196 Repository Landing and Demo Path Clarity Candidate.
+
+## v0.6.196 Repository Landing and Demo Path Clarity Candidate
+
+v0.6.196 creates the Repository Landing and Demo Path Clarity candidate.
+
+Next checkpoint: v0.6.197 Repository Landing and Demo Path Clarity Review and Decision.

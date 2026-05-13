@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.6.196 - Repository Landing and Demo Path Clarity candidate
+
+- Added `docs/repository-landing-demo-path-clarity.md`.
+- Added the v0.6.196 Repository Landing and Demo Path Clarity candidate record.
+- Added a README landing entry for the accepted static, mock, fixture-only, non-execution Safe Demo Fixture Set.
+- Confirmed the accepted fixture path, review order, expected reviewer conclusion, and boundary statements are visible from repository landing surfaces.
+- Deferred review and decision to v0.6.197.
+- Confirmed no additional fixture creation, public sample creation, schema addition, validator behavior change, executable demo, safe demo creation, public demo creation, runtime/scanner readiness creation, real scanner execution selection, runtime execution selection, customer PoC intake selection, AAEF main publication, AAEF main issue/PR, issue command/URL, customer PoC authorization, commercial contract, paid engagement approval, commercial license terms, customer-specific material, runtime, scanner, Docker, sensitive value, customer, delivery, certification claim, legal compliance claim, audit opinion claim, production readiness claim, external-framework equivalence claim, diagnostic completeness claim, third-party testing authorization claim, or AAEF Core/Profile/Practical Package promotion occurs.
+
+
+
 ## v0.6.195 - Next work selection using risk-tiered granularity
 
 - Applied the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.194 closed the Safe Demo Fixture Set Creation work item.
