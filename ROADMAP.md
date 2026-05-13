@@ -1941,3 +1941,9 @@ Next checkpoint: v0.6.194 Safe Demo Fixture Set Review and Decision.
 v0.6.194 reviews and accepts the Safe Demo Fixture Set candidate and closes the High-risk work item.
 
 Next checkpoint: v0.6.195 Next Work Selection Using Risk-Tiered Granularity.
+
+## v0.6.195 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.195 selects Repository Landing and Demo Path Clarity as the next Medium-risk work item.
+
+Next checkpoint: v0.6.196 Repository Landing and Demo Path Clarity Candidate.
