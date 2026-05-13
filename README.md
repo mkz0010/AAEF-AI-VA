@@ -1986,3 +1986,11 @@ v0.6.189 adds a draft Safe Demo Fixture Set Planning candidate.
 The plan defines the fixture set that could later support the accepted Safe Demo Artifact Planning document and the accepted Blocked Tool Action Request Review scenario. It covers fixture inventory, fixture file boundary, request fixture boundary, gate decision fixture boundary, non-execution result fixture boundary, evidence trace fixture boundary, reviewer walkthrough boundary, static validation expectations, file naming expectations, public/private fixture distinction, and future fixture creation sequence. It is documentation-only at this checkpoint and does not create fixtures, public samples, schemas, validators, executable demos, runtime behavior, scanner behavior, customer PoC materials, or AAEF main changes.
 
 See `docs/safe-demo-fixture-set-planning.md` and `docs/265-v06189-safe-demo-fixture-set-planning-candidate.md`.
+
+## v0.6.190 Safe Demo Fixture Set Planning Review and Decision
+
+v0.6.190 reviews and accepts the Safe Demo Fixture Set Planning candidate.
+
+It closes the Medium-risk Safe Demo Fixture Set Planning work item after confirming that the plan defines fixture inventory, fixture file boundary, request fixture boundary, gate decision fixture boundary, non-execution result fixture boundary, evidence trace fixture boundary, reviewer walkthrough boundary, static validation expectations, file naming expectations, public/private fixture distinction, future fixture creation sequence, and fixtures intentionally not created yet. It does not create fixtures, public samples, schemas, validators, executable demos, runtime behavior, scanner behavior, customer PoC materials, or AAEF main changes.
+
+See `docs/266-v06190-safe-demo-fixture-set-planning-review-and-decision.md`.

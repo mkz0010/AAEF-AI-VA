@@ -1911,3 +1911,9 @@ Next checkpoint: v0.6.189 Safe Demo Fixture Set Planning Candidate.
 v0.6.189 creates the Safe Demo Fixture Set Planning candidate.
 
 Next checkpoint: v0.6.190 Safe Demo Fixture Set Planning Review and Decision.
+
+## v0.6.190 Safe Demo Fixture Set Planning Review and Decision
+
+v0.6.190 reviews and accepts the Safe Demo Fixture Set Planning candidate and closes the Medium-risk work item.
+
+Next checkpoint: v0.6.191 Next Work Selection Using Risk-Tiered Granularity.
