@@ -1994,3 +1994,11 @@ v0.6.190 reviews and accepts the Safe Demo Fixture Set Planning candidate.
 It closes the Medium-risk Safe Demo Fixture Set Planning work item after confirming that the plan defines fixture inventory, fixture file boundary, request fixture boundary, gate decision fixture boundary, non-execution result fixture boundary, evidence trace fixture boundary, reviewer walkthrough boundary, static validation expectations, file naming expectations, public/private fixture distinction, future fixture creation sequence, and fixtures intentionally not created yet. It does not create fixtures, public samples, schemas, validators, executable demos, runtime behavior, scanner behavior, customer PoC materials, or AAEF main changes.
 
 See `docs/266-v06190-safe-demo-fixture-set-planning-review-and-decision.md`.
+
+## v0.6.191 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.191 applies the v0.6.120 risk-tiered checkpoint granularity policy after v0.6.190 closed the Safe Demo Fixture Set Planning work item.
+
+It selects Safe Demo Fixture Set Creation as the next work item. The selected work item is classified as High risk because it may later create public-facing fixture files and affect reviewer interpretation, repository trust, public demo readiness, and validator expectations. It should use three checkpoints: readiness review, candidate implementation, then review and decision. This v0.6.191 direction-selection record is itself a Low-risk decision completed in one checkpoint. It does not create fixture files, create public samples, create a safe demo, create a public demo, create an executable demo, authorize runtime/scanner execution, authorize customer PoC intake, modify AAEF main, or publish AAEF main contact information.
+
+See `docs/267-v06191-next-work-selection-using-risk-tiered-granularity.md`.
