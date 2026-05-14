@@ -2226,3 +2226,25 @@ Decision boundaries:
 
 A separate future checkpoint is still required before any repository wording changes are applied.
 <!-- v0.6.207-repository-wording-integration-plan-review-decision:end -->
+
+<!-- v0.6.208-next-work-selection:start -->
+## v0.6.208 direction-selection checkpoint
+
+v0.6.208 records the next work selection after v0.6.207 without applying repository wording changes.
+
+Selected next work item:
+
+- `static_fixture_review_path_repository_wording_integration_implementation_candidate`
+- Risk tier: `medium`
+- Checkpoint count: `2`
+- Next checkpoint: `v0.6.209 Static Fixture Review Path Repository Wording Integration Implementation Candidate`
+- Follow-up checkpoint: `v0.6.210 Static Fixture Review Path Repository Wording Integration Implementation Review and Decision`
+
+Boundary retained by this checkpoint:
+
+- repository wording changes remain not applied
+- publication remains deferred
+- no external announcement is approved
+- no social-post instruction is approved
+- no runtime, scanner, customer PoC, production, certification, legal, audit, diagnostic-completeness, or external-framework-equivalence claim is added
+<!-- v0.6.208-next-work-selection:end -->

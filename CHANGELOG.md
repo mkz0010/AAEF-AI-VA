@@ -1,5 +1,18 @@
 # Changelog
 
+<!-- v0.6.208-changelog:start -->
+## v0.6.208 - Next Work Selection Using Risk-Tiered Granularity
+
+- Added `docs/284-v06208-next-work-selection-using-risk-tiered-granularity.md`.
+- Added `planning/decisions/ADR-0278-add-v06208-next-work-selection-using-risk-tiered-granularity.md`.
+- Added `planning/issues/0277-add-v06208-next-work-selection-using-risk-tiered-granularity.md`.
+- Added `tools/test_v06208_next_work_selection_using_risk_tiered_granularity.py`.
+- Selected `static_fixture_review_path_repository_wording_integration_implementation_candidate` as the next Medium-risk work item.
+- Recorded the two-checkpoint path: v0.6.209 Static Fixture Review Path Repository Wording Integration Implementation Candidate, then v0.6.210 Static Fixture Review Path Repository Wording Integration Implementation Review and Decision.
+- Preserved the v0.6.207 boundary: repository wording changes remain not applied, publication remains deferred, and no runtime/scanner/customer PoC/production/compliance/equivalence claim was added.
+<!-- v0.6.208-changelog:end -->
+
+
 <!-- v0.6.207-changelog:start -->
 ## v0.6.207 - Static Fixture Review Path Repository Wording Integration Plan Review and Decision
 

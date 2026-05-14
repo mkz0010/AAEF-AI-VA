@@ -2095,3 +2095,22 @@ Current checkpoint:
 
 Possible next work should remain conservative and should select any actual repository wording integration implementation under risk-tiered granularity before edits are applied.
 <!-- v0.6.207-roadmap:end -->
+
+<!-- v0.6.208-roadmap:start -->
+## v0.6.208 roadmap selection
+
+Current checkpoint:
+
+- `v0.6.208 Next Work Selection Using Risk-Tiered Granularity`
+- Status: accepted direction-selection checkpoint
+- Selected next work item: `static_fixture_review_path_repository_wording_integration_implementation_candidate`
+- Selected risk tier: `medium`
+- Selected checkpoint count: `2`
+
+Planned follow-up checkpoints:
+
+1. `v0.6.209 Static Fixture Review Path Repository Wording Integration Implementation Candidate`
+2. `v0.6.210 Static Fixture Review Path Repository Wording Integration Implementation Review and Decision`
+
+v0.6.208 does not apply repository wording changes. It only records the selected work item and its risk-tiered checkpoint split. The publication remains deferred boundary is preserved.
+<!-- v0.6.208-roadmap:end -->
