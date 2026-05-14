@@ -2030,3 +2030,17 @@ Next planned checkpoint:
 
 v0.6.204 should review whether the candidate wording preserves the static, mock, fixture-only, non-execution, reviewer-facing boundary and decide whether to accept, revise, or reject the communication pack.
 <!-- v0.6.203-roadmap:end -->
+
+<!-- v0.6.204-roadmap:start -->
+## v0.6.204 communication pack review and decision
+
+Current checkpoint:
+
+- `v0.6.204 Static Fixture Review Path Public Communication Pack Review and Decision`
+- Decision: accepted for repository wording use
+- Publication status: publication deferred
+- External announcement status: not published
+- Boundary: static, mock, fixture-only, non-execution, reviewer-facing
+
+Possible next work should remain conservative and should not introduce runtime/scanner/customer PoC readiness unless separately selected and reviewed under risk-tiered granularity.
+<!-- v0.6.204-roadmap:end -->

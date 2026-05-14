@@ -2155,3 +2155,20 @@ This is a corrective checkpoint only. The v0.6.202 communication pack remains ca
 
 The communication pack review-and-decision step is deferred to `v0.6.204 Static Fixture Review Path Public Communication Pack Review and Decision`.
 <!-- v0.6.203-candidate-test-alignment-correction:end -->
+
+<!-- v0.6.204-communication-pack-review-decision:start -->
+## v0.6.204 communication pack review and decision checkpoint
+
+v0.6.204 accepts the `Static Fixture Review Path Public Communication Pack` for repository wording use.
+
+Decision boundaries:
+
+- accepted for repository wording use
+- publication deferred
+- not published as an external announcement
+- not a publication approval
+- not a social-post instruction
+- not a runtime, scanner, customer PoC, production, certification, legal, audit, diagnostic-completeness, or external-framework-equivalence claim
+
+The accepted wording continues to describe the current path as a `Static Fixture Review Path`: static, mock, fixture-only, non-execution, and reviewer-facing.
+<!-- v0.6.204-communication-pack-review-decision:end -->

@@ -1,5 +1,18 @@
 # Changelog
 
+<!-- v0.6.204-changelog:start -->
+## v0.6.204 - Static Fixture Review Path Public Communication Pack Review and Decision
+
+- Added `docs/280-v06204-static-fixture-review-path-public-communication-pack-review-and-decision.md`.
+- Added `planning/decisions/ADR-0274-add-v06204-static-fixture-review-path-public-communication-pack-review-and-decision.md`.
+- Added `planning/issues/0273-add-v06204-static-fixture-review-path-public-communication-pack-review-and-decision.md`.
+- Added `tools/test_v06204_static_fixture_review_path_public_communication_pack_review_and_decision.py`.
+- Decision: accepted for repository wording use for the v0.6.202 communication pack.
+- Preserved publication deferred status: not published, not a publication approval, and no social-post instruction.
+- Preserved the static, mock, fixture-only, non-execution, reviewer-facing `Static Fixture Review Path` boundary.
+<!-- v0.6.204-changelog:end -->
+
+
 <!-- v0.6.203-changelog:start -->
 ## v0.6.203 - Candidate Test Alignment Correction
 
