@@ -47,3 +47,18 @@ AI output is treated as a request, not authority. Execution is decided by gates.
 
 Publication remains deferred. This candidate wording is not accepted until v0.6.210 review and decision. It is not a public announcement, social-post instruction, live scanner, executable demo, external PoC package, production-readiness claim, certification claim, legal compliance statement, audit opinion, diagnostic completeness claim, or external-framework equivalence claim.
 <!-- v0.6.209-static-fixture-review-path-wording:end -->
+
+<!-- v0.6.210-static-fixture-review-path-accepted-wording:start -->
+## v0.6.210 Static Fixture Review Path accepted repository wording
+
+This section records accepted repository wording integration for docs\examples\safe-demo\blocked-tool-action-request-review\reviewer-walkthrough.md.
+
+The current review path is the `Static Fixture Review Path`: a static, mock, fixture-only, non-execution, reviewer-facing path for inspecting how AI-generated tool action requests, gate decisions, non-execution results, evidence traces, and review fit together.
+
+AI output is treated as a request, not authority. Execution is decided by gates. Evidence links the request, gate decision, execution or non-execution result, and review.
+
+Publication remains deferred. This accepted repository wording is not a public announcement, social-post instruction, live scanner, executable demo, external PoC package, production-readiness claim, certification claim, legal compliance statement, audit opinion, diagnostic completeness claim, or external-framework equivalence claim.
+<!-- v0.6.210-static-fixture-review-path-accepted-wording:end -->
+
+This wording is accepted for repository wording integration. Publication remains deferred. This does not approve a public announcement, social-post instruction, live scanner, executable demo, external PoC package, production-readiness claim, certification claim, legal compliance statement, audit opinion, diagnostic completeness claim, or external-framework equivalence claim.
+

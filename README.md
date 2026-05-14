@@ -2275,3 +2275,31 @@ AI output is treated as a request, not authority. Execution is decided by gates.
 
 Publication remains deferred. This candidate wording is not accepted until v0.6.210 review and decision. It is not a public announcement, social-post instruction, live scanner, executable demo, customer PoC package, production-readiness claim, certification claim, legal compliance statement, audit opinion, diagnostic completeness claim, or external-framework equivalence claim.
 <!-- v0.6.209-static-fixture-review-path-wording:end -->
+
+<!-- v0.6.210-repository-wording-integration-review-decision:start -->
+## v0.6.210 repository wording integration review and decision
+
+v0.6.210 accepts the `Static Fixture Review Path Repository Wording Integration Implementation Candidate` for repository wording integration.
+
+Decision boundaries:
+
+- accepted for repository wording integration
+- publication remains deferred
+- not a publication approval
+- not a social-post instruction
+- not a runtime, scanner, external PoC, production, certification, legal, audit, diagnostic-completeness, or external-framework-equivalence claim
+
+The accepted wording continues to describe the current path as a `Static Fixture Review Path`: static, mock, fixture-only, non-execution, and reviewer-facing.
+<!-- v0.6.210-repository-wording-integration-review-decision:end -->
+
+<!-- v0.6.210-static-fixture-review-path-accepted-wording:start -->
+## v0.6.210 Static Fixture Review Path accepted repository wording
+
+This section records accepted repository wording integration for README.md.
+
+The current review path is the `Static Fixture Review Path`: a static, mock, fixture-only, non-execution, reviewer-facing path for inspecting how AI-generated tool action requests, gate decisions, non-execution results, evidence traces, and review fit together.
+
+AI output is treated as a request, not authority. Execution is decided by gates. Evidence links the request, gate decision, execution or non-execution result, and review.
+
+Publication remains deferred. This accepted repository wording is not a public announcement, social-post instruction, live scanner, executable demo, external PoC package, production-readiness claim, certification claim, legal compliance statement, audit opinion, diagnostic completeness claim, or external-framework equivalence claim.
+<!-- v0.6.210-static-fixture-review-path-accepted-wording:end -->

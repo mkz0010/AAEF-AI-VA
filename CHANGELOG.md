@@ -1,5 +1,18 @@
 # Changelog
 
+<!-- v0.6.210-changelog:start -->
+## v0.6.210 - Static Fixture Review Path Repository Wording Integration Implementation Review and Decision
+
+- Added `docs/286-v06210-static-fixture-review-path-repository-wording-integration-implementation-review-and-decision.md`.
+- Added `planning/decisions/ADR-0280-add-v06210-static-fixture-review-path-repository-wording-integration-implementation-review-and-decision.md`.
+- Added `planning/issues/0279-add-v06210-static-fixture-review-path-repository-wording-integration-implementation-review-and-decision.md`.
+- Added `tools/test_v06210_static_fixture_review_path_repository_wording_integration_implementation_review_and_decision.py`.
+- Decision: accepted for repository wording integration based on the v0.6.209 implementation candidate.
+- Preserved boundary: publication remains deferred.
+- Preserved no runtime/scanner/external PoC/production/compliance/equivalence claim.
+<!-- v0.6.210-changelog:end -->
+
+
 <!-- v0.6.209-changelog:start -->
 ## v0.6.209 - Static Fixture Review Path Repository Wording Integration Implementation Candidate
 
