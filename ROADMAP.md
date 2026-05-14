@@ -2013,3 +2013,20 @@ Next planned checkpoint:
 
 v0.6.203 should review whether the candidate wording preserves the static, mock, fixture-only, non-execution, reviewer-facing boundary and decide whether to accept, revise, or reject the communication pack.
 <!-- v0.6.202-roadmap:end -->
+
+<!-- v0.6.203-roadmap:start -->
+## v0.6.203 corrective checkpoint
+
+Current checkpoint:
+
+- `v0.6.203 Static Fixture Review Path Public Communication Pack Candidate Test Alignment Correction`
+- Status: corrective checkpoint
+- Corrected token: `not published`
+- Communication pack status: candidate-only, not published, not accepted
+
+Next planned checkpoint:
+
+- `v0.6.204 Static Fixture Review Path Public Communication Pack Review and Decision`
+
+v0.6.204 should review whether the candidate wording preserves the static, mock, fixture-only, non-execution, reviewer-facing boundary and decide whether to accept, revise, or reject the communication pack.
+<!-- v0.6.203-roadmap:end -->

@@ -1,5 +1,18 @@
 # Changelog
 
+<!-- v0.6.203-changelog:start -->
+## v0.6.203 - Candidate Test Alignment Correction
+
+- Corrected the v0.6.202 README/test token alignment issue by ensuring README contains the exact lowercase token `not published`.
+- Added `docs/279-v06203-candidate-test-alignment-correction.md`.
+- Added `planning/decisions/ADR-0273-add-v06203-candidate-test-alignment-correction.md`.
+- Added `planning/issues/0272-add-v06203-candidate-test-alignment-correction.md`.
+- Added `tools/test_v06203_candidate_test_alignment_correction.py`.
+- Deferred the communication pack review-and-decision checkpoint to v0.6.204.
+- Preserved candidate-only status: not published, not accepted, and no runtime/scanner/customer PoC/production/compliance/equivalence claim added.
+<!-- v0.6.203-changelog:end -->
+
+
 <!-- v0.6.202-changelog:start -->
 ## v0.6.202 - Static Fixture Review Path Public Communication Pack Candidate
 

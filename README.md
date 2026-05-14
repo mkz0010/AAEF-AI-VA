@@ -2137,7 +2137,7 @@ v0.6.202 records a candidate `Static Fixture Review Path Public Communication Pa
 Candidate status:
 
 - Candidate only
-- Not published
+- not published
 - Not accepted
 - Subject to v0.6.203 review and decision
 
@@ -2145,3 +2145,13 @@ The candidate pack proposes short, medium, README-compatible, and social-post-st
 
 This checkpoint does not publish an announcement, approve final wording, add scanner/runtime readiness, authorize customer PoC intake, or introduce production, compliance, certification, audit, diagnostic-completeness, or external-framework-equivalence claims.
 <!-- v0.6.202-communication-pack-candidate:end -->
+
+<!-- v0.6.203-candidate-test-alignment-correction:start -->
+## v0.6.203 candidate test alignment correction
+
+v0.6.203 corrects the v0.6.202 README/test token alignment issue by ensuring README contains the exact lowercase token `not published`.
+
+This is a corrective checkpoint only. The v0.6.202 communication pack remains candidate-only, not published, and not accepted.
+
+The communication pack review-and-decision step is deferred to `v0.6.204 Static Fixture Review Path Public Communication Pack Review and Decision`.
+<!-- v0.6.203-candidate-test-alignment-correction:end -->
