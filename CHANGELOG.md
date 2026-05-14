@@ -1,5 +1,18 @@
 # Changelog
 
+<!-- v0.6.202-changelog:start -->
+## v0.6.202 - Static Fixture Review Path Public Communication Pack Candidate
+
+- Added `docs/278-v06202-static-fixture-review-path-public-communication-pack-candidate.md`.
+- Added `planning/decisions/ADR-0272-add-v06202-static-fixture-review-path-public-communication-pack-candidate.md`.
+- Added `planning/issues/0271-add-v06202-static-fixture-review-path-public-communication-pack-candidate.md`.
+- Added `tools/test_v06202_static_fixture_review_path_public_communication_pack_candidate.py`.
+- Recorded candidate short, medium, README-compatible, and social-post-style wording for the `Static Fixture Review Path`.
+- Recorded preferred wording, terms to avoid, required boundary sentences, and reviewer path summary.
+- Preserved candidate-only status: not published, not accepted, and subject to v0.6.203 review and decision.
+<!-- v0.6.202-changelog:end -->
+
+
 <!-- v0.6.201-changelog:start -->
 ## v0.6.201 - Next Work Selection Using Risk-Tiered Granularity
 

@@ -2128,3 +2128,20 @@ Boundary retained by this checkpoint:
 - The repository remains a static, mock, fixture-only, non-execution, reviewer-facing reference implementation path.
 - This checkpoint does not create a communication pack body, publish an announcement, add runtime execution, add scanner readiness, authorize customer PoC intake, or introduce production/compliance/equivalence claims.
 <!-- v0.6.201-next-work-selection:end -->
+
+<!-- v0.6.202-communication-pack-candidate:start -->
+## v0.6.202 communication pack candidate checkpoint
+
+v0.6.202 records a candidate `Static Fixture Review Path Public Communication Pack`.
+
+Candidate status:
+
+- Candidate only
+- Not published
+- Not accepted
+- Subject to v0.6.203 review and decision
+
+The candidate pack proposes short, medium, README-compatible, and social-post-style wording for explaining the `Static Fixture Review Path` while preserving the static, mock, fixture-only, non-execution, reviewer-facing boundary.
+
+This checkpoint does not publish an announcement, approve final wording, add scanner/runtime readiness, authorize customer PoC intake, or introduce production, compliance, certification, audit, diagnostic-completeness, or external-framework-equivalence claims.
+<!-- v0.6.202-communication-pack-candidate:end -->

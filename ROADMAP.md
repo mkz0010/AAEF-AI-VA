@@ -1996,3 +1996,20 @@ Planned follow-up checkpoints:
 
 v0.6.201 does not create the communication pack body. It only records the selected work item and its risk-tiered checkpoint split.
 <!-- v0.6.201-roadmap:end -->
+
+<!-- v0.6.202-roadmap:start -->
+## v0.6.202 roadmap candidate
+
+Current checkpoint:
+
+- `v0.6.202 Static Fixture Review Path Public Communication Pack Candidate`
+- Status: candidate only
+- Publication status: not published
+- Acceptance status: not accepted
+
+Next planned checkpoint:
+
+- `v0.6.203 Static Fixture Review Path Public Communication Pack Review and Decision`
+
+v0.6.203 should review whether the candidate wording preserves the static, mock, fixture-only, non-execution, reviewer-facing boundary and decide whether to accept, revise, or reject the communication pack.
+<!-- v0.6.202-roadmap:end -->
