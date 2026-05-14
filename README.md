@@ -2193,3 +2193,19 @@ Boundary retained by this checkpoint:
 - no social-post instruction is approved
 - no runtime, scanner, customer PoC, production, certification, legal, audit, diagnostic-completeness, or external-framework-equivalence claim is added
 <!-- v0.6.205-next-work-selection:end -->
+
+<!-- v0.6.206-repository-wording-integration-plan-candidate:start -->
+## v0.6.206 repository wording integration plan candidate
+
+v0.6.206 records the `Static Fixture Review Path Repository Wording Integration Plan Candidate`.
+
+Candidate status:
+
+- candidate only
+- not accepted
+- not applied
+- not published
+- subject to `v0.6.207 Static Fixture Review Path Repository Wording Integration Plan Review and Decision`
+
+The candidate plan identifies possible repository-facing surfaces for future wording alignment, but it does not apply repository wording changes. The publication remains deferred boundary is preserved.
+<!-- v0.6.206-repository-wording-integration-plan-candidate:end -->

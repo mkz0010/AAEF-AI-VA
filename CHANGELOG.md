@@ -1,5 +1,19 @@
 # Changelog
 
+<!-- v0.6.206-changelog:start -->
+## v0.6.206 - Static Fixture Review Path Repository Wording Integration Plan Candidate
+
+- Added `docs/282-v06206-static-fixture-review-path-repository-wording-integration-plan-candidate.md`.
+- Added `planning/decisions/ADR-0276-add-v06206-static-fixture-review-path-repository-wording-integration-plan-candidate.md`.
+- Added `planning/issues/0275-add-v06206-static-fixture-review-path-repository-wording-integration-plan-candidate.md`.
+- Added `tools/test_v06206_static_fixture_review_path_repository_wording_integration_plan_candidate.py`.
+- Recorded the `Static Fixture Review Path Repository Wording Integration Plan Candidate`.
+- Candidate status: candidate only, not accepted, not applied, and not published.
+- Follow-up: v0.6.207 Static Fixture Review Path Repository Wording Integration Plan Review and Decision.
+- Preserved the publication remains deferred boundary and did not apply repository wording changes.
+<!-- v0.6.206-changelog:end -->
+
+
 <!-- v0.6.205-changelog:start -->
 ## v0.6.205 - Next Work Selection Using Risk-Tiered Granularity
 

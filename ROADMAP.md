@@ -2063,3 +2063,21 @@ Planned follow-up checkpoints:
 
 v0.6.205 does not create the integration plan body. It only records the selected work item and its risk-tiered checkpoint split. The publication remains deferred boundary is preserved.
 <!-- v0.6.205-roadmap:end -->
+
+<!-- v0.6.206-roadmap:start -->
+## v0.6.206 repository wording integration plan candidate
+
+Current checkpoint:
+
+- `v0.6.206 Static Fixture Review Path Repository Wording Integration Plan Candidate`
+- Status: candidate only
+- Application status: not applied
+- Publication status: not published
+- Boundary: publication remains deferred
+
+Next planned checkpoint:
+
+- `v0.6.207 Static Fixture Review Path Repository Wording Integration Plan Review and Decision`
+
+v0.6.207 should review whether the candidate plan safely identifies repository-facing wording targets without approving publication, runtime/scanner readiness, customer PoC readiness, or broader assurance claims.
+<!-- v0.6.206-roadmap:end -->
