@@ -1,5 +1,18 @@
 # Changelog
 
+<!-- v0.6.201-changelog:start -->
+## v0.6.201 - Next Work Selection Using Risk-Tiered Granularity
+
+- Added `docs/277-v06201-next-work-selection-using-risk-tiered-granularity.md`.
+- Added `planning/decisions/ADR-0271-add-v06201-next-work-selection-using-risk-tiered-granularity.md`.
+- Added `planning/issues/0270-add-v06201-next-work-selection-using-risk-tiered-granularity.md`.
+- Added `tools/test_v06201_next_work_selection_using_risk_tiered_granularity.py`.
+- Selected `static_fixture_review_path_public_communication_pack` as the next Medium-risk work item.
+- Recorded the two-checkpoint path: v0.6.202 candidate, then v0.6.203 review and decision.
+- Preserved the v0.6.200 boundary: no public announcement, executable demo, runtime/scanner readiness, customer PoC intake, or production/compliance/equivalence claim was added.
+<!-- v0.6.201-changelog:end -->
+
+
 ## v0.6.200 - Public Demo Readiness Review and Decision
 
 - Reviewed and accepted the v0.6.199 Public Demo Readiness Review candidate.

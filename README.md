@@ -2108,3 +2108,23 @@ v0.6.200 reviews and accepts the Public Demo Readiness Review candidate added in
 It closes the Medium-risk Public Demo Readiness Review work item. The accepted decision is that the current repository state should not be called a Public Demo yet, and that `Static Fixture Review Path` is the safer public phrase. The accepted fixture set and README landing path are publicly reviewable but remain static, mock, fixture-only, non-execution, and reviewer-facing. It does not create additional fixtures, public samples, schemas, validators, executable demos, runtime behavior, scanner behavior, PoC material, or AAEF main changes.
 
 See `docs/276-v06200-public-demo-readiness-review-and-decision.md`.
+
+<!-- v0.6.201-next-work-selection:start -->
+## v0.6.201 direction-selection checkpoint
+
+v0.6.201 records the next work selection after v0.6.200 without creating the selected communication materials yet.
+
+Selected next work item:
+
+- `static_fixture_review_path_public_communication_pack`
+- Risk tier: `medium`
+- Checkpoint count: `2`
+- Next checkpoint: `v0.6.202 Static Fixture Review Path Public Communication Pack Candidate`
+- Follow-up checkpoint: `v0.6.203 Static Fixture Review Path Public Communication Pack Review and Decision`
+
+Boundary retained by this checkpoint:
+
+- The accepted public-facing phrase remains `Static Fixture Review Path`.
+- The repository remains a static, mock, fixture-only, non-execution, reviewer-facing reference implementation path.
+- This checkpoint does not create a communication pack body, publish an announcement, add runtime execution, add scanner readiness, authorize customer PoC intake, or introduce production/compliance/equivalence claims.
+<!-- v0.6.201-next-work-selection:end -->

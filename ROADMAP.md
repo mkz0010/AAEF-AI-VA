@@ -1977,3 +1977,22 @@ Next checkpoint: v0.6.200 Public Demo Readiness Review and Decision.
 v0.6.200 reviews and accepts the Public Demo Readiness Review candidate, accepts `Static Fixture Review Path` as the safer public phrase, and closes the Medium-risk work item.
 
 Next checkpoint: v0.6.201 Next Work Selection Using Risk-Tiered Granularity.
+
+<!-- v0.6.201-roadmap:start -->
+## v0.6.201 roadmap selection
+
+Current checkpoint:
+
+- `v0.6.201 Next Work Selection Using Risk-Tiered Granularity`
+- Status: accepted direction-selection checkpoint
+- Selected next work item: `static_fixture_review_path_public_communication_pack`
+- Selected risk tier: `medium`
+- Selected checkpoint count: `2`
+
+Planned follow-up checkpoints:
+
+1. `v0.6.202 Static Fixture Review Path Public Communication Pack Candidate`
+2. `v0.6.203 Static Fixture Review Path Public Communication Pack Review and Decision`
+
+v0.6.201 does not create the communication pack body. It only records the selected work item and its risk-tiered checkpoint split.
+<!-- v0.6.201-roadmap:end -->
