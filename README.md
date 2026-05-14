@@ -2209,3 +2209,20 @@ Candidate status:
 
 The candidate plan identifies possible repository-facing surfaces for future wording alignment, but it does not apply repository wording changes. The publication remains deferred boundary is preserved.
 <!-- v0.6.206-repository-wording-integration-plan-candidate:end -->
+
+<!-- v0.6.207-repository-wording-integration-plan-review-decision:start -->
+## v0.6.207 repository wording integration plan review and decision
+
+v0.6.207 accepts the `Static Fixture Review Path Repository Wording Integration Plan` for future integration planning.
+
+Decision boundaries:
+
+- accepted for future integration planning
+- repository wording changes remain not applied
+- publication remains deferred
+- not a publication approval
+- not a social-post instruction
+- not a runtime, scanner, customer PoC, production, certification, legal, audit, diagnostic-completeness, or external-framework-equivalence claim
+
+A separate future checkpoint is still required before any repository wording changes are applied.
+<!-- v0.6.207-repository-wording-integration-plan-review-decision:end -->

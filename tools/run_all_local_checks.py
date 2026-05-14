@@ -283,6 +283,7 @@ def main() -> int:
     "tools/test_v06204_static_fixture_review_path_public_communication_pack_review_and_decision.py",
     "tools/test_v06205_next_work_selection_using_risk_tiered_granularity.py",
     "tools/test_v06206_static_fixture_review_path_repository_wording_integration_plan_candidate.py",
+    "tools/test_v06207_static_fixture_review_path_repository_wording_integration_plan_review_and_decision.py",
     print("All local checks passed.")
     return 0
 

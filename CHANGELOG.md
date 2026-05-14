@@ -1,5 +1,19 @@
 # Changelog
 
+<!-- v0.6.207-changelog:start -->
+## v0.6.207 - Static Fixture Review Path Repository Wording Integration Plan Review and Decision
+
+- Added `docs/283-v06207-static-fixture-review-path-repository-wording-integration-plan-review-and-decision.md`.
+- Added `planning/decisions/ADR-0277-add-v06207-static-fixture-review-path-repository-wording-integration-plan-review-and-decision.md`.
+- Added `planning/issues/0276-add-v06207-static-fixture-review-path-repository-wording-integration-plan-review-and-decision.md`.
+- Added `tools/test_v06207_static_fixture_review_path_repository_wording_integration_plan_review_and_decision.py`.
+- Decision: accepted for future integration planning based on the v0.6.206 candidate plan.
+- Preserved boundary: repository wording changes remain not applied.
+- Preserved boundary: publication remains deferred.
+- Preserved no runtime/scanner/customer PoC/production/compliance/equivalence claim.
+<!-- v0.6.207-changelog:end -->
+
+
 <!-- v0.6.206-changelog:start -->
 ## v0.6.206 - Static Fixture Review Path Repository Wording Integration Plan Candidate
 

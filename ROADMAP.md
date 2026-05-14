@@ -2081,3 +2081,17 @@ Next planned checkpoint:
 
 v0.6.207 should review whether the candidate plan safely identifies repository-facing wording targets without approving publication, runtime/scanner readiness, customer PoC readiness, or broader assurance claims.
 <!-- v0.6.206-roadmap:end -->
+
+<!-- v0.6.207-roadmap:start -->
+## v0.6.207 repository wording integration plan review and decision
+
+Current checkpoint:
+
+- `v0.6.207 Static Fixture Review Path Repository Wording Integration Plan Review and Decision`
+- Decision: accepted for future integration planning
+- Application status: repository wording changes remain not applied
+- Publication status: publication remains deferred
+- Boundary: static, mock, fixture-only, non-execution, reviewer-facing
+
+Possible next work should remain conservative and should select any actual repository wording integration implementation under risk-tiered granularity before edits are applied.
+<!-- v0.6.207-roadmap:end -->
