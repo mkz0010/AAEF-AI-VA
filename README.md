@@ -2172,3 +2172,24 @@ Decision boundaries:
 
 The accepted wording continues to describe the current path as a `Static Fixture Review Path`: static, mock, fixture-only, non-execution, and reviewer-facing.
 <!-- v0.6.204-communication-pack-review-decision:end -->
+
+<!-- v0.6.205-next-work-selection:start -->
+## v0.6.205 direction-selection checkpoint
+
+v0.6.205 records the next work selection after v0.6.204 without creating or applying the selected integration plan.
+
+Selected next work item:
+
+- `static_fixture_review_path_repository_wording_integration_plan`
+- Risk tier: `medium`
+- Checkpoint count: `2`
+- Next checkpoint: `v0.6.206 Static Fixture Review Path Repository Wording Integration Plan Candidate`
+- Follow-up checkpoint: `v0.6.207 Static Fixture Review Path Repository Wording Integration Plan Review and Decision`
+
+Boundary retained by this checkpoint:
+
+- publication remains deferred
+- no external announcement is approved
+- no social-post instruction is approved
+- no runtime, scanner, customer PoC, production, certification, legal, audit, diagnostic-completeness, or external-framework-equivalence claim is added
+<!-- v0.6.205-next-work-selection:end -->

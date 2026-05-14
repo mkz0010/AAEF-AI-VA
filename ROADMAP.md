@@ -2044,3 +2044,22 @@ Current checkpoint:
 
 Possible next work should remain conservative and should not introduce runtime/scanner/customer PoC readiness unless separately selected and reviewed under risk-tiered granularity.
 <!-- v0.6.204-roadmap:end -->
+
+<!-- v0.6.205-roadmap:start -->
+## v0.6.205 roadmap selection
+
+Current checkpoint:
+
+- `v0.6.205 Next Work Selection Using Risk-Tiered Granularity`
+- Status: accepted direction-selection checkpoint
+- Selected next work item: `static_fixture_review_path_repository_wording_integration_plan`
+- Selected risk tier: `medium`
+- Selected checkpoint count: `2`
+
+Planned follow-up checkpoints:
+
+1. `v0.6.206 Static Fixture Review Path Repository Wording Integration Plan Candidate`
+2. `v0.6.207 Static Fixture Review Path Repository Wording Integration Plan Review and Decision`
+
+v0.6.205 does not create the integration plan body. It only records the selected work item and its risk-tiered checkpoint split. The publication remains deferred boundary is preserved.
+<!-- v0.6.205-roadmap:end -->
