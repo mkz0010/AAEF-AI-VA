@@ -2114,3 +2114,33 @@ Planned follow-up checkpoints:
 
 v0.6.208 does not apply repository wording changes. It only records the selected work item and its risk-tiered checkpoint split. The publication remains deferred boundary is preserved.
 <!-- v0.6.208-roadmap:end -->
+
+<!-- v0.6.209-roadmap:start -->
+## v0.6.209 repository wording integration implementation candidate
+
+Current checkpoint:
+
+- `v0.6.209 Static Fixture Review Path Repository Wording Integration Implementation Candidate`
+- Status: implementation candidate
+- Acceptance status: not accepted
+- Publication status: publication remains deferred
+- Boundary: static, mock, fixture-only, non-execution, reviewer-facing
+
+Next planned checkpoint:
+
+- `v0.6.210 Static Fixture Review Path Repository Wording Integration Implementation Review and Decision`
+
+v0.6.210 should review whether the candidate wording can be accepted without implying publication approval, runtime/scanner readiness, customer PoC readiness, or broader assurance claims.
+<!-- v0.6.209-roadmap:end -->
+
+<!-- v0.6.209-static-fixture-review-path-wording:start -->
+## v0.6.209 Static Fixture Review Path wording candidate
+
+This section is a repository wording integration implementation candidate for ROADMAP.md.
+
+The current review path is the `Static Fixture Review Path`: a static, mock, fixture-only, non-execution, reviewer-facing path for inspecting how AI-generated tool action requests, gate decisions, non-execution results, evidence traces, and review fit together.
+
+AI output is treated as a request, not authority. Execution is decided by gates. Evidence links the request, gate decision, execution or non-execution result, and review.
+
+Publication remains deferred. This candidate wording is not accepted until v0.6.210 review and decision. It is not a public announcement, social-post instruction, live scanner, executable demo, customer PoC package, production-readiness claim, certification claim, legal compliance statement, audit opinion, diagnostic completeness claim, or external-framework equivalence claim.
+<!-- v0.6.209-static-fixture-review-path-wording:end -->

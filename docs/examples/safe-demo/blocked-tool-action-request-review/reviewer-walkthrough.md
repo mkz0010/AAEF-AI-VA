@@ -35,3 +35,15 @@ The non-execution outcome is reviewable from static fixture evidence.
 ## Boundary
 
 This fixture set is not a scanner, not a runtime demo, not a public demo, not a production readiness claim, not diagnostic completeness evidence, and not authorization to test third-party systems.
+
+<!-- v0.6.209-static-fixture-review-path-wording:start -->
+## v0.6.209 Static Fixture Review Path wording candidate
+
+This section is a repository wording integration implementation candidate for docs\examples\safe-demo\blocked-tool-action-request-review\reviewer-walkthrough.md.
+
+The current review path is the `Static Fixture Review Path`: a static, mock, fixture-only, non-execution, reviewer-facing path for inspecting how AI-generated tool action requests, gate decisions, non-execution results, evidence traces, and review fit together.
+
+AI output is treated as a request, not authority. Execution is decided by gates. Evidence links the request, gate decision, execution or non-execution result, and review.
+
+Publication remains deferred. This candidate wording is not accepted until v0.6.210 review and decision. It is not a public announcement, social-post instruction, live scanner, executable demo, external PoC package, production-readiness claim, certification claim, legal compliance statement, audit opinion, diagnostic completeness claim, or external-framework equivalence claim.
+<!-- v0.6.209-static-fixture-review-path-wording:end -->

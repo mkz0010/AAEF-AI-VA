@@ -1,5 +1,18 @@
 # Changelog
 
+<!-- v0.6.209-changelog:start -->
+## v0.6.209 - Static Fixture Review Path Repository Wording Integration Implementation Candidate
+
+- Added `docs/285-v06209-static-fixture-review-path-repository-wording-integration-implementation-candidate.md`.
+- Added `planning/decisions/ADR-0279-add-v06209-static-fixture-review-path-repository-wording-integration-implementation-candidate.md`.
+- Added `planning/issues/0278-add-v06209-static-fixture-review-path-repository-wording-integration-implementation-candidate.md`.
+- Added `tools/test_v06209_static_fixture_review_path_repository_wording_integration_implementation_candidate.py`.
+- Applied candidate wording to selected repository-facing surfaces.
+- Candidate status: implementation candidate, not accepted, and publication remains deferred.
+- Preserved no runtime/scanner/customer PoC/production/compliance/equivalence claim.
+<!-- v0.6.209-changelog:end -->
+
+
 <!-- v0.6.208-changelog:start -->
 ## v0.6.208 - Next Work Selection Using Risk-Tiered Granularity
 

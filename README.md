@@ -2248,3 +2248,30 @@ Boundary retained by this checkpoint:
 - no social-post instruction is approved
 - no runtime, scanner, customer PoC, production, certification, legal, audit, diagnostic-completeness, or external-framework-equivalence claim is added
 <!-- v0.6.208-next-work-selection:end -->
+
+<!-- v0.6.209-repository-wording-integration-implementation-candidate:start -->
+## v0.6.209 repository wording integration implementation candidate
+
+v0.6.209 applies candidate wording for the `Static Fixture Review Path` to selected repository-facing surfaces.
+
+Candidate status:
+
+- implementation candidate
+- not accepted
+- publication remains deferred
+- subject to `v0.6.210 Static Fixture Review Path Repository Wording Integration Implementation Review and Decision`
+
+The candidate wording reinforces that the current path is static, mock, fixture-only, non-execution, and reviewer-facing. AI output is treated as a request, not authority. Execution is decided by gates. Evidence links the request, gate decision, execution or non-execution result, and review.
+<!-- v0.6.209-repository-wording-integration-implementation-candidate:end -->
+
+<!-- v0.6.209-static-fixture-review-path-wording:start -->
+## v0.6.209 Static Fixture Review Path wording candidate
+
+This section is a repository wording integration implementation candidate for README.md.
+
+The current review path is the `Static Fixture Review Path`: a static, mock, fixture-only, non-execution, reviewer-facing path for inspecting how AI-generated tool action requests, gate decisions, non-execution results, evidence traces, and review fit together.
+
+AI output is treated as a request, not authority. Execution is decided by gates. Evidence links the request, gate decision, execution or non-execution result, and review.
+
+Publication remains deferred. This candidate wording is not accepted until v0.6.210 review and decision. It is not a public announcement, social-post instruction, live scanner, executable demo, customer PoC package, production-readiness claim, certification claim, legal compliance statement, audit opinion, diagnostic completeness claim, or external-framework equivalence claim.
+<!-- v0.6.209-static-fixture-review-path-wording:end -->
