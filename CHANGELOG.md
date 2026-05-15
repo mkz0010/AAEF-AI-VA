@@ -1,5 +1,20 @@
 # Changelog
 
+<!-- v0.6.220-changelog:start -->
+## v0.6.220 - AAEF Applied Evidence Minimum Flow Plan Review and Decision
+
+- Added `docs/296-v06220-aaef-applied-evidence-minimum-flow-plan-review-and-decision.md`.
+- Added `planning/decisions/ADR-0290-add-v06220-aaef-applied-evidence-minimum-flow-plan-review-and-decision.md`.
+- Added `planning/issues/0289-add-v06220-aaef-applied-evidence-minimum-flow-plan-review-and-decision.md`.
+- Added `tools/test_v06220_aaef_applied_evidence_minimum_flow_plan_review_and_decision.py`.
+- Decision: accepted for minimum flow planning based on the v0.6.219 AAEF Applied Evidence Minimum Flow Plan Candidate.
+- Preserved boundary: not applied and no minimum flow package is created in v0.6.220.
+- Preserved no fixture creation/modification, no evidence linkage/request/decision/dispatch/walkthrough/mapping/handback record creation, no public cleanup, no README rewrite, and no Tool Gateway behavior change.
+- Recorded that runtime demo remains necessary but deferred and publication remains deferred.
+- Recommended next checkpoint: v0.6.221 Next Work Selection Using Risk-Tiered Granularity.
+<!-- v0.6.220-changelog:end -->
+
+
 <!-- v0.6.219-changelog:start -->
 ## v0.6.219 - AAEF Applied Evidence Minimum Flow Plan Candidate
 

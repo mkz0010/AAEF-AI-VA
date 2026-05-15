@@ -2514,3 +2514,25 @@ Boundary retained by this checkpoint:
 - runtime demo remains necessary but deferred
 - publication remains deferred
 <!-- v0.6.219-aaef-applied-evidence-minimum-flow-plan-candidate:end -->
+
+<!-- v0.6.220-aaef-applied-evidence-minimum-flow-plan-review-decision:start -->
+## v0.6.220 AAEF Applied Evidence Minimum Flow Plan Review and Decision
+
+v0.6.220 accepts the AAEF Applied Evidence Minimum Flow Plan for future minimum flow planning.
+
+Decision status:
+
+- accepted for minimum flow planning
+- not applied
+- no minimum flow package is created in v0.6.220
+- no fixture is created or modified in v0.6.220
+- no evidence linkage, request, decision, dispatch, walkthrough, mapping, or handback record is created in v0.6.220
+- no public cleanup or README rewrite is applied in v0.6.220
+- no Tool Gateway behavior is changed in v0.6.220
+- runtime demo remains necessary but deferred
+- publication remains deferred
+
+Recommended next checkpoint:
+
+- `v0.6.221 Next Work Selection Using Risk-Tiered Granularity`
+<!-- v0.6.220-aaef-applied-evidence-minimum-flow-plan-review-decision:end -->

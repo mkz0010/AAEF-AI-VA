@@ -2345,3 +2345,22 @@ Next planned checkpoint:
 
 The candidate plan covers existing element inventory, four-scenario matrix, evidence linkage table, tool_action_request record planning, gate_decision record planning, dispatch/non-dispatch evidence planning, evidence event package planning, reviewer walkthrough planning, AAEF five questions mapping, evidence trust boundary, non-proof boundary, handback summary structure, and public/private/patent-sensitive boundary.
 <!-- v0.6.219-roadmap:end -->
+
+<!-- v0.6.220-roadmap:start -->
+## v0.6.220 AAEF Applied Evidence Minimum Flow Plan Review and Decision
+
+Current checkpoint:
+
+- `v0.6.220 AAEF Applied Evidence Minimum Flow Plan Review and Decision`
+- Decision: accepted for minimum flow planning
+- Application status: not applied
+- Package status: no minimum flow package is created in v0.6.220
+- Runtime status: runtime demo remains necessary but deferred
+- Publication status: publication remains deferred
+
+Recommended next checkpoint:
+
+- `v0.6.221 Next Work Selection Using Risk-Tiered Granularity`
+
+v0.6.221 should select the first concrete work item under the accepted AAEF Applied Evidence Minimum Flow Plan, expected to begin with existing element inventory.
+<!-- v0.6.220-roadmap:end -->
