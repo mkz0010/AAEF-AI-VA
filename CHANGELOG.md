@@ -1,5 +1,21 @@
 # Changelog
 
+<!-- v0.6.225-changelog:start -->
+## v0.6.225 - Minimum Flow Scenario Matrix Candidate
+
+- Added `docs/301-v06225-minimum-flow-scenario-matrix-candidate.md`.
+- Added `planning/decisions/ADR-0295-add-v06225-minimum-flow-scenario-matrix-candidate.md`.
+- Added `planning/issues/0294-add-v06225-minimum-flow-scenario-matrix-candidate.md`.
+- Added `tools/test_v06225_minimum_flow_scenario_matrix_candidate.py`.
+- Recorded the Minimum Flow Scenario Matrix Candidate.
+- Candidate status: candidate only, not accepted, and not applied.
+- Recorded that no minimum flow scenario matrix is accepted in v0.6.225.
+- Recorded that no minimum flow package is created in v0.6.225.
+- Follow-up: v0.6.226 Minimum Flow Scenario Matrix Review and Decision.
+- Preserved runtime demo remains necessary but deferred and publication remains deferred.
+<!-- v0.6.225-changelog:end -->
+
+
 <!-- v0.6.224-changelog:start -->
 ## v0.6.224 - Next Work Selection Using Risk-Tiered Granularity
 

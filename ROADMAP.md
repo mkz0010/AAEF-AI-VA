@@ -2442,3 +2442,23 @@ Planned follow-up checkpoints:
 
 v0.6.224 does not create the scenario matrix, create fixtures, change runtime behavior, rewrite README, apply public cleanup, or change Gateway behavior. no minimum flow scenario matrix is created in v0.6.224. runtime demo remains necessary but deferred. publication remains deferred.
 <!-- v0.6.224-roadmap:end -->
+
+<!-- v0.6.225-roadmap:start -->
+## v0.6.225 Minimum Flow Scenario Matrix Candidate
+
+Current checkpoint:
+
+- `v0.6.225 Minimum Flow Scenario Matrix Candidate`
+- Status: candidate only
+- Application status: not applied
+- Matrix status: no minimum flow scenario matrix is accepted in v0.6.225
+- Package status: no minimum flow package is created in v0.6.225
+- Runtime status: runtime demo remains necessary but deferred
+- Publication status: publication remains deferred
+
+Next planned checkpoint:
+
+- `v0.6.226 Minimum Flow Scenario Matrix Review and Decision`
+
+The scenario matrix candidate covers permitted safe diagnostic, denied out-of-scope request, held / requires human approval, and expired-not-executed.
+<!-- v0.6.225-roadmap:end -->

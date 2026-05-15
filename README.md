@@ -2637,3 +2637,30 @@ Boundary retained by this checkpoint:
 - runtime demo remains necessary but deferred
 - publication remains deferred
 <!-- v0.6.224-next-work-selection:end -->
+
+<!-- v0.6.225-minimum-flow-scenario-matrix-candidate:start -->
+## v0.6.225 Minimum Flow Scenario Matrix Candidate
+
+v0.6.225 records the Minimum Flow Scenario Matrix Candidate.
+
+Candidate status:
+
+- candidate only
+- not accepted
+- not applied
+- no minimum flow scenario matrix is accepted in v0.6.225
+- no minimum flow package is created in v0.6.225
+- subject to `v0.6.226 Minimum Flow Scenario Matrix Review and Decision`
+
+The scenario matrix candidate covers four scenarios: permitted safe diagnostic, denied out-of-scope request, held / requires human approval, and expired-not-executed.
+
+Boundary retained by this checkpoint:
+
+- no fixture is created or modified in v0.6.225
+- no evidence linkage, request, decision, dispatch, walkthrough, mapping, or handback record is created in v0.6.225
+- no private generated outputs are moved public in v0.6.225
+- no public cleanup or README rewrite is applied in v0.6.225
+- no Tool Gateway behavior is changed in v0.6.225
+- runtime demo remains necessary but deferred
+- publication remains deferred
+<!-- v0.6.225-minimum-flow-scenario-matrix-candidate:end -->
