@@ -2778,3 +2778,19 @@ The package candidate connects future planning for model output reference, tool 
 This checkpoint does not create the minimum flow package, fixtures, evidence linkage records, request records, gate decision records, dispatch evidence records, result records, reviewer walkthrough, AAEF five questions mapping, or AAEF handback summary.
 
 Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. No private generated outputs are moved public in v0.6.231.
+
+## v0.6.232 Tool Action Request Gate Decision Dispatch Evidence Package Review and Decision
+
+v0.6.232 accepts the v0.6.231 documentation-only candidate package shape for future fixture and record planning.
+
+Accepted package boundary:
+
+~~~text
+tool_action_request_gate_decision_dispatch_evidence_package
+~~~
+
+This checkpoint records `package_candidate_accepted = true` and `package_candidate_status = accepted_for_future_fixture_and_record_planning`.
+
+It does not create the minimum flow package, package implementation, fixtures, evidence linkage records, request records, gate decision records, dispatch evidence records, result records, reviewer walkthrough, AAEF five questions mapping, or AAEF handback summary.
+
+Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. No private generated outputs are moved public in v0.6.232.

@@ -2577,3 +2577,22 @@ The next checkpoint should review the candidate package shape and decide whether
 - no publication approval
 - no public announcement
 - no legal compliance, audit sufficiency, certification, diagnostic completeness, or external-framework equivalence claim
+
+## After v0.6.232
+
+v0.6.232 accepts `tool_action_request_gate_decision_dispatch_evidence_package` as a package boundary for future fixture and record planning.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.233 Next Work Selection Using Risk-Tiered Granularity
+~~~
+
+The next checkpoint should select the next narrow work item after accepting the package boundary. Candidate directions include future fixture planning, future record planning, reviewer walkthrough planning, or AAEF five questions mapping planning, while preserving the current boundaries:
+
+- no runtime demo readiness claim
+- no scanner readiness claim
+- no external PoC readiness claim
+- no publication approval
+- no public announcement
+- no legal compliance, audit sufficiency, certification, diagnostic completeness, or external-framework equivalence claim

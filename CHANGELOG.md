@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.6.232 - Tool Action Request Gate Decision Dispatch Evidence Package Review and Decision
+
+- Accepted the v0.6.231 documentation-only candidate package shape for `tool_action_request_gate_decision_dispatch_evidence_package`.
+- Recorded `package_candidate_review_completed = true`, `package_candidate_accepted = true`, and `package_candidate_status = accepted_for_future_fixture_and_record_planning`.
+- Preserved the boundary that no minimum flow package, package implementation, fixtures, evidence linkage records, request records, gate decision records, dispatch records, result records, reviewer walkthrough, AAEF five questions mapping, or AAEF handback summary are created in v0.6.232.
+- Preserved claim boundaries: runtime demo remains necessary but deferred, publication remains deferred, validator success is structural only, and evidence supports reconstruction; it does not prove legal truth.
+
+
 ## v0.6.231 - Tool Action Request Gate Decision Dispatch Evidence Package Candidate
 
 - Created a documentation-only candidate package shape for `tool_action_request_gate_decision_dispatch_evidence_package`.

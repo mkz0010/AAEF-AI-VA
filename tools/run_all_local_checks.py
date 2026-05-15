@@ -308,6 +308,7 @@ def main() -> int:
     "tools/test_v06229_evidence_linkage_table_review_and_decision.py",
     "tools/test_v06230_next_work_selection_using_risk_tiered_granularity.py",
     "tools/test_v06231_tool_action_request_gate_decision_dispatch_evidence_package_candidate.py",
+    "tools/test_v06232_tool_action_request_gate_decision_dispatch_evidence_package_review_and_decision.py",
     print("All local checks passed.")
     return 0
 
