@@ -2501,3 +2501,23 @@ Planned follow-up checkpoints:
 
 v0.6.227 does not create the evidence linkage table, create fixtures, change runtime behavior, rewrite README, apply public cleanup, or change Gateway behavior. no evidence linkage table is created in v0.6.227. runtime demo remains necessary but deferred. publication remains deferred.
 <!-- v0.6.227-roadmap:end -->
+
+<!-- v0.6.228-roadmap:start -->
+## v0.6.228 Evidence Linkage Table Candidate
+
+Current checkpoint:
+
+- `v0.6.228 Evidence Linkage Table Candidate`
+- Status: candidate only
+- Application status: not applied
+- Linkage table status: no evidence linkage table is accepted in v0.6.228
+- Package status: no minimum flow package is created in v0.6.228
+- Runtime status: runtime demo remains necessary but deferred
+- Publication status: publication remains deferred
+
+Next planned checkpoint:
+
+- `v0.6.229 Evidence Linkage Table Review and Decision`
+
+The linkage table candidate covers planned scenario links across request, decision, dispatch/non-dispatch, result/non-result, evidence event, reviewer walkthrough, and AAEF five questions mapping.
+<!-- v0.6.228-roadmap:end -->

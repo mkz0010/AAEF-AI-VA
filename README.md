@@ -2713,3 +2713,30 @@ Boundary retained by this checkpoint:
 - runtime demo remains necessary but deferred
 - publication remains deferred
 <!-- v0.6.227-next-work-selection:end -->
+
+<!-- v0.6.228-evidence-linkage-table-candidate:start -->
+## v0.6.228 Evidence Linkage Table Candidate
+
+v0.6.228 records the Evidence Linkage Table Candidate.
+
+Candidate status:
+
+- candidate only
+- not accepted
+- not applied
+- no evidence linkage table is accepted in v0.6.228
+- no minimum flow package is created in v0.6.228
+- subject to `v0.6.229 Evidence Linkage Table Review and Decision`
+
+The linkage candidate covers planned links for SCN-001 through SCN-004 across model_output_id, tool_action_request_id, gate_decision_id, dispatch/non-dispatch, result/non-result, evidence_event_id, reviewer_walkthrough_id, and five_questions_mapping_id.
+
+Boundary retained by this checkpoint:
+
+- no fixture is created or modified in v0.6.228
+- no evidence linkage, request, decision, dispatch, result, walkthrough, mapping, or handback record is created in v0.6.228
+- no private generated outputs are moved public in v0.6.228
+- no public cleanup or README rewrite is applied in v0.6.228
+- no Tool Gateway behavior is changed in v0.6.228
+- runtime demo remains necessary but deferred
+- publication remains deferred
+<!-- v0.6.228-evidence-linkage-table-candidate:end -->

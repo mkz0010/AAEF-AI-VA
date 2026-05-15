@@ -1,5 +1,21 @@
 # Changelog
 
+<!-- v0.6.228-changelog:start -->
+## v0.6.228 - Evidence Linkage Table Candidate
+
+- Added `docs/304-v06228-evidence-linkage-table-candidate.md`.
+- Added `planning/decisions/ADR-0298-add-v06228-evidence-linkage-table-candidate.md`.
+- Added `planning/issues/0297-add-v06228-evidence-linkage-table-candidate.md`.
+- Added `tools/test_v06228_evidence_linkage_table_candidate.py`.
+- Recorded the Evidence Linkage Table Candidate.
+- Candidate status: candidate only, not accepted, and not applied.
+- Recorded that no evidence linkage table is accepted in v0.6.228.
+- Recorded that no minimum flow package is created in v0.6.228.
+- Follow-up: v0.6.229 Evidence Linkage Table Review and Decision.
+- Preserved runtime demo remains necessary but deferred and publication remains deferred.
+<!-- v0.6.228-changelog:end -->
+
+
 <!-- v0.6.227-changelog:start -->
 ## v0.6.227 - Next Work Selection Using Risk-Tiered Granularity
 
