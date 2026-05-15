@@ -1,5 +1,20 @@
 # Changelog
 
+<!-- v0.6.219-changelog:start -->
+## v0.6.219 - AAEF Applied Evidence Minimum Flow Plan Candidate
+
+- Added `docs/295-v06219-aaef-applied-evidence-minimum-flow-plan-candidate.md`.
+- Added `planning/decisions/ADR-0289-add-v06219-aaef-applied-evidence-minimum-flow-plan-candidate.md`.
+- Added `planning/issues/0288-add-v06219-aaef-applied-evidence-minimum-flow-plan-candidate.md`.
+- Added `tools/test_v06219_aaef_applied_evidence_minimum_flow_plan_candidate.py`.
+- Recorded the AAEF Applied Evidence Minimum Flow Plan Candidate.
+- Candidate status: candidate only, not accepted, and not applied.
+- Recorded that no minimum flow package is created in v0.6.219.
+- Follow-up: v0.6.220 AAEF Applied Evidence Minimum Flow Plan Review and Decision.
+- Preserved runtime demo remains necessary but deferred and publication remains deferred.
+<!-- v0.6.219-changelog:end -->
+
+
 <!-- v0.6.218-changelog:start -->
 ## v0.6.218 - AAEF Applied Evidence Minimum Flow Intake and Priority Reconciliation
 

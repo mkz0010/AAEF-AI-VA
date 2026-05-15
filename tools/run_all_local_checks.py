@@ -295,6 +295,7 @@ def main() -> int:
     "tools/test_v06216_public_exposure_hygiene_plan_candidate.py",
     "tools/test_v06217_public_exposure_hygiene_plan_review_and_decision.py",
     "tools/test_v06218_aaef_applied_evidence_minimum_flow_intake_priority_reconciliation.py",
+    "tools/test_v06219_aaef_applied_evidence_minimum_flow_plan_candidate.py",
     print("All local checks passed.")
     return 0
 

@@ -2488,3 +2488,29 @@ Boundary retained by this checkpoint:
 - runtime demo remains necessary but deferred
 - publication remains deferred
 <!-- v0.6.218-aaef-applied-evidence-minimum-flow-intake:end -->
+
+<!-- v0.6.219-aaef-applied-evidence-minimum-flow-plan-candidate:start -->
+## v0.6.219 AAEF Applied Evidence Minimum Flow Plan Candidate
+
+v0.6.219 records the AAEF Applied Evidence Minimum Flow Plan Candidate.
+
+Candidate status:
+
+- candidate only
+- not accepted
+- not applied
+- no minimum flow package is created in v0.6.219
+- subject to `v0.6.220 AAEF Applied Evidence Minimum Flow Plan Review and Decision`
+
+The candidate plan covers the flow `model_output -> tool_action_request -> gate_decision -> dispatch_decision / non_dispatch_decision -> execution_result / non_execution_result -> evidence_event -> reviewer_walkthrough`.
+
+Boundary retained by this checkpoint:
+
+- no fixture is created or modified in v0.6.219
+- no reviewer walkthrough content is created in v0.6.219
+- no AAEF handback summary is created in v0.6.219
+- no public cleanup or README rewrite is applied in v0.6.219
+- no Tool Gateway behavior is changed in v0.6.219
+- runtime demo remains necessary but deferred
+- publication remains deferred
+<!-- v0.6.219-aaef-applied-evidence-minimum-flow-plan-candidate:end -->

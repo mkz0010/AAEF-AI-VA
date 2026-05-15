@@ -2326,3 +2326,22 @@ The previously selected mock/dry-run completed status terminology cleanup is def
 
 v0.6.218 does not create fixtures, change runtime behavior, rewrite README, apply public cleanup, or change Gateway behavior. runtime demo remains necessary but deferred. publication remains deferred.
 <!-- v0.6.218-roadmap:end -->
+
+<!-- v0.6.219-roadmap:start -->
+## v0.6.219 AAEF Applied Evidence Minimum Flow Plan Candidate
+
+Current checkpoint:
+
+- `v0.6.219 AAEF Applied Evidence Minimum Flow Plan Candidate`
+- Status: candidate only
+- Application status: not applied
+- Package status: no minimum flow package is created in v0.6.219
+- Runtime status: runtime demo remains necessary but deferred
+- Publication status: publication remains deferred
+
+Next planned checkpoint:
+
+- `v0.6.220 AAEF Applied Evidence Minimum Flow Plan Review and Decision`
+
+The candidate plan covers existing element inventory, four-scenario matrix, evidence linkage table, tool_action_request record planning, gate_decision record planning, dispatch/non-dispatch evidence planning, evidence event package planning, reviewer walkthrough planning, AAEF five questions mapping, evidence trust boundary, non-proof boundary, handback summary structure, and public/private/patent-sensitive boundary.
+<!-- v0.6.219-roadmap:end -->
