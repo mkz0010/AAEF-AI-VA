@@ -2383,3 +2383,23 @@ Planned follow-up checkpoints:
 
 v0.6.221 does not create the inventory, create fixtures, change runtime behavior, rewrite README, apply public cleanup, or change Gateway behavior. no existing element inventory is created in v0.6.221. runtime demo remains necessary but deferred. publication remains deferred.
 <!-- v0.6.221-roadmap:end -->
+
+<!-- v0.6.222-roadmap:start -->
+## v0.6.222 Existing Element Inventory Candidate
+
+Current checkpoint:
+
+- `v0.6.222 Existing Element Inventory Candidate`
+- Status: candidate only
+- Application status: not applied
+- Inventory status: no existing element inventory is accepted in v0.6.222
+- Package status: no minimum flow package is created in v0.6.222
+- Runtime status: runtime demo remains necessary but deferred
+- Publication status: publication remains deferred
+
+Next planned checkpoint:
+
+- `v0.6.223 Existing Element Inventory Review and Decision`
+
+The inventory candidate covers minimum flow step support, source class, public/private/patent-sensitive boundary, current coverage, maturity boundary, and follow-up needs for existing AAEF-AI-VA elements.
+<!-- v0.6.222-roadmap:end -->

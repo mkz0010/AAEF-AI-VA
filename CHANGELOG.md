@@ -1,5 +1,21 @@
 # Changelog
 
+<!-- v0.6.222-changelog:start -->
+## v0.6.222 - Existing Element Inventory Candidate
+
+- Added `docs/298-v06222-existing-element-inventory-candidate.md`.
+- Added `planning/decisions/ADR-0292-add-v06222-existing-element-inventory-candidate.md`.
+- Added `planning/issues/0291-add-v06222-existing-element-inventory-candidate.md`.
+- Added `tools/test_v06222_existing_element_inventory_candidate.py`.
+- Recorded the Existing Element Inventory Candidate.
+- Candidate status: candidate only, not accepted, and not applied.
+- Recorded that no existing element inventory is accepted in v0.6.222.
+- Recorded that no minimum flow package is created in v0.6.222.
+- Follow-up: v0.6.223 Existing Element Inventory Review and Decision.
+- Preserved runtime demo remains necessary but deferred and publication remains deferred.
+<!-- v0.6.222-changelog:end -->
+
+
 <!-- v0.6.221-changelog:start -->
 ## v0.6.221 - Next Work Selection Using Risk-Tiered Granularity
 

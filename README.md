@@ -2561,3 +2561,30 @@ Boundary retained by this checkpoint:
 - runtime demo remains necessary but deferred
 - publication remains deferred
 <!-- v0.6.221-next-work-selection:end -->
+
+<!-- v0.6.222-existing-element-inventory-candidate:start -->
+## v0.6.222 Existing Element Inventory Candidate
+
+v0.6.222 records the Existing Element Inventory Candidate.
+
+Candidate status:
+
+- candidate only
+- not accepted
+- not applied
+- no existing element inventory is accepted in v0.6.222
+- no minimum flow package is created in v0.6.222
+- subject to `v0.6.223 Existing Element Inventory Review and Decision`
+
+The inventory candidate covers the accepted minimum flow steps, candidate source locations, source classes, public/private/patent-sensitive boundary classification, current coverage, maturity boundaries, and follow-up needs.
+
+Boundary retained by this checkpoint:
+
+- no fixture is created or modified in v0.6.222
+- no evidence linkage, request, decision, dispatch, walkthrough, mapping, or handback record is created in v0.6.222
+- no private generated output is moved into the public repository in v0.6.222
+- no public cleanup or README rewrite is applied in v0.6.222
+- no Tool Gateway behavior is changed in v0.6.222
+- runtime demo remains necessary but deferred
+- publication remains deferred
+<!-- v0.6.222-existing-element-inventory-candidate:end -->
