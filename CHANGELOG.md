@@ -1,5 +1,20 @@
 # Changelog
 
+<!-- v0.6.227-changelog:start -->
+## v0.6.227 - Next Work Selection Using Risk-Tiered Granularity
+
+- Added `docs/303-v06227-next-work-selection-using-risk-tiered-granularity.md`.
+- Added `planning/decisions/ADR-0297-add-v06227-next-work-selection-using-risk-tiered-granularity.md`.
+- Added `planning/issues/0296-add-v06227-next-work-selection-using-risk-tiered-granularity.md`.
+- Added `tools/test_v06227_next_work_selection_using_risk_tiered_granularity.py`.
+- Selected `evidence_linkage_table` as the next high-risk work item after the accepted Minimum Flow Scenario Matrix.
+- Recorded the two-checkpoint path: v0.6.228 Evidence Linkage Table Candidate, then v0.6.229 Evidence Linkage Table Review and Decision.
+- Preserved boundary: no evidence linkage table is created in v0.6.227.
+- Preserved boundary: no private generated outputs are moved public in v0.6.227.
+- Preserved runtime demo remains necessary but deferred and publication remains deferred.
+<!-- v0.6.227-changelog:end -->
+
+
 <!-- v0.6.226-changelog:start -->
 ## v0.6.226 - Minimum Flow Scenario Matrix Review and Decision
 

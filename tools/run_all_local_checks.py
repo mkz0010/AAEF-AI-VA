@@ -303,6 +303,7 @@ def main() -> int:
     "tools/test_v06224_next_work_selection_using_risk_tiered_granularity.py",
     "tools/test_v06225_minimum_flow_scenario_matrix_candidate.py",
     "tools/test_v06226_minimum_flow_scenario_matrix_review_and_decision.py",
+    "tools/test_v06227_next_work_selection_using_risk_tiered_granularity.py",
     print("All local checks passed.")
     return 0
 

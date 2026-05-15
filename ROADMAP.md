@@ -2482,3 +2482,22 @@ Recommended next checkpoint:
 
 v0.6.227 should select the first work item after the accepted scenario matrix, expected to begin with evidence linkage table.
 <!-- v0.6.226-roadmap:end -->
+
+<!-- v0.6.227-roadmap:start -->
+## v0.6.227 Next Work Selection Using Risk-Tiered Granularity
+
+Current checkpoint:
+
+- `v0.6.227 Next Work Selection Using Risk-Tiered Granularity`
+- Status: accepted direction-selection checkpoint
+- Selected next work item: `evidence_linkage_table`
+- Selected risk tier: `high`
+- Selected checkpoint count: `2`
+
+Planned follow-up checkpoints:
+
+1. `v0.6.228 Evidence Linkage Table Candidate`
+2. `v0.6.229 Evidence Linkage Table Review and Decision`
+
+v0.6.227 does not create the evidence linkage table, create fixtures, change runtime behavior, rewrite README, apply public cleanup, or change Gateway behavior. no evidence linkage table is created in v0.6.227. runtime demo remains necessary but deferred. publication remains deferred.
+<!-- v0.6.227-roadmap:end -->

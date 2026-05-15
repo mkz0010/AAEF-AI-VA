@@ -2687,3 +2687,29 @@ Recommended next checkpoint:
 
 - `v0.6.227 Next Work Selection Using Risk-Tiered Granularity`
 <!-- v0.6.226-minimum-flow-scenario-matrix-review-decision:end -->
+
+<!-- v0.6.227-next-work-selection:start -->
+## v0.6.227 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.227 selects the next concrete work item after the accepted Minimum Flow Scenario Matrix.
+
+Selected next work item:
+
+- `evidence_linkage_table`
+- Risk tier: `high`
+- Checkpoint count: `2`
+- Next checkpoint: `v0.6.228 Evidence Linkage Table Candidate`
+- Follow-up checkpoint: `v0.6.229 Evidence Linkage Table Review and Decision`
+
+Boundary retained by this checkpoint:
+
+- no evidence linkage table is created in v0.6.227
+- no minimum flow package is created in v0.6.227
+- no fixture is created or modified in v0.6.227
+- no evidence linkage, request, decision, dispatch, result, walkthrough, mapping, or handback record is created in v0.6.227
+- no private generated outputs are moved public in v0.6.227
+- no public cleanup or README rewrite is applied in v0.6.227
+- no Tool Gateway behavior is changed in v0.6.227
+- runtime demo remains necessary but deferred
+- publication remains deferred
+<!-- v0.6.227-next-work-selection:end -->
