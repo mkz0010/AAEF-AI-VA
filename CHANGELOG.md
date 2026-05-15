@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.6.240 - Next Work Selection Using Risk-Tiered Granularity
+
+- Selected `record_candidate_artifact_creation_planning` as the next work item after accepting the Record Candidate Planning Candidate.
+- Recorded `next_work_selection_completed = true`, `record_candidate_artifact_creation_planning_selected = true`, and `selection_applied_to_record_candidate_artifacts = false`.
+- Preserved the boundary that no record candidate artifacts, actual records, minimum flow package, package implementation, fixtures, reviewer walkthrough, AAEF five questions mapping, or AAEF handback summary are created in v0.6.240.
+- Preserved claim boundaries: runtime demo remains necessary but deferred, publication remains deferred, validator success is structural only, and evidence supports reconstruction; it does not prove legal truth.
+
+
 ## v0.6.239 - Record Candidate Planning Review and Decision
 
 - Accepted the v0.6.237 documentation-only Record Candidate Planning Candidate for future record candidate artifact creation planning.
