@@ -2896,3 +2896,17 @@ record_candidate_artifact_creation_planning
 This is selection only. v0.6.240 does not create record candidate artifacts, actual records, fixtures, minimum flow package artifacts, package implementation artifacts, reviewer walkthrough, AAEF five questions mapping, or AAEF handback summary.
 
 Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. No private generated outputs are moved public in v0.6.240.
+
+## v0.6.241 Record Candidate Artifact Creation Planning Candidate
+
+v0.6.241 creates a documentation-only Record Candidate Artifact Creation Planning Candidate for the selected work item:
+
+~~~text
+record_candidate_artifact_creation_planning
+~~~
+
+The candidate plans future record candidate artifact families and artifact sets for model output reference, tool action request, gate decision, dispatch decision, non-dispatch decision, execution result, non-execution result, evidence event, reviewer reconstruction reference, and AAEF five questions mapping reference.
+
+This checkpoint does not create record candidate artifacts, actual records, fixtures, minimum flow package artifacts, package implementation artifacts, reviewer walkthrough, AAEF five questions mapping, or AAEF handback summary.
+
+Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. No private generated outputs are moved public in v0.6.241.

@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.6.241 - Record Candidate Artifact Creation Planning Candidate
+
+- Created a documentation-only Record Candidate Artifact Creation Planning Candidate for `record_candidate_artifact_creation_planning`.
+- Recorded `record_candidate_artifact_creation_planning_candidate_created = true`, `record_candidate_artifact_creation_planning_candidate_id = record_candidate_artifact_creation_planning_candidate_v06241`, `future_record_candidate_artifact_families_planned = true`, and `future_record_candidate_artifact_sets_planned = true`.
+- Preserved the boundary that no record candidate artifacts, actual records, minimum flow package, package implementation, fixtures, reviewer walkthrough, AAEF five questions mapping, or AAEF handback summary are created in v0.6.241.
+- Preserved claim boundaries: runtime demo remains necessary but deferred, publication remains deferred, validator success is structural only, and evidence supports reconstruction; it does not prove legal truth.
+
+
 ## v0.6.240 - Next Work Selection Using Risk-Tiered Granularity
 
 - Selected `record_candidate_artifact_creation_planning` as the next work item after accepting the Record Candidate Planning Candidate.
