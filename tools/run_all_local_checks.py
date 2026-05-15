@@ -293,6 +293,7 @@ def main() -> int:
     "tools/test_v06214_next_work_selection_using_risk_tiered_granularity.py",
     "tools/test_v06215_external_review_public_exposure_commercial_boundary_reassessment.py",
     "tools/test_v06216_public_exposure_hygiene_plan_candidate.py",
+    "tools/test_v06217_public_exposure_hygiene_plan_review_and_decision.py",
     print("All local checks passed.")
     return 0
 

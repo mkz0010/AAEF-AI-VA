@@ -1,5 +1,20 @@
 # Changelog
 
+<!-- v0.6.217-changelog:start -->
+## v0.6.217 - Public Exposure Hygiene Plan Review and Decision
+
+- Added `docs/293-v06217-public-exposure-hygiene-plan-review-and-decision.md`.
+- Added `planning/decisions/ADR-0287-add-v06217-public-exposure-hygiene-plan-review-and-decision.md`.
+- Added `planning/issues/0286-add-v06217-public-exposure-hygiene-plan-review-and-decision.md`.
+- Added `tools/test_v06217_public_exposure_hygiene_plan_review_and_decision.py`.
+- Decision: accepted for cleanup planning based on the v0.6.216 Public Exposure Hygiene Plan Candidate.
+- Preserved boundary: not applied and no cleanup is applied in v0.6.217.
+- Preserved no contact route removal, no pricing or business-plan move, no README rewrite, no docs deletion, and no Tool Gateway behavior change.
+- Recorded that runtime demo remains necessary but deferred and publication remains deferred.
+- Recommended next checkpoint: v0.6.218 Next Work Selection Using Risk-Tiered Granularity.
+<!-- v0.6.217-changelog:end -->
+
+
 <!-- v0.6.216-changelog:start -->
 ## v0.6.216 - Public Exposure Hygiene Plan Candidate
 

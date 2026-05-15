@@ -2436,3 +2436,26 @@ Boundary retained by this checkpoint:
 - runtime demo remains necessary but deferred
 - publication remains deferred
 <!-- v0.6.216-public-exposure-hygiene-plan-candidate:end -->
+
+<!-- v0.6.217-public-exposure-hygiene-plan-review-decision:start -->
+## v0.6.217 Public Exposure Hygiene Plan Review and Decision
+
+v0.6.217 accepts the Public Exposure Hygiene Plan for future cleanup planning.
+
+Decision status:
+
+- accepted for cleanup planning
+- not applied
+- no cleanup is applied in v0.6.217
+- no contact route is removed in v0.6.217
+- no pricing or business-plan material is moved in v0.6.217
+- no README rewrite is applied in v0.6.217
+- no historical docs are deleted in v0.6.217
+- no Tool Gateway behavior is changed in v0.6.217
+- runtime demo remains necessary but deferred
+- publication remains deferred
+
+Recommended next checkpoint:
+
+- `v0.6.218 Next Work Selection Using Risk-Tiered Granularity`
+<!-- v0.6.217-public-exposure-hygiene-plan-review-decision:end -->

@@ -2284,3 +2284,22 @@ Next planned checkpoint:
 
 The candidate plan covers README front-page value proposition, public contact route hygiene, pricing and commercial draft exposure, business plan exposure, current/latest version clarity, external-facing candidate/draft label hygiene, public documentation curation, and demo/motion-evidence positioning.
 <!-- v0.6.216-roadmap:end -->
+
+<!-- v0.6.217-roadmap:start -->
+## v0.6.217 Public Exposure Hygiene Plan Review and Decision
+
+Current checkpoint:
+
+- `v0.6.217 Public Exposure Hygiene Plan Review and Decision`
+- Decision: accepted for cleanup planning
+- Application status: not applied
+- Cleanup status: no cleanup is applied in v0.6.217
+- Runtime status: runtime demo remains necessary but deferred
+- Publication status: publication remains deferred
+
+Recommended next checkpoint:
+
+- `v0.6.218 Next Work Selection Using Risk-Tiered Granularity`
+
+v0.6.218 should select the first cleanup work item under the accepted Public Exposure Hygiene Plan, expected to begin with contact route and commercial exposure inventory.
+<!-- v0.6.217-roadmap:end -->
