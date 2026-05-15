@@ -288,6 +288,7 @@ def main() -> int:
     "tools/test_v06209_static_fixture_review_path_repository_wording_integration_implementation_candidate.py",
     "tools/test_v06210_static_fixture_review_path_repository_wording_integration_implementation_review_and_decision.py",
     "tools/test_v06211_external_review_intake_priority_reassessment.py",
+    "tools/test_v06212_gateway_core_safety_integration_plan_candidate.py",
     print("All local checks passed.")
     return 0
 

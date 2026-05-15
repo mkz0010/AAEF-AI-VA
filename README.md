@@ -2321,3 +2321,23 @@ The key maturity distinction is between documented controls, helper implementati
 
 The closed runtime demo remains necessary but deferred until Gateway core safety integration is planned, implemented, and reviewed. Publication remains deferred.
 <!-- v0.6.211-external-review-priority-reassessment:end -->
+
+<!-- v0.6.212-gateway-core-safety-integration-plan-candidate:start -->
+## v0.6.212 Gateway Core Safety Integration Plan Candidate
+
+v0.6.212 records the Gateway Core Safety Integration Plan Candidate.
+
+Candidate status:
+
+- candidate only
+- not accepted
+- not implemented
+- not gateway-integrated
+- not runtime-ready
+- not scanner-ready
+- subject to `v0.6.213 Gateway Core Safety Integration Plan Review and Decision`
+
+The plan candidate defines a mandatory Gateway core sequence and priority controls for later work. It does not change Tool Gateway behavior, adapter behavior, execution statuses, schemas, validators, fixtures, runtime behavior, or scanner behavior.
+
+runtime demo remains necessary but deferred. publication remains deferred.
+<!-- v0.6.212-gateway-core-safety-integration-plan-candidate:end -->

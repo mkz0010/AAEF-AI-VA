@@ -2188,3 +2188,22 @@ Planned follow-up checkpoints:
 
 runtime demo remains necessary but deferred until Gateway core safety integration is planned, implemented, and reviewed. Publication remains deferred.
 <!-- v0.6.211-roadmap:end -->
+
+<!-- v0.6.212-roadmap:start -->
+## v0.6.212 Gateway Core Safety Integration Plan Candidate
+
+Current checkpoint:
+
+- `v0.6.212 Gateway Core Safety Integration Plan Candidate`
+- Status: candidate only
+- Implementation status: not implemented
+- Gateway integration status: not gateway-integrated
+- Runtime status: runtime demo remains necessary but deferred
+- Publication status: publication remains deferred
+
+Next planned checkpoint:
+
+- `v0.6.213 Gateway Core Safety Integration Plan Review and Decision`
+
+The candidate plan covers status terminology cleanup, authorization current-time expiry integration, request/decision constraint-diff integration, external discovery fail-closed integration, common target/scope/tool/operation binding, adapter consistency review, implementation maturity matrix, evidence wording cleanup, public/private commercial material boundary review, and safe demo / mock runtime / controlled runtime PoC separation.
+<!-- v0.6.212-roadmap:end -->

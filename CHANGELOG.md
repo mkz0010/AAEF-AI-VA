@@ -1,5 +1,20 @@
 # Changelog
 
+<!-- v0.6.212-changelog:start -->
+## v0.6.212 - Gateway Core Safety Integration Plan Candidate
+
+- Added `docs/288-v06212-gateway-core-safety-integration-plan-candidate.md`.
+- Added `planning/decisions/ADR-0282-add-v06212-gateway-core-safety-integration-plan-candidate.md`.
+- Added `planning/issues/0281-add-v06212-gateway-core-safety-integration-plan-candidate.md`.
+- Added `tools/test_v06212_gateway_core_safety_integration_plan_candidate.py`.
+- Recorded the Gateway Core Safety Integration Plan Candidate.
+- Candidate status: candidate only, not accepted, not implemented, not gateway-integrated, not runtime-ready, and not scanner-ready.
+- Follow-up: v0.6.213 Gateway Core Safety Integration Plan Review and Decision.
+- Recorded that runtime demo remains necessary but deferred and publication remains deferred.
+- Preserved no Tool Gateway behavior, adapter behavior, status/schema/validator/fixture/runtime/scanner behavior changes.
+<!-- v0.6.212-changelog:end -->
+
+
 <!-- v0.6.211-changelog:start -->
 ## v0.6.211 - External Review Intake and Priority Reassessment
 
