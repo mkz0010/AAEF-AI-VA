@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.6.233 - Next Work Selection Using Risk-Tiered Granularity
+
+- Selected `future_record_planning` as the next work item after accepting the `tool_action_request_gate_decision_dispatch_evidence_package` boundary.
+- Recorded `next_work_selection_completed = true`, `future_record_planning_selected = true`, and `selection_applied_to_records = false`.
+- Preserved the boundary that no actual records, record planning candidate, minimum flow package, package implementation, fixtures, reviewer walkthrough, AAEF five questions mapping, or AAEF handback summary are created in v0.6.233.
+- Preserved claim boundaries: runtime demo remains necessary but deferred, publication remains deferred, validator success is structural only, and evidence supports reconstruction; it does not prove legal truth.
+
+
 ## v0.6.232 - Tool Action Request Gate Decision Dispatch Evidence Package Review and Decision
 
 - Accepted the v0.6.231 documentation-only candidate package shape for `tool_action_request_gate_decision_dispatch_evidence_package`.

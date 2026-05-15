@@ -2596,3 +2596,24 @@ The next checkpoint should select the next narrow work item after accepting the 
 - no publication approval
 - no public announcement
 - no legal compliance, audit sufficiency, certification, diagnostic completeness, or external-framework equivalence claim
+
+## After v0.6.233
+
+v0.6.233 selects `future_record_planning` as the next work item.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.234 Future Record Planning Candidate
+~~~
+
+The next checkpoint should create a documentation-only candidate plan for future record groups under the accepted `tool_action_request_gate_decision_dispatch_evidence_package` boundary while preserving the current boundaries:
+
+- no actual record creation
+- no fixture creation
+- no runtime demo readiness claim
+- no scanner readiness claim
+- no external PoC readiness claim
+- no publication approval
+- no public announcement
+- no legal compliance, audit sufficiency, certification, diagnostic completeness, or external-framework equivalence claim

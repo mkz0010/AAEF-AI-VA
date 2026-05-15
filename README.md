@@ -2794,3 +2794,17 @@ This checkpoint records `package_candidate_accepted = true` and `package_candida
 It does not create the minimum flow package, package implementation, fixtures, evidence linkage records, request records, gate decision records, dispatch evidence records, result records, reviewer walkthrough, AAEF five questions mapping, or AAEF handback summary.
 
 Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. No private generated outputs are moved public in v0.6.232.
+
+## v0.6.233 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.233 selects the next work item after the accepted v0.6.232 package boundary.
+
+Selected work item:
+
+~~~text
+future_record_planning
+~~~
+
+This is selection only. v0.6.233 does not create actual records, record planning candidate artifacts, fixtures, minimum flow package artifacts, reviewer walkthrough, AAEF five questions mapping, or AAEF handback summary.
+
+Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. No private generated outputs are moved public in v0.6.233.
