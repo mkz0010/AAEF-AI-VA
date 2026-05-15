@@ -2539,3 +2539,22 @@ tool_action_request_gate_decision_dispatch_evidence_package
 ~~~
 
 The selection itself remains deferred to v0.6.230.
+
+## After v0.6.230
+
+v0.6.230 selects `tool_action_request_gate_decision_dispatch_evidence_package` as the next work item.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.231 Tool Action Request Gate Decision Dispatch Evidence Package Candidate
+~~~
+
+The next checkpoint should create a candidate package shape for the selected work item while preserving the current boundaries:
+
+- no runtime demo readiness claim
+- no scanner readiness claim
+- no external PoC readiness claim
+- no publication approval
+- no public announcement
+- no legal compliance, audit sufficiency, certification, diagnostic completeness, or external-framework equivalence claim

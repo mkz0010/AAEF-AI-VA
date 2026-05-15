@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.6.230 - Next Work Selection Using Risk-Tiered Granularity
+
+- Selected `tool_action_request_gate_decision_dispatch_evidence_package` as the next work item.
+- Recorded `next_work_selection_completed = true` and `selected_work_item_status = selected_for_next_candidate_checkpoint`.
+- Preserved the boundary that the selected package, minimum flow package, fixtures, evidence linkage records, request records, gate decision records, dispatch records, result records, reviewer walkthrough, AAEF five questions mapping, and AAEF handback summary are not created in v0.6.230.
+- Preserved claim boundaries: runtime demo remains necessary but deferred, publication remains deferred, validator success is structural only, and evidence supports reconstruction; it does not prove legal truth.
+
+
 ## v0.6.229 - Evidence Linkage Table Review and Decision
 
 - Accepted the v0.6.228 Evidence Linkage Table Candidate for future package planning / future record planning.

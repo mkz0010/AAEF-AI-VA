@@ -2750,3 +2750,17 @@ It records `evidence_linkage_table_accepted = true` and `evidence_linkage_table_
 This checkpoint does not create the minimum flow package, fixtures, evidence linkage records, tool action request records, gate decision records, dispatch evidence records, execution result records, non-execution result records, reviewer walkthrough, AAEF five questions mapping, or AAEF handback summary.
 
 Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. No private generated outputs are moved public in v0.6.229.
+
+## v0.6.230 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.230 selects the next work item after the accepted v0.6.229 Evidence Linkage Table Review and Decision.
+
+Selected work item:
+
+~~~text
+tool_action_request_gate_decision_dispatch_evidence_package
+~~~
+
+This is selection only. v0.6.230 does not create the selected package, minimum flow package, fixtures, evidence linkage records, request records, gate decision records, dispatch evidence records, result records, reviewer walkthrough, AAEF five questions mapping, or AAEF handback summary.
+
+Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. No private generated outputs are moved public in v0.6.230.
