@@ -2303,3 +2303,21 @@ AI output is treated as a request, not authority. Execution is decided by gates.
 
 Publication remains deferred. This accepted repository wording is not a public announcement, social-post instruction, live scanner, executable demo, external PoC package, production-readiness claim, certification claim, legal compliance statement, audit opinion, diagnostic completeness claim, or external-framework equivalence claim.
 <!-- v0.6.210-static-fixture-review-path-accepted-wording:end -->
+
+<!-- v0.6.211-external-review-priority-reassessment:start -->
+## v0.6.211 External Review Intake and Priority Reassessment
+
+v0.6.211 records an external review intake and changes the near-term priority from reviewer navigation polish to Gateway Core Safety Integration planning.
+
+Selected next work item:
+
+- `gateway_core_safety_integration_plan`
+- Risk tier: `high`
+- Checkpoint count: `2`
+- Next checkpoint: `v0.6.212 Gateway Core Safety Integration Plan Candidate`
+- Follow-up checkpoint: `v0.6.213 Gateway Core Safety Integration Plan Review and Decision`
+
+The key maturity distinction is between documented controls, helper implementation, local checks, and Tool Gateway core-path enforcement. These must not be treated as equivalent.
+
+The closed runtime demo remains necessary but deferred until Gateway core safety integration is planned, implemented, and reviewed. Publication remains deferred.
+<!-- v0.6.211-external-review-priority-reassessment:end -->

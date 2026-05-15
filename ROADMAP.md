@@ -2169,3 +2169,22 @@ AI output is treated as a request, not authority. Execution is decided by gates.
 
 Publication remains deferred. This accepted repository wording is not a public announcement, social-post instruction, live scanner, executable demo, external PoC package, production-readiness claim, certification claim, legal compliance statement, audit opinion, diagnostic completeness claim, or external-framework equivalence claim.
 <!-- v0.6.210-static-fixture-review-path-accepted-wording:end -->
+
+<!-- v0.6.211-roadmap:start -->
+## v0.6.211 reassessed next direction
+
+Current checkpoint:
+
+- `v0.6.211 External Review Intake and Priority Reassessment`
+- Status: accepted reassessment checkpoint
+- Selected next work item: `gateway_core_safety_integration_plan`
+- Selected risk tier: `high`
+- Selected checkpoint count: `2`
+
+Planned follow-up checkpoints:
+
+1. `v0.6.212 Gateway Core Safety Integration Plan Candidate`
+2. `v0.6.213 Gateway Core Safety Integration Plan Review and Decision`
+
+runtime demo remains necessary but deferred until Gateway core safety integration is planned, implemented, and reviewed. Publication remains deferred.
+<!-- v0.6.211-roadmap:end -->

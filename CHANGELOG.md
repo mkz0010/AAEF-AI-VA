@@ -1,5 +1,20 @@
 # Changelog
 
+<!-- v0.6.211-changelog:start -->
+## v0.6.211 - External Review Intake and Priority Reassessment
+
+- Added `docs/287-v06211-external-review-intake-priority-reassessment.md`.
+- Added `planning/decisions/ADR-0281-add-v06211-external-review-intake-priority-reassessment.md`.
+- Added `planning/issues/0280-add-v06211-external-review-intake-priority-reassessment.md`.
+- Added `tools/test_v06211_external_review_intake_priority_reassessment.py`.
+- Recorded external review intake and priority reassessment.
+- Selected `gateway_core_safety_integration_plan` as the next high-risk work item.
+- Recorded the two-checkpoint path: v0.6.212 Gateway Core Safety Integration Plan Candidate, then v0.6.213 Gateway Core Safety Integration Plan Review and Decision.
+- Recorded that runtime demo remains necessary but deferred.
+- Preserved publication remains deferred status and no runtime/scanner/publication/assurance claim.
+<!-- v0.6.211-changelog:end -->
+
+
 <!-- v0.6.210-changelog:start -->
 ## v0.6.210 - Static Fixture Review Path Repository Wording Integration Implementation Review and Decision
 
