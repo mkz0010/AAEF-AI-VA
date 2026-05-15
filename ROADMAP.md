@@ -2244,3 +2244,24 @@ Planned follow-up checkpoints:
 
 v0.6.214 does not implement the selected work item. execution statuses are not renamed in v0.6.214. runtime demo remains necessary but deferred. publication remains deferred.
 <!-- v0.6.214-roadmap:end -->
+
+<!-- v0.6.215-roadmap:start -->
+## v0.6.215 External Review Public Exposure and Commercial Boundary Reassessment
+
+Current checkpoint:
+
+- `v0.6.215 External Review Public Exposure and Commercial Boundary Reassessment`
+- Status: accepted reassessment checkpoint
+- Selected next work item: `public_exposure_hygiene_plan`
+- Selected risk tier: `high`
+- Selected checkpoint count: `2`
+
+Planned follow-up checkpoints:
+
+1. `v0.6.216 Public Exposure Hygiene Plan Candidate`
+2. `v0.6.217 Public Exposure Hygiene Plan Review and Decision`
+
+The previously selected `mock_dry_run_completed_status_terminology_cleanup is deferred, not rejected`.
+
+v0.6.215 does not apply public-facing cleanup, does not move commercial materials, does not rewrite README, and does not change Gateway behavior. runtime demo remains necessary but deferred. publication remains deferred.
+<!-- v0.6.215-roadmap:end -->

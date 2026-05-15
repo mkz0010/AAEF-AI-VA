@@ -1,5 +1,20 @@
 # Changelog
 
+<!-- v0.6.215-changelog:start -->
+## v0.6.215 - External Review Public Exposure and Commercial Boundary Reassessment
+
+- Added `docs/291-v06215-external-review-public-exposure-commercial-boundary-reassessment.md`.
+- Added `planning/decisions/ADR-0285-add-v06215-external-review-public-exposure-commercial-boundary-reassessment.md`.
+- Added `planning/issues/0284-add-v06215-external-review-public-exposure-commercial-boundary-reassessment.md`.
+- Added `tools/test_v06215_external_review_public_exposure_commercial_boundary_reassessment.py`.
+- Recorded external review intake focused on public exposure and commercial boundary hygiene.
+- Selected `public_exposure_hygiene_plan` as the next high-risk work item.
+- Recorded the two-checkpoint path: v0.6.216 Public Exposure Hygiene Plan Candidate, then v0.6.217 Public Exposure Hygiene Plan Review and Decision.
+- Recorded that `mock_dry_run_completed_status_terminology_cleanup is deferred, not rejected`.
+- Preserved runtime demo remains necessary but deferred and publication remains deferred.
+<!-- v0.6.215-changelog:end -->
+
+
 <!-- v0.6.214-changelog:start -->
 ## v0.6.214 - Next Work Selection Using Risk-Tiered Granularity
 

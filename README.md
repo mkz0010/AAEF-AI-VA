@@ -2384,3 +2384,29 @@ Boundary retained by this checkpoint:
 - runtime demo remains necessary but deferred
 - publication remains deferred
 <!-- v0.6.214-next-work-selection:end -->
+
+<!-- v0.6.215-public-exposure-commercial-boundary-reassessment:start -->
+## v0.6.215 External Review Public Exposure and Commercial Boundary Reassessment
+
+v0.6.215 records a new external review intake focused on public exposure and commercial boundary hygiene.
+
+Selected next work item:
+
+- `public_exposure_hygiene_plan`
+- Risk tier: `high`
+- Checkpoint count: `2`
+- Next checkpoint: `v0.6.216 Public Exposure Hygiene Plan Candidate`
+- Follow-up checkpoint: `v0.6.217 Public Exposure Hygiene Plan Review and Decision`
+
+The previously selected `mock_dry_run_completed_status_terminology_cleanup is deferred, not rejected`.
+
+Boundary retained by this checkpoint:
+
+- no public-facing cleanup is applied in v0.6.215
+- no contact route is removed in v0.6.215
+- no pricing or business-plan material is moved in v0.6.215
+- no README rewrite is applied in v0.6.215
+- no Tool Gateway behavior is changed in v0.6.215
+- runtime demo remains necessary but deferred
+- publication remains deferred
+<!-- v0.6.215-public-exposure-commercial-boundary-reassessment:end -->
