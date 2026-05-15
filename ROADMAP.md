@@ -2558,3 +2558,22 @@ The next checkpoint should create a candidate package shape for the selected wor
 - no publication approval
 - no public announcement
 - no legal compliance, audit sufficiency, certification, diagnostic completeness, or external-framework equivalence claim
+
+## After v0.6.231
+
+v0.6.231 creates the documentation-only candidate package shape for `tool_action_request_gate_decision_dispatch_evidence_package`.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.232 Tool Action Request Gate Decision Dispatch Evidence Package Review and Decision
+~~~
+
+The next checkpoint should review the candidate package shape and decide whether it is accepted for future fixture and record planning while preserving the current boundaries:
+
+- no runtime demo readiness claim
+- no scanner readiness claim
+- no external PoC readiness claim
+- no publication approval
+- no public announcement
+- no legal compliance, audit sufficiency, certification, diagnostic completeness, or external-framework equivalence claim

@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.231 - Tool Action Request Gate Decision Dispatch Evidence Package Candidate
+
+- Created a documentation-only candidate package shape for `tool_action_request_gate_decision_dispatch_evidence_package`.
+- Recorded `package_candidate_created = true`, `package_candidate_status = candidate_not_applied`, and `package_candidate_scope = documentation_only_package_shape`.
+- Defined candidate field groups for model output reference, tool action request, gate decision, dispatch or non-dispatch decision, execution or non-execution result, evidence event, reviewer reconstruction path, and AAEF five questions mapping reference.
+- Preserved the boundary that no minimum flow package, fixtures, evidence linkage records, request records, gate decision records, dispatch records, result records, reviewer walkthrough, AAEF five questions mapping, or AAEF handback summary are created in v0.6.231.
+- Preserved claim boundaries: runtime demo remains necessary but deferred, publication remains deferred, validator success is structural only, and evidence supports reconstruction; it does not prove legal truth.
+
+
 ## v0.6.230 - Next Work Selection Using Risk-Tiered Granularity
 
 - Selected `tool_action_request_gate_decision_dispatch_evidence_package` as the next work item.

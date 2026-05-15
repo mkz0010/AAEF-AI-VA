@@ -2764,3 +2764,17 @@ tool_action_request_gate_decision_dispatch_evidence_package
 This is selection only. v0.6.230 does not create the selected package, minimum flow package, fixtures, evidence linkage records, request records, gate decision records, dispatch evidence records, result records, reviewer walkthrough, AAEF five questions mapping, or AAEF handback summary.
 
 Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. No private generated outputs are moved public in v0.6.230.
+
+## v0.6.231 Tool Action Request Gate Decision Dispatch Evidence Package Candidate
+
+v0.6.231 creates a documentation-only candidate package shape for the selected work item:
+
+~~~text
+tool_action_request_gate_decision_dispatch_evidence_package
+~~~
+
+The package candidate connects future planning for model output reference, tool action request, gate decision, dispatch or non-dispatch decision, execution or non-execution result, evidence event, reviewer reconstruction path, and AAEF five questions mapping reference.
+
+This checkpoint does not create the minimum flow package, fixtures, evidence linkage records, request records, gate decision records, dispatch evidence records, result records, reviewer walkthrough, AAEF five questions mapping, or AAEF handback summary.
+
+Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. No private generated outputs are moved public in v0.6.231.
