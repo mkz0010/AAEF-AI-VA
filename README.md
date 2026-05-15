@@ -2838,3 +2838,17 @@ This checkpoint records `record_planning_candidate_accepted = true`, `future_rec
 It does not create actual records, fixtures, minimum flow package artifacts, package implementation artifacts, reviewer walkthrough, AAEF five questions mapping, or AAEF handback summary.
 
 Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. No private generated outputs are moved public in v0.6.235.
+
+## v0.6.236 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.236 selects the next work item after the accepted v0.6.235 Future Record Planning Review and Decision.
+
+Selected work item:
+
+~~~text
+record_candidate_planning
+~~~
+
+This is selection only. v0.6.236 does not create record candidate artifacts, actual records, fixtures, minimum flow package artifacts, package implementation artifacts, reviewer walkthrough, AAEF five questions mapping, or AAEF handback summary.
+
+Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. No private generated outputs are moved public in v0.6.236.

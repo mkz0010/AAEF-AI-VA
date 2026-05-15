@@ -2659,3 +2659,25 @@ The next checkpoint should select the next narrow work item after accepting futu
 - no publication approval
 - no public announcement
 - no legal compliance, audit sufficiency, certification, diagnostic completeness, or external-framework equivalence claim
+
+## After v0.6.236
+
+v0.6.236 selects `record_candidate_planning` as the next work item.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.237 Record Candidate Planning Candidate
+~~~
+
+The next checkpoint should create a documentation-only candidate plan for future record candidate artifacts under the accepted future record planning model while preserving the current boundaries:
+
+- no record candidate artifact creation
+- no actual record creation
+- no fixture creation
+- no runtime demo readiness claim
+- no scanner readiness claim
+- no external PoC readiness claim
+- no publication approval
+- no public announcement
+- no legal compliance, audit sufficiency, certification, diagnostic completeness, or external-framework equivalence claim
