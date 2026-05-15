@@ -2808,3 +2808,17 @@ future_record_planning
 This is selection only. v0.6.233 does not create actual records, record planning candidate artifacts, fixtures, minimum flow package artifacts, reviewer walkthrough, AAEF five questions mapping, or AAEF handback summary.
 
 Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. No private generated outputs are moved public in v0.6.233.
+
+## v0.6.234 Future Record Planning Candidate
+
+v0.6.234 creates a documentation-only future record planning candidate for the accepted package boundary:
+
+~~~text
+tool_action_request_gate_decision_dispatch_evidence_package
+~~~
+
+The candidate plans future record groups for model output reference, tool action request, gate decision, dispatch decision, non-dispatch decision, execution result, non-execution result, evidence event, reviewer reconstruction reference, and AAEF five questions mapping reference.
+
+This checkpoint does not create actual records, fixtures, minimum flow package artifacts, package implementation artifacts, reviewer walkthrough, AAEF five questions mapping, or AAEF handback summary.
+
+Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. No private generated outputs are moved public in v0.6.234.

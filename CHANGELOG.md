@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.234 - Future Record Planning Candidate
+
+- Created a documentation-only future record planning candidate for the accepted `tool_action_request_gate_decision_dispatch_evidence_package` boundary.
+- Recorded `record_planning_candidate_created = true`, `record_planning_candidate_id = future_record_planning_candidate_v06234`, and `future_record_groups_planned = true`.
+- Planned future record groups for model output reference, tool action request, gate decision, dispatch decision, non-dispatch decision, execution result, non-execution result, evidence event, reviewer reconstruction reference, and AAEF five questions mapping reference.
+- Preserved the boundary that no actual records, fixtures, minimum flow package, package implementation, reviewer walkthrough, AAEF five questions mapping, or AAEF handback summary are created in v0.6.234.
+- Preserved claim boundaries: runtime demo remains necessary but deferred, publication remains deferred, validator success is structural only, and evidence supports reconstruction; it does not prove legal truth.
+
+
 ## v0.6.233 - Next Work Selection Using Risk-Tiered Granularity
 
 - Selected `future_record_planning` as the next work item after accepting the `tool_action_request_gate_decision_dispatch_evidence_package` boundary.

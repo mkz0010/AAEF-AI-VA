@@ -2617,3 +2617,24 @@ The next checkpoint should create a documentation-only candidate plan for future
 - no publication approval
 - no public announcement
 - no legal compliance, audit sufficiency, certification, diagnostic completeness, or external-framework equivalence claim
+
+## After v0.6.234
+
+v0.6.234 creates a documentation-only Future Record Planning Candidate.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.235 Future Record Planning Review and Decision
+~~~
+
+The next checkpoint should review the candidate and decide whether it is accepted for future fixture planning and record candidate planning while preserving the current boundaries:
+
+- no actual record creation
+- no fixture creation
+- no runtime demo readiness claim
+- no scanner readiness claim
+- no external PoC readiness claim
+- no publication approval
+- no public announcement
+- no legal compliance, audit sufficiency, certification, diagnostic completeness, or external-framework equivalence claim
