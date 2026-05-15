@@ -2703,3 +2703,25 @@ The next checkpoint should review the candidate and decide whether it is accepte
 - no publication approval
 - no public announcement
 - no legal compliance, audit sufficiency, certification, diagnostic completeness, or external-framework equivalence claim
+
+## After v0.6.239
+
+v0.6.239 accepts the Record Candidate Planning Candidate for future record candidate artifact creation planning.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.240 Next Work Selection Using Risk-Tiered Granularity
+~~~
+
+The next checkpoint should select the next narrow work item after accepting record candidate planning. Candidate directions include record candidate artifact creation planning, future fixture planning, reviewer walkthrough planning, or AAEF five questions mapping planning, while preserving the current boundaries:
+
+- no record candidate artifact creation
+- no actual record creation
+- no fixture creation
+- no runtime demo readiness claim
+- no scanner readiness claim
+- no external PoC readiness claim
+- no publication approval
+- no public announcement
+- no legal compliance, audit sufficiency, certification, diagnostic completeness, or external-framework equivalence claim

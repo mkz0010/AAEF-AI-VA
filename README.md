@@ -2866,3 +2866,19 @@ The candidate plans future record candidate artifacts for model output reference
 This checkpoint does not create record candidate artifacts, actual records, fixtures, minimum flow package artifacts, package implementation artifacts, reviewer walkthrough, AAEF five questions mapping, or AAEF handback summary.
 
 Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. No private generated outputs are moved public in v0.6.237.
+
+## v0.6.239 Record Candidate Planning Review and Decision
+
+v0.6.239 accepts the v0.6.237 documentation-only Record Candidate Planning Candidate for future record candidate artifact creation planning, after the v0.6.238 structural repair restored local-check execution coverage.
+
+Accepted candidate:
+
+~~~text
+record_candidate_planning_candidate_v06237
+~~~
+
+This checkpoint records `record_candidate_planning_candidate_accepted = true`, `future_record_candidate_artifacts_accepted = true`, and `future_record_candidate_linkage_model_accepted = true`.
+
+It does not create record candidate artifacts, actual records, fixtures, minimum flow package artifacts, package implementation artifacts, reviewer walkthrough, AAEF five questions mapping, or AAEF handback summary.
+
+Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. No private generated outputs are moved public in v0.6.239.

@@ -315,6 +315,7 @@ def main() -> int:
         "tools/test_v06235_future_record_planning_review_and_decision.py",
         "tools/test_v06236_next_work_selection_using_risk_tiered_granularity.py",
         "tools/test_v06237_record_candidate_planning_candidate.py",
+        "tools/test_v06239_record_candidate_planning_review_and_decision.py",
     ]
     for test_path in additional_version_tests:
         run([sys.executable, test_path])
