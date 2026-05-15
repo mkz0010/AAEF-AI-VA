@@ -2423,3 +2423,22 @@ Recommended next checkpoint:
 
 v0.6.224 should select the first work item after the accepted inventory, expected to begin with minimum flow scenario matrix.
 <!-- v0.6.223-roadmap:end -->
+
+<!-- v0.6.224-roadmap:start -->
+## v0.6.224 Next Work Selection Using Risk-Tiered Granularity
+
+Current checkpoint:
+
+- `v0.6.224 Next Work Selection Using Risk-Tiered Granularity`
+- Status: accepted direction-selection checkpoint
+- Selected next work item: `minimum_flow_scenario_matrix`
+- Selected risk tier: `high`
+- Selected checkpoint count: `2`
+
+Planned follow-up checkpoints:
+
+1. `v0.6.225 Minimum Flow Scenario Matrix Candidate`
+2. `v0.6.226 Minimum Flow Scenario Matrix Review and Decision`
+
+v0.6.224 does not create the scenario matrix, create fixtures, change runtime behavior, rewrite README, apply public cleanup, or change Gateway behavior. no minimum flow scenario matrix is created in v0.6.224. runtime demo remains necessary but deferred. publication remains deferred.
+<!-- v0.6.224-roadmap:end -->

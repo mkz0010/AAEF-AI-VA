@@ -2611,3 +2611,29 @@ Recommended next checkpoint:
 
 - `v0.6.224 Next Work Selection Using Risk-Tiered Granularity`
 <!-- v0.6.223-existing-element-inventory-review-decision:end -->
+
+<!-- v0.6.224-next-work-selection:start -->
+## v0.6.224 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.224 selects the next concrete work item after the accepted Existing Element Inventory.
+
+Selected next work item:
+
+- `minimum_flow_scenario_matrix`
+- Risk tier: `high`
+- Checkpoint count: `2`
+- Next checkpoint: `v0.6.225 Minimum Flow Scenario Matrix Candidate`
+- Follow-up checkpoint: `v0.6.226 Minimum Flow Scenario Matrix Review and Decision`
+
+Boundary retained by this checkpoint:
+
+- no minimum flow scenario matrix is created in v0.6.224
+- no minimum flow package is created in v0.6.224
+- no fixture is created or modified in v0.6.224
+- no evidence linkage, request, decision, dispatch, walkthrough, mapping, or handback record is created in v0.6.224
+- no private generated outputs are moved public in v0.6.224
+- no public cleanup or README rewrite is applied in v0.6.224
+- no Tool Gateway behavior is changed in v0.6.224
+- runtime demo remains necessary but deferred
+- publication remains deferred
+<!-- v0.6.224-next-work-selection:end -->
