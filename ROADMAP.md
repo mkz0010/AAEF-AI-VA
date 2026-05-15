@@ -2462,3 +2462,23 @@ Next planned checkpoint:
 
 The scenario matrix candidate covers permitted safe diagnostic, denied out-of-scope request, held / requires human approval, and expired-not-executed.
 <!-- v0.6.225-roadmap:end -->
+
+<!-- v0.6.226-roadmap:start -->
+## v0.6.226 Minimum Flow Scenario Matrix Review and Decision
+
+Current checkpoint:
+
+- `v0.6.226 Minimum Flow Scenario Matrix Review and Decision`
+- Decision: accepted for evidence linkage planning
+- Application status: not applied
+- Package status: no minimum flow package is created in v0.6.226
+- Private-output status: no private generated outputs are moved public in v0.6.226
+- Runtime status: runtime demo remains necessary but deferred
+- Publication status: publication remains deferred
+
+Recommended next checkpoint:
+
+- `v0.6.227 Next Work Selection Using Risk-Tiered Granularity`
+
+v0.6.227 should select the first work item after the accepted scenario matrix, expected to begin with evidence linkage table.
+<!-- v0.6.226-roadmap:end -->

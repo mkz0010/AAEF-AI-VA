@@ -1,5 +1,20 @@
 # Changelog
 
+<!-- v0.6.226-changelog:start -->
+## v0.6.226 - Minimum Flow Scenario Matrix Review and Decision
+
+- Added `docs/302-v06226-minimum-flow-scenario-matrix-review-and-decision.md`.
+- Added `planning/decisions/ADR-0296-add-v06226-minimum-flow-scenario-matrix-review-and-decision.md`.
+- Added `planning/issues/0295-add-v06226-minimum-flow-scenario-matrix-review-and-decision.md`.
+- Added `tools/test_v06226_minimum_flow_scenario_matrix_review_and_decision.py`.
+- Decision: accepted for evidence linkage planning based on the v0.6.225 Minimum Flow Scenario Matrix Candidate.
+- Preserved boundary: not applied and no minimum flow package is created in v0.6.226.
+- Preserved no fixture creation/modification, no evidence linkage/request/decision/dispatch/result/walkthrough/mapping/handback record creation, no private generated outputs are moved public in v0.6.226, no public cleanup, no README rewrite, and no Tool Gateway behavior change.
+- Recorded that runtime demo remains necessary but deferred and publication remains deferred.
+- Recommended next checkpoint: v0.6.227 Next Work Selection Using Risk-Tiered Granularity.
+<!-- v0.6.226-changelog:end -->
+
+
 <!-- v0.6.225-changelog:start -->
 ## v0.6.225 - Minimum Flow Scenario Matrix Candidate
 

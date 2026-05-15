@@ -2664,3 +2664,26 @@ Boundary retained by this checkpoint:
 - runtime demo remains necessary but deferred
 - publication remains deferred
 <!-- v0.6.225-minimum-flow-scenario-matrix-candidate:end -->
+
+<!-- v0.6.226-minimum-flow-scenario-matrix-review-decision:start -->
+## v0.6.226 Minimum Flow Scenario Matrix Review and Decision
+
+v0.6.226 accepts the Minimum Flow Scenario Matrix for future evidence linkage planning.
+
+Decision status:
+
+- accepted for evidence linkage planning
+- not applied
+- no minimum flow package is created in v0.6.226
+- no fixture is created or modified in v0.6.226
+- no evidence linkage, request, decision, dispatch, result, walkthrough, mapping, or handback record is created in v0.6.226
+- no private generated outputs are moved public in v0.6.226
+- no public cleanup or README rewrite is applied in v0.6.226
+- no Tool Gateway behavior is changed in v0.6.226
+- runtime demo remains necessary but deferred
+- publication remains deferred
+
+Recommended next checkpoint:
+
+- `v0.6.227 Next Work Selection Using Risk-Tiered Granularity`
+<!-- v0.6.226-minimum-flow-scenario-matrix-review-decision:end -->
