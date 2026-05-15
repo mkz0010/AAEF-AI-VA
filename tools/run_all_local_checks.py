@@ -313,6 +313,7 @@ def main() -> int:
     "tools/test_v06234_future_record_planning_candidate.py",
     "tools/test_v06235_future_record_planning_review_and_decision.py",
     "tools/test_v06236_next_work_selection_using_risk_tiered_granularity.py",
+    "tools/test_v06237_record_candidate_planning_candidate.py",
     print("All local checks passed.")
     return 0
 

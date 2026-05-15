@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.237 - Record Candidate Planning Candidate
+
+- Created a documentation-only Record Candidate Planning Candidate for `record_candidate_planning`.
+- Recorded `record_candidate_planning_candidate_created = true`, `record_candidate_planning_candidate_id = record_candidate_planning_candidate_v06237`, and `future_record_candidate_artifacts_planned = true`.
+- Planned future record candidate artifacts for model output reference, tool action request, gate decision, dispatch decision, non-dispatch decision, execution result, non-execution result, evidence event, reviewer reconstruction reference, and AAEF five questions mapping reference.
+- Preserved the boundary that no record candidate artifacts, actual records, minimum flow package, package implementation, fixtures, reviewer walkthrough, AAEF five questions mapping, or AAEF handback summary are created in v0.6.237.
+- Preserved claim boundaries: runtime demo remains necessary but deferred, publication remains deferred, validator success is structural only, and evidence supports reconstruction; it does not prove legal truth.
+
+
 ## v0.6.236 - Next Work Selection Using Risk-Tiered Granularity
 
 - Selected `record_candidate_planning` as the next work item after accepting the Future Record Planning Candidate.
