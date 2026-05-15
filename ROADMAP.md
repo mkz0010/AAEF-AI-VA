@@ -2207,3 +2207,21 @@ Next planned checkpoint:
 
 The candidate plan covers status terminology cleanup, authorization current-time expiry integration, request/decision constraint-diff integration, external discovery fail-closed integration, common target/scope/tool/operation binding, adapter consistency review, implementation maturity matrix, evidence wording cleanup, public/private commercial material boundary review, and safe demo / mock runtime / controlled runtime PoC separation.
 <!-- v0.6.212-roadmap:end -->
+
+<!-- v0.6.213-roadmap:start -->
+## v0.6.213 Gateway Core Safety Integration Plan Review and Decision
+
+Current checkpoint:
+
+- `v0.6.213 Gateway Core Safety Integration Plan Review and Decision`
+- Decision: accepted for implementation planning
+- Implementation status: not implemented
+- Runtime status: runtime demo remains necessary but deferred
+- Publication status: publication remains deferred
+
+Recommended next checkpoint:
+
+- `v0.6.214 Next Work Selection Using Risk-Tiered Granularity`
+
+v0.6.214 should select the first implementation work item under the accepted Gateway Core Safety Integration Plan, expected to begin with mock/dry-run completed status terminology cleanup.
+<!-- v0.6.213-roadmap:end -->

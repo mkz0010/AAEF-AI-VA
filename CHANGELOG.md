@@ -1,5 +1,19 @@
 # Changelog
 
+<!-- v0.6.213-changelog:start -->
+## v0.6.213 - Gateway Core Safety Integration Plan Review and Decision
+
+- Added `docs/289-v06213-gateway-core-safety-integration-plan-review-and-decision.md`.
+- Added `planning/decisions/ADR-0283-add-v06213-gateway-core-safety-integration-plan-review-and-decision.md`.
+- Added `planning/issues/0282-add-v06213-gateway-core-safety-integration-plan-review-and-decision.md`.
+- Added `tools/test_v06213_gateway_core_safety_integration_plan_review_and_decision.py`.
+- Decision: accepted for implementation planning based on the v0.6.212 Gateway Core Safety Integration Plan Candidate.
+- Preserved boundary: not implemented and no Tool Gateway, adapter, status, schema, validator, fixture, runtime, or scanner behavior change.
+- Recorded that runtime demo remains necessary but deferred and publication remains deferred.
+- Recommended next checkpoint: v0.6.214 Next Work Selection Using Risk-Tiered Granularity.
+<!-- v0.6.213-changelog:end -->
+
+
 <!-- v0.6.212-changelog:start -->
 ## v0.6.212 - Gateway Core Safety Integration Plan Candidate
 

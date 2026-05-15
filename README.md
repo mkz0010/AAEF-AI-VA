@@ -2341,3 +2341,23 @@ The plan candidate defines a mandatory Gateway core sequence and priority contro
 
 runtime demo remains necessary but deferred. publication remains deferred.
 <!-- v0.6.212-gateway-core-safety-integration-plan-candidate:end -->
+
+<!-- v0.6.213-gateway-core-safety-integration-plan-review-decision:start -->
+## v0.6.213 Gateway Core Safety Integration Plan Review and Decision
+
+v0.6.213 accepts the Gateway Core Safety Integration Plan for implementation planning.
+
+Decision status:
+
+- accepted for implementation planning
+- not implemented
+- no Tool Gateway behavior change
+- no adapter behavior change
+- no status, schema, validator, fixture, runtime, or scanner behavior change
+- runtime demo remains necessary but deferred
+- publication remains deferred
+
+Recommended next checkpoint:
+
+- `v0.6.214 Next Work Selection Using Risk-Tiered Granularity`
+<!-- v0.6.213-gateway-core-safety-integration-plan-review-decision:end -->
