@@ -1,5 +1,20 @@
 # Changelog
 
+<!-- v0.6.223-changelog:start -->
+## v0.6.223 - Existing Element Inventory Review and Decision
+
+- Added `docs/299-v06223-existing-element-inventory-review-and-decision.md`.
+- Added `planning/decisions/ADR-0293-add-v06223-existing-element-inventory-review-and-decision.md`.
+- Added `planning/issues/0292-add-v06223-existing-element-inventory-review-and-decision.md`.
+- Added `tools/test_v06223_existing_element_inventory_review_and_decision.py`.
+- Decision: accepted for minimum flow planning based on the v0.6.222 Existing Element Inventory Candidate.
+- Preserved boundary: not applied and no minimum flow package is created in v0.6.223.
+- Preserved no fixture creation/modification, no evidence linkage/request/decision/dispatch/walkthrough/mapping/handback record creation, no private generated outputs are moved public in v0.6.223, no public cleanup, no README rewrite, and no Tool Gateway behavior change.
+- Recorded that runtime demo remains necessary but deferred and publication remains deferred.
+- Recommended next checkpoint: v0.6.224 Next Work Selection Using Risk-Tiered Granularity.
+<!-- v0.6.223-changelog:end -->
+
+
 <!-- v0.6.222-changelog:start -->
 ## v0.6.222 - Existing Element Inventory Candidate
 

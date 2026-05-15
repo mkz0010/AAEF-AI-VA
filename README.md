@@ -2588,3 +2588,26 @@ Boundary retained by this checkpoint:
 - runtime demo remains necessary but deferred
 - publication remains deferred
 <!-- v0.6.222-existing-element-inventory-candidate:end -->
+
+<!-- v0.6.223-existing-element-inventory-review-decision:start -->
+## v0.6.223 Existing Element Inventory Review and Decision
+
+v0.6.223 accepts the Existing Element Inventory for future minimum flow planning.
+
+Decision status:
+
+- accepted for minimum flow planning
+- not applied
+- no minimum flow package is created in v0.6.223
+- no fixture is created or modified in v0.6.223
+- no evidence linkage, request, decision, dispatch, walkthrough, mapping, or handback record is created in v0.6.223
+- no private generated outputs are moved public in v0.6.223
+- no public cleanup or README rewrite is applied in v0.6.223
+- no Tool Gateway behavior is changed in v0.6.223
+- runtime demo remains necessary but deferred
+- publication remains deferred
+
+Recommended next checkpoint:
+
+- `v0.6.224 Next Work Selection Using Risk-Tiered Granularity`
+<!-- v0.6.223-existing-element-inventory-review-decision:end -->

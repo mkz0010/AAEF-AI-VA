@@ -2403,3 +2403,23 @@ Next planned checkpoint:
 
 The inventory candidate covers minimum flow step support, source class, public/private/patent-sensitive boundary, current coverage, maturity boundary, and follow-up needs for existing AAEF-AI-VA elements.
 <!-- v0.6.222-roadmap:end -->
+
+<!-- v0.6.223-roadmap:start -->
+## v0.6.223 Existing Element Inventory Review and Decision
+
+Current checkpoint:
+
+- `v0.6.223 Existing Element Inventory Review and Decision`
+- Decision: accepted for minimum flow planning
+- Application status: not applied
+- Package status: no minimum flow package is created in v0.6.223
+- Private-output status: no private generated outputs are moved public in v0.6.223
+- Runtime status: runtime demo remains necessary but deferred
+- Publication status: publication remains deferred
+
+Recommended next checkpoint:
+
+- `v0.6.224 Next Work Selection Using Risk-Tiered Granularity`
+
+v0.6.224 should select the first work item after the accepted inventory, expected to begin with minimum flow scenario matrix.
+<!-- v0.6.223-roadmap:end -->

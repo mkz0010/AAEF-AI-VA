@@ -299,6 +299,7 @@ def main() -> int:
     "tools/test_v06220_aaef_applied_evidence_minimum_flow_plan_review_and_decision.py",
     "tools/test_v06221_next_work_selection_using_risk_tiered_granularity.py",
     "tools/test_v06222_existing_element_inventory_candidate.py",
+    "tools/test_v06223_existing_element_inventory_review_and_decision.py",
     print("All local checks passed.")
     return 0
 
