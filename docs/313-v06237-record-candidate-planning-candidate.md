@@ -286,7 +286,7 @@ A later review checkpoint should decide whether this record candidate planning c
 
 - preserves Model output is not authority
 - Model output is not authority.
-- preserves AI rationale is not authorization
+- preserves AI rationale is not authorization.
 - preserves gate decision is not AI self-approval
 - preserves dispatch and non-dispatch as separate candidate paths
 - preserves execution and non-execution as separate candidate paths
@@ -408,6 +408,8 @@ No private generated outputs are moved public in v0.6.237.
 
 This checkpoint preserves the following boundaries:
 
+- A gate decision is not AI self-approval.
+- Evidence supports reconstruction; it does not prove legal truth.
 - runtime demo remains necessary but deferred
 - publication remains deferred
 - evidence supports reconstruction; it does not prove legal truth
