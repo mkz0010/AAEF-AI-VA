@@ -2225,3 +2225,22 @@ Recommended next checkpoint:
 
 v0.6.214 should select the first implementation work item under the accepted Gateway Core Safety Integration Plan, expected to begin with mock/dry-run completed status terminology cleanup.
 <!-- v0.6.213-roadmap:end -->
+
+<!-- v0.6.214-roadmap:start -->
+## v0.6.214 Next Work Selection Using Risk-Tiered Granularity
+
+Current checkpoint:
+
+- `v0.6.214 Next Work Selection Using Risk-Tiered Granularity`
+- Status: accepted direction-selection checkpoint
+- Selected next work item: `mock_dry_run_completed_status_terminology_cleanup`
+- Selected risk tier: `high`
+- Selected checkpoint count: `2`
+
+Planned follow-up checkpoints:
+
+1. `v0.6.215 Mock/Dry-run Completed Status Terminology Cleanup Candidate`
+2. `v0.6.216 Mock/Dry-run Completed Status Terminology Cleanup Review and Decision`
+
+v0.6.214 does not implement the selected work item. execution statuses are not renamed in v0.6.214. runtime demo remains necessary but deferred. publication remains deferred.
+<!-- v0.6.214-roadmap:end -->

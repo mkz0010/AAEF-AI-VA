@@ -2361,3 +2361,26 @@ Recommended next checkpoint:
 
 - `v0.6.214 Next Work Selection Using Risk-Tiered Granularity`
 <!-- v0.6.213-gateway-core-safety-integration-plan-review-decision:end -->
+
+<!-- v0.6.214-next-work-selection:start -->
+## v0.6.214 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.214 selects the first implementation work item under the accepted Gateway Core Safety Integration Plan.
+
+Selected next work item:
+
+- `mock_dry_run_completed_status_terminology_cleanup`
+- Risk tier: `high`
+- Checkpoint count: `2`
+- Next checkpoint: `v0.6.215 Mock/Dry-run Completed Status Terminology Cleanup Candidate`
+- Follow-up checkpoint: `v0.6.216 Mock/Dry-run Completed Status Terminology Cleanup Review and Decision`
+
+Boundary retained by this checkpoint:
+
+- execution statuses are not renamed in v0.6.214
+- Tool Gateway behavior is not changed
+- adapter behavior is not changed
+- schema, validator, fixture, runtime, and scanner behavior are not changed
+- runtime demo remains necessary but deferred
+- publication remains deferred
+<!-- v0.6.214-next-work-selection:end -->

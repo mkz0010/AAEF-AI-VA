@@ -1,5 +1,19 @@
 # Changelog
 
+<!-- v0.6.214-changelog:start -->
+## v0.6.214 - Next Work Selection Using Risk-Tiered Granularity
+
+- Added `docs/290-v06214-next-work-selection-using-risk-tiered-granularity.md`.
+- Added `planning/decisions/ADR-0284-add-v06214-next-work-selection-using-risk-tiered-granularity.md`.
+- Added `planning/issues/0283-add-v06214-next-work-selection-using-risk-tiered-granularity.md`.
+- Added `tools/test_v06214_next_work_selection_using_risk_tiered_granularity.py`.
+- Selected `mock_dry_run_completed_status_terminology_cleanup` as the next high-risk work item.
+- Recorded the two-checkpoint path: v0.6.215 Mock/Dry-run Completed Status Terminology Cleanup Candidate, then v0.6.216 Mock/Dry-run Completed Status Terminology Cleanup Review and Decision.
+- Preserved boundary: execution statuses are not renamed in v0.6.214.
+- Preserved runtime demo remains necessary but deferred and publication remains deferred.
+<!-- v0.6.214-changelog:end -->
+
+
 <!-- v0.6.213-changelog:start -->
 ## v0.6.213 - Gateway Core Safety Integration Plan Review and Decision
 
