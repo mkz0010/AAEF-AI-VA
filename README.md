@@ -2740,3 +2740,13 @@ Boundary retained by this checkpoint:
 - runtime demo remains necessary but deferred
 - publication remains deferred
 <!-- v0.6.228-evidence-linkage-table-candidate:end -->
+
+## v0.6.229 Evidence Linkage Table Review and Decision
+
+v0.6.229 accepts the v0.6.228 Evidence Linkage Table Candidate for future package planning / future record planning.
+
+It records `evidence_linkage_table_accepted = true` and `evidence_linkage_table_applied_to_package = false`.
+
+This checkpoint does not create the minimum flow package, fixtures, evidence linkage records, tool action request records, gate decision records, dispatch evidence records, execution result records, non-execution result records, reviewer walkthrough, AAEF five questions mapping, or AAEF handback summary.
+
+Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. No private generated outputs are moved public in v0.6.229.

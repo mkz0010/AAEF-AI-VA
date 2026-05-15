@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.6.229 - Evidence Linkage Table Review and Decision
+
+- Accepted the v0.6.228 Evidence Linkage Table Candidate for future package planning / future record planning.
+- Recorded `evidence_linkage_table_accepted = true` and `evidence_linkage_table_applied_to_package = false`.
+- Preserved the boundary that no minimum flow package, fixtures, evidence linkage records, request records, gate decision records, dispatch records, result records, reviewer walkthrough, AAEF five questions mapping, or AAEF handback summary are created in v0.6.229.
+- Preserved claim boundaries: runtime demo remains necessary but deferred, publication remains deferred, validator success is structural only, and evidence supports reconstruction; it does not prove legal truth.
+
+
 <!-- v0.6.228-changelog:start -->
 ## v0.6.228 - Evidence Linkage Table Candidate
 

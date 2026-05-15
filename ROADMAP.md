@@ -2521,3 +2521,21 @@ Next planned checkpoint:
 
 The linkage table candidate covers planned scenario links across request, decision, dispatch/non-dispatch, result/non-result, evidence event, reviewer walkthrough, and AAEF five questions mapping.
 <!-- v0.6.228-roadmap:end -->
+
+## After v0.6.229
+
+v0.6.229 accepts the Evidence Linkage Table Candidate as a planning structure only. The table is accepted for future package planning / future record planning, but it is not applied to package, fixture, record, runtime, scanner, Tool Gateway, adapter, schema, or validator behavior.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.230 Next Work Selection Using Risk-Tiered Granularity
+~~~
+
+The expected candidate work item is:
+
+~~~text
+tool_action_request_gate_decision_dispatch_evidence_package
+~~~
+
+The selection itself remains deferred to v0.6.230.
