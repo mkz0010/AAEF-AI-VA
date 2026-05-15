@@ -2791,3 +2791,25 @@ The next checkpoint should select the next narrow work item after accepting reco
 - no publication approval
 - no public announcement
 - no legal compliance, audit sufficiency, certification, diagnostic completeness, or external-framework equivalence claim
+
+## After v0.6.243
+
+v0.6.243 selects `record_candidate_artifact_creation_candidate` as the next work item.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.244 Record Candidate Artifact Creation Candidate
+~~~
+
+The next checkpoint should create a documentation-only candidate under the accepted record candidate artifact creation planning model while preserving the current boundaries:
+
+- no actual record candidate artifact creation
+- no actual record creation
+- no fixture creation
+- no runtime demo readiness claim
+- no scanner readiness claim
+- no external PoC readiness claim
+- no publication approval
+- no public announcement
+- no legal compliance, audit sufficiency, certification, diagnostic completeness, or external-framework equivalence claim
