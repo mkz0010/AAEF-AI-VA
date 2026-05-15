@@ -1,5 +1,19 @@
 # Changelog
 
+<!-- v0.6.221-changelog:start -->
+## v0.6.221 - Next Work Selection Using Risk-Tiered Granularity
+
+- Added `docs/297-v06221-next-work-selection-using-risk-tiered-granularity.md`.
+- Added `planning/decisions/ADR-0291-add-v06221-next-work-selection-using-risk-tiered-granularity.md`.
+- Added `planning/issues/0290-add-v06221-next-work-selection-using-risk-tiered-granularity.md`.
+- Added `tools/test_v06221_next_work_selection_using_risk_tiered_granularity.py`.
+- Selected `existing_element_inventory` as the next high-risk work item under the accepted AAEF Applied Evidence Minimum Flow Plan.
+- Recorded the two-checkpoint path: v0.6.222 Existing Element Inventory Candidate, then v0.6.223 Existing Element Inventory Review and Decision.
+- Preserved boundary: no existing element inventory is created in v0.6.221.
+- Preserved runtime demo remains necessary but deferred and publication remains deferred.
+<!-- v0.6.221-changelog:end -->
+
+
 <!-- v0.6.220-changelog:start -->
 ## v0.6.220 - AAEF Applied Evidence Minimum Flow Plan Review and Decision
 

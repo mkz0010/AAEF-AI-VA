@@ -2536,3 +2536,28 @@ Recommended next checkpoint:
 
 - `v0.6.221 Next Work Selection Using Risk-Tiered Granularity`
 <!-- v0.6.220-aaef-applied-evidence-minimum-flow-plan-review-decision:end -->
+
+<!-- v0.6.221-next-work-selection:start -->
+## v0.6.221 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.221 selects the first concrete work item under the accepted AAEF Applied Evidence Minimum Flow Plan.
+
+Selected next work item:
+
+- `existing_element_inventory`
+- Risk tier: `high`
+- Checkpoint count: `2`
+- Next checkpoint: `v0.6.222 Existing Element Inventory Candidate`
+- Follow-up checkpoint: `v0.6.223 Existing Element Inventory Review and Decision`
+
+Boundary retained by this checkpoint:
+
+- no existing element inventory is created in v0.6.221
+- no minimum flow package is created in v0.6.221
+- no fixture is created or modified in v0.6.221
+- no evidence linkage, request, decision, dispatch, walkthrough, mapping, or handback record is created in v0.6.221
+- no public cleanup or README rewrite is applied in v0.6.221
+- no Tool Gateway behavior is changed in v0.6.221
+- runtime demo remains necessary but deferred
+- publication remains deferred
+<!-- v0.6.221-next-work-selection:end -->

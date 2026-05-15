@@ -2364,3 +2364,22 @@ Recommended next checkpoint:
 
 v0.6.221 should select the first concrete work item under the accepted AAEF Applied Evidence Minimum Flow Plan, expected to begin with existing element inventory.
 <!-- v0.6.220-roadmap:end -->
+
+<!-- v0.6.221-roadmap:start -->
+## v0.6.221 Next Work Selection Using Risk-Tiered Granularity
+
+Current checkpoint:
+
+- `v0.6.221 Next Work Selection Using Risk-Tiered Granularity`
+- Status: accepted direction-selection checkpoint
+- Selected next work item: `existing_element_inventory`
+- Selected risk tier: `high`
+- Selected checkpoint count: `2`
+
+Planned follow-up checkpoints:
+
+1. `v0.6.222 Existing Element Inventory Candidate`
+2. `v0.6.223 Existing Element Inventory Review and Decision`
+
+v0.6.221 does not create the inventory, create fixtures, change runtime behavior, rewrite README, apply public cleanup, or change Gateway behavior. no existing element inventory is created in v0.6.221. runtime demo remains necessary but deferred. publication remains deferred.
+<!-- v0.6.221-roadmap:end -->
