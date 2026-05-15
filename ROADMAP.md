@@ -2638,3 +2638,24 @@ The next checkpoint should review the candidate and decide whether it is accepte
 - no publication approval
 - no public announcement
 - no legal compliance, audit sufficiency, certification, diagnostic completeness, or external-framework equivalence claim
+
+## After v0.6.235
+
+v0.6.235 accepts the Future Record Planning Candidate for future fixture planning and record candidate planning.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.236 Next Work Selection Using Risk-Tiered Granularity
+~~~
+
+The next checkpoint should select the next narrow work item after accepting future record planning. Candidate directions include future fixture planning, record candidate planning, reviewer walkthrough planning, or AAEF five questions mapping planning, while preserving the current boundaries:
+
+- no actual record creation
+- no fixture creation
+- no runtime demo readiness claim
+- no scanner readiness claim
+- no external PoC readiness claim
+- no publication approval
+- no public announcement
+- no legal compliance, audit sufficiency, certification, diagnostic completeness, or external-framework equivalence claim

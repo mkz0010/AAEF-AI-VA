@@ -2822,3 +2822,19 @@ The candidate plans future record groups for model output reference, tool action
 This checkpoint does not create actual records, fixtures, minimum flow package artifacts, package implementation artifacts, reviewer walkthrough, AAEF five questions mapping, or AAEF handback summary.
 
 Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. No private generated outputs are moved public in v0.6.234.
+
+## v0.6.235 Future Record Planning Review and Decision
+
+v0.6.235 accepts the v0.6.234 documentation-only Future Record Planning Candidate for future fixture planning and record candidate planning.
+
+Accepted candidate:
+
+~~~text
+future_record_planning_candidate_v06234
+~~~
+
+This checkpoint records `record_planning_candidate_accepted = true`, `future_record_groups_accepted = true`, and `future_linkage_model_accepted = true`.
+
+It does not create actual records, fixtures, minimum flow package artifacts, package implementation artifacts, reviewer walkthrough, AAEF five questions mapping, or AAEF handback summary.
+
+Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. No private generated outputs are moved public in v0.6.235.

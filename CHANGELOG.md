@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.6.235 - Future Record Planning Review and Decision
+
+- Accepted the v0.6.234 documentation-only Future Record Planning Candidate for future fixture planning and record candidate planning.
+- Recorded `record_planning_candidate_review_completed = true`, `record_planning_candidate_accepted = true`, `future_record_groups_accepted = true`, and `future_linkage_model_accepted = true`.
+- Preserved the boundary that no actual records, record candidate artifacts, fixtures, minimum flow package, package implementation, reviewer walkthrough, AAEF five questions mapping, or AAEF handback summary are created in v0.6.235.
+- Preserved claim boundaries: runtime demo remains necessary but deferred, publication remains deferred, validator success is structural only, and evidence supports reconstruction; it does not prove legal truth.
+
+
 ## v0.6.234 - Future Record Planning Candidate
 
 - Created a documentation-only future record planning candidate for the accepted `tool_action_request_gate_decision_dispatch_evidence_package` boundary.
