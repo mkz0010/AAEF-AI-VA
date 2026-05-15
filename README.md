@@ -2459,3 +2459,32 @@ Recommended next checkpoint:
 
 - `v0.6.218 Next Work Selection Using Risk-Tiered Granularity`
 <!-- v0.6.217-public-exposure-hygiene-plan-review-decision:end -->
+
+<!-- v0.6.218-aaef-applied-evidence-minimum-flow-intake:start -->
+## v0.6.218 AAEF Applied Evidence Minimum Flow Intake and Priority Reconciliation
+
+v0.6.218 records AAEF main feedback and selects AAEF Applied Evidence Minimum Flow planning as the immediate next priority.
+
+Selected next work item:
+
+- `aaef_applied_evidence_minimum_flow_plan`
+- Risk tier: `high`
+- Checkpoint count: `2`
+- Next checkpoint: `v0.6.219 AAEF Applied Evidence Minimum Flow Plan Candidate`
+- Follow-up checkpoint: `v0.6.220 AAEF Applied Evidence Minimum Flow Plan Review and Decision`
+
+The accepted Public Exposure Hygiene Plan remains valid, but public exposure cleanup is deferred, not rejected.
+
+The previously selected mock/dry-run completed status terminology cleanup is deferred, not rejected.
+
+The planned minimum flow is `model_output -> tool_action_request -> gate_decision -> dispatch_decision / non_dispatch_decision -> execution_result / non_execution_result -> evidence_event -> reviewer_walkthrough`.
+
+Boundary retained by this checkpoint:
+
+- no minimum flow package is created in v0.6.218
+- no fixture or runtime behavior is changed in v0.6.218
+- no public cleanup or README rewrite is applied in v0.6.218
+- no Tool Gateway behavior is changed in v0.6.218
+- runtime demo remains necessary but deferred
+- publication remains deferred
+<!-- v0.6.218-aaef-applied-evidence-minimum-flow-intake:end -->

@@ -2303,3 +2303,26 @@ Recommended next checkpoint:
 
 v0.6.218 should select the first cleanup work item under the accepted Public Exposure Hygiene Plan, expected to begin with contact route and commercial exposure inventory.
 <!-- v0.6.217-roadmap:end -->
+
+<!-- v0.6.218-roadmap:start -->
+## v0.6.218 AAEF Applied Evidence Minimum Flow Intake and Priority Reconciliation
+
+Current checkpoint:
+
+- `v0.6.218 AAEF Applied Evidence Minimum Flow Intake and Priority Reconciliation`
+- Status: accepted intake and priority reconciliation checkpoint
+- Selected next work item: `aaef_applied_evidence_minimum_flow_plan`
+- Selected risk tier: `high`
+- Selected checkpoint count: `2`
+
+Planned follow-up checkpoints:
+
+1. `v0.6.219 AAEF Applied Evidence Minimum Flow Plan Candidate`
+2. `v0.6.220 AAEF Applied Evidence Minimum Flow Plan Review and Decision`
+
+The accepted Public Exposure Hygiene Plan remains valid, but public exposure cleanup is deferred, not rejected.
+
+The previously selected mock/dry-run completed status terminology cleanup is deferred, not rejected.
+
+v0.6.218 does not create fixtures, change runtime behavior, rewrite README, apply public cleanup, or change Gateway behavior. runtime demo remains necessary but deferred. publication remains deferred.
+<!-- v0.6.218-roadmap:end -->

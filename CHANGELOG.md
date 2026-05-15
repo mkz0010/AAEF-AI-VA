@@ -1,5 +1,20 @@
 # Changelog
 
+<!-- v0.6.218-changelog:start -->
+## v0.6.218 - AAEF Applied Evidence Minimum Flow Intake and Priority Reconciliation
+
+- Added `docs/294-v06218-aaef-applied-evidence-minimum-flow-intake-priority-reconciliation.md`.
+- Added `planning/decisions/ADR-0288-add-v06218-aaef-applied-evidence-minimum-flow-intake-priority-reconciliation.md`.
+- Added `planning/issues/0287-add-v06218-aaef-applied-evidence-minimum-flow-intake-priority-reconciliation.md`.
+- Added `tools/test_v06218_aaef_applied_evidence_minimum_flow_intake_priority_reconciliation.py`.
+- Recorded AAEF main feedback and selected `aaef_applied_evidence_minimum_flow_plan` as the next high-risk work item.
+- Recorded the two-checkpoint path: v0.6.219 AAEF Applied Evidence Minimum Flow Plan Candidate, then v0.6.220 AAEF Applied Evidence Minimum Flow Plan Review and Decision.
+- Recorded that public exposure cleanup is deferred, not rejected.
+- Recorded that mock/dry-run completed status terminology cleanup is deferred, not rejected.
+- Preserved runtime demo remains necessary but deferred and publication remains deferred.
+<!-- v0.6.218-changelog:end -->
+
+
 <!-- v0.6.217-changelog:start -->
 ## v0.6.217 - Public Exposure Hygiene Plan Review and Decision
 
