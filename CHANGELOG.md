@@ -1,5 +1,20 @@
 # Changelog
 
+<!-- v0.6.216-changelog:start -->
+## v0.6.216 - Public Exposure Hygiene Plan Candidate
+
+- Added `docs/292-v06216-public-exposure-hygiene-plan-candidate.md`.
+- Added `planning/decisions/ADR-0286-add-v06216-public-exposure-hygiene-plan-candidate.md`.
+- Added `planning/issues/0285-add-v06216-public-exposure-hygiene-plan-candidate.md`.
+- Added `tools/test_v06216_public_exposure_hygiene_plan_candidate.py`.
+- Recorded the Public Exposure Hygiene Plan Candidate.
+- Candidate status: candidate only, not accepted, and not applied.
+- Recorded that no cleanup is applied in v0.6.216.
+- Follow-up: v0.6.217 Public Exposure Hygiene Plan Review and Decision.
+- Preserved runtime demo remains necessary but deferred and publication remains deferred.
+<!-- v0.6.216-changelog:end -->
+
+
 <!-- v0.6.215-changelog:start -->
 ## v0.6.215 - External Review Public Exposure and Commercial Boundary Reassessment
 

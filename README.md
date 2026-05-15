@@ -2410,3 +2410,29 @@ Boundary retained by this checkpoint:
 - runtime demo remains necessary but deferred
 - publication remains deferred
 <!-- v0.6.215-public-exposure-commercial-boundary-reassessment:end -->
+
+<!-- v0.6.216-public-exposure-hygiene-plan-candidate:start -->
+## v0.6.216 Public Exposure Hygiene Plan Candidate
+
+v0.6.216 records the Public Exposure Hygiene Plan Candidate.
+
+Candidate status:
+
+- candidate only
+- not accepted
+- not applied
+- no cleanup is applied in v0.6.216
+- subject to `v0.6.217 Public Exposure Hygiene Plan Review and Decision`
+
+The plan candidate covers README front-page value proposition, public contact route hygiene, pricing and commercial draft exposure, business plan exposure, current/latest version clarity, external-facing candidate/draft label hygiene, public documentation curation, and demo/motion-evidence positioning.
+
+Boundary retained by this checkpoint:
+
+- no contact route is removed in v0.6.216
+- no pricing or business-plan material is moved in v0.6.216
+- no README rewrite is applied in v0.6.216
+- no documents are deleted in v0.6.216
+- no Tool Gateway behavior is changed in v0.6.216
+- runtime demo remains necessary but deferred
+- publication remains deferred
+<!-- v0.6.216-public-exposure-hygiene-plan-candidate:end -->

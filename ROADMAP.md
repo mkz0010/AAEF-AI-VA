@@ -2265,3 +2265,22 @@ The previously selected `mock_dry_run_completed_status_terminology_cleanup is de
 
 v0.6.215 does not apply public-facing cleanup, does not move commercial materials, does not rewrite README, and does not change Gateway behavior. runtime demo remains necessary but deferred. publication remains deferred.
 <!-- v0.6.215-roadmap:end -->
+
+<!-- v0.6.216-roadmap:start -->
+## v0.6.216 Public Exposure Hygiene Plan Candidate
+
+Current checkpoint:
+
+- `v0.6.216 Public Exposure Hygiene Plan Candidate`
+- Status: candidate only
+- Application status: not applied
+- Cleanup status: no cleanup is applied in v0.6.216
+- Runtime status: runtime demo remains necessary but deferred
+- Publication status: publication remains deferred
+
+Next planned checkpoint:
+
+- `v0.6.217 Public Exposure Hygiene Plan Review and Decision`
+
+The candidate plan covers README front-page value proposition, public contact route hygiene, pricing and commercial draft exposure, business plan exposure, current/latest version clarity, external-facing candidate/draft label hygiene, public documentation curation, and demo/motion-evidence positioning.
+<!-- v0.6.216-roadmap:end -->
