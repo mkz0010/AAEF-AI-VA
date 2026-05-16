@@ -320,6 +320,7 @@ def main() -> int:
         "tools/test_v06241_record_candidate_artifact_creation_planning_candidate.py",
         "tools/test_v06242_record_candidate_artifact_creation_planning_review_and_decision.py",
         "tools/test_v06243_next_work_selection_using_risk_tiered_granularity.py",
+        "tools/test_v06244_external_security_practitioner_review_intake_priority_reassessment.py",
     ]
     for test_path in additional_version_tests:
         run([sys.executable, test_path])

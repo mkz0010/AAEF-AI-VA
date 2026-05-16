@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.244 - External Security Practitioner Review Intake and Priority Reassessment
+
+- Recorded intake of an external security practitioner review.
+- Recorded `external_review_intake_completed = true`, `external_review_overall_rating = B_conditional_poc_candidate`, and `priority_reassessment_completed = true`.
+- Deferred the prior `record_candidate_artifact_creation_candidate` selection and reassessed the next priority as `gateway_execution_path_integration_verification`.
+- Preserved the boundary that no gateway behavior, adapter behavior, schema behavior, runtime behavior, scanner behavior, fixtures, record candidate artifacts, actual records, README front-page rewrite, publication approval, or public announcement are changed in v0.6.244.
+- Preserved claim boundaries: runtime demo remains necessary but deferred, publication remains deferred, validator success is structural only, and evidence supports reconstruction; it does not prove legal truth.
+
+
 ## v0.6.243 - Next Work Selection Using Risk-Tiered Granularity
 
 - Selected `record_candidate_artifact_creation_candidate` as the next work item after accepting the Record Candidate Artifact Creation Planning Candidate.

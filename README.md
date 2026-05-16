@@ -2940,3 +2940,23 @@ record_candidate_artifact_creation_candidate
 This is selection only. v0.6.243 does not create record candidate artifacts, actual records, fixtures, minimum flow package artifacts, package implementation artifacts, reviewer walkthrough, AAEF five questions mapping, or AAEF handback summary.
 
 Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. No private generated outputs are moved public in v0.6.243.
+
+## v0.6.244 External Security Practitioner Review Intake and Priority Reassessment
+
+v0.6.244 records intake of an external security practitioner review and reassesses the next work priority.
+
+The prior selected work item remains recorded:
+
+~~~text
+prior_selected_work_item = record_candidate_artifact_creation_candidate
+~~~
+
+The reassessed priority is:
+
+~~~text
+reassessed_next_priority = gateway_execution_path_integration_verification
+~~~
+
+This checkpoint does not change gateway behavior, adapter behavior, schema behavior, runtime behavior, scanner behavior, fixtures, record candidate artifacts, actual records, README front-page positioning, repository metadata, publication approval, or public announcements.
+
+Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. No private generated outputs are moved public in v0.6.244.

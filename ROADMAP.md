@@ -2813,3 +2813,23 @@ The next checkpoint should create a documentation-only candidate under the accep
 - no publication approval
 - no public announcement
 - no legal compliance, audit sufficiency, certification, diagnostic completeness, or external-framework equivalence claim
+
+## After v0.6.244
+
+v0.6.244 records external security practitioner review intake and reprioritizes the next work toward gateway execution path integration verification.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.245 Next Work Selection Using Risk-Tiered Granularity
+~~~
+
+The preferred next work item is:
+
+~~~text
+gateway_execution_path_integration_verification
+~~~
+
+Candidate follow-up directions include README entrypoint compression planning, mock/dry-run versus real execution status separation review, safe local live demo planning, human approval authenticity planning, evidence tamper-evidence planning, repository metadata scanner-misread cleanup, and later resumption of `record_candidate_artifact_creation_candidate`.
+
+Current boundaries remain: no gateway behavior change, no adapter behavior change, no schema behavior change, no runtime behavior change, no scanner behavior change, no fixture creation, no record candidate artifact creation, no actual record creation, no README front-page rewrite, no publication approval, no public announcement, and no legal compliance, audit sufficiency, certification, diagnostic completeness, or external-framework equivalence claim.
