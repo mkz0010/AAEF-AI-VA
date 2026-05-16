@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.261 - Read-Only Symbol-Level Tracing Pass Candidate
+
+- Created a documentation-only Read-Only Symbol-Level Tracing Pass Candidate.
+- Recorded `read_only_symbol_level_tracing_pass_candidate_created = true`, `read_only_symbol_level_tracing_pass_candidate_id = read_only_symbol_level_tracing_pass_candidate_v06261`, and `read_only_symbol_level_tracing_pass_candidate_status = candidate_not_applied`.
+- Defined symbol trace inventory, trace stage matrix, source-file candidate list, source-symbol candidate list, call-path trace candidate list, trace record schema, trace status vocabulary, trace pass output fields, and trace candidate procedure.
+- Structural validator token: `trace_record_schema`.
+- Preserved the boundary that no symbol-level tracing result, observed symbol record, observed call-path record, accepted defect record, code-inspection report, verification report, gateway behavior change, adapter behavior change, schema behavior change, runtime behavior change, scanner behavior change, fixture, record candidate artifact, actual record, README front-page rewrite, publication approval, or public announcement is created in v0.6.261.
+- Preserved claim boundaries: runtime demo remains necessary but deferred, publication remains deferred, validator success is structural only, source symbol candidates are not observed symbols, call path candidates are not observed call paths, and evidence supports reconstruction; it does not prove legal truth.
+
+
 ## v0.6.260 - Next Work Selection Using Risk-Tiered Granularity
 
 - Selected `read_only_symbol_level_tracing_pass_candidate` as the next work item after accepting the Symbol-Level Tracing Planning Candidate for a future read-only symbol-level tracing pass.

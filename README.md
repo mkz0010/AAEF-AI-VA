@@ -3238,3 +3238,25 @@ read_only_symbol_level_tracing_pass_candidate
 This is selection only. v0.6.260 does not perform symbol-level tracing, create symbol-level tracing results, create accepted defect records, create a code-inspection report, create a verification report, change gateway behavior, change adapter behavior, change schema behavior, change runtime behavior, change scanner behavior, create fixtures, create record candidate artifacts, create actual records, rewrite the README front page, change repository metadata, approve publication, or publish an announcement.
 
 Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. Planned symbol candidates are not observed symbols. Planned call paths are not observed call paths. No private generated outputs are moved public in v0.6.260.
+
+## v0.6.261 Read-Only Symbol-Level Tracing Pass Candidate
+
+v0.6.261 creates a documentation-only Read-Only Symbol-Level Tracing Pass Candidate.
+
+The candidate defines:
+
+~~~text
+symbol_trace_inventory
+trace_stage_matrix
+source_file_candidate_list
+source_symbol_candidate_list
+call_path_trace_candidate_list
+trace_record_schema
+trace_status_vocabulary
+trace_pass_output_fields
+trace_candidate_procedure
+~~~
+
+This checkpoint does not perform symbol-level tracing, create symbol-level tracing results, create observed symbol records, create observed call-path records, create accepted defect records, create a code-inspection report, create a verification report, change gateway behavior, change adapter behavior, change schema behavior, change runtime behavior, change scanner behavior, create fixtures, create record candidate artifacts, create actual records, rewrite the README front page, change repository metadata, approve publication, or publish an announcement.
+
+Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. Source symbol candidates are not observed symbols. Call path candidates are not observed call paths. No private generated outputs are moved public in v0.6.261.
