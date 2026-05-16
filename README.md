@@ -3286,3 +3286,17 @@ accepted_defect_records_created = false
 It does not perform symbol-level tracing, create symbol-level tracing results, create observed symbol records, create observed call-path records, create accepted defect records, create a code-inspection report, create a verification report, change gateway behavior, change adapter behavior, change schema behavior, change runtime behavior, change scanner behavior, create fixtures, create record candidate artifacts, create actual records, rewrite the README front page, change repository metadata, approve publication, or publish an announcement.
 
 Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. Accepted source symbol candidates are not observed symbols. Accepted call path candidates are not observed call paths. No private generated outputs are moved public in v0.6.262.
+
+## v0.6.263 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.263 selects the next work item after the accepted v0.6.262 Read-Only Symbol-Level Tracing Pass Candidate Review and Decision.
+
+Selected work item:
+
+~~~text
+read_only_symbol_level_tracing_pass
+~~~
+
+This is selection only. v0.6.263 does not perform symbol-level tracing, create symbol-level tracing results, create observed symbol records, create observed call-path records, create accepted defect records, create a code-inspection report, create a verification report, change gateway behavior, change adapter behavior, change schema behavior, change runtime behavior, change scanner behavior, create fixtures, create record candidate artifacts, create actual records, rewrite the README front page, change repository metadata, approve publication, or publish an announcement.
+
+Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. Accepted source symbol candidates are not observed symbols. Accepted call path candidates are not observed call paths. No private generated outputs are moved public in v0.6.263.
