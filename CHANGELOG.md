@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.266 - Next Work Selection Using Risk-Tiered Granularity
+
+- Selected `narrower_manual_trace_review` as the next work item after accepting the Read-Only Symbol-Level Tracing Pass as static inspection records.
+- Recorded `next_work_selection_completed = true`, `narrower_manual_trace_review_selected = true`, `narrower_manual_trace_review_performed = false`, and `narrower_manual_trace_review_records_created = false`.
+- Preserved `recommended_next_work_item = narrower_manual_trace_review`.
+- Deferred accepted defect candidate planning, code-inspection report candidate creation, and gateway-path integration verification report creation until narrower manual trace review is created and reviewed.
+- Preserved the boundary that no manual trace review record, accepted defect record, code-inspection report, verification report, gateway behavior change, adapter behavior change, schema behavior change, runtime behavior change, scanner behavior change, fixture, record candidate artifact, actual record, README front-page rewrite, publication approval, or public announcement is created in v0.6.266.
+- Preserved claim boundaries: runtime demo remains necessary but deferred, publication remains deferred, validator success is structural only, observed source symbols are not proof of pre-dispatch enforcement, observed call-path status records are not full gateway integration proof, and evidence supports reconstruction; it does not prove legal truth.
+
+
 ## v0.6.265 - Read-Only Symbol-Level Tracing Pass Review and Decision
 
 - Accepted the v0.6.264 Read-Only Symbol-Level Tracing Pass as static inspection records for future manual trace review.

@@ -3516,3 +3516,34 @@ Current boundaries remain:
 - no publication approval
 - no public announcement
 - no legal compliance, audit sufficiency, certification, diagnostic completeness, or external-framework equivalence claim
+
+## After v0.6.266
+
+v0.6.266 selects `narrower_manual_trace_review` as the next work item.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.267 Narrower Manual Trace Review Candidate
+~~~
+
+The next checkpoint should create a documentation-only narrower manual trace review candidate for the accepted read-only static inspection records.
+
+Current boundaries remain:
+
+- no narrower manual trace review records
+- no accepted defect records
+- no code-inspection report
+- no gateway-path integration verification report
+- no gateway behavior change
+- no adapter behavior change
+- no schema behavior change
+- no runtime behavior change
+- no scanner behavior change
+- no fixture creation
+- no record candidate artifact creation
+- no actual record creation
+- no README front-page rewrite
+- no publication approval
+- no public announcement
+- no legal compliance, audit sufficiency, certification, diagnostic completeness, or external-framework equivalence claim
