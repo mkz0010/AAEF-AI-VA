@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.6.253 - Read-Only Gateway Path Code Inspection Pass Review and Decision
+
+- Accepted the v0.6.252 documentation-only Read-Only Gateway Path Code Inspection Pass Candidate for a future read-only gateway path code inspection pass with findings.
+- Recorded `read_only_gateway_path_code_inspection_pass_candidate_review_completed = true`, `read_only_gateway_path_code_inspection_pass_candidate_accepted = true`, `future_read_only_gateway_path_code_inspection_pass_with_findings_accepted = true`, `future_read_only_inspection_inventory_accepted = true`, `future_read_only_source_file_candidates_accepted = true`, `future_read_only_inspection_dimensions_accepted = true`, `future_read_only_procedure_accepted = true`, and `future_read_only_finding_fields_accepted = true`.
+- Preserved the boundary that no code inspection findings, code-inspection report, verification report, gateway behavior change, adapter behavior change, schema behavior change, runtime behavior change, scanner behavior change, fixture, record candidate artifact, actual record, README front-page rewrite, publication approval, or public announcement is created in v0.6.253.
+- Preserved claim boundaries: runtime demo remains necessary but deferred, publication remains deferred, validator success is structural only, and evidence supports reconstruction; it does not prove legal truth.
+
+
 ## v0.6.252 - Read-Only Gateway Path Code Inspection Pass Candidate
 
 - Created a documentation-only Read-Only Gateway Path Code Inspection Pass Candidate.

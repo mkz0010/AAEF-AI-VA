@@ -3094,3 +3094,19 @@ implementation_change_required
 This checkpoint does not perform code inspection, record inspection findings, create a code-inspection report, create a verification report, change gateway behavior, change adapter behavior, change schema behavior, change runtime behavior, change scanner behavior, create fixtures, create record candidate artifacts, create actual records, rewrite the README front page, change repository metadata, approve publication, or publish an announcement.
 
 Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. No private generated outputs are moved public in v0.6.252.
+
+## v0.6.253 Read-Only Gateway Path Code Inspection Pass Review and Decision
+
+v0.6.253 accepts the v0.6.252 documentation-only Read-Only Gateway Path Code Inspection Pass Candidate for a future read-only gateway path code inspection pass with findings.
+
+Accepted candidate:
+
+~~~text
+read_only_gateway_path_code_inspection_pass_candidate_v06252
+~~~
+
+This checkpoint records `read_only_gateway_path_code_inspection_pass_candidate_accepted = true`, `future_read_only_gateway_path_code_inspection_pass_with_findings_accepted = true`, `future_read_only_inspection_inventory_accepted = true`, `future_read_only_source_file_candidates_accepted = true`, and `future_read_only_procedure_accepted = true`.
+
+It does not perform code inspection, record inspection findings, create a code-inspection report, create a verification report, change gateway behavior, change adapter behavior, change schema behavior, change runtime behavior, change scanner behavior, create fixtures, create record candidate artifacts, create actual records, rewrite the README front page, change repository metadata, approve publication, or publish an announcement.
+
+Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. No private generated outputs are moved public in v0.6.253.
