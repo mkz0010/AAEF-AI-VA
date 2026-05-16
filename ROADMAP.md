@@ -4117,3 +4117,23 @@ Current boundaries remain:
 - no code-inspection report
 - no gateway-path integration verification report
 - no gateway behavior change
+
+## After v0.6.284
+
+v0.6.284 selects `continued_follow_up_trace` as the next work item.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.285 Continued Follow-Up Trace
+~~~
+
+Current boundaries remain:
+
+- no continued follow-up trace records
+- no continued follow-up trace results
+- no continued follow-up trace conclusions
+- no accepted defect records
+- no code-inspection report
+- no gateway-path integration verification report
+- no gateway behavior change

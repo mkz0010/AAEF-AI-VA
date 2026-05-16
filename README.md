@@ -4243,3 +4243,55 @@ This is review only. Runtime demo remains necessary but deferred. Publication re
 - No private generated outputs are moved public in v0.6.283.
 - readme_front_page_rewritten = false
 - repository_metadata_changed = false
+
+## v0.6.284 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.284 selects the next work item:
+
+~~~text
+continued_follow_up_trace
+~~~
+
+This checkpoint records:
+
+~~~text
+next_work_selection_completed = true
+selected_work_item = continued_follow_up_trace
+continued_follow_up_trace_selected = true
+continued_follow_up_trace_performed = false
+continued_follow_up_trace_records_created = false
+continued_follow_up_trace_results_created = false
+continued_follow_up_trace_conclusions_created = false
+accepted_defect_records_created = false
+code_inspection_report_created = false
+gateway_path_integration_verification_report_created = false
+~~~
+
+This is selection only. Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. Continued follow-up trace selection is not continued trace execution. Continued follow-up trace selection is not defect acceptance. Continued follow-up trace selection is not report finding creation. Continued follow-up trace selection is not gateway execution path modification. No private generated outputs are moved public in v0.6.284.
+
+- continued_follow_up_trace
+- continued_follow_up_trace_selected
+- continued_follow_up_trace_candidate_review_and_decision
+- continued_follow_up_trace_candidate_review_completed
+- continued_follow_up_trace_candidate_accepted
+- continued_follow_up_trace_candidate_v06282
+- continued_follow_up_trace_candidate
+- continued_follow_up_trace_records
+- continued_follow_up_trace_results
+- continued_follow_up_trace_dispositions
+- continued_follow_up_trace_gap_triage
+- continued_follow_up_trace_conclusions
+- continued_follow_up_trace_report_findings
+- next_work_selection_using_risk_tiered_granularity
+- report-scope candidate planning
+- accepted defect candidate planning
+- code-inspection report candidate
+- gateway-path integration verification report candidate
+- no-action non-claim closeout
+- Continued follow-up trace selection is not continued trace execution.
+- Continued follow-up trace selection is not defect acceptance.
+- Continued follow-up trace selection is not report finding creation.
+- Continued follow-up trace selection is not gateway execution path modification.
+- No private generated outputs are moved public in v0.6.284.
+- readme_front_page_rewritten = false
+- repository_metadata_changed = false
