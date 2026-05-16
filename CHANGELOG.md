@@ -1,5 +1,59 @@
 # Changelog
 
+## v0.6.280 - Continued Follow-Up Trace Planning Candidate Review and Decision
+
+- Accepted the v0.6.279 documentation-only Continued Follow-Up Trace Planning Candidate for future continued planning.
+- Recorded `continued_follow_up_trace_planning_candidate_review_completed = true`, `continued_follow_up_trace_planning_candidate_accepted = true`, and `continued_follow_up_trace_planning_candidate_id = continued_follow_up_trace_planning_candidate_v06279`.
+- Accepted future continued planning inputs, questions, scope, decision options, expected outputs, candidate procedure, and non-claim boundaries.
+- Recorded `recommended_next_work_item = next_work_selection_using_risk_tiered_granularity` and `continued_follow_up_trace_candidate_recommended = true`.
+- Preserved `continued_follow_up_trace_records_created = false`, `continued_follow_up_trace_results_created = false`, `continued_follow_up_trace_conclusions_created = false`, `accepted_defect_records_created = false`, `code_inspection_report_created = false`, and `gateway_path_integration_verification_report_created = false`.
+- Preserved the boundary that no continued follow-up trace record, continued follow-up trace result, conclusion, report finding, accepted defect record, code-inspection report, verification report, gateway behavior change, adapter behavior change, schema behavior change, runtime behavior change, scanner behavior change, fixture, record candidate artifact, actual record, README front-page rewrite, publication approval, or public announcement is created in v0.6.280.
+- Preserved claim boundaries: runtime demo remains necessary but deferred, publication remains deferred, validator success is structural only, continued follow-up trace planning candidate review is not defect acceptance, continued follow-up trace planning candidate review is not report finding creation, continued follow-up trace planning candidate review is not gateway execution path modification, and evidence supports reconstruction; it does not prove legal truth.
+- No private generated outputs are moved public in v0.6.280.
+
+Structural token coverage for v0.6.280:
+- continued_follow_up_trace_planning_candidate_review_and_decision
+- continued_follow_up_trace_planning_candidate_review_completed
+- continued_follow_up_trace_planning_candidate_accepted
+- continued_follow_up_trace_planning_candidate_v06279
+- continued_follow_up_trace_planning_candidate
+- continued_follow_up_trace_planning
+- continued_follow_up_trace_records
+- continued_follow_up_trace_results
+- continued_follow_up_trace_dispositions
+- continued_follow_up_trace_gap_triage
+- continued_follow_up_trace_conclusions
+- continued_follow_up_trace_report_findings
+- continued_follow_up_trace_decision_options
+- future_continued_follow_up_trace_planning_accepted
+- future_continued_follow_up_trace_planning_candidate_decision_options_accepted
+- manual_trace_review_follow_up_trace_review_and_decision
+- manual_trace_review_follow_up_trace_v06276
+- manual_trace_review_follow_up_trace_records
+- manual_trace_review_follow_up_trace_results
+- manual_trace_review_follow_up_trace_dispositions
+- manual_trace_review_follow_up_trace_gap_triage
+- manual_trace_review_follow_up_trace_conclusions
+- manual_trace_review_follow_up_trace_report_findings
+- next_work_selection_using_risk_tiered_granularity
+- continued_follow_up_trace_candidate
+- report-scope candidate planning
+- accepted defect candidate planning
+- code-inspection report candidate
+- gateway-path integration verification report candidate
+- no-action non-claim closeout
+- Follow-up trace records are not accepted defects.
+- Follow-up trace results are not report findings.
+- Follow-up trace dispositions are not implementation changes.
+- Continued follow-up trace planning candidate review is not continued trace execution.
+- Continued follow-up trace planning candidate review is not defect acceptance.
+- Continued follow-up trace planning candidate review is not report finding creation.
+- Continued follow-up trace planning candidate review is not gateway execution path modification.
+- No private generated outputs are moved public in v0.6.280.
+- readme_front_page_rewritten = false
+- repository_metadata_changed = false
+
+
 ## v0.6.279 - Continued Follow-Up Trace Planning Candidate
 
 - Created a documentation-only Continued Follow-Up Trace Planning Candidate.

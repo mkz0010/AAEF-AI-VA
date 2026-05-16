@@ -4015,3 +4015,44 @@ Current boundaries remain:
 - no publication approval
 - no public announcement
 - no legal compliance, audit sufficiency, certification, diagnostic completeness, or external-framework equivalence claim
+
+## After v0.6.280
+
+v0.6.280 accepts the Continued Follow-Up Trace Planning Candidate for future continued planning.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.281 Next Work Selection Using Risk-Tiered Granularity
+~~~
+
+The next checkpoint should select whether to proceed with one of the following:
+
+- continued_follow_up_trace_candidate
+- report-scope candidate planning
+- accepted defect candidate planning
+- code-inspection report candidate
+- gateway-path integration verification report candidate
+- no-action non-claim closeout
+
+Current boundaries remain:
+
+- no continued follow-up trace records
+- no continued follow-up trace results
+- no continued follow-up trace conclusions
+- no continued follow-up trace report findings
+- no accepted defect records
+- no code-inspection report
+- no gateway-path integration verification report
+- no gateway behavior change
+- no adapter behavior change
+- no schema behavior change
+- no runtime behavior change
+- no scanner behavior change
+- no fixture creation
+- no record candidate artifact creation
+- no actual record creation
+- no README front-page rewrite
+- no publication approval
+- no public announcement
+- no legal compliance, audit sufficiency, certification, diagnostic completeness, or external-framework equivalence claim
