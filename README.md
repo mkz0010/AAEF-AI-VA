@@ -3201,3 +3201,26 @@ evidence_generation_symbol
 This checkpoint does not perform symbol-level tracing, create symbol-level tracing results, create accepted defect records, create a code-inspection report, create a verification report, change gateway behavior, change adapter behavior, change schema behavior, change runtime behavior, change scanner behavior, create fixtures, create record candidate artifacts, create actual records, rewrite the README front page, change repository metadata, approve publication, or publish an announcement.
 
 Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. Planned symbol candidates are not observed symbols. Planned call paths are not observed call paths. No private generated outputs are moved public in v0.6.258.
+
+## v0.6.259 Symbol-Level Tracing Planning Review and Decision
+
+v0.6.259 accepts the v0.6.258 documentation-only Symbol-Level Tracing Planning Candidate for a future read-only symbol-level tracing pass.
+
+This checkpoint records:
+
+~~~text
+symbol_level_tracing_planning_review_completed = true
+symbol_level_tracing_planning_candidate_accepted = true
+future_read_only_symbol_level_tracing_pass_accepted = true
+future_symbol_level_gateway_path_stages_accepted = true
+future_symbol_level_trace_record_fields_accepted = true
+future_symbol_level_trace_status_vocabulary_accepted = true
+future_symbol_level_trace_procedure_accepted = true
+symbol_level_tracing_completed = false
+symbol_level_tracing_results_created = false
+accepted_defect_records_created = false
+~~~
+
+It does not perform symbol-level tracing, create symbol-level tracing results, create accepted defect records, create a code-inspection report, create a verification report, change gateway behavior, change adapter behavior, change schema behavior, change runtime behavior, change scanner behavior, create fixtures, create record candidate artifacts, create actual records, rewrite the README front page, change repository metadata, approve publication, or publish an announcement.
+
+Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. Accepted planned symbol candidates are not observed symbols. Accepted planned call paths are not observed call paths. No private generated outputs are moved public in v0.6.259.

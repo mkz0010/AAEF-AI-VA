@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.259 - Symbol-Level Tracing Planning Review and Decision
+
+- Accepted the v0.6.258 documentation-only Symbol-Level Tracing Planning Candidate for a future read-only symbol-level tracing pass.
+- Recorded `symbol_level_tracing_planning_review_completed = true`, `symbol_level_tracing_planning_candidate_accepted = true`, and `future_read_only_symbol_level_tracing_pass_accepted = true`.
+- Accepted future symbol-level gateway path stages, inventory targets, trace record fields, trace status vocabulary, trace procedure, and trace output fields.
+- Preserved the boundary that no symbol-level tracing result, accepted defect record, code-inspection report, verification report, gateway behavior change, adapter behavior change, schema behavior change, runtime behavior change, scanner behavior change, fixture, record candidate artifact, actual record, README front-page rewrite, publication approval, or public announcement is created in v0.6.259.
+- Preserved claim boundaries: runtime demo remains necessary but deferred, publication remains deferred, validator success is structural only, accepted planned symbol candidates are not observed symbols, accepted planned call paths are not observed call paths, and evidence supports reconstruction; it does not prove legal truth.
+
+
 ## v0.6.258 - Symbol-Level Tracing Planning Candidate
 
 - Created a documentation-only Symbol-Level Tracing Planning Candidate.
