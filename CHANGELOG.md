@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.258 - Symbol-Level Tracing Planning Candidate
+
+- Created a documentation-only Symbol-Level Tracing Planning Candidate.
+- Recorded `symbol_level_tracing_planning_candidate_created = true`, `symbol_level_tracing_planning_candidate_id = symbol_level_tracing_planning_candidate_v06258`, and `symbol_level_tracing_planning_candidate_status = candidate_not_applied`.
+- Defined gateway path stages, planned source-file candidates, inventory targets, symbol candidate matrix, trace record fields, trace status vocabulary, trace procedure, and trace output fields.
+- Added dimensions for gateway entrypoint, request load, decision load, request/decision binding, pre-dispatch checks, helper invocation, fail-closed behavior, adapter dispatch, result generation, and evidence generation.
+- Preserved the boundary that no symbol-level tracing result, accepted defect record, code-inspection report, verification report, gateway behavior change, adapter behavior change, schema behavior change, runtime behavior change, scanner behavior change, fixture, record candidate artifact, actual record, README front-page rewrite, publication approval, or public announcement is created in v0.6.258.
+- Preserved claim boundaries: runtime demo remains necessary but deferred, publication remains deferred, validator success is structural only, planned symbol candidates are not observed symbols, and evidence supports reconstruction; it does not prove legal truth.
+
+
 ## v0.6.257 - Next Work Selection Using Risk-Tiered Granularity
 
 - Selected `symbol_level_tracing_planning` as the next work item after accepting the v0.6.255 finding candidates for future symbol-level tracing and later scoped implementation planning consideration.

@@ -334,6 +334,7 @@ def main() -> int:
         "tools/test_v06255_read_only_gateway_path_code_inspection_pass_with_findings_candidate.py",
         "tools/test_v06256_read_only_gateway_path_code_inspection_pass_with_findings_review_and_decision.py",
         "tools/test_v06257_next_work_selection_using_risk_tiered_granularity.py",
+        "tools/test_v06258_symbol_level_tracing_planning_candidate.py",
     ]
     for test_path in additional_version_tests:
         run([sys.executable, test_path])

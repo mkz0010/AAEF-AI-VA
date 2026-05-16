@@ -3178,3 +3178,26 @@ symbol_level_tracing_planning
 This is selection only. v0.6.257 does not perform symbol-level tracing, create symbol-level tracing results, create accepted defect records, create a code-inspection report, create a verification report, change gateway behavior, change adapter behavior, change schema behavior, change runtime behavior, change scanner behavior, create fixtures, create record candidate artifacts, create actual records, rewrite the README front page, change repository metadata, approve publication, or publish an announcement.
 
 Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. Keyword-level indicators are not symbol-level proof. Gap candidates are not accepted defects. No private generated outputs are moved public in v0.6.257.
+
+## v0.6.258 Symbol-Level Tracing Planning Candidate
+
+v0.6.258 creates a documentation-only Symbol-Level Tracing Planning Candidate.
+
+The candidate defines how future read-only symbol-level tracing should inspect:
+
+~~~text
+gateway_entrypoint_symbol
+request_load_symbol
+decision_load_symbol
+request_decision_binding_symbol
+pre_dispatch_check_symbol
+helper_invocation_symbol
+fail_closed_symbol
+adapter_dispatch_symbol
+result_generation_symbol
+evidence_generation_symbol
+~~~
+
+This checkpoint does not perform symbol-level tracing, create symbol-level tracing results, create accepted defect records, create a code-inspection report, create a verification report, change gateway behavior, change adapter behavior, change schema behavior, change runtime behavior, change scanner behavior, create fixtures, create record candidate artifacts, create actual records, rewrite the README front page, change repository metadata, approve publication, or publish an announcement.
+
+Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. Planned symbol candidates are not observed symbols. Planned call paths are not observed call paths. No private generated outputs are moved public in v0.6.258.
