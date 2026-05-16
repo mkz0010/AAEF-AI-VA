@@ -1,5 +1,49 @@
 # Changelog
 
+## v0.6.287 - Safe Runnable Demo Gap Inventory
+
+- Created a Safe Runnable Demo Gap Inventory.
+- Recorded `safe_runnable_demo_gap_inventory_created = true`, `safe_runnable_demo_gap_inventory_id = safe_runnable_demo_gap_inventory_v06287`, and `safe_runnable_demo_gap_inventory_status = completed_gap_inventory_not_runtime_readiness`.
+- Recorded that the safe mock demo path is available through private generated artifacts while local-only runnable demo remains gap inventory only and real scanner execution remains blocked.
+- Recorded `recommended_next_work_item = safe_runnable_demo_path_selection` and `safe_runnable_demo_path_selection_recommended = true`.
+- Preserved `runtime_demo_ready = false`, `execution_authorized = false`, `real_execution_permitted = false`, `gateway_execution_path_behavior_modified = false`, `runtime_behavior_changed = false`, and `scanner_behavior_changed = false`.
+- Preserved claim boundaries: safe runnable demo gap inventory is not runtime demo readiness, scanner readiness, or production readiness; mock demo is not live scanner execution; evidence supports reconstruction and does not prove legal truth.
+- No private generated outputs are moved public in v0.6.287.
+
+- safe_runnable_demo_gap_inventory
+- safe_runnable_demo_gap_inventory_v06287
+- safe_runnable_demo_path_selection
+- local_only_demo_execution_boundary_candidate
+- safe mock demo
+- local-only runnable demo
+- real scanner execution remains blocked
+- mock demo is not live scanner execution
+- runtime readiness status
+- target lab gate status
+- transition gate status
+- execution authorized
+- real execution permitted
+- private-not-in-git
+- allowed-action: completed
+- denied-action: blocked
+- human-approval-required: requires_human_approval
+- runtime readiness status: not_detected_execution_blocked
+- target lab gate status: target_defined_execution_blocked
+- binding gate status: bound_execution_blocked
+- transition gate status: candidate_recorded_execution_blocked
+- plan review gate status: plan_recorded_execution_blocked
+- safety policy gate status: policy_recorded_execution_blocked
+- runtime enforcement implemented: False
+- execution authorized: False
+- real execution permitted: False
+- safe runnable demo gap inventory is not runtime demo readiness
+- safe runnable demo gap inventory is not scanner readiness
+- safe runnable demo gap inventory is not production readiness
+- No private generated outputs are moved public in v0.6.287.
+- readme_front_page_rewritten = false
+- repository_metadata_changed = false
+
+
 ## v0.6.286 - Continued Follow-Up Trace Review and Decision
 
 - Accepted the v0.6.285 Continued Follow-Up Trace as non-claim continued trace records for demo-path inventory.

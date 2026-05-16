@@ -4177,3 +4177,25 @@ Current boundaries remain:
 - no safe runnable demo gap inventory yet
 - no local-only demo execution boundary candidate
 - no gateway behavior change
+
+## After v0.6.287
+
+v0.6.287 creates a Safe Runnable Demo Gap Inventory.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.288 Safe Runnable Demo Path Selection
+~~~
+
+Current boundaries remain:
+
+- no safe runnable demo path selected
+- no local-only demo execution boundary candidate
+- no runtime demo readiness
+- no scanner readiness
+- no execution authorization
+- no real execution permitted
+- no gateway behavior change
+- no runtime behavior change
+- no scanner behavior change

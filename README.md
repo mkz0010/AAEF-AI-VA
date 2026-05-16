@@ -4412,3 +4412,57 @@ This is review only. Runtime demo remains necessary but deferred. Publication re
 - No private generated outputs are moved public in v0.6.286.
 - readme_front_page_rewritten = false
 - repository_metadata_changed = false
+
+## v0.6.287 Safe Runnable Demo Gap Inventory
+
+v0.6.287 creates an inventory of the current safe runnable demo path and remaining local-only demo gaps.
+
+This checkpoint records:
+
+~~~text
+safe_runnable_demo_gap_inventory_created = true
+safe_runnable_demo_gap_inventory_id = safe_runnable_demo_gap_inventory_v06287
+safe_mock_demo_status = runnable_private_artifact_demo_available
+local_only_runnable_demo_status = gap_inventory_only_not_ready
+real_scanner_execution_status = blocked
+runtime_demo_ready = false
+execution_authorized = false
+real_execution_permitted = false
+recommended_next_work_item = safe_runnable_demo_path_selection
+safe_runnable_demo_path_selection_recommended = true
+~~~
+
+This is inventory only. Safe runnable demo gap inventory is not runtime demo readiness. Safe runnable demo gap inventory is not scanner readiness. Safe runnable demo gap inventory is not production readiness. Mock demo is not live scanner execution. Real scanner execution remains blocked. No private generated outputs are moved public in v0.6.287.
+
+- safe_runnable_demo_gap_inventory
+- safe_runnable_demo_gap_inventory_v06287
+- safe_runnable_demo_path_selection
+- local_only_demo_execution_boundary_candidate
+- safe mock demo
+- local-only runnable demo
+- real scanner execution remains blocked
+- mock demo is not live scanner execution
+- runtime readiness status
+- target lab gate status
+- transition gate status
+- execution authorized
+- real execution permitted
+- private-not-in-git
+- allowed-action: completed
+- denied-action: blocked
+- human-approval-required: requires_human_approval
+- runtime readiness status: not_detected_execution_blocked
+- target lab gate status: target_defined_execution_blocked
+- binding gate status: bound_execution_blocked
+- transition gate status: candidate_recorded_execution_blocked
+- plan review gate status: plan_recorded_execution_blocked
+- safety policy gate status: policy_recorded_execution_blocked
+- runtime enforcement implemented: False
+- execution authorized: False
+- real execution permitted: False
+- safe runnable demo gap inventory is not runtime demo readiness
+- safe runnable demo gap inventory is not scanner readiness
+- safe runnable demo gap inventory is not production readiness
+- No private generated outputs are moved public in v0.6.287.
+- readme_front_page_rewritten = false
+- repository_metadata_changed = false
