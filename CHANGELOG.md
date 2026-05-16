@@ -1,5 +1,49 @@
 # Changelog
 
+## v0.6.285 - Continued Follow-Up Trace
+
+- Performed the bounded Continued Follow-Up Trace.
+- Recorded `continued_follow_up_trace_performed = true`, `continued_follow_up_trace_completed = true`, and `continued_follow_up_trace_id = continued_follow_up_trace_v06285`.
+- Created continued follow-up trace records, results, dispositions, and gap triage as non-claim review records.
+- Preserved `continued_follow_up_trace_conclusions_created = false`, `continued_follow_up_trace_report_findings_created = false`, `accepted_defect_records_created = false`, `code_inspection_report_created = false`, and `gateway_path_integration_verification_report_created = false`.
+- Preserved claim boundaries: runtime demo remains necessary but deferred, publication remains deferred, validator success is structural only, continued follow-up trace records are not accepted defects, continued follow-up trace results are not report findings, continued follow-up trace dispositions are not implementation changes, and evidence supports reconstruction; it does not prove legal truth.
+- No private generated outputs are moved public in v0.6.285.
+
+- continued_follow_up_trace
+- continued_follow_up_trace_v06285
+- continued_follow_up_trace_review_and_decision
+- continued_follow_up_trace_candidate_v06282
+- continued_follow_up_trace_candidate
+- continued_follow_up_trace_planning_candidate_v06279
+- manual_trace_review_follow_up_trace_v06276
+- continued_follow_up_trace_records
+- continued_follow_up_trace_results
+- continued_follow_up_trace_dispositions
+- continued_follow_up_trace_gap_triage
+- continued_follow_up_trace_conclusions
+- continued_follow_up_trace_report_findings
+- continued_follow_up_trace_record_schema
+- continued_follow_up_trace_observations
+- continued_follow_up_trace_review_inputs
+- manual_trace_review_follow_up_trace_records
+- manual_trace_review_follow_up_trace_results
+- manual_trace_review_follow_up_trace_dispositions
+- manual_trace_review_follow_up_trace_gap_triage
+- report-scope candidate planning
+- accepted defect candidate planning
+- code-inspection report candidate
+- gateway-path integration verification report candidate
+- no-action non-claim closeout
+- Continued follow-up trace records are not accepted defects.
+- Continued follow-up trace results are not report findings.
+- Continued follow-up trace dispositions are not implementation changes.
+- Continued follow-up trace observations are not gateway execution path proof.
+- Continued follow-up trace is not gateway execution path modification.
+- No private generated outputs are moved public in v0.6.285.
+- readme_front_page_rewritten = false
+- repository_metadata_changed = false
+
+
 ## v0.6.284 - Next Work Selection Using Risk-Tiered Granularity
 
 - Selected `continued_follow_up_trace` as the next work item.

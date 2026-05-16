@@ -4137,3 +4137,22 @@ Current boundaries remain:
 - no code-inspection report
 - no gateway-path integration verification report
 - no gateway behavior change
+
+## After v0.6.285
+
+v0.6.285 performs the bounded Continued Follow-Up Trace and creates non-claim continued trace records/results/dispositions/gap triage.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.286 Continued Follow-Up Trace Review and Decision
+~~~
+
+Current boundaries remain:
+
+- no continued follow-up trace conclusions
+- no continued follow-up trace report findings
+- no accepted defect records
+- no code-inspection report
+- no gateway-path integration verification report
+- no gateway behavior change
