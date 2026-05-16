@@ -3428,3 +3428,34 @@ It does not perform manual trace review, create manual trace review records, cre
 Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. Manual review questions are not manual review conclusions. Gap records are not accepted defects. No private generated outputs are moved public in v0.6.268.
 
 Structural token coverage: `manual_trace_review_scope`, `readme_front_page_rewritten = false`, and `repository_metadata_changed = false`.
+
+## v0.6.269 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.269 selects the next work item after the accepted v0.6.268 Narrower Manual Trace Review Candidate Review and Decision.
+
+Selected work item:
+
+~~~text
+narrower_manual_trace_review
+~~~
+
+This checkpoint records:
+
+~~~text
+next_work_selection_completed = true
+selected_work_item = narrower_manual_trace_review
+narrower_manual_trace_review_selected = true
+narrower_manual_trace_review_candidate_accepted = true
+narrower_manual_trace_review_performed = false
+narrower_manual_trace_review_records_created = false
+manual_trace_review_results_created = false
+accepted_defect_records_created = false
+code_inspection_report_created = false
+gateway_path_integration_verification_report_created = false
+~~~
+
+This is selection only. v0.6.269 does not perform manual trace review, create manual trace review records, create accepted defect records, create a code-inspection report, create a verification report, change gateway behavior, change adapter behavior, change schema behavior, change runtime behavior, change scanner behavior, create fixtures, create record candidate artifacts, create actual records, rewrite the README front page, change repository metadata, approve publication, or publish an announcement.
+
+Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. Manual review questions are not manual review conclusions. Gap records are not accepted defects. No private generated outputs are moved public in v0.6.269.
+
+Structural token coverage: `manual_trace_review_scope`, `manual_trace_review_gap_triage`, `readme_front_page_rewritten = false`, and `repository_metadata_changed = false`.
