@@ -3260,3 +3260,29 @@ trace_candidate_procedure
 This checkpoint does not perform symbol-level tracing, create symbol-level tracing results, create observed symbol records, create observed call-path records, create accepted defect records, create a code-inspection report, create a verification report, change gateway behavior, change adapter behavior, change schema behavior, change runtime behavior, change scanner behavior, create fixtures, create record candidate artifacts, create actual records, rewrite the README front page, change repository metadata, approve publication, or publish an announcement.
 
 Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. Source symbol candidates are not observed symbols. Call path candidates are not observed call paths. No private generated outputs are moved public in v0.6.261.
+
+## v0.6.262 Read-Only Symbol-Level Tracing Pass Candidate Review and Decision
+
+v0.6.262 accepts the v0.6.261 documentation-only Read-Only Symbol-Level Tracing Pass Candidate for a future read-only symbol-level tracing pass.
+
+This checkpoint records:
+
+~~~text
+read_only_symbol_level_tracing_pass_candidate_review_completed = true
+read_only_symbol_level_tracing_pass_candidate_accepted = true
+future_read_only_symbol_level_tracing_pass_accepted = true
+future_symbol_trace_inventory_accepted = true
+future_trace_record_schema_accepted = true
+future_trace_status_vocabulary_accepted = true
+future_trace_pass_output_fields_accepted = true
+future_trace_candidate_procedure_accepted = true
+read_only_symbol_level_tracing_pass_performed = false
+read_only_symbol_level_tracing_results_created = false
+observed_symbol_records_created = false
+observed_call_path_records_created = false
+accepted_defect_records_created = false
+~~~
+
+It does not perform symbol-level tracing, create symbol-level tracing results, create observed symbol records, create observed call-path records, create accepted defect records, create a code-inspection report, create a verification report, change gateway behavior, change adapter behavior, change schema behavior, change runtime behavior, change scanner behavior, create fixtures, create record candidate artifacts, create actual records, rewrite the README front page, change repository metadata, approve publication, or publish an announcement.
+
+Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. Accepted source symbol candidates are not observed symbols. Accepted call path candidates are not observed call paths. No private generated outputs are moved public in v0.6.262.
