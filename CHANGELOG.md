@@ -1,5 +1,50 @@
 # Changelog
 
+## v0.6.286 - Continued Follow-Up Trace Review and Decision
+
+- Accepted the v0.6.285 Continued Follow-Up Trace as non-claim continued trace records for demo-path inventory.
+- Recorded `continued_follow_up_trace_review_completed = true`, `continued_follow_up_trace_accepted = true`, and `continued_follow_up_trace_id = continued_follow_up_trace_v06285`.
+- Accepted continued trace records, results, dispositions, and gap triage as non-claim review records.
+- Recorded `recommended_next_work_item = safe_runnable_demo_gap_inventory` and `safe_runnable_demo_gap_inventory_recommended = true`.
+- Preserved `continued_follow_up_trace_conclusions_created = false`, `continued_follow_up_trace_report_findings_created = false`, `accepted_defect_records_created = false`, `code_inspection_report_created = false`, and `gateway_path_integration_verification_report_created = false`.
+- Preserved claim boundaries: runtime demo remains necessary but deferred, publication remains deferred, validator success is structural only, safe runnable demo gap inventory is not runtime demo readiness, and evidence supports reconstruction; it does not prove legal truth.
+- No private generated outputs are moved public in v0.6.286.
+
+- continued_follow_up_trace_review_and_decision
+- continued_follow_up_trace_review_completed
+- continued_follow_up_trace_accepted
+- continued_follow_up_trace_v06285
+- continued_follow_up_trace_records
+- continued_follow_up_trace_results
+- continued_follow_up_trace_dispositions
+- continued_follow_up_trace_gap_triage
+- continued_follow_up_trace_conclusions
+- continued_follow_up_trace_report_findings
+- continued_follow_up_trace_candidate_v06282
+- continued_follow_up_trace_planning_candidate_v06279
+- manual_trace_review_follow_up_trace_v06276
+- safe_runnable_demo_gap_inventory
+- safe_runnable_demo_path_selection
+- local_only_demo_execution_boundary_candidate
+- runtime readiness status
+- target lab gate status
+- transition gate status
+- execution authorized
+- real execution permitted
+- mock demo is not live scanner execution
+- safe mock demo
+- local-only runnable demo
+- real scanner execution remains blocked
+- Continued follow-up trace records are not accepted defects.
+- Continued follow-up trace results are not report findings.
+- Continued follow-up trace dispositions are not implementation changes.
+- Continued follow-up trace review is not gateway execution path modification.
+- Safe runnable demo gap inventory is not runtime demo readiness.
+- No private generated outputs are moved public in v0.6.286.
+- readme_front_page_rewritten = false
+- repository_metadata_changed = false
+
+
 ## v0.6.285 - Continued Follow-Up Trace
 
 - Performed the bounded Continued Follow-Up Trace.

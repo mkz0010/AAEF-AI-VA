@@ -4352,3 +4352,63 @@ This creates non-claim continued trace records only. Runtime demo remains necess
 - No private generated outputs are moved public in v0.6.285.
 - readme_front_page_rewritten = false
 - repository_metadata_changed = false
+
+## v0.6.286 Continued Follow-Up Trace Review and Decision
+
+v0.6.286 accepts the v0.6.285 Continued Follow-Up Trace as non-claim continued trace records and pivots the next work toward demo-path inventory.
+
+This checkpoint records:
+
+~~~text
+continued_follow_up_trace_review_completed = true
+continued_follow_up_trace_accepted = true
+continued_follow_up_trace_id = continued_follow_up_trace_v06285
+continued_follow_up_trace_review_result = accepted_as_non_claim_continued_trace_records_for_demo_path_inventory
+continued_follow_up_trace_records_accepted = true
+continued_follow_up_trace_results_accepted = true
+continued_follow_up_trace_dispositions_accepted = true
+continued_follow_up_trace_gap_triage_accepted = true
+recommended_next_work_item = safe_runnable_demo_gap_inventory
+safe_runnable_demo_gap_inventory_recommended = true
+continued_follow_up_trace_conclusions_created = false
+continued_follow_up_trace_report_findings_created = false
+accepted_defect_records_created = false
+code_inspection_report_created = false
+gateway_path_integration_verification_report_created = false
+~~~
+
+This is review only. Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. Continued follow-up trace records are not accepted defects. Continued follow-up trace results are not report findings. Continued follow-up trace dispositions are not implementation changes. Safe runnable demo gap inventory is not runtime demo readiness. No private generated outputs are moved public in v0.6.286.
+
+- continued_follow_up_trace_review_and_decision
+- continued_follow_up_trace_review_completed
+- continued_follow_up_trace_accepted
+- continued_follow_up_trace_v06285
+- continued_follow_up_trace_records
+- continued_follow_up_trace_results
+- continued_follow_up_trace_dispositions
+- continued_follow_up_trace_gap_triage
+- continued_follow_up_trace_conclusions
+- continued_follow_up_trace_report_findings
+- continued_follow_up_trace_candidate_v06282
+- continued_follow_up_trace_planning_candidate_v06279
+- manual_trace_review_follow_up_trace_v06276
+- safe_runnable_demo_gap_inventory
+- safe_runnable_demo_path_selection
+- local_only_demo_execution_boundary_candidate
+- runtime readiness status
+- target lab gate status
+- transition gate status
+- execution authorized
+- real execution permitted
+- mock demo is not live scanner execution
+- safe mock demo
+- local-only runnable demo
+- real scanner execution remains blocked
+- Continued follow-up trace records are not accepted defects.
+- Continued follow-up trace results are not report findings.
+- Continued follow-up trace dispositions are not implementation changes.
+- Continued follow-up trace review is not gateway execution path modification.
+- Safe runnable demo gap inventory is not runtime demo readiness.
+- No private generated outputs are moved public in v0.6.286.
+- readme_front_page_rewritten = false
+- repository_metadata_changed = false
