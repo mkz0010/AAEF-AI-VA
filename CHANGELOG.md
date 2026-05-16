@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.6.271 - Narrower Manual Trace Review Review and Decision
+
+- Accepted the v0.6.270 Narrower Manual Trace Review as non-claim manual review records for follow-up trace planning.
+- Recorded `narrower_manual_trace_review_review_completed = true`, `narrower_manual_trace_review_accepted = true`, and `narrower_manual_trace_review_id = narrower_manual_trace_review_v06270`.
+- Accepted manual trace review records, manual trace review results, manual trace review dispositions, manual trace review gap triage, and manual trace review follow-up trace candidates.
+- Recorded `recommended_next_work_item = manual_trace_review_follow_up_trace_candidate`.
+- Preserved `manual_trace_review_conclusions_created = false`, `manual_trace_review_report_findings_created = false`, `accepted_defect_records_created = false`, `code_inspection_report_created = false`, and `gateway_path_integration_verification_report_created = false`.
+- Preserved the boundary that no accepted defect record, code-inspection report, verification report, gateway behavior change, adapter behavior change, schema behavior change, runtime behavior change, scanner behavior change, fixture, record candidate artifact, actual record, README front-page rewrite, publication approval, or public announcement is created in v0.6.271.
+- Preserved claim boundaries: runtime demo remains necessary but deferred, publication remains deferred, validator success is structural only, manual trace review records are not accepted defects, manual trace review results are not report findings, manual trace review dispositions are not implementation changes, and evidence supports reconstruction; it does not prove legal truth.
+- Structural token coverage includes `manual_trace_review_scope`, `manual_trace_review_gap_triage`, `manual_trace_review_follow_up_trace_candidates`, `readme_front_page_rewritten = false`, and `repository_metadata_changed = false`.
+
+
 ## v0.6.270 - Narrower Manual Trace Review
 
 - Performed the first narrower manual trace review.
@@ -2863,3 +2875,16 @@
 - Added fixture metadata, a fixture index, and a local read-only harness test that checks expected fail-closed blocker categories.
 - Preserved the existing sanitized public example as the positive control.
 - Preserved the boundary that v0.6.46 does not modify validator behavior, run scanners, create runnable configuration, authorize Docker/runtime execution, inject credentials, authorize customer-target operation, authorize delivery, or assert certification/compliance/audit/legal sufficiency.
+
+## Structural token coverage
+
+The following exact structural tokens are included for v0.6.271 validator coverage. They do not expand the claim scope of this checkpoint.
+
+- manual_trace_review_results
+- manual_trace_review_dispositions
+- manual_trace_review_rationale
+- gateway-path integration verification report candidate
+- Manual trace review records are not accepted defects.
+- Manual trace review results are not report findings.
+- Manual trace review dispositions are not implementation changes.
+- No private generated outputs are moved public in v0.6.271.

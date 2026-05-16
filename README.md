@@ -3484,3 +3484,41 @@ It does not create accepted defect records, create a code-inspection report, cre
 Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. Manual trace review records are not accepted defects. Manual trace review results are not report findings. Manual trace review dispositions are not implementation changes. No private generated outputs are moved public in v0.6.270.
 
 Structural token coverage: `manual_trace_review_scope`, `manual_trace_review_gap_triage`, `readme_front_page_rewritten = false`, and `repository_metadata_changed = false`.
+
+## v0.6.271 Narrower Manual Trace Review Review and Decision
+
+v0.6.271 accepts the v0.6.270 Narrower Manual Trace Review as non-claim manual review records for follow-up trace planning.
+
+This checkpoint records:
+
+~~~text
+narrower_manual_trace_review_review_completed = true
+narrower_manual_trace_review_accepted = true
+narrower_manual_trace_review_id = narrower_manual_trace_review_v06270
+manual_trace_review_records_accepted = true
+manual_trace_review_results_accepted = true
+manual_trace_review_dispositions_accepted = true
+manual_trace_review_gap_triage_accepted = true
+manual_trace_review_follow_up_trace_candidates_accepted = true
+recommended_next_work_item = manual_trace_review_follow_up_trace_candidate
+manual_trace_review_conclusions_created = false
+manual_trace_review_report_findings_created = false
+accepted_defect_records_created = false
+code_inspection_report_created = false
+gateway_path_integration_verification_report_created = false
+~~~
+
+It does not create manual trace review conclusions, create accepted defect records, create a code-inspection report, create a verification report, change gateway behavior, change adapter behavior, change schema behavior, change runtime behavior, change scanner behavior, create fixtures, create record candidate artifacts, create actual records, rewrite the README front page, change repository metadata, approve publication, or publish an announcement.
+
+Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. Manual trace review records are not accepted defects. Manual trace review results are not report findings. Manual trace review dispositions are not implementation changes. No private generated outputs are moved public in v0.6.271.
+
+Structural token coverage: `manual_trace_review_scope`, `manual_trace_review_gap_triage`, `manual_trace_review_follow_up_trace_candidates`, `readme_front_page_rewritten = false`, and `repository_metadata_changed = false`.
+
+## Structural token coverage
+
+The following exact structural tokens are included for v0.6.271 validator coverage. They do not expand the claim scope of this checkpoint.
+
+- manual_trace_review_rationale
+- accepted defect candidate planning
+- code-inspection report candidate
+- gateway-path integration verification report candidate
