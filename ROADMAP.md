@@ -4199,3 +4199,26 @@ Current boundaries remain:
 - no gateway behavior change
 - no runtime behavior change
 - no scanner behavior change
+
+## After v0.6.288
+
+v0.6.288 selects `safe_mock_demo_initial_path` as the initial safe demo path.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.289 Safe Mock Demo Initial Path Hardening Candidate
+~~~
+
+Current boundaries remain:
+
+- no local-only demo execution boundary candidate
+- no runtime demo readiness
+- no scanner readiness
+- no execution authorization
+- no real execution permitted
+- no publication approval
+- no public artifact promotion
+- no gateway behavior change
+- no runtime behavior change
+- no scanner behavior change

@@ -4466,3 +4466,54 @@ This is inventory only. Safe runnable demo gap inventory is not runtime demo rea
 - No private generated outputs are moved public in v0.6.287.
 - readme_front_page_rewritten = false
 - repository_metadata_changed = false
+
+## v0.6.288 Safe Runnable Demo Path Selection
+
+v0.6.288 selects the initial safe demo path:
+
+~~~text
+safe_mock_demo_initial_path
+~~~
+
+This checkpoint records:
+
+~~~text
+safe_runnable_demo_path_selection_completed = true
+safe_runnable_demo_path_selection_id = safe_runnable_demo_path_selection_v06288
+selected_demo_path = safe_mock_demo_initial_path
+safe_mock_demo_initial_path_selected = true
+local_only_demo_execution_boundary_candidate_created = false
+runtime_demo_ready = false
+execution_authorized = false
+real_execution_permitted = false
+recommended_next_work_item = safe_mock_demo_initial_path_hardening_candidate
+~~~
+
+This is path selection only. Safe mock demo initial path selection is not runtime demo readiness. Safe mock demo initial path selection is not scanner readiness. Safe mock demo initial path selection is not production readiness. Safe mock demo public positioning is not publication approval. Mock demo is not live scanner execution. Real scanner execution remains blocked. No private generated outputs are moved public in v0.6.288.
+
+- safe_runnable_demo_path_selection
+- safe_runnable_demo_path_selection_v06288
+- safe_mock_demo_initial_path
+- safe_mock_demo_initial_path_selected
+- safe_mock_demo_initial_path_hardening_candidate
+- safe_runnable_demo_gap_inventory_v06287
+- safe mock demo
+- local-only runnable demo
+- real scanner execution remains blocked
+- mock demo is not live scanner execution
+- allowed-action: completed
+- denied-action: blocked
+- human-approval-required: requires_human_approval
+- runtime readiness status: not_detected_execution_blocked
+- target lab gate status: target_defined_execution_blocked
+- binding gate status: bound_execution_blocked
+- transition gate status: candidate_recorded_execution_blocked
+- execution authorized: False
+- real execution permitted: False
+- safe mock demo initial path selection is not runtime demo readiness
+- safe mock demo initial path selection is not scanner readiness
+- safe mock demo initial path selection is not production readiness
+- safe mock demo public positioning is not publication approval
+- No private generated outputs are moved public in v0.6.288.
+- readme_front_page_rewritten = false
+- repository_metadata_changed = false

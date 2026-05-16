@@ -1,5 +1,43 @@
 # Changelog
 
+## v0.6.288 - Safe Runnable Demo Path Selection
+
+- Selected `safe_mock_demo_initial_path` as the initial safe demo path.
+- Recorded `safe_runnable_demo_path_selection_completed = true`, `safe_runnable_demo_path_selection_id = safe_runnable_demo_path_selection_v06288`, and `safe_mock_demo_initial_path_selected = true`.
+- Deferred `local_only_demo_execution_boundary_candidate` while preserving blocked runtime and scanner execution states.
+- Recorded `recommended_next_work_item = safe_mock_demo_initial_path_hardening_candidate`.
+- Preserved `runtime_demo_ready = false`, `execution_authorized = false`, `real_execution_permitted = false`, `gateway_execution_path_behavior_modified = false`, `runtime_behavior_changed = false`, and `scanner_behavior_changed = false`.
+- Preserved claim boundaries: safe mock demo initial path selection is not runtime demo readiness, scanner readiness, production readiness, or publication approval; mock demo is not live scanner execution.
+- No private generated outputs are moved public in v0.6.288.
+
+- safe_runnable_demo_path_selection
+- safe_runnable_demo_path_selection_v06288
+- safe_mock_demo_initial_path
+- safe_mock_demo_initial_path_selected
+- safe_mock_demo_initial_path_hardening_candidate
+- safe_runnable_demo_gap_inventory_v06287
+- safe mock demo
+- local-only runnable demo
+- real scanner execution remains blocked
+- mock demo is not live scanner execution
+- allowed-action: completed
+- denied-action: blocked
+- human-approval-required: requires_human_approval
+- runtime readiness status: not_detected_execution_blocked
+- target lab gate status: target_defined_execution_blocked
+- binding gate status: bound_execution_blocked
+- transition gate status: candidate_recorded_execution_blocked
+- execution authorized: False
+- real execution permitted: False
+- safe mock demo initial path selection is not runtime demo readiness
+- safe mock demo initial path selection is not scanner readiness
+- safe mock demo initial path selection is not production readiness
+- safe mock demo public positioning is not publication approval
+- No private generated outputs are moved public in v0.6.288.
+- readme_front_page_rewritten = false
+- repository_metadata_changed = false
+
+
 ## v0.6.287 - Safe Runnable Demo Gap Inventory
 
 - Created a Safe Runnable Demo Gap Inventory.
