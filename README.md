@@ -3886,3 +3886,68 @@ Structural token coverage for v0.6.277:
 - No private generated outputs are moved public in v0.6.277.
 - readme_front_page_rewritten = false
 - repository_metadata_changed = false
+
+## v0.6.278 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.278 selects the next work item after the accepted v0.6.277 Manual Trace Review Follow-Up Trace Review and Decision.
+
+Selected work item:
+
+~~~text
+continued_follow_up_trace_planning
+~~~
+
+This checkpoint records:
+
+~~~text
+next_work_selection_completed = true
+selected_work_item = continued_follow_up_trace_planning
+continued_follow_up_trace_planning_selected = true
+continued_follow_up_trace_planning_candidate_created = false
+continued_follow_up_trace_records_created = false
+continued_follow_up_trace_results_created = false
+manual_trace_review_follow_up_trace_records_accepted = true
+manual_trace_review_follow_up_trace_results_accepted = true
+manual_trace_review_follow_up_trace_dispositions_accepted = true
+manual_trace_review_follow_up_trace_conclusions_created = false
+manual_trace_review_follow_up_trace_report_findings_created = false
+accepted_defect_records_created = false
+code_inspection_report_created = false
+gateway_path_integration_verification_report_created = false
+~~~
+
+This is selection only. v0.6.278 does not create a continued follow-up trace planning candidate, create continued follow-up trace records, create continued follow-up trace results, create follow-up trace conclusions, create report findings, create accepted defect records, create a code-inspection report, create a verification report, change gateway behavior, change adapter behavior, change schema behavior, change runtime behavior, change scanner behavior, create fixtures, create record candidate artifacts, create actual records, rewrite the README front page, change repository metadata, approve publication, or publish an announcement.
+
+Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. Continued follow-up trace planning is not defect acceptance. Continued follow-up trace planning is not report finding creation. Continued follow-up trace planning is not gateway execution path modification. Follow-up trace records are not accepted defects. Follow-up trace results are not report findings. Follow-up trace dispositions are not implementation changes. No private generated outputs are moved public in v0.6.278.
+
+Structural token coverage for v0.6.278:
+- continued_follow_up_trace_planning
+- continued_follow_up_trace_planning_selected
+- continued_follow_up_trace_planning_candidate
+- continued_follow_up_trace_records
+- continued_follow_up_trace_results
+- manual_trace_review_follow_up_trace_review_and_decision
+- manual_trace_review_follow_up_trace_review_completed
+- manual_trace_review_follow_up_trace_accepted
+- manual_trace_review_follow_up_trace_v06276
+- manual_trace_review_follow_up_trace_records
+- manual_trace_review_follow_up_trace_results
+- manual_trace_review_follow_up_trace_dispositions
+- manual_trace_review_follow_up_trace_gap_triage
+- manual_trace_review_follow_up_trace_conclusions
+- manual_trace_review_follow_up_trace_report_findings
+- next_work_selection_using_risk_tiered_granularity
+- report-scope candidate planning
+- accepted defect candidate planning
+- code-inspection report candidate
+- gateway-path integration verification report candidate
+- no-action non-claim closeout
+- Follow-up trace records are not accepted defects.
+- Follow-up trace results are not report findings.
+- Follow-up trace dispositions are not implementation changes.
+- Continued follow-up trace planning is not defect acceptance.
+- Continued follow-up trace planning is not report finding creation.
+- Continued follow-up trace planning is not gateway execution path modification.
+- No private generated outputs are moved public in v0.6.278.
+- readme_front_page_rewritten = false
+- repository_metadata_changed = false

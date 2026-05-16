@@ -1,5 +1,48 @@
 # Changelog
 
+## v0.6.278 - Next Work Selection Using Risk-Tiered Granularity
+
+- Selected `continued_follow_up_trace_planning` as the next work item after accepting the Manual Trace Review Follow-Up Trace as non-claim follow-up trace records.
+- Recorded `next_work_selection_completed = true`, `continued_follow_up_trace_planning_selected = true`, `continued_follow_up_trace_planning_candidate_created = false`, `continued_follow_up_trace_records_created = false`, and `continued_follow_up_trace_results_created = false`.
+- Carried forward the v0.6.277 signal that continued follow-up trace planning is conservative before report-scope candidate planning, accepted defect candidate planning, code-inspection report candidate creation, or gateway-path integration verification report creation.
+- Preserved `manual_trace_review_follow_up_trace_conclusions_created = false`, `manual_trace_review_follow_up_trace_report_findings_created = false`, `accepted_defect_records_created = false`, `code_inspection_report_created = false`, and `gateway_path_integration_verification_report_created = false`.
+- Preserved the boundary that no continued follow-up trace planning candidate, continued follow-up trace record, continued follow-up trace result, accepted defect record, code-inspection report, verification report, gateway behavior change, adapter behavior change, schema behavior change, runtime behavior change, scanner behavior change, fixture, record candidate artifact, actual record, README front-page rewrite, publication approval, or public announcement is created in v0.6.278.
+- Preserved claim boundaries: runtime demo remains necessary but deferred, publication remains deferred, validator success is structural only, continued follow-up trace planning is not defect acceptance, follow-up trace records are not accepted defects, follow-up trace results are not report findings, follow-up trace dispositions are not implementation changes, and evidence supports reconstruction; it does not prove legal truth.
+- No private generated outputs are moved public in v0.6.278.
+
+Structural token coverage for v0.6.278:
+- continued_follow_up_trace_planning
+- continued_follow_up_trace_planning_selected
+- continued_follow_up_trace_planning_candidate
+- continued_follow_up_trace_records
+- continued_follow_up_trace_results
+- manual_trace_review_follow_up_trace_review_and_decision
+- manual_trace_review_follow_up_trace_review_completed
+- manual_trace_review_follow_up_trace_accepted
+- manual_trace_review_follow_up_trace_v06276
+- manual_trace_review_follow_up_trace_records
+- manual_trace_review_follow_up_trace_results
+- manual_trace_review_follow_up_trace_dispositions
+- manual_trace_review_follow_up_trace_gap_triage
+- manual_trace_review_follow_up_trace_conclusions
+- manual_trace_review_follow_up_trace_report_findings
+- next_work_selection_using_risk_tiered_granularity
+- report-scope candidate planning
+- accepted defect candidate planning
+- code-inspection report candidate
+- gateway-path integration verification report candidate
+- no-action non-claim closeout
+- Follow-up trace records are not accepted defects.
+- Follow-up trace results are not report findings.
+- Follow-up trace dispositions are not implementation changes.
+- Continued follow-up trace planning is not defect acceptance.
+- Continued follow-up trace planning is not report finding creation.
+- Continued follow-up trace planning is not gateway execution path modification.
+- No private generated outputs are moved public in v0.6.278.
+- readme_front_page_rewritten = false
+- repository_metadata_changed = false
+
+
 ## v0.6.277 - Manual Trace Review Follow-Up Trace Review and Decision
 
 - Accepted the v0.6.276 Manual Trace Review Follow-Up Trace as non-claim follow-up trace records for next-work selection.
