@@ -1,5 +1,34 @@
 # Changelog
 
+## v0.6.273 - Manual Trace Review Follow-Up Trace Candidate
+
+- Created a documentation-only Manual Trace Review Follow-Up Trace Candidate.
+- Recorded `manual_trace_review_follow_up_trace_candidate_created = true`, `manual_trace_review_follow_up_trace_candidate_id = manual_trace_review_follow_up_trace_candidate_v06273`, and `manual_trace_review_follow_up_trace_candidate_status = candidate_not_applied`.
+- Defined follow-up trace candidate lanes, input records, questions, scope, record schema, expected outputs, candidate procedure, and non-claim boundaries.
+- Preserved `manual_trace_review_follow_up_trace_performed = false`, `manual_trace_review_follow_up_trace_records_created = false`, `manual_trace_review_conclusions_created = false`, `accepted_defect_records_created = false`, `code_inspection_report_created = false`, and `gateway_path_integration_verification_report_created = false`.
+- Preserved the boundary that no follow-up trace record, accepted defect record, code-inspection report, verification report, gateway behavior change, adapter behavior change, schema behavior change, runtime behavior change, scanner behavior change, fixture, record candidate artifact, actual record, README front-page rewrite, publication approval, or public announcement is created in v0.6.273.
+- Preserved claim boundaries: runtime demo remains necessary but deferred, publication remains deferred, validator success is structural only, follow-up trace candidate is not follow-up trace execution, manual trace review records are not accepted defects, manual trace review results are not report findings, manual trace review dispositions are not implementation changes, and evidence supports reconstruction; it does not prove legal truth.
+- No private generated outputs are moved public in v0.6.273.
+- Structural token coverage includes `manual_trace_review_follow_up_trace_candidate`, `manual_trace_review_follow_up_trace_candidate_v06273`, `manual_trace_review_scope`, `readme_front_page_rewritten = false`, and `repository_metadata_changed = false`.
+
+
+Structural token coverage for v0.6.273:
+- manual_trace_review_follow_up_trace_results
+- follow_up_trace_candidate_lanes
+- follow_up_trace_candidate_questions
+- follow_up_trace_candidate_scope
+- follow_up_trace_candidate_record_schema
+- follow_up_trace_candidate_expected_outputs
+- follow_up_trace_candidate_non_claim_boundaries
+- lane_01_pre_dispatch_enforcement_review
+- lane_03_adapter_boundary_review
+- lane_05_evidence_linkage_review
+- verification_required statuses
+- manual_review_requires_follow_up
+- manual_review_candidate_for_follow_up_trace
+- manual_review_gap_triage_only
+- Follow-up trace candidate is not follow-up trace execution.
+
 ## v0.6.272 - Next Work Selection Using Risk-Tiered Granularity
 
 - Selected `manual_trace_review_follow_up_trace_candidate` as the next work item after accepting the Narrower Manual Trace Review as non-claim manual review records.
