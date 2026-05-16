@@ -4517,3 +4517,61 @@ This is path selection only. Safe mock demo initial path selection is not runtim
 - No private generated outputs are moved public in v0.6.288.
 - readme_front_page_rewritten = false
 - repository_metadata_changed = false
+
+## v0.6.289 Safe Mock Demo Initial Path Hardening Candidate
+
+v0.6.289 creates a documentation-only hardening candidate for the selected safe mock demo initial path.
+
+This checkpoint records:
+
+~~~text
+safe_mock_demo_initial_path_hardening_candidate_created = true
+safe_mock_demo_initial_path_hardening_candidate_id = safe_mock_demo_initial_path_hardening_candidate_v06289
+safe_mock_demo_initial_path_hardening_candidate_status = candidate_not_applied
+selected_demo_path = safe_mock_demo_initial_path
+safe_mock_demo_hardening_controls_defined = true
+safe_mock_demo_hardening_public_positioning_defined = true
+safe_mock_demo_hardening_private_artifact_boundary_defined = true
+safe_mock_demo_public_artifact_promotion_created = false
+publication_approval = false
+runtime_demo_ready = false
+execution_authorized = false
+real_execution_permitted = false
+recommended_next_work_item = safe_mock_demo_initial_path_hardening_candidate_review_and_decision
+~~~
+
+This is candidate only. Safe mock demo hardening candidate is not publication approval. Safe mock demo hardening candidate is not public artifact promotion. Safe mock demo hardening candidate is not runtime demo readiness. Safe mock demo hardening candidate is not scanner readiness. Safe mock demo hardening candidate is not production readiness. No private generated outputs are moved public in v0.6.289.
+
+- safe_mock_demo_initial_path_hardening_candidate
+- safe_mock_demo_initial_path_hardening_candidate_v06289
+- safe_mock_demo_initial_path_hardening_candidate_review_and_decision
+- safe_mock_demo_initial_path
+- safe_mock_demo_initial_path_selected
+- safe_runnable_demo_path_selection_v06288
+- safe mock demo
+- safe mock demo path hardening
+- safe mock demo public positioning
+- safe mock demo private artifact boundary
+- safe mock demo reviewer walkthrough boundary
+- safe mock demo script boundary
+- safe mock demo is not live scanner execution
+- private-not-in-git
+- allowed-action: completed
+- denied-action: blocked
+- human-approval-required: requires_human_approval
+- local-only runnable demo
+- real scanner execution remains blocked
+- runtime readiness status: not_detected_execution_blocked
+- target lab gate status: target_defined_execution_blocked
+- binding gate status: bound_execution_blocked
+- transition gate status: candidate_recorded_execution_blocked
+- execution authorized: False
+- real execution permitted: False
+- safe mock demo hardening candidate is not publication approval
+- safe mock demo hardening candidate is not public artifact promotion
+- safe mock demo hardening candidate is not runtime demo readiness
+- safe mock demo hardening candidate is not scanner readiness
+- safe mock demo hardening candidate is not production readiness
+- No private generated outputs are moved public in v0.6.289.
+- readme_front_page_rewritten = false
+- repository_metadata_changed = false

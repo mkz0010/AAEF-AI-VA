@@ -4222,3 +4222,27 @@ Current boundaries remain:
 - no gateway behavior change
 - no runtime behavior change
 - no scanner behavior change
+
+## After v0.6.289
+
+v0.6.289 creates a Safe Mock Demo Initial Path Hardening Candidate.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.290 Safe Mock Demo Initial Path Hardening Candidate Review and Decision
+~~~
+
+Current boundaries remain:
+
+- no safe mock demo hardening applied
+- no public artifact promotion
+- no publication approval
+- no runtime demo readiness
+- no scanner readiness
+- no execution authorization
+- no real execution permitted
+- no local-only demo execution boundary candidate
+- no gateway behavior change
+- no runtime behavior change
+- no scanner behavior change
