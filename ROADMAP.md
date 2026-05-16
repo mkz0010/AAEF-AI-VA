@@ -4097,3 +4097,23 @@ Current boundaries remain:
 - no code-inspection report
 - no gateway-path integration verification report
 - no gateway behavior change
+
+## After v0.6.283
+
+v0.6.283 accepts the Continued Follow-Up Trace Candidate for future continued follow-up trace work.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.284 Next Work Selection Using Risk-Tiered Granularity
+~~~
+
+Current boundaries remain:
+
+- no continued follow-up trace records
+- no continued follow-up trace results
+- no continued follow-up trace conclusions
+- no accepted defect records
+- no code-inspection report
+- no gateway-path integration verification report
+- no gateway behavior change

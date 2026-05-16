@@ -4189,3 +4189,57 @@ This is candidate only. Runtime demo remains necessary but deferred. Publication
 - No private generated outputs are moved public in v0.6.282.
 - readme_front_page_rewritten = false
 - repository_metadata_changed = false
+
+## v0.6.283 Continued Follow-Up Trace Candidate Review and Decision
+
+v0.6.283 accepts the v0.6.282 documentation-only Continued Follow-Up Trace Candidate for future continued follow-up trace work.
+
+This checkpoint records:
+
+~~~text
+continued_follow_up_trace_candidate_review_completed = true
+continued_follow_up_trace_candidate_accepted = true
+continued_follow_up_trace_candidate_id = continued_follow_up_trace_candidate_v06282
+continued_follow_up_trace_candidate_review_result = accepted_for_future_continued_follow_up_trace
+future_continued_follow_up_trace_accepted = true
+recommended_next_work_item = next_work_selection_using_risk_tiered_granularity
+continued_follow_up_trace_recommended = true
+continued_follow_up_trace_records_created = false
+continued_follow_up_trace_results_created = false
+continued_follow_up_trace_conclusions_created = false
+accepted_defect_records_created = false
+code_inspection_report_created = false
+gateway_path_integration_verification_report_created = false
+~~~
+
+This is review only. Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. Continued follow-up trace candidate review is not continued trace execution. Continued follow-up trace candidate review is not defect acceptance. Continued follow-up trace candidate review is not report finding creation. Continued follow-up trace candidate review is not gateway execution path modification. No private generated outputs are moved public in v0.6.283.
+
+- continued_follow_up_trace_candidate_review_and_decision
+- continued_follow_up_trace_candidate_review_completed
+- continued_follow_up_trace_candidate_accepted
+- continued_follow_up_trace_candidate_v06282
+- continued_follow_up_trace_candidate
+- continued_follow_up_trace_planning_candidate_v06279
+- manual_trace_review_follow_up_trace_v06276
+- continued_follow_up_trace_records
+- continued_follow_up_trace_results
+- continued_follow_up_trace_dispositions
+- continued_follow_up_trace_gap_triage
+- continued_follow_up_trace_conclusions
+- continued_follow_up_trace_report_findings
+- future_continued_follow_up_trace_accepted
+- future_continued_follow_up_trace_candidate_record_schema_accepted
+- next_work_selection_using_risk_tiered_granularity
+- continued_follow_up_trace
+- report-scope candidate planning
+- accepted defect candidate planning
+- code-inspection report candidate
+- gateway-path integration verification report candidate
+- no-action non-claim closeout
+- Continued follow-up trace candidate review is not continued trace execution.
+- Continued follow-up trace candidate review is not defect acceptance.
+- Continued follow-up trace candidate review is not report finding creation.
+- Continued follow-up trace candidate review is not gateway execution path modification.
+- No private generated outputs are moved public in v0.6.283.
+- readme_front_page_rewritten = false
+- repository_metadata_changed = false
