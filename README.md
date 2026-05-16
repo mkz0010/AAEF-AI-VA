@@ -2974,3 +2974,22 @@ gateway_execution_path_integration_verification
 This is selection only. v0.6.245 does not change gateway behavior, adapter behavior, schema behavior, runtime behavior, scanner behavior, fixtures, record candidate artifacts, actual records, README front-page positioning, repository metadata, publication approval, or public announcement.
 
 Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. No private generated outputs are moved public in v0.6.245.
+
+## v0.6.246 Gateway Execution Path Integration Verification Candidate
+
+v0.6.246 creates a documentation-only Gateway Execution Path Integration Verification Candidate.
+
+The candidate distinguishes whether critical helpers and controls:
+
+~~~text
+helper_exists
+helper_tested
+helper_invoked_by_gateway_path
+helper_enforced_before_dispatch
+helper_result_evidenced
+helper_gap_identified
+~~~
+
+This checkpoint does not change gateway behavior, adapter behavior, schema behavior, runtime behavior, scanner behavior, fixtures, record candidate artifacts, actual records, README front-page positioning, repository metadata, publication approval, or public announcement.
+
+Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. No private generated outputs are moved public in v0.6.246.

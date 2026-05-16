@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.246 - Gateway Execution Path Integration Verification Candidate
+
+- Created a documentation-only Gateway Execution Path Integration Verification Candidate.
+- Recorded `gateway_execution_path_integration_verification_candidate_created = true`, `gateway_execution_path_integration_verification_candidate_id = gateway_execution_path_integration_verification_candidate_v06246`, and `gateway_execution_path_integration_verification_candidate_status = candidate_not_applied`.
+- Defined verification dimensions for `helper_exists`, `helper_tested`, `helper_invoked_by_gateway_path`, `helper_enforced_before_dispatch`, `helper_result_evidenced`, and `helper_gap_identified`.
+- Included inventory targets such as `authorization_expiry_current_time`, `request_decision_constraint_diff_enforcement`, `external_discovery_fail_closed_behavior`, `scope_registry_runtime_target_validity`, `mock_dry_run_completed_status_terminology`, `credential_ref_resolution_boundary`, `human_approval_gate_boundary`, and `execution_status_separation`.
+- Preserved the boundary that no gateway behavior, adapter behavior, schema behavior, runtime behavior, scanner behavior, fixtures, record candidate artifacts, actual records, README front-page rewrite, publication approval, or public announcement are changed in v0.6.246.
+
+
 ## v0.6.245 - Next Work Selection Using Risk-Tiered Granularity
 
 - Selected `gateway_execution_path_integration_verification` as the next work item after external security practitioner review intake and priority reassessment.
