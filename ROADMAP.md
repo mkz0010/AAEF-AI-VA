@@ -4077,3 +4077,23 @@ Current boundaries remain:
 - no code-inspection report
 - no gateway-path integration verification report
 - no gateway behavior change
+
+## After v0.6.282
+
+v0.6.282 creates a documentation-only Continued Follow-Up Trace Candidate.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.283 Continued Follow-Up Trace Candidate Review and Decision
+~~~
+
+Current boundaries remain:
+
+- no continued follow-up trace records
+- no continued follow-up trace results
+- no continued follow-up trace conclusions
+- no accepted defect records
+- no code-inspection report
+- no gateway-path integration verification report
+- no gateway behavior change
