@@ -3440,3 +3440,38 @@ Current boundaries remain:
 - no publication approval
 - no public announcement
 - no legal compliance, audit sufficiency, certification, diagnostic completeness, or external-framework equivalence claim
+
+## After v0.6.264
+
+v0.6.264 performs the first read-only static symbol-level tracing pass.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.265 Read-Only Symbol-Level Tracing Pass Review and Decision
+~~~
+
+The next checkpoint should review this read-only tracing pass and decide whether to proceed with one of the following:
+
+- narrower manual trace review
+- accepted defect candidate planning
+- code-inspection report candidate
+- gateway-path integration verification report candidate
+
+Current boundaries remain:
+
+- no accepted defect records
+- no code-inspection report
+- no gateway-path integration verification report
+- no gateway behavior change
+- no adapter behavior change
+- no schema behavior change
+- no runtime behavior change
+- no scanner behavior change
+- no fixture creation
+- no record candidate artifact creation
+- no actual record creation
+- no README front-page rewrite
+- no publication approval
+- no public announcement
+- no legal compliance, audit sufficiency, certification, diagnostic completeness, or external-framework equivalence claim

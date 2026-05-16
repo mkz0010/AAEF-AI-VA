@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.264 - Read-Only Symbol-Level Tracing Pass
+
+- Performed the first read-only static symbol-level tracing pass.
+- Recorded `read_only_symbol_level_tracing_pass_performed = true`, `read_only_symbol_level_tracing_pass_completed = true`, and `read_only_symbol_level_tracing_pass_id = read_only_symbol_level_tracing_pass_v06264`.
+- Created source-file observation records, source-symbol observation records, call-path status records, and symbol trace records.
+- Recorded `read_only_symbol_level_tracing_results_created = true` while preserving `accepted_defect_records_created = false`.
+- Preserved the boundary that no accepted defect record, code-inspection report, verification report, gateway behavior change, adapter behavior change, schema behavior change, runtime behavior change, scanner behavior change, fixture, record candidate artifact, actual record, README front-page rewrite, publication approval, or public announcement is created in v0.6.264.
+- Preserved claim boundaries: runtime demo remains necessary but deferred, publication remains deferred, validator success is structural only, read-only symbol-level tracing results are static inspection records, observed source symbols are not proof of pre-dispatch enforcement, observed call-path status records are not full gateway integration proof, and evidence supports reconstruction; it does not prove legal truth.
+
+
 ## v0.6.263 - Next Work Selection Using Risk-Tiered Granularity
 
 - Selected `read_only_symbol_level_tracing_pass` as the next work item after accepting the Read-Only Symbol-Level Tracing Pass Candidate.
