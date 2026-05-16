@@ -4056,3 +4056,24 @@ Current boundaries remain:
 - no publication approval
 - no public announcement
 - no legal compliance, audit sufficiency, certification, diagnostic completeness, or external-framework equivalence claim
+
+## After v0.6.281
+
+v0.6.281 selects `continued_follow_up_trace_candidate` as the next work item.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.282 Continued Follow-Up Trace Candidate
+~~~
+
+Current boundaries remain:
+
+- no continued follow-up trace candidate
+- no continued follow-up trace records
+- no continued follow-up trace results
+- no continued follow-up trace conclusions
+- no accepted defect records
+- no code-inspection report
+- no gateway-path integration verification report
+- no gateway behavior change
