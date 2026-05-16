@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.252 - Read-Only Gateway Path Code Inspection Pass Candidate
+
+- Created a documentation-only Read-Only Gateway Path Code Inspection Pass Candidate.
+- Recorded `read_only_gateway_path_code_inspection_pass_candidate_created = true`, `read_only_gateway_path_code_inspection_pass_candidate_id = read_only_gateway_path_code_inspection_pass_candidate_v06252`, and `read_only_gateway_path_code_inspection_pass_candidate_status = candidate_not_applied`.
+- Defined the planned read-only inspection inventory, source-file candidates, inspection dimensions, status vocabulary, read-only procedure, pass output fields, and finding fields.
+- Preserved the boundary that no code inspection findings, code-inspection report, verification report, gateway behavior change, adapter behavior change, schema behavior change, runtime behavior change, scanner behavior change, fixture, record candidate artifact, actual record, README front-page rewrite, publication approval, or public announcement is created in v0.6.252.
+- Preserved claim boundaries: runtime demo remains necessary but deferred, publication remains deferred, validator success is structural only, and evidence supports reconstruction; it does not prove legal truth.
+
+
 ## v0.6.251 - Next Work Selection Using Risk-Tiered Granularity
 
 - Selected `read_only_gateway_path_code_inspection_pass` as the next work item after accepting the Gateway Path Code Inspection Checkpoint Candidate.

@@ -3072,3 +3072,25 @@ read_only_gateway_path_code_inspection_pass
 This is selection only. v0.6.251 does not perform code inspection, record inspection findings, create a code-inspection report, create a verification report, change gateway behavior, change adapter behavior, change schema behavior, change runtime behavior, change scanner behavior, create fixtures, create record candidate artifacts, create actual records, rewrite the README front page, change repository metadata, approve publication, or publish an announcement.
 
 Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. No private generated outputs are moved public in v0.6.251.
+
+## v0.6.252 Read-Only Gateway Path Code Inspection Pass Candidate
+
+v0.6.252 creates a documentation-only Read-Only Gateway Path Code Inspection Pass Candidate.
+
+The candidate defines a future read-only pass that may inspect:
+
+~~~text
+helper_exists
+helper_tested
+helper_invoked_by_gateway_path
+helper_enforced_before_dispatch
+helper_result_evidenced
+helper_gap_identified
+source_file_exists_status
+source_symbol_exists_status
+implementation_change_required
+~~~
+
+This checkpoint does not perform code inspection, record inspection findings, create a code-inspection report, create a verification report, change gateway behavior, change adapter behavior, change schema behavior, change runtime behavior, change scanner behavior, create fixtures, create record candidate artifacts, create actual records, rewrite the README front page, change repository metadata, approve publication, or publish an announcement.
+
+Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. No private generated outputs are moved public in v0.6.252.
