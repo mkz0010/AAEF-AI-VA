@@ -2993,3 +2993,19 @@ helper_gap_identified
 This checkpoint does not change gateway behavior, adapter behavior, schema behavior, runtime behavior, scanner behavior, fixtures, record candidate artifacts, actual records, README front-page positioning, repository metadata, publication approval, or public announcement.
 
 Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. No private generated outputs are moved public in v0.6.246.
+
+## v0.6.247 Gateway Execution Path Integration Verification Review and Decision
+
+v0.6.247 accepts the v0.6.246 documentation-only Gateway Execution Path Integration Verification Candidate for a future gateway-path integration verification report or inspection checkpoint.
+
+Accepted candidate:
+
+~~~text
+gateway_execution_path_integration_verification_candidate_v06246
+~~~
+
+This checkpoint records `gateway_execution_path_integration_verification_candidate_accepted = true`, `future_gateway_path_integration_verification_report_accepted = true`, and `future_gateway_path_integration_inspection_checkpoint_accepted = true`.
+
+It does not create a verification report, perform code inspection, change gateway behavior, change adapter behavior, change schema behavior, change runtime behavior, change scanner behavior, create fixtures, create record candidate artifacts, create actual records, rewrite the README front page, approve publication, or publish an announcement.
+
+Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. No private generated outputs are moved public in v0.6.247.

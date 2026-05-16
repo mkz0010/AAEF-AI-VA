@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.6.247 - Gateway Execution Path Integration Verification Review and Decision
+
+- Accepted the v0.6.246 documentation-only Gateway Execution Path Integration Verification Candidate for a future gateway-path integration verification report or inspection checkpoint.
+- Recorded `gateway_execution_path_integration_verification_candidate_review_completed = true`, `gateway_execution_path_integration_verification_candidate_accepted = true`, `future_gateway_path_integration_verification_report_accepted = true`, and `future_gateway_path_integration_inspection_checkpoint_accepted = true`.
+- Preserved the boundary that no verification report, code inspection, gateway behavior change, adapter behavior change, schema behavior change, runtime behavior change, scanner behavior change, fixture, record candidate artifact, actual record, README front-page rewrite, publication approval, or public announcement is created in v0.6.247.
+- Preserved claim boundaries: runtime demo remains necessary but deferred, publication remains deferred, validator success is structural only, and evidence supports reconstruction; it does not prove legal truth.
+
+
 ## v0.6.246 - Gateway Execution Path Integration Verification Candidate
 
 - Created a documentation-only Gateway Execution Path Integration Verification Candidate.
