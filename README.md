@@ -3124,3 +3124,23 @@ read_only_gateway_path_code_inspection_pass_with_findings
 This is selection only. v0.6.254 does not perform code inspection, record inspection findings, create a code-inspection report, create a verification report, change gateway behavior, change adapter behavior, change schema behavior, change runtime behavior, change scanner behavior, create fixtures, create record candidate artifacts, create actual records, rewrite the README front page, change repository metadata, approve publication, or publish an announcement.
 
 Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. No private generated outputs are moved public in v0.6.254.
+
+## v0.6.255 Read-Only Gateway Path Code Inspection Pass With Findings Candidate
+
+v0.6.255 creates a read-only Gateway Path Code Inspection Pass With Findings Candidate.
+
+This checkpoint begins inspecting whether helpers and controls are invoked, enforced, and evidenced in the gateway execution path before dispatch. The findings are conservative candidate findings based on source-file existence and keyword-level indicators.
+
+This checkpoint records:
+
+~~~text
+read_only_gateway_path_code_inspection_pass_with_findings_candidate_created = true
+read_only_gateway_path_code_inspection_performed = true
+read_only_gateway_path_code_inspection_findings_recorded = true
+read_only_gateway_path_code_inspection_findings_scope = source_file_existence_and_keyword_level_indicators_only
+symbol_level_tracing_completed = false
+~~~
+
+It does not create a code-inspection report, create a verification report, change gateway behavior, change adapter behavior, change schema behavior, change runtime behavior, change scanner behavior, create fixtures, create record candidate artifacts, create actual records, rewrite the README front page, change repository metadata, approve publication, or publish an announcement.
+
+Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. Keyword-level indicators are not symbol-level proof. No private generated outputs are moved public in v0.6.255.

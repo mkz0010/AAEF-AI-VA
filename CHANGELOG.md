@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.255 - Read-Only Gateway Path Code Inspection Pass With Findings Candidate
+
+- Created a read-only Gateway Path Code Inspection Pass With Findings Candidate.
+- Recorded `read_only_gateway_path_code_inspection_pass_with_findings_candidate_created = true`, `read_only_gateway_path_code_inspection_performed = true`, and `read_only_gateway_path_code_inspection_findings_recorded = true`.
+- Limited findings to source-file existence and keyword-level indicators.
+- Recorded `symbol_level_tracing_completed = false`, preserving the boundary that keyword-level indicators are not symbol-level proof.
+- Preserved the boundary that no code-inspection report, verification report, gateway behavior change, adapter behavior change, schema behavior change, runtime behavior change, scanner behavior change, fixture, record candidate artifact, actual record, README front-page rewrite, publication approval, or public announcement is created in v0.6.255.
+- Preserved claim boundaries: runtime demo remains necessary but deferred, publication remains deferred, validator success is structural only, and evidence supports reconstruction; it does not prove legal truth.
+
+
 ## v0.6.254 - Next Work Selection Using Risk-Tiered Granularity
 
 - Selected `read_only_gateway_path_code_inspection_pass_with_findings` as the next work item after accepting the Read-Only Gateway Path Code Inspection Pass Candidate.
