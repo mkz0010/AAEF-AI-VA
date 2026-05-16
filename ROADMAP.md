@@ -3723,3 +3723,37 @@ Current boundaries remain:
 - no publication approval
 - no public announcement
 - no legal compliance, audit sufficiency, certification, diagnostic completeness, or external-framework equivalence claim
+
+## After v0.6.272
+
+v0.6.272 selects `manual_trace_review_follow_up_trace_candidate` as the next work item.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.273 Manual Trace Review Follow-Up Trace Candidate
+~~~
+
+The next checkpoint should create a documentation-only follow-up trace candidate for the accepted non-claim manual review records.
+
+Current boundaries remain:
+
+- no follow-up trace candidate records
+- no follow-up trace records
+- no manual trace review conclusions
+- no manual trace review report findings
+- no accepted defect records
+- no code-inspection report
+- no gateway-path integration verification report
+- no gateway behavior change
+- no adapter behavior change
+- no schema behavior change
+- no runtime behavior change
+- no scanner behavior change
+- no fixture creation
+- no record candidate artifact creation
+- no actual record creation
+- no README front-page rewrite
+- no publication approval
+- no public announcement
+- no legal compliance, audit sufficiency, certification, diagnostic completeness, or external-framework equivalence claim

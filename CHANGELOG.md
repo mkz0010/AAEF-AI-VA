@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.6.272 - Next Work Selection Using Risk-Tiered Granularity
+
+- Selected `manual_trace_review_follow_up_trace_candidate` as the next work item after accepting the Narrower Manual Trace Review as non-claim manual review records.
+- Recorded `next_work_selection_completed = true`, `manual_trace_review_follow_up_trace_candidate_selected = true`, `manual_trace_review_follow_up_trace_candidate_created = false`, and `manual_trace_review_follow_up_trace_records_created = false`.
+- Carried forward the v0.6.271 rationale that manual trace review follow-up trace candidates should precede accepted defect candidate planning, code-inspection report candidate creation, or gateway-path integration verification report creation.
+- Preserved `manual_trace_review_conclusions_created = false`, `manual_trace_review_report_findings_created = false`, `accepted_defect_records_created = false`, `code_inspection_report_created = false`, and `gateway_path_integration_verification_report_created = false`.
+- Preserved the boundary that no follow-up trace candidate, follow-up trace record, accepted defect record, code-inspection report, verification report, gateway behavior change, adapter behavior change, schema behavior change, runtime behavior change, scanner behavior change, fixture, record candidate artifact, actual record, README front-page rewrite, publication approval, or public announcement is created in v0.6.272.
+- Preserved claim boundaries: runtime demo remains necessary but deferred, publication remains deferred, validator success is structural only, manual trace review records are not accepted defects, manual trace review results are not report findings, manual trace review dispositions are not implementation changes, and evidence supports reconstruction; it does not prove legal truth.
+- Structural token coverage includes `manual_trace_review_follow_up_trace_candidate`, `manual_trace_review_scope`, `manual_trace_review_gap_triage`, `readme_front_page_rewritten = false`, and `repository_metadata_changed = false`.
+
+- No private generated outputs are moved public in v0.6.272.
+
 ## v0.6.271 - Narrower Manual Trace Review Review and Decision
 
 - Accepted the v0.6.270 Narrower Manual Trace Review as non-claim manual review records for follow-up trace planning.
