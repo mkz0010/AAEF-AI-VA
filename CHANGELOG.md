@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.249 - Gateway Path Code Inspection Checkpoint Candidate
+
+- Created a documentation-only Gateway Path Code Inspection Checkpoint Candidate.
+- Recorded `gateway_path_code_inspection_checkpoint_candidate_created = true`, `gateway_path_code_inspection_checkpoint_candidate_id = gateway_path_code_inspection_checkpoint_candidate_v06249`, and `gateway_path_code_inspection_checkpoint_candidate_status = candidate_not_applied`.
+- Defined planned inspection targets, inspection dimensions, status vocabulary, read-only inspection method, findings format, and summary fields.
+- Preserved the boundary that no code inspection findings, verification report, gateway behavior change, adapter behavior change, schema behavior change, runtime behavior change, scanner behavior change, fixture, record candidate artifact, actual record, README front-page rewrite, publication approval, or public announcement is created in v0.6.249.
+- Preserved claim boundaries: runtime demo remains necessary but deferred, publication remains deferred, validator success is structural only, and evidence supports reconstruction; it does not prove legal truth.
+
+
 ## v0.6.248 - Next Work Selection Using Risk-Tiered Granularity
 
 - Selected `gateway_path_code_inspection_checkpoint` as the next work item after accepting the Gateway Execution Path Integration Verification Candidate.
