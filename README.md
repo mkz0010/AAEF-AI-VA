@@ -3376,3 +3376,28 @@ gateway_path_integration_verification_report_created = false
 This is selection only. v0.6.266 does not perform manual trace review, create manual trace review records, create accepted defect records, create a code-inspection report, create a verification report, change gateway behavior, change adapter behavior, change schema behavior, change runtime behavior, change scanner behavior, create fixtures, create record candidate artifacts, create actual records, rewrite the README front page, change repository metadata, approve publication, or publish an announcement.
 
 Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. Observed source symbols are not proof of pre-dispatch enforcement. Observed call-path status records are not full gateway integration proof. No private generated outputs are moved public in v0.6.266.
+
+## v0.6.267 Narrower Manual Trace Review Candidate
+
+v0.6.267 creates a documentation-only Narrower Manual Trace Review Candidate for the accepted v0.6.264/v0.6.265 static inspection records.
+
+This checkpoint records:
+
+~~~text
+narrower_manual_trace_review_candidate_created = true
+narrower_manual_trace_review_candidate_id = narrower_manual_trace_review_candidate_v06267
+narrower_manual_trace_review_candidate_status = candidate_not_applied
+manual_trace_review_lanes_defined = true
+manual_trace_review_questions_defined = true
+manual_trace_review_disposition_vocabulary_defined = true
+manual_trace_review_record_schema_defined = true
+narrower_manual_trace_review_performed = false
+narrower_manual_trace_review_records_created = false
+accepted_defect_records_created = false
+code_inspection_report_created = false
+gateway_path_integration_verification_report_created = false
+~~~
+
+It does not perform manual trace review, create manual trace review records, create accepted defect records, create a code-inspection report, create a verification report, change gateway behavior, change adapter behavior, change schema behavior, change runtime behavior, change scanner behavior, create fixtures, create record candidate artifacts, create actual records, rewrite the README front page, change repository metadata, approve publication, or publish an announcement.
+
+Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. Manual review questions are not manual review conclusions. Gap records are not accepted defects. No private generated outputs are moved public in v0.6.267.

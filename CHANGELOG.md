@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.267 - Narrower Manual Trace Review Candidate
+
+- Created a documentation-only Narrower Manual Trace Review Candidate.
+- Recorded `narrower_manual_trace_review_candidate_created = true`, `narrower_manual_trace_review_candidate_id = narrower_manual_trace_review_candidate_v06267`, and `narrower_manual_trace_review_candidate_status = candidate_not_applied`.
+- Defined manual trace review lanes, input records, review questions, disposition vocabulary, record schema, output fields, candidate procedure, and non-claim boundaries.
+- Preserved the boundary that no manual trace review record, accepted defect record, code-inspection report, verification report, gateway behavior change, adapter behavior change, schema behavior change, runtime behavior change, scanner behavior change, fixture, record candidate artifact, actual record, README front-page rewrite, publication approval, or public announcement is created in v0.6.267.
+- Preserved claim boundaries: runtime demo remains necessary but deferred, publication remains deferred, validator success is structural only, manual review questions are not manual review conclusions, gap records are not accepted defects, and evidence supports reconstruction; it does not prove legal truth.
+
+
 ## v0.6.266 - Next Work Selection Using Risk-Tiered Granularity
 
 - Selected `narrower_manual_trace_review` as the next work item after accepting the Read-Only Symbol-Level Tracing Pass as static inspection records.
