@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.256 - Read-Only Gateway Path Code Inspection Pass With Findings Review and Decision
+
+- Accepted the v0.6.255 Read-Only Gateway Path Code Inspection Pass With Findings Candidate for future symbol-level tracing and later scoped implementation planning consideration.
+- Recorded `read_only_gateway_path_code_inspection_pass_with_findings_review_completed = true`, `read_only_gateway_path_code_inspection_pass_with_findings_candidate_accepted = true`, and `candidate_findings_accepted_for_symbol_level_tracing = true`.
+- Preserved the boundary that candidate findings are not accepted defects, not integration proof, not missing-integration proof, and not implementation changes.
+- Preserved `symbol_level_tracing_completed = false`.
+- Preserved the boundary that no symbol-level tracing result, code-inspection report, verification report, gateway behavior change, adapter behavior change, schema behavior change, runtime behavior change, scanner behavior change, fixture, record candidate artifact, actual record, README front-page rewrite, publication approval, or public announcement is created in v0.6.256.
+- Preserved claim boundaries: runtime demo remains necessary but deferred, publication remains deferred, validator success is structural only, and evidence supports reconstruction; it does not prove legal truth.
+
+
 ## v0.6.255 - Read-Only Gateway Path Code Inspection Pass With Findings Candidate
 
 - Created a read-only Gateway Path Code Inspection Pass With Findings Candidate.
