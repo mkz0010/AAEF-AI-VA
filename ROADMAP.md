@@ -3651,3 +3651,32 @@ Current boundaries remain:
 - no publication approval
 - no public announcement
 - no legal compliance, audit sufficiency, certification, diagnostic completeness, or external-framework equivalence claim
+
+## After v0.6.270
+
+v0.6.270 performs the first narrower manual trace review and creates non-claim manual trace review records.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.271 Narrower Manual Trace Review Review and Decision
+~~~
+
+Current boundaries remain:
+
+- no manual trace review conclusions
+- no accepted defect records
+- no code-inspection report
+- no gateway-path integration verification report
+- no gateway behavior change
+- no adapter behavior change
+- no schema behavior change
+- no runtime behavior change
+- no scanner behavior change
+- no fixture creation
+- no record candidate artifact creation
+- no actual record creation
+- no README front-page rewrite
+- no publication approval
+- no public announcement
+- no legal compliance, audit sufficiency, certification, diagnostic completeness, or external-framework equivalence claim

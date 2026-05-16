@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.6.270 - Narrower Manual Trace Review
+
+- Performed the first narrower manual trace review.
+- Recorded `narrower_manual_trace_review_performed = true`, `narrower_manual_trace_review_completed = true`, and `narrower_manual_trace_review_id = narrower_manual_trace_review_v06270`.
+- Created manual trace review records, narrower manual trace review records, manual trace review results, manual trace review dispositions, manual trace review gap triage, and follow-up trace candidates.
+- Preserved `manual_trace_review_conclusions_created = false`, `manual_trace_review_report_findings_created = false`, `accepted_defect_records_created = false`, `code_inspection_report_created = false`, and `gateway_path_integration_verification_report_created = false`.
+- Preserved the boundary that no accepted defect record, code-inspection report, verification report, gateway behavior change, adapter behavior change, schema behavior change, runtime behavior change, scanner behavior change, fixture, record candidate artifact, actual record, README front-page rewrite, publication approval, or public announcement is created in v0.6.270.
+- Preserved claim boundaries: runtime demo remains necessary but deferred, publication remains deferred, validator success is structural only, manual trace review records are not accepted defects, manual trace review results are not report findings, manual trace review dispositions are not implementation changes, and evidence supports reconstruction; it does not prove legal truth.
+- Structural token coverage includes `manual_trace_review_scope`, `manual_trace_review_gap_triage`, `readme_front_page_rewritten = false`, and `repository_metadata_changed = false`.
+
+
 ## v0.6.269 - Next Work Selection Using Risk-Tiered Granularity
 
 - Selected `narrower_manual_trace_review` as the next work item after accepting the Narrower Manual Trace Review Candidate.
