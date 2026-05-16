@@ -2927,3 +2927,32 @@ Current boundaries remain:
 - no publication approval
 - no public announcement
 - no legal compliance, audit sufficiency, certification, diagnostic completeness, or external-framework equivalence claim
+
+## After v0.6.248
+
+v0.6.248 selects `gateway_path_code_inspection_checkpoint` as the next work item.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.249 Gateway Path Code Inspection Checkpoint Candidate
+~~~
+
+The next checkpoint should create a documentation-only code-inspection checkpoint candidate that inspects the gateway execution path against the accepted verification inventory.
+
+Current boundaries remain:
+
+- no code inspection performed yet
+- no gateway-path integration verification report
+- no gateway behavior change
+- no adapter behavior change
+- no schema behavior change
+- no runtime behavior change
+- no scanner behavior change
+- no fixture creation
+- no record candidate artifact creation
+- no actual record creation
+- no README front-page rewrite
+- no publication approval
+- no public announcement
+- no legal compliance, audit sufficiency, certification, diagnostic completeness, or external-framework equivalence claim

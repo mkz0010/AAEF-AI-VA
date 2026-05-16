@@ -3009,3 +3009,17 @@ This checkpoint records `gateway_execution_path_integration_verification_candida
 It does not create a verification report, perform code inspection, change gateway behavior, change adapter behavior, change schema behavior, change runtime behavior, change scanner behavior, create fixtures, create record candidate artifacts, create actual records, rewrite the README front page, approve publication, or publish an announcement.
 
 Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. No private generated outputs are moved public in v0.6.247.
+
+## v0.6.248 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.248 selects the next work item after the accepted v0.6.247 Gateway Execution Path Integration Verification Review and Decision.
+
+Selected work item:
+
+~~~text
+gateway_path_code_inspection_checkpoint
+~~~
+
+This is selection only. v0.6.248 does not perform code inspection, create a verification report, change gateway behavior, change adapter behavior, change schema behavior, change runtime behavior, change scanner behavior, create fixtures, create record candidate artifacts, create actual records, rewrite the README front page, change repository metadata, approve publication, or publish an announcement.
+
+Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. No private generated outputs are moved public in v0.6.248.
