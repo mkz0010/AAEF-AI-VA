@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.6.250 - Gateway Path Code Inspection Checkpoint Review and Decision
+
+- Accepted the v0.6.249 documentation-only Gateway Path Code Inspection Checkpoint Candidate for a future read-only gateway path code inspection pass.
+- Recorded `gateway_path_code_inspection_checkpoint_candidate_review_completed = true`, `gateway_path_code_inspection_checkpoint_candidate_accepted = true`, `future_read_only_gateway_path_code_inspection_pass_accepted = true`, `future_code_inspection_target_inventory_accepted = true`, `future_code_inspection_dimensions_accepted = true`, `future_code_inspection_method_accepted = true`, `future_code_inspection_findings_format_accepted = true`, and `future_code_inspection_summary_fields_accepted = true`.
+- Preserved the boundary that no code inspection findings, verification report, gateway behavior change, adapter behavior change, schema behavior change, runtime behavior change, scanner behavior change, fixture, record candidate artifact, actual record, README front-page rewrite, publication approval, or public announcement is created in v0.6.250.
+- Preserved claim boundaries: runtime demo remains necessary but deferred, publication remains deferred, validator success is structural only, and evidence supports reconstruction; it does not prove legal truth.
+
+
 ## v0.6.249 - Gateway Path Code Inspection Checkpoint Candidate
 
 - Created a documentation-only Gateway Path Code Inspection Checkpoint Candidate.
