@@ -3837,3 +3837,38 @@ Current boundaries remain:
 - no publication approval
 - no public announcement
 - no legal compliance, audit sufficiency, certification, diagnostic completeness, or external-framework equivalence claim
+
+## After v0.6.275
+
+v0.6.275 selects `manual_trace_review_follow_up_trace` as the next work item.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.276 Manual Trace Review Follow-Up Trace
+~~~
+
+The next checkpoint should perform or instantiate the first follow-up trace within the accepted non-modifying boundaries.
+
+Current boundaries remain:
+
+- no follow-up trace records
+- no follow-up trace results
+- no follow-up trace conclusions
+- no manual trace review conclusions
+- no manual trace review report findings
+- no accepted defect records
+- no code-inspection report
+- no gateway-path integration verification report
+- no gateway behavior change
+- no adapter behavior change
+- no schema behavior change
+- no runtime behavior change
+- no scanner behavior change
+- no fixture creation
+- no record candidate artifact creation
+- no actual record creation
+- no README front-page rewrite
+- no publication approval
+- no public announcement
+- no legal compliance, audit sufficiency, certification, diagnostic completeness, or external-framework equivalence claim

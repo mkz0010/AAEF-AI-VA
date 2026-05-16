@@ -351,6 +351,7 @@ def main() -> int:
         "tools/test_v06272_next_work_selection_using_risk_tiered_granularity.py",
         "tools/test_v06273_manual_trace_review_follow_up_trace_candidate.py",
         "tools/test_v06274_manual_trace_review_follow_up_trace_candidate_review_and_decision.py",
+        "tools/test_v06275_next_work_selection_using_risk_tiered_granularity.py",
     ]
     for test_path in additional_version_tests:
         run([sys.executable, test_path])

@@ -1,5 +1,63 @@
 # Changelog
 
+## v0.6.275 - Next Work Selection Using Risk-Tiered Granularity
+
+- Selected `manual_trace_review_follow_up_trace` as the next work item after accepting the Manual Trace Review Follow-Up Trace Candidate.
+- Recorded `next_work_selection_completed = true`, `manual_trace_review_follow_up_trace_selected = true`, `manual_trace_review_follow_up_trace_candidate_accepted = true`, and `future_manual_trace_review_follow_up_trace_accepted = true`.
+- Preserved `manual_trace_review_follow_up_trace_performed = false`, `manual_trace_review_follow_up_trace_records_created = false`, `manual_trace_review_follow_up_trace_results_created = false`, `manual_trace_review_conclusions_created = false`, `accepted_defect_records_created = false`, `code_inspection_report_created = false`, and `gateway_path_integration_verification_report_created = false`.
+- Deferred accepted defect candidate planning, code-inspection report candidate creation, and gateway-path integration verification report creation until follow-up trace records/results are created and reviewed.
+- Preserved the boundary that no follow-up trace record, follow-up trace result, accepted defect record, code-inspection report, verification report, gateway behavior change, adapter behavior change, schema behavior change, runtime behavior change, scanner behavior change, fixture, record candidate artifact, actual record, README front-page rewrite, publication approval, or public announcement is created in v0.6.275.
+- Preserved claim boundaries: runtime demo remains necessary but deferred, publication remains deferred, validator success is structural only, follow-up trace selection is not follow-up trace execution, manual trace review records are not accepted defects, manual trace review results are not report findings, manual trace review dispositions are not implementation changes, and evidence supports reconstruction; it does not prove legal truth.
+- No private generated outputs are moved public in v0.6.275.
+
+Structural token coverage for v0.6.275:
+- manual_trace_review_follow_up_trace
+- manual_trace_review_follow_up_trace_candidate
+- manual_trace_review_follow_up_trace_candidate_v06273
+- manual_trace_review_follow_up_trace_candidate_review_completed
+- manual_trace_review_follow_up_trace_candidate_accepted
+- manual_trace_review_follow_up_trace_records
+- manual_trace_review_follow_up_trace_results
+- manual_trace_review_follow_up_trace_conclusions
+- future_manual_trace_review_follow_up_trace_accepted
+- future_follow_up_trace_candidate_lanes_accepted
+- future_follow_up_trace_candidate_questions_accepted
+- future_follow_up_trace_candidate_record_schema_accepted
+- follow_up_trace_candidate_lanes
+- follow_up_trace_candidate_questions
+- follow_up_trace_candidate_scope
+- follow_up_trace_candidate_record_schema
+- follow_up_trace_candidate_expected_outputs
+- follow_up_trace_candidate_non_claim_boundaries
+- follow_up_trace_candidate_procedure
+- manual_trace_review_records
+- manual_trace_review_results
+- manual_trace_review_dispositions
+- manual_trace_review_gap_triage
+- manual_trace_review_rationale
+- manual_trace_review_disposition
+- manual_trace_review_scope
+- lane_01_pre_dispatch_enforcement_review
+- lane_03_adapter_boundary_review
+- lane_05_evidence_linkage_review
+- verification_required statuses
+- manual_review_requires_follow_up
+- manual_review_candidate_for_follow_up_trace
+- manual_review_gap_triage_only
+- accepted defect candidate planning
+- code-inspection report candidate
+- gateway-path integration verification report candidate
+- Manual trace review records are not accepted defects.
+- Manual trace review results are not report findings.
+- Manual trace review dispositions are not implementation changes.
+- Follow-up trace candidate is not follow-up trace execution.
+- Follow-up trace candidate acceptance is not follow-up trace execution.
+- Follow-up trace selection is not follow-up trace execution.
+- No private generated outputs are moved public in v0.6.275.
+- readme_front_page_rewritten = false
+- repository_metadata_changed = false
+
+
 ## v0.6.274 - Manual Trace Review Follow-Up Trace Candidate Review and Decision
 
 - Accepted the v0.6.273 documentation-only Manual Trace Review Follow-Up Trace Candidate for a future follow-up trace.
