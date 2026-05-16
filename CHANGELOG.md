@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.265 - Read-Only Symbol-Level Tracing Pass Review and Decision
+
+- Accepted the v0.6.264 Read-Only Symbol-Level Tracing Pass as static inspection records for future manual trace review.
+- Recorded `read_only_symbol_level_tracing_pass_review_completed = true`, `read_only_symbol_level_tracing_pass_accepted = true`, and `read_only_symbol_level_tracing_pass_id = read_only_symbol_level_tracing_pass_v06264`.
+- Accepted source-file observation records, source-symbol observation records, call-path status records, symbol trace records, trace_record_schema, trace status vocabulary, pass-level counts, gap records for triage, and recommended next-action records for planning.
+- Recorded `recommended_next_work_item = narrower_manual_trace_review`.
+- Preserved the boundary that no accepted defect record, code-inspection report, verification report, gateway behavior change, adapter behavior change, schema behavior change, runtime behavior change, scanner behavior change, fixture, record candidate artifact, actual record, README front-page rewrite, publication approval, or public announcement is created in v0.6.265.
+- Preserved claim boundaries: runtime demo remains necessary but deferred, publication remains deferred, validator success is structural only, read-only symbol-level tracing results are static inspection records, observed source symbols are not proof of pre-dispatch enforcement, observed call-path status records are not full gateway integration proof, and evidence supports reconstruction; it does not prove legal truth.
+
+
 ## v0.6.264 - Read-Only Symbol-Level Tracing Pass
 
 - Performed the first read-only static symbol-level tracing pass.

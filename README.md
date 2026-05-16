@@ -3324,3 +3324,27 @@ gateway_path_integration_verification_report_created = false
 It does not create accepted defect records, create a code-inspection report, create a verification report, change gateway behavior, change adapter behavior, change schema behavior, change runtime behavior, change scanner behavior, create fixtures, create record candidate artifacts, create actual records, rewrite the README front page, change repository metadata, approve publication, or publish an announcement.
 
 Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. Read-only symbol-level tracing results are static inspection records. Observed source symbols are not proof of pre-dispatch enforcement. Observed call-path status records are not full gateway integration proof. No private generated outputs are moved public in v0.6.264.
+
+## v0.6.265 Read-Only Symbol-Level Tracing Pass Review and Decision
+
+v0.6.265 accepts the v0.6.264 Read-Only Symbol-Level Tracing Pass as static inspection records for future manual trace review.
+
+This checkpoint records:
+
+~~~text
+read_only_symbol_level_tracing_pass_review_completed = true
+read_only_symbol_level_tracing_pass_accepted = true
+read_only_symbol_level_tracing_pass_id = read_only_symbol_level_tracing_pass_v06264
+source_file_observation_records_accepted = true
+source_symbol_observation_records_accepted = true
+call_path_status_records_accepted = true
+symbol_trace_records_accepted = true
+recommended_next_work_item = narrower_manual_trace_review
+accepted_defect_records_created = false
+code_inspection_report_created = false
+gateway_path_integration_verification_report_created = false
+~~~
+
+It does not create accepted defect records, create a code-inspection report, create a verification report, change gateway behavior, change adapter behavior, change schema behavior, change runtime behavior, change scanner behavior, create fixtures, create record candidate artifacts, create actual records, rewrite the README front page, change repository metadata, approve publication, or publish an announcement.
+
+Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. Read-only symbol-level tracing results are static inspection records. Observed source symbols are not proof of pre-dispatch enforcement. Observed call-path status records are not full gateway integration proof. No private generated outputs are moved public in v0.6.265.
