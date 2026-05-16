@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.245 - Next Work Selection Using Risk-Tiered Granularity
+
+- Selected `gateway_execution_path_integration_verification` as the next work item after external security practitioner review intake and priority reassessment.
+- Recorded `next_work_selection_completed = true`, `gateway_execution_path_integration_verification_selected = true`, and `gateway_execution_path_integration_verification_candidate_created = false`.
+- Deferred `record_candidate_artifact_creation_candidate` work while preserving it as a later valid direction.
+- Preserved the boundary that no gateway behavior, adapter behavior, schema behavior, runtime behavior, scanner behavior, fixtures, record candidate artifacts, actual records, README front-page rewrite, publication approval, or public announcement are changed in v0.6.245.
+- Preserved claim boundaries: runtime demo remains necessary but deferred, publication remains deferred, validator success is structural only, and evidence supports reconstruction; it does not prove legal truth.
+
+
 ## v0.6.244 - External Security Practitioner Review Intake and Priority Reassessment
 
 - Recorded intake of an external security practitioner review.

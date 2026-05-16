@@ -2960,3 +2960,17 @@ reassessed_next_priority = gateway_execution_path_integration_verification
 This checkpoint does not change gateway behavior, adapter behavior, schema behavior, runtime behavior, scanner behavior, fixtures, record candidate artifacts, actual records, README front-page positioning, repository metadata, publication approval, or public announcements.
 
 Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. No private generated outputs are moved public in v0.6.244.
+
+## v0.6.245 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.245 selects the next work item after the v0.6.244 external security practitioner review intake and priority reassessment.
+
+Selected work item:
+
+~~~text
+gateway_execution_path_integration_verification
+~~~
+
+This is selection only. v0.6.245 does not change gateway behavior, adapter behavior, schema behavior, runtime behavior, scanner behavior, fixtures, record candidate artifacts, actual records, README front-page positioning, repository metadata, publication approval, or public announcement.
+
+Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. No private generated outputs are moved public in v0.6.245.

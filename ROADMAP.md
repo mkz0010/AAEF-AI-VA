@@ -2833,3 +2833,39 @@ gateway_execution_path_integration_verification
 Candidate follow-up directions include README entrypoint compression planning, mock/dry-run versus real execution status separation review, safe local live demo planning, human approval authenticity planning, evidence tamper-evidence planning, repository metadata scanner-misread cleanup, and later resumption of `record_candidate_artifact_creation_candidate`.
 
 Current boundaries remain: no gateway behavior change, no adapter behavior change, no schema behavior change, no runtime behavior change, no scanner behavior change, no fixture creation, no record candidate artifact creation, no actual record creation, no README front-page rewrite, no publication approval, no public announcement, and no legal compliance, audit sufficiency, certification, diagnostic completeness, or external-framework equivalence claim.
+
+## After v0.6.245
+
+v0.6.245 selects `gateway_execution_path_integration_verification` as the next work item.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.246 Gateway Execution Path Integration Verification Candidate
+~~~
+
+The next checkpoint should create a documentation-only verification candidate that inventories whether critical helpers and controls are integrated into the gateway execution path, including:
+
+- `authorization_expiry_current_time`
+- `request_decision_constraint_diff_enforcement`
+- `external_discovery_fail_closed_behavior`
+- `scope_registry` runtime target validity checks
+- `mock_dry_run_completed_status_terminology`
+- `credential_ref` resolution boundary
+- `human_approval` gate boundary
+- execution status separation between mock, dry-run, non-execution, and future real execution
+
+Current boundaries remain:
+
+- no gateway behavior change
+- no adapter behavior change
+- no schema behavior change
+- no runtime behavior change
+- no scanner behavior change
+- no fixture creation
+- no record candidate artifact creation
+- no actual record creation
+- no README front-page rewrite
+- no publication approval
+- no public announcement
+- no legal compliance, audit sufficiency, certification, diagnostic completeness, or external-framework equivalence claim
