@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.251 - Next Work Selection Using Risk-Tiered Granularity
+
+- Selected `read_only_gateway_path_code_inspection_pass` as the next work item after accepting the Gateway Path Code Inspection Checkpoint Candidate.
+- Recorded `next_work_selection_completed = true`, `read_only_gateway_path_code_inspection_pass_selected = true`, `read_only_gateway_path_code_inspection_pass_candidate_created = false`, and `read_only_gateway_path_code_inspection_performed = false`.
+- Deferred code-inspection report and gateway-path integration verification report creation until after the read-only inspection pass.
+- Preserved the boundary that no code inspection findings, code-inspection report, verification report, gateway behavior change, adapter behavior change, schema behavior change, runtime behavior change, scanner behavior change, fixture, record candidate artifact, actual record, README front-page rewrite, publication approval, or public announcement is created in v0.6.251.
+- Preserved claim boundaries: runtime demo remains necessary but deferred, publication remains deferred, validator success is structural only, and evidence supports reconstruction; it does not prove legal truth.
+
+
 ## v0.6.250 - Gateway Path Code Inspection Checkpoint Review and Decision
 
 - Accepted the v0.6.249 documentation-only Gateway Path Code Inspection Checkpoint Candidate for a future read-only gateway path code inspection pass.
