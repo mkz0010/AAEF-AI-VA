@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.268 - Narrower Manual Trace Review Candidate Review and Decision
+
+- Accepted the v0.6.267 documentation-only Narrower Manual Trace Review Candidate for a future narrower manual trace review.
+- Recorded `narrower_manual_trace_review_candidate_review_completed = true`, `narrower_manual_trace_review_candidate_accepted = true`, and `future_narrower_manual_trace_review_accepted = true`.
+- Accepted future manual trace review lanes, input records, review questions, disposition vocabulary, record schema, output fields, candidate procedure, and non-claim boundaries.
+- Preserved the boundary that no manual trace review record, accepted defect record, code-inspection report, verification report, gateway behavior change, adapter behavior change, schema behavior change, runtime behavior change, scanner behavior change, fixture, record candidate artifact, actual record, README front-page rewrite, publication approval, or public announcement is created in v0.6.268.
+- Preserved claim boundaries: runtime demo remains necessary but deferred, publication remains deferred, validator success is structural only, manual review questions are not manual review conclusions, gap records are not accepted defects, and evidence supports reconstruction; it does not prove legal truth.
+- Structural token coverage includes `manual_trace_review_scope`, `readme_front_page_rewritten = false`, and `repository_metadata_changed = false`.
+
+
 ## v0.6.267 - Narrower Manual Trace Review Candidate
 
 - Created a documentation-only Narrower Manual Trace Review Candidate.

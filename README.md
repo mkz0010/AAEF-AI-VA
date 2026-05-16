@@ -3401,3 +3401,30 @@ gateway_path_integration_verification_report_created = false
 It does not perform manual trace review, create manual trace review records, create accepted defect records, create a code-inspection report, create a verification report, change gateway behavior, change adapter behavior, change schema behavior, change runtime behavior, change scanner behavior, create fixtures, create record candidate artifacts, create actual records, rewrite the README front page, change repository metadata, approve publication, or publish an announcement.
 
 Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. Manual review questions are not manual review conclusions. Gap records are not accepted defects. No private generated outputs are moved public in v0.6.267.
+
+## v0.6.268 Narrower Manual Trace Review Candidate Review and Decision
+
+v0.6.268 accepts the v0.6.267 documentation-only Narrower Manual Trace Review Candidate for a future narrower manual trace review.
+
+This checkpoint records:
+
+~~~text
+narrower_manual_trace_review_candidate_review_completed = true
+narrower_manual_trace_review_candidate_accepted = true
+narrower_manual_trace_review_candidate_id = narrower_manual_trace_review_candidate_v06267
+future_narrower_manual_trace_review_accepted = true
+future_manual_trace_review_lanes_accepted = true
+future_manual_trace_review_questions_accepted = true
+future_manual_trace_review_record_schema_accepted = true
+narrower_manual_trace_review_performed = false
+manual_trace_review_records_created = false
+accepted_defect_records_created = false
+code_inspection_report_created = false
+gateway_path_integration_verification_report_created = false
+~~~
+
+It does not perform manual trace review, create manual trace review records, create accepted defect records, create a code-inspection report, create a verification report, change gateway behavior, change adapter behavior, change schema behavior, change runtime behavior, change scanner behavior, create fixtures, create record candidate artifacts, create actual records, rewrite the README front page, change repository metadata, approve publication, or publish an announcement.
+
+Runtime demo remains necessary but deferred. Publication remains deferred. Evidence supports reconstruction; it does not prove legal truth. Manual review questions are not manual review conclusions. Gap records are not accepted defects. No private generated outputs are moved public in v0.6.268.
+
+Structural token coverage: `manual_trace_review_scope`, `readme_front_page_rewritten = false`, and `repository_metadata_changed = false`.
