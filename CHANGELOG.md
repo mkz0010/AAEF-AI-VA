@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.260 - Next Work Selection Using Risk-Tiered Granularity
+
+- Selected `read_only_symbol_level_tracing_pass_candidate` as the next work item after accepting the Symbol-Level Tracing Planning Candidate for a future read-only symbol-level tracing pass.
+- Recorded `next_work_selection_completed = true`, `read_only_symbol_level_tracing_pass_candidate_selected = true`, `read_only_symbol_level_tracing_pass_candidate_created = false`, `symbol_level_tracing_completed = false`, and `symbol_level_tracing_results_created = false`.
+- Deferred narrower symbol trace inventory, code-inspection report, and gateway-path integration verification report creation until a read-only symbol-level tracing pass candidate is created and reviewed.
+- Preserved the boundary that no symbol-level tracing result, accepted defect record, code-inspection report, verification report, gateway behavior change, adapter behavior change, schema behavior change, runtime behavior change, scanner behavior change, fixture, record candidate artifact, actual record, README front-page rewrite, publication approval, or public announcement is created in v0.6.260.
+- Preserved claim boundaries: runtime demo remains necessary but deferred, publication remains deferred, validator success is structural only, planned symbol candidates are not observed symbols, planned call paths are not observed call paths, and evidence supports reconstruction; it does not prove legal truth.
+
+
 ## v0.6.259 - Symbol-Level Tracing Planning Review and Decision
 
 - Accepted the v0.6.258 documentation-only Symbol-Level Tracing Planning Candidate for a future read-only symbol-level tracing pass.
