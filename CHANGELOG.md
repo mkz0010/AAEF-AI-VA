@@ -1,5 +1,41 @@
 # Changelog
 
+## v0.6.294 - Safe Mock Demo Pre-Public Boundary Review Candidate
+
+- Created a documentation-only Safe Mock Demo Pre-Public Boundary Review Candidate.
+- Recorded `safe_mock_demo_pre_public_boundary_review_candidate_created = true`, `safe_mock_demo_pre_public_boundary_review_candidate_id = safe_mock_demo_pre_public_boundary_review_candidate_v06294`, and `safe_mock_demo_pre_public_boundary_review_candidate_status = candidate_not_applied`.
+- Defined pre-public boundary questions, required checks, public wording checks, private artifact checks, demo command checks, claim boundary checks, release blockers, review inputs, and expected decisions.
+- Recorded `recommended_next_work_item = safe_mock_demo_pre_public_boundary_review_candidate_review_and_decision`.
+- Preserved `safe_mock_demo_public_artifact_promotion_created = false`, `publication_approval = false`, `runtime_demo_ready = false`, `execution_authorized = false`, and `real_execution_permitted = false`.
+- Preserved claim boundaries: pre-public boundary review candidate is not publication approval, public artifact promotion, runtime demo readiness, scanner readiness, or production readiness.
+- No private generated outputs are moved public in v0.6.294.
+
+- v0.6.294 Safe Mock Demo Pre-Public Boundary Review Candidate
+- Previous checkpoint: v0.6.293 Next Work Selection Using Risk-Tiered Granularity
+- safe_mock_demo_pre_public_boundary_review_candidate
+- safe_mock_demo_pre_public_boundary_review_candidate_v06294
+- safe_mock_demo_pre_public_boundary_review_candidate_review_and_decision
+- safe mock demo pre-public boundary review
+- safe mock demo is not live scanner execution
+- private-not-in-git
+- allowed-action: completed
+- denied-action: blocked
+- human-approval-required: requires_human_approval
+- runtime readiness status: not_detected_execution_blocked
+- target lab gate status: target_defined_execution_blocked
+- binding gate status: bound_execution_blocked
+- transition gate status: candidate_recorded_execution_blocked
+- execution authorized: False
+- real execution permitted: False
+- pre-public boundary review candidate is not publication approval
+- pre-public boundary review candidate is not public artifact promotion
+- pre-public boundary review candidate is not runtime demo readiness
+- pre-public boundary review candidate is not scanner readiness
+- pre-public boundary review candidate is not production readiness
+- No private generated outputs are moved public in v0.6.294.
+- v0.6.295 Safe Mock Demo Pre-Public Boundary Review Candidate Review and Decision
+
+
 ## v0.6.293 - Next Work Selection Using Risk-Tiered Granularity
 
 - Selected `safe_mock_demo_pre_public_boundary_review_candidate` as the next work item.
