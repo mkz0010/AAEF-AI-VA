@@ -1,5 +1,54 @@
 # Changelog
 
+## v0.6.291 - Safe Mock Demo Initial Path Hardening
+
+- Applied documentation-only hardening to the selected safe mock demo initial path.
+- Recorded `safe_mock_demo_initial_path_hardening_applied = true`, `safe_mock_demo_initial_path_hardening_completed = true`, and `safe_mock_demo_initial_path_hardening_id = safe_mock_demo_initial_path_hardening_v06291`.
+- Hardened safe mock demo command clarity, expected status explanation, private artifact boundary, reviewer walkthrough boundary, non-live-scanner warning, and local-only runtime separation.
+- Recorded `recommended_next_work_item = safe_mock_demo_initial_path_hardening_review_and_decision`.
+- Preserved `safe_mock_demo_public_artifact_promotion_created = false`, `publication_approval = false`, `runtime_demo_ready = false`, `execution_authorized = false`, and `real_execution_permitted = false`.
+- Preserved claim boundaries: safe mock demo hardening is not publication approval, public artifact promotion, runtime demo readiness, scanner readiness, or production readiness.
+- No private generated outputs are moved public in v0.6.291.
+
+- safe_mock_demo_initial_path_hardening
+- safe_mock_demo_initial_path_hardening_v06291
+- safe_mock_demo_initial_path_hardening_review_and_decision
+- safe_mock_demo_initial_path_hardening_candidate_v06289
+- safe_mock_demo_initial_path_hardening_candidate_review_and_decision
+- safe_mock_demo_initial_path
+- safe_runnable_demo_path_selection_v06288
+- safe mock demo
+- safe mock demo path hardening
+- safe mock demo command clarity
+- safe mock demo expected status explanation
+- safe mock demo private artifact boundary
+- safe mock demo reviewer walkthrough boundary
+- safe mock demo non-live-scanner warning
+- safe mock demo local-only runtime separation
+- safe mock demo public positioning
+- safe mock demo is not live scanner execution
+- private-not-in-git
+- allowed-action: completed
+- denied-action: blocked
+- human-approval-required: requires_human_approval
+- local-only runnable demo
+- real scanner execution remains blocked
+- runtime readiness status: not_detected_execution_blocked
+- target lab gate status: target_defined_execution_blocked
+- binding gate status: bound_execution_blocked
+- transition gate status: candidate_recorded_execution_blocked
+- execution authorized: False
+- real execution permitted: False
+- safe mock demo hardening is not publication approval
+- safe mock demo hardening is not public artifact promotion
+- safe mock demo hardening is not runtime demo readiness
+- safe mock demo hardening is not scanner readiness
+- safe mock demo hardening is not production readiness
+- No private generated outputs are moved public in v0.6.291.
+- readme_front_page_rewritten = false
+- repository_metadata_changed = false
+
+
 ## v0.6.290 - Safe Mock Demo Initial Path Hardening Candidate Review and Decision
 
 - Accepted the v0.6.289 Safe Mock Demo Initial Path Hardening Candidate for future hardening work.
