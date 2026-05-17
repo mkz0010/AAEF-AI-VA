@@ -4293,3 +4293,26 @@ Current boundaries remain:
 - no gateway behavior change
 - no runtime behavior change
 - no scanner behavior change
+
+## After v0.6.292
+
+v0.6.292 accepts the documentation-only safe mock demo initial path hardening.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.293 Next Work Selection Using Risk-Tiered Granularity
+~~~
+
+Current boundaries remain:
+
+- no public artifact promotion
+- no publication approval
+- no runtime demo readiness
+- no scanner readiness
+- no execution authorization
+- no real execution permitted
+- no local-only demo execution boundary candidate
+- no gateway behavior change
+- no runtime behavior change
+- no scanner behavior change

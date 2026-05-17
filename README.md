@@ -4698,3 +4698,60 @@ This is documentation-only hardening. Safe mock demo hardening is not publicatio
 - No private generated outputs are moved public in v0.6.291.
 - readme_front_page_rewritten = false
 - repository_metadata_changed = false
+
+## v0.6.292 Safe Mock Demo Initial Path Hardening Review and Decision
+
+v0.6.292 accepts the v0.6.291 documentation-only safe mock demo initial path hardening.
+
+This checkpoint records:
+
+~~~text
+safe_mock_demo_initial_path_hardening_review_completed = true
+safe_mock_demo_initial_path_hardening_accepted = true
+safe_mock_demo_initial_path_hardening_id = safe_mock_demo_initial_path_hardening_v06291
+safe_mock_demo_initial_path_hardening_review_result = accepted_as_documentation_only_safe_mock_demo_path_hardening
+recommended_next_work_item = next_work_selection_using_risk_tiered_granularity
+next_work_selection_recommended = true
+safe_mock_demo_public_artifact_promotion_created = false
+publication_approval = false
+runtime_demo_ready = false
+execution_authorized = false
+real_execution_permitted = false
+~~~
+
+This is review only. Safe mock demo hardening review is not publication approval. Safe mock demo hardening review is not public artifact promotion. Safe mock demo hardening review is not runtime demo readiness. Safe mock demo hardening review is not scanner readiness. Safe mock demo hardening review is not production readiness. No private generated outputs are moved public in v0.6.292.
+
+- safe_mock_demo_initial_path_hardening_review_and_decision
+- safe_mock_demo_initial_path_hardening_review_completed
+- safe_mock_demo_initial_path_hardening_accepted
+- safe_mock_demo_initial_path_hardening_v06291
+- safe_mock_demo_initial_path_hardening
+- safe_mock_demo_initial_path
+- safe mock demo
+- safe mock demo command clarity
+- safe mock demo expected status explanation
+- safe mock demo private artifact boundary
+- safe mock demo reviewer walkthrough boundary
+- safe mock demo non-live-scanner warning
+- safe mock demo local-only runtime separation
+- safe mock demo is not live scanner execution
+- private-not-in-git
+- allowed-action: completed
+- denied-action: blocked
+- human-approval-required: requires_human_approval
+- local-only runnable demo
+- real scanner execution remains blocked
+- runtime readiness status: not_detected_execution_blocked
+- target lab gate status: target_defined_execution_blocked
+- binding gate status: bound_execution_blocked
+- transition gate status: candidate_recorded_execution_blocked
+- execution authorized: False
+- real execution permitted: False
+- safe mock demo hardening review is not publication approval
+- safe mock demo hardening review is not public artifact promotion
+- safe mock demo hardening review is not runtime demo readiness
+- safe mock demo hardening review is not scanner readiness
+- safe mock demo hardening review is not production readiness
+- No private generated outputs are moved public in v0.6.292.
+- readme_front_page_rewritten = false
+- repository_metadata_changed = false

@@ -368,6 +368,7 @@ def main() -> int:
         "tools/test_v06289_safe_mock_demo_initial_path_hardening_candidate.py",
         "tools/test_v06290_safe_mock_demo_initial_path_hardening_candidate_review_and_decision.py",
         "tools/test_v06291_safe_mock_demo_initial_path_hardening.py",
+        "tools/test_v06292_safe_mock_demo_initial_path_hardening_review_and_decision.py",
     ]
     for test_path in additional_version_tests:
         run([sys.executable, test_path])
