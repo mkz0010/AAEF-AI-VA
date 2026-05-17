@@ -4316,3 +4316,27 @@ Current boundaries remain:
 - no gateway behavior change
 - no runtime behavior change
 - no scanner behavior change
+
+## After v0.6.293
+
+v0.6.293 selects `safe_mock_demo_pre_public_boundary_review_candidate` as the next work item.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.294 Safe Mock Demo Pre-Public Boundary Review Candidate
+~~~
+
+Current boundaries remain:
+
+- no pre-public boundary review candidate created yet
+- no public artifact promotion
+- no publication approval
+- no runtime demo readiness
+- no scanner readiness
+- no execution authorization
+- no real execution permitted
+- no local-only demo execution boundary candidate
+- no gateway behavior change
+- no runtime behavior change
+- no scanner behavior change
