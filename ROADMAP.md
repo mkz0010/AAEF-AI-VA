@@ -5115,3 +5115,32 @@ Current boundaries remain:
 - no gateway behavior change
 - no runtime behavior change
 - no scanner behavior change
+
+## After v0.6.324
+
+v0.6.324 accepts the integration plan candidate for the accepted safe local-only runnable demo public positioning wording.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.325 Safe Local-Only Runnable Demo Public Positioning Integration Implementation Candidate
+~~~
+
+Current boundaries remain:
+
+- no public positioning integration implementation candidate created
+- no README front page rewrite
+- no repository metadata change
+- no public demo readiness
+- no publication approval
+- no public announcement
+- no customer demo approval
+- no runtime demo readiness
+- no scanner readiness
+- no execution authorization
+- no real execution permitted
+- no external target authorization
+- no safe local-only demo execution boundary runtime-applied
+- no gateway behavior change
+- no runtime behavior change
+- no scanner behavior change

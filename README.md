@@ -6839,3 +6839,79 @@ This is integration plan candidate only. Safe local-only runnable demo public po
 - No private generated outputs are moved public in v0.6.323.
 - readme_front_page_rewritten = false
 - repository_metadata_changed = false
+
+## v0.6.324 Safe Local-Only Runnable Demo Public Positioning Integration Plan Candidate Review and Decision
+
+v0.6.324 accepts the v0.6.323 integration plan candidate for the accepted safe local-only runnable demo public positioning wording.
+
+This checkpoint records:
+
+~~~text
+safe_local_only_runnable_demo_public_positioning_integration_plan_candidate_review_completed = true
+safe_local_only_runnable_demo_public_positioning_integration_plan_candidate_accepted = true
+safe_local_only_runnable_demo_public_positioning_integration_plan_candidate_id = safe_local_only_runnable_demo_public_positioning_integration_plan_candidate_v06323
+safe_local_only_runnable_demo_public_positioning_integration_plan_candidate_review_result = accepted_as_integration_plan_candidate_not_applied
+safe_local_only_runnable_demo_public_positioning_integration_plan_candidate_status = accepted_not_implemented_public_ready_false
+integration_plan_candidate_readme_landing_section_accepted = true
+integration_plan_candidate_readme_demo_path_section_accepted = true
+integration_plan_candidate_no_front_page_rewrite_accepted = true
+integration_plan_candidate_no_repository_metadata_change_accepted = true
+integration_implementation_candidate_needed = true
+safe_local_only_runnable_demo_ready = true
+safe_local_only_runnable_demo_public_ready = false
+publication_approval = false
+runtime_demo_ready = false
+execution_authorized = false
+real_execution_permitted = false
+external_target_authorization = false
+recommended_next_work_item = safe_local_only_runnable_demo_public_positioning_integration_implementation_candidate
+~~~
+
+This is review only. Safe local-only runnable demo public positioning integration plan review is not publication approval. Safe local-only runnable demo public positioning integration plan review is not public demo readiness. Safe local-only runnable demo public positioning integration plan review is not customer demo readiness. Safe local-only runnable demo public positioning integration plan review is not execution authorization. Safe local-only runnable demo public positioning integration plan review is not runtime demo readiness. Safe local-only runnable demo public positioning integration plan review is not scanner readiness. Safe local-only runnable demo public positioning integration plan review is not production readiness. Safe local-only runnable demo public positioning integration plan review is not external target authorization. No private generated outputs are moved public in v0.6.324.
+
+- safe_local_only_runnable_demo_public_positioning_integration_plan_candidate_review_and_decision
+- safe_local_only_runnable_demo_public_positioning_integration_plan_candidate_review_completed
+- safe_local_only_runnable_demo_public_positioning_integration_plan_candidate_accepted
+- safe_local_only_runnable_demo_public_positioning_integration_plan_candidate_v06323
+- safe_local_only_runnable_demo_public_positioning_integration_plan_candidate
+- safe_local_only_runnable_demo_public_positioning_integration_implementation_candidate
+- safe_local_only_runnable_demo_public_positioning_candidate_v06321
+- safe_local_only_runnable_demo_public_positioning_candidate
+- safe_local_only_runnable_demo_reviewer_runbook_v06318
+- safe_local_only_runnable_demo_ready
+- mock_first_localhost_only_reviewer_demo
+- safe_local_only_runnable_demo_path_creation_v06315
+- safe_local_only_runnable_demo_path
+- safe_local_only_runnable_demo_path_v06310
+- safe_local_only_demo_execution_boundary_v06306
+- safe_local_only_demo_execution_boundary
+- localhost_only
+- loopback-only target boundary
+- mock_first_no_live_scanner_default
+- external target authorization remains false
+- safe_mock_demo_public_artifact
+- docs/public-artifacts/safe-mock-demo-public-artifact.md
+- safe mock demo
+- private-not-in-git
+- AI requests; gates decide
+- allowed-action: completed
+- denied-action: blocked
+- human-approval-required: requires_human_approval
+- real scanner execution remains blocked
+- runtime readiness status: not_detected_execution_blocked
+- target lab gate status: target_defined_execution_blocked
+- binding gate status: bound_execution_blocked
+- transition gate status: candidate_recorded_execution_blocked
+- execution authorized: False
+- real execution permitted: False
+- safe local-only runnable demo public positioning integration plan review is not publication approval
+- safe local-only runnable demo public positioning integration plan review is not public demo readiness
+- safe local-only runnable demo public positioning integration plan review is not customer demo readiness
+- safe local-only runnable demo public positioning integration plan review is not execution authorization
+- safe local-only runnable demo public positioning integration plan review is not runtime demo readiness
+- safe local-only runnable demo public positioning integration plan review is not scanner readiness
+- safe local-only runnable demo public positioning integration plan review is not production readiness
+- safe local-only runnable demo public positioning integration plan review is not external target authorization
+- No private generated outputs are moved public in v0.6.324.
+- readme_front_page_rewritten = false
+- repository_metadata_changed = false
