@@ -1,0 +1,134 @@
+# ADR-0423: Select Safe Local-Only Demo Minimal Runtime Wiring Implementation Readiness Review
+
+Status: accepted
+Date: 2026-05-18
+Version: v0.6.348
+
+## Context
+
+v0.6.347 closed the safe local-only demo minimal runtime wiring change candidate track with runtime-wiring-changed false.
+
+## Decision
+
+Select `safe_local_only_demo_minimal_runtime_wiring_implementation_readiness_review` as the next work item using risk-tiered granularity.
+
+## Decision record
+
+~~~text
+next_work_selection_using_risk_tiered_granularity_completed = true
+next_work_selection_using_risk_tiered_granularity_id = next_work_selection_using_risk_tiered_granularity_v06348
+next_work_selection_result = safe_local_only_demo_minimal_runtime_wiring_implementation_readiness_review
+selected_next_work_item = safe_local_only_demo_minimal_runtime_wiring_implementation_readiness_review
+selected_next_work_version = v0.6.349
+selected_next_work_title = Safe Local-Only Demo Minimal Runtime Wiring Implementation Readiness Review
+selected_next_work_scope = review_only_no_runtime_wiring_change
+selected_next_work_reason = minimal_runtime_wiring_change_track_closed_runtime_wiring_changed_false_requires_implementation_readiness_review_before_any_implementation_candidate
+selected_next_work_risk_tier = high_value_high_boundary_risk_review_only
+selected_next_work_granularity = single_minimal_runtime_wiring_implementation_readiness_review_checkpoint
+safe_local_only_demo_minimal_runtime_wiring_change_closeout_review_completed = true
+safe_local_only_demo_minimal_runtime_wiring_change_closeout_review_id = safe_local_only_demo_minimal_runtime_wiring_change_closeout_review_v06347
+safe_local_only_demo_minimal_runtime_wiring_change_closeout_review_result = track_closed_runtime_wiring_changed_false
+safe_local_only_demo_minimal_runtime_wiring_change_track_status = closed
+safe_local_only_demo_minimal_runtime_wiring_change_track_outcome = bounded_change_candidate_accepted_not_runtime_wiring_changed
+safe_local_only_demo_minimal_runtime_wiring_change_candidate_review_completed = true
+safe_local_only_demo_minimal_runtime_wiring_change_candidate_accepted = true
+safe_local_only_demo_minimal_runtime_wiring_change_candidate_id = safe_local_only_demo_minimal_runtime_wiring_change_candidate_v06345
+safe_local_only_demo_minimal_runtime_wiring_change_candidate_status = accepted_not_runtime_wiring_changed
+safe_local_only_demo_minimal_runtime_wiring_go_no_go_review_completed = true
+safe_local_only_demo_minimal_runtime_wiring_go_no_go_decision = conditional_go
+safe_local_only_demo_minimal_runtime_wiring_track_status = closed
+safe_local_only_demo_minimal_runtime_wiring_track_outcome = bounded_candidate_accepted_not_runtime_wiring_changed
+safe_local_only_demo_execution_boundary_review_completed = true
+safe_local_only_demo_execution_boundary_accepted = true
+safe_local_only_demo_execution_boundary_target_mode = localhost_only
+safe_local_only_demo_execution_boundary_status = accepted_not_runtime_applied
+safe_local_only_demo_execution_boundary_runtime_applied = false
+safe_local_only_demo_execution_boundary_applied = false
+safe_local_only_runnable_demo_ready = true
+safe_local_only_runnable_demo_ready_scope = mock_first_localhost_only_reviewer_demo
+safe_local_only_runnable_demo_public_ready = false
+publication_approval = false
+public_announcement = deferred
+runtime_demo_ready = false
+scanner_readiness_claim = false
+production_readiness_claim = false
+execution_authorized = false
+real_execution_permitted = false
+external_target_authorization = false
+minimal_runtime_wiring_implementation_readiness_review_selected = true
+minimal_runtime_wiring_implementation_readiness_review_created = false
+minimal_runtime_wiring_implementation_readiness_review_completed = false
+minimal_runtime_wiring_implementation_candidate_created = false
+minimal_runtime_wiring_implementation_candidate_review_completed = false
+minimal_runtime_wiring_implementation_readiness_should_check_accepted_change_candidate_scope = true
+minimal_runtime_wiring_implementation_readiness_should_check_existing_safe_local_runner_outputs = true
+minimal_runtime_wiring_implementation_readiness_should_check_allowed_blocked_human_approval_visibility = true
+minimal_runtime_wiring_implementation_readiness_should_check_localhost_only_binding = true
+minimal_runtime_wiring_implementation_readiness_should_check_loopback_only_target = true
+minimal_runtime_wiring_implementation_readiness_should_check_mock_first_default = true
+minimal_runtime_wiring_implementation_readiness_should_check_private_artifact_boundary = true
+minimal_runtime_wiring_implementation_readiness_should_check_no_external_target_authorization = true
+minimal_runtime_wiring_implementation_readiness_should_check_no_real_scanner_execution = true
+minimal_runtime_wiring_implementation_readiness_should_check_no_gateway_behavior_change = true
+minimal_runtime_wiring_implementation_readiness_should_check_no_runtime_behavior_change = true
+minimal_runtime_wiring_implementation_readiness_should_check_no_scanner_behavior_change = true
+minimal_runtime_wiring_implementation_readiness_should_check_reversal_or_rollback_boundary = true
+minimal_runtime_wiring_implementation_readiness_should_check_test_command_clarity = true
+minimal_runtime_wiring_implementation_readiness_should_check_claim_boundary_preservation = true
+deprioritized_direct_runtime_wiring_change = true
+deprioritized_direct_runtime_application_work = true
+deprioritized_public_launch_work = true
+deprioritized_customer_demo_work = true
+deprioritized_repository_metadata_work = true
+deprioritized_real_scanner_execution_work = true
+deprioritized_external_target_work = true
+deprioritized_commercial_material_work = true
+tool_gateway_behavior_changed = false
+adapter_behavior_changed = false
+schema_changed = false
+runtime_behavior_changed = false
+scanner_behavior_changed = false
+fixtures_created = false
+record_candidate_artifacts_created = false
+actual_records_created = false
+private_generated_outputs_moved_public = false
+preflight_satisfied = false
+concrete_checks_implemented = false
+live_evidence_records_generated = false
+runtime_enforcement_implemented = false
+minimal_runtime_wiring_changed = false
+recommended_next_work_item = safe_local_only_demo_minimal_runtime_wiring_implementation_readiness_review
+safe_local_only_demo_minimal_runtime_wiring_implementation_readiness_review_recommended = true
+next_work_selection_using_risk_tiered_granularity_recommended = false
+Model output is not authority.
+AI rationale is not authorization.
+A gate decision is not AI self-approval.
+Evidence supports reconstruction; it does not prove legal truth.
+validator success is structural only
+publication remains deferred
+next work selection is not runtime wiring
+next work selection is not runtime application
+next work selection is not execution authorization
+next work selection is not real execution permission
+next work selection is not external target authorization
+next work selection is not public demo readiness
+next work selection is not scanner readiness
+next work selection is not production readiness
+No private generated outputs are moved public in v0.6.348.
+~~~
+
+## Consequences
+
+The project should next perform a review-only implementation readiness checkpoint before any later implementation candidate. Execution authorization, real execution, external targets, public/customer demo readiness, runtime wiring changes, runtime behavior changes, and scanner readiness remain deferred.
+
+## Boundaries
+
+- Model output is not authority.
+- AI rationale is not authorization.
+- A gate decision is not AI self-approval.
+- Evidence supports reconstruction; it does not prove legal truth.
+- validator success is structural only
+- next work selection is not runtime wiring
+- next work selection is not execution authorization
+- next work selection is not external target authorization
+- No private generated outputs are moved public in v0.6.348.\n
