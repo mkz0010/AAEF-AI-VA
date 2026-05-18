@@ -1,5 +1,53 @@
 # Changelog
 
+## v0.6.303 - Next Work Selection Using Risk-Tiered Granularity
+
+- Selected `safe_local_only_demo_execution_boundary_candidate` as the next work item.
+- Recorded `next_work_selection_completed = true`, `next_work_selection_id = next_work_selection_v06303`, and `safe_local_only_demo_execution_boundary_candidate_selected = true`.
+- Deferred publication approval, public announcement, runtime readiness, scanner readiness, execution authorization, real execution, external target authorization, and local-only runnable demo path creation.
+- Recorded `recommended_next_work_item = safe_local_only_demo_execution_boundary_candidate`.
+- Preserved `publication_approval = false`, `public_announcement = deferred`, `runtime_demo_ready = false`, `execution_authorized = false`, and `real_execution_permitted = false`.
+- Preserved claim boundaries: safe local-only demo execution boundary candidate is not execution authorization, runtime demo readiness, scanner readiness, production readiness, or external target authorization.
+- No private generated outputs are moved public in v0.6.303.
+
+- next_work_selection_using_risk_tiered_granularity
+- next_work_selection_v06303
+- safe_local_only_demo_execution_boundary_candidate
+- safe_local_only_demo_execution_boundary
+- safe_local_only_runnable_demo_path
+- safe_mock_demo_public_artifact_promotion_review_and_decision
+- safe_mock_demo_public_artifact_promotion_v06301
+- docs/public-artifacts/safe-mock-demo-public-artifact.md
+- safe_mock_demo_public_artifact
+- safe_mock_demo_initial_path
+- safe mock demo
+- safe local-only demo execution boundary candidate
+- safe local-only demo execution boundary
+- safe local-only runnable demo path
+- localhost_only
+- safe mock demo is not live scanner execution
+- private-not-in-git
+- allowed-action: completed
+- denied-action: blocked
+- human-approval-required: requires_human_approval
+- local-only runnable demo
+- real scanner execution remains blocked
+- runtime readiness status: not_detected_execution_blocked
+- target lab gate status: target_defined_execution_blocked
+- binding gate status: bound_execution_blocked
+- transition gate status: candidate_recorded_execution_blocked
+- execution authorized: False
+- real execution permitted: False
+- safe local-only demo execution boundary candidate is not execution authorization
+- safe local-only demo execution boundary candidate is not runtime demo readiness
+- safe local-only demo execution boundary candidate is not scanner readiness
+- safe local-only demo execution boundary candidate is not production readiness
+- safe local-only demo execution boundary candidate is not external target authorization
+- No private generated outputs are moved public in v0.6.303.
+- readme_front_page_rewritten = false
+- repository_metadata_changed = false
+
+
 ## v0.6.302 - Safe Mock Demo Public Artifact Promotion Review and Decision
 
 - Accepted the v0.6.301 Safe Mock Demo Public Artifact Promotion as a documentation-only public artifact.
