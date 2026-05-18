@@ -4414,3 +4414,26 @@ Current boundaries remain:
 - no gateway behavior change
 - no runtime behavior change
 - no scanner behavior change
+
+## After v0.6.297
+
+v0.6.297 accepts the Safe Mock Demo Pre-Public Boundary Review as pre-public boundary review records.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.298 Next Work Selection Using Risk-Tiered Granularity
+~~~
+
+Current boundaries remain:
+
+- no public artifact promotion
+- no publication approval
+- no runtime demo readiness
+- no scanner readiness
+- no execution authorization
+- no real execution permitted
+- no local-only demo execution boundary candidate
+- no gateway behavior change
+- no runtime behavior change
+- no scanner behavior change
