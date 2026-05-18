@@ -1,5 +1,48 @@
 # Changelog
 
+## v0.6.298 - Next Work Selection Using Risk-Tiered Granularity
+
+- Selected `safe_mock_demo_public_artifact_promotion_candidate` as the next work item.
+- Recorded `next_work_selection_completed = true`, `next_work_selection_id = next_work_selection_v06298`, and `safe_mock_demo_public_artifact_promotion_candidate_selected = true`.
+- Deferred actual public artifact promotion, publication approval, public announcement, local-only demo execution boundary work, runtime readiness, scanner readiness, execution authorization, and real execution.
+- Recorded `recommended_next_work_item = safe_mock_demo_public_artifact_promotion_candidate`.
+- Preserved `safe_mock_demo_public_artifact_promotion_created = false`, `publication_approval = false`, `runtime_demo_ready = false`, `execution_authorized = false`, and `real_execution_permitted = false`.
+- Preserved claim boundaries: public artifact promotion candidate is not publication approval, public artifact promotion, runtime demo readiness, scanner readiness, or production readiness.
+- No private generated outputs are moved public in v0.6.298.
+
+- next_work_selection_using_risk_tiered_granularity
+- next_work_selection_v06298
+- safe_mock_demo_public_artifact_promotion_candidate
+- safe_mock_demo_public_artifact_promotion
+- safe_mock_demo_pre_public_boundary_review_and_decision
+- safe_mock_demo_pre_public_boundary_review_v06296
+- safe_mock_demo_initial_path
+- safe mock demo
+- safe mock demo public artifact promotion candidate
+- safe mock demo public artifact promotion
+- safe mock demo public positioning
+- safe mock demo private artifact boundary
+- safe mock demo is not live scanner execution
+- private-not-in-git
+- allowed-action: completed
+- denied-action: blocked
+- human-approval-required: requires_human_approval
+- local-only runnable demo
+- real scanner execution remains blocked
+- runtime readiness status: not_detected_execution_blocked
+- target lab gate status: target_defined_execution_blocked
+- binding gate status: bound_execution_blocked
+- transition gate status: candidate_recorded_execution_blocked
+- execution authorized: False
+- real execution permitted: False
+- public artifact promotion candidate is not publication approval
+- public artifact promotion candidate is not public artifact promotion
+- public artifact promotion candidate is not runtime demo readiness
+- public artifact promotion candidate is not scanner readiness
+- public artifact promotion candidate is not production readiness
+- No private generated outputs are moved public in v0.6.298.
+- readme_front_page_rewritten = false
+- repository_metadata_changed = false\n\n
 ## v0.6.297 - Safe Mock Demo Pre-Public Boundary Review and Decision
 
 - Accepted the v0.6.296 Safe Mock Demo Pre-Public Boundary Review as pre-public boundary review records.

@@ -5048,3 +5048,58 @@ This is decision only. Pre-public boundary review decision is not publication ap
 - No private generated outputs are moved public in v0.6.297.
 - readme_front_page_rewritten = false
 - repository_metadata_changed = false
+
+## v0.6.298 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.298 selects the next conservative work item after v0.6.297.
+
+This checkpoint records:
+
+~~~text\nnext_work_selection_completed = true
+next_work_selection_id = next_work_selection_v06298
+selected_work_item = safe_mock_demo_public_artifact_promotion_candidate
+safe_mock_demo_public_artifact_promotion_candidate_selected = true
+safe_mock_demo_public_artifact_promotion_candidate_created = false
+safe_mock_demo_public_artifact_promotion_created = false
+publication_approval_selected = false
+local_only_demo_execution_boundary_candidate_created = false
+runtime_demo_ready = false
+execution_authorized = false
+real_execution_permitted = false
+recommended_next_work_item = safe_mock_demo_public_artifact_promotion_candidate\n~~~
+
+This is selection only. Public artifact promotion candidate is not publication approval. Public artifact promotion candidate is not public artifact promotion. Public artifact promotion candidate is not runtime demo readiness. Public artifact promotion candidate is not scanner readiness. Public artifact promotion candidate is not production readiness. No private generated outputs are moved public in v0.6.298.
+
+- next_work_selection_using_risk_tiered_granularity
+- next_work_selection_v06298
+- safe_mock_demo_public_artifact_promotion_candidate
+- safe_mock_demo_public_artifact_promotion
+- safe_mock_demo_pre_public_boundary_review_and_decision
+- safe_mock_demo_pre_public_boundary_review_v06296
+- safe_mock_demo_initial_path
+- safe mock demo
+- safe mock demo public artifact promotion candidate
+- safe mock demo public artifact promotion
+- safe mock demo public positioning
+- safe mock demo private artifact boundary
+- safe mock demo is not live scanner execution
+- private-not-in-git
+- allowed-action: completed
+- denied-action: blocked
+- human-approval-required: requires_human_approval
+- local-only runnable demo
+- real scanner execution remains blocked
+- runtime readiness status: not_detected_execution_blocked
+- target lab gate status: target_defined_execution_blocked
+- binding gate status: bound_execution_blocked
+- transition gate status: candidate_recorded_execution_blocked
+- execution authorized: False
+- real execution permitted: False
+- public artifact promotion candidate is not publication approval
+- public artifact promotion candidate is not public artifact promotion
+- public artifact promotion candidate is not runtime demo readiness
+- public artifact promotion candidate is not scanner readiness
+- public artifact promotion candidate is not production readiness
+- No private generated outputs are moved public in v0.6.298.
+- readme_front_page_rewritten = false
+- repository_metadata_changed = false
