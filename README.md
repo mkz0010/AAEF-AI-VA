@@ -7128,3 +7128,28 @@ This is closeout review only. Safe local-only runnable demo public positioning i
 - No private generated outputs are moved public in v0.6.327.
 - readme_front_page_rewritten = false
 - repository_metadata_changed = false
+
+## v0.6.328 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.328 selects the next work item after the safe local-only runnable demo public positioning integration closeout.
+
+~~~text
+next_work_selection_using_risk_tiered_granularity_completed = true
+next_work_selection_result = safe_local_only_demo_runtime_application_readiness_review
+selected_next_work_item = safe_local_only_demo_runtime_application_readiness_review
+selected_next_work_version = v0.6.329
+selected_next_work_title = Safe Local-Only Demo Runtime Application Readiness Review
+runtime_application_readiness_review_selected = true
+runtime_application_readiness_review_created = false
+runtime_application_readiness_review_completed = false
+safe_local_only_runnable_demo_ready = true
+safe_local_only_runnable_demo_public_ready = false
+publication_approval = false
+runtime_demo_ready = false
+execution_authorized = false
+real_execution_permitted = false
+external_target_authorization = false
+recommended_next_work_item = safe_local_only_demo_runtime_application_readiness_review
+~~~
+
+This is next-work selection only. Next work selection is not publication approval. Next work selection is not public demo readiness. Next work selection is not customer demo readiness. Next work selection is not execution authorization. Next work selection is not runtime demo readiness. Next work selection is not scanner readiness. Next work selection is not production readiness. Next work selection is not external target authorization. No private generated outputs are moved public in v0.6.328.
