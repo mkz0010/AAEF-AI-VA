@@ -438,3 +438,4 @@ if __name__ == "__main__":
 "tools/test_v06350_safe_local_only_demo_minimal_runtime_wiring_implementation_candidate.py",
 "tools/test_v06351_safe_local_only_demo_minimal_runtime_wiring_implementation_candidate_review_and_decision.py",
 "tools/test_v06352_emergency_public_product_pricing_tree_removal.py",
+"tools/test_v06353_emergency_public_commercial_term_cleanup.py",

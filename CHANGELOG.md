@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.353 - Emergency Public Commercial Term Cleanup
+
+- Removed exact commercial draft terms from the v0.6.352 cleanup test while preserving current-tree absence checks.
+- Added a hash-based current-tree test to prevent reintroduction of those exact terms without storing them as plaintext public strings.
+- Recorded `history_rewrite_performed = false`, `git_history_exposure_may_remain = true`, and `separate_history_exposure_review_still_required = true`.
+- Preserved `safe_local_only_demo_execution_boundary_runtime_applied = false`, `minimal_runtime_wiring_changed = false`, `tool_gateway_behavior_changed = false`, `runtime_behavior_changed = false`, `scanner_behavior_changed = false`, `execution_authorized = false`, `real_execution_permitted = false`, and `external_target_authorization = false`.
+- Recorded `recommended_next_work_item = public_history_exposure_review`.
+
+
 ## v0.6.352 - Emergency Public Product/Pricing Tree Removal
 
 - Removed `product/personas.md` and `product/pricing-draft.md` from the current public repository tree.

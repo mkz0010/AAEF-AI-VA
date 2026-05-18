@@ -7714,3 +7714,29 @@ recommended_next_work_item = public_history_exposure_review
 ~~~
 
 This is current-tree cleanup only. Public product/pricing tree removal is not publication approval, customer demo readiness, commercial offer approval, runtime wiring, runtime application, execution authorization, real execution permission, external target authorization, scanner readiness, or production readiness. Git history may still expose prior contents, so a separate history exposure review is required.
+
+## v0.6.353 Emergency Public Commercial Term Cleanup
+
+v0.6.353 removes exact commercial draft terms left in the current public tree by the v0.6.352 cleanup test.
+
+~~~text
+public_commercial_term_cleanup_completed = true
+current_public_tree_exact_commercial_draft_terms_removed = true
+v06352_cleanup_test_plaintext_commercial_terms_removed = true
+current_public_tree_product_pricing_files_absent = true
+history_rewrite_performed = false
+git_history_exposure_may_remain = true
+separate_history_exposure_review_still_required = true
+gateway_core_integration_still_required = true
+safe_local_only_demo_execution_boundary_runtime_applied = false
+minimal_runtime_wiring_changed = false
+tool_gateway_behavior_changed = false
+runtime_behavior_changed = false
+scanner_behavior_changed = false
+execution_authorized = false
+real_execution_permitted = false
+external_target_authorization = false
+recommended_next_work_item = public_history_exposure_review
+~~~
+
+This is current-tree cleanup only. Public commercial term cleanup is not publication approval, customer demo readiness, commercial offer approval, runtime wiring, runtime application, execution authorization, real execution permission, external target authorization, scanner readiness, or production readiness. Git history may still expose prior contents, so a separate history exposure review is still required.

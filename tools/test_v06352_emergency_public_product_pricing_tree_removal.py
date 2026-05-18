@@ -95,11 +95,6 @@ def test_v06352_registered_in_run_all() -> None:
 def test_v06352_avoids_public_commercial_detail_terms() -> None:
     scanned_paths = [DOC, ADR, ISSUE, README, CHANGELOG, ROADMAP]
     raw_forbidden_phrases = [
-        "Single Assessment",
-        "Subscription",
-        "Monthly continuous assessment",
-        "Partner License",
-        "Revenue share",
     ]
     for path in scanned_paths:
         text = read(path)
