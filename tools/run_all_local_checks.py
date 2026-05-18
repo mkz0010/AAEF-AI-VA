@@ -406,6 +406,7 @@ def main() -> int:
         "tools/test_v06327_safe_local_only_runnable_demo_public_positioning_integration_closeout_review.py",
         "tools/test_v06328_next_work_selection_using_risk_tiered_granularity.py",
         "tools/test_v06329_safe_local_only_demo_runtime_application_readiness_review.py",
+        "tools/test_v06330_safe_local_only_demo_runtime_application_candidate.py",
     ]
     for test_path in additional_version_tests:
         run([sys.executable, test_path])
