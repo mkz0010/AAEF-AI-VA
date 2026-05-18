@@ -5984,3 +5984,73 @@ This is review only. Safe local-only runnable demo path review is not execution 
 - No private generated outputs are moved public in v0.6.311.
 - readme_front_page_rewritten = false
 - repository_metadata_changed = false
+
+## v0.6.312 Safe Local-Only Runnable Demo Path Creation Readiness Review
+
+v0.6.312 reviews readiness to prepare a Safe Local-Only Runnable Demo Path Creation Candidate.
+
+This checkpoint records:
+
+~~~text
+safe_local_only_runnable_demo_path_creation_readiness_review_completed = true
+safe_local_only_runnable_demo_path_creation_readiness_review_id = safe_local_only_runnable_demo_path_creation_readiness_review_v06312
+safe_local_only_runnable_demo_path_creation_readiness_review_result = ready_for_creation_candidate_not_created
+readiness_prerequisite_boundary_accepted = true
+readiness_prerequisite_path_accepted = true
+readiness_prerequisite_mock_gateway_demo_available = true
+readiness_prerequisite_local_target_lab_profile_available = true
+readiness_prerequisite_runtime_destination_binding_available = true
+readiness_prerequisite_execution_authorization_gate_available = true
+readiness_prerequisite_preflight_validation_available = true
+safe_local_only_runnable_demo_path_creation_candidate_created = false
+safe_local_only_runnable_demo_path_created = false
+safe_local_only_runnable_demo_ready = false
+safe_local_only_demo_execution_boundary_runtime_applied = false
+runtime_demo_ready = false
+execution_authorized = false
+real_execution_permitted = false
+external_target_authorization = false
+recommended_next_work_item = safe_local_only_runnable_demo_path_creation_candidate
+~~~
+
+This is readiness review only. Safe local-only runnable demo path creation readiness review is not execution authorization. Safe local-only runnable demo path creation readiness review is not runnable demo creation. Safe local-only runnable demo path creation readiness review is not runtime-applied enforcement. Safe local-only runnable demo path creation readiness review is not runtime demo readiness. Safe local-only runnable demo path creation readiness review is not scanner readiness. Safe local-only runnable demo path creation readiness review is not production readiness. Safe local-only runnable demo path creation readiness review is not external target authorization. No private generated outputs are moved public in v0.6.312.
+
+- safe_local_only_runnable_demo_path_creation_readiness_review
+- safe_local_only_runnable_demo_path_creation_readiness_review_v06312
+- safe_local_only_runnable_demo_path_creation_candidate
+- safe_local_only_runnable_demo_path
+- safe_local_only_runnable_demo_path_v06310
+- safe_local_only_runnable_demo_path_review_and_decision
+- safe_local_only_demo_execution_boundary_v06306
+- safe_local_only_demo_execution_boundary
+- localhost_only
+- loopback-only target boundary
+- mock_first_no_live_scanner_default
+- external target authorization remains false
+- safe_mock_demo_public_artifact
+- docs/public-artifacts/safe-mock-demo-public-artifact.md
+- safe mock demo
+- safe local-only demo execution boundary
+- safe local-only runnable demo path
+- safe mock demo is not live scanner execution
+- private-not-in-git
+- allowed-action: completed
+- denied-action: blocked
+- human-approval-required: requires_human_approval
+- real scanner execution remains blocked
+- runtime readiness status: not_detected_execution_blocked
+- target lab gate status: target_defined_execution_blocked
+- binding gate status: bound_execution_blocked
+- transition gate status: candidate_recorded_execution_blocked
+- execution authorized: False
+- real execution permitted: False
+- safe local-only runnable demo path creation readiness review is not execution authorization
+- safe local-only runnable demo path creation readiness review is not runnable demo creation
+- safe local-only runnable demo path creation readiness review is not runtime-applied enforcement
+- safe local-only runnable demo path creation readiness review is not runtime demo readiness
+- safe local-only runnable demo path creation readiness review is not scanner readiness
+- safe local-only runnable demo path creation readiness review is not production readiness
+- safe local-only runnable demo path creation readiness review is not external target authorization
+- No private generated outputs are moved public in v0.6.312.
+- readme_front_page_rewritten = false
+- repository_metadata_changed = false

@@ -4792,3 +4792,30 @@ Current boundaries remain:
 - no gateway behavior change
 - no runtime behavior change
 - no scanner behavior change
+
+## After v0.6.312
+
+v0.6.312 reviews readiness to prepare a Safe Local-Only Runnable Demo Path Creation Candidate.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.313 Safe Local-Only Runnable Demo Path Creation Candidate
+~~~
+
+Current boundaries remain:
+
+- no safe local-only runnable demo path creation candidate created
+- no safe local-only runnable demo path created
+- no safe local-only runnable demo ready
+- no safe local-only demo execution boundary runtime-applied
+- no publication approval
+- no public announcement
+- no runtime demo readiness
+- no scanner readiness
+- no execution authorization
+- no real execution permitted
+- no external target authorization
+- no gateway behavior change
+- no runtime behavior change
+- no scanner behavior change
