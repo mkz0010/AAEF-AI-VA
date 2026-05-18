@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.335 - Safe Local-Only Demo Runtime Application Implementation Candidate
+
+- Created a bounded safe local-only demo runtime application implementation candidate.
+- Recorded `safe_local_only_demo_runtime_application_implementation_candidate_created = true`, `safe_local_only_demo_runtime_application_implementation_candidate_id = safe_local_only_demo_runtime_application_implementation_candidate_v06335`, and `safe_local_only_demo_runtime_application_implementation_candidate_status = candidate_not_reviewed`.
+- Required localhost-only binding, loopback-only target mode, mock-first default, private artifact boundary, reversal or rollback boundary, no external target authorization, no real scanner execution, and fail-closed behavior.
+- Preserved `safe_local_only_demo_execution_boundary_runtime_applied = false`, `tool_gateway_behavior_changed = false`, `runtime_behavior_changed = false`, `scanner_behavior_changed = false`, `execution_authorized = false`, `real_execution_permitted = false`, and `external_target_authorization = false`.
+- Recorded `recommended_next_work_item = safe_local_only_demo_runtime_application_implementation_candidate_review_and_decision`.
+- No private generated outputs are moved public in v0.6.335.
+
+
 ## v0.6.334 - Safe Local-Only Demo Runtime Application Go/No-Go Review
 
 - Performed a Go/No-Go review for a later bounded safe local-only demo runtime application implementation candidate.
