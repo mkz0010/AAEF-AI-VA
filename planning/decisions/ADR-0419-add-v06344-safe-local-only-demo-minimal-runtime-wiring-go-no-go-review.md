@@ -1,0 +1,131 @@
+# ADR-0419: Conditional Go for Safe Local-Only Demo Minimal Runtime Wiring Change Candidate
+
+Status: accepted
+Date: 2026-05-18
+Version: v0.6.344
+
+## Context
+
+v0.6.343 selected a Go/No-Go review after the safe local-only demo minimal runtime wiring candidate track was closed with runtime-wiring-changed false.
+
+## Decision
+
+Record a conditional go for a bounded runtime wiring change candidate only. Direct runtime wiring change remains deferred.
+
+## Decision record
+
+~~~text
+safe_local_only_demo_minimal_runtime_wiring_go_no_go_review_completed = true
+safe_local_only_demo_minimal_runtime_wiring_go_no_go_review_id = safe_local_only_demo_minimal_runtime_wiring_go_no_go_review_v06344
+safe_local_only_demo_minimal_runtime_wiring_go_no_go_review_result = conditional_go_for_bounded_runtime_wiring_change_candidate_not_runtime_wiring_changed
+safe_local_only_demo_minimal_runtime_wiring_go_no_go_review_scope = review_only_no_runtime_wiring_change
+safe_local_only_demo_minimal_runtime_wiring_go_no_go_decision = conditional_go
+safe_local_only_demo_minimal_runtime_wiring_go_no_go_decision_reason = accepted_candidate_track_closed_runtime_wiring_changed_false_with_local_only_constraints_preserved
+safe_local_only_demo_minimal_runtime_wiring_change_candidate_allowed_next = true
+safe_local_only_demo_minimal_runtime_wiring_change_candidate_created = false
+safe_local_only_demo_minimal_runtime_wiring_change_candidate_review_completed = false
+safe_local_only_demo_minimal_runtime_wiring_closeout_review_completed = true
+safe_local_only_demo_minimal_runtime_wiring_closeout_review_id = safe_local_only_demo_minimal_runtime_wiring_closeout_review_v06342
+safe_local_only_demo_minimal_runtime_wiring_closeout_review_result = track_closed_runtime_wiring_changed_false
+safe_local_only_demo_minimal_runtime_wiring_track_status = closed
+safe_local_only_demo_minimal_runtime_wiring_track_outcome = bounded_candidate_accepted_not_runtime_wiring_changed
+safe_local_only_demo_minimal_runtime_wiring_candidate_review_completed = true
+safe_local_only_demo_minimal_runtime_wiring_candidate_accepted = true
+safe_local_only_demo_minimal_runtime_wiring_candidate_id = safe_local_only_demo_minimal_runtime_wiring_candidate_v06340
+safe_local_only_demo_minimal_runtime_wiring_candidate_status = accepted_not_runtime_wiring_changed
+safe_local_only_demo_minimal_runtime_wiring_readiness_review_completed = true
+safe_local_only_demo_minimal_runtime_wiring_readiness_review_id = safe_local_only_demo_minimal_runtime_wiring_readiness_review_v06339
+safe_local_only_demo_minimal_runtime_wiring_readiness_review_result = candidate_needed_not_runtime_wiring_changed
+safe_local_only_demo_runtime_application_implementation_closeout_review_completed = true
+safe_local_only_demo_runtime_application_implementation_track_status = closed
+safe_local_only_demo_runtime_application_implementation_track_outcome = bounded_implementation_candidate_accepted_not_runtime_applied
+safe_local_only_demo_execution_boundary_review_completed = true
+safe_local_only_demo_execution_boundary_accepted = true
+safe_local_only_demo_execution_boundary_id = safe_local_only_demo_execution_boundary_v06306
+safe_local_only_demo_execution_boundary_target_mode = localhost_only
+safe_local_only_demo_execution_boundary_status = accepted_not_runtime_applied
+safe_local_only_demo_execution_boundary_runtime_applied = false
+safe_local_only_demo_execution_boundary_applied = false
+safe_local_only_runnable_demo_ready = true
+safe_local_only_runnable_demo_ready_scope = mock_first_localhost_only_reviewer_demo
+safe_local_only_runnable_demo_ready_status = ready_for_local_reviewer_walkthrough
+safe_local_only_runnable_demo_public_ready = false
+publication_approval = false
+public_announcement = deferred
+runtime_demo_ready = false
+scanner_readiness_claim = false
+production_readiness_claim = false
+execution_authorized = false
+real_execution_permitted = false
+external_target_authorization = false
+minimal_runtime_wiring_go_no_go_accepted_candidate_scope_checked = true
+minimal_runtime_wiring_go_no_go_existing_safe_local_runner_outputs_checked = true
+minimal_runtime_wiring_go_no_go_allowed_blocked_human_approval_visibility_checked = true
+minimal_runtime_wiring_go_no_go_localhost_only_binding_checked = true
+minimal_runtime_wiring_go_no_go_loopback_only_target_checked = true
+minimal_runtime_wiring_go_no_go_mock_first_default_checked = true
+minimal_runtime_wiring_go_no_go_private_artifact_boundary_checked = true
+minimal_runtime_wiring_go_no_go_no_external_target_authorization_checked = true
+minimal_runtime_wiring_go_no_go_no_real_scanner_execution_checked = true
+minimal_runtime_wiring_go_no_go_no_gateway_behavior_change_checked = true
+minimal_runtime_wiring_go_no_go_no_runtime_behavior_change_checked = true
+minimal_runtime_wiring_go_no_go_no_scanner_behavior_change_checked = true
+minimal_runtime_wiring_go_no_go_reversal_or_rollback_boundary_checked = true
+minimal_runtime_wiring_go_no_go_test_command_clarity_checked = true
+minimal_runtime_wiring_go_no_go_claim_boundary_preservation_checked = true
+minimal_runtime_wiring_go_no_go_result_requires_candidate_only_next_step = true
+minimal_runtime_wiring_go_no_go_result_forbids_direct_runtime_wiring_change = true
+minimal_runtime_wiring_go_no_go_result_forbids_runtime_application = true
+minimal_runtime_wiring_go_no_go_result_forbids_execution_authorization = true
+minimal_runtime_wiring_go_no_go_result_forbids_real_execution = true
+minimal_runtime_wiring_go_no_go_result_forbids_external_target_authorization = true
+gateway_execution_path_behavior_modified = false
+tool_gateway_behavior_changed = false
+adapter_behavior_changed = false
+schema_changed = false
+runtime_behavior_changed = false
+scanner_behavior_changed = false
+fixtures_created = false
+record_candidate_artifacts_created = false
+actual_records_created = false
+private_generated_outputs_moved_public = false
+preflight_satisfied = false
+concrete_checks_implemented = false
+live_evidence_records_generated = false
+runtime_enforcement_implemented = false
+minimal_runtime_wiring_changed = false
+recommended_next_work_item = safe_local_only_demo_minimal_runtime_wiring_change_candidate
+safe_local_only_demo_minimal_runtime_wiring_change_candidate_recommended = true
+safe_local_only_demo_minimal_runtime_wiring_go_no_go_review_recommended = false
+Model output is not authority.
+AI rationale is not authorization.
+A gate decision is not AI self-approval.
+Evidence supports reconstruction; it does not prove legal truth.
+validator success is structural only
+publication remains deferred
+minimal runtime wiring Go/No-Go review is not runtime wiring
+minimal runtime wiring Go/No-Go review is not runtime application
+minimal runtime wiring Go/No-Go review is not execution authorization
+minimal runtime wiring Go/No-Go review is not real execution permission
+minimal runtime wiring Go/No-Go review is not external target authorization
+minimal runtime wiring Go/No-Go review is not public demo readiness
+minimal runtime wiring Go/No-Go review is not scanner readiness
+minimal runtime wiring Go/No-Go review is not production readiness
+No private generated outputs are moved public in v0.6.344.
+~~~
+
+## Consequences
+
+The project may next create a bounded runtime wiring change candidate. Execution authorization, real execution, external targets, public/customer demo readiness, runtime wiring changes, runtime behavior changes, and scanner readiness remain deferred until separately reviewed.
+
+## Boundaries
+
+- Model output is not authority.
+- AI rationale is not authorization.
+- A gate decision is not AI self-approval.
+- Evidence supports reconstruction; it does not prove legal truth.
+- validator success is structural only
+- minimal runtime wiring Go/No-Go review is not runtime wiring
+- minimal runtime wiring Go/No-Go review is not execution authorization
+- minimal runtime wiring Go/No-Go review is not external target authorization
+- No private generated outputs are moved public in v0.6.344.
