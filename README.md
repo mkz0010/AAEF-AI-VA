@@ -7404,3 +7404,27 @@ recommended_next_work_item = safe_local_only_demo_minimal_runtime_wiring_candida
 ~~~
 
 This is readiness review only. Minimal runtime wiring readiness review is not runtime wiring. Minimal runtime wiring readiness review is not runtime application. Minimal runtime wiring readiness review is not execution authorization. Minimal runtime wiring readiness review is not real execution permission. Minimal runtime wiring readiness review is not external target authorization. Minimal runtime wiring readiness review is not public demo readiness. Minimal runtime wiring readiness review is not scanner readiness. Minimal runtime wiring readiness review is not production readiness. No private generated outputs are moved public in v0.6.339.
+
+## v0.6.340 Safe Local-Only Demo Minimal Runtime Wiring Candidate
+
+v0.6.340 creates a bounded safe local-only demo minimal runtime wiring candidate.
+
+~~~text
+safe_local_only_demo_minimal_runtime_wiring_candidate_created = true
+safe_local_only_demo_minimal_runtime_wiring_candidate_id = safe_local_only_demo_minimal_runtime_wiring_candidate_v06340
+safe_local_only_demo_minimal_runtime_wiring_candidate_status = candidate_not_reviewed
+safe_local_only_demo_minimal_runtime_wiring_candidate_review_completed = false
+minimal_runtime_wiring_candidate_existing_safe_local_runner_outputs_required = true
+minimal_runtime_wiring_candidate_allowed_blocked_human_approval_visibility_required = true
+safe_local_only_demo_execution_boundary_runtime_applied = false
+minimal_runtime_wiring_changed = false
+tool_gateway_behavior_changed = false
+runtime_behavior_changed = false
+scanner_behavior_changed = false
+execution_authorized = false
+real_execution_permitted = false
+external_target_authorization = false
+recommended_next_work_item = safe_local_only_demo_minimal_runtime_wiring_candidate_review_and_decision
+~~~
+
+This is candidate only. Minimal runtime wiring candidate is not runtime wiring. Minimal runtime wiring candidate is not runtime application. Minimal runtime wiring candidate is not execution authorization. Minimal runtime wiring candidate is not real execution permission. Minimal runtime wiring candidate is not external target authorization. Minimal runtime wiring candidate is not public demo readiness. Minimal runtime wiring candidate is not scanner readiness. Minimal runtime wiring candidate is not production readiness. No private generated outputs are moved public in v0.6.340.
