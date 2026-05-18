@@ -5426,3 +5426,73 @@ This is selection only. Safe local-only demo execution boundary candidate is not
 - No private generated outputs are moved public in v0.6.303.
 - readme_front_page_rewritten = false
 - repository_metadata_changed = false
+
+## v0.6.304 Safe Local-Only Demo Execution Boundary Candidate
+
+v0.6.304 creates a documentation-only candidate for the safe local-only demo execution boundary.
+
+This checkpoint records:
+
+~~~text
+safe_local_only_demo_execution_boundary_candidate_created = true
+safe_local_only_demo_execution_boundary_candidate_id = safe_local_only_demo_execution_boundary_candidate_v06304
+safe_local_only_demo_execution_boundary_candidate_status = candidate_not_applied
+safe_local_only_demo_execution_boundary_target_mode_candidate = localhost_only
+safe_local_only_demo_execution_boundary_loopback_targets_candidate_defined = true
+safe_local_only_demo_execution_boundary_external_targets_candidate_blocked = true
+safe_local_only_demo_execution_boundary_private_lan_targets_candidate_blocked = true
+safe_local_only_demo_execution_boundary_preflight_requirements_candidate_defined = true
+safe_local_only_demo_execution_boundary_fail_closed_conditions_candidate_defined = true
+safe_local_only_demo_execution_boundary_candidate_review_completed = false
+safe_local_only_demo_execution_boundary_defined = false
+safe_local_only_runnable_demo_path_created = false
+publication_approval = false
+public_announcement = deferred
+runtime_demo_ready = false
+execution_authorized = false
+real_execution_permitted = false
+external_target_authorization = false
+recommended_next_work_item = safe_local_only_demo_execution_boundary_candidate_review_and_decision
+~~~
+
+This is candidate only. Safe local-only demo execution boundary candidate is not execution authorization. Safe local-only demo execution boundary candidate is not runtime demo readiness. Safe local-only demo execution boundary candidate is not scanner readiness. Safe local-only demo execution boundary candidate is not production readiness. Safe local-only demo execution boundary candidate is not external target authorization. No private generated outputs are moved public in v0.6.304.
+
+- safe_local_only_demo_execution_boundary_candidate
+- safe_local_only_demo_execution_boundary_candidate_v06304
+- safe_local_only_demo_execution_boundary_candidate_review_and_decision
+- safe_local_only_demo_execution_boundary
+- safe_local_only_runnable_demo_path
+- next_work_selection_v06303
+- safe_mock_demo_public_artifact_promotion_review_and_decision
+- safe_mock_demo_public_artifact_promotion_v06301
+- docs/public-artifacts/safe-mock-demo-public-artifact.md
+- safe_mock_demo_public_artifact
+- safe_mock_demo_initial_path
+- safe mock demo
+- safe local-only demo execution boundary candidate
+- safe local-only demo execution boundary
+- safe local-only runnable demo path
+- localhost_only
+- loopback-only target boundary
+- external target authorization remains false
+- safe mock demo is not live scanner execution
+- private-not-in-git
+- allowed-action: completed
+- denied-action: blocked
+- human-approval-required: requires_human_approval
+- local-only runnable demo
+- real scanner execution remains blocked
+- runtime readiness status: not_detected_execution_blocked
+- target lab gate status: target_defined_execution_blocked
+- binding gate status: bound_execution_blocked
+- transition gate status: candidate_recorded_execution_blocked
+- execution authorized: False
+- real execution permitted: False
+- safe local-only demo execution boundary candidate is not execution authorization
+- safe local-only demo execution boundary candidate is not runtime demo readiness
+- safe local-only demo execution boundary candidate is not scanner readiness
+- safe local-only demo execution boundary candidate is not production readiness
+- safe local-only demo execution boundary candidate is not external target authorization
+- No private generated outputs are moved public in v0.6.304.
+- readme_front_page_rewritten = false
+- repository_metadata_changed = false
