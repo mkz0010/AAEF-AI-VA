@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.337 - Safe Local-Only Demo Runtime Application Implementation Closeout Review
+
+- Closed the safe local-only demo runtime application implementation candidate track.
+- Recorded `safe_local_only_demo_runtime_application_implementation_closeout_review_completed = true`, `safe_local_only_demo_runtime_application_implementation_track_status = closed`, and `safe_local_only_demo_runtime_application_implementation_track_outcome = bounded_implementation_candidate_accepted_not_runtime_applied`.
+- Confirmed the v0.6.335 implementation candidate was accepted by v0.6.336 but remains not runtime-applied.
+- Preserved `safe_local_only_demo_execution_boundary_runtime_applied = false`, `tool_gateway_behavior_changed = false`, `runtime_behavior_changed = false`, `scanner_behavior_changed = false`, `execution_authorized = false`, `real_execution_permitted = false`, and `external_target_authorization = false`.
+- Recorded `recommended_next_work_item = next_work_selection_using_risk_tiered_granularity`.
+- No private generated outputs are moved public in v0.6.337.
+
+
 ## v0.6.336 - Safe Local-Only Demo Runtime Application Implementation Candidate Review and Decision
 
 - Reviewed and accepted the bounded safe local-only demo runtime application implementation candidate.
