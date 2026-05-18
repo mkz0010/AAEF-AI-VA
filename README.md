@@ -7063,3 +7063,68 @@ This is review only. Safe local-only runnable demo public positioning integratio
 - No private generated outputs are moved public in v0.6.326.
 - readme_front_page_rewritten = false
 - repository_metadata_changed = false
+
+## v0.6.327 Safe Local-Only Runnable Demo Public Positioning Integration Closeout Review
+
+v0.6.327 closes the safe local-only runnable demo public positioning integration track.
+
+This checkpoint records:
+
+~~~text
+safe_local_only_runnable_demo_public_positioning_integration_closeout_review_completed = true
+safe_local_only_runnable_demo_public_positioning_integration_closeout_review_id = safe_local_only_runnable_demo_public_positioning_integration_closeout_review_v06327
+safe_local_only_runnable_demo_public_positioning_integration_closeout_review_result = integration_track_closed_public_ready_false
+safe_local_only_runnable_demo_public_positioning_integration_track_status = closed
+safe_local_only_runnable_demo_public_positioning_integration_outcome = bounded_readme_status_and_boundary_wording_integrated
+safe_local_only_runnable_demo_ready = true
+safe_local_only_runnable_demo_public_ready = false
+publication_approval = false
+runtime_demo_ready = false
+execution_authorized = false
+real_execution_permitted = false
+external_target_authorization = false
+recommended_next_work_item = next_work_selection_using_risk_tiered_granularity
+~~~
+
+This is closeout review only. Safe local-only runnable demo public positioning integration closeout review is not publication approval. Safe local-only runnable demo public positioning integration closeout review is not public demo readiness. Safe local-only runnable demo public positioning integration closeout review is not customer demo readiness. Safe local-only runnable demo public positioning integration closeout review is not execution authorization. Safe local-only runnable demo public positioning integration closeout review is not runtime demo readiness. Safe local-only runnable demo public positioning integration closeout review is not scanner readiness. Safe local-only runnable demo public positioning integration closeout review is not production readiness. Safe local-only runnable demo public positioning integration closeout review is not external target authorization. No private generated outputs are moved public in v0.6.327.
+
+- safe_local_only_runnable_demo_public_positioning_integration_closeout_review
+- safe_local_only_runnable_demo_public_positioning_integration_closeout_review_v06327
+- safe_local_only_runnable_demo_public_positioning_integration_track_status = closed
+- safe_local_only_runnable_demo_public_positioning_integration_implementation_candidate_v06325
+- safe_local_only_runnable_demo_public_positioning_integration_plan_candidate_v06323
+- safe_local_only_runnable_demo_public_positioning_candidate_v06321
+- safe_local_only_runnable_demo_reviewer_runbook_v06318
+- safe_local_only_runnable_demo_ready
+- mock_first_localhost_only_reviewer_demo
+- safe_local_only_demo_execution_boundary_v06306
+- safe_local_only_demo_execution_boundary
+- localhost_only
+- loopback-only target boundary
+- mock_first_no_live_scanner_default
+- external target authorization remains false
+- safe_mock_demo_public_artifact
+- docs/public-artifacts/safe-mock-demo-public-artifact.md
+- private-not-in-git
+- AI requests; gates decide
+- allowed-action: completed
+- denied-action: blocked
+- human-approval-required: requires_human_approval
+- real scanner execution remains blocked
+- runtime readiness status: not_detected_execution_blocked
+- target lab gate status: target_defined_execution_blocked
+- binding gate status: bound_execution_blocked
+- transition gate status: candidate_recorded_execution_blocked
+- execution authorized: False
+- real execution permitted: False
+- safe local-only runnable demo public positioning integration closeout review is not publication approval
+- safe local-only runnable demo public positioning integration closeout review is not public demo readiness
+- safe local-only runnable demo public positioning integration closeout review is not customer demo readiness
+- safe local-only runnable demo public positioning integration closeout review is not execution authorization
+- safe local-only runnable demo public positioning integration closeout review is not runtime demo readiness
+- safe local-only runnable demo public positioning integration closeout review is not scanner readiness
+- safe local-only runnable demo public positioning integration closeout review is not production readiness
+- safe local-only runnable demo public positioning integration closeout review is not external target authorization
+- No private generated outputs are moved public in v0.6.327.
+- readme_front_page_rewritten = false
+- repository_metadata_changed = false

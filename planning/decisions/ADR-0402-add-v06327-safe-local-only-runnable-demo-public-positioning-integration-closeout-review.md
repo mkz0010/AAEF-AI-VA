@@ -1,0 +1,184 @@
+# ADR-0402: Close Safe Local-Only Runnable Demo Public Positioning Integration Track
+
+Status: completed closeout  
+Date: 2026-05-18  
+Version: v0.6.327
+
+## Context
+
+v0.6.326 accepted the bounded README status and boundary wording candidate for the safe local-only runnable demo public positioning integration track.
+
+## Decision
+
+Close the public positioning integration track while preserving public readiness false and execution authorization false.
+
+## Decision record
+
+~~~text
+safe_local_only_runnable_demo_public_positioning_integration_closeout_review_completed = true
+safe_local_only_runnable_demo_public_positioning_integration_closeout_review_id = safe_local_only_runnable_demo_public_positioning_integration_closeout_review_v06327
+safe_local_only_runnable_demo_public_positioning_integration_closeout_review_result = integration_track_closed_public_ready_false
+safe_local_only_runnable_demo_public_positioning_integration_track_status = closed
+safe_local_only_runnable_demo_public_positioning_integration_outcome = bounded_readme_status_and_boundary_wording_integrated
+safe_local_only_runnable_demo_public_positioning_integration_implementation_candidate_review_completed = true
+safe_local_only_runnable_demo_public_positioning_integration_implementation_candidate_accepted = true
+safe_local_only_runnable_demo_public_positioning_integration_implementation_candidate_id = safe_local_only_runnable_demo_public_positioning_integration_implementation_candidate_v06325
+safe_local_only_runnable_demo_public_positioning_integration_implementation_candidate_review_result = accepted_as_bounded_readme_status_and_boundary_wording_candidate
+safe_local_only_runnable_demo_public_positioning_integration_plan_candidate_review_completed = true
+safe_local_only_runnable_demo_public_positioning_integration_plan_candidate_accepted = true
+safe_local_only_runnable_demo_public_positioning_integration_plan_candidate_id = safe_local_only_runnable_demo_public_positioning_integration_plan_candidate_v06323
+safe_local_only_runnable_demo_public_positioning_candidate_review_completed = true
+safe_local_only_runnable_demo_public_positioning_candidate_accepted = true
+safe_local_only_runnable_demo_public_positioning_candidate_id = safe_local_only_runnable_demo_public_positioning_candidate_v06321
+safe_local_only_runnable_demo_public_positioning_review_completed = true
+safe_local_only_runnable_demo_public_positioning_review_id = safe_local_only_runnable_demo_public_positioning_review_v06320
+safe_local_only_runnable_demo_reviewer_runbook_review_completed = true
+safe_local_only_runnable_demo_reviewer_runbook_accepted = true
+safe_local_only_runnable_demo_reviewer_runbook_id = safe_local_only_runnable_demo_reviewer_runbook_v06318
+safe_local_only_runnable_demo_readiness_review_completed = true
+safe_local_only_runnable_demo_readiness_review_id = safe_local_only_runnable_demo_readiness_review_v06317
+safe_local_only_runnable_demo_ready = true
+safe_local_only_runnable_demo_ready_scope = mock_first_localhost_only_reviewer_demo
+safe_local_only_runnable_demo_ready_status = ready_for_local_reviewer_walkthrough
+safe_local_only_runnable_demo_public_ready = false
+safe_local_only_runnable_demo_publication_ready = false
+safe_local_only_runnable_demo_external_poc_ready = false
+safe_local_only_runnable_demo_customer_demo_ready = false
+safe_local_only_runnable_demo_public_positioning_readme_status_wording_present = true
+safe_local_only_runnable_demo_public_positioning_readme_boundary_wording_present = true
+safe_local_only_runnable_demo_public_positioning_artifact_reference_present = true
+safe_local_only_runnable_demo_public_positioning_changelog_record_present = true
+safe_local_only_runnable_demo_public_positioning_roadmap_boundary_present = true
+public_positioning_integration_closeout_readme_front_page_rewrite = false
+public_positioning_integration_closeout_repository_metadata_change = false
+public_positioning_integration_closeout_public_release_notes_change = false
+public_positioning_integration_closeout_public_announcement_change = false
+public_positioning_integration_closeout_customer_material_change = false
+public_positioning_integration_closeout_runtime_behavior_change = false
+public_positioning_integration_closeout_gateway_behavior_change = false
+public_positioning_integration_closeout_scanner_behavior_change = false
+public_positioning_integration_closeout_private_artifact_publication = false
+public_positioning_integration_closeout_preserves_local_only_scope = true
+public_positioning_integration_closeout_preserves_mock_first_scope = true
+public_positioning_integration_closeout_preserves_private_artifacts_private = true
+public_positioning_integration_closeout_preserves_public_ready_false = true
+public_positioning_integration_closeout_preserves_publication_approval_false = true
+public_positioning_integration_closeout_preserves_customer_demo_ready_false = true
+public_positioning_integration_closeout_preserves_runtime_demo_ready_false = true
+public_positioning_integration_closeout_preserves_scanner_readiness_false = true
+public_positioning_integration_closeout_preserves_execution_authorized_false = true
+public_positioning_integration_closeout_preserves_external_target_authorization_false = true
+safe_local_only_demo_execution_boundary_review_completed = true
+safe_local_only_demo_execution_boundary_accepted = true
+safe_local_only_demo_execution_boundary_id = safe_local_only_demo_execution_boundary_v06306
+safe_local_only_demo_execution_boundary_status = accepted_not_runtime_applied
+safe_local_only_demo_execution_boundary_target_mode = localhost_only
+safe_local_only_demo_execution_boundary_runtime_applied = false
+safe_local_only_demo_execution_boundary_applied = false
+safe_mock_demo_public_artifact_promotion_review_completed = true
+safe_mock_demo_public_artifact_promotion_accepted = true
+safe_mock_demo_public_artifact_path = docs/public-artifacts/safe-mock-demo-public-artifact.md
+safe_mock_demo_status = runnable_private_artifact_demo_available
+safe_mock_demo_is_live_scanner_execution = false
+safe_mock_demo_private_artifacts_remain_private = true
+publication_approval_selected = false
+publication_approval = false
+public_announcement = deferred
+private_generated_outputs_moved_public = false
+real_scanner_execution_path_selected = false
+real_scanner_execution_status = blocked
+runtime_demo_ready = false
+runtime_demo_readiness_claim = false
+scanner_readiness_claim = false
+production_readiness_claim = false
+execution_authorized = false
+real_execution_permitted = false
+external_target_authorization = false
+runtime_readiness_status = not_detected_execution_blocked
+target_lab_gate_status = target_defined_execution_blocked
+runtime_destination_binding_status = bound_execution_blocked
+bounded_execution_transition_status = candidate_recorded_execution_blocked
+preflight_satisfied = false
+concrete_checks_implemented = false
+live_evidence_records_generated = false
+runtime_enforcement_implemented = false
+recommended_next_work_item = next_work_selection_using_risk_tiered_granularity
+next_work_selection_using_risk_tiered_granularity_recommended = true
+safe_local_only_runnable_demo_public_positioning_integration_closeout_review_recommended = false
+gateway_execution_path_behavior_modified = false
+tool_gateway_behavior_changed = false
+adapter_behavior_changed = false
+schema_changed = false
+runtime_behavior_changed = false
+scanner_behavior_changed = false
+fixtures_created = false
+record_candidate_artifacts_created = false
+actual_records_created = false
+readme_front_page_rewritten = false
+repository_metadata_changed = false
+certification_claim = false
+legal_compliance_claim = false
+audit_opinion_claim = false
+diagnostic_completeness_claim = false
+external_framework_equivalence_claim = false
+~~~
+
+## Consequences
+
+The project should return to risk-tiered next-work selection. Publication, customer demonstration, runtime application, runtime readiness, scanner readiness, execution authorization, and real execution remain deferred.
+
+## Boundaries
+
+- Model output is not authority.
+- AI rationale is not authorization.
+- A gate decision is not AI self-approval.
+- Evidence supports reconstruction; it does not prove legal truth.
+- validator success is structural only
+- safe local-only runnable demo public positioning integration closeout review is not publication approval
+- safe local-only runnable demo public positioning integration closeout review is not public demo readiness
+- safe local-only runnable demo public positioning integration closeout review is not execution authorization
+- safe local-only runnable demo public positioning integration closeout review is not external target authorization
+- No private generated outputs are moved public in v0.6.327.
+
+## Structural token coverage
+
+- safe_local_only_runnable_demo_public_positioning_integration_closeout_review
+- safe_local_only_runnable_demo_public_positioning_integration_closeout_review_v06327
+- safe_local_only_runnable_demo_public_positioning_integration_track_status = closed
+- safe_local_only_runnable_demo_public_positioning_integration_implementation_candidate_v06325
+- safe_local_only_runnable_demo_public_positioning_integration_plan_candidate_v06323
+- safe_local_only_runnable_demo_public_positioning_candidate_v06321
+- safe_local_only_runnable_demo_reviewer_runbook_v06318
+- safe_local_only_runnable_demo_ready
+- mock_first_localhost_only_reviewer_demo
+- safe_local_only_demo_execution_boundary_v06306
+- safe_local_only_demo_execution_boundary
+- localhost_only
+- loopback-only target boundary
+- mock_first_no_live_scanner_default
+- external target authorization remains false
+- safe_mock_demo_public_artifact
+- docs/public-artifacts/safe-mock-demo-public-artifact.md
+- private-not-in-git
+- AI requests; gates decide
+- allowed-action: completed
+- denied-action: blocked
+- human-approval-required: requires_human_approval
+- real scanner execution remains blocked
+- runtime readiness status: not_detected_execution_blocked
+- target lab gate status: target_defined_execution_blocked
+- binding gate status: bound_execution_blocked
+- transition gate status: candidate_recorded_execution_blocked
+- execution authorized: False
+- real execution permitted: False
+- safe local-only runnable demo public positioning integration closeout review is not publication approval
+- safe local-only runnable demo public positioning integration closeout review is not public demo readiness
+- safe local-only runnable demo public positioning integration closeout review is not customer demo readiness
+- safe local-only runnable demo public positioning integration closeout review is not execution authorization
+- safe local-only runnable demo public positioning integration closeout review is not runtime demo readiness
+- safe local-only runnable demo public positioning integration closeout review is not scanner readiness
+- safe local-only runnable demo public positioning integration closeout review is not production readiness
+- safe local-only runnable demo public positioning integration closeout review is not external target authorization
+- No private generated outputs are moved public in v0.6.327.
+- readme_front_page_rewritten = false
+- repository_metadata_changed = false
