@@ -5524,3 +5524,31 @@ Current boundaries remain:
 - no gateway behavior change
 - no runtime behavior change
 - no scanner behavior change
+
+## After v0.6.339
+
+v0.6.339 reviews readiness for a later safe local-only demo minimal runtime wiring candidate.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.340 Safe Local-Only Demo Minimal Runtime Wiring Candidate
+~~~
+
+Current boundaries remain:
+
+- no safe local-only demo minimal runtime wiring candidate created
+- no safe local-only demo execution boundary runtime-applied
+- no minimal runtime wiring change
+- no public demo readiness
+- no publication approval
+- no public announcement
+- no customer demo approval
+- no runtime demo readiness
+- no scanner readiness
+- no execution authorization
+- no real execution permitted
+- no external target authorization
+- no gateway behavior change
+- no runtime behavior change
+- no scanner behavior change
