@@ -1,4 +1,14 @@
 # Changelog
+
+## v0.6.349 - Safe Local-Only Demo Minimal Runtime Wiring Implementation Readiness Review
+
+- Reviewed readiness for a later safe local-only demo minimal runtime wiring implementation candidate.
+- Recorded `safe_local_only_demo_minimal_runtime_wiring_implementation_readiness_review_completed = true` and `safe_local_only_demo_minimal_runtime_wiring_implementation_readiness_review_result = implementation_candidate_needed_not_runtime_wiring_changed`.
+- Confirmed the accepted change candidate scope, existing safe local runner outputs, reviewer-visible allowed/blocked/human-approval outcomes, localhost-only binding, loopback-only target mode, mock-first default, private artifact boundary, no external target authorization, no real scanner execution, rollback boundary, test command clarity, and claim-boundary preservation should be checked before any implementation candidate.
+- Preserved `safe_local_only_demo_execution_boundary_runtime_applied = false`, `minimal_runtime_wiring_changed = false`, `tool_gateway_behavior_changed = false`, `runtime_behavior_changed = false`, `scanner_behavior_changed = false`, `execution_authorized = false`, `real_execution_permitted = false`, and `external_target_authorization = false`.
+- Recorded `recommended_next_work_item = safe_local_only_demo_minimal_runtime_wiring_implementation_candidate`.
+- No private generated outputs are moved public in v0.6.349.
+
 \n## v0.6.348 - Next Work Selection Using Risk-Tiered Granularity
 
 - Selected `safe_local_only_demo_minimal_runtime_wiring_implementation_readiness_review` as the next work item after the safe local-only demo minimal runtime wiring change closeout.

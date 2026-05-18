@@ -434,3 +434,4 @@ def main() -> int:
 if __name__ == "__main__":
     raise SystemExit(main())
 "tools/test_v06348_next_work_selection_using_risk_tiered_granularity.py",
+"tools/test_v06349_safe_local_only_demo_minimal_runtime_wiring_implementation_readiness_review.py",
