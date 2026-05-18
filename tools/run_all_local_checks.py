@@ -418,6 +418,7 @@ def main() -> int:
         "tools/test_v06339_safe_local_only_demo_minimal_runtime_wiring_readiness_review.py",
         "tools/test_v06340_safe_local_only_demo_minimal_runtime_wiring_candidate.py",
         "tools/test_v06341_safe_local_only_demo_minimal_runtime_wiring_candidate_review_and_decision.py",
+        "tools/test_v06342_safe_local_only_demo_minimal_runtime_wiring_closeout_review.py",
     ]
     for test_path in additional_version_tests:
         run([sys.executable, test_path])
