@@ -1,5 +1,58 @@
 # Changelog
 
+## v0.6.319 - Safe Local-Only Runnable Demo Reviewer Runbook Review and Decision
+
+- Accepted the v0.6.318 local reviewer runbook for the safe local-only runnable demo.
+- Recorded `safe_local_only_runnable_demo_reviewer_runbook_review_completed = true`, `safe_local_only_runnable_demo_reviewer_runbook_accepted = true`, and `safe_local_only_runnable_demo_reviewer_runbook_id = safe_local_only_runnable_demo_reviewer_runbook_v06318`.
+- Accepted reviewer runbook steps for repository status check, mock gateway demo, generated output validation, local target lab profile, runtime destination binding, execution authorization gate, preflight validation, runtime transition checkpoint, private artifact review, and stop condition review.
+- Preserved `safe_local_only_runnable_demo_ready = true` and `safe_local_only_runnable_demo_ready_scope = mock_first_localhost_only_reviewer_demo`.
+- Preserved `safe_local_only_runnable_demo_public_ready = false`, `runtime_demo_ready = false`, `execution_authorized = false`, `real_execution_permitted = false`, and `external_target_authorization = false`.
+- Recorded `recommended_next_work_item = safe_local_only_runnable_demo_public_positioning_review`.
+- No private generated outputs are moved public in v0.6.319.
+
+- safe_local_only_runnable_demo_reviewer_runbook_review_and_decision
+- safe_local_only_runnable_demo_reviewer_runbook_review_completed
+- safe_local_only_runnable_demo_reviewer_runbook_accepted
+- safe_local_only_runnable_demo_reviewer_runbook_v06318
+- safe_local_only_runnable_demo_reviewer_runbook
+- safe_local_only_runnable_demo_public_positioning_review
+- safe_local_only_runnable_demo_readiness_review_v06317
+- safe_local_only_runnable_demo_ready
+- mock_first_localhost_only_reviewer_demo
+- safe_local_only_runnable_demo_path_creation_v06315
+- safe_local_only_runnable_demo_path
+- safe_local_only_runnable_demo_path_v06310
+- safe_local_only_demo_execution_boundary_v06306
+- safe_local_only_demo_execution_boundary
+- localhost_only
+- loopback-only target boundary
+- mock_first_no_live_scanner_default
+- external target authorization remains false
+- safe_mock_demo_public_artifact
+- docs/public-artifacts/safe-mock-demo-public-artifact.md
+- safe mock demo
+- private-not-in-git
+- allowed-action: completed
+- denied-action: blocked
+- human-approval-required: requires_human_approval
+- real scanner execution remains blocked
+- runtime readiness status: not_detected_execution_blocked
+- target lab gate status: target_defined_execution_blocked
+- binding gate status: bound_execution_blocked
+- transition gate status: candidate_recorded_execution_blocked
+- execution authorized: False
+- real execution permitted: False
+- safe local-only runnable demo reviewer runbook review is not execution authorization
+- safe local-only runnable demo reviewer runbook review is not runtime-applied enforcement
+- safe local-only runnable demo reviewer runbook review is not runtime demo readiness
+- safe local-only runnable demo reviewer runbook review is not scanner readiness
+- safe local-only runnable demo reviewer runbook review is not production readiness
+- safe local-only runnable demo reviewer runbook review is not external target authorization
+- No private generated outputs are moved public in v0.6.319.
+- readme_front_page_rewritten = false
+- repository_metadata_changed = false
+
+
 ## v0.6.318 - Safe Local-Only Runnable Demo Reviewer Runbook
 
 - Created a concise local reviewer runbook for the safe local-only runnable demo.
