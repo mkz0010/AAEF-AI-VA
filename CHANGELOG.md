@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.329 - Safe Local-Only Demo Runtime Application Readiness Review
+
+- Reviewed readiness for a later safe local-only demo runtime application candidate.
+- Recorded `safe_local_only_demo_runtime_application_readiness_review_completed = true` and `safe_local_only_demo_runtime_application_readiness_review_result = candidate_needed_not_runtime_applied`.
+- Confirmed localhost-only binding, mock-first default, private artifact boundary, no external target authorization, no real scanner execution, fail-closed paths, and claim-boundary preservation should be checked before any candidate.
+- Preserved `safe_local_only_demo_execution_boundary_runtime_applied = false`, `execution_authorized = false`, `real_execution_permitted = false`, and `external_target_authorization = false`.
+- Recorded `recommended_next_work_item = safe_local_only_demo_runtime_application_candidate`.
+- No private generated outputs are moved public in v0.6.329.
+
+
 ## v0.6.328 - Next Work Selection Using Risk-Tiered Granularity
 
 - Selected `safe_local_only_demo_runtime_application_readiness_review` as the next work item after the safe local-only runnable demo public positioning integration closeout.

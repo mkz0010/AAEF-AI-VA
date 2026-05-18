@@ -5255,3 +5255,30 @@ Current boundaries remain:
 - no gateway behavior change
 - no runtime behavior change
 - no scanner behavior change
+
+## After v0.6.329
+
+v0.6.329 reviews readiness for a later safe local-only demo runtime application candidate.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.330 Safe Local-Only Demo Runtime Application Candidate
+~~~
+
+Current boundaries remain:
+
+- no safe local-only demo runtime application candidate created
+- no safe local-only demo execution boundary runtime-applied
+- no public demo readiness
+- no publication approval
+- no public announcement
+- no customer demo approval
+- no runtime demo readiness
+- no scanner readiness
+- no execution authorization
+- no real execution permitted
+- no external target authorization
+- no gateway behavior change
+- no runtime behavior change
+- no scanner behavior change
