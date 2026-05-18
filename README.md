@@ -7241,3 +7241,28 @@ recommended_next_work_item = next_work_selection_using_risk_tiered_granularity
 ~~~
 
 This is closeout review only. Runtime application closeout review is not runtime application. Runtime application closeout review is not execution authorization. Runtime application closeout review is not real execution permission. Runtime application closeout review is not external target authorization. Runtime application closeout review is not public demo readiness. Runtime application closeout review is not scanner readiness. Runtime application closeout review is not production readiness. No private generated outputs are moved public in v0.6.332.
+
+## v0.6.333 Next Work Selection Using Risk-Tiered Granularity
+
+v0.6.333 selects the next work item after the safe local-only demo runtime application closeout.
+
+~~~text
+next_work_selection_using_risk_tiered_granularity_completed = true
+next_work_selection_result = safe_local_only_demo_runtime_application_go_no_go_review
+selected_next_work_item = safe_local_only_demo_runtime_application_go_no_go_review
+selected_next_work_version = v0.6.334
+selected_next_work_title = Safe Local-Only Demo Runtime Application Go/No-Go Review
+runtime_application_go_no_go_review_selected = true
+runtime_application_go_no_go_review_created = false
+runtime_application_go_no_go_review_completed = false
+safe_local_only_demo_execution_boundary_runtime_applied = false
+tool_gateway_behavior_changed = false
+runtime_behavior_changed = false
+scanner_behavior_changed = false
+execution_authorized = false
+real_execution_permitted = false
+external_target_authorization = false
+recommended_next_work_item = safe_local_only_demo_runtime_application_go_no_go_review
+~~~
+
+This is next-work selection only. Next work selection is not runtime application. Next work selection is not execution authorization. Next work selection is not real execution permission. Next work selection is not external target authorization. Next work selection is not public demo readiness. Next work selection is not scanner readiness. Next work selection is not production readiness. No private generated outputs are moved public in v0.6.333.
