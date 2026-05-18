@@ -1,5 +1,58 @@
 # Changelog
 
+## v0.6.326 - Safe Local-Only Runnable Demo Public Positioning Integration Implementation Candidate Review and Decision
+
+- Accepted the v0.6.325 bounded implementation candidate for the safe local-only runnable demo public positioning integration track.
+- Recorded `safe_local_only_runnable_demo_public_positioning_integration_implementation_candidate_review_completed = true`, `safe_local_only_runnable_demo_public_positioning_integration_implementation_candidate_accepted = true`, and `safe_local_only_runnable_demo_public_positioning_integration_implementation_candidate_id = safe_local_only_runnable_demo_public_positioning_integration_implementation_candidate_v06325`.
+- Accepted README status wording, README boundary wording, public artifact reference wording, ROADMAP boundary wording, and CHANGELOG summary wording.
+- Preserved `safe_local_only_runnable_demo_public_ready = false`, `publication_approval = false`, `runtime_demo_ready = false`, `execution_authorized = false`, `real_execution_permitted = false`, and `external_target_authorization = false`.
+- Recorded `recommended_next_work_item = safe_local_only_runnable_demo_public_positioning_integration_closeout_review`.
+- No private generated outputs are moved public in v0.6.326.
+
+- safe_local_only_runnable_demo_public_positioning_integration_implementation_candidate_review_and_decision
+- safe_local_only_runnable_demo_public_positioning_integration_implementation_candidate_review_completed
+- safe_local_only_runnable_demo_public_positioning_integration_implementation_candidate_accepted
+- safe_local_only_runnable_demo_public_positioning_integration_implementation_candidate_v06325
+- safe_local_only_runnable_demo_public_positioning_integration_implementation_candidate
+- safe_local_only_runnable_demo_public_positioning_integration_closeout_review
+- safe_local_only_runnable_demo_public_positioning_integration_plan_candidate_v06323
+- safe_local_only_runnable_demo_public_positioning_candidate_v06321
+- safe_local_only_runnable_demo_reviewer_runbook_v06318
+- safe_local_only_runnable_demo_ready
+- mock_first_localhost_only_reviewer_demo
+- safe_local_only_demo_execution_boundary_v06306
+- safe_local_only_demo_execution_boundary
+- localhost_only
+- loopback-only target boundary
+- mock_first_no_live_scanner_default
+- external target authorization remains false
+- safe_mock_demo_public_artifact
+- docs/public-artifacts/safe-mock-demo-public-artifact.md
+- private-not-in-git
+- AI requests; gates decide
+- allowed-action: completed
+- denied-action: blocked
+- human-approval-required: requires_human_approval
+- real scanner execution remains blocked
+- runtime readiness status: not_detected_execution_blocked
+- target lab gate status: target_defined_execution_blocked
+- binding gate status: bound_execution_blocked
+- transition gate status: candidate_recorded_execution_blocked
+- execution authorized: False
+- real execution permitted: False
+- safe local-only runnable demo public positioning integration implementation candidate review is not publication approval
+- safe local-only runnable demo public positioning integration implementation candidate review is not public demo readiness
+- safe local-only runnable demo public positioning integration implementation candidate review is not customer demo readiness
+- safe local-only runnable demo public positioning integration implementation candidate review is not execution authorization
+- safe local-only runnable demo public positioning integration implementation candidate review is not runtime demo readiness
+- safe local-only runnable demo public positioning integration implementation candidate review is not scanner readiness
+- safe local-only runnable demo public positioning integration implementation candidate review is not production readiness
+- safe local-only runnable demo public positioning integration implementation candidate review is not external target authorization
+- No private generated outputs are moved public in v0.6.326.
+- readme_front_page_rewritten = false
+- repository_metadata_changed = false
+
+
 ## v0.6.325 - Safe Local-Only Runnable Demo Public Positioning Integration Implementation Candidate
 
 - Created a bounded implementation candidate for the accepted public positioning integration plan.
