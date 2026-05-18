@@ -4951,3 +4951,30 @@ Current boundaries remain:
 - no gateway behavior change
 - no runtime behavior change
 - no scanner behavior change
+
+## After v0.6.318
+
+v0.6.318 creates a concise local reviewer runbook for the safe local-only runnable demo.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.319 Safe Local-Only Runnable Demo Reviewer Runbook Review and Decision
+~~~
+
+Current boundaries remain:
+
+- no reviewer runbook review completed
+- no public demo readiness
+- no publication approval
+- no public announcement
+- no customer demo approval
+- no runtime demo readiness
+- no scanner readiness
+- no execution authorization
+- no real execution permitted
+- no external target authorization
+- no safe local-only demo execution boundary runtime-applied
+- no gateway behavior change
+- no runtime behavior change
+- no scanner behavior change
