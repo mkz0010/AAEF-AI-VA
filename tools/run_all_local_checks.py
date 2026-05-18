@@ -375,6 +375,7 @@ def main() -> int:
         "tools/test_v06296_safe_mock_demo_pre_public_boundary_review.py",
         "tools/test_v06297_safe_mock_demo_pre_public_boundary_review_and_decision.py",
         "tools/test_v06298_next_work_selection_using_risk_tiered_granularity.py",
+        "tools/test_v06299_safe_mock_demo_public_artifact_promotion_candidate.py",
     ]
     for test_path in additional_version_tests:
         run([sys.executable, test_path])
