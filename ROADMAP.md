@@ -5004,3 +5004,30 @@ Current boundaries remain:
 - no gateway behavior change
 - no runtime behavior change
 - no scanner behavior change
+
+## After v0.6.320
+
+v0.6.320 reviews public positioning for the safe local-only runnable demo and recommends creating a public positioning candidate.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.321 Safe Local-Only Runnable Demo Public Positioning Candidate
+~~~
+
+Current boundaries remain:
+
+- no public positioning candidate created
+- no public demo readiness
+- no publication approval
+- no public announcement
+- no customer demo approval
+- no runtime demo readiness
+- no scanner readiness
+- no execution authorization
+- no real execution permitted
+- no external target authorization
+- no safe local-only demo execution boundary runtime-applied
+- no gateway behavior change
+- no runtime behavior change
+- no scanner behavior change
