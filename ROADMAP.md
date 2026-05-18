@@ -4512,3 +4512,27 @@ Current boundaries remain:
 - no gateway behavior change
 - no runtime behavior change
 - no scanner behavior change
+
+## After v0.6.301
+
+v0.6.301 creates the Safe Mock Demo Public Artifact.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.302 Safe Mock Demo Public Artifact Promotion Review and Decision
+~~~
+
+Current boundaries remain:
+
+- no public artifact promotion accepted
+- no publication approval
+- no public announcement
+- no runtime demo readiness
+- no scanner readiness
+- no execution authorization
+- no real execution permitted
+- no local-only demo execution boundary candidate
+- no gateway behavior change
+- no runtime behavior change
+- no scanner behavior change

@@ -5225,3 +5225,71 @@ This is review only. Public artifact promotion candidate review is not publicati
 - No private generated outputs are moved public in v0.6.300.
 - readme_front_page_rewritten = false
 - repository_metadata_changed = false
+
+## v0.6.301 Safe Mock Demo Public Artifact Promotion
+
+v0.6.301 creates a documentation-only public artifact for the safe mock demo path.
+
+Public artifact:
+
+~~~text
+docs/public-artifacts/safe-mock-demo-public-artifact.md
+~~~
+
+This checkpoint records:
+
+~~~text
+safe_mock_demo_public_artifact_promotion_applied = true
+safe_mock_demo_public_artifact_promotion_created = true
+safe_mock_demo_public_artifact_promotion_id = safe_mock_demo_public_artifact_promotion_v06301
+safe_mock_demo_public_artifact_path = docs/public-artifacts/safe-mock-demo-public-artifact.md
+safe_mock_demo_public_artifact_created = true
+safe_mock_demo_public_artifact_contains_private_generated_outputs = false
+safe_mock_demo_public_artifact_contains_live_scanner_outputs = false
+safe_mock_demo_public_artifact_promotion_review_completed = false
+publication_approval = false
+public_announcement = deferred
+runtime_demo_ready = false
+execution_authorized = false
+real_execution_permitted = false
+recommended_next_work_item = safe_mock_demo_public_artifact_promotion_review_and_decision
+~~~
+
+This is public artifact promotion only. Public artifact promotion is not publication approval. Public artifact promotion is not public announcement. Public artifact promotion is not runtime demo readiness. Public artifact promotion is not scanner readiness. Public artifact promotion is not production readiness. No private generated outputs are moved public in v0.6.301.
+
+- safe_mock_demo_public_artifact_promotion
+- safe_mock_demo_public_artifact_promotion_v06301
+- safe_mock_demo_public_artifact_promotion_review_and_decision
+- safe_mock_demo_public_artifact_promotion_candidate_review_and_decision_v06300
+- safe_mock_demo_public_artifact_promotion_candidate_v06299
+- docs/public-artifacts/safe-mock-demo-public-artifact.md
+- safe_mock_demo_public_artifact
+- safe_mock_demo_initial_path
+- safe mock demo
+- safe mock demo public artifact
+- safe mock demo public artifact promotion
+- safe mock demo public positioning
+- safe mock demo private artifact boundary
+- safe mock demo command example
+- safe mock demo expected statuses
+- safe mock demo is not live scanner execution
+- private-not-in-git
+- allowed-action: completed
+- denied-action: blocked
+- human-approval-required: requires_human_approval
+- local-only runnable demo
+- real scanner execution remains blocked
+- runtime readiness status: not_detected_execution_blocked
+- target lab gate status: target_defined_execution_blocked
+- binding gate status: bound_execution_blocked
+- transition gate status: candidate_recorded_execution_blocked
+- execution authorized: False
+- real execution permitted: False
+- public artifact promotion is not publication approval
+- public artifact promotion is not public announcement
+- public artifact promotion is not runtime demo readiness
+- public artifact promotion is not scanner readiness
+- public artifact promotion is not production readiness
+- No private generated outputs are moved public in v0.6.301.
+- readme_front_page_rewritten = false
+- repository_metadata_changed = false
