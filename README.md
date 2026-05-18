@@ -2334,7 +2334,7 @@ Candidate status:
 - not implemented
 - not gateway-integrated
 - not runtime-ready
-- not scanner-ready
+- not scanner readiness
 - subject to `v0.6.213 Gateway Core Safety Integration Plan Review and Decision`
 
 The plan candidate defines a mandatory Gateway core sequence and priority controls for later work. It does not change Tool Gateway behavior, adapter behavior, execution statuses, schemas, validators, fixtures, runtime behavior, or scanner behavior.
@@ -6913,5 +6913,81 @@ This is review only. Safe local-only runnable demo public positioning integratio
 - safe local-only runnable demo public positioning integration plan review is not production readiness
 - safe local-only runnable demo public positioning integration plan review is not external target authorization
 - No private generated outputs are moved public in v0.6.324.
+- readme_front_page_rewritten = false
+- repository_metadata_changed = false
+
+## v0.6.325 Safe Local-Only Runnable Demo Public Positioning Integration Implementation Candidate
+
+v0.6.325 creates a bounded implementation candidate for the accepted safe local-only runnable demo public positioning integration plan.
+
+Candidate README-visible wording:
+
+- Safe local-only reviewer walkthrough: AAEF-AI-VA has a mock-first localhost-only reviewer path that demonstrates AI request, gate decision, and evidence-linked review boundaries.
+- The reviewer-visible outcomes are allowed, blocked, and human approval required.
+- The walkthrough remains local-only and does not authorize external targets, customer targets, production targets, live tool execution, or real scanner execution.
+- Generated reviewer artifacts remain under private-not-in-git unless a later explicit publication checkpoint changes that boundary.
+- This wording candidate does not make the project public demo readiness, customer demo readiness, runtime demo readiness, scanner readiness, production readiness, certification, audit sufficiency, or diagnostic-completeness claim.
+
+This checkpoint records:
+
+~~~text
+safe_local_only_runnable_demo_public_positioning_integration_implementation_candidate_created = true
+safe_local_only_runnable_demo_public_positioning_integration_implementation_candidate_id = safe_local_only_runnable_demo_public_positioning_integration_implementation_candidate_v06325
+safe_local_only_runnable_demo_public_positioning_integration_implementation_candidate_status = candidate_not_reviewed
+safe_local_only_runnable_demo_public_positioning_integration_implementation_candidate_review_completed = false
+integration_implementation_candidate_readme_current_status_wording_added = true
+integration_implementation_candidate_readme_safe_demo_boundary_wording_added = true
+integration_implementation_candidate_public_artifact_reference_wording_added = true
+integration_implementation_candidate_front_page_rewrite = false
+integration_implementation_candidate_repository_metadata_change = false
+safe_local_only_runnable_demo_ready = true
+safe_local_only_runnable_demo_public_ready = false
+publication_approval = false
+runtime_demo_ready = false
+execution_authorized = false
+real_execution_permitted = false
+external_target_authorization = false
+recommended_next_work_item = safe_local_only_runnable_demo_public_positioning_integration_implementation_candidate_review_and_decision
+~~~
+
+This is implementation candidate only. Safe local-only runnable demo public positioning integration implementation candidate is not publication approval. Safe local-only runnable demo public positioning integration implementation candidate is not public demo readiness. Safe local-only runnable demo public positioning integration implementation candidate is not customer demo readiness. Safe local-only runnable demo public positioning integration implementation candidate is not execution authorization. Safe local-only runnable demo public positioning integration implementation candidate is not runtime demo readiness. Safe local-only runnable demo public positioning integration implementation candidate is not scanner readiness. Safe local-only runnable demo public positioning integration implementation candidate is not production readiness. Safe local-only runnable demo public positioning integration implementation candidate is not external target authorization. No private generated outputs are moved public in v0.6.325.
+
+- safe_local_only_runnable_demo_public_positioning_integration_implementation_candidate
+- safe_local_only_runnable_demo_public_positioning_integration_implementation_candidate_v06325
+- safe_local_only_runnable_demo_public_positioning_integration_implementation_candidate_review_and_decision
+- safe_local_only_runnable_demo_public_positioning_integration_plan_candidate_v06323
+- safe_local_only_runnable_demo_public_positioning_candidate_v06321
+- safe_local_only_runnable_demo_reviewer_runbook_v06318
+- safe_local_only_runnable_demo_ready
+- mock_first_localhost_only_reviewer_demo
+- safe_local_only_demo_execution_boundary_v06306
+- safe_local_only_demo_execution_boundary
+- localhost_only
+- loopback-only target boundary
+- mock_first_no_live_scanner_default
+- external target authorization remains false
+- safe_mock_demo_public_artifact
+- docs/public-artifacts/safe-mock-demo-public-artifact.md
+- private-not-in-git
+- AI requests; gates decide
+- allowed-action: completed
+- denied-action: blocked
+- human-approval-required: requires_human_approval
+- real scanner execution remains blocked
+- runtime readiness status: not_detected_execution_blocked
+- target lab gate status: target_defined_execution_blocked
+- binding gate status: bound_execution_blocked
+- transition gate status: candidate_recorded_execution_blocked
+- execution authorized: False
+- real execution permitted: False
+- safe local-only runnable demo public positioning integration implementation candidate is not publication approval
+- safe local-only runnable demo public positioning integration implementation candidate is not public demo readiness
+- safe local-only runnable demo public positioning integration implementation candidate is not customer demo readiness
+- safe local-only runnable demo public positioning integration implementation candidate is not execution authorization
+- safe local-only runnable demo public positioning integration implementation candidate is not runtime demo readiness
+- safe local-only runnable demo public positioning integration implementation candidate is not scanner readiness
+- safe local-only runnable demo public positioning integration implementation candidate is not production readiness
+- safe local-only runnable demo public positioning integration implementation candidate is not external target authorization
+- No private generated outputs are moved public in v0.6.325.
 - readme_front_page_rewritten = false
 - repository_metadata_changed = false

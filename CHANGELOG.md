@@ -1,5 +1,55 @@
 # Changelog
 
+## v0.6.325 - Safe Local-Only Runnable Demo Public Positioning Integration Implementation Candidate
+
+- Created a bounded implementation candidate for the accepted public positioning integration plan.
+- Added controlled README-visible candidate wording for the safe local-only reviewer walkthrough while preserving no README front page rewrite and no repository metadata change.
+- Recorded `safe_local_only_runnable_demo_public_positioning_integration_implementation_candidate_created = true`, `safe_local_only_runnable_demo_public_positioning_integration_implementation_candidate_id = safe_local_only_runnable_demo_public_positioning_integration_implementation_candidate_v06325`, and `safe_local_only_runnable_demo_public_positioning_integration_implementation_candidate_status = candidate_not_reviewed`.
+- Preserved `safe_local_only_runnable_demo_public_ready = false`, `publication_approval = false`, `runtime_demo_ready = false`, `execution_authorized = false`, `real_execution_permitted = false`, and `external_target_authorization = false`.
+- Recorded `recommended_next_work_item = safe_local_only_runnable_demo_public_positioning_integration_implementation_candidate_review_and_decision`.
+- No private generated outputs are moved public in v0.6.325.
+
+- safe_local_only_runnable_demo_public_positioning_integration_implementation_candidate
+- safe_local_only_runnable_demo_public_positioning_integration_implementation_candidate_v06325
+- safe_local_only_runnable_demo_public_positioning_integration_implementation_candidate_review_and_decision
+- safe_local_only_runnable_demo_public_positioning_integration_plan_candidate_v06323
+- safe_local_only_runnable_demo_public_positioning_candidate_v06321
+- safe_local_only_runnable_demo_reviewer_runbook_v06318
+- safe_local_only_runnable_demo_ready
+- mock_first_localhost_only_reviewer_demo
+- safe_local_only_demo_execution_boundary_v06306
+- safe_local_only_demo_execution_boundary
+- localhost_only
+- loopback-only target boundary
+- mock_first_no_live_scanner_default
+- external target authorization remains false
+- safe_mock_demo_public_artifact
+- docs/public-artifacts/safe-mock-demo-public-artifact.md
+- private-not-in-git
+- AI requests; gates decide
+- allowed-action: completed
+- denied-action: blocked
+- human-approval-required: requires_human_approval
+- real scanner execution remains blocked
+- runtime readiness status: not_detected_execution_blocked
+- target lab gate status: target_defined_execution_blocked
+- binding gate status: bound_execution_blocked
+- transition gate status: candidate_recorded_execution_blocked
+- execution authorized: False
+- real execution permitted: False
+- safe local-only runnable demo public positioning integration implementation candidate is not publication approval
+- safe local-only runnable demo public positioning integration implementation candidate is not public demo readiness
+- safe local-only runnable demo public positioning integration implementation candidate is not customer demo readiness
+- safe local-only runnable demo public positioning integration implementation candidate is not execution authorization
+- safe local-only runnable demo public positioning integration implementation candidate is not runtime demo readiness
+- safe local-only runnable demo public positioning integration implementation candidate is not scanner readiness
+- safe local-only runnable demo public positioning integration implementation candidate is not production readiness
+- safe local-only runnable demo public positioning integration implementation candidate is not external target authorization
+- No private generated outputs are moved public in v0.6.325.
+- readme_front_page_rewritten = false
+- repository_metadata_changed = false
+
+
 ## v0.6.324 - Safe Local-Only Runnable Demo Public Positioning Integration Plan Candidate Review and Decision
 
 - Accepted the v0.6.323 integration plan candidate for the accepted public positioning wording.
@@ -3164,7 +3214,7 @@ Structural token coverage for v0.6.273:
 - Added `planning/issues/0281-add-v06212-gateway-core-safety-integration-plan-candidate.md`.
 - Added `tools/test_v06212_gateway_core_safety_integration_plan_candidate.py`.
 - Recorded the Gateway Core Safety Integration Plan Candidate.
-- Candidate status: candidate only, not accepted, not implemented, not gateway-integrated, not runtime-ready, and not scanner-ready.
+- Candidate status: candidate only, not accepted, not implemented, not gateway-integrated, not runtime-ready, and not scanner readiness.
 - Follow-up: v0.6.213 Gateway Core Safety Integration Plan Review and Decision.
 - Recorded that runtime demo remains necessary but deferred and publication remains deferred.
 - Preserved no Tool Gateway behavior, adapter behavior, status/schema/validator/fixture/runtime/scanner behavior changes.
