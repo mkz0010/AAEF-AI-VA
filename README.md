@@ -7687,3 +7687,30 @@ recommended_next_work_item = safe_local_only_demo_minimal_runtime_wiring_impleme
 ~~~
 
 This is review only. Minimal runtime wiring implementation candidate review is not runtime wiring. Minimal runtime wiring implementation candidate review is not runtime application. Minimal runtime wiring implementation candidate review is not execution authorization. Minimal runtime wiring implementation candidate review is not real execution permission. Minimal runtime wiring implementation candidate review is not external target authorization. Minimal runtime wiring implementation candidate review is not public demo readiness. Minimal runtime wiring implementation candidate review is not scanner readiness. Minimal runtime wiring implementation candidate review is not production readiness. No private generated outputs are moved public in v0.6.351.
+
+## v0.6.352 Emergency Public Product/Pricing Tree Removal
+
+v0.6.352 removes draft product and pricing files from the current public repository tree.
+
+~~~text
+public_product_pricing_tree_removal_completed = true
+public_product_personas_removed_from_public_tree = true
+public_product_pricing_draft_removed_from_public_tree = true
+current_public_tree_contains_product_personas_md = false
+current_public_tree_contains_product_pricing_draft_md = false
+history_rewrite_performed = false
+git_history_exposure_may_remain = true
+separate_history_exposure_review_required = true
+gateway_core_integration_still_required = true
+safe_local_only_demo_execution_boundary_runtime_applied = false
+minimal_runtime_wiring_changed = false
+tool_gateway_behavior_changed = false
+runtime_behavior_changed = false
+scanner_behavior_changed = false
+execution_authorized = false
+real_execution_permitted = false
+external_target_authorization = false
+recommended_next_work_item = public_history_exposure_review
+~~~
+
+This is current-tree cleanup only. Public product/pricing tree removal is not publication approval, customer demo readiness, commercial offer approval, runtime wiring, runtime application, execution authorization, real execution permission, external target authorization, scanner readiness, or production readiness. Git history may still expose prior contents, so a separate history exposure review is required.

@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.6.352 - Emergency Public Product/Pricing Tree Removal
+
+- Removed `product/personas.md` and `product/pricing-draft.md` from the current public repository tree.
+- Recorded `public_product_pricing_tree_removal_completed = true`, `current_public_tree_contains_product_personas_md = false`, and `current_public_tree_contains_product_pricing_draft_md = false`.
+- Preserved the README boundary that this repository is not a customer-ready managed assessment platform.
+- Recorded `history_rewrite_performed = false`, `git_history_exposure_may_remain = true`, and `separate_history_exposure_review_required = true`.
+- Recorded that Gateway core integration, public status terminology cleanup, README maturity matrix work, and evidence trace strengthening remain open.
+- Preserved `safe_local_only_demo_execution_boundary_runtime_applied = false`, `minimal_runtime_wiring_changed = false`, `tool_gateway_behavior_changed = false`, `runtime_behavior_changed = false`, `scanner_behavior_changed = false`, `execution_authorized = false`, `real_execution_permitted = false`, and `external_target_authorization = false`.
+- Recorded `recommended_next_work_item = public_history_exposure_review`.
+
+
 ## v0.6.351 - Safe Local-Only Demo Minimal Runtime Wiring Implementation Candidate Review and Decision
 
 - Reviewed and accepted the bounded safe local-only demo minimal runtime wiring implementation candidate.
