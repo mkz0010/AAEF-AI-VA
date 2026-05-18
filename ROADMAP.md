@@ -4610,3 +4610,28 @@ Current boundaries remain:
 - no gateway behavior change
 - no runtime behavior change
 - no scanner behavior change
+
+## After v0.6.305
+
+v0.6.305 accepts the Safe Local-Only Demo Execution Boundary Candidate.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.306 Safe Local-Only Demo Execution Boundary
+~~~
+
+Current boundaries remain:
+
+- no safe local-only demo execution boundary applied
+- no local-only runnable demo path created
+- no publication approval
+- no public announcement
+- no runtime demo readiness
+- no scanner readiness
+- no execution authorization
+- no real execution permitted
+- no external target authorization
+- no gateway behavior change
+- no runtime behavior change
+- no scanner behavior change
