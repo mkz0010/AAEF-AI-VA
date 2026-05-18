@@ -1,5 +1,57 @@
 # Changelog
 
+## v0.6.309 - Safe Local-Only Runnable Demo Path Candidate Review and Decision
+
+- Accepted the v0.6.308 Safe Local-Only Runnable Demo Path Candidate.
+- Recorded `safe_local_only_runnable_demo_path_candidate_review_completed = true`, `safe_local_only_runnable_demo_path_candidate_accepted = true`, and `safe_local_only_runnable_demo_path_candidate_id = safe_local_only_runnable_demo_path_candidate_v06308`.
+- Accepted candidate prerequisites, entrypoint, target lab profile, runtime destination binding, preflight sequence, preflight evidence, execution authorization gate, human approval gate, mock-first execution, local tool invocation, evidence output, reviewer walkthrough, stop conditions, cleanup boundary, expected outputs, and demo command sequence.
+- Recorded `recommended_next_work_item = safe_local_only_runnable_demo_path`.
+- Preserved `safe_local_only_runnable_demo_path_defined = false`, `safe_local_only_runnable_demo_path_created = false`, `safe_local_only_runnable_demo_ready = false`, `runtime_demo_ready = false`, `execution_authorized = false`, and `real_execution_permitted = false`.
+- Preserved claim boundaries: safe local-only runnable demo path candidate review is not execution authorization, runnable demo creation, runtime-applied enforcement, runtime demo readiness, scanner readiness, production readiness, or external target authorization.
+- No private generated outputs are moved public in v0.6.309.
+
+- safe_local_only_runnable_demo_path_candidate_review_and_decision
+- safe_local_only_runnable_demo_path_candidate_review_completed
+- safe_local_only_runnable_demo_path_candidate_accepted
+- safe_local_only_runnable_demo_path_candidate_v06308
+- safe_local_only_runnable_demo_path_candidate
+- safe_local_only_runnable_demo_path
+- safe_local_only_demo_execution_boundary_v06306
+- safe_local_only_demo_execution_boundary
+- localhost_only
+- loopback-only target boundary
+- mock_first_no_live_scanner_default
+- external target authorization remains false
+- safe_mock_demo_public_artifact
+- docs/public-artifacts/safe-mock-demo-public-artifact.md
+- safe mock demo
+- safe local-only demo execution boundary
+- safe local-only runnable demo path candidate
+- safe local-only runnable demo path
+- safe mock demo is not live scanner execution
+- private-not-in-git
+- allowed-action: completed
+- denied-action: blocked
+- human-approval-required: requires_human_approval
+- real scanner execution remains blocked
+- runtime readiness status: not_detected_execution_blocked
+- target lab gate status: target_defined_execution_blocked
+- binding gate status: bound_execution_blocked
+- transition gate status: candidate_recorded_execution_blocked
+- execution authorized: False
+- real execution permitted: False
+- safe local-only runnable demo path candidate review is not execution authorization
+- safe local-only runnable demo path candidate review is not runnable demo creation
+- safe local-only runnable demo path candidate review is not runtime-applied enforcement
+- safe local-only runnable demo path candidate review is not runtime demo readiness
+- safe local-only runnable demo path candidate review is not scanner readiness
+- safe local-only runnable demo path candidate review is not production readiness
+- safe local-only runnable demo path candidate review is not external target authorization
+- No private generated outputs are moved public in v0.6.309.
+- readme_front_page_rewritten = false
+- repository_metadata_changed = false
+
+
 ## v0.6.308 - Safe Local-Only Runnable Demo Path Candidate
 
 - Created a documentation-only Safe Local-Only Runnable Demo Path Candidate.
