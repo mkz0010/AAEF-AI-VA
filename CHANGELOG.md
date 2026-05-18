@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.6.343 - Next Work Selection Using Risk-Tiered Granularity
+
+- Selected `safe_local_only_demo_minimal_runtime_wiring_go_no_go_review` as the next work item after the safe local-only demo minimal runtime wiring closeout.
+- Recorded `selected_next_work_version = v0.6.344` and `selected_next_work_title = Safe Local-Only Demo Minimal Runtime Wiring Go/No-Go Review`.
+- Selected a review-only checkpoint because the bounded minimal runtime wiring candidate is accepted but runtime wiring remains intentionally false.
+- Deprioritized direct runtime wiring change, direct runtime application, public launch, customer demo, repository metadata, real scanner execution, and external target work.
+- Preserved `safe_local_only_demo_execution_boundary_runtime_applied = false`, `minimal_runtime_wiring_changed = false`, `tool_gateway_behavior_changed = false`, `runtime_behavior_changed = false`, `scanner_behavior_changed = false`, `execution_authorized = false`, `real_execution_permitted = false`, and `external_target_authorization = false`.
+- Recorded `recommended_next_work_item = safe_local_only_demo_minimal_runtime_wiring_go_no_go_review`.
+- No private generated outputs are moved public in v0.6.343.
+
+
 ## v0.6.342 - Safe Local-Only Demo Minimal Runtime Wiring Closeout Review
 
 - Closed the safe local-only demo minimal runtime wiring candidate track.
