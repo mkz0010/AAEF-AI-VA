@@ -1,5 +1,63 @@
 # Changelog
 
+## v0.6.322 - Safe Local-Only Runnable Demo Public Positioning Candidate Review and Decision
+
+- Accepted the v0.6.321 public positioning candidate for the safe local-only runnable demo.
+- Recorded `safe_local_only_runnable_demo_public_positioning_candidate_review_completed = true`, `safe_local_only_runnable_demo_public_positioning_candidate_accepted = true`, and `safe_local_only_runnable_demo_public_positioning_candidate_id = safe_local_only_runnable_demo_public_positioning_candidate_v06321`.
+- Accepted candidate wording for a safe local-only reviewer walkthrough, mock-first localhost-only demo path, AI request / gate decision framing, three gate outcomes, evidence-linked review, private artifact boundary, and broader-use deferrals.
+- Recorded `public_positioning_candidate_integration_plan_needed = true`.
+- Preserved `safe_local_only_runnable_demo_public_ready = false`, `publication_approval = false`, `runtime_demo_ready = false`, `execution_authorized = false`, `real_execution_permitted = false`, and `external_target_authorization = false`.
+- Recorded `recommended_next_work_item = safe_local_only_runnable_demo_public_positioning_integration_plan_candidate`.
+- No private generated outputs are moved public in v0.6.322.
+
+- safe_local_only_runnable_demo_public_positioning_candidate_review_and_decision
+- safe_local_only_runnable_demo_public_positioning_candidate_review_completed
+- safe_local_only_runnable_demo_public_positioning_candidate_accepted
+- safe_local_only_runnable_demo_public_positioning_candidate_v06321
+- safe_local_only_runnable_demo_public_positioning_candidate
+- safe_local_only_runnable_demo_public_positioning_integration_plan_candidate
+- safe_local_only_runnable_demo_public_positioning_review_v06320
+- safe_local_only_runnable_demo_reviewer_runbook_v06318
+- safe_local_only_runnable_demo_reviewer_runbook
+- safe_local_only_runnable_demo_ready
+- mock_first_localhost_only_reviewer_demo
+- safe_local_only_runnable_demo_path_creation_v06315
+- safe_local_only_runnable_demo_path
+- safe_local_only_runnable_demo_path_v06310
+- safe_local_only_demo_execution_boundary_v06306
+- safe_local_only_demo_execution_boundary
+- localhost_only
+- loopback-only target boundary
+- mock_first_no_live_scanner_default
+- external target authorization remains false
+- safe_mock_demo_public_artifact
+- docs/public-artifacts/safe-mock-demo-public-artifact.md
+- safe mock demo
+- private-not-in-git
+- allowed-action: completed
+- denied-action: blocked
+- human-approval-required: requires_human_approval
+- AI requests; gates decide
+- real scanner execution remains blocked
+- runtime readiness status: not_detected_execution_blocked
+- target lab gate status: target_defined_execution_blocked
+- binding gate status: bound_execution_blocked
+- transition gate status: candidate_recorded_execution_blocked
+- execution authorized: False
+- real execution permitted: False
+- safe local-only runnable demo public positioning candidate review is not publication approval
+- safe local-only runnable demo public positioning candidate review is not public demo readiness
+- safe local-only runnable demo public positioning candidate review is not customer demo readiness
+- safe local-only runnable demo public positioning candidate review is not execution authorization
+- safe local-only runnable demo public positioning candidate review is not runtime demo readiness
+- safe local-only runnable demo public positioning candidate review is not scanner readiness
+- safe local-only runnable demo public positioning candidate review is not production readiness
+- safe local-only runnable demo public positioning candidate review is not external target authorization
+- No private generated outputs are moved public in v0.6.322.
+- readme_front_page_rewritten = false
+- repository_metadata_changed = false
+
+
 ## v0.6.321 - Safe Local-Only Runnable Demo Public Positioning Candidate
 
 - Created a public positioning candidate for the safe local-only runnable demo.
