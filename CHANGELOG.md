@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.347 - Safe Local-Only Demo Minimal Runtime Wiring Change Closeout Review
+
+- Closed the safe local-only demo minimal runtime wiring change candidate track.
+- Recorded `safe_local_only_demo_minimal_runtime_wiring_change_closeout_review_completed = true`, `safe_local_only_demo_minimal_runtime_wiring_change_track_status = closed`, and `safe_local_only_demo_minimal_runtime_wiring_change_track_outcome = bounded_change_candidate_accepted_not_runtime_wiring_changed`.
+- Confirmed the v0.6.345 runtime wiring change candidate was accepted by v0.6.346 but remains not runtime-wiring-changed.
+- Preserved `safe_local_only_demo_execution_boundary_runtime_applied = false`, `minimal_runtime_wiring_changed = false`, `tool_gateway_behavior_changed = false`, `runtime_behavior_changed = false`, `scanner_behavior_changed = false`, `execution_authorized = false`, `real_execution_permitted = false`, and `external_target_authorization = false`.
+- Recorded `recommended_next_work_item = next_work_selection_using_risk_tiered_granularity`.
+- No private generated outputs are moved public in v0.6.347.
+
+
 ## v0.6.346 - Safe Local-Only Demo Minimal Runtime Wiring Change Candidate Review and Decision
 
 - Reviewed and accepted the bounded safe local-only demo minimal runtime wiring change candidate.
