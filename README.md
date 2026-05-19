@@ -8013,3 +8013,31 @@ Current maturity snapshot:
 
 
 This is a visibility and evidence-trace review only. It is not production readiness, scanner readiness, execution authorization, real execution permission, external target authorization, customer demo approval, or commercial offer approval.
+
+## v0.6.363 Gateway Validation Result Evidence Trace Modeling Candidate
+
+v0.6.363 defines a reviewer-facing candidate model for representing Gateway validation results in evidence traces.
+
+~~~text
+gateway_validation_result_evidence_trace_modeling_candidate_created = true
+gateway_validation_result_evidence_trace_model_defined = true
+gateway_validation_result_evidence_trace_model_runtime_applied = false
+gateway_validation_result_evidence_record_schema_changed = false
+gateway_validation_result_generated_outputs_changed = false
+gateway_validation_result_existing_generated_output_compatibility_preserved = true
+gateway_validation_result_model_gate_set_includes_authorization_expiry_current_time = true
+gateway_validation_result_model_gate_set_includes_request_decision_constraint_diff = true
+gateway_validation_result_model_gate_set_includes_external_discovery_fail_closed = true
+gateway_validation_result_model_external_process_executed_field_required = true
+gateway_validation_result_model_network_activity_performed_field_required = true
+v06363_schema_changed = false
+v06363_gateway_core_behavior_changed = false
+v06363_runtime_behavior_changed = false
+v06363_scanner_behavior_changed = false
+execution_authorized = false
+real_execution_permitted = false
+external_target_authorization = false
+recommended_next_work_item = gateway_validation_result_evidence_trace_modeling_candidate_review_and_decision
+~~~
+
+This is model definition only. It does not change schemas, generated outputs, runtime behavior, scanner behavior, execution authorization, real execution permission, external target authorization, publication status, customer demo readiness, or commercial offer approval.

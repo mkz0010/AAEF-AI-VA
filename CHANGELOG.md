@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.6.363 - Gateway Validation Result Evidence Trace Modeling Candidate
+
+- Defined a reviewer-facing candidate model for Gateway validation result evidence traces.
+- Covered authorization expiry current-time, request/decision constraint diff, external discovery fail-closed, non-dispatch legacy preservation, and existing PolicyError path preservation.
+- Included required candidate fields for `external_process_executed`, `network_activity_performed`, and evidence limitations.
+- Preserved existing generated output compatibility by recording `gateway_validation_result_generated_outputs_changed = false`.
+- Recorded `gateway_validation_result_evidence_record_schema_changed = false`.
+- Recorded `v06363_gateway_core_behavior_changed = false`, `v06363_runtime_behavior_changed = false`, and `v06363_scanner_behavior_changed = false`.
+- Recorded `recommended_next_work_item = gateway_validation_result_evidence_trace_modeling_candidate_review_and_decision`.
+
+
 ## v0.6.362 - Gateway Core Integration Maturity Matrix and Evidence Trace Review
 
 - Added a Gateway core integration maturity matrix after acceptance of the authorization expiry current-time, request/decision constraint-diff, and external discovery fail-closed candidates.
