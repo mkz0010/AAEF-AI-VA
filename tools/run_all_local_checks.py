@@ -441,3 +441,4 @@ if __name__ == "__main__":
 "tools/test_v06353_emergency_public_commercial_term_cleanup.py",
 "tools/test_v06354_public_history_exposure_review.py",
 "tools/test_v06355_gateway_core_safety_integration_status_and_priority_review.py",
+"tools/test_v06356_authorization_expiry_current_time_gateway_core_integration_candidate.py",
