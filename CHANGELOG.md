@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.6.360 - External Discovery Fail-Closed Gateway Core Integration Implementation Candidate
+
+- Added a narrow mock Gateway core integration candidate for external discovery fail-closed enforcement.
+- Installed external-discovery pre-dispatch wrappers for Gateway functions that accept request/decision-style parameters.
+- Added direct blocked-before-dispatch behavior for explicit `external_discovery=true`.
+- Preserved denied, blocked, human-approval, and destructive-tests PolicyError paths.
+- Added `tools/test_v06360_external_discovery_fail_closed_gateway_core_integration_candidate.py`.
+- Preserved authorization expiry and request/decision constraint-diff Gateway core integrations while keeping controlled executor validation not Gateway-core integrated.
+- Recorded `recommended_next_work_item = external_discovery_fail_closed_gateway_core_integration_candidate_review_and_decision`.
+
+
 ## v0.6.359 - Request/Decision Constraint Diff Gateway Core Integration Candidate Review and Decision
 
 - Accepted the v0.6.358 request/decision constraint-diff Gateway core integration candidate for the current mock Gateway core path.

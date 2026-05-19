@@ -704,3 +704,184 @@ def _aaef_v06358_install_gateway_wrappers():
 
 _aaef_v06358_install_gateway_wrappers()
 
+# AAEF-AI-VA v0.6.360 external discovery fail-closed Gateway core integration candidate
+# Candidate scope: block explicit external_discovery=true before dispatch while preserving legacy non-dispatch and PolicyError paths.
+
+_AAEF_V06360_REQUEST_CONSTRAINT_KEYS = ("requested_constraints", "constraints", "request_constraints", "constraint_set")
+_AAEF_V06360_DECISION_CONSTRAINT_KEYS = ("approved_constraints", "constraints", "decision_constraints", "authorized_constraints", "constraint_set")
+
+
+def _aaef_v06360_jsonable(value):
+    if isinstance(value, dict):
+        return {str(k): _aaef_v06360_jsonable(v) for k, v in sorted(value.items(), key=lambda p: str(p[0]))}
+    if isinstance(value, (list, tuple)):
+        return [_aaef_v06360_jsonable(v) for v in value]
+    return value
+
+
+def _aaef_v06360_find_constraint_map(value, keys):
+    if not isinstance(value, dict):
+        return None
+    for key in keys:
+        item = value.get(key)
+        if isinstance(item, dict) and item:
+            return _aaef_v06360_jsonable(item)
+    for nested_key in ("tool_action_request", "request", "authorization_decision", "decision", "authorization"):
+        nested = value.get(nested_key)
+        if isinstance(nested, dict):
+            for key in keys:
+                item = nested.get(key)
+                if isinstance(item, dict) and item:
+                    return _aaef_v06360_jsonable(item)
+    return None
+
+
+def _aaef_v06360_decision_allows_dispatch(decision):
+    if not isinstance(decision, dict):
+        return True
+    values = []
+    for key in ("status", "decision", "decision_status", "authorization_status", "approval_status", "dispatch_status", "execution_status"):
+        value = decision.get(key)
+        if isinstance(value, str):
+            values.append(value.lower())
+    auth = decision.get("authorization")
+    if isinstance(auth, dict):
+        for key in ("status", "decision", "decision_status", "authorization_status", "approval_status"):
+            value = auth.get(key)
+            if isinstance(value, str):
+                values.append(value.lower())
+    non_dispatch = ("blocked", "denied", "deny", "rejected", "reject", "requires_human_approval", "human_approval_required", "pending_human_approval", "needs_human_approval", "paused_before_dispatch")
+    return not any(any(term in value for term in non_dispatch) for value in values)
+
+
+def _aaef_v06360_should_defer_to_existing_policy_error_path(request_constraints, decision_constraints):
+    for constraint_map in (request_constraints, decision_constraints):
+        if not isinstance(constraint_map, dict):
+            continue
+        destructive = constraint_map.get("destructive_tests")
+        if destructive is True:
+            return True
+        if isinstance(destructive, str) and destructive.lower() == "true":
+            return True
+    return False
+
+
+def _aaef_v06360_boolish_true(value):
+    return value is True or value == 1 or (isinstance(value, str) and value.strip().lower() in ("true", "yes", "1", "enabled"))
+
+
+def _aaef_v06360_external_discovery_value(constraint_map):
+    if not isinstance(constraint_map, dict):
+        return None
+    if "external_discovery" in constraint_map:
+        return constraint_map.get("external_discovery")
+    if "allow_external_discovery" in constraint_map:
+        return constraint_map.get("allow_external_discovery")
+    return None
+
+
+def _aaef_v06360_external_discovery_fail_closed_gate(request, decision):
+    if not _aaef_v06360_decision_allows_dispatch(decision):
+        return {"allowed_to_continue": True, "status": "not_applicable_decision_not_dispatch_authorized_legacy_path_preserved", "reason": "decision_does_not_authorize_dispatch"}
+
+    request_constraints = _aaef_v06360_find_constraint_map(request, _AAEF_V06360_REQUEST_CONSTRAINT_KEYS)
+    decision_constraints = _aaef_v06360_find_constraint_map(decision, _AAEF_V06360_DECISION_CONSTRAINT_KEYS)
+
+    if _aaef_v06360_should_defer_to_existing_policy_error_path(request_constraints, decision_constraints):
+        return {"allowed_to_continue": True, "status": "not_applicable_existing_policy_error_path_preserved", "reason": "existing_policy_error_path_preserved_for_high_risk_constraint"}
+
+    request_external = _aaef_v06360_external_discovery_value(request_constraints)
+    decision_external = _aaef_v06360_external_discovery_value(decision_constraints)
+
+    if request_external is None and decision_external is None:
+        return {"allowed_to_continue": True, "status": "not_applicable_external_discovery_not_declared_legacy_path_preserved", "reason": "external_discovery_not_explicitly_declared"}
+
+    if _aaef_v06360_boolish_true(request_external) or _aaef_v06360_boolish_true(decision_external):
+        return {"allowed_to_continue": False, "status": "blocked_before_dispatch", "reason": "external_discovery_true_fail_closed", "request_external_discovery": request_external, "decision_external_discovery": decision_external, "request_constraints": request_constraints, "decision_constraints": decision_constraints}
+
+    return {"allowed_to_continue": True, "status": "passed", "reason": "external_discovery_not_enabled", "request_external_discovery": request_external, "decision_external_discovery": decision_external, "request_constraints": request_constraints, "decision_constraints": decision_constraints}
+
+
+def _aaef_v06360_id_from(value, keys):
+    if isinstance(value, dict):
+        for key in keys:
+            item = value.get(key)
+            if isinstance(item, str) and item:
+                return item
+    return None
+
+
+def _aaef_v06360_blocked_before_dispatch_result_for_external_discovery(request, decision, gate):
+    return {"status": "blocked", "execution_status": "blocked", "dispatch_status": "blocked_before_dispatch", "blocked_reason": gate.get("reason", "external_discovery_fail_closed"), "tool_action_request_id": _aaef_v06360_id_from(request, ("tool_action_request_id", "request_id", "id")), "authorization_decision_id": _aaef_v06360_id_from(decision, ("authorization_decision_id", "decision_id", "id")), "gateway_validation": {"external_discovery_fail_closed": gate}, "external_process_executed": False, "network_activity_performed": False, "result": {"message": "Blocked before dispatch because external discovery fail-closed validation failed."}}
+
+
+def _aaef_v06360_blocked_evidence_for_external_discovery(request, decision, gate):
+    return {"evidence_type": "gateway_validation_trace", "status": "blocked_before_dispatch", "blocked_reason": gate.get("reason", "external_discovery_fail_closed"), "gateway_validation": {"external_discovery_fail_closed": gate}, "tool_action_request_id": _aaef_v06360_id_from(request, ("tool_action_request_id", "request_id", "id")), "authorization_decision_id": _aaef_v06360_id_from(decision, ("authorization_decision_id", "decision_id", "id")), "external_process_executed": False, "network_activity_performed": False, "limitations": ["mock Gateway validation result only", "not scanner output", "not execution authorization", "not legal proof"]}
+
+
+def _aaef_v06360_shape_blocked_gateway_return(original, request, decision, gate, blocked_result):
+    if getattr(original, "__name__", "") == "run_mock_tool_gateway":
+        return (blocked_result, _aaef_v06360_blocked_evidence_for_external_discovery(request, decision, gate))
+    return blocked_result
+
+
+def _aaef_v06360_extract_request_decision(signature, args, kwargs):
+    try:
+        bound = signature.bind_partial(*args, **kwargs)
+    except TypeError:
+        return None, None
+    request = None
+    decision = None
+    for name, value in bound.arguments.items():
+        lowered = name.lower()
+        if request is None and "request" in lowered:
+            request = value
+        if decision is None and ("decision" in lowered or "authorization" in lowered):
+            decision = value
+    return request, decision
+
+
+_AAEF_V06360_GATEWAY_FUNCTION_INVENTORY = []
+_AAEF_V06360_WRAPPED_GATEWAY_FUNCTIONS = []
+
+
+def _aaef_v06360_install_gateway_wrappers():
+    import functools
+    import inspect
+    global _AAEF_V06360_GATEWAY_FUNCTION_INVENTORY, _AAEF_V06360_WRAPPED_GATEWAY_FUNCTIONS
+    inventory = []
+    wrapped = []
+    for name, fn in list(globals().items()):
+        if name.startswith("_aaef_") or not callable(fn):
+            continue
+        try:
+            signature = inspect.signature(fn)
+        except (TypeError, ValueError):
+            continue
+        params = [p.lower() for p in signature.parameters]
+        inventory.append({"name": name, "parameters": params})
+        if not (any("request" in p for p in params) and any("decision" in p or "authorization" in p for p in params)):
+            continue
+        if getattr(fn, "_aaef_v06360_wrapped", False):
+            wrapped.append(name)
+            continue
+        def _make_wrapper(original, original_signature):
+            @functools.wraps(original)
+            def _wrapped(*args, **kwargs):
+                request, decision = _aaef_v06360_extract_request_decision(original_signature, args, kwargs)
+                if request is not None and decision is not None:
+                    gate = _aaef_v06360_external_discovery_fail_closed_gate(request, decision)
+                    if not gate.get("allowed_to_continue", True):
+                        blocked_result = _aaef_v06360_blocked_before_dispatch_result_for_external_discovery(request, decision, gate)
+                        return _aaef_v06360_shape_blocked_gateway_return(original, request, decision, gate, blocked_result)
+                return original(*args, **kwargs)
+            _wrapped._aaef_v06360_wrapped = True
+            return _wrapped
+        globals()[name] = _make_wrapper(fn, signature)
+        wrapped.append(name)
+    _AAEF_V06360_GATEWAY_FUNCTION_INVENTORY = inventory
+    _AAEF_V06360_WRAPPED_GATEWAY_FUNCTIONS = wrapped
+
+
+_aaef_v06360_install_gateway_wrappers()
+

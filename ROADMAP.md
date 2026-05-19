@@ -6148,3 +6148,15 @@ Current boundaries remain:
 - no execution authorization
 - no real execution permitted
 - no external target authorization
+
+## After v0.6.360
+
+v0.6.360 creates a narrow external discovery fail-closed Gateway core integration candidate.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.361 External Discovery Fail-Closed Gateway Core Integration Candidate Review and Decision
+~~~
+
+Current boundaries remain: candidate pending review; no runtime demo readiness; no scanner readiness; no execution authorization; no real execution permitted; no external target authorization; no publication approval; no commercial offer approval.

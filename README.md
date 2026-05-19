@@ -7915,3 +7915,31 @@ recommended_next_work_item = external_discovery_fail_closed_gateway_core_integra
 ~~~
 
 This is candidate acceptance only. Candidate acceptance is not production readiness, scanner readiness, execution authorization, real execution permission, external target authorization, customer demo approval, or commercial offer approval.
+
+## v0.6.360 External Discovery Fail-Closed Gateway Core Integration Implementation Candidate
+
+v0.6.360 creates a narrow Gateway core integration candidate for external discovery fail-closed enforcement.
+
+~~~text
+external_discovery_fail_closed_gateway_core_integration_candidate_created = true
+external_discovery_fail_closed_gateway_core_integration_candidate_status = candidate_implemented_pending_review
+external_discovery_fail_closed_gateway_core_integrated = true
+external_discovery_true_blocks_before_dispatch = true
+external_discovery_false_allows_continue = true
+external_discovery_missing_legacy_path_preserved = true
+non_dispatch_decision_legacy_paths_preserved = true
+destructive_tests_policy_error_path_preserved = true
+authorization_expiry_current_time_gateway_core_integrated = true
+request_decision_constraint_diff_gateway_core_integrated = true
+controlled_executor_validation_gateway_core_integrated = false
+gateway_core_behavior_changed = true
+tool_gateway_behavior_changed = true
+runtime_behavior_changed = false
+scanner_behavior_changed = false
+execution_authorized = false
+real_execution_permitted = false
+external_target_authorization = false
+recommended_next_work_item = external_discovery_fail_closed_gateway_core_integration_candidate_review_and_decision
+~~~
+
+This is a mock Gateway core integration candidate. It is not execution authorization, real execution permission, external target authorization, scanner readiness, production readiness, publication approval, customer demo readiness, or commercial offer approval.
