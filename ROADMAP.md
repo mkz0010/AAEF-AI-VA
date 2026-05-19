@@ -6085,3 +6085,34 @@ Current boundaries remain:
 - no execution authorization
 - no real execution permitted
 - no external target authorization
+
+## After v0.6.358
+
+v0.6.358 creates a narrow request/decision constraint-diff Gateway core integration candidate.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.359 Request/Decision Constraint Diff Gateway Core Integration Candidate Review and Decision
+~~~
+
+Current boundaries remain:
+
+- request/decision constraint-diff Gateway core integration candidate is pending review
+- authorization expiry current-time Gateway core integration candidate is accepted for the mock Gateway core path
+- external discovery fail-closed helper exists and is tested, but is not yet Gateway-core integrated
+- controlled executor validation is not yet Gateway-core integrated
+- public mock/dry-run status terminology cleanup remains required
+- evidence gateway validation result modeling remains required
+- no safe local-only demo execution boundary runtime-applied
+- no minimal runtime wiring change
+- no public demo readiness
+- no publication approval
+- no public announcement
+- no customer demo approval
+- no commercial offer approval
+- no runtime demo readiness
+- no scanner readiness
+- no execution authorization
+- no real execution permitted
+- no external target authorization

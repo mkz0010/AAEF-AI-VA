@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.6.358 - Request/Decision Constraint Diff Gateway Core Integration Implementation Candidate
+
+- Added a narrow mock Gateway core integration candidate for request/decision constraint-diff enforcement.
+- Installed request/decision constraint-diff pre-dispatch wrappers for Gateway functions that accept request/decision-style parameters.
+- Added direct blocked-before-dispatch behavior for explicit request/decision constraint-map mismatches.
+- Preserved legacy paths without explicit constraint maps for this candidate.
+- Added `tools/test_v06358_request_decision_constraint_diff_gateway_core_integration_candidate.py`.
+- Preserved `authorization_expiry_current_time_gateway_core_integrated = true` while keeping `external_discovery_fail_closed_gateway_core_integrated = false` and `controlled_executor_validation_gateway_core_integrated = false`.
+- Recorded `gateway_core_behavior_changed = true` and `tool_gateway_behavior_changed = true` while preserving `runtime_behavior_changed = false`, `scanner_behavior_changed = false`, `execution_authorized = false`, `real_execution_permitted = false`, and `external_target_authorization = false`.
+- Recorded `recommended_next_work_item = request_decision_constraint_diff_gateway_core_integration_candidate_review_and_decision`.
+
+
 ## v0.6.357 - Authorization Expiry Current-Time Gateway Core Integration Candidate Review and Decision
 
 - Accepted the v0.6.356 authorization expiry current-time Gateway core integration candidate for the current mock Gateway core path.

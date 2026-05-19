@@ -375,3 +375,332 @@ def _aaef_v06356_install_gateway_wrappers():
 
 _aaef_v06356_install_gateway_wrappers()
 
+# AAEF-AI-VA v0.6.358 request/decision constraint diff Gateway core integration candidate
+# v0.6.358 constraint diff existing PolicyError path preservation fix
+# v0.6.358 constraint diff dispatch-decision scope fix
+# Candidate scope: block explicit request/decision constraint-map mismatches before dispatch.
+
+_AAEF_V06358_REQUEST_CONSTRAINT_KEYS = (
+    "requested_constraints",
+    "constraints",
+    "request_constraints",
+    "constraint_set",
+)
+
+_AAEF_V06358_DECISION_CONSTRAINT_KEYS = (
+    "approved_constraints",
+    "constraints",
+    "decision_constraints",
+    "authorized_constraints",
+    "constraint_set",
+)
+
+
+def _aaef_v06358_jsonable(value):
+    if isinstance(value, dict):
+        return {str(key): _aaef_v06358_jsonable(item) for key, item in sorted(value.items(), key=lambda pair: str(pair[0]))}
+    if isinstance(value, list):
+        return [_aaef_v06358_jsonable(item) for item in value]
+    if isinstance(value, tuple):
+        return [_aaef_v06358_jsonable(item) for item in value]
+    return value
+
+
+def _aaef_v06358_normalize_constraint_map(value):
+    if not isinstance(value, dict):
+        return None
+    normalized = _aaef_v06358_jsonable(value)
+    return normalized if normalized else None
+
+
+def _aaef_v06358_find_constraint_map(value, keys):
+    if not isinstance(value, dict):
+        return None
+
+    for key in keys:
+        normalized = _aaef_v06358_normalize_constraint_map(value.get(key))
+        if normalized:
+            return normalized
+
+    for nested_key in ("tool_action_request", "request", "authorization_decision", "decision", "authorization"):
+        nested = value.get(nested_key)
+        if isinstance(nested, dict):
+            for key in keys:
+                normalized = _aaef_v06358_normalize_constraint_map(nested.get(key))
+                if normalized:
+                    return normalized
+
+    return None
+
+
+def _aaef_v06358_constraint_diff(request_constraints, decision_constraints):
+    request_keys = set(request_constraints)
+    decision_keys = set(decision_constraints)
+    missing_in_decision = sorted(request_keys - decision_keys)
+    extra_in_decision = sorted(decision_keys - request_keys)
+    mismatched_keys = sorted(
+        key
+        for key in request_keys & decision_keys
+        if request_constraints.get(key) != decision_constraints.get(key)
+    )
+    return {
+        "missing_in_decision": missing_in_decision,
+        "extra_in_decision": extra_in_decision,
+        "mismatched_keys": mismatched_keys,
+    }
+
+
+def _aaef_v06358_decision_allows_dispatch(decision):
+    """Return False for explicit non-dispatch decisions.
+
+    Constraint-diff must not replace existing denied or human-approval paths,
+    because those paths already produce schema-compatible result/evidence records.
+    """
+    if not isinstance(decision, dict):
+        return True
+
+    status_values = []
+    for key in (
+        "status",
+        "decision",
+        "decision_status",
+        "authorization_status",
+        "approval_status",
+        "dispatch_status",
+        "execution_status",
+    ):
+        value = decision.get(key)
+        if isinstance(value, str):
+            status_values.append(value.lower())
+
+    authorization = decision.get("authorization")
+    if isinstance(authorization, dict):
+        for key in (
+            "status",
+            "decision",
+            "decision_status",
+            "authorization_status",
+            "approval_status",
+        ):
+            value = authorization.get(key)
+            if isinstance(value, str):
+                status_values.append(value.lower())
+
+    explicit_non_dispatch_terms = (
+        "blocked",
+        "denied",
+        "deny",
+        "rejected",
+        "reject",
+        "requires_human_approval",
+        "human_approval_required",
+        "pending_human_approval",
+        "needs_human_approval",
+        "paused_before_dispatch",
+    )
+    if any(any(term in value for term in explicit_non_dispatch_terms) for value in status_values):
+        return False
+
+    return True
+
+
+def _aaef_v06358_should_defer_to_existing_policy_error_path(request_constraints, decision_constraints):
+    """Preserve existing fail-closed PolicyError paths.
+
+    Some constraints, such as destructive_tests=true, are already enforced by
+    the existing mock Gateway runner tests as PolicyError cases. The v0.6.358
+    constraint-diff candidate must not convert those legacy fail-closed paths
+    into custom blocked result/evidence records.
+    """
+    for constraint_map in (request_constraints, decision_constraints):
+        if not isinstance(constraint_map, dict):
+            continue
+        destructive = constraint_map.get("destructive_tests")
+        if destructive is True:
+            return True
+        if isinstance(destructive, str) and destructive.lower() == "true":
+            return True
+    return False
+
+def _aaef_v06358_request_decision_constraint_diff_gate(request, decision):
+    if not _aaef_v06358_decision_allows_dispatch(decision):
+        return {
+            "allowed_to_continue": True,
+            "status": "not_applicable_decision_not_dispatch_authorized_legacy_path_preserved",
+            "reason": "decision_does_not_authorize_dispatch",
+        }
+
+    request_constraints = _aaef_v06358_find_constraint_map(
+        request,
+        _AAEF_V06358_REQUEST_CONSTRAINT_KEYS,
+    )
+    decision_constraints = _aaef_v06358_find_constraint_map(
+        decision,
+        _AAEF_V06358_DECISION_CONSTRAINT_KEYS,
+    )
+
+    if not request_constraints or not decision_constraints:
+        return {
+            "allowed_to_continue": True,
+            "status": "not_applicable_missing_constraint_maps_legacy_path_preserved",
+            "reason": "explicit_request_decision_constraint_maps_not_present",
+        }
+
+    if _aaef_v06358_should_defer_to_existing_policy_error_path(
+        request_constraints,
+        decision_constraints,
+    ):
+        return {
+            "allowed_to_continue": True,
+            "status": "not_applicable_existing_policy_error_path_preserved",
+            "reason": "existing_policy_error_path_preserved_for_high_risk_constraint",
+        }
+
+    diff = _aaef_v06358_constraint_diff(request_constraints, decision_constraints)
+    has_diff = any(diff.values())
+    if has_diff:
+        return {
+            "allowed_to_continue": False,
+            "status": "blocked_before_dispatch",
+            "reason": "request_decision_constraint_diff_detected",
+            "diff": diff,
+            "request_constraints": request_constraints,
+            "decision_constraints": decision_constraints,
+        }
+
+    return {
+        "allowed_to_continue": True,
+        "status": "passed",
+        "reason": "request_decision_constraints_match",
+        "request_constraints": request_constraints,
+        "decision_constraints": decision_constraints,
+    }
+
+
+def _aaef_v06358_id_from(value, keys):
+    if isinstance(value, dict):
+        for key in keys:
+            item = value.get(key)
+            if isinstance(item, str) and item:
+                return item
+    return None
+
+
+def _aaef_v06358_blocked_before_dispatch_result_for_constraint_diff(request, decision, gate):
+    return {
+        "status": "blocked",
+        "execution_status": "blocked",
+        "dispatch_status": "blocked_before_dispatch",
+        "blocked_reason": gate.get("reason", "request_decision_constraint_diff_failed"),
+        "tool_action_request_id": _aaef_v06358_id_from(request, ("tool_action_request_id", "request_id", "id")),
+        "authorization_decision_id": _aaef_v06358_id_from(decision, ("authorization_decision_id", "decision_id", "id")),
+        "gateway_validation": {"request_decision_constraint_diff": gate},
+        "external_process_executed": False,
+        "network_activity_performed": False,
+        "result": {
+            "message": "Blocked before dispatch because request/decision constraint-diff validation failed.",
+        },
+    }
+
+
+def _aaef_v06358_blocked_evidence_for_constraint_diff(request, decision, gate):
+    return {
+        "evidence_type": "gateway_validation_trace",
+        "status": "blocked_before_dispatch",
+        "blocked_reason": gate.get("reason", "request_decision_constraint_diff_failed"),
+        "gateway_validation": {"request_decision_constraint_diff": gate},
+        "tool_action_request_id": _aaef_v06358_id_from(request, ("tool_action_request_id", "request_id", "id")),
+        "authorization_decision_id": _aaef_v06358_id_from(decision, ("authorization_decision_id", "decision_id", "id")),
+        "external_process_executed": False,
+        "network_activity_performed": False,
+        "limitations": [
+            "mock Gateway validation result only",
+            "not scanner output",
+            "not execution authorization",
+            "not legal proof",
+        ],
+    }
+
+
+def _aaef_v06358_shape_blocked_gateway_return(original, request, decision, gate, blocked_result):
+    original_name = getattr(original, "__name__", "")
+    if original_name == "run_mock_tool_gateway":
+        return (blocked_result, _aaef_v06358_blocked_evidence_for_constraint_diff(request, decision, gate))
+    return blocked_result
+
+
+def _aaef_v06358_extract_request_decision(signature, args, kwargs):
+    try:
+        bound = signature.bind_partial(*args, **kwargs)
+    except TypeError:
+        return None, None
+    request = None
+    decision = None
+    for name, value in bound.arguments.items():
+        lowered = name.lower()
+        if request is None and "request" in lowered:
+            request = value
+        if decision is None and ("decision" in lowered or "authorization" in lowered):
+            decision = value
+    return request, decision
+
+
+_AAEF_V06358_GATEWAY_FUNCTION_INVENTORY = []
+_AAEF_V06358_WRAPPED_GATEWAY_FUNCTIONS = []
+
+
+def _aaef_v06358_install_gateway_wrappers():
+    import functools
+    import inspect
+
+    global _AAEF_V06358_GATEWAY_FUNCTION_INVENTORY
+    global _AAEF_V06358_WRAPPED_GATEWAY_FUNCTIONS
+
+    inventory = []
+    wrapped = []
+
+    for name, fn in list(globals().items()):
+        if name.startswith("_aaef_"):
+            continue
+        if not callable(fn):
+            continue
+        try:
+            signature = inspect.signature(fn)
+        except (TypeError, ValueError):
+            continue
+
+        params = [param_name.lower() for param_name in signature.parameters]
+        inventory.append({"name": name, "parameters": params})
+
+        has_request = any("request" in param for param in params)
+        has_decision = any("decision" in param or "authorization" in param for param in params)
+        if not (has_request and has_decision):
+            continue
+
+        if getattr(fn, "_aaef_v06358_wrapped", False):
+            wrapped.append(name)
+            continue
+
+        def _make_wrapper(original, original_signature):
+            @functools.wraps(original)
+            def _wrapped(*args, **kwargs):
+                request, decision = _aaef_v06358_extract_request_decision(original_signature, args, kwargs)
+                if request is not None and decision is not None:
+                    gate = _aaef_v06358_request_decision_constraint_diff_gate(request, decision)
+                    if not gate.get("allowed_to_continue", True):
+                        blocked_result = _aaef_v06358_blocked_before_dispatch_result_for_constraint_diff(request, decision, gate)
+                        return _aaef_v06358_shape_blocked_gateway_return(original, request, decision, gate, blocked_result)
+                return original(*args, **kwargs)
+
+            _wrapped._aaef_v06358_wrapped = True
+            return _wrapped
+
+        globals()[name] = _make_wrapper(fn, signature)
+        wrapped.append(name)
+
+    _AAEF_V06358_GATEWAY_FUNCTION_INVENTORY = inventory
+    _AAEF_V06358_WRAPPED_GATEWAY_FUNCTIONS = wrapped
+
+
+_aaef_v06358_install_gateway_wrappers()
+
