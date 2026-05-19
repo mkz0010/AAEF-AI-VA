@@ -7975,3 +7975,41 @@ recommended_next_work_item = gateway_core_integration_maturity_matrix_and_eviden
 ~~~
 
 This is candidate acceptance only. Candidate acceptance is not production readiness, scanner readiness, execution authorization, real execution permission, external target authorization, customer demo approval, or commercial offer approval.
+
+## v0.6.362 Gateway Core Integration Maturity Matrix and Evidence Trace Review
+
+v0.6.362 adds a Gateway core integration maturity matrix and evidence trace gap review after the three P0 Gateway core candidates were accepted.
+
+~~~text
+gateway_core_integration_maturity_matrix_review_completed = true
+gateway_core_authorization_expiry_current_time_status = gateway_core_integrated_and_accepted
+gateway_core_request_decision_constraint_diff_status = gateway_core_integrated_and_accepted
+gateway_core_external_discovery_fail_closed_status = gateway_core_integrated_and_accepted
+gateway_core_controlled_executor_validation_status = separate_helper_not_gateway_core_integrated
+gateway_core_common_target_scope_tool_operation_binding_status = partial_not_common_gateway_core_integrated
+gateway_core_evidence_trace_status = minimal_reconstruction_trace_gateway_validation_result_modeling_required
+gateway_validation_result_evidence_trace_modeling_required = true
+v06362_gateway_core_behavior_changed = false
+v06362_tool_gateway_behavior_changed = false
+v06362_runtime_behavior_changed = false
+v06362_scanner_behavior_changed = false
+execution_authorized = false
+real_execution_permitted = false
+external_target_authorization = false
+recommended_next_work_item = gateway_validation_result_evidence_trace_modeling_candidate
+~~~
+
+Current maturity snapshot:
+
+| Control area | Helper exists | Helper tested | Gateway core integrated | Candidate accepted | Evidence trace status | Public/demo status |
+| --- | ---: | ---: | ---: | ---: | --- | --- |
+| Authorization expiry current-time | yes | yes | yes | yes | not yet modeled as structured gateway validation result in public-facing trace | not public demo approval |
+| Request/decision constraint diff | yes | yes | yes | yes | not yet modeled as structured gateway validation result in public-facing trace | not public demo approval |
+| External discovery fail-closed | yes | yes | yes | yes | not yet modeled as structured gateway validation result in public-facing trace | not public demo approval |
+| Common target/scope/tool/operation binding | partial | partial | no/common integration pending | no | not yet modeled | not public demo approval |
+| Controlled executor validation | yes | yes | no | no | not yet modeled | not public demo approval |
+| Mock/dry-run status terminology | yes | yes | partial/helper only | no | raw/public output cleanup still required | public artifact wording cleanup required |
+| Evidence trace / reconstruction record | minimal | structural validation only | partial/minimal linkage | no | gateway validation result modeling required | not audit opinion / not legal proof |
+
+
+This is a visibility and evidence-trace review only. It is not production readiness, scanner readiness, execution authorization, real execution permission, external target authorization, customer demo approval, or commercial offer approval.

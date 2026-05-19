@@ -447,3 +447,4 @@ if __name__ == "__main__":
 "tools/test_v06359_request_decision_constraint_diff_gateway_core_integration_candidate_review_and_decision.py",
 "tools/test_v06360_external_discovery_fail_closed_gateway_core_integration_candidate.py",
 "tools/test_v06361_external_discovery_fail_closed_gateway_core_integration_candidate_review_and_decision.py",
+"tools/test_v06362_gateway_core_integration_maturity_matrix_and_evidence_trace_review.py",

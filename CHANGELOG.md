@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.6.362 - Gateway Core Integration Maturity Matrix and Evidence Trace Review
+
+- Added a Gateway core integration maturity matrix after acceptance of the authorization expiry current-time, request/decision constraint-diff, and external discovery fail-closed candidates.
+- Recorded that the three P0 Gateway core candidates are integrated and accepted for the current mock Gateway core path.
+- Recorded that controlled executor validation remains separate and not Gateway-core integrated.
+- Recorded that common target/scope/tool/operation binding remains partial and not commonly Gateway-core integrated.
+- Recorded that gateway validation result evidence trace modeling remains required.
+- Recorded that public mock/dry-run status terminology cleanup remains required.
+- Recorded `v06362_gateway_core_behavior_changed = false`, `v06362_tool_gateway_behavior_changed = false`, `v06362_runtime_behavior_changed = false`, and `v06362_scanner_behavior_changed = false`.
+- Recorded `recommended_next_work_item = gateway_validation_result_evidence_trace_modeling_candidate`.
+
+
 ## v0.6.361 - External Discovery Fail-Closed Gateway Core Integration Candidate Review and Decision
 
 - Accepted the v0.6.360 external discovery fail-closed Gateway core integration candidate for the current mock Gateway core path.
