@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.357 - Authorization Expiry Current-Time Gateway Core Integration Candidate Review and Decision
+
+- Accepted the v0.6.356 authorization expiry current-time Gateway core integration candidate for the current mock Gateway core path.
+- Recorded `normal_fixture_runner_compatibility_preserved = true`, `generated_output_schema_compatibility_preserved = true`, and `tool_gateway_runner_compatibility_preserved = true`.
+- Preserved `missing_expiry_legacy_path_preserved_for_now = true`.
+- Recorded that request/decision constraint-diff, external discovery fail-closed behavior, and controlled executor validation remain not Gateway-core integrated.
+- Recorded `v06357_gateway_core_behavior_changed = false`, `v06357_tool_gateway_behavior_changed = false`, `v06357_runtime_behavior_changed = false`, and `v06357_scanner_behavior_changed = false`.
+- Recorded `recommended_next_work_item = request_decision_constraint_diff_gateway_core_integration_implementation_candidate`.
+
+
 ## v0.6.356 - Authorization Expiry Current-Time Gateway Core Integration Implementation Candidate
 
 - Added a narrow mock Gateway core integration candidate for authorization expiry current-time enforcement.
