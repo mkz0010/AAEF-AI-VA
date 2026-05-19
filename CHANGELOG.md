@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.6.366 - Gateway Validation Result Evidence Trace Application Planning Candidate Review and Decision
+
+- Accepted the v0.6.365 staged Gateway validation result evidence trace application plan.
+- Accepted a private reviewer-facing artifact candidate as the first application target.
+- Deferred schema field decisions, generated-output application, runtime application, public artifact changes, producer identity/version, and hash/signature decisions.
+- Recorded that raw gate result and reviewer-facing status separation remains required.
+- Recorded backward compatibility requirements for future application.
+- Recorded `gateway_validation_result_application_schema_change_now = false`, `gateway_validation_result_application_generated_output_change_now = false`, and `gateway_validation_result_application_runtime_change_now = false`.
+- Recorded `v06366_gateway_core_behavior_changed = false`, `v06366_runtime_behavior_changed = false`, and `v06366_scanner_behavior_changed = false`.
+- Recorded `recommended_next_work_item = private_reviewer_gateway_validation_result_evidence_trace_artifact_candidate`.
+
+
 ## v0.6.365 - Gateway Validation Result Evidence Trace Application Planning Candidate
 
 - Defined a staged application planning candidate for the accepted Gateway validation result evidence trace model.

@@ -8101,3 +8101,34 @@ recommended_next_work_item = gateway_validation_result_evidence_trace_applicatio
 ~~~
 
 This is application planning only. It does not change schemas, generated outputs, runtime behavior, scanner behavior, execution authorization, real execution permission, external target authorization, publication status, customer demo readiness, or commercial offer approval.
+
+## v0.6.366 Gateway Validation Result Evidence Trace Application Planning Candidate Review and Decision
+
+v0.6.366 accepts the staged Gateway validation result evidence trace application plan with a private reviewer-facing artifact as the first application target.
+
+~~~text
+gateway_validation_result_evidence_trace_application_planning_candidate_review_completed = true
+gateway_validation_result_evidence_trace_application_planning_candidate_decision = accepted_for_private_reviewer_artifact_first_application_path
+gateway_validation_result_evidence_trace_application_planning_candidate_accepted = true
+gateway_validation_result_application_phase_1_private_reviewer_artifact = accepted_as_first_application_target
+gateway_validation_result_application_phase_2_schema_field_decision = deferred
+gateway_validation_result_application_phase_3_generated_output_application_decision = deferred
+gateway_validation_result_application_phase_4_runtime_application_decision = deferred
+gateway_validation_result_application_public_artifact_change_decision = deferred
+gateway_validation_result_application_raw_and_reviewer_status_separation_required = true
+gateway_validation_result_application_backward_compatibility_required = true
+gateway_validation_result_application_schema_change_now = false
+gateway_validation_result_application_generated_output_change_now = false
+gateway_validation_result_application_runtime_change_now = false
+gateway_validation_result_application_public_artifact_change_now = false
+v06366_schema_changed = false
+v06366_gateway_core_behavior_changed = false
+v06366_runtime_behavior_changed = false
+v06366_scanner_behavior_changed = false
+execution_authorized = false
+real_execution_permitted = false
+external_target_authorization = false
+recommended_next_work_item = private_reviewer_gateway_validation_result_evidence_trace_artifact_candidate
+~~~
+
+This is application planning acceptance only. It does not change schemas, generated outputs, runtime behavior, scanner behavior, execution authorization, real execution permission, external target authorization, publication status, customer demo readiness, or commercial offer approval.

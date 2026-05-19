@@ -1,0 +1,117 @@
+# ADR-0441: Accept Gateway Validation Result Evidence Trace Application Planning Candidate
+
+Status: accepted
+Date: 2026-05-19
+Version: v0.6.366
+
+## Context
+
+v0.6.365 defined a staged application plan for the accepted Gateway validation result evidence trace model. The plan recommended a private reviewer-facing artifact candidate as the first application target while deferring schema, generated-output, runtime, public artifact, producer identity, and hash/signature decisions.
+
+## Decision
+
+Accept the v0.6.365 application plan and proceed to a private reviewer-facing artifact candidate as the first application target.
+
+## Decision record
+
+~~~text
+gateway_validation_result_evidence_trace_application_planning_candidate_review_completed = true
+gateway_validation_result_evidence_trace_application_planning_candidate_review_id = gateway_validation_result_evidence_trace_application_planning_candidate_review_v06366
+gateway_validation_result_evidence_trace_application_planning_candidate_decision = accepted_for_private_reviewer_artifact_first_application_path
+gateway_validation_result_evidence_trace_application_planning_candidate_accepted = true
+gateway_validation_result_evidence_trace_application_planning_candidate_status = accepted_pending_private_reviewer_artifact_candidate
+gateway_validation_result_evidence_trace_model_accepted = true
+gateway_validation_result_evidence_trace_model_decision = accepted_for_reviewer_facing_evidence_trace_direction
+gateway_validation_result_application_strategy_defined = true
+gateway_validation_result_application_strategy = staged_private_first_then_schema_or_generated_output_decision
+gateway_validation_result_application_phase_1_private_reviewer_artifact = accepted_as_first_application_target
+gateway_validation_result_application_phase_2_schema_field_decision = deferred
+gateway_validation_result_application_phase_3_generated_output_application_decision = deferred
+gateway_validation_result_application_phase_4_runtime_application_decision = deferred
+gateway_validation_result_application_public_artifact_change_decision = deferred
+gateway_validation_result_application_raw_and_reviewer_status_separation_required = true
+gateway_validation_result_application_raw_gate_result_preserved = true
+gateway_validation_result_application_reviewer_status_required = true
+gateway_validation_result_application_external_process_executed_required = true
+gateway_validation_result_application_network_activity_performed_required = true
+gateway_validation_result_application_limitations_required = true
+gateway_validation_result_application_backward_compatibility_required = true
+gateway_validation_result_application_schema_change_now = false
+gateway_validation_result_application_generated_output_change_now = false
+gateway_validation_result_application_runtime_change_now = false
+gateway_validation_result_application_public_artifact_change_now = false
+gateway_validation_result_application_private_reviewer_artifact_next = true
+gateway_validation_result_application_private_reviewer_artifact_candidate_recommended = true
+gateway_validation_result_application_public_output_cleanup_dependency = mock_dry_run_status_terminology_public_output_cleanup
+gateway_validation_result_application_controlled_executor_dependency = controlled_executor_validation_gateway_core_connection
+gateway_validation_result_application_producer_identity_deferred = true
+gateway_validation_result_application_hash_or_signature_deferred = true
+authorization_expiry_current_time_gateway_core_integrated = true
+authorization_expiry_current_time_gateway_core_candidate_accepted = true
+request_decision_constraint_diff_gateway_core_integrated = true
+request_decision_constraint_diff_gateway_core_candidate_accepted = true
+external_discovery_fail_closed_gateway_core_integrated = true
+external_discovery_fail_closed_gateway_core_candidate_accepted = true
+controlled_executor_validation_gateway_core_integrated = false
+common_target_scope_tool_operation_binding_gateway_core_integrated = false
+mock_dry_run_status_terminology_public_output_cleanup_required = true
+implementation_maturity_matrix_available = true
+readme_front_page_simplification_still_required = true
+v06366_gateway_core_behavior_changed = false
+v06366_tool_gateway_behavior_changed = false
+v06366_runtime_behavior_changed = false
+v06366_scanner_behavior_changed = false
+v06366_schema_changed = false
+v06366_fixtures_created = false
+v06366_actual_records_created = false
+v06366_private_generated_outputs_moved_public = false
+history_rewrite_performed = false
+repo_recreated = false
+commercial_offer_approval = false
+publication_approval = false
+public_announcement = deferred
+customer_demo_approval = false
+safe_local_only_demo_execution_boundary_runtime_applied = false
+minimal_runtime_wiring_changed = false
+runtime_enforcement_implemented = false
+execution_authorized = false
+real_execution_permitted = false
+external_target_authorization = false
+runtime_demo_ready = false
+scanner_readiness_claim = false
+production_readiness_claim = false
+recommended_next_work_item = private_reviewer_gateway_validation_result_evidence_trace_artifact_candidate
+private_reviewer_gateway_validation_result_evidence_trace_artifact_candidate_recommended = true
+gateway_validation_result_evidence_trace_application_planning_candidate_review_and_decision_recommended = false
+Model output is not authority.
+AI rationale is not authorization.
+A gate decision is not AI self-approval.
+Evidence supports reconstruction; it does not prove legal truth.
+validator success is structural only
+publication remains deferred
+Application planning acceptance is not production readiness.
+Application planning acceptance is not scanner readiness.
+Application planning acceptance is not execution authorization.
+Application planning acceptance is not real execution permission.
+Application planning acceptance is not external target authorization.
+Application planning acceptance is not customer demo approval.
+Application planning acceptance is not commercial offer approval.
+No private generated outputs are moved public in v0.6.366.
+~~~
+
+## Consequences
+
+The project can create a private reviewer artifact candidate without changing schemas, generated outputs, runtime behavior, or public artifacts.
+
+This preserves compatibility and avoids implying production readiness, scanner readiness, execution authorization, or external target authorization.
+
+## Boundaries
+
+- This is application planning acceptance, not schema application.
+- This is not generated-output application.
+- This is not runtime application.
+- This is not production readiness.
+- This is not scanner readiness.
+- This is not execution authorization.
+- This is not external target authorization.
+- This is not commercial offer approval.
