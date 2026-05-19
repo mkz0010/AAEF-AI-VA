@@ -8041,3 +8041,32 @@ recommended_next_work_item = gateway_validation_result_evidence_trace_modeling_c
 ~~~
 
 This is model definition only. It does not change schemas, generated outputs, runtime behavior, scanner behavior, execution authorization, real execution permission, external target authorization, publication status, customer demo readiness, or commercial offer approval.
+
+## v0.6.364 Gateway Validation Result Evidence Trace Modeling Candidate Review and Decision
+
+v0.6.364 accepts the v0.6.363 Gateway validation result evidence trace model as the reviewer-facing evidence trace direction.
+
+~~~text
+gateway_validation_result_evidence_trace_modeling_candidate_review_completed = true
+gateway_validation_result_evidence_trace_modeling_candidate_decision = accepted_for_reviewer_facing_evidence_trace_direction
+gateway_validation_result_evidence_trace_modeling_candidate_accepted = true
+gateway_validation_result_evidence_trace_model_defined = true
+gateway_validation_result_evidence_trace_model_runtime_applied = false
+gateway_validation_result_evidence_record_schema_changed = false
+gateway_validation_result_generated_outputs_changed = false
+gateway_validation_result_existing_generated_output_compatibility_preserved = true
+gateway_validation_result_model_raw_and_reviewer_facing_status_separation_required = true
+gateway_validation_result_model_schema_application_deferred = true
+gateway_validation_result_model_generated_output_application_deferred = true
+gateway_validation_result_model_runtime_application_deferred = true
+v06364_schema_changed = false
+v06364_gateway_core_behavior_changed = false
+v06364_runtime_behavior_changed = false
+v06364_scanner_behavior_changed = false
+execution_authorized = false
+real_execution_permitted = false
+external_target_authorization = false
+recommended_next_work_item = gateway_validation_result_evidence_trace_application_planning_candidate
+~~~
+
+This is model acceptance only. It does not change schemas, generated outputs, runtime behavior, scanner behavior, execution authorization, real execution permission, external target authorization, publication status, customer demo readiness, or commercial offer approval.

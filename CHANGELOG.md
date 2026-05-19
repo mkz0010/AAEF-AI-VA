@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.6.364 - Gateway Validation Result Evidence Trace Modeling Candidate Review and Decision
+
+- Accepted the v0.6.363 Gateway validation result evidence trace model as the reviewer-facing evidence trace direction.
+- Deferred schema application, generated-output application, and runtime application to a follow-up planning checkpoint.
+- Recorded that raw Gateway gate data and reviewer-facing status separation is required.
+- Preserved existing generated output compatibility by recording `gateway_validation_result_generated_outputs_changed = false`.
+- Recorded `gateway_validation_result_evidence_record_schema_changed = false`.
+- Recorded `v06364_gateway_core_behavior_changed = false`, `v06364_runtime_behavior_changed = false`, and `v06364_scanner_behavior_changed = false`.
+- Recorded `recommended_next_work_item = gateway_validation_result_evidence_trace_application_planning_candidate`.
+
+
 ## v0.6.363 - Gateway Validation Result Evidence Trace Modeling Candidate
 
 - Defined a reviewer-facing candidate model for Gateway validation result evidence traces.

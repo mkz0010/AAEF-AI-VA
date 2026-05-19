@@ -449,3 +449,4 @@ if __name__ == "__main__":
 "tools/test_v06361_external_discovery_fail_closed_gateway_core_integration_candidate_review_and_decision.py",
 "tools/test_v06362_gateway_core_integration_maturity_matrix_and_evidence_trace_review.py",
 "tools/test_v06363_gateway_validation_result_evidence_trace_modeling_candidate.py",
+"tools/test_v06364_gateway_validation_result_evidence_trace_modeling_candidate_review_and_decision.py",

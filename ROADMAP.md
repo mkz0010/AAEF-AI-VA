@@ -6257,3 +6257,41 @@ Current boundaries remain:
 - no execution authorization
 - no real execution permitted
 - no external target authorization
+
+## After v0.6.364
+
+v0.6.364 accepts the Gateway validation result evidence trace model as the reviewer-facing evidence trace direction.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.365 Gateway Validation Result Evidence Trace Application Planning Candidate
+~~~
+
+Current boundaries remain:
+
+- gateway validation result evidence trace model is accepted as direction
+- schema application is deferred
+- generated-output application is deferred
+- runtime application is deferred
+- authorization expiry current-time Gateway core integration candidate is accepted for the mock Gateway core path
+- request/decision constraint-diff Gateway core integration candidate is accepted for the mock Gateway core path
+- external discovery fail-closed Gateway core integration candidate is accepted for the mock Gateway core path
+- controlled executor validation is not yet Gateway-core integrated
+- common target/scope/tool/operation binding is not yet commonly Gateway-core integrated
+- public mock/dry-run status terminology cleanup remains required
+- no evidence-record schema change in v0.6.364
+- no generated output change in v0.6.364
+- no new Gateway core behavior change in v0.6.364
+- no safe local-only demo execution boundary runtime-applied
+- no minimal runtime wiring change
+- no public demo readiness
+- no publication approval
+- no public announcement
+- no customer demo approval
+- no commercial offer approval
+- no runtime demo readiness
+- no scanner readiness
+- no execution authorization
+- no real execution permitted
+- no external target authorization
