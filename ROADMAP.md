@@ -5954,3 +5954,40 @@ Current boundaries remain:
 - no gateway behavior change
 - no runtime behavior change
 - no scanner behavior change
+
+## After v0.6.354
+
+v0.6.354 reviews remaining public Git history exposure after current-tree cleanup.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.355 Gateway Core Safety Integration Status and Priority Review
+~~~
+
+Current boundaries remain:
+
+- Git history may still expose prior removed commercial draft material
+- no history rewrite performed
+- no repository recreation performed
+- Gateway core integration remains required
+- authorization expiry Gateway-core integration remains required
+- request/decision constraint-diff Gateway-core integration remains required
+- external discovery fail-closed Gateway-core integration remains required
+- public mock/dry-run status terminology cleanup remains required
+- README maturity matrix work remains required
+- no safe local-only demo execution boundary runtime-applied
+- no minimal runtime wiring change
+- no public demo readiness
+- no publication approval
+- no public announcement
+- no customer demo approval
+- no commercial offer approval
+- no runtime demo readiness
+- no scanner readiness
+- no execution authorization
+- no real execution permitted
+- no external target authorization
+- no gateway behavior change
+- no runtime behavior change
+- no scanner behavior change

@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.6.354 - Public History Exposure Review
+
+- Reviewed public Git history exposure after v0.6.352 and v0.6.353 current-tree cleanups.
+- Recorded `current_tree_cleanup_completed = true`, `current_tree_product_pricing_files_absent = true`, and `current_tree_exact_commercial_draft_terms_absent = true`.
+- Recorded `prior_git_history_exposure_confirmed = true` and `history_exposure_category = prior_removed_commercial_draft_material`.
+- Decided `history_rewrite_required = false`, `history_rewrite_deferred = true`, `repo_recreation_required = false`, and `repo_recreation_deferred = true`.
+- Preserved `history_rewrite_performed = false`, `repo_recreated = false`, `publication_approval = false`, and `commercial_offer_approval = false`.
+- Preserved `safe_local_only_demo_execution_boundary_runtime_applied = false`, `minimal_runtime_wiring_changed = false`, `tool_gateway_behavior_changed = false`, `runtime_behavior_changed = false`, `scanner_behavior_changed = false`, `execution_authorized = false`, `real_execution_permitted = false`, and `external_target_authorization = false`.
+- Recorded `recommended_next_work_item = gateway_core_safety_integration_status_and_priority_review`.
+
+
 ## v0.6.353 - Emergency Public Commercial Term Cleanup
 
 - Removed exact commercial draft terms from the v0.6.352 cleanup test while preserving current-tree absence checks.
