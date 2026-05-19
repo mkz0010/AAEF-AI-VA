@@ -7772,3 +7772,36 @@ recommended_next_work_item = gateway_core_safety_integration_status_and_priority
 ~~~
 
 This is review only. Public history exposure review is not history rewrite, repository recreation, publication approval, customer demo readiness, commercial offer approval, runtime wiring, runtime application, execution authorization, real execution permission, external target authorization, scanner readiness, or production readiness.
+
+## v0.6.355 Gateway Core Safety Integration Status and Priority Review
+
+v0.6.355 returns the work queue from emergency public cleanup to Gateway core safety integration.
+
+~~~text
+gateway_core_safety_integration_status_and_priority_review_completed = true
+gateway_core_safety_integration_status = helper_ready_core_not_integrated
+gateway_core_safety_integration_priority = p0
+authorization_expiry_current_time_helper_exists = true
+authorization_expiry_current_time_helper_tested = true
+authorization_expiry_current_time_gateway_core_integrated = false
+request_decision_constraint_diff_helper_exists = true
+request_decision_constraint_diff_helper_tested = true
+request_decision_constraint_diff_gateway_core_integrated = false
+external_discovery_fail_closed_helper_exists = true
+external_discovery_fail_closed_helper_tested = true
+external_discovery_fail_closed_gateway_core_integrated = false
+controlled_executor_validation_gateway_core_integrated = false
+gateway_core_behavior_changed = false
+gateway_core_integration_implemented = false
+safe_local_only_demo_execution_boundary_runtime_applied = false
+minimal_runtime_wiring_changed = false
+tool_gateway_behavior_changed = false
+runtime_behavior_changed = false
+scanner_behavior_changed = false
+execution_authorized = false
+real_execution_permitted = false
+external_target_authorization = false
+recommended_next_work_item = authorization_expiry_current_time_gateway_core_integration_implementation_candidate
+~~~
+
+This is status review only. Gateway core status review is not Gateway core integration, runtime wiring, runtime application, execution authorization, real execution permission, external target authorization, scanner readiness, or production readiness.

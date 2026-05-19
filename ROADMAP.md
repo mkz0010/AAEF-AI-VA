@@ -5991,3 +5991,34 @@ Current boundaries remain:
 - no gateway behavior change
 - no runtime behavior change
 - no scanner behavior change
+
+## After v0.6.355
+
+v0.6.355 prioritizes Gateway core safety integration as the next P0 technical work.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.356 Authorization Expiry Current-Time Gateway Core Integration Implementation Candidate
+~~~
+
+Current boundaries remain:
+
+- authorization expiry current-time helper exists and is tested, but is not yet Gateway-core integrated
+- request/decision constraint-diff helper exists and is tested, but is not yet Gateway-core integrated
+- external discovery fail-closed helper exists and is tested, but is not yet Gateway-core integrated
+- controlled executor validation is not yet Gateway-core integrated
+- Gateway core integration is not yet implemented
+- no Gateway core behavior change in v0.6.355
+- no safe local-only demo execution boundary runtime-applied
+- no minimal runtime wiring change
+- no public demo readiness
+- no publication approval
+- no public announcement
+- no customer demo approval
+- no commercial offer approval
+- no runtime demo readiness
+- no scanner readiness
+- no execution authorization
+- no real execution permitted
+- no external target authorization

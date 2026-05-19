@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.355 - Gateway Core Safety Integration Status and Priority Review
+
+- Returned the work queue from emergency public cleanup to Gateway core safety integration.
+- Recorded `gateway_core_safety_integration_status = helper_ready_core_not_integrated` and `gateway_core_safety_integration_priority = p0`.
+- Confirmed authorization expiry current-time, request/decision constraint diff, and external discovery fail-closed helpers exist and are tested, but are not yet Gateway-core integrated.
+- Recorded that common target/scope/tool/operation binding, controlled executor validation, public mock/dry-run status cleanup, and gateway validation evidence trace modeling remain required.
+- Preserved `gateway_core_behavior_changed = false`, `gateway_core_integration_implemented = false`, `safe_local_only_demo_execution_boundary_runtime_applied = false`, `minimal_runtime_wiring_changed = false`, `tool_gateway_behavior_changed = false`, `runtime_behavior_changed = false`, `scanner_behavior_changed = false`, `execution_authorized = false`, `real_execution_permitted = false`, and `external_target_authorization = false`.
+- Recorded `recommended_next_work_item = authorization_expiry_current_time_gateway_core_integration_implementation_candidate`.
+
+
 ## v0.6.354 - Public History Exposure Review
 
 - Reviewed public Git history exposure after v0.6.352 and v0.6.353 current-tree cleanups.

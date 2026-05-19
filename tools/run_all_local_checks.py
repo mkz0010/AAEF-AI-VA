@@ -440,3 +440,4 @@ if __name__ == "__main__":
 "tools/test_v06352_emergency_public_product_pricing_tree_removal.py",
 "tools/test_v06353_emergency_public_commercial_term_cleanup.py",
 "tools/test_v06354_public_history_exposure_review.py",
+"tools/test_v06355_gateway_core_safety_integration_status_and_priority_review.py",
