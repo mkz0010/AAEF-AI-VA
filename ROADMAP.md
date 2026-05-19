@@ -6160,3 +6160,32 @@ v0.6.361 External Discovery Fail-Closed Gateway Core Integration Candidate Revie
 ~~~
 
 Current boundaries remain: candidate pending review; no runtime demo readiness; no scanner readiness; no execution authorization; no real execution permitted; no external target authorization; no publication approval; no commercial offer approval.
+
+## After v0.6.361
+
+v0.6.361 accepts the external discovery fail-closed Gateway core integration candidate for the current mock Gateway core path.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.362 Gateway Core Integration Maturity Matrix and Evidence Trace Review
+~~~
+
+Current boundaries remain:
+
+- external discovery fail-closed Gateway core integration candidate is accepted for the mock Gateway core path
+- request/decision constraint-diff Gateway core integration candidate is accepted for the mock Gateway core path
+- authorization expiry current-time Gateway core integration candidate is accepted for the mock Gateway core path
+- controlled executor validation is not yet Gateway-core integrated
+- public mock/dry-run status terminology cleanup remains required
+- evidence gateway validation result modeling remains required
+- no new Gateway core behavior change in v0.6.361
+- no public demo readiness
+- no publication approval
+- no customer demo approval
+- no commercial offer approval
+- no runtime demo readiness
+- no scanner readiness
+- no execution authorization
+- no real execution permitted
+- no external target authorization

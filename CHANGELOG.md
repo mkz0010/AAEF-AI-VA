@@ -1,5 +1,18 @@
 # Changelog
 
+## v0.6.361 - External Discovery Fail-Closed Gateway Core Integration Candidate Review and Decision
+
+- Accepted the v0.6.360 external discovery fail-closed Gateway core integration candidate for the current mock Gateway core path.
+- Recorded `external_discovery_fail_closed_gateway_core_integrated = true` and `external_discovery_true_blocks_before_dispatch = true`.
+- Recorded `external_discovery_false_allows_continue = true` and `external_discovery_missing_legacy_path_preserved_for_now = true`.
+- Recorded `non_dispatch_decision_legacy_paths_preserved = true` and `destructive_tests_policy_error_path_preserved = true`.
+- Recorded `normal_fixture_runner_compatibility_preserved = true`, `generated_output_schema_compatibility_preserved = true`, and `tool_gateway_runner_compatibility_preserved = true`.
+- Preserved `authorization_expiry_current_time_gateway_core_integrated = true` and `request_decision_constraint_diff_gateway_core_integrated = true`.
+- Recorded that controlled executor validation remains not Gateway-core integrated.
+- Recorded `v06361_gateway_core_behavior_changed = false`, `v06361_tool_gateway_behavior_changed = false`, `v06361_runtime_behavior_changed = false`, and `v06361_scanner_behavior_changed = false`.
+- Recorded `recommended_next_work_item = gateway_core_integration_maturity_matrix_and_evidence_trace_review`.
+
+
 ## v0.6.360 - External Discovery Fail-Closed Gateway Core Integration Implementation Candidate
 
 - Added a narrow mock Gateway core integration candidate for external discovery fail-closed enforcement.
