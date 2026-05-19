@@ -7884,3 +7884,34 @@ recommended_next_work_item = request_decision_constraint_diff_gateway_core_integ
 ~~~
 
 This is a mock Gateway core integration candidate. It is not execution authorization, real execution permission, external target authorization, scanner readiness, production readiness, publication approval, customer demo readiness, or commercial offer approval.
+
+## v0.6.359 Request/Decision Constraint Diff Gateway Core Integration Candidate Review and Decision
+
+v0.6.359 accepts the v0.6.358 request/decision constraint-diff Gateway core integration candidate for the current mock Gateway core path.
+
+~~~text
+request_decision_constraint_diff_gateway_core_integration_candidate_review_completed = true
+request_decision_constraint_diff_gateway_core_integration_candidate_decision = accepted_for_mock_gateway_core_path
+request_decision_constraint_diff_gateway_core_integration_candidate_accepted = true
+request_decision_constraint_diff_gateway_core_integrated = true
+request_decision_constraint_diff_mismatch_blocks_before_dispatch = true
+request_decision_constraint_diff_missing_constraint_maps_legacy_path_preserved_for_now = true
+non_dispatch_decision_legacy_paths_preserved = true
+destructive_tests_policy_error_path_preserved = true
+normal_fixture_runner_compatibility_preserved = true
+generated_output_schema_compatibility_preserved = true
+tool_gateway_runner_compatibility_preserved = true
+authorization_expiry_current_time_gateway_core_integrated = true
+external_discovery_fail_closed_gateway_core_integrated = false
+controlled_executor_validation_gateway_core_integrated = false
+v06359_gateway_core_behavior_changed = false
+v06359_tool_gateway_behavior_changed = false
+v06359_runtime_behavior_changed = false
+v06359_scanner_behavior_changed = false
+execution_authorized = false
+real_execution_permitted = false
+external_target_authorization = false
+recommended_next_work_item = external_discovery_fail_closed_gateway_core_integration_implementation_candidate
+~~~
+
+This is candidate acceptance only. Candidate acceptance is not production readiness, scanner readiness, execution authorization, real execution permission, external target authorization, customer demo approval, or commercial offer approval.

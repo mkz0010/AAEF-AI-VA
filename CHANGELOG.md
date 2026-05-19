@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.6.359 - Request/Decision Constraint Diff Gateway Core Integration Candidate Review and Decision
+
+- Accepted the v0.6.358 request/decision constraint-diff Gateway core integration candidate for the current mock Gateway core path.
+- Recorded `request_decision_constraint_diff_gateway_core_integrated = true` and `request_decision_constraint_diff_mismatch_blocks_before_dispatch = true`.
+- Recorded `non_dispatch_decision_legacy_paths_preserved = true` and `destructive_tests_policy_error_path_preserved = true`.
+- Recorded `normal_fixture_runner_compatibility_preserved = true`, `generated_output_schema_compatibility_preserved = true`, and `tool_gateway_runner_compatibility_preserved = true`.
+- Preserved `authorization_expiry_current_time_gateway_core_integrated = true`.
+- Recorded that external discovery fail-closed behavior and controlled executor validation remain not Gateway-core integrated.
+- Recorded `v06359_gateway_core_behavior_changed = false`, `v06359_tool_gateway_behavior_changed = false`, `v06359_runtime_behavior_changed = false`, and `v06359_scanner_behavior_changed = false`.
+- Recorded `recommended_next_work_item = external_discovery_fail_closed_gateway_core_integration_implementation_candidate`.
+
+
 ## v0.6.358 - Request/Decision Constraint Diff Gateway Core Integration Implementation Candidate
 
 - Added a narrow mock Gateway core integration candidate for request/decision constraint-diff enforcement.
