@@ -8070,3 +8070,34 @@ recommended_next_work_item = gateway_validation_result_evidence_trace_applicatio
 ~~~
 
 This is model acceptance only. It does not change schemas, generated outputs, runtime behavior, scanner behavior, execution authorization, real execution permission, external target authorization, publication status, customer demo readiness, or commercial offer approval.
+
+## v0.6.365 Gateway Validation Result Evidence Trace Application Planning Candidate
+
+v0.6.365 defines a staged application planning candidate for the accepted Gateway validation result evidence trace model.
+
+~~~text
+gateway_validation_result_evidence_trace_application_planning_candidate_created = true
+gateway_validation_result_evidence_trace_model_accepted = true
+gateway_validation_result_application_strategy_defined = true
+gateway_validation_result_application_strategy = staged_private_first_then_schema_or_generated_output_decision
+gateway_validation_result_application_phase_1_private_reviewer_artifact = recommended
+gateway_validation_result_application_phase_2_schema_field_decision = deferred
+gateway_validation_result_application_phase_3_generated_output_application_decision = deferred
+gateway_validation_result_application_phase_4_runtime_application_decision = deferred
+gateway_validation_result_application_raw_and_reviewer_status_separation_required = true
+gateway_validation_result_application_backward_compatibility_required = true
+gateway_validation_result_application_schema_change_now = false
+gateway_validation_result_application_generated_output_change_now = false
+gateway_validation_result_application_runtime_change_now = false
+gateway_validation_result_application_public_artifact_change_now = false
+v06365_schema_changed = false
+v06365_gateway_core_behavior_changed = false
+v06365_runtime_behavior_changed = false
+v06365_scanner_behavior_changed = false
+execution_authorized = false
+real_execution_permitted = false
+external_target_authorization = false
+recommended_next_work_item = gateway_validation_result_evidence_trace_application_planning_candidate_review_and_decision
+~~~
+
+This is application planning only. It does not change schemas, generated outputs, runtime behavior, scanner behavior, execution authorization, real execution permission, external target authorization, publication status, customer demo readiness, or commercial offer approval.

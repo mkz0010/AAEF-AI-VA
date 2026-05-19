@@ -1,0 +1,115 @@
+# ADR-0440: Define Gateway Validation Result Evidence Trace Application Planning Candidate
+
+Status: proposed planning candidate
+Date: 2026-05-19
+Version: v0.6.365
+
+## Context
+
+v0.6.364 accepted the Gateway validation result evidence trace model as the reviewer-facing evidence trace direction while deferring schema, generated-output, and runtime application.
+
+The project now needs an application plan that preserves compatibility and avoids conflating model acceptance with schema/runtime changes.
+
+## Decision
+
+Define a staged application planning candidate.
+
+The recommended first target is a private reviewer-facing artifact candidate. Schema application, generated-output application, runtime application, public artifact cleanup, producer identity/version, and hash/signature decisions remain deferred.
+
+## Decision record
+
+~~~text
+gateway_validation_result_evidence_trace_application_planning_candidate_created = true
+gateway_validation_result_evidence_trace_application_planning_candidate_id = gateway_validation_result_evidence_trace_application_planning_candidate_v06365
+gateway_validation_result_evidence_trace_application_planning_candidate_status = planning_candidate_pending_review
+gateway_validation_result_evidence_trace_model_accepted = true
+gateway_validation_result_evidence_trace_model_decision = accepted_for_reviewer_facing_evidence_trace_direction
+gateway_validation_result_application_strategy_defined = true
+gateway_validation_result_application_strategy = staged_private_first_then_schema_or_generated_output_decision
+gateway_validation_result_application_phase_1_private_reviewer_artifact = recommended
+gateway_validation_result_application_phase_2_schema_field_decision = deferred
+gateway_validation_result_application_phase_3_generated_output_application_decision = deferred
+gateway_validation_result_application_phase_4_runtime_application_decision = deferred
+gateway_validation_result_application_raw_and_reviewer_status_separation_required = true
+gateway_validation_result_application_raw_gate_result_preserved = true
+gateway_validation_result_application_reviewer_status_required = true
+gateway_validation_result_application_external_process_executed_required = true
+gateway_validation_result_application_network_activity_performed_required = true
+gateway_validation_result_application_limitations_required = true
+gateway_validation_result_application_backward_compatibility_required = true
+gateway_validation_result_application_schema_change_now = false
+gateway_validation_result_application_generated_output_change_now = false
+gateway_validation_result_application_runtime_change_now = false
+gateway_validation_result_application_public_artifact_change_now = false
+gateway_validation_result_application_private_artifact_candidate_recommended = true
+gateway_validation_result_application_public_output_cleanup_dependency = mock_dry_run_status_terminology_public_output_cleanup
+gateway_validation_result_application_controlled_executor_dependency = controlled_executor_validation_gateway_core_connection
+gateway_validation_result_application_producer_identity_deferred = true
+gateway_validation_result_application_hash_or_signature_deferred = true
+authorization_expiry_current_time_gateway_core_integrated = true
+authorization_expiry_current_time_gateway_core_candidate_accepted = true
+request_decision_constraint_diff_gateway_core_integrated = true
+request_decision_constraint_diff_gateway_core_candidate_accepted = true
+external_discovery_fail_closed_gateway_core_integrated = true
+external_discovery_fail_closed_gateway_core_candidate_accepted = true
+controlled_executor_validation_gateway_core_integrated = false
+common_target_scope_tool_operation_binding_gateway_core_integrated = false
+mock_dry_run_status_terminology_public_output_cleanup_required = true
+implementation_maturity_matrix_available = true
+readme_front_page_simplification_still_required = true
+v06365_gateway_core_behavior_changed = false
+v06365_tool_gateway_behavior_changed = false
+v06365_runtime_behavior_changed = false
+v06365_scanner_behavior_changed = false
+v06365_schema_changed = false
+v06365_fixtures_created = false
+v06365_actual_records_created = false
+v06365_private_generated_outputs_moved_public = false
+history_rewrite_performed = false
+repo_recreated = false
+commercial_offer_approval = false
+publication_approval = false
+public_announcement = deferred
+customer_demo_approval = false
+safe_local_only_demo_execution_boundary_runtime_applied = false
+minimal_runtime_wiring_changed = false
+runtime_enforcement_implemented = false
+execution_authorized = false
+real_execution_permitted = false
+external_target_authorization = false
+runtime_demo_ready = false
+scanner_readiness_claim = false
+production_readiness_claim = false
+recommended_next_work_item = gateway_validation_result_evidence_trace_application_planning_candidate_review_and_decision
+gateway_validation_result_evidence_trace_application_planning_candidate_review_and_decision_recommended = true
+gateway_validation_result_evidence_trace_application_planning_candidate_recommended = false
+Model output is not authority.
+AI rationale is not authorization.
+A gate decision is not AI self-approval.
+Evidence supports reconstruction; it does not prove legal truth.
+validator success is structural only
+publication remains deferred
+Application planning is not production readiness.
+Application planning is not scanner readiness.
+Application planning is not execution authorization.
+Application planning is not real execution permission.
+Application planning is not external target authorization.
+Application planning is not customer demo approval.
+Application planning is not commercial offer approval.
+No private generated outputs are moved public in v0.6.365.
+~~~
+
+## Consequences
+
+The project can review the application path before making schema or generated-output changes.
+
+## Boundaries
+
+- This is application planning only, not schema application.
+- This is not generated-output application.
+- This is not runtime application.
+- This is not production readiness.
+- This is not scanner readiness.
+- This is not execution authorization.
+- This is not external target authorization.
+- This is not commercial offer approval.
