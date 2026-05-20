@@ -34,7 +34,11 @@ py tools/run_tool_gateway_example.py all
 Expected safe mock statuses:
 
 ~~~text
-allowed-action: completed
+allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 denied-action: blocked
 human-approval-required: requires_human_approval
 ~~~

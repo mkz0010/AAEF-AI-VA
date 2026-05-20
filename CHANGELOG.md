@@ -1,4 +1,14 @@
 # Changelog
+
+## v0.6.371 - Mock/Dry-Run Status Terminology Public Output Cleanup Candidate
+
+- Implemented a cleanup candidate for public and runner-facing mock/dry-run status terminology.
+- Updated runner console display so allowed mock/dry-run actions show raw execution status and reviewer-facing no-real-execution status separately.
+- Updated public artifact status lines away from bare `allowed-action: completed`.
+- Preserved raw `completed` compatibility in result JSON and schema expectations.
+- Recorded `v06371_schema_changed = false`, `v06371_generated_outputs_changed = false`, `v06371_gateway_core_behavior_changed = false`, and `v06371_runtime_behavior_changed = false`.
+- Recorded `recommended_next_work_item = mock_dry_run_status_terminology_public_output_cleanup_candidate_review_and_decision`.
+
 \n## v0.6.370 - Mock/Dry-Run Status Terminology Public Output Cleanup Readiness Review
 
 - Prepared a cleanup candidate for public and runner-facing mock/dry-run status terminology.

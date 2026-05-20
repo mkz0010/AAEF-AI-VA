@@ -6497,3 +6497,25 @@ Current boundaries remain:
 - no execution authorization
 - no real execution permitted
 - no external target authorization\n
+
+## After v0.6.371
+
+v0.6.371 implements a mock/dry-run status terminology public output cleanup candidate.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.372 Mock/Dry-Run Status Terminology Public Output Cleanup Candidate Review and Decision
+~~~
+
+Current boundaries remain:
+
+- raw status compatibility is preserved
+- runner-facing allowed-action display uses reviewer-facing dry-run status
+- public artifact bare completed status line is cleaned up
+- schema application is deferred
+- generated-output schema application is deferred
+- runtime application is deferred
+- no execution authorization
+- no real execution permitted
+- no external target authorization

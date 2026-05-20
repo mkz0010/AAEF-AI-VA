@@ -1,6 +1,21 @@
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+EXPECTED_V06371_ALLOWED_ACTION_DISPLAY = (
+    "allowed-action: raw_execution_status=completed; "
+    "reviewer_status=mock_dry_run_completed_no_real_execution; "
+    "external_process_executed=false; "
+    "network_activity_performed=false"
+)
+EXPECTED_V06371_ALLOWED_ACTION_DISPLAY_MULTILINE = "\n".join(
+    [
+        "allowed-action:",
+        "  raw_execution_status: completed",
+        "  reviewer_status: mock_dry_run_completed_no_real_execution",
+        "  external_process_executed: false",
+        "  network_activity_performed: false",
+    ]
+)
 DOC = ROOT / "docs/377-v06302-safe-mock-demo-public-artifact-promotion-review-and-decision.md"
 ADR = ROOT / "planning/decisions/ADR-0377-add-v06302-safe-mock-demo-public-artifact-promotion-review-and-decision.md"
 ISSUE = ROOT / "planning/issues/0377-add-v06302-safe-mock-demo-public-artifact-promotion-review-and-decision.md"
@@ -21,6 +36,11 @@ def read(path: Path) -> str:
 def assert_tokens(path: Path, tokens: list[str]) -> None:
     text = read(path)
     for token in tokens:
+        if token == "allowed-action: completed":
+            assert token in text or EXPECTED_V06371_ALLOWED_ACTION_DISPLAY in text or EXPECTED_V06371_ALLOWED_ACTION_DISPLAY_MULTILINE in text, (
+                f"{path.relative_to(ROOT)} missing legacy or v0.6.371 allowed-action display"
+            )
+            continue
         assert token in text, f"{path.relative_to(ROOT)} missing token: {token}"
 
 def test_v06302_doc_tokens() -> None:

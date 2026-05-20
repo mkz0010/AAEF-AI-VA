@@ -51,6 +51,33 @@ def run_scenario(scenario: str, out_dir: Path) -> tuple[Path, Path]:
     return result_path, evidence_path
 
 
+def _mock_dry_run_raw_status(result):
+    if isinstance(result, dict):
+        return result.get("status") or result.get("execution_status") or result.get("raw_execution_status")
+    return None
+
+
+def _reviewer_status_for_mock_dry_run(scenario, result):
+    raw_status = _mock_dry_run_raw_status(result)
+    if raw_status == "completed":
+        return "mock_dry_run_completed_no_real_execution"
+    if raw_status in {"blocked", "requires_human_approval"}:
+        return raw_status
+    return str(raw_status)
+
+
+def _format_mock_dry_run_status_line(scenario, result):
+    raw_status = _mock_dry_run_raw_status(result)
+    reviewer_status = _reviewer_status_for_mock_dry_run(scenario, result)
+    if raw_status == "completed" and reviewer_status == "mock_dry_run_completed_no_real_execution":
+        return (
+            f"{scenario}: raw_execution_status={raw_status}; "
+            f"reviewer_status={reviewer_status}; "
+            "external_process_executed=false; "
+            "network_activity_performed=false"
+        )
+    return f"{scenario}: {reviewer_status}"
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Run MVP Tool Gateway mock scenarios.")
     parser.add_argument(
@@ -72,7 +99,7 @@ def main() -> int:
     for scenario in scenarios:
         result_path, evidence_path = run_scenario(scenario, out_dir)
         result = load_json(result_path)
-        print(f"{scenario}: {result['execution_status']}")
+        print(_format_mock_dry_run_status_line(scenario, result))
         print(f"  result:   {result_path}")
         print(f"  evidence: {evidence_path}")
 

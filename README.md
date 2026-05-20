@@ -4448,7 +4448,11 @@ This is inventory only. Safe runnable demo gap inventory is not runtime demo rea
 - execution authorized
 - real execution permitted
 - private-not-in-git
-- allowed-action: completed
+- allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 - denied-action: blocked
 - human-approval-required: requires_human_approval
 - runtime readiness status: not_detected_execution_blocked
@@ -4501,7 +4505,11 @@ This is path selection only. Safe mock demo initial path selection is not runtim
 - local-only runnable demo
 - real scanner execution remains blocked
 - mock demo is not live scanner execution
-- allowed-action: completed
+- allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 - denied-action: blocked
 - human-approval-required: requires_human_approval
 - runtime readiness status: not_detected_execution_blocked
@@ -4556,7 +4564,11 @@ This is candidate only. Safe mock demo hardening candidate is not publication ap
 - safe mock demo script boundary
 - safe mock demo is not live scanner execution
 - private-not-in-git
-- allowed-action: completed
+- allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 - denied-action: blocked
 - human-approval-required: requires_human_approval
 - local-only runnable demo
@@ -4615,7 +4627,11 @@ This is review only. Safe mock demo hardening candidate review is not publicatio
 - safe mock demo script boundary
 - safe mock demo is not live scanner execution
 - private-not-in-git
-- allowed-action: completed
+- allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 - denied-action: blocked
 - human-approval-required: requires_human_approval
 - local-only runnable demo
@@ -4679,7 +4695,11 @@ This is documentation-only hardening. Safe mock demo hardening is not publicatio
 - safe mock demo public positioning
 - safe mock demo is not live scanner execution
 - private-not-in-git
-- allowed-action: completed
+- allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 - denied-action: blocked
 - human-approval-required: requires_human_approval
 - local-only runnable demo
@@ -4736,7 +4756,11 @@ This is review only. Safe mock demo hardening review is not publication approval
 - safe mock demo local-only runtime separation
 - safe mock demo is not live scanner execution
 - private-not-in-git
-- allowed-action: completed
+- allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 - denied-action: blocked
 - human-approval-required: requires_human_approval
 - local-only runnable demo
@@ -4793,7 +4817,11 @@ This is selection only. Pre-public boundary review candidate is not publication 
 - safe mock demo public positioning
 - safe mock demo is not live scanner execution
 - private-not-in-git
-- allowed-action: completed
+- allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 - denied-action: blocked
 - human-approval-required: requires_human_approval
 - local-only runnable demo
@@ -4845,7 +4873,11 @@ This is candidate only. Pre-public boundary review candidate is not publication 
 - safe mock demo pre-public boundary review
 - safe mock demo is not live scanner execution
 - private-not-in-git
-- allowed-action: completed
+- allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 - denied-action: blocked
 - human-approval-required: requires_human_approval
 - runtime readiness status: not_detected_execution_blocked
@@ -4904,7 +4936,11 @@ This is review only. Pre-public boundary review candidate review is not publicat
 - safe mock demo release blockers
 - safe mock demo is not live scanner execution
 - private-not-in-git
-- allowed-action: completed
+- allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 - denied-action: blocked
 - human-approval-required: requires_human_approval
 - local-only runnable demo
@@ -4967,7 +5003,11 @@ This is review only. Pre-public boundary review is not publication approval. Pre
 - safe mock demo release blockers
 - safe mock demo is not live scanner execution
 - private-not-in-git
-- allowed-action: completed
+- allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 - denied-action: blocked
 - human-approval-required: requires_human_approval
 - local-only runnable demo
@@ -5029,7 +5069,11 @@ This is decision only. Pre-public boundary review decision is not publication ap
 - safe mock demo release blockers
 - safe mock demo is not live scanner execution
 - private-not-in-git
-- allowed-action: completed
+- allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 - denied-action: blocked
 - human-approval-required: requires_human_approval
 - local-only runnable demo
@@ -5084,7 +5128,11 @@ This is selection only. Public artifact promotion candidate is not publication a
 - safe mock demo private artifact boundary
 - safe mock demo is not live scanner execution
 - private-not-in-git
-- allowed-action: completed
+- allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 - denied-action: blocked
 - human-approval-required: requires_human_approval
 - local-only runnable demo
@@ -5146,7 +5194,11 @@ This is candidate only. Public artifact promotion candidate is not publication a
 - safe mock demo expected statuses
 - safe mock demo is not live scanner execution
 - private-not-in-git
-- allowed-action: completed
+- allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 - denied-action: blocked
 - human-approval-required: requires_human_approval
 - local-only runnable demo
@@ -5206,7 +5258,11 @@ This is review only. Public artifact promotion candidate review is not publicati
 - safe mock demo expected statuses
 - safe mock demo is not live scanner execution
 - private-not-in-git
-- allowed-action: completed
+- allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 - denied-action: blocked
 - human-approval-required: requires_human_approval
 - local-only runnable demo
@@ -5274,7 +5330,11 @@ This is public artifact promotion only. Public artifact promotion is not publica
 - safe mock demo expected statuses
 - safe mock demo is not live scanner execution
 - private-not-in-git
-- allowed-action: completed
+- allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 - denied-action: blocked
 - human-approval-required: requires_human_approval
 - local-only runnable demo
@@ -5345,7 +5405,11 @@ This is review and decision only. Public artifact promotion review is not public
 - safe mock demo expected statuses
 - safe mock demo is not live scanner execution
 - private-not-in-git
-- allowed-action: completed
+- allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 - denied-action: blocked
 - human-approval-required: requires_human_approval
 - local-only runnable demo
@@ -5407,7 +5471,11 @@ This is selection only. Safe local-only demo execution boundary candidate is not
 - localhost_only
 - safe mock demo is not live scanner execution
 - private-not-in-git
-- allowed-action: completed
+- allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 - denied-action: blocked
 - human-approval-required: requires_human_approval
 - local-only runnable demo
@@ -5477,7 +5545,11 @@ This is candidate only. Safe local-only demo execution boundary candidate is not
 - external target authorization remains false
 - safe mock demo is not live scanner execution
 - private-not-in-git
-- allowed-action: completed
+- allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 - denied-action: blocked
 - human-approval-required: requires_human_approval
 - local-only runnable demo
@@ -5547,7 +5619,11 @@ This is review only. Safe local-only demo execution boundary candidate review is
 - external target authorization remains false
 - safe mock demo is not live scanner execution
 - private-not-in-git
-- allowed-action: completed
+- allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 - denied-action: blocked
 - human-approval-required: requires_human_approval
 - local-only runnable demo
@@ -5615,7 +5691,11 @@ This is a documentation-level boundary only. Safe local-only demo execution boun
 - safe local-only runnable demo path
 - safe mock demo is not live scanner execution
 - private-not-in-git
-- allowed-action: completed
+- allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 - denied-action: blocked
 - human-approval-required: requires_human_approval
 - real scanner execution remains blocked
@@ -5685,7 +5765,11 @@ This is review and decision only. Safe local-only demo execution boundary review
 - safe local-only runnable demo path
 - safe mock demo is not live scanner execution
 - private-not-in-git
-- allowed-action: completed
+- allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 - denied-action: blocked
 - human-approval-required: requires_human_approval
 - real scanner execution remains blocked
@@ -5753,7 +5837,11 @@ This is candidate only. Safe local-only runnable demo path candidate is not exec
 - safe local-only runnable demo path
 - safe mock demo is not live scanner execution
 - private-not-in-git
-- allowed-action: completed
+- allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 - denied-action: blocked
 - human-approval-required: requires_human_approval
 - real scanner execution remains blocked
@@ -5824,7 +5912,11 @@ This is review only. Safe local-only runnable demo path candidate review is not 
 - safe local-only runnable demo path
 - safe mock demo is not live scanner execution
 - private-not-in-git
-- allowed-action: completed
+- allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 - denied-action: blocked
 - human-approval-required: requires_human_approval
 - real scanner execution remains blocked
@@ -5893,7 +5985,11 @@ This is a documentation-level path only. Safe local-only runnable demo path is n
 - safe local-only runnable demo path
 - safe mock demo is not live scanner execution
 - private-not-in-git
-- allowed-action: completed
+- allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 - denied-action: blocked
 - human-approval-required: requires_human_approval
 - real scanner execution remains blocked
@@ -5964,7 +6060,11 @@ This is review only. Safe local-only runnable demo path review is not execution 
 - safe local-only runnable demo path
 - safe mock demo is not live scanner execution
 - private-not-in-git
-- allowed-action: completed
+- allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 - denied-action: blocked
 - human-approval-required: requires_human_approval
 - real scanner execution remains blocked
@@ -6034,7 +6134,11 @@ This is readiness review only. Safe local-only runnable demo path creation readi
 - safe local-only runnable demo path
 - safe mock demo is not live scanner execution
 - private-not-in-git
-- allowed-action: completed
+- allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 - denied-action: blocked
 - human-approval-required: requires_human_approval
 - real scanner execution remains blocked
@@ -6105,7 +6209,11 @@ This is candidate only. Safe local-only runnable demo path creation candidate is
 - safe local-only runnable demo path
 - safe mock demo is not live scanner execution
 - private-not-in-git
-- allowed-action: completed
+- allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 - denied-action: blocked
 - human-approval-required: requires_human_approval
 - real scanner execution remains blocked
@@ -6179,7 +6287,11 @@ This is review only. Safe local-only runnable demo path creation candidate revie
 - safe local-only runnable demo path
 - safe mock demo is not live scanner execution
 - private-not-in-git
-- allowed-action: completed
+- allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 - denied-action: blocked
 - human-approval-required: requires_human_approval
 - real scanner execution remains blocked
@@ -6247,7 +6359,11 @@ This is path creation only. Safe local-only runnable demo path creation is not e
 - safe local-only runnable demo path
 - safe mock demo is not live scanner execution
 - private-not-in-git
-- allowed-action: completed
+- allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 - denied-action: blocked
 - human-approval-required: requires_human_approval
 - real scanner execution remains blocked
@@ -6317,7 +6433,11 @@ This is review only. Safe local-only runnable demo path creation review is not e
 - safe local-only runnable demo path
 - safe mock demo is not live scanner execution
 - private-not-in-git
-- allowed-action: completed
+- allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 - denied-action: blocked
 - human-approval-required: requires_human_approval
 - real scanner execution remains blocked
@@ -6386,7 +6506,11 @@ This is readiness review only. Safe local-only runnable demo readiness review is
 - safe local-only runnable demo path
 - safe mock demo is not live scanner execution
 - private-not-in-git
-- allowed-action: completed
+- allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 - denied-action: blocked
 - human-approval-required: requires_human_approval
 - real scanner execution remains blocked
@@ -6456,7 +6580,11 @@ This is runbook only. Safe local-only runnable demo reviewer runbook is not exec
 - safe local-only runnable demo path
 - safe mock demo is not live scanner execution
 - private-not-in-git
-- allowed-action: completed
+- allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 - denied-action: blocked
 - human-approval-required: requires_human_approval
 - real scanner execution remains blocked
@@ -6528,7 +6656,11 @@ This is review only. Safe local-only runnable demo reviewer runbook review is no
 - docs/public-artifacts/safe-mock-demo-public-artifact.md
 - safe mock demo
 - private-not-in-git
-- allowed-action: completed
+- allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 - denied-action: blocked
 - human-approval-required: requires_human_approval
 - real scanner execution remains blocked
@@ -6596,7 +6728,11 @@ This is positioning review only. Safe local-only runnable demo public positionin
 - docs/public-artifacts/safe-mock-demo-public-artifact.md
 - safe mock demo
 - private-not-in-git
-- allowed-action: completed
+- allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 - denied-action: blocked
 - human-approval-required: requires_human_approval
 - AI requests; gates decide
@@ -6668,7 +6804,11 @@ This is candidate only. Safe local-only runnable demo public positioning candida
 - docs/public-artifacts/safe-mock-demo-public-artifact.md
 - safe mock demo
 - private-not-in-git
-- allowed-action: completed
+- allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 - denied-action: blocked
 - human-approval-required: requires_human_approval
 - AI requests; gates decide
@@ -6745,7 +6885,11 @@ This is review only. Safe local-only runnable demo public positioning candidate 
 - docs/public-artifacts/safe-mock-demo-public-artifact.md
 - safe mock demo
 - private-not-in-git
-- allowed-action: completed
+- allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 - denied-action: blocked
 - human-approval-required: requires_human_approval
 - AI requests; gates decide
@@ -6818,7 +6962,11 @@ This is integration plan candidate only. Safe local-only runnable demo public po
 - safe mock demo
 - private-not-in-git
 - AI requests; gates decide
-- allowed-action: completed
+- allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 - denied-action: blocked
 - human-approval-required: requires_human_approval
 - real scanner execution remains blocked
@@ -6894,7 +7042,11 @@ This is review only. Safe local-only runnable demo public positioning integratio
 - safe mock demo
 - private-not-in-git
 - AI requests; gates decide
-- allowed-action: completed
+- allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 - denied-action: blocked
 - human-approval-required: requires_human_approval
 - real scanner execution remains blocked
@@ -6970,7 +7122,11 @@ This is implementation candidate only. Safe local-only runnable demo public posi
 - docs/public-artifacts/safe-mock-demo-public-artifact.md
 - private-not-in-git
 - AI requests; gates decide
-- allowed-action: completed
+- allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 - denied-action: blocked
 - human-approval-required: requires_human_approval
 - real scanner execution remains blocked
@@ -7042,7 +7198,11 @@ This is review only. Safe local-only runnable demo public positioning integratio
 - docs/public-artifacts/safe-mock-demo-public-artifact.md
 - private-not-in-git
 - AI requests; gates decide
-- allowed-action: completed
+- allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 - denied-action: blocked
 - human-approval-required: requires_human_approval
 - real scanner execution remains blocked
@@ -7107,7 +7267,11 @@ This is closeout review only. Safe local-only runnable demo public positioning i
 - docs/public-artifacts/safe-mock-demo-public-artifact.md
 - private-not-in-git
 - AI requests; gates decide
-- allowed-action: completed
+- allowed-action:
+  raw_execution_status: completed
+  reviewer_status: mock_dry_run_completed_no_real_execution
+  external_process_executed: false
+  network_activity_performed: false
 - denied-action: blocked
 - human-approval-required: requires_human_approval
 - real scanner execution remains blocked
@@ -8237,3 +8401,31 @@ recommended_next_work_item = mock_dry_run_status_terminology_public_output_clean
 ~~~
 
 This is readiness review only. It does not change schemas, generated outputs, runtime behavior, scanner behavior, execution authorization, real execution permission, external target authorization, publication status, customer demo readiness, or commercial offer approval.\n
+
+## v0.6.371 Mock/Dry-Run Status Terminology Public Output Cleanup Candidate
+
+v0.6.371 implements a display cleanup candidate for public and runner-facing mock/dry-run status terminology.
+
+~~~text
+mock_dry_run_status_terminology_public_output_cleanup_candidate_created = true
+mock_dry_run_status_terminology_public_output_cleanup_runner_console_output_changed = true
+mock_dry_run_status_terminology_public_output_cleanup_public_artifact_status_lines_changed = true
+mock_dry_run_status_terminology_public_output_cleanup_readme_status_wording_changed = true
+mock_dry_run_status_terminology_public_output_cleanup_raw_completed_status_preserved_for_compatibility = true
+mock_dry_run_status_terminology_public_output_cleanup_reviewer_status_value = mock_dry_run_completed_no_real_execution
+mock_dry_run_status_terminology_public_output_cleanup_public_display_bare_completed_removed = true
+v06371_schema_changed = false
+v06371_gateway_core_behavior_changed = false
+v06371_generated_outputs_changed = false
+v06371_public_artifacts_changed = true
+execution_authorized = false
+real_execution_permitted = false
+external_target_authorization = false
+recommended_next_work_item = mock_dry_run_status_terminology_public_output_cleanup_candidate_review_and_decision
+~~~
+
+Expected runner-facing allowed-action display:
+
+~~~text
+allowed-action: raw_execution_status=completed; reviewer_status=mock_dry_run_completed_no_real_execution; external_process_executed=false; network_activity_performed=false
+~~~
