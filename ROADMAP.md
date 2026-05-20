@@ -6469,3 +6469,31 @@ Current boundaries remain:
 - no execution authorization
 - no real execution permitted
 - no external target authorization
+\n\n## After v0.6.370
+
+v0.6.370 prepares mock/dry-run status terminology public output cleanup.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.371 Mock/Dry-Run Status Terminology Public Output Cleanup Candidate
+~~~
+
+Current boundaries remain:
+
+- raw status compatibility is preserved
+- public/runner-facing bare `completed` display requires cleanup
+- schema application is deferred
+- generated-output application is deferred
+- runtime application is deferred
+- no evidence-record schema change in v0.6.370
+- no generated output change in v0.6.370
+- no new Gateway core behavior change in v0.6.370
+- no public demo readiness
+- no publication approval
+- no customer demo approval
+- no commercial offer approval
+- no scanner readiness
+- no execution authorization
+- no real execution permitted
+- no external target authorization\n

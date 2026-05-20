@@ -455,3 +455,4 @@ if __name__ == "__main__":
 "tools/test_v06367_private_reviewer_gateway_validation_result_evidence_trace_artifact_candidate.py",
 "tools/test_v06368_private_reviewer_gateway_validation_result_evidence_trace_artifact_candidate_review_and_decision.py",
 "tools/test_v06369_private_reviewer_gateway_validation_result_evidence_trace_artifact_closeout_review.py",
+"tools/test_v06370_mock_dry_run_status_terminology_public_output_cleanup_readiness_review.py",

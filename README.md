@@ -8213,3 +8213,27 @@ recommended_next_work_item = mock_dry_run_status_terminology_public_output_clean
 ~~~
 
 This is closeout review only. It does not change schemas, generated outputs, runtime behavior, scanner behavior, execution authorization, real execution permission, external target authorization, publication status, customer demo readiness, or commercial offer approval.
+\n\n## v0.6.370 Mock/Dry-Run Status Terminology Public Output Cleanup Readiness Review
+
+v0.6.370 prepares mock/dry-run status terminology cleanup for public and runner-facing output.
+
+~~~text
+mock_dry_run_status_terminology_public_output_cleanup_readiness_review_completed = true
+mock_dry_run_status_terminology_public_output_cleanup_scope_defined = true
+mock_dry_run_status_terminology_public_output_cleanup_target_runner_console_output = true
+mock_dry_run_status_terminology_public_output_cleanup_target_public_artifact_status_lines = true
+mock_dry_run_status_terminology_public_output_cleanup_target_readme_status_wording = true
+mock_dry_run_status_terminology_public_output_cleanup_raw_completed_status_preserved_for_compatibility = true
+mock_dry_run_status_terminology_public_output_cleanup_reviewer_status_value = mock_dry_run_completed_no_real_execution
+mock_dry_run_status_terminology_public_output_cleanup_public_display_must_not_show_bare_completed = true
+v06370_schema_changed = false
+v06370_gateway_core_behavior_changed = false
+v06370_generated_outputs_changed = false
+v06370_public_artifacts_changed = false
+execution_authorized = false
+real_execution_permitted = false
+external_target_authorization = false
+recommended_next_work_item = mock_dry_run_status_terminology_public_output_cleanup_candidate
+~~~
+
+This is readiness review only. It does not change schemas, generated outputs, runtime behavior, scanner behavior, execution authorization, real execution permission, external target authorization, publication status, customer demo readiness, or commercial offer approval.\n

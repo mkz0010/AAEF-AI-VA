@@ -1,5 +1,12 @@
 # Changelog
+\n## v0.6.370 - Mock/Dry-Run Status Terminology Public Output Cleanup Readiness Review
 
+- Prepared a cleanup candidate for public and runner-facing mock/dry-run status terminology.
+- Identified runner console output, public artifact status lines, and README status wording as cleanup targets.
+- Preserved raw `completed` compatibility while requiring reviewer-facing `mock_dry_run_completed_no_real_execution` status.
+- Recorded that public display should not show bare `completed` for mock/dry-run allowed actions.
+- Recorded `v06370_schema_changed = false`, `v06370_generated_outputs_changed = false`, and `v06370_public_artifacts_changed = false`.
+- Recorded `recommended_next_work_item = mock_dry_run_status_terminology_public_output_cleanup_candidate`.\n\n
 ## v0.6.369 - Private Reviewer Gateway Validation Result Evidence Trace Artifact Closeout Review
 
 - Closed the private reviewer-facing Gateway validation result evidence trace artifact path as accepted.
