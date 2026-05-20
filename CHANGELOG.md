@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.6.367 - Private Reviewer Gateway Validation Result Evidence Trace Artifact Candidate
+
+- Added a private reviewer-facing Gateway validation result evidence trace artifact candidate.
+- The v0.6.367 test generates JSON and Markdown artifacts under `private-not-in-git/gateway-validation-result-evidence-traces/v0.6.367/demo`.
+- Included raw gate result preservation and reviewer-facing status separation.
+- Included `external_process_executed = false` and `network_activity_performed = false`.
+- Covered authorization expiry current-time, request/decision constraint diff, external discovery fail-closed, non-dispatch legacy path preservation, and existing PolicyError path preservation.
+- Preserved schema, generated output, runtime, scanner, and public artifact boundaries.
+- Recorded `recommended_next_work_item = private_reviewer_gateway_validation_result_evidence_trace_artifact_candidate_review_and_decision`.
+
+
 ## v0.6.366 - Gateway Validation Result Evidence Trace Application Planning Candidate Review and Decision
 
 - Accepted the v0.6.365 staged Gateway validation result evidence trace application plan.

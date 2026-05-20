@@ -8132,3 +8132,33 @@ recommended_next_work_item = private_reviewer_gateway_validation_result_evidence
 ~~~
 
 This is application planning acceptance only. It does not change schemas, generated outputs, runtime behavior, scanner behavior, execution authorization, real execution permission, external target authorization, publication status, customer demo readiness, or commercial offer approval.
+
+## v0.6.367 Private Reviewer Gateway Validation Result Evidence Trace Artifact Candidate
+
+v0.6.367 creates a private reviewer-facing Gateway validation result evidence trace artifact candidate under `private-not-in-git/`.
+
+~~~text
+private_reviewer_gateway_validation_result_evidence_trace_artifact_candidate_created = true
+private_reviewer_gateway_validation_result_evidence_trace_artifact_generated = true
+private_reviewer_gateway_validation_result_evidence_trace_json_artifact_generated = true
+private_reviewer_gateway_validation_result_evidence_trace_markdown_artifact_generated = true
+private_reviewer_gateway_validation_result_evidence_trace_artifact_private_only = true
+private_reviewer_gateway_validation_result_evidence_trace_artifact_publication_approved = false
+private_reviewer_gateway_validation_result_evidence_trace_artifact_schema_changed = false
+private_reviewer_gateway_validation_result_evidence_trace_artifact_generated_outputs_changed = false
+private_reviewer_gateway_validation_result_evidence_trace_artifact_raw_gate_result_preserved = true
+private_reviewer_gateway_validation_result_evidence_trace_artifact_reviewer_status_included = true
+private_reviewer_gateway_validation_result_evidence_trace_artifact_raw_and_reviewer_status_separated = true
+private_reviewer_gateway_validation_result_evidence_trace_artifact_external_process_executed_included = true
+private_reviewer_gateway_validation_result_evidence_trace_artifact_network_activity_performed_included = true
+v06367_schema_changed = false
+v06367_gateway_core_behavior_changed = false
+v06367_runtime_behavior_changed = false
+v06367_scanner_behavior_changed = false
+execution_authorized = false
+real_execution_permitted = false
+external_target_authorization = false
+recommended_next_work_item = private_reviewer_gateway_validation_result_evidence_trace_artifact_candidate_review_and_decision
+~~~
+
+This is a private reviewer artifact candidate only. It does not change schemas, generated outputs, runtime behavior, scanner behavior, execution authorization, real execution permission, external target authorization, publication status, customer demo readiness, or commercial offer approval.

@@ -452,3 +452,4 @@ if __name__ == "__main__":
 "tools/test_v06364_gateway_validation_result_evidence_trace_modeling_candidate_review_and_decision.py",
 "tools/test_v06365_gateway_validation_result_evidence_trace_application_planning_candidate.py",
 "tools/test_v06366_gateway_validation_result_evidence_trace_application_planning_candidate_review_and_decision.py",
+"tools/test_v06367_private_reviewer_gateway_validation_result_evidence_trace_artifact_candidate.py",

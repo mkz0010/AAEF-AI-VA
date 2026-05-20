@@ -6374,3 +6374,37 @@ Current boundaries remain:
 - no execution authorization
 - no real execution permitted
 - no external target authorization
+
+## After v0.6.367
+
+v0.6.367 creates a private reviewer-facing Gateway validation result evidence trace artifact candidate.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.368 Private Reviewer Gateway Validation Result Evidence Trace Artifact Candidate Review and Decision
+~~~
+
+Current boundaries remain:
+
+- private reviewer-facing artifact candidate is implemented pending review
+- schema application is deferred
+- generated-output application is deferred
+- runtime application is deferred
+- public artifact cleanup is deferred
+- controlled executor validation is not yet Gateway-core integrated
+- common target/scope/tool/operation binding is not yet commonly Gateway-core integrated
+- public mock/dry-run status terminology cleanup remains required
+- no evidence-record schema change in v0.6.367
+- no generated output change in v0.6.367
+- no new Gateway core behavior change in v0.6.367
+- no public demo readiness
+- no publication approval
+- no public announcement
+- no customer demo approval
+- no commercial offer approval
+- no runtime demo readiness
+- no scanner readiness
+- no execution authorization
+- no real execution permitted
+- no external target authorization
