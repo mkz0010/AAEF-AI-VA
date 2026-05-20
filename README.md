@@ -8162,3 +8162,29 @@ recommended_next_work_item = private_reviewer_gateway_validation_result_evidence
 ~~~
 
 This is a private reviewer artifact candidate only. It does not change schemas, generated outputs, runtime behavior, scanner behavior, execution authorization, real execution permission, external target authorization, publication status, customer demo readiness, or commercial offer approval.
+
+## v0.6.368 Private Reviewer Gateway Validation Result Evidence Trace Artifact Candidate Review and Decision
+
+v0.6.368 accepts the v0.6.367 private reviewer-facing Gateway validation result evidence trace artifact candidate as the private evidence trace artifact path.
+
+~~~text
+private_reviewer_gateway_validation_result_evidence_trace_artifact_candidate_review_completed = true
+private_reviewer_gateway_validation_result_evidence_trace_artifact_candidate_decision = accepted_for_private_reviewer_evidence_trace_artifact_path
+private_reviewer_gateway_validation_result_evidence_trace_artifact_candidate_accepted = true
+private_reviewer_gateway_validation_result_evidence_trace_artifact_publication_approved = false
+private_reviewer_gateway_validation_result_evidence_trace_artifact_schema_changed = false
+private_reviewer_gateway_validation_result_evidence_trace_artifact_generated_outputs_changed = false
+gateway_validation_result_application_phase_2_schema_field_decision = deferred
+gateway_validation_result_application_phase_3_generated_output_application_decision = deferred
+gateway_validation_result_application_phase_4_runtime_application_decision = deferred
+v06368_schema_changed = false
+v06368_gateway_core_behavior_changed = false
+v06368_runtime_behavior_changed = false
+v06368_scanner_behavior_changed = false
+execution_authorized = false
+real_execution_permitted = false
+external_target_authorization = false
+recommended_next_work_item = private_reviewer_gateway_validation_result_evidence_trace_artifact_closeout_review
+~~~
+
+This is private artifact path acceptance only. It does not change schemas, generated outputs, runtime behavior, scanner behavior, execution authorization, real execution permission, external target authorization, publication status, customer demo readiness, or commercial offer approval.

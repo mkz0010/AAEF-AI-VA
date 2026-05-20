@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.6.368 - Private Reviewer Gateway Validation Result Evidence Trace Artifact Candidate Review and Decision
+
+- Accepted the v0.6.367 private reviewer-facing Gateway validation result evidence trace artifact candidate as the private evidence trace artifact path.
+- Preserved private-only scope and no-publication boundary.
+- Confirmed raw gate result preservation, reviewer-facing status inclusion, and raw/reviewer status separation.
+- Confirmed `external_process_executed = false` and `network_activity_performed = false` visibility.
+- Deferred schema field decisions, generated-output application, runtime application, public artifact changes, producer identity/version, and hash/signature decisions.
+- Recorded `v06368_gateway_core_behavior_changed = false`, `v06368_runtime_behavior_changed = false`, and `v06368_scanner_behavior_changed = false`.
+- Recorded `recommended_next_work_item = private_reviewer_gateway_validation_result_evidence_trace_artifact_closeout_review`.
+
+
 ## v0.6.367 - Private Reviewer Gateway Validation Result Evidence Trace Artifact Candidate
 
 - Added a private reviewer-facing Gateway validation result evidence trace artifact candidate.
