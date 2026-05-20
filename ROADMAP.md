@@ -6439,3 +6439,33 @@ Current boundaries remain:
 - no execution authorization
 - no real execution permitted
 - no external target authorization
+
+## After v0.6.369
+
+v0.6.369 closes the private reviewer-facing Gateway validation result evidence trace artifact path as accepted.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.370 Mock/Dry-Run Status Terminology Public Output Cleanup Readiness Review
+~~~
+
+Current boundaries remain:
+
+- private reviewer-facing artifact path is accepted and closed
+- schema application is deferred
+- generated-output application is deferred
+- runtime application is deferred
+- public artifact cleanup remains required
+- public mock/dry-run status terminology cleanup is the next priority
+- no evidence-record schema change in v0.6.369
+- no generated output change in v0.6.369
+- no new Gateway core behavior change in v0.6.369
+- no public demo readiness
+- no publication approval
+- no customer demo approval
+- no commercial offer approval
+- no scanner readiness
+- no execution authorization
+- no real execution permitted
+- no external target authorization

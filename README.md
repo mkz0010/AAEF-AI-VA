@@ -8188,3 +8188,28 @@ recommended_next_work_item = private_reviewer_gateway_validation_result_evidence
 ~~~
 
 This is private artifact path acceptance only. It does not change schemas, generated outputs, runtime behavior, scanner behavior, execution authorization, real execution permission, external target authorization, publication status, customer demo readiness, or commercial offer approval.
+
+## v0.6.369 Private Reviewer Gateway Validation Result Evidence Trace Artifact Closeout Review
+
+v0.6.369 closes the private reviewer-facing Gateway validation result evidence trace artifact path as accepted.
+
+~~~text
+private_reviewer_gateway_validation_result_evidence_trace_artifact_closeout_review_completed = true
+private_reviewer_gateway_validation_result_evidence_trace_artifact_path_accepted = true
+private_reviewer_gateway_validation_result_evidence_trace_artifact_candidate_closed = true
+private_reviewer_gateway_validation_result_evidence_trace_artifact_private_only = true
+private_reviewer_gateway_validation_result_evidence_trace_artifact_publication_approved = false
+private_reviewer_gateway_validation_result_evidence_trace_artifact_schema_changed = false
+private_reviewer_gateway_validation_result_evidence_trace_artifact_generated_outputs_changed = false
+mock_dry_run_status_terminology_public_output_cleanup_next_priority = true
+v06369_schema_changed = false
+v06369_gateway_core_behavior_changed = false
+v06369_generated_outputs_changed = false
+v06369_public_artifacts_changed = false
+execution_authorized = false
+real_execution_permitted = false
+external_target_authorization = false
+recommended_next_work_item = mock_dry_run_status_terminology_public_output_cleanup_readiness_review
+~~~
+
+This is closeout review only. It does not change schemas, generated outputs, runtime behavior, scanner behavior, execution authorization, real execution permission, external target authorization, publication status, customer demo readiness, or commercial offer approval.

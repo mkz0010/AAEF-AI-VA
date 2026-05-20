@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.369 - Private Reviewer Gateway Validation Result Evidence Trace Artifact Closeout Review
+
+- Closed the private reviewer-facing Gateway validation result evidence trace artifact path as accepted.
+- Preserved private-only scope and no-publication boundary.
+- Confirmed that schema application, generated-output application, runtime application, and public artifact application remain deferred.
+- Recorded that mock/dry-run status terminology public output cleanup is the next priority.
+- Recorded `v06369_gateway_core_behavior_changed = false`, `v06369_generated_outputs_changed = false`, `v06369_public_artifacts_changed = false`, and `v06369_scanner_behavior_changed = false`.
+- Recorded `recommended_next_work_item = mock_dry_run_status_terminology_public_output_cleanup_readiness_review`.
+
+
 ## v0.6.368 - Private Reviewer Gateway Validation Result Evidence Trace Artifact Candidate Review and Decision
 
 - Accepted the v0.6.367 private reviewer-facing Gateway validation result evidence trace artifact candidate as the private evidence trace artifact path.
