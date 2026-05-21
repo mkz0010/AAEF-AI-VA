@@ -8429,3 +8429,32 @@ Expected runner-facing allowed-action display:
 ~~~text
 allowed-action: raw_execution_status=completed; reviewer_status=mock_dry_run_completed_no_real_execution; external_process_executed=false; network_activity_performed=false
 ~~~
+
+## v0.6.372 Mock/Dry-Run Status Terminology Public Output Cleanup Candidate Review and Decision
+
+v0.6.372 accepts the v0.6.371 display cleanup candidate for public and runner-facing mock/dry-run status terminology.
+
+~~~text
+mock_dry_run_status_terminology_public_output_cleanup_candidate_review_completed = true
+mock_dry_run_status_terminology_public_output_cleanup_candidate_decision = accepted
+mock_dry_run_status_terminology_public_output_cleanup_candidate_accepted = true
+mock_dry_run_status_terminology_public_output_cleanup_raw_completed_status_preserved_for_compatibility = true
+mock_dry_run_status_terminology_public_output_cleanup_public_display_bare_completed_removed = true
+mock_dry_run_status_terminology_public_output_cleanup_raw_and_reviewer_status_separation_accepted = true
+v06372_schema_changed = false
+v06372_gateway_core_behavior_changed = false
+v06372_generated_outputs_changed = false
+v06372_public_artifacts_changed = false
+execution_authorized = false
+real_execution_permitted = false
+external_target_authorization = false
+recommended_next_work_item = mock_dry_run_status_terminology_public_output_cleanup_closeout_review
+~~~
+
+Accepted runner-facing allowed-action display:
+
+~~~text
+allowed-action: raw_execution_status=completed; reviewer_status=mock_dry_run_completed_no_real_execution; external_process_executed=false; network_activity_performed=false
+~~~
+
+This is candidate acceptance only. It does not change schemas, generated output schema, runtime behavior, scanner behavior, execution authorization, real execution permission, external target authorization, customer demo readiness, or commercial offer approval.
