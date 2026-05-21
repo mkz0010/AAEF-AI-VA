@@ -44,6 +44,24 @@ def _build_controlled_executor_validation_command_plan_from_gateway_context(requ
     return command_plan
 
 
+def _build_explicit_controlled_executor_validation_command_plan(request, decision):
+    command_plan = _build_explicit_controlled_executor_validation_command_plan(request, decision)
+    if isinstance(command_plan, dict):
+        explicit_command_plan = dict(command_plan)
+    else:
+        explicit_command_plan = {
+            'execution_mode': 'dry_run_plan_only',
+            'external_process_executed': False,
+            'network_activity_performed': False,
+        }
+    explicit_command_plan.setdefault('command_plan_kind', 'gateway_core_explicit_validation_plan')
+    explicit_command_plan.setdefault('command_plan_source', 'gateway_request_decision_context')
+    explicit_command_plan.setdefault('controlled_executor_validation_source', 'explicit_gateway_core_command_plan')
+    explicit_command_plan.setdefault('execution_mode', 'dry_run_plan_only')
+    explicit_command_plan.setdefault('external_process_executed', False)
+    explicit_command_plan.setdefault('network_activity_performed', False)
+    return explicit_command_plan
+
 def _validate_controlled_executor_command_plan(command_plan):
     if command_plan is None:
         return {'allowed': False, 'reason': 'controlled executor validation failed: missing command plan', 'external_process_executed': False, 'network_activity_performed': False}

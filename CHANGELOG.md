@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.379 - Controlled Executor Validation Explicit Command Plan Exposure Candidate
+
+- Exposed an explicit Gateway-core command-plan object for controlled executor validation.
+- Preserved fallback Gateway request/decision context command-plan compatibility.
+- Fed the explicit command-plan object into controlled executor validation.
+- Preserved raw result status compatibility and reviewer-facing mock/dry-run display compatibility.
+- Recorded `v06379_gateway_core_behavior_changed = true`, `v06379_schema_changed = false`, `v06379_generated_outputs_changed = false`, and `v06379_runtime_behavior_changed = false`.
+- Recorded `recommended_next_work_item = controlled_executor_validation_explicit_command_plan_exposure_candidate_review_and_decision`.
+
+
 ## v0.6.378 - Controlled Executor Validation Explicit Command Plan Exposure Readiness Review
 
 - Prepared the explicit command-plan exposure candidate for controlled executor validation.

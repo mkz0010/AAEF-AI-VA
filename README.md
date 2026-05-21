@@ -8609,3 +8609,26 @@ real_execution_permitted = false
 external_target_authorization = false
 recommended_next_work_item = controlled_executor_validation_explicit_command_plan_exposure_candidate
 ~~~
+
+## v0.6.379 Controlled Executor Validation Explicit Command Plan Exposure Candidate
+
+v0.6.379 exposes an explicit Gateway-core command-plan object for controlled executor validation as an implementation candidate.
+
+~~~text
+controlled_executor_validation_explicit_command_plan_exposure_candidate_created = true
+controlled_executor_validation_explicit_command_plan_object_exposed = true
+controlled_executor_validation_explicit_command_plan_builder_added = true
+controlled_executor_validation_explicit_command_plan_feeds_controlled_executor_validation = true
+controlled_executor_validation_gateway_core_connection_mode = explicit_gateway_core_command_plan
+controlled_executor_validation_fallback_gateway_context_command_plan_preserved_for_compatibility = true
+controlled_executor_validation_no_real_execution_boundary_preserved = true
+v06379_gateway_core_behavior_changed = true
+v06379_runtime_behavior_changed = false
+v06379_schema_changed = false
+v06379_generated_outputs_changed = false
+v06379_public_artifacts_changed = false
+execution_authorized = false
+real_execution_permitted = false
+external_target_authorization = false
+recommended_next_work_item = controlled_executor_validation_explicit_command_plan_exposure_candidate_review_and_decision
+~~~

@@ -6664,3 +6664,19 @@ v0.6.379 Controlled Executor Validation Explicit Command Plan Exposure Candidate
 - no execution authorization
 - no real execution permitted
 - no external target authorization
+
+## After v0.6.379
+
+v0.6.379 exposes an explicit Gateway-core command-plan object for controlled executor validation as an implementation candidate.
+
+~~~text
+v0.6.380 Controlled Executor Validation Explicit Command Plan Exposure Candidate Review and Decision
+~~~
+
+- explicit command-plan object exposure is implemented as a candidate
+- fallback Gateway-context command-plan compatibility is preserved
+- controlled executor validation remains no-real-execution
+- runtime execution remains disabled
+- no execution authorization
+- no real execution permitted
+- no external target authorization

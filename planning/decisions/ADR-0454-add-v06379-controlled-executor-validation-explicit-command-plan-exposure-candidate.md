@@ -1,0 +1,82 @@
+# ADR-0454: Expose Explicit Command Plan for Controlled Executor Validation Candidate
+
+Status: proposed
+Date: 2026-05-21
+Version: v0.6.379
+
+## Context
+
+v0.6.376 connected controlled executor validation using a fallback Gateway request/decision context command plan. v0.6.377 accepted that fallback mode. v0.6.378 prepared explicit command-plan exposure.
+
+## Decision
+
+Expose an explicit Gateway-core command-plan object and feed it into controlled executor validation while preserving fallback compatibility and no-real-execution boundaries.
+
+## Decision record
+
+~~~text
+controlled_executor_validation_explicit_command_plan_exposure_candidate_created = true
+controlled_executor_validation_explicit_command_plan_exposure_candidate_status = implemented_pending_review
+controlled_executor_validation_explicit_command_plan_object_exposed = true
+controlled_executor_validation_explicit_command_plan_builder_added = true
+controlled_executor_validation_explicit_command_plan_feeds_controlled_executor_validation = true
+controlled_executor_validation_explicit_command_plan_exposure_connection_mode = explicit_gateway_core_command_plan
+controlled_executor_validation_gateway_core_connection_mode = explicit_gateway_core_command_plan
+controlled_executor_validation_fallback_gateway_context_command_plan_preserved_for_compatibility = true
+controlled_executor_validation_fallback_mode_replaced_as_primary_validation_source = true
+controlled_executor_validation_explicit_command_plan_source_recorded = true
+controlled_executor_validation_explicit_command_plan_preserves_no_real_execution_defaults = true
+controlled_executor_validation_explicit_command_plan_should_preserve_raw_completed_compatibility = true
+controlled_executor_validation_explicit_command_plan_should_preserve_reviewer_status_compatibility = true
+controlled_executor_validation_gateway_core_integrated = true
+controlled_executor_validation_gate_expected_fail_closed = true
+controlled_executor_validation_policy_failure_blocks_before_result_generation = true
+controlled_executor_validation_external_process_executed_flag_checked = true
+controlled_executor_validation_network_activity_performed_flag_checked = true
+controlled_executor_validation_real_execution_mode_checked = true
+controlled_executor_validation_no_real_execution_boundary_preserved = true
+authorization_expiry_current_time_gateway_core_integrated = true
+request_decision_constraint_diff_gateway_core_integrated = true
+external_discovery_fail_closed_gateway_core_integrated = true
+common_target_scope_tool_operation_binding_gateway_core_integrated = false
+common_target_scope_tool_operation_binding_gateway_core_integration_deferred = true
+readme_front_page_simplification_still_required = true
+v06379_gateway_core_behavior_changed = true
+v06379_tool_gateway_behavior_changed = true
+v06379_runtime_behavior_changed = false
+v06379_scanner_behavior_changed = false
+v06379_schema_changed = false
+v06379_generated_outputs_changed = false
+v06379_public_artifacts_changed = false
+v06379_private_generated_outputs_moved_public = false
+publication_approval = false
+public_announcement = deferred
+customer_demo_approval = false
+execution_authorized = false
+real_execution_permitted = false
+external_target_authorization = false
+runtime_demo_ready = false
+scanner_readiness_claim = false
+production_readiness_claim = false
+recommended_next_work_item = controlled_executor_validation_explicit_command_plan_exposure_candidate_review_and_decision
+controlled_executor_validation_explicit_command_plan_exposure_candidate_review_and_decision_recommended = true
+Model output is not authority.
+AI rationale is not authorization.
+A gate decision is not AI self-approval.
+Evidence supports reconstruction; it does not prove legal truth.
+validator success is structural only
+publication remains deferred
+Connection candidate is not production readiness.
+Connection candidate is not scanner readiness.
+Connection candidate is not execution authorization.
+Connection candidate is not real execution permission.
+Connection candidate is not external target authorization.
+Connection candidate is not customer demo approval.
+Connection candidate is not commercial offer approval.
+No private generated outputs are moved public in v0.6.379.
+v0.6.380 Controlled Executor Validation Explicit Command Plan Exposure Candidate Review and Decision
+~~~
+
+## Boundaries
+
+This candidate does not change schemas, generated output schema, runtime execution enablement, scanner behavior, public artifact behavior, execution authorization, external target authorization, production readiness, scanner readiness, or commercial offer approval.
