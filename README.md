@@ -8561,3 +8561,26 @@ real_execution_permitted = false
 external_target_authorization = false
 recommended_next_work_item = controlled_executor_validation_gateway_core_connection_candidate_review_and_decision
 ~~~
+
+## v0.6.377 Controlled Executor Validation Gateway Core Connection Candidate Review and Decision
+
+v0.6.377 accepts the v0.6.376 controlled executor validation Gateway-core connection candidate with fallback mode.
+
+~~~text
+controlled_executor_validation_gateway_core_connection_candidate_review_completed = true
+controlled_executor_validation_gateway_core_connection_candidate_decision = accepted_with_fallback_mode
+controlled_executor_validation_gateway_core_connection_candidate_accepted = true
+controlled_executor_validation_gateway_core_integrated = true
+controlled_executor_validation_gateway_core_connection_mode = fallback_gateway_context_command_plan
+controlled_executor_validation_fallback_gateway_context_command_plan_accepted = true
+controlled_executor_validation_explicit_command_plan_exposure_next_priority = true
+v06377_gateway_core_behavior_changed = false
+v06377_runtime_behavior_changed = false
+v06377_schema_changed = false
+v06377_generated_outputs_changed = false
+v06377_public_artifacts_changed = false
+execution_authorized = false
+real_execution_permitted = false
+external_target_authorization = false
+recommended_next_work_item = controlled_executor_validation_explicit_command_plan_exposure_readiness_review
+~~~

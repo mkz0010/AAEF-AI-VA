@@ -6632,3 +6632,19 @@ v0.6.377 Controlled Executor Validation Gateway Core Connection Candidate Review
 - no execution authorization
 - no real execution permitted
 - no external target authorization
+
+## After v0.6.377
+
+v0.6.377 accepts the controlled executor validation Gateway-core connection candidate with fallback mode.
+
+~~~text
+v0.6.378 Controlled Executor Validation Explicit Command Plan Exposure Readiness Review
+~~~
+
+- controlled executor validation is connected as a candidate
+- fallback Gateway-context command plan is accepted as current candidate behavior
+- explicit command plan exposure is the next improvement target
+- runtime execution remains disabled
+- no execution authorization
+- no real execution permitted
+- no external target authorization

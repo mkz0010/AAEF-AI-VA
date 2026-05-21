@@ -462,3 +462,4 @@ if __name__ == "__main__":
 "tools/test_v06374_mock_dry_run_status_terminology_public_output_cleanup_issue_filename_normalization.py",
 "tools/test_v06375_controlled_executor_validation_gateway_core_connection_readiness_review.py",
 "tools/test_v06376_controlled_executor_validation_gateway_core_connection_candidate.py",
+"tools/test_v06377_controlled_executor_validation_gateway_core_connection_candidate_review_and_decision.py",
