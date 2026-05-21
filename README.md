@@ -8537,3 +8537,27 @@ recommended_next_work_item = controlled_executor_validation_gateway_core_connect
 ~~~
 
 This is readiness review only. It does not change schemas, generated output schema, Gateway core behavior, runtime behavior, scanner behavior, public artifact behavior, execution authorization, real execution permission, external target authorization, customer demo readiness, or commercial offer approval.
+
+## v0.6.376 Controlled Executor Validation Gateway Core Connection Candidate
+
+v0.6.376 connects controlled executor validation into the mock Tool Gateway core path as an implementation candidate.
+
+~~~text
+controlled_executor_validation_gateway_core_connection_candidate_created = true
+controlled_executor_validation_gateway_core_integrated = true
+controlled_executor_validation_gateway_core_connection_mode = fallback_gateway_context_command_plan
+controlled_executor_validation_gateway_core_call_added = true
+controlled_executor_validation_gate_expected_fail_closed = true
+controlled_executor_validation_external_process_executed_flag_checked = true
+controlled_executor_validation_network_activity_performed_flag_checked = true
+controlled_executor_validation_no_real_execution_boundary_preserved = true
+v06376_gateway_core_behavior_changed = true
+v06376_runtime_behavior_changed = false
+v06376_schema_changed = false
+v06376_generated_outputs_changed = false
+v06376_public_artifacts_changed = false
+execution_authorized = false
+real_execution_permitted = false
+external_target_authorization = false
+recommended_next_work_item = controlled_executor_validation_gateway_core_connection_candidate_review_and_decision
+~~~

@@ -12,11 +12,68 @@ from policy import (
 )
 
 
+def _controlled_executor_validation_bool(value):
+    if isinstance(value, bool):
+        return value
+    if isinstance(value, str):
+        return value.strip().lower() in {'true', 'yes', '1', 'enabled'}
+    return bool(value)
+
+
+def _build_controlled_executor_validation_command_plan_from_gateway_context(request, decision):
+    command_plan = {
+        'execution_mode': 'dry_run_plan_only',
+        'external_process_executed': False,
+        'network_activity_performed': False,
+    }
+    for source in (request, decision):
+        if not isinstance(source, dict):
+            continue
+        for key in ('command_plan', 'tool_command_plan', 'executor_command_plan', 'planned_command'):
+            nested = source.get(key)
+            if isinstance(nested, dict):
+                command_plan.update(nested)
+        constraints = source.get('constraints') or source.get('requested_constraints') or {}
+        if isinstance(constraints, dict):
+            for key in ('execution_mode', 'external_process_executed', 'network_activity_performed'):
+                if key in constraints:
+                    command_plan[key] = constraints[key]
+        for key in ('execution_mode', 'external_process_executed', 'network_activity_performed'):
+            if key in source:
+                command_plan[key] = source[key]
+    return command_plan
+
+
+def _validate_controlled_executor_command_plan(command_plan):
+    if command_plan is None:
+        return {'allowed': False, 'reason': 'controlled executor validation failed: missing command plan', 'external_process_executed': False, 'network_activity_performed': False}
+    if not isinstance(command_plan, dict):
+        return {'allowed': True, 'reason': 'controlled executor validation passed: non-dict mock command plan compatibility', 'external_process_executed': False, 'network_activity_performed': False}
+    external_process_executed = _controlled_executor_validation_bool(command_plan.get('external_process_executed', False))
+    network_activity_performed = _controlled_executor_validation_bool(command_plan.get('network_activity_performed', False))
+    execution_mode = str(command_plan.get('execution_mode') or command_plan.get('mode') or command_plan.get('executor_mode') or '').lower()
+    if external_process_executed:
+        return {'allowed': False, 'reason': 'controlled executor validation failed: external_process_executed=true', 'external_process_executed': True, 'network_activity_performed': network_activity_performed}
+    if network_activity_performed:
+        return {'allowed': False, 'reason': 'controlled executor validation failed: network_activity_performed=true', 'external_process_executed': external_process_executed, 'network_activity_performed': True}
+    if execution_mode in {'real_execution', 'live_execution', 'execute', 'executed'}:
+        return {'allowed': False, 'reason': f'controlled executor validation failed: execution_mode={execution_mode}', 'external_process_executed': external_process_executed, 'network_activity_performed': network_activity_performed}
+    return {'allowed': True, 'reason': 'controlled executor validation passed: mock dry-run plan only', 'external_process_executed': False, 'network_activity_performed': False}
+
+
+def _fail_closed_for_controlled_executor_validation(controlled_executor_validation):
+    reason = controlled_executor_validation.get('reason', 'controlled executor validation failed closed before result/evidence generation')
+    raise ValueError(reason)
+
 def run_mock_tool_gateway(
     request: dict[str, Any],
     decision: dict[str, Any],
     vault_metadata: dict[str, Any] | None = None,
 ) -> tuple[dict[str, Any], dict[str, Any]]:
+    command_plan = _build_controlled_executor_validation_command_plan_from_gateway_context(request, decision)
+    controlled_executor_validation = _validate_controlled_executor_command_plan(command_plan)
+    if not controlled_executor_validation["allowed"]:
+        _fail_closed_for_controlled_executor_validation(controlled_executor_validation)
     validate_request_decision_binding(request, decision)
     validate_credential_ref_against_vault_metadata(decision, vault_metadata=vault_metadata)
 

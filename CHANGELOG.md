@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.6.376 - Controlled Executor Validation Gateway Core Connection Candidate
+
+- Connected controlled executor validation into the mock Tool Gateway core path as an implementation candidate.
+- Added fail-closed handling for explicit real execution, external process execution, or network activity indicators.
+- Preserved raw result status compatibility and reviewer-facing mock/dry-run display compatibility.
+- Recorded `v06376_gateway_core_behavior_changed = true`, `v06376_schema_changed = false`, `v06376_generated_outputs_changed = false`, and `v06376_runtime_behavior_changed = false`.
+- Recorded `recommended_next_work_item = controlled_executor_validation_gateway_core_connection_candidate_review_and_decision`.
+
+
 ## v0.6.375 - Controlled Executor Validation Gateway Core Connection Readiness Review
 
 - Prepared the controlled executor validation Gateway-core connection candidate.
