@@ -8584,3 +8584,28 @@ real_execution_permitted = false
 external_target_authorization = false
 recommended_next_work_item = controlled_executor_validation_explicit_command_plan_exposure_readiness_review
 ~~~
+
+## v0.6.378 Controlled Executor Validation Explicit Command Plan Exposure Readiness Review
+
+v0.6.378 prepares explicit command-plan exposure for controlled executor validation.
+
+~~~text
+controlled_executor_validation_explicit_command_plan_exposure_readiness_review_completed = true
+controlled_executor_validation_explicit_command_plan_exposure_scope_defined = true
+controlled_executor_validation_explicit_command_plan_exposure_ready_for_candidate = true
+controlled_executor_validation_gateway_core_connection_mode = fallback_gateway_context_command_plan
+controlled_executor_validation_explicit_command_plan_assignment_found_current = false
+controlled_executor_validation_explicit_command_plan_object_target_required = true
+controlled_executor_validation_explicit_command_plan_should_preserve_fallback_compatibility = true
+controlled_executor_validation_explicit_command_plan_should_not_change_result_schema_now = true
+controlled_executor_validation_explicit_command_plan_should_not_enable_runtime_execution = true
+v06378_gateway_core_behavior_changed = false
+v06378_runtime_behavior_changed = false
+v06378_schema_changed = false
+v06378_generated_outputs_changed = false
+v06378_public_artifacts_changed = false
+execution_authorized = false
+real_execution_permitted = false
+external_target_authorization = false
+recommended_next_work_item = controlled_executor_validation_explicit_command_plan_exposure_candidate
+~~~

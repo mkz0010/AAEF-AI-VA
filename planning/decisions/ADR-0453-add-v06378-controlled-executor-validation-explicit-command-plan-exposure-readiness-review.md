@@ -1,0 +1,87 @@
+# ADR-0453: Prepare Explicit Command Plan Exposure for Controlled Executor Validation
+
+Status: accepted
+Date: 2026-05-21
+Version: v0.6.378
+
+## Context
+
+v0.6.376 connected controlled executor validation using fallback Gateway request/decision context because the Gateway path did not expose an explicit command-plan assignment. v0.6.377 accepted that candidate with fallback mode.
+
+## Decision
+
+Define readiness for exposing an explicit command-plan object before controlled executor validation, while preserving fallback compatibility and no-real-execution boundaries.
+
+## Decision record
+
+~~~text
+controlled_executor_validation_explicit_command_plan_exposure_readiness_review_completed = true
+controlled_executor_validation_explicit_command_plan_exposure_scope_defined = true
+controlled_executor_validation_explicit_command_plan_exposure_ready_for_candidate = true
+controlled_executor_validation_explicit_command_plan_exposure_candidate_recommended = true
+controlled_executor_validation_gateway_core_integrated = true
+controlled_executor_validation_gateway_core_connection_candidate_accepted = true
+controlled_executor_validation_gateway_core_connection_candidate_decision = accepted_with_fallback_mode
+controlled_executor_validation_gateway_core_connection_mode = fallback_gateway_context_command_plan
+controlled_executor_validation_fallback_gateway_context_command_plan_accepted = true
+controlled_executor_validation_fallback_mode_limitation_recorded = true
+controlled_executor_validation_explicit_command_plan_assignment_found_current = false
+controlled_executor_validation_explicit_command_plan_object_target_required = true
+controlled_executor_validation_explicit_command_plan_exposure_target_position = before_controlled_executor_validation
+controlled_executor_validation_explicit_command_plan_should_preserve_fallback_compatibility = true
+controlled_executor_validation_explicit_command_plan_should_not_change_result_schema_now = true
+controlled_executor_validation_explicit_command_plan_should_not_change_generated_output_schema_now = true
+controlled_executor_validation_explicit_command_plan_should_not_enable_runtime_execution = true
+controlled_executor_validation_explicit_command_plan_should_feed_controlled_executor_validation = true
+controlled_executor_validation_explicit_command_plan_should_record_validation_source = true
+controlled_executor_validation_explicit_command_plan_should_fail_closed_on_invalid_plan = true
+controlled_executor_validation_explicit_command_plan_should_preserve_raw_completed_compatibility = true
+controlled_executor_validation_explicit_command_plan_should_preserve_reviewer_status_compatibility = true
+controlled_executor_validation_gate_expected_fail_closed = true
+controlled_executor_validation_policy_failure_blocks_before_result_generation = true
+controlled_executor_validation_no_real_execution_boundary_preserved = true
+authorization_expiry_current_time_gateway_core_integrated = true
+request_decision_constraint_diff_gateway_core_integrated = true
+external_discovery_fail_closed_gateway_core_integrated = true
+common_target_scope_tool_operation_binding_gateway_core_integrated = false
+common_target_scope_tool_operation_binding_gateway_core_integration_deferred = true
+readme_front_page_simplification_still_required = true
+v06378_gateway_core_behavior_changed = false
+v06378_tool_gateway_behavior_changed = false
+v06378_runtime_behavior_changed = false
+v06378_scanner_behavior_changed = false
+v06378_schema_changed = false
+v06378_generated_outputs_changed = false
+v06378_public_artifacts_changed = false
+v06378_private_generated_outputs_moved_public = false
+publication_approval = false
+public_announcement = deferred
+customer_demo_approval = false
+execution_authorized = false
+real_execution_permitted = false
+external_target_authorization = false
+runtime_demo_ready = false
+scanner_readiness_claim = false
+production_readiness_claim = false
+recommended_next_work_item = controlled_executor_validation_explicit_command_plan_exposure_candidate
+controlled_executor_validation_explicit_command_plan_exposure_readiness_review_recommended = false
+Model output is not authority.
+AI rationale is not authorization.
+A gate decision is not AI self-approval.
+Evidence supports reconstruction; it does not prove legal truth.
+validator success is structural only
+publication remains deferred
+Readiness review is not production readiness.
+Readiness review is not scanner readiness.
+Readiness review is not execution authorization.
+Readiness review is not real execution permission.
+Readiness review is not external target authorization.
+Readiness review is not customer demo approval.
+Readiness review is not commercial offer approval.
+No private generated outputs are moved public in v0.6.378.
+v0.6.379 Controlled Executor Validation Explicit Command Plan Exposure Candidate
+~~~
+
+## Boundaries
+
+This readiness review does not change schemas, generated output schema, Gateway core behavior, runtime behavior, scanner behavior, public artifact behavior, execution authorization, external target authorization, production readiness, scanner readiness, or commercial offer approval.

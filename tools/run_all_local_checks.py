@@ -463,3 +463,4 @@ if __name__ == "__main__":
 "tools/test_v06375_controlled_executor_validation_gateway_core_connection_readiness_review.py",
 "tools/test_v06376_controlled_executor_validation_gateway_core_connection_candidate.py",
 "tools/test_v06377_controlled_executor_validation_gateway_core_connection_candidate_review_and_decision.py",
+"tools/test_v06378_controlled_executor_validation_explicit_command_plan_exposure_readiness_review.py",
