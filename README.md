@@ -8458,3 +8458,33 @@ allowed-action: raw_execution_status=completed; reviewer_status=mock_dry_run_com
 ~~~
 
 This is candidate acceptance only. It does not change schemas, generated output schema, runtime behavior, scanner behavior, execution authorization, real execution permission, external target authorization, customer demo readiness, or commercial offer approval.
+
+## v0.6.373 Mock/Dry-Run Status Terminology Public Output Cleanup Closeout Review
+
+v0.6.373 closes the mock/dry-run status terminology public-output cleanup track.
+
+~~~text
+mock_dry_run_status_terminology_public_output_cleanup_closeout_review_completed = true
+mock_dry_run_status_terminology_public_output_cleanup_track_closed = true
+mock_dry_run_status_terminology_public_output_cleanup_status = closed_as_display_cleanup
+mock_dry_run_status_terminology_public_output_cleanup_raw_completed_status_preserved_for_compatibility = true
+mock_dry_run_status_terminology_public_output_cleanup_public_display_bare_completed_removed = true
+mock_dry_run_status_terminology_public_output_cleanup_raw_and_reviewer_status_separation_closed = true
+controlled_executor_validation_gateway_core_connection_next_priority = true
+v06373_schema_changed = false
+v06373_gateway_core_behavior_changed = false
+v06373_generated_outputs_changed = false
+v06373_public_artifacts_changed = false
+execution_authorized = false
+real_execution_permitted = false
+external_target_authorization = false
+recommended_next_work_item = controlled_executor_validation_gateway_core_connection_readiness_review
+~~~
+
+Closed runner-facing allowed-action display:
+
+~~~text
+allowed-action: raw_execution_status=completed; reviewer_status=mock_dry_run_completed_no_real_execution; external_process_executed=false; network_activity_performed=false
+~~~
+
+This is closeout review only. It does not change schemas, generated output schema, runtime behavior, scanner behavior, execution authorization, real execution permission, external target authorization, customer demo readiness, or commercial offer approval.

@@ -6542,3 +6542,28 @@ Current boundaries remain:
 - no execution authorization
 - no real execution permitted
 - no external target authorization
+
+## After v0.6.373
+
+v0.6.373 closes the mock/dry-run status terminology public-output cleanup track.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.374 Controlled Executor Validation Gateway Core Connection Readiness Review
+~~~
+
+Current boundaries remain:
+
+- raw status compatibility is preserved
+- runner-facing allowed-action display uses reviewer-facing dry-run status
+- public artifact bare completed status line is cleaned up
+- cleanup track is closed as display cleanup
+- controlled executor validation is not yet Gateway-core integrated
+- common target/scope/tool/operation binding remains deferred
+- schema application is deferred
+- generated-output schema application is deferred
+- runtime application is deferred
+- no execution authorization
+- no real execution permitted
+- no external target authorization
