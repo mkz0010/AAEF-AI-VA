@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.375 - Controlled Executor Validation Gateway Core Connection Readiness Review
+
+- Prepared the controlled executor validation Gateway-core connection candidate.
+- Defined the candidate target position as after command plan construction and before result/evidence generation.
+- Recorded fail-closed, no-real-execution, `external_process_executed`, and `network_activity_performed` expectations for the candidate.
+- Confirmed controlled executor validation remains not yet Gateway-core integrated in v0.6.375.
+- Recorded `v06375_schema_changed = false`, `v06375_generated_outputs_changed = false`, `v06375_gateway_core_behavior_changed = false`, and `v06375_runtime_behavior_changed = false`.
+- Recorded `recommended_next_work_item = controlled_executor_validation_gateway_core_connection_candidate`.
+
+
 ## v0.6.374 - Mock/Dry-Run Status Terminology Public Output Cleanup Issue Filename Normalization
 
 - Renamed the v0.6.373 planning issue file from `cleanout` to `cleanup` for public-tree naming consistency.

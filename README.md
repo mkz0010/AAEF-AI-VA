@@ -8511,3 +8511,29 @@ recommended_next_work_item = controlled_executor_validation_gateway_core_connect
 ~~~
 
 This is filename-only cleanup. It does not change schemas, generated output schema, runtime behavior, scanner behavior, public artifact behavior, execution authorization, real execution permission, external target authorization, customer demo readiness, or commercial offer approval.
+
+## v0.6.375 Controlled Executor Validation Gateway Core Connection Readiness Review
+
+v0.6.375 prepares controlled executor validation Gateway-core connection.
+
+~~~text
+controlled_executor_validation_gateway_core_connection_readiness_review_completed = true
+controlled_executor_validation_gateway_core_connection_scope_defined = true
+controlled_executor_validation_gateway_core_connection_ready_for_candidate = true
+controlled_executor_validation_current_gateway_core_integrated = false
+controlled_executor_validation_gateway_core_target_position = after_command_plan_build_before_result_and_evidence_generation
+controlled_executor_validation_gate_expected_fail_closed = true
+controlled_executor_validation_external_process_executed_flag_required = true
+controlled_executor_validation_network_activity_performed_flag_required = true
+controlled_executor_validation_no_real_execution_boundary_required = true
+v06375_schema_changed = false
+v06375_gateway_core_behavior_changed = false
+v06375_generated_outputs_changed = false
+v06375_public_artifacts_changed = false
+execution_authorized = false
+real_execution_permitted = false
+external_target_authorization = false
+recommended_next_work_item = controlled_executor_validation_gateway_core_connection_candidate
+~~~
+
+This is readiness review only. It does not change schemas, generated output schema, Gateway core behavior, runtime behavior, scanner behavior, public artifact behavior, execution authorization, real execution permission, external target authorization, customer demo readiness, or commercial offer approval.

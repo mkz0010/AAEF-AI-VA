@@ -6592,3 +6592,28 @@ Current boundaries remain:
 - no execution authorization
 - no real execution permitted
 - no external target authorization
+
+## After v0.6.375
+
+v0.6.375 prepares the controlled executor validation Gateway-core connection candidate.
+
+The likely next checkpoint is:
+
+~~~text
+v0.6.376 Controlled Executor Validation Gateway Core Connection Candidate
+~~~
+
+Current boundaries remain:
+
+- controlled executor validation is not yet Gateway-core integrated
+- candidate target position is after command plan construction and before result/evidence generation
+- controlled executor validation should fail closed on policy failure
+- raw status compatibility is preserved
+- runner-facing allowed-action display uses reviewer-facing dry-run status
+- common target/scope/tool/operation binding remains deferred
+- schema application is deferred
+- generated-output schema application is deferred
+- runtime application is deferred
+- no execution authorization
+- no real execution permitted
+- no external target authorization
