@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.6.374 - Mock/Dry-Run Status Terminology Public Output Cleanup Issue Filename Normalization
+
+- Renamed the v0.6.373 planning issue file from `cleanout` to `cleanup` for public-tree naming consistency.
+- Preserved the v0.6.373 cleanup-track closeout result.
+- Recorded `v06374_schema_changed = false`, `v06374_generated_outputs_changed = false`, `v06374_gateway_core_behavior_changed = false`, and `v06374_runtime_behavior_changed = false`.
+- Recorded `recommended_next_work_item = controlled_executor_validation_gateway_core_connection_readiness_review`.
+
+
 ## v0.6.373 - Mock/Dry-Run Status Terminology Public Output Cleanup Closeout Review
 
 - Closed the mock/dry-run status terminology public-output cleanup track.

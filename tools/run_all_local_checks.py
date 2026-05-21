@@ -459,3 +459,4 @@ if __name__ == "__main__":
 "tools/test_v06371_mock_dry_run_status_terminology_public_output_cleanup_candidate.py",
 "tools/test_v06372_mock_dry_run_status_terminology_public_output_cleanup_candidate_review_and_decision.py",
 "tools/test_v06373_mock_dry_run_status_terminology_public_output_cleanup_closeout_review.py",
+"tools/test_v06374_mock_dry_run_status_terminology_public_output_cleanup_issue_filename_normalization.py",

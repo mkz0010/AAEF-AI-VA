@@ -8488,3 +8488,26 @@ allowed-action: raw_execution_status=completed; reviewer_status=mock_dry_run_com
 ~~~
 
 This is closeout review only. It does not change schemas, generated output schema, runtime behavior, scanner behavior, execution authorization, real execution permission, external target authorization, customer demo readiness, or commercial offer approval.
+
+## v0.6.374 Mock/Dry-Run Status Terminology Public Output Cleanup Issue Filename Normalization
+
+v0.6.374 normalizes the v0.6.373 planning issue filename from `cleanout` to `cleanup`.
+
+~~~text
+mock_dry_run_status_terminology_public_output_cleanup_issue_filename_normalization_completed = true
+mock_dry_run_status_terminology_public_output_cleanup_issue_filename_normalization_scope = filename_only
+mock_dry_run_status_terminology_public_output_cleanup_issue_filename_cleanout_removed_from_current_tree = true
+mock_dry_run_status_terminology_public_output_cleanup_issue_filename_cleanup_present_in_current_tree = true
+mock_dry_run_status_terminology_public_output_cleanup_track_already_closed = true
+controlled_executor_validation_gateway_core_connection_next_priority = true
+v06374_schema_changed = false
+v06374_gateway_core_behavior_changed = false
+v06374_generated_outputs_changed = false
+v06374_public_artifacts_changed = false
+execution_authorized = false
+real_execution_permitted = false
+external_target_authorization = false
+recommended_next_work_item = controlled_executor_validation_gateway_core_connection_readiness_review
+~~~
+
+This is filename-only cleanup. It does not change schemas, generated output schema, runtime behavior, scanner behavior, public artifact behavior, execution authorization, real execution permission, external target authorization, customer demo readiness, or commercial offer approval.

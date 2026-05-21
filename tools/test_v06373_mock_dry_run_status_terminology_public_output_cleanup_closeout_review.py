@@ -7,7 +7,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DOC = ROOT / "docs/448-v06373-mock-dry-run-status-terminology-public-output-cleanup-closeout-review.md"
 ADR = ROOT / "planning/decisions/ADR-0448-add-v06373-mock-dry-run-status-terminology-public-output-cleanup-closeout-review.md"
-ISSUE = ROOT / "planning/issues/0448-add-v06373-mock-dry-run-status-terminology-public-output-cleanout-review.md"
+ISSUE = ROOT / "planning/issues/0448-add-v06373-mock-dry-run-status-terminology-public-output-cleanup-review.md"
 README = ROOT / "README.md"
 CHANGELOG = ROOT / "CHANGELOG.md"
 ROADMAP = ROOT / "ROADMAP.md"
