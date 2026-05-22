@@ -6680,3 +6680,20 @@ v0.6.380 Controlled Executor Validation Explicit Command Plan Exposure Candidate
 - no execution authorization
 - no real execution permitted
 - no external target authorization
+
+## After v0.6.380
+
+v0.6.380 accepts explicit Gateway-core command-plan exposure for controlled executor validation.
+
+~~~text
+v0.6.381 Controlled Executor Validation Result and Command Plan Evidence Trace Readiness Review
+~~~
+
+- explicit command-plan object exposure is accepted
+- controlled executor validation uses the explicit Gateway-core command plan
+- fallback Gateway-context command-plan compatibility is preserved
+- validation result and command-plan evidence trace is the next review target
+- runtime execution remains disabled
+- no execution authorization
+- no real execution permitted
+- no external target authorization

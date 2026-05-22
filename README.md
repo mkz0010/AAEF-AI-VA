@@ -8632,3 +8632,27 @@ real_execution_permitted = false
 external_target_authorization = false
 recommended_next_work_item = controlled_executor_validation_explicit_command_plan_exposure_candidate_review_and_decision
 ~~~
+
+## v0.6.380 Controlled Executor Validation Explicit Command Plan Exposure Candidate Review and Decision
+
+v0.6.380 accepts the v0.6.379 explicit Gateway-core command-plan exposure candidate for controlled executor validation.
+
+~~~text
+controlled_executor_validation_explicit_command_plan_exposure_candidate_review_completed = true
+controlled_executor_validation_explicit_command_plan_exposure_candidate_decision = accepted
+controlled_executor_validation_explicit_command_plan_exposure_candidate_accepted = true
+controlled_executor_validation_explicit_command_plan_object_exposed = true
+controlled_executor_validation_explicit_command_plan_feeds_controlled_executor_validation = true
+controlled_executor_validation_gateway_core_connection_mode = explicit_gateway_core_command_plan
+controlled_executor_validation_fallback_gateway_context_command_plan_preserved_for_compatibility = true
+controlled_executor_validation_result_and_command_plan_evidence_trace_next_priority = true
+v06380_gateway_core_behavior_changed = false
+v06380_runtime_behavior_changed = false
+v06380_schema_changed = false
+v06380_generated_outputs_changed = false
+v06380_public_artifacts_changed = false
+execution_authorized = false
+real_execution_permitted = false
+external_target_authorization = false
+recommended_next_work_item = controlled_executor_validation_result_and_command_plan_evidence_trace_readiness_review
+~~~
